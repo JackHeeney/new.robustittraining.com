@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "cssnano": "^5.0.17",
+    "cssnano-webpack-plugin": "^1.0.3",
+    "postcss": "^8.4.6",
+    "postcss-cli": "^9.1.0",
+    "postcss-import": "^14.0.2",
+    "postcss-preset-env": "^7.3.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "scripts": {
+    "postcss:watch": "postcss assets/css/style.css --dir public --watch",
+    "build": "webpack --config webpack.config.js"
+  }
+}
