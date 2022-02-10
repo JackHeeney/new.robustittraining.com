@@ -23,22 +23,24 @@ include './assets/php/inc/nav.php';
     <div class="intro-slider-wrap section">
         <div class="intro-slider swiper-container">
             <div class="swiper-wrapper">
+
+                <!-- item start  -->
                 <div class="swiper-slide">
-                    <div class="intro-section section overlay" data-bg-color="#000"
-                        data-bg-image="assets/images/hero-image/hero-2.jpg">
+                    <div class="intro-section section bg-video-1 before-zindex-9" data-bg-color="#030f27"
+                        data-overlay="0.7" data-bg-image="">
 
                         <div class="container">
                             <div class="row row-cols-lg-1 row-cols-1">
 
                                 <div class="col align-self-center">
                                     <div class="intro-content mt-xl-8 mt-lg-8 mt-md-8 mt-sm-8 mt-xs-8">
-                                        <h2 class="title">Learn by doing with Robust IT. </h2>
+                                        <h2 class="title">A Better Way To Learn.</h2>
                                         <div class="desc">
-                                            <p>A better way to learn. Up-skill now with courses and real hands-on
+                                            <p>Get certified now with official courses and real hands-on
                                                 labs in AWS, Microsoft, EC-Council, and more.
                                             </p>
                                         </div>
-                                        <a href="#" class="btn btn--primary btn-hover-secondary">Get Started <i
+                                        <a href="#" class="btn btn-secondary btn-hover-primary">Get Started <i
                                                 class="fas fa-chevron-right fcr-animate"></i></a>
                                         <a href="#" class="btn btn-outline-white btn-hover--secondary"> For Business <i
                                                 class="fas fa-chevron-right fcr-animate"></i></a>
@@ -50,65 +52,97 @@ include './assets/php/inc/nav.php';
 
                     </div>
                 </div>
-                <div class="swiper-slide">
-                    <div class="intro-section section overlay" data-bg-color="#000"
-                        data-bg-image="assets/images/hero-image/hero-1.jpg">
+                <!-- item end  -->
+
+                <!-- item start  -->
+                <div class="swiper-slide ">
+                    <div class="intro-section section bg-video-2 before-zindex-9" data-bg-color="#030f27"
+                        data-overlay="0.7" data-bg-image="">
 
                         <div class="container">
                             <div class="row row-cols-lg-1 row-cols-1">
 
-                                <!-- Intro One Content Start -->
-                                <div class="col align-self-center">
-                                    <div class="intro-content mt-8">
-                                        <h2 class="title">Microsoft cloud training. </h2>
-                                        <div class="desc">
-                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum voluptate
-                                                quaerat voluptatem magni quisquam dolor!
-                                            </p>
-                                        </div>
-                                        <a href="course-details-free.html"
-                                            class="btn btn--primary btn-hover-secondary">Get Started <i
-                                                class="fas fa-chevron-right fcr-animate"></i></a>
-                                        <a href="#" class="btn btn-outline-white btn-hover--secondary"> For Business <i
-                                                class="fas fa-chevron-right fcr-animate"></i></a>
-                                    </div>
-                                </div>
-                                <!-- Intro One Content End -->
-
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="intro-section section overlay" data-bg-color="#000"
-                        data-bg-image="assets/images/hero-image/hero-3.jpg">
-
-                        <div class="container">
-                            <div class="row row-cols-lg-1 row-cols-1">
-
-                                <!-- Intro One Content Start -->
                                 <div class="col align-self-center max-mb-30">
                                     <div class="intro-content mt-8">
-                                        <h2 class="title">AWS-some cloud training. </h2>
+                                        <h2 class="title">AWS-some Cloud Training. </h2>
                                         <div class="desc">
                                             <p>Our bespoke AWS cloud training solution for online and classroom.
                                             </p>
                                         </div>
                                         <a href="course-details-free.html"
-                                            class="btn btn--primary btn-hover-secondary">Get Started <i
+                                            class="btn btn-secondary btn-hover-primary">Get Started <i
                                                 class="fas fa-chevron-right fcr-animate"></i></a>
                                         <a href="#" class="btn btn-outline-white btn-hover--secondary"> For Business <i
                                                 class="fas fa-chevron-right fcr-animate"></i></a>
                                     </div>
                                 </div>
-                                <!-- Intro One Content End -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- item end  -->
+
+                <!-- item start  -->
+                <div class="swiper-slide ">
+                    <div class="intro-section section bg-video-3 before-zindex-9" data-bg-color="#030f27"
+                        data-overlay="0.7" data-bg-image="">
+
+                        <div class="container">
+                            <div class="row row-cols-lg-1 row-cols-1">
+
+                                <div class="col align-self-center">
+                                    <div class="intro-content mt-8">
+                                        <h2 class="title">Invest In Your Business</h2>
+                                        <div class="desc">
+                                            <p>
+                                                Up-skill your employees. Speak with our friendly and professional course
+                                                advisors to enquire about our small team and corporate
+                                                solutions.
+                                            </p>
+                                        </div>
+                                        <a href="course-details-free.html"
+                                            class="btn btn-secondary btn-hover-primary">Get Started <i
+                                                class="fas fa-chevron-right fcr-animate"></i></a>
+                                        <a href="#" class="btn btn-outline-white btn-hover--secondary"> For Business <i
+                                                class="fas fa-chevron-right fcr-animate"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- item end  -->
+
+
+                <!-- item start  -->
+                <!-- <div class="swiper-slide">
+                    <div class="intro-section section bg-video-4 before-zindex-9" data-bg-color="#030f27"
+                        data-overlay="0.7" data-bg-image="">
+
+                        <div class="container">
+                            <div class="row row-cols-lg-1 row-cols-1">
+
+                                <div class="col align-self-center max-mb-30">
+                                    <div class="intro-content mt-8">
+                                        <h2 class="title">Cyber Security Training. </h2>
+                                        <div class="desc">
+                                            <p>Our bespoke AWS cloud training solution for online and classroom.
+                                            </p>
+                                        </div>
+                                        <a href="course-details-free.html"
+                                            class="btn btn-secondary btn-hover-primary">Get Started <i
+                                                class="fas fa-chevron-right fcr-animate"></i></a>
+                                        <a href="#" class="btn btn-outline-white btn-hover--secondary"> For Business <i
+                                                class="fas fa-chevron-right fcr-animate"></i></a>
+                                    </div>
+                                </div>
 
                             </div>
                         </div>
-
                     </div>
-                </div>
+                </div> -->
+                <!-- item end  -->
+
             </div>
             <div class="home-slider-prev swiper-button-prev main-slider-nav"><i class="fal fa-angle-left"></i></div>
             <div class="home-slider-next swiper-button-next main-slider-nav"><i class="fal fa-angle-right"></i></div>
@@ -122,7 +156,7 @@ include './assets/php/inc/nav.php';
 
             <!-- Section Title Start -->
             <div class="section-title text-center" data-aos="fade-up">
-                <h2 class="title">The future is in the cloud.</h2>
+                <h2 class="title">The Future is Robust.</h2>
                 <p class="sub-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime qui facere
                     blanditiis reiciendis possimus natus!</p>
             </div>
@@ -189,53 +223,53 @@ include './assets/php/inc/nav.php';
                     CompTIA, Microsoft, EC-Council, Google Cloud and more.</p>
             </div>
             <!-- Section Title End -->
-            <a class="btn btn-primary btn-hover-secondary" href="#">Learn More <i
+            <a class="btn btn-primary btn-hover-secondary" data-aos="zoom-in-down" href="#">Find a path <i
                     class="fas fa-chevron-right fcr-animate"></i></a>
 
             <!-- Icon Animation Start -->
-            <div class="shape shape-1" data-aos="fade-up">
+            <div class="shape shape-1" data-aos="zoom-in-left">
                 <span>
                     <a href="#" alt="">
                         <img src="assets/images/icon-animation/icon-1.png" alt="comptia icon">
                     </a>
                 </span>
             </div>
-            <div class="shape shape-2" data-aos="fade-up">
+            <div class="shape shape-2" data-aos="zoom-in-right">
                 <span>
                     <a href="#" alt="">
                         <img src="assets/images/icon-animation/icon-8.png" alt="azure icon">
                     </a>
                 </span>
             </div>
-            <div class="shape shape-3" data-aos="fade-up">
+            <div class="shape shape-3" data-aos="zoom-in-left">
                 <span>
                     <a href="#" alt="">
                         <img src="assets/images/icon-animation/icon-3.png" alt="microsoft icon">
                     </a>
                 </span>
             </div>
-            <div class="shape shape-4" data-aos="fade-up">
+            <div class="shape shape-4" data-aos="zoom-in-right">
                 <span>
                     <a href="#" alt="">
                         <img src="assets/images/icon-animation/icon-4.png" alt="aws icon">
                     </a>
                 </span>
             </div>
-            <div class="shape shape-5" data-aos="fade-up">
+            <div class="shape shape-5" data-aos="zoom-in-left">
                 <span>
                     <a href="#" alt="">
                         <img src="assets/images/icon-animation/icon-5.png" alt="google cloud icon">
                     </a>
                 </span>
             </div>
-            <div class="shape shape-6" data-aos="fade-up">
+            <div class="shape shape-6" data-aos="zoom-in-right">
                 <span>
                     <a href="#" alt="">
                         <img src="assets/images/icon-animation/icon-6.png" alt="ec-council icon">
                     </a>
                 </span>
             </div>
-            <div class="shape shape-7" data-aos="fade-up">
+            <div class="shape shape-7" data-aos="zoom-in-left">
                 <span>
                     <a href="#" alt="">
                         <img src="assets/images/icon-animation/icon-7.png" alt="linux icon">
@@ -350,25 +384,25 @@ include './assets/php/inc/nav.php';
                 <!-- Success Image End -->
 
                 <!-- Success Content Start -->
-                <div class="offset-lg-1 col-lg-5" data-aos="fade-up">
+                <div class="offset-lg-1 col-lg-5">
                     <div class="success-content  mt-lg-0 mt-md-50 mt-sm-50 mt-40">
                         <!-- Section Title Two Start -->
                         <div class="section-title-two mb-lg-8 mb-6">
                             <span class="sub-title">Your success is our success</span>
-                            <h3 class="title">Cloud solutions that get results</h3>
+                            <h3 class="title">Jobs and Average Salary that our students achieve</h3>
                         </div>
                         <!-- Section Title Two End -->
 
                         <div class="progress-bar--one">
                             <!-- Start Single Progress Charts -->
                             <div class="progress-charts">
-                                <h6 class="heading ">AZ-900</h6>
+                                <h6 class="heading ">Cloud Architect</h6>
                                 <div class="progress">
                                     <div class="progress-bar gradient-1 wow fadeInLeft" data-wow-duration="0.5s"
                                         data-wow-delay=".3s" role="progressbar"
                                         style="width: 81%; visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInLeft;"
                                         aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
-                                            class="percent-label">81%</span></div>
+                                            class="percent-label">£77,973</span></div>
                                 </div>
                             </div>
                             <!-- End Single Progress Charts -->

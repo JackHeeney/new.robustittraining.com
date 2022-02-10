@@ -284,8 +284,9 @@ include './assets/php/inc/nav.php';
                                 <!-- Video Popup Start -->
                                 <div class="skill-video" data-aos="fade-up">
                                     <img class="image" src="assets/images/video/skill-video.jpg" alt="video popup">
-                                    <a href="https://www.youtube.com/watch?v=eS9Qm4AOOBY" class="icon video-popup"><i
-                                            class="fas fa-play"></i></i></a>
+                                    <a href="https://www.youtube.com/watch?v=eS9Qm4AOOBY" class="icon video-popup">
+                                        <i class="fas fa-play"></i>
+                                    </a>
                                 </div>
                                 <!-- Video Popup End -->
 

@@ -147,7 +147,7 @@
     offset: 80,
     duration: 1000,
     once: false,
-    easing: "ease",
+    easing: "ease-out-back",
   });
 
   /* ----------------------------
@@ -224,7 +224,6 @@
 
   // Home 1 Slider
   var introSlider = new Swiper(".intro-slider", {
-    loop: true,
     speed: 750,
     spaceBetween: 30,
     slidesPerView: 1,
@@ -331,18 +330,44 @@
   });
 
   // Background Video Active
-  var htmlVideo = [
-    {
-      type: "video/mp4",
-      src: "assets/media/video/local-video.mp4",
-    },
-  ];
+  var sliderBG1 = new vidim(".bg-video-1", {
+    src: [
+      {
+        type: "video/mp4",
+        src: "assets/media/video/bg-video-1.mp4",
+      },
+    ],
+    poster: "assets/media/video/cyber-security.jpg",
+  });
 
-  var poster1 = "assets/media/video/local-video.jpg";
+  var sliderBG2 = new vidim(".bg-video-2", {
+    src: [
+      {
+        type: "video/mp4",
+        src: "assets/media/video/bg-video-2.mp4",
+      },
+    ],
+    poster: "assets/media/video/cyber-security.jpg",
+  });
 
-  var demo1 = new vidim(".bg-video", {
-    src: htmlVideo,
-    poster: poster1,
+  var sliderBG3 = new vidim(".bg-video-3", {
+    src: [
+      {
+        type: "video/mp4",
+        src: "assets/media/video/bg-video-3.mp4",
+      },
+    ],
+    poster: "assets/media/video/cyber-security.jpg",
+  });
+
+  var sliderBG4 = new vidim(".bg-video-4", {
+    src: [
+      {
+        type: "video/mp4",
+        src: "assets/media/video/bg-video-4.mp4",
+      },
+    ],
+    poster: "assets/media/video/cyber-security.jpg",
   });
 
   /*--
@@ -489,7 +514,6 @@ $("#startScroll").click(function () {
     "slow"
   );
 });
-
 
 /****************************
  *        Mouse Trail        *

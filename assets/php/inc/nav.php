@@ -102,7 +102,7 @@
 
                     </div>
                     <ul class="d-flex pl-0">
-                        <li class="menu-list-style-none px-2">
+                        <li class="menu-list-style-none pr-2">
                             <a href="#" alt="go to robust facebook">
                                 <i class="fab fa-facebook text-light"></i>
                             </a>
@@ -217,7 +217,7 @@
 
                 <!-- Header Right Start -->
                 <div class="col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2">
-                    <a href="javascript(void);" class="btn btn-light btn-hover-primary" data-toggle="modal"
+                    <a href="javascript(void);" class="btn btn-secondary btn-hover--secondary" data-toggle="modal"
                         data-target="#exampleModal">Request Callback <i class="fas fa-phone fcr-animate"></i></a>
                 </div>
                 <!-- Header Right End -->

@@ -12,7 +12,7 @@
 
 $title = "Robust IT | Online & Classroom Training 2022";
 
-define("SITE_ADDR", "http://localhost/cloud.robustittraining.com");
+define("SITE_ADDR", "http://localhost/new.robustittraining.com");
 // define("SITE_ADDR", "http://bilmen.co.uk");
 ?>
 
