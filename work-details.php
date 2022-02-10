@@ -237,9 +237,8 @@ include './assets/php/inc/nav.php';
                             <div class="skill-with-video-content">
                                 <!-- Section Title Two Start -->
                                 <div class="section-title-two mb-8">
-                                    <span class="sub-title">Development that converts and delivers</span>
-                                    <h3 class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Voluptates, eos.</h3>
+                                    <span class="sub-title">Average salary after completing</span>
+                                    <h3 class="title">£86,500 <small>a year</small>.</h3>
                                 </div>
                                 <!-- Section Title Two End -->
 
@@ -366,7 +365,7 @@ include './assets/php/inc/nav.php';
                                 <!-- Section Title Two Start -->
                                 <div class="section-title-two">
                                     <span class="sub-title">Frequently asked questions</span>
-                                    <h3 class="title">You’ve got questions and <br> we’ve got answers</h3>
+                                    <h3 class="title">You’ve got questions & <br> we’ve got answers</h3>
                                 </div>
                                 <!-- Section Title Two End -->
 

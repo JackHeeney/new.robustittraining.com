@@ -442,8 +442,8 @@ include './assets/php/inc/nav.php';
                 <div class="col-lg-5">
                     <!-- Section Title Two Start -->
                     <div class="section-title-two mb-lg-12 mb-md-6">
-                        <span class="sub-title">Popular Courses</span>
-                        <h3 class="title">Our Popular Training Courses.</h3>
+                        <span class="sub-title">Trending Training</span>
+                        <h3 class="title">Our most popular training</h3>
                     </div>
                     <!-- Section Title Two End -->
                 </div>
@@ -569,15 +569,15 @@ include './assets/php/inc/nav.php';
                                     <h5 class="mb-0">
                                         <a href="#" class="acc-btn border-0" data-toggle="collapse"
                                             data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            What exactly is cloud?
+                                            What jobs will i be qualified for after getting certified?
                                         </a>
                                     </h5>
                                 </div>
 
                                 <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
                                     data-parent="#accordionExample">
-                                    <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-                                        possimus nemo repudiandae quos sed dolore at explicabo ad, ea ullam?
+                                    <div class="card-body">Depending on the course you are studying there are a variety
+                                        of jobs available. We can also help you with your job search.
                                     </div>
                                 </div>
                             </div>
@@ -588,15 +588,18 @@ include './assets/php/inc/nav.php';
                                         <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse"
                                             data-target="#collapseTwo" aria-expanded="false"
                                             aria-controls="collapseTwo">
-                                            How do i start?
+                                            How can i get practical, hands on training by doing the studying online?
                                         </a>
                                     </h5>
                                 </div>
                                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
                                     data-parent="#accordionExample">
-                                    <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Nostrum quod, modi eaque consequatur vitae tempora aliquam maxime rem culpa
-                                        maiores!
+                                    <div class="card-body">Your account may be eligible for access to our live practical
+                                        labs. These powerful tools simulate a classroom training environment and are run
+                                        through our remote server. All of our software specific training courses will
+                                        include live lab access, this means that the likes of our Microsoft and Cisco
+                                        Courses packages (amongst others) will come packaged with our intuitive live lab
+                                        systems.
                                     </div>
                                 </div>
                             </div>
@@ -607,15 +610,16 @@ include './assets/php/inc/nav.php';
                                         <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse"
                                             data-target="#collapseThree" aria-expanded="false"
                                             aria-controls="collapseThree">
-                                            Classroom or Online Training?
+                                            I have completed my course, do i receive a certificate?
                                         </a>
                                     </h5>
                                 </div>
                                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
                                     data-parent="#accordionExample">
-                                    <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Omnis, quas! Necessitatibus earum blanditiis ea voluptatibus vel, animi suscipit
-                                        dicta ducimus.
+                                    <div class="card-body">Yes, all of our courses have either a completion certificate
+                                        or official qualification. You will usually find your certificate available for
+                                        download right from your training portal once you've completed all of the tests
+                                        on your account.
                                     </div>
                                 </div>
                             </div>
