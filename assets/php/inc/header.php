@@ -16,7 +16,6 @@ define("SITE_ADDR", "http://localhost/new.robustittraining.com");
 // define("SITE_ADDR", "http://bilmen.co.uk");
 ?>
 
-
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 
@@ -30,7 +29,11 @@ define("SITE_ADDR", "http://localhost/new.robustittraining.com");
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon/favicon.ico">
+    <link rel="manifest" href="/site.webmanifest">
 
     <!-- CSS
 	============================================ -->

@@ -1,4 +1,4 @@
-<div class="footer-section section" data-bg-color="#000" data-bg-color="#030e22">
+<div class="footer-section section" data-bg-color="#030e22">
     <div class="container">
 
         <!-- Footer Top Widgets Start -->
@@ -88,10 +88,10 @@
                     <h4 class="footer-widget-title">Contact</h4>
                     <div class="footer-widget-content">
                         <ul>
-                            <li><a href="#">Support Ticket</a></li>
-                            <li><a href="#">Help Desk</a></li>
-                            <li><a href="#">Live Chat</a></li>
-                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Support Ticket <i class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a href="#">Help Desk <i class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a href="#">Live Chat <i class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a href="#">FAQs <i class="fas fa-chevron-right fcr-animate"></i></a></li>
                         </ul>
                     </div>
                 </div>

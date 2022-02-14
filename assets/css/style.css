@@ -561,8 +561,8 @@ progress {
 }
 
 .lead {
-  font-size: 1.25rem;
-  font-weight: 300;
+  font-size: 1.25rem !important;
+  font-weight: 300 !important;
 }
 
 .display-1 {
@@ -6296,8 +6296,8 @@ fieldset:disabled .btn {
 .btn-outline-light:active,
 .btn-outline-light.active,
 .btn-outline-light.dropdown-toggle.show {
-  color: #000;
-  background-color: #fff;
+  color: var(--rb-primary);
+  background-color: var(--bs-overlay-black);
   border-color: #fff;
 }
 .btn-check:checked + .btn-outline-light:focus,
@@ -6607,7 +6607,7 @@ fieldset:disabled .btn {
   color: #748494;
   text-align: left;
   list-style: none;
-  background-color: #fff;
+  background-color: var(--bs-overlay-black);
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
@@ -6785,7 +6785,7 @@ fieldset:disabled .btn {
   padding: 0.25rem 1rem;
   clear: both;
   font-weight: 400;
-  color: #212529;
+  color: #fff;
   text-align: inherit;
   text-decoration: none;
   white-space: nowrap;
@@ -6795,8 +6795,8 @@ fieldset:disabled .btn {
 }
 .dropdown-item:hover,
 .dropdown-item:focus {
-  color: #fff;
-  background-color: var(--rb-secondary);
+  color: var(--rb-primary);
+  background-color: var(--bs-overlay-black);  
 }
 .dropdown-item.active,
 .dropdown-item:active {
@@ -36356,7 +36356,7 @@ textarea:focus {
   }
 }
 
-/* 04.05 CTA CSS */
+/* 04.05 CTA CSS */ 
 .icon-up-down-animation {
   position: relative;
   z-index: 1;
@@ -36370,16 +36370,23 @@ textarea:focus {
 }
 .icon-up-down-animation .shape img {
   -webkit-box-shadow: 0 0 40px 0 rgba(51, 51, 51, 0.1);
-  box-shadow: 0 0 40px 0 rgb(51 51 51 / 30%);
+  box-shadow: 0 0 40px 0 rgba(51, 51, 51, 0.1);
   border-radius: 35px; 
-  transform: scale(1.2);  
+  transform: scale(1);  
 }
 .icon-up-down-animation .shape img:hover {
   -webkit-box-shadow: 0 0 40px 0 rgba(51, 51, 51, 0.1);
-  box-shadow: 0 0 40px 0 rgba(51, 51, 51, 0.1);
+  box-shadow: 0 0 40px 0 rgb(51 51 51 / 30%);
+  border-radius: 35px;
+  transform: scale(1.2); 
+} 
+.icon-up-down-animation .shape img:active {
+  -webkit-box-shadow: 0 0 40px 0 rgba(51, 51, 51, 0.1);
+  box-shadow: 0 0 40px 0 rgb(51 51 51 / 30%);
   border-radius: 35px;
   transform: scale(1); 
 }
+
 .icon-up-down-animation .shape-1 {
   top: -170px; 
   left: 300px;
@@ -36430,6 +36437,7 @@ textarea:focus {
 .icon-up-down-animation .shape-6 {
   bottom: -30px;
   right: 300px;
+  width: 130px;
   animation-delay: 500ms !important;
   -webkit-animation: up-down infinite 4s ease-in-out;
   animation: up-down infinite 4s ease-in-out;
@@ -36489,7 +36497,9 @@ textarea:focus {
   .icon-up-down-animation .shape-6 {
     bottom: -30px;
     right: 230px;
-  }
+    width: 100px; 
+    height: 100px;
+    }
   .icon-up-down-animation .shape-7 {
     bottom: -40px;
     left: 180px;
@@ -36544,6 +36554,8 @@ textarea:focus {
   .icon-up-down-animation .shape-6 {
     bottom: 30px;
     right: 150px;
+    width: 90px;
+    height: 90px;
   }
   .icon-up-down-animation .shape-7 {
     bottom: 40px;
@@ -36599,6 +36611,8 @@ textarea:focus {
   .icon-up-down-animation .shape-6 {
     bottom: 0px;
     right: 120px;
+    width: 60px;
+    height: 60px;
   }
   .icon-up-down-animation .shape-7 {
     bottom: 10px;
@@ -37643,7 +37657,7 @@ h6:hover .fcr-animate {
 .site-main-menu .sub-menu li.active > a,
 .site-main-menu .mega-menu li:hover > a,
 .site-main-menu .mega-menu li.active > a {
-  color: #111111;
+  color: var(--rb-primary);
 }
 .site-main-menu .sub-menu li:hover > .sub-menu,
 .site-main-menu .mega-menu li:hover > .sub-menu {
@@ -39383,7 +39397,7 @@ h5 {
   -o-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
   opacity: 0;
-  background-color: rgba(18, 146, 238, 0.5);
+  background: linear-gradient(145deg, rgba(219,17,201,0.8) 0%, rgba(63,9,121,0.8) 50%, rgba(0,212,255,1) 100%);
 }
 .single-portfolio .thumbnail img {
   width: 100%;
@@ -40619,6 +40633,9 @@ h5 {
 .footer-widget-content ul li a {
   font-size: 16px;
   line-height: 30px;
+}
+.footer-widget-content ul li a:hover {
+  color: var(--rb-primary) !important; 
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .footer-widget-content ul li a {

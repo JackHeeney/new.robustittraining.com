@@ -55,7 +55,8 @@
                             <div class="row">
                                 <div class="col-12">
                                     <h4 class="text-muted">Company</h4>
-                                    <li><a href="<? echo SITE_ADDR ?>/"><span class="menu-text">About</span></a></li>
+                                    <li><a href="<? echo SITE_ADDR ?>/"><span class="text-muted">About</span></a>
+                                    </li>
                                     <li><a href="<? echo SITE_ADDR ?>/"><span class="menu-text">Blog</span></a></li>
                                     <li><a href="<? echo SITE_ADDR ?>/"><span class="menu-text">Testimonials</span></a>
                                     </li>
@@ -150,18 +151,44 @@
                                         <div class="row">
                                             <div class="col-12">
                                                 <h5 class="text-muted">Company</h5>
-                                                <li><a href="<? echo SITE_ADDR ?>/"><span
-                                                            class="menu-text">About</span></a></li>
-                                                <li><a href="<? echo SITE_ADDR ?>/"><span
-                                                            class="menu-text">Blog</span></a></li>
-                                                <li><a href="<? echo SITE_ADDR ?>/"><span
-                                                            class="menu-text">Testimonials</span></a>
+                                                <li>
+                                                    <a href="<? echo SITE_ADDR ?>/">
+                                                        <span class="menu-text">
+                                                            About <i class="fas fa-chevron-right fcr-animate"></i>
+                                                        </span>
+
+                                                    </a>
                                                 </li>
-                                                <li><a href="<? echo SITE_ADDR ?>/"><span class="menu-text">Terms &
-                                                            Conditions</span></a>
+                                                <li>
+                                                    <a href="<? echo SITE_ADDR ?>/">
+                                                        <span class="menu-text">
+                                                            Blog <i class="fas fa-chevron-right fcr-animate"></i>
+                                                        </span>
+                                                    </a>
                                                 </li>
-                                                <li><a href="<? echo SITE_ADDR ?>/"><span class="menu-text">Privacy
-                                                            Policy</span></a>
+                                                <li>
+                                                    <a href="<? echo SITE_ADDR ?>/">
+                                                        <span class="menu-text">
+                                                            Testimonials <i
+                                                                class="fas fa-chevron-right fcr-animate"></i>
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="<? echo SITE_ADDR ?>/">
+                                                        <span class="menu-text">
+                                                            Terms & Conditions <i
+                                                                class="fas fa-chevron-right fcr-animate"></i>
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="<? echo SITE_ADDR ?>/">
+                                                        <span class="menu-text">
+                                                            Privacy Policy <i
+                                                                class="fas fa-chevron-right fcr-animate"></i>
+                                                        </span>
+                                                    </a>
                                                 </li>
                                             </div>
                                             <div class="col-12 pt-5">
@@ -169,14 +196,15 @@
                                                 <li>
                                                     <a href="<? echo SITE_ADDR ?>/">
                                                         <span class="menu-text">
-                                                            FAQ's
+                                                            FAQ's <i class="fas fa-chevron-right fcr-animate"></i>
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="<? echo SITE_ADDR ?>/">
                                                         <span class="menu-text">
-                                                            Technical Support
+                                                            Technical Support <i
+                                                                class="fas fa-chevron-right fcr-animate"></i>
                                                         </span>
                                                     </a>
                                                 </li>
@@ -290,7 +318,7 @@
                 <!-- Menu Item Start -->
                 <div class="col-3">
                     <div class="dropdown mt-3">
-                        <button class="btn btn-outline-light btn-hover-primary dropdown-toggle w-100" type="button"
+                        <button class="btn btn-outline-light btn-hover-secondary dropdown-toggle w-100" type="button"
                             id="dropdownMenuButton" data-bs-toggle="dropdown">
                             EC-Council
                         </button>
@@ -327,7 +355,7 @@
                 <!-- Menu Item Start -->
                 <div class="col-3">
                     <div class="dropdown mt-3">
-                        <button class="btn btn-outline-light btn-hover-primary dropdown-toggle w-100" type="button"
+                        <button class="btn btn-outline-light btn-hover-secondary dropdown-toggle w-100" type="button"
                             id="dropdownMenuButton" data-bs-toggle="dropdown">
                             Amazon Web Service
                         </button>
@@ -368,7 +396,7 @@
                 <!-- Menu Item Start -->
                 <div class="col-3">
                     <div class="dropdown mt-3">
-                        <button class="btn btn-outline-light btn-hover-primary dropdown-toggle w-100" type="button"
+                        <button class="btn btn-outline-light btn-hover-secondary dropdown-toggle w-100" type="button"
                             id="dropdownMenuButton" data-bs-toggle="dropdown">
                             Microsoft
                         </button>
@@ -422,7 +450,7 @@
                 <!-- Menu Item Start -->
                 <div class="col-3">
                     <div class="dropdown mt-3">
-                        <button class="btn btn-outline-light btn-hover-primary dropdown-toggle w-100" type="button"
+                        <button class="btn btn-outline-light btn-hover-secondary dropdown-toggle w-100" type="button"
                             id="dropdownMenuButton" data-bs-toggle="dropdown">
                             CompTIA
                         </button>
@@ -495,7 +523,7 @@
                 <!-- Menu Item Start -->
                 <div class="col-3">
                     <div class="dropdown mt-3">
-                        <button class="btn btn-outline-light btn-hover-primary dropdown-toggle w-100" type="button"
+                        <button class="btn btn-outline-light btn-hover-secondary dropdown-toggle w-100" type="button"
                             id="dropdownMenuButton" data-bs-toggle="dropdown">
                             Cisco
                         </button>
@@ -538,7 +566,7 @@
                 <!-- Menu Item Start -->
                 <div class="col-3">
                     <div class="dropdown mt-3">
-                        <button class="btn btn-outline-light btn-hover-primary dropdown-toggle w-100" type="button"
+                        <button class="btn btn-outline-light btn-hover-secondary dropdown-toggle w-100" type="button"
                             id="dropdownMenuButton" data-bs-toggle="dropdown">
                             Axelos
                         </button>
@@ -588,7 +616,7 @@
                 <!-- Menu Item Start -->
                 <div class="col-3">
                     <div class="dropdown mt-3">
-                        <button class="btn btn-outline-light btn-hover-primary dropdown-toggle w-100" type="button"
+                        <button class="btn btn-outline-light btn-hover-secondary dropdown-toggle w-100" type="button"
                             id="dropdownMenuButton" data-bs-toggle="dropdown">
                             ISACA
                         </button>
@@ -642,7 +670,7 @@
                 <!-- Menu Item Start -->
                 <div class="col-3">
                     <div class="dropdown mt-3">
-                        <button class="btn btn-outline-light btn-hover-primary dropdown-toggle w-100" type="button"
+                        <button class="btn btn-outline-light btn-hover-secondary dropdown-toggle w-100" type="button"
                             id="dropdownMenuButton" data-bs-toggle="dropdown">
                             (ISC)&#178;
                         </button>
@@ -694,7 +722,7 @@
                 <!-- Menu Item Start -->
                 <div class="col-3">
                     <div class="dropdown mt-3">
-                        <button class="btn btn-outline-light btn-hover-primary dropdown-toggle w-100" type="button"
+                        <button class="btn btn-outline-light btn-hover-secondary dropdown-toggle w-100" type="button"
                             id="dropdownMenuButton" data-bs-toggle="dropdown">
                             Cloud Architect
                         </button>
@@ -711,7 +739,7 @@
                 <!-- Menu Item Start -->
                 <div class="col-3">
                     <div class="dropdown mt-3">
-                        <button class="btn btn-outline-light btn-hover-primary dropdown-toggle w-100" type="button"
+                        <button class="btn btn-outline-light btn-hover-secondary dropdown-toggle w-100" type="button"
                             id="dropdownMenuButton" data-bs-toggle="dropdown">
                             Ethical Hacker
                         </button>
@@ -728,7 +756,7 @@
                 <!-- Menu Item Start -->
                 <div class="col-3">
                     <div class="dropdown mt-3">
-                        <button class="btn btn-outline-light btn-hover-primary dropdown-toggle w-100" type="button"
+                        <button class="btn btn-outline-light btn-hover-secondary dropdown-toggle w-100" type="button"
                             id="dropdownMenuButton" data-bs-toggle="dropdown">
                             Network Engineer
                         </button>
@@ -745,7 +773,7 @@
                 <!-- Menu Item Start -->
                 <div class="col-3">
                     <div class="dropdown mt-3">
-                        <button class="btn btn-outline-light btn-hover-primary dropdown-toggle w-100" type="button"
+                        <button class="btn btn-outline-light btn-hover-secondary dropdown-toggle w-100" type="button"
                             id="dropdownMenuButton" data-bs-toggle="dropdown">
                             IT Project Manager
                         </button>
@@ -762,7 +790,7 @@
                 <!-- Menu Item Start -->
                 <div class="col-3">
                     <div class="dropdown mt-3">
-                        <button class="btn btn-outline-light btn-hover-primary dropdown-toggle w-100" type="button"
+                        <button class="btn btn-outline-light btn-hover-secondary dropdown-toggle w-100" type="button"
                             id="dropdownMenuButton" data-bs-toggle="dropdown">
                             Security Analyst
                         </button>
@@ -778,7 +806,7 @@
                 <!-- Menu Item Start -->
                 <div class="col-3">
                     <div class="dropdown mt-3">
-                        <button class="btn btn-outline-light btn-hover-primary dropdown-toggle w-100" type="button"
+                        <button class="btn btn-outline-light btn-hover-secondary dropdown-toggle w-100" type="button"
                             id="dropdownMenuButton" data-bs-toggle="dropdown">
                             Developer
                         </button>
@@ -794,9 +822,25 @@
                 <!-- Menu Item Start -->
                 <div class="col-3">
                     <div class="dropdown mt-3">
-                        <button class="btn btn-outline-light btn-hover-primary dropdown-toggle w-100" type="button"
+                        <button class="btn btn-outline-light btn-hover-secondary dropdown-toggle w-100" type="button"
                             id="dropdownMenuButton" data-bs-toggle="dropdown">
                             DevOps
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Menu Item End -->
+
+                <!-- Menu Item Start -->
+                <div class="col-3">
+                    <div class="dropdown mt-3">
+                        <button class="btn btn-outline-light btn-hover-secondary dropdown-toggle w-100" type="button"
+                            id="dropdownMenuButton" data-bs-toggle="dropdown">
+                            1st Line Support
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <li><a class="dropdown-item" href="#">Action</a></li>

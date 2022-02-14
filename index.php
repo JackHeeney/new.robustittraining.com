@@ -159,6 +159,7 @@ include './assets/php/inc/nav.php';
                 <h2 class="title">The Future is Robust.</h2>
                 <p class="sub-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime qui facere
                     blanditiis reiciendis possimus natus!</p>
+
             </div>
             <!-- Section Title End -->
 
@@ -176,8 +177,8 @@ include './assets/php/inc/nav.php';
                         </div>
                         <!-- Animation Shape Start -->
                         <div class="shape shape-1 scene">
-                            <span data-depth="1"><img src="assets/images/shape-animation/about-shape-2.png"
-                                    alt=""></span>
+                            <span data-depth="1">
+                                <img src="assets/images/shape-animation/about-shape-2.png" alt=""></span>
                         </div>
                         <!-- Animation Shape End -->
                     </div>
@@ -186,25 +187,30 @@ include './assets/php/inc/nav.php';
 
                 <!-- About Start -->
                 <div class="col-xl-5 col-lg-6 col-12" data-aos="fade-up">
-                    <!-- About Content Area Start -->
-                    <div class="about-content-area">
-                        <!-- Section Title Two Start -->
-                        <div class="section-title-two">
-                            <span class="sub-title">Start your quest</span>
-                            <h3 class="title">Start your journey with our bespoke cloud solutions.
-                            </h3>
-                        </div>
-                        <!-- Section Title Two End -->
 
-                        <p>Our cloud training is Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde laborum
-                            cupiditate vel quas, odit ipsa!.</p>
+                    <!-- Animation Shape Start -->
+                    <div class="scene">
+                        <span data-depth="1">
+                            <!-- Section Title Two Start -->
+                            <div class="section-title-two">
+                                <span class="sub-title">Start your quest</span>
+                                <h3 class="title">Start your journey with our bespoke cloud solutions.
+                                </h3>
+                            </div>
+                            <!-- Section Title Two End -->
 
-                        <a class="btn btn-primary btn-hover-secondary mt-xl-8 mt-lg-8 mt-md-6 mt-4" href="#cta">Begin
-                            Journey <i class="fas fa-chevron-right fcr-animate"></i></a>
+                            <p>Our cloud training is Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Unde laborum
+                                cupiditate vel quas, odit ipsa!.</p>
+
+
+
+                        </span>
                     </div>
-                    <!-- About Content Area Start -->
+                    <!-- Animation Shape End -->
+                    <a class="btn btn-primary btn-hover-secondary mt-xl-8 mt-lg-8 mt-md-6 mt-4" href="#cta">Begin
+                        Journey <i class="fas fa-chevron-right fcr-animate"></i></a>
                 </div>
-                <!-- About Start -->
 
             </div>
             <!-- About Wrapper End -->
@@ -223,7 +229,7 @@ include './assets/php/inc/nav.php';
                     CompTIA, Microsoft, EC-Council, Google Cloud and more.</p>
             </div>
             <!-- Section Title End -->
-            <a class="btn btn-primary btn-hover-secondary" data-aos="zoom-in-down" href="#">Find a path <i
+            <a class="btn btn-primary btn-hover-secondary" data-aos="zoom-in-down" href="#">Find your path <i
                     class="fas fa-chevron-right fcr-animate"></i></a>
 
             <!-- Icon Animation Start -->
@@ -303,11 +309,11 @@ include './assets/php/inc/nav.php';
 
                     <div class="icon-box text-center" data-vivus-hover>
                         <div class="icon"><img class="svgInject"
-                                src="assets/images/svg/linea/linea-basic-elaboration-todolist-check.svg" alt=""></div>
+                                src="assets/images/svg/svgrepo/office-block-svgrepo-com.svg" alt=""></div>
                         <div class="content">
                             <h3 class="title">Corporate</h3>
                             <div class="desc">
-                                <p>Study online or in a classroom. Tailor your learning.</p>
+                                <p>Up-skill your business. Enquire about our corporate offers.</p>
                             </div>
                             <a href="#" class="link">Learn More <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
@@ -321,12 +327,12 @@ include './assets/php/inc/nav.php';
 
                     <div class="icon-box text-center" data-vivus-hover>
                         <div class="icon"><img class="svgInject"
-                                src="assets/images/svg/linea/linea-basic-elaboration-browser-check.svg" alt="">
+                                src="assets/images/svg/svgrepo/dog-tag-military-svgrepo-com.svg" alt="">
                         </div>
                         <div class="content">
                             <h3 class="title">ELCAS</h3>
                             <div class="desc">
-                                <p>We offer webinar classes for student who are unable to travel.</p>
+                                <p>We offer enhanced learning credits for ex-military personnel.</p>
                             </div>
                             <a href="#" class="link">Learn More <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
@@ -339,8 +345,8 @@ include './assets/php/inc/nav.php';
                 <div class="col mb-6" data-aos="fade-up">
 
                     <div class="icon-box text-center" data-vivus-hover>
-                        <div class="icon"><img class="svgInject" src="assets/images/svg/linea/linea-software-pen.svg"
-                                alt=""></div>
+                        <div class="icon"><img class="svgInject"
+                                src="assets/images/svg/svgrepo/job-search-svgrepo-com.svg" alt=""></div>
                         <div class="content">
                             <h3 class="title">Career Advice</h3>
                             <div class="desc">
@@ -396,65 +402,65 @@ include './assets/php/inc/nav.php';
                         <div class="progress-bar--one">
                             <!-- Start Single Progress Charts -->
                             <div class="progress-charts">
-                                <h6 class="heading ">Cloud Architect</h6>
+                                <h6 class="heading lead">Cloud Architect</h6>
                                 <div class="progress">
                                     <div class="progress-bar gradient-1 wow fadeInLeft" data-wow-duration="0.5s"
                                         data-wow-delay=".3s" role="progressbar"
                                         style="width: 81%; visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInLeft;"
                                         aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
-                                            class="percent-label">£77,973</span></div>
+                                            class="percent-label lead">£77,973</span></div>
                                 </div>
                             </div>
                             <!-- End Single Progress Charts -->
 
                             <!-- Start Single Progress Charts -->
                             <div class="progress-charts ">
-                                <h6 class="heading ">SC-900</h6>
+                                <h6 class="heading lead">Cloud Architect</h6>
                                 <div class="progress">
                                     <div class="progress-bar gradient-2 wow fadeInLeft" data-wow-duration="0.7s"
                                         data-wow-delay=".5s" role="progressbar"
                                         style="width: 72%; visibility: visible; animation-duration: 0.7s; animation-delay: 0.5s; animation-name: fadeInLeft;"
-                                        aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
-                                            class="percent-label">72%</span></div>
+                                        aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"><span
+                                            class="percent-label lead">£72,851</span></div>
                                 </div>
                             </div>
                             <!-- End Single Progress Charts -->
 
                             <!-- Start Single Progress Charts -->
                             <div class="progress-charts ">
-                                <h6 class="heading ">AWS Cloud Practitioner</h6>
+                                <h6 class="heading lead">Cloud Architect</h6>
                                 <div class="progress">
                                     <div class="progress-bar gradient-3 wow fadeInLeft" data-wow-duration="0.8s"
                                         data-wow-delay=".8s" role="progressbar"
-                                        style="width: 80%; visibility: visible; animation-duration: 0.8s; animation-delay: 0.8s; animation-name: fadeInLeft;"
-                                        aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"><span
-                                            class="percent-label">80%</span></div>
+                                        style="width: 82%; visibility: visible; animation-duration: 0.8s; animation-delay: 0.8s; animation-name: fadeInLeft;"
+                                        aria-valuenow="82" aria-valuemin="0" aria-valuemax="100"><span
+                                            class="percent-label lead">£82,178</span></div>
                                 </div>
                             </div>
                             <!-- End Single Progress Charts -->
 
                             <!-- Start Single Progress Charts -->
                             <div class="progress-charts ">
-                                <h6 class="heading ">AWS Solutions Architect (Associate)</h6>
+                                <h6 class="heading lead">Cloud Architect</h6>
                                 <div class="progress">
                                     <div class="progress-bar gradient-4 wow fadeInLeft" data-wow-duration="0.9s"
                                         data-wow-delay=".9s" role="progressbar"
                                         style="width: 85%; visibility: visible; animation-duration: 0.9s; animation-delay: 0.9s; animation-name: fadeInLeft;"
                                         aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
-                                            class="percent-label">85%</span></div>
+                                            class="percent-label lead">£85,826</span></div>
                                 </div>
                             </div>
                             <!-- End Single Progress Charts -->
 
                             <!-- Start Single Progress Charts -->
                             <div class="progress-charts ">
-                                <h6 class="heading ">AWS Solutions Architect (Professional)</h6>
+                                <h6 class="heading lead">Cloud Architect</h6>
                                 <div class="progress">
                                     <div class="progress-bar gradient-5 wow fadeInLeft" data-wow-duration="0.9s"
                                         data-wow-delay=".9s" role="progressbar"
                                         style="width: 90%; visibility: visible; animation-duration: 0.9s; animation-delay: 0.9s; animation-name: fadeInLeft;"
                                         aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"><span
-                                            class="percent-label">90%</span></div>
+                                            class="percent-label lead">£90,431</span></div>
                                 </div>
                             </div>
                             <!-- End Single Progress Charts -->
@@ -488,8 +494,8 @@ include './assets/php/inc/nav.php';
                         <button data-filter=".cat-1"><span class="filter-text">AWS</span></button>
                         <button data-filter=".cat-2"><span class="filter-text">Microsoft</span></button>
                         <button data-filter=".cat-3"><span class="filter-text">CompTIA</span> </button>
-                        <!-- <button data-filter=".cat-4"><span class="filter-text">Cloud</span></button>
-                        <button data-filter=".cat-5"><span class="filter-text">Cloud</span></button> -->
+                        <button data-filter=".cat-4"><span class="filter-text">EC-Council</span></button>
+                        <!--<button data-filter=".cat-5"><span class="filter-text">Cloud</span></button> -->
                     </div>
                     <!-- Portfolio Menu End -->
                 </div>
@@ -502,79 +508,91 @@ include './assets/php/inc/nav.php';
                 <!-- Single Portfolio Start -->
                 <div class="col cat-1">
                     <div class="single-portfolio">
-                        <div class="thumbnail">
-                            <img class="img-fluid" src="assets/images/portfolio/portfolio-1.jpg" alt="Portfolio-01">
-                        </div>
-                        <div class="content">
-                            <h5 class="title"><a href="work-details.php">AWS Cloud Practitioner <img
-                                        src="assets/images/icons/arrow-up-right.svg" alt=""></a></h5>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Portfolio End -->
-                <!-- Single Portfolio Start -->
-                <div class="col cat-1">
-                    <div class="single-portfolio">
-                        <div class="thumbnail">
-                            <img class="img-fluid" src="assets/images/portfolio/portfolio-2.jpg" alt="Portfolio-01">
-                        </div>
-                        <div class="content">
-                            <h5 class="title"><a href="work-details.php">AWS Solutions Architect Associate <img
-                                        src="assets/images/icons/arrow-up-right.svg" alt=""></a></h5>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Portfolio End -->
-                <!-- Single Portfolio Start -->
-                <div class="col cat-1">
-                    <div class="single-portfolio">
-                        <div class="thumbnail">
-                            <img class="img-fluid" src="assets/images/portfolio/portfolio-3.jpg" alt="Portfolio-01">
-                        </div>
-                        <div class="content">
-                            <h5 class="title"><a href="work-details.php">AWS Solutions Architect Professional <img
-                                        src="assets/images/icons/arrow-up-right.svg" alt=""></a></h5>
-                        </div>
+                        <a href="work-details.php">
+                            <div class="thumbnail">
+                                <img class="img-fluid" src="assets/images/portfolio/portfolio-1.jpg" alt="Portfolio-01">
+                            </div>
+                            <div class="content">
+                                <h5 class="title">AWS Solutions Architect<img
+                                        src="assets/images/icons/arrow-up-right.svg" alt=""></h5>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <!-- Single Portfolio End -->
                 <!-- Single Portfolio Start -->
                 <div class="col cat-2">
                     <div class="single-portfolio">
-                        <div class="thumbnail">
-                            <img class="img-fluid" src="assets/images/portfolio/portfolio-4.jpg" alt="Portfolio-01">
-                        </div>
-                        <div class="content">
-                            <h5 class="title"><a href="work-details.php">Microsoft Azure Fundamentals (AZ-900) <img
-                                        src="assets/images/icons/arrow-up-right.svg" alt=""></a></h5>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Portfolio End -->
-                <!-- Single Portfolio Start -->
-                <div class="col cat-2">
-                    <div class="single-portfolio">
-                        <div class="thumbnail">
-                            <img class="img-fluid" src="assets/images/portfolio/portfolio-5.jpg" alt="Portfolio-01">
-                        </div>
-                        <div class="content">
-                            <h5 class="title"><a href="work-details.php">Microsoft Security, Compliance, and Identity
-                                    (SC:900)
-                                    <img src="assets/images/icons/arrow-up-right.svg" alt=""></a></h5>
-                        </div>
+                        <a href="work-details.php">
+                            <div class="thumbnail">
+                                <img class="img-fluid" src="assets/images/portfolio/portfolio-2.jpg" alt="Portfolio-01">
+                            </div>
+                            <div class="content">
+                                <h5 class="title">Microsoft Azure Fundamentals <br> (AZ-900) <img
+                                        src="assets/images/icons/arrow-up-right.svg" alt=""></h5>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <!-- Single Portfolio End -->
                 <!-- Single Portfolio Start -->
                 <div class="col cat-3">
                     <div class="single-portfolio">
-                        <div class="thumbnail">
-                            <img class="img-fluid" src="assets/images/portfolio/portfolio-6.jpg" alt="Portfolio-01">
-                        </div>
-                        <div class="content">
-                            <h5 class="title"><a href="work-details.php">CompTIA Cloud+ <img
-                                        src="assets/images/icons/arrow-up-right.svg" alt=""></a></h5>
-                        </div>
+                        <a href="work-details.php">
+                            <div class="thumbnail">
+                                <img class="img-fluid" src="assets/images/portfolio/portfolio-3.jpg" alt="Portfolio-01">
+                            </div>
+                            <div class="content">
+                                <h5 class="title">CompTIA Security+ <img src="assets/images/icons/arrow-up-right.svg"
+                                        alt=""></h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- Single Portfolio End -->
+                <!-- Single Portfolio Start -->
+                <div class="col cat-3">
+                    <div class="single-portfolio">
+                        <a href="work-details.php">
+                            <div class="thumbnail">
+                                <img class="img-fluid" src="assets/images/portfolio/portfolio-4.jpg" alt="Portfolio-01">
+                            </div>
+                            <div class="content">
+                                <h5 class="title">CompTIA Network+ <img src="assets/images/icons/arrow-up-right.svg"
+                                        alt=""></h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- Single Portfolio End -->
+                <!-- Single Portfolio Start -->
+                <div class="col cat-4">
+                    <div class="single-portfolio">
+                        <a href="work-details.php">
+                            <div class="thumbnail">
+                                <img class="img-fluid" src="assets/images/portfolio/portfolio-5.jpg" alt="Portfolio-01">
+                            </div>
+                            <div class="content">
+                                <h5 class="title">Certified Ethical Hacker
+                                    <img src="assets/images/icons/arrow-up-right.svg" alt="">
+                                </h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- Single Portfolio End -->
+                <!-- Single Portfolio Start -->
+                <div class="col cat-4">
+                    <div class="single-portfolio">
+                        <a href="work-details.php">
+                            <div class="thumbnail">
+                                <img class="img-fluid" src="assets/images/portfolio/portfolio-6.jpg" alt="Portfolio-01">
+                            </div>
+                            <div class="content">
+                                <h5 class="title">Certified Cloud Security Expert <img
+                                        src="assets/images/icons/arrow-up-right.svg" alt=""></h5>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <!-- Single Portfolio End -->
