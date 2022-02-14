@@ -616,9 +616,9 @@ include './assets/php/inc/nav.php';
     <!-- Faq Section Start -->
     <div class="faq-section section section-padding-top" data-bg-color="#ffffff">
         <div class="container">
-            <div class="row row-cols-lg-2 row-cols-1 mb-n6" data-aos="fade-up">
+            <div class="row row-cols-lg-2 row-cols-1 mb-n6">
                 <!-- Faq Content Start -->
-                <div class="col mb-6">
+                <div class="col mb-6" data-aos="fade-up" data-aos-offset="-100" data-aos-duration="500">
                     <div class="faq-content">
                         <!-- Section Title Two Start -->
                         <div class="section-title-two">
@@ -693,7 +693,7 @@ include './assets/php/inc/nav.php';
                 </div>
                 <!-- Faq Content End -->
 
-                <div class="col mb-6 pl-xl-12">
+                <div class="col mb-6 pl-xl-12" data-aos="fade-right" data-aos-offset="-100" data-aos-duration="500">
                     <!-- Faq Image Start -->
                     <div class="about-image-area faq-image-area">
                         <div class="about-image right-n50 js-tilt">
@@ -722,7 +722,7 @@ include './assets/php/inc/nav.php';
 
         <div class="container">
             <div class="row row-cols-lg-2 row-cols-1 align-items-center">
-                <div class="col" data-aos="fade-right">
+                <div class="col" data-aos="fade-right" data-aos-offset="-200" data-aos-duration="500">
                     <!-- Contact Information -->
                     <div class="contact-Information mr-xl-7">
                         <!-- Section Title Two Start -->
@@ -780,7 +780,8 @@ include './assets/php/inc/nav.php';
                     </div>
                     <!-- Contact Information -->
                 </div>
-                <div class="col mt-lg-0 mt-md-10 mt-8" data-aos="fade-up">
+                <div class="col mt-lg-0 mt-md-10 mt-8" data-aos="fade-up" data-aos-offset="-100"
+                    data-aos-duration="500">
                     <!-- Contact Form Start -->
                     <div class="contact-form-area box-shadow">
                         <!-- Section Title Start -->
