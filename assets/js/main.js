@@ -136,8 +136,8 @@
     animationType: "rotate-3",
   });
 
-  jQuery(document).ready(function () {
-    jQuery(".intro-slider-wrap").addClass("intro-slider-wrap-0");
+  $(document).ready(function () {
+    $(".intro-slider-wrap").addClass("intro-slider-wrap-0");
   });
 
   /* ----------------------------

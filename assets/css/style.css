@@ -319,7 +319,7 @@ sup {
 }
 
 a {
-  color: #1292ee;
+  color: var(--rb-primary);
   text-decoration: underline;
   transition: 500ms ease-in-out;
 }
@@ -6796,7 +6796,7 @@ fieldset:disabled .btn {
 .dropdown-item:hover,
 .dropdown-item:focus {
   color: var(--rb-primary);
-  background-color: var(--bs-overlay-black);  
+  background-color: var(--bs-overlay-black);
 }
 .dropdown-item.active,
 .dropdown-item:active {
@@ -8743,7 +8743,7 @@ fieldset:disabled .btn {
   -ms-flex-pack: end;
   justify-content: flex-end;
   padding: 0.75rem;
-  border-top: 1px solid #dee2e6;
+  /* border-top: 1px solid #dee2e6; */
   border-bottom-right-radius: calc(0.3rem - 1px);
   border-bottom-left-radius: calc(0.3rem - 1px);
 }
@@ -34876,6 +34876,7 @@ svg:not(:root) {
   padding-top: 250px;
   padding-bottom: 250px;
 }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section-padding-250 {
     padding-top: 180px;
@@ -34886,6 +34887,10 @@ svg:not(:root) {
   .section-padding-250 {
     padding-top: 160px;
     padding-bottom: 160px;
+  }
+
+  .section-padding-t100 {
+    padding-top: 100px; 
   }
 }
 
@@ -35204,7 +35209,28 @@ input[type="tel"]:focus {
   border-color: #1292ee;
   background-color: #fff;
 }
-
+.call-back::before {
+  display: block;
+  content: "Request Callback";
+  transform: scale(1);
+  transition: 500ms ease-out;
+}
+a:hover .call-back::before {
+  content: "02038 757 827";
+  transform: scale(1.05);
+  transition: 500ms ease-in;
+}
+.call-us::before {
+  display: block;
+  content: "Give us a call";
+  transform: scale(1);
+  transition: 500ms ease-out;
+}
+a:hover .call-us::before {
+  content: "02038 757 827";
+  transform: scale(1.05);
+  transition: 500ms ease-in;
+}
 textarea {
   width: 100%;
   min-height: 130px;
@@ -35865,10 +35891,10 @@ textarea:focus {
   -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
-  background-color: #1292ee;
+  background-color: var(--rb-primary);
 }
 .breadcrumb li a:hover {
-  color: #1292ee;
+  color: var(--rb-primary);
 }
 .breadcrumb li a:hover::before {
   left: 0;
@@ -36356,7 +36382,7 @@ textarea:focus {
   }
 }
 
-/* 04.05 CTA CSS */ 
+/* 04.05 CTA CSS */
 .icon-up-down-animation {
   position: relative;
   z-index: 1;
@@ -36371,24 +36397,24 @@ textarea:focus {
 .icon-up-down-animation .shape img {
   -webkit-box-shadow: 0 0 40px 0 rgba(51, 51, 51, 0.1);
   box-shadow: 0 0 40px 0 rgba(51, 51, 51, 0.1);
-  border-radius: 35px; 
-  transform: scale(1);  
+  border-radius: 35px;
+  transform: scale(1);
 }
 .icon-up-down-animation .shape img:hover {
   -webkit-box-shadow: 0 0 40px 0 rgba(51, 51, 51, 0.1);
   box-shadow: 0 0 40px 0 rgb(51 51 51 / 30%);
   border-radius: 35px;
-  transform: scale(1.2); 
-} 
+  transform: scale(1.2);
+}
 .icon-up-down-animation .shape img:active {
   -webkit-box-shadow: 0 0 40px 0 rgba(51, 51, 51, 0.1);
   box-shadow: 0 0 40px 0 rgb(51 51 51 / 30%);
   border-radius: 35px;
-  transform: scale(1); 
+  transform: scale(1);
 }
 
 .icon-up-down-animation .shape-1 {
-  top: -170px; 
+  top: -170px;
   left: 300px;
   animation-delay: 500ms !important;
   -webkit-animation: up-down infinite 4s ease-in-out;
@@ -36497,9 +36523,9 @@ textarea:focus {
   .icon-up-down-animation .shape-6 {
     bottom: -30px;
     right: 230px;
-    width: 100px; 
+    width: 100px;
     height: 100px;
-    }
+  }
   .icon-up-down-animation .shape-7 {
     bottom: -40px;
     left: 180px;
@@ -39397,7 +39423,12 @@ h5 {
   -o-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
   opacity: 0;
-  background: linear-gradient(145deg, rgba(219,17,201,0.8) 0%, rgba(63,9,121,0.8) 50%, rgba(0,212,255,1) 100%);
+  background: linear-gradient(
+    145deg,
+    rgba(219, 17, 201, 0.8) 0%,
+    rgba(63, 9, 121, 0.8) 50%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 .single-portfolio .thumbnail img {
   width: 100%;
@@ -39450,6 +39481,13 @@ h5 {
   -o-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
+
+.work:hover .fcr-animate {
+  opacity: 1;
+  transform: translateX(10px);
+  transition: 500ms ease-in-out;
+}
+
 .work .thumbnail {
   position: relative;
   overflow: hidden;
@@ -39513,7 +39551,7 @@ h5 {
   display: inline-block;
 }
 .work .info > a:hover {
-  color: #1292ee;
+  color: var(--rb-primary);
 }
 .work:hover .thumbnail .image img {
   -webkit-transform: scale(1.1);
@@ -39816,7 +39854,7 @@ h5 {
   font-size: 42px;
   line-height: 1.3;
   margin-bottom: 0;
-  display: flex; 
+  display: flex;
 }
 
 .work-details-course-logo {
@@ -40635,7 +40673,7 @@ h5 {
   line-height: 30px;
 }
 .footer-widget-content ul li a:hover {
-  color: var(--rb-primary) !important; 
+  color: var(--rb-primary) !important;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .footer-widget-content ul li a {

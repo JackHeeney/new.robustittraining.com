@@ -79,6 +79,9 @@
                     <li>
                         <a href="<? echo SITE_ADDR ?>/contact-us.php"><span class="menu-text">Contact Us</span></a>
                     </li>
+                    <a href="tel:02038757827" class="btn btn-secondary btn-hover--secondary"
+                        style="min-width: 226px !important"><span class="call-us"></span>
+                        <i class="fas fa-phone fcr-animate"></i></a>
                 </ul>
             </nav>
         </div>
@@ -246,7 +249,8 @@
                 <!-- Header Right Start -->
                 <div class="col-xl-2 col d-none d-sm-flex justify-content-end order-1 order-xl-2">
                     <a href="javascript(void);" class="btn btn-secondary btn-hover--secondary" data-toggle="modal"
-                        data-target="#exampleModal">Request Callback <i class="fas fa-phone fcr-animate"></i></a>
+                        data-target="#exampleModal" style="min-width: 226px !important"><span class="call-back"></span>
+                        <i class="fas fa-phone fcr-animate"></i></a>
                 </div>
                 <!-- Header Right End -->
 
@@ -279,20 +283,84 @@
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
+        <div class="modal-content" data-bg-image="assets/images/bg/contact-bg.jpg" data-bg-color="#000"
+            data-overlay="0.8">
             <div class="modal-body">
-                ...
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+
+                <form action="https://robust.flg360.co.uk/api/APIHTTPPost.php" method="POST">
+
+                    <div class="row">
+                        <div class="col-lg-6 col-12">
+                            <img src="../assets/img/beginner_skill_lvl.jpg" alt="..." class="card-img-top">
+
+                        </div>
+
+                        <!-- form details for sending info to leadsite -->
+                        <input type="hidden" name="intLeadGroupID" value="54553" />
+                        <input type="hidden" name="strSource" value="" />
+                        <input type="hidden" name="strMedium" value="" />
+                        <input type="hidden" name="strTerm" value="" />
+                        <input type="hidden" name="intSiteID" value="15334" />
+                        <input type="hidden" name="intReferrerBuyerID" value="0" />
+                        <input type="hidden" name="intDPAStatusPhoneID" value="1">
+                        <input type="hidden" name="intDPAStatusSMSID" value="1">
+                        <input type="hidden" name="intDPAStatusEmailID" value="1">
+                        <input type="hidden" name="strAPISuccessURL" value="http://www.robustittraining.com/thankyou" />
+                        <input type="hidden" name="strAPIFailURL" value="http://www.robustittraining.com/sorry" />
+                        <input type="hidden" name="strLeadData2" id="strLeadData2"
+                            value="Lead is from www.robustittraining.com/courses/cyber_security_courses popup form new to cyber security" />
+                        <!-- //end -->
+
+
+                        <div class="col-12 col-md-6">
+                            <div class="form-label-group mt-2">
+                                <input type="text" class="form-control form-control-flush" id="strLeadFirstName"
+                                    name="strLeadFirstName" placeholder="First Name" required=required />
+                            </div>
+                            <div class="form-label-group mt-2">
+                                <input type="text" class="form-control form-control-flush" id="strLeadLastName"
+                                    name="strLeadLastName" placeholder="Last Name" required=required />
+                            </div>
+                            <div class="form-label-group mt-2">
+                                <input type="email" class="form-control form-control-flush" id="strLeadEmail"
+                                    name="strLeadEmail" placeholder="Email" required=required />
+                            </div>
+                            <div class="form-label-group mt-2">
+                                <input type="number" class="form-control form-control-flush" id="strLeadPhone1"
+                                    name="strLeadPhone1" placeholder="Phone Number" required=required />
+                            </div>
+                            <br />
+                            <span style="font-size: 1rem;" class="text-gray-700">
+                                <i class="fas fa-info-circle text-gray-700"></i>
+                                We promise to never share your information with anyone else or send you junk mail.
+                            </span>
+                            <div class="mt-2">
+                                <button class="btn btn-block btn-primary lift" type="submit" name="submit"
+                                    value="submit">
+                                    Request Info pack <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btn-hover-primary"
+                        data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-outline-white btn-hover--secondary">Submit Request <i
+                            class="fas fa-paper-plane fcr-animate"></i></button>
+                </div>
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
+
         </div>
     </div>
 </div>
@@ -300,7 +368,7 @@
 
 <!-- offcanvas start -->
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel"
-    data-bg-color="#000" data-overlay="0.9" data-bg-image="<? echo SITE_ADDR ?>/assets/images/hero-image/hero-4.jpg">
+    data-bg-color="#000)" data-overlay="0.9" data-bg-image="<? echo SITE_ADDR ?>/assets/images/hero-image/hero-4.jpg">
     <div class="offcanvas-header container">
         <a href="index.php" class="offcanvas-title"><img
                 src="<? echo SITE_ADDR ?>/assets/images/logo/robust-it-logo-light-alt-2022.svg" alt="Robust IT Logo"

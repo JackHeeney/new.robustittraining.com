@@ -1,11 +1,11 @@
 <?php
 // Change page title and meta tags here
-$title = "Robust IT Training | Expert Cloud Training";
+$title = "Robust IT Training | Online & Classroom Training 2022";
 $meta['keywords'] = "";
 $meta['description'] = "";
 
 // Social media meta tags
-$meta['og:title'] = "Robust IT Training | Expert Cloud Training";
+$title = "Robust IT Training | Online & Classroom Training 2022";
 $meta['og:description'] = "";
 $meta['og:image'] = "";
 $meta['og:url'] = "";
@@ -186,7 +186,7 @@ include './assets/php/inc/nav.php';
                 <!-- About Image Area Start -->
 
                 <!-- About Start -->
-                <div class="col-xl-5 col-lg-6 col-12" data-aos="fade-up">
+                <div class="col-xl-5 col-lg-6 col-12 section-padding-t100" data-aos="fade-up">
 
                     <!-- Animation Shape Start -->
                     <div class="scene">
@@ -202,8 +202,6 @@ include './assets/php/inc/nav.php';
                             <p>Our cloud training is Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Unde laborum
                                 cupiditate vel quas, odit ipsa!.</p>
-
-
 
                         </span>
                     </div>
@@ -222,14 +220,23 @@ include './assets/php/inc/nav.php';
     <!-- CTA Section Start -->
     <div class="cta-section section section-padding-250">
         <div class="container text-center icon-up-down-animation">
-            <!-- Section Title Start -->
-            <div class="section-title text-center" data-aos="fade-up">
-                <h2 class="title fz-34">Choose a learning path.</h2>
-                <p class="sub-title">Choose from many learning paths to start your cloud journey. Courses from AWS,
-                    CompTIA, Microsoft, EC-Council, Google Cloud and more.</p>
+
+            <!-- Animation Shape Start -->
+            <div class="scene">
+                <span data-depth="1">
+                    <!-- Section Title Start -->
+                    <div class="section-title text-center" data-aos="fade-up">
+                        <h2 class="title fz-34">Choose a learning path.</h2>
+                        <p class="sub-title">Choose from many learning paths to start your cloud journey. Courses from
+                            AWS,
+                            CompTIA, Microsoft, EC-Council, Google Cloud and more.</p>
+                    </div>
+                </span>
             </div>
+
             <!-- Section Title End -->
-            <a class="btn btn-primary btn-hover-secondary" data-aos="zoom-in-down" href="#">Find your path <i
+            <a class="btn btn-primary btn-hover-secondary" data-aos="zoom-in-down"
+                href="<?php echo SITE_ADDR ?>/learning-paths.php">Find your path <i
                     class="fas fa-chevron-right fcr-animate"></i></a>
 
             <!-- Icon Animation Start -->
@@ -371,7 +378,7 @@ include './assets/php/inc/nav.php';
             <div class="row">
 
                 <!-- Success Image Start -->
-                <div class="col-lg-6">
+                <div class="col-lg-6" data-aos="fade-left">
                     <div class="about-image-area right-0 skill-image-area">
                         <div class="about-image js-tilt">
                             <img src="assets/images/skill/skill-1.jpg" alt="">
@@ -390,83 +397,88 @@ include './assets/php/inc/nav.php';
                 <!-- Success Image End -->
 
                 <!-- Success Content Start -->
-                <div class="offset-lg-1 col-lg-5">
-                    <div class="success-content  mt-lg-0 mt-md-50 mt-sm-50 mt-40">
-                        <!-- Section Title Two Start -->
-                        <div class="section-title-two mb-lg-8 mb-6">
-                            <span class="sub-title">Your success is our success</span>
-                            <h3 class="title">Jobs and Average Salary that our students achieve</h3>
-                        </div>
-                        <!-- Section Title Two End -->
+                <div class="offset-lg-1 col-lg-5" data-aos="fade-up">
+                    <!-- Animation Shape Start -->
+                    <div class="scene">
+                        <span data-depth="1">
 
-                        <div class="progress-bar--one">
-                            <!-- Start Single Progress Charts -->
-                            <div class="progress-charts">
-                                <h6 class="heading lead">Cloud Architect</h6>
-                                <div class="progress">
-                                    <div class="progress-bar gradient-1 wow fadeInLeft" data-wow-duration="0.5s"
-                                        data-wow-delay=".3s" role="progressbar"
-                                        style="width: 81%; visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInLeft;"
-                                        aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
-                                            class="percent-label lead">£77,973</span></div>
+                            <div class="success-content section-padding-t100 mt-lg-0 mt-md-50 mt-sm-50 mt-40">
+                                <!-- Section Title Two Start -->
+                                <div class="section-title-two mb-lg-8 mb-6">
+                                    <span class="sub-title">Your success is our success</span>
+                                    <h3 class="title">Jobs and Average Salary that our students achieve</h3>
+                                </div>
+                                <!-- Section Title Two End -->
+
+                                <div class="progress-bar--one">
+                                    <!-- Start Single Progress Charts -->
+                                    <div class="progress-charts">
+                                        <h6 class="heading lead">Cloud Architect</h6>
+                                        <div class="progress">
+                                            <div class="progress-bar gradient-1 wow fadeInLeft" data-wow-duration="0.5s"
+                                                data-wow-delay=".3s" role="progressbar"
+                                                style="width: 81%; visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInLeft;"
+                                                aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
+                                                    class="percent-label lead">£77,973</span></div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Progress Charts -->
+
+                                    <!-- Start Single Progress Charts -->
+                                    <div class="progress-charts ">
+                                        <h6 class="heading lead">Cloud Architect</h6>
+                                        <div class="progress">
+                                            <div class="progress-bar gradient-2 wow fadeInLeft" data-wow-duration="0.7s"
+                                                data-wow-delay=".5s" role="progressbar"
+                                                style="width: 72%; visibility: visible; animation-duration: 0.7s; animation-delay: 0.5s; animation-name: fadeInLeft;"
+                                                aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"><span
+                                                    class="percent-label lead">£72,851</span></div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Progress Charts -->
+
+                                    <!-- Start Single Progress Charts -->
+                                    <div class="progress-charts ">
+                                        <h6 class="heading lead">Cloud Architect</h6>
+                                        <div class="progress">
+                                            <div class="progress-bar gradient-3 wow fadeInLeft" data-wow-duration="0.8s"
+                                                data-wow-delay=".8s" role="progressbar"
+                                                style="width: 82%; visibility: visible; animation-duration: 0.8s; animation-delay: 0.8s; animation-name: fadeInLeft;"
+                                                aria-valuenow="82" aria-valuemin="0" aria-valuemax="100"><span
+                                                    class="percent-label lead">£82,178</span></div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Progress Charts -->
+
+                                    <!-- Start Single Progress Charts -->
+                                    <div class="progress-charts ">
+                                        <h6 class="heading lead">Cloud Architect</h6>
+                                        <div class="progress">
+                                            <div class="progress-bar gradient-4 wow fadeInLeft" data-wow-duration="0.9s"
+                                                data-wow-delay=".9s" role="progressbar"
+                                                style="width: 85%; visibility: visible; animation-duration: 0.9s; animation-delay: 0.9s; animation-name: fadeInLeft;"
+                                                aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
+                                                    class="percent-label lead">£85,826</span></div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Progress Charts -->
+
+                                    <!-- Start Single Progress Charts -->
+                                    <div class="progress-charts ">
+                                        <h6 class="heading lead">Cloud Architect</h6>
+                                        <div class="progress">
+                                            <div class="progress-bar gradient-5 wow fadeInLeft" data-wow-duration="0.9s"
+                                                data-wow-delay=".9s" role="progressbar"
+                                                style="width: 90%; visibility: visible; animation-duration: 0.9s; animation-delay: 0.9s; animation-name: fadeInLeft;"
+                                                aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"><span
+                                                    class="percent-label lead">£90,431</span></div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Progress Charts -->
                                 </div>
                             </div>
-                            <!-- End Single Progress Charts -->
-
-                            <!-- Start Single Progress Charts -->
-                            <div class="progress-charts ">
-                                <h6 class="heading lead">Cloud Architect</h6>
-                                <div class="progress">
-                                    <div class="progress-bar gradient-2 wow fadeInLeft" data-wow-duration="0.7s"
-                                        data-wow-delay=".5s" role="progressbar"
-                                        style="width: 72%; visibility: visible; animation-duration: 0.7s; animation-delay: 0.5s; animation-name: fadeInLeft;"
-                                        aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"><span
-                                            class="percent-label lead">£72,851</span></div>
-                                </div>
-                            </div>
-                            <!-- End Single Progress Charts -->
-
-                            <!-- Start Single Progress Charts -->
-                            <div class="progress-charts ">
-                                <h6 class="heading lead">Cloud Architect</h6>
-                                <div class="progress">
-                                    <div class="progress-bar gradient-3 wow fadeInLeft" data-wow-duration="0.8s"
-                                        data-wow-delay=".8s" role="progressbar"
-                                        style="width: 82%; visibility: visible; animation-duration: 0.8s; animation-delay: 0.8s; animation-name: fadeInLeft;"
-                                        aria-valuenow="82" aria-valuemin="0" aria-valuemax="100"><span
-                                            class="percent-label lead">£82,178</span></div>
-                                </div>
-                            </div>
-                            <!-- End Single Progress Charts -->
-
-                            <!-- Start Single Progress Charts -->
-                            <div class="progress-charts ">
-                                <h6 class="heading lead">Cloud Architect</h6>
-                                <div class="progress">
-                                    <div class="progress-bar gradient-4 wow fadeInLeft" data-wow-duration="0.9s"
-                                        data-wow-delay=".9s" role="progressbar"
-                                        style="width: 85%; visibility: visible; animation-duration: 0.9s; animation-delay: 0.9s; animation-name: fadeInLeft;"
-                                        aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
-                                            class="percent-label lead">£85,826</span></div>
-                                </div>
-                            </div>
-                            <!-- End Single Progress Charts -->
-
-                            <!-- Start Single Progress Charts -->
-                            <div class="progress-charts ">
-                                <h6 class="heading lead">Cloud Architect</h6>
-                                <div class="progress">
-                                    <div class="progress-bar gradient-5 wow fadeInLeft" data-wow-duration="0.9s"
-                                        data-wow-delay=".9s" role="progressbar"
-                                        style="width: 90%; visibility: visible; animation-duration: 0.9s; animation-delay: 0.9s; animation-name: fadeInLeft;"
-                                        aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"><span
-                                            class="percent-label lead">£90,431</span></div>
-                                </div>
-                            </div>
-                            <!-- End Single Progress Charts -->
-                        </div>
+                        </span>
                     </div>
-
                 </div>
                 <!-- Success Content End -->
             </div>
@@ -476,7 +488,7 @@ include './assets/php/inc/nav.php';
 
     <!-- Portfolio Section Start -->
     <div class="section section-padding ag-masonary-wrapper" data-bg-color="#f8faff">
-        <div class="container">
+        <div class="container" data-aos="fade-up">
 
             <div class="row align-items-center">
                 <div class="col-lg-5">
@@ -604,7 +616,7 @@ include './assets/php/inc/nav.php';
     <!-- Faq Section Start -->
     <div class="faq-section section section-padding-top" data-bg-color="#ffffff">
         <div class="container">
-            <div class="row row-cols-lg-2 row-cols-1 mb-n6">
+            <div class="row row-cols-lg-2 row-cols-1 mb-n6" data-aos="fade-up">
                 <!-- Faq Content Start -->
                 <div class="col mb-6">
                     <div class="faq-content">
@@ -710,7 +722,7 @@ include './assets/php/inc/nav.php';
 
         <div class="container">
             <div class="row row-cols-lg-2 row-cols-1 align-items-center">
-                <div class="col">
+                <div class="col" data-aos="fade-right">
                     <!-- Contact Information -->
                     <div class="contact-Information mr-xl-7">
                         <!-- Section Title Two Start -->
@@ -768,7 +780,7 @@ include './assets/php/inc/nav.php';
                     </div>
                     <!-- Contact Information -->
                 </div>
-                <div class="col mt-lg-0 mt-md-10 mt-8">
+                <div class="col mt-lg-0 mt-md-10 mt-8" data-aos="fade-up">
                     <!-- Contact Form Start -->
                     <div class="contact-form-area box-shadow">
                         <!-- Section Title Start -->
