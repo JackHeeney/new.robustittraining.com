@@ -284,10 +284,10 @@
     aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content" data-bg-image="assets/images/bg/contact-bg.jpg" data-bg-color="#000"
-            data-overlay="0.8">
+            data-overlay="0.9">
             <div class="modal-body">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <h4 class="modal-title text-uppercase" id="exampleModalLabel">Request a call back</h4>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -373,7 +373,10 @@
         <a href="index.php" class="offcanvas-title"><img
                 src="<? echo SITE_ADDR ?>/assets/images/logo/robust-it-logo-light-alt-2022.svg" alt="Robust IT Logo"
                 width="200px" height="auto"></a>
-        <button type="button" class="btn-close text-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+        <button type="button" class="close" data-bs-dismiss="offcanvas" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
     </div>
     <div class="offcanvas-body">
         <div class="container">
@@ -412,6 +415,12 @@
                             <li>
                                 <a class="dropdown-item" href="#">
                                     C|CSE
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    View all
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
@@ -456,6 +465,12 @@
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    View all
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -470,42 +485,60 @@
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <li>
-                                <a class="dropdown-item" href="#">SQL Server
+                                <a class="dropdown-item" href="#">Developer
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">Server
-                                    <i class="fas fa-chevron-right fcr-animate"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">
-                                    Security
+                                <a class="dropdown-item" href="#">Administrator
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
                                 <a class="dropdown-item" href="#">
-                                    Azure
+                                    Solution Architect
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
                                 <a class="dropdown-item" href="#">
-                                    Programming
+                                    Data Engineer
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
                                 <a class="dropdown-item" href="#">
-                                    Desktop
+                                    Data Scientist
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
                                 <a class="dropdown-item" href="#">
-                                    Office
+                                    AI Engineer
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    DevOps Engineer
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Security Engineer
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Functional Consultant
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    View all
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
@@ -582,6 +615,12 @@
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    View all
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -593,7 +632,7 @@
                     <div class="dropdown mt-3">
                         <button class="btn btn-outline-light btn-hover-secondary dropdown-toggle w-100" type="button"
                             id="dropdownMenuButton" data-bs-toggle="dropdown">
-                            Cisco
+                            CISCO
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <li>
@@ -621,6 +660,12 @@
                             <li>
                                 <a class="dropdown-item" href="#">
                                     CCNP
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    View all
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
@@ -655,23 +700,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">MSP®
-                                    <i class="fas fa-chevron-right fcr-animate"></i>
-                                </a>
-                            </li>
-                            <li>
-                            <li>
-                                <a class="dropdown-item" href="#">M_o_R®
-                                    <i class="fas fa-chevron-right fcr-animate"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">P30®
-                                    <i class="fas fa-chevron-right fcr-animate"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">MoP®
+                                <a class="dropdown-item" href="#">View all
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
@@ -695,37 +724,12 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">CRISC
-                                    <i class="fas fa-chevron-right fcr-animate"></i>
-                                </a>
-                            </li>
-                            <li>
                                 <a class="dropdown-item" href="#">CISM
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">CGEIT
-                                    <i class="fas fa-chevron-right fcr-animate"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">CSX-P
-                                    <i class="fas fa-chevron-right fcr-animate"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">CDPSE
-                                    <i class="fas fa-chevron-right fcr-animate"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">ITCA
-                                    <i class="fas fa-chevron-right fcr-animate"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">CET
+                                <a class="dropdown-item d-block ml-auto" href="#">View all
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
@@ -749,27 +753,12 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">SSCP
-                                    <i class="fas fa-chevron-right fcr-animate"></i>
-                                </a>
-                            </li>
-                            <li>
                                 <a class="dropdown-item" href="#">CCSP
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">CAP
-                                    <i class="fas fa-chevron-right fcr-animate"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">CSSLP
-                                    <i class="fas fa-chevron-right fcr-animate"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">HCISPP
+                                <a class="dropdown-item" href="#">View all
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
@@ -795,9 +784,46 @@
                             Cloud Architect
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">AWS Cloud Practitioner <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">AWS Solutions Architect (Assoc) <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">AWS Solutions Architect (Pro) <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Azure Solutions Architect Expert <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Finance and Operations Apps <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Azure for SAP Workloads Specialty <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Power Platform Solution Architect <i
+                                        class="fas fa-chevron-right fcr-animate"></i> </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Azure Data Engineer Associate <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Azure Data Scientist Associate <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">View all <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a>
+                            </li>
                         </ul>
 
                     </div>
@@ -812,9 +838,24 @@
                             Ethical Hacker
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#">C|EH <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item" href="#">C|ND <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item" href="#">C|HFI <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item" href="#">C|CSE <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item" href="#">Linux+ <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item" href="#">PenTest+ <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item" href="#">CySA+ <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item" href="#">CASP+ <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item" href="#">View all <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
                         </ul>
 
                     </div>
@@ -829,9 +870,26 @@
                             Network Engineer
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#">Network+ <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item" href="#">Server+ <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item" href="#">CCNA <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item" href="#">CCNA Wireless <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item" href="#">CCNA Security <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item" href="#">CCDA <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item" href="#">CCNP <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item" href="#">CASP+ <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item" href="#">C|ND <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item" href="#">View all <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
                         </ul>
 
                     </div>
@@ -846,9 +904,24 @@
                             IT Project Manager
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#">ITIL 4 Foundation <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item" href="#">PRINCE2 <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item" href="#">PRINCE2 Agile <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item" href="#">Internatnal Managing Benefits&#0153; <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item" href="#">International Change Manage... <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item" href="#">Project Management Qualifica... <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item" href="#">Project Fundamentals Qualifica... <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item" href="#">Six Sigma Black Belt <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item" href="#">View all <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
                         </ul>
 
                     </div>
@@ -863,9 +936,90 @@
                             Security Analyst
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    C|CSE
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Security+
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    CISA
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    CISM
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    CISSP
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    CCSP
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Security Administrator
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Azure Security Engineer
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Security Operations Analyst
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Identity and Access Admin
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Information Protection Admin
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Windows Server Hybrid Admin
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    CCNA Security
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    View all
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -879,9 +1033,66 @@
                             Developer
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    AWS Developer
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Azure Developer Associate
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Finance and Operations Apps
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Developer Associate
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Power Platform Developer
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Azure IoT Developer Specialty
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Azure Cosmos DB Developer
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Azure AI Engineer Associate
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Python Programming
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    View all
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -895,9 +1106,24 @@
                             DevOps
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    AWS SysOps Administrator
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    DevOps Engineer Expert
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    View all
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -911,9 +1137,108 @@
                             1st Line Support
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    A+
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    IT Fundamentals+
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Server+
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Azure Administrator
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Azure for SAP Workloads
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Azure Virtual Desktop
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Azure Stack Hub Operator
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Messaging Administrator
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Modern Desktop Administrator
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Security Administrator
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Enterprise Administrator
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Teams Administrator
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Identity and Access Admin
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Information Protection Admin
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Teams Voice Engineer
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Windows Server Hybrid Admin
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    View all
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>

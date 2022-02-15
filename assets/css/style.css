@@ -8484,7 +8484,7 @@ fieldset:disabled .btn {
   width: 1em;
   height: 1em;
   padding: 0.25em 0.25em;
-  color: #fff !important;
+  color: #fff;
   background: transparent
     url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 16 16'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e")
     no-repeat center center/1em auto;
@@ -8578,13 +8578,13 @@ fieldset:disabled .btn {
 
 .close {
   float: right;
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: 700;
   margin-bottom: 0.25em;
   line-height: 1;
-  color: #000;
+  color: var(--rb-primary);
   text-shadow: 0 1px 0 #fff;
-  opacity: 0.5;
+  opacity: 0.75;
   border: none;
   background-color: transparent;
 }
@@ -8670,10 +8670,10 @@ fieldset:disabled .btn {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: #fff;
+  background-color: #000;
   background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 0.3rem;
+  border: 3px dashed var(--rb-primary);
+  border-radius: 3rem;
   outline: 0;
 }
 
@@ -8718,6 +8718,7 @@ fieldset:disabled .btn {
 .modal-title {
   margin-bottom: 0;
   line-height: 1.5;
+  color: var(--rb-primary);
 }
 
 .modal-body {
@@ -8749,8 +8750,7 @@ fieldset:disabled .btn {
 }
 .modal-footer > * {
   margin: 0.25rem;
-}
-
+} 
 .modal-scrollbar-measure {
   position: absolute;
   top: -9999px;
@@ -34890,7 +34890,7 @@ svg:not(:root) {
   }
 
   .section-padding-t100 {
-    padding-top: 100px; 
+    padding-top: 100px;
   }
 }
 
@@ -38352,6 +38352,7 @@ h5 {
   margin-top: -0.5rem;
   margin-right: -0.5rem;
   margin-bottom: -0.5rem;
+  color: var(--rb-primary) !important;
 }
 .offcanvas-title {
   margin-bottom: 0;
@@ -38470,7 +38471,7 @@ h5 {
   vertical-align: middle;
 }
 .intro-slider .main-slider-nav:hover {
-  color: #1292ee;
+  color: var(--rb-primary);
 }
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
   .intro-slider .main-slider-nav {
@@ -40736,6 +40737,17 @@ h5 {
 }
 .footer-social-inline a:hover {
   color: #1292ee;
+}
+
+.scene  {
+  visibility: visible;
+
+}
+
+@media only screen and (max-width: 479px) {
+  .scene  {
+    visibility: hidden;
+  }
 }
 
 /*----------------------------------------*/
