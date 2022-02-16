@@ -121,11 +121,11 @@ include './assets/php/inc/nav.php';
     <!-- Slider/Intro Section End -->
 
     <!-- About Section Start -->
-    <div class="section section-padding-t90 section-padding-bottom-200" data-aos="fade-up">
+    <div class="section section-padding-t90 section-padding-bottom-200">
         <div class="container">
 
             <!-- Section Title Start -->
-            <div class="section-title text-center">
+            <div class="section-title text-center" data-aos="fade-up" data-aos-delay="200">
                 <h2 class="title">The Future is Robust.</h2>
                 <p class="sub-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime qui facere
                     blanditiis reiciendis possimus natus!</p>
@@ -137,7 +137,7 @@ include './assets/php/inc/nav.php';
             <div class="row">
 
                 <!-- About Image Area Start -->
-                <div class="col-xl-7 col-lg-6 col-12">
+                <div class="col-xl-7 col-lg-6 col-12" data-aos="fade-up" data-aos-delay="400">
                     <div class="about-image-area">
                         <div class="about-image js-tilt">
                             <img src="assets/images/about/home-one-about/cloud_about_2.jpg" alt="">
@@ -156,7 +156,7 @@ include './assets/php/inc/nav.php';
                 <!-- About Image Area Start -->
 
                 <!-- About Start -->
-                <div class="col-xl-5 col-lg-6 col-12 section-padding-t100">
+                <div class="col-xl-5 col-lg-6 col-12 section-padding-t100" data-aos="fade-up" data-aos-delay="600">
 
 
                     <!-- Section Title Two Start -->
@@ -538,7 +538,7 @@ include './assets/php/inc/nav.php';
                 <!-- Single Portfolio Start -->
                 <div class="col cat-4" data-aos="fade-up" data-aos-delay="1000" data-aos-offset="-200">
                     <div class="single-portfolio">
-                        <a href="work-details.php">
+                        <a href="<?php echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker.php">
                             <div class="thumbnail">
                                 <img class="img-fluid" src="assets/images/portfolio/portfolio-5.jpg" alt="Portfolio-01">
                             </div>
@@ -681,7 +681,7 @@ include './assets/php/inc/nav.php';
 
         <div class="container">
             <div class="row row-cols-lg-2 row-cols-1 align-items-center">
-                <div class="col" data-aos="fade-right" data-aos-offset="-200" data-aos-duration="500">
+                <div class="col" data-aos="fade-right" data-aos-offset="-200">
                     <!-- Contact Information -->
                     <div class="contact-Information mr-xl-7">
                         <!-- Section Title Two Start -->
@@ -714,10 +714,22 @@ include './assets/php/inc/nav.php';
                             </div>
                             <div class="info">
                                 <h4 class="title">Give Us A Call</h4>
-                                <span class="info-text"> Sales Team: <a href="tel:02038 757 827"
-                                        alt="Sales Team Contact Number">02038 757 827</a> <br />
-                                    Support Team: <a href="tel:02038 757 831" alt="Support Team Contact Number">02038
-                                        757 831</a></span>
+                                <span class="info-text">
+                                    Sales Team:
+                                    <a href="tel:02038 757 827" alt="Sales Team Contact Number">
+                                        02038 757 827
+                                    </a>
+                                    <br />
+                                    Support Team:
+                                    <a href="tel:02038 757 831" alt="Support Team Contact Number">
+                                        02038 757 831
+                                    </a>
+                                    <br />
+                                    Freephone:
+                                    <a href="tel:0800 677 1232" alt="Freephone Contact Number">
+                                        0800 677 1232
+                                    </a>
+                                </span>
                             </div>
                         </div>
                         <!-- Contact Info Item End -->
@@ -730,8 +742,9 @@ include './assets/php/inc/nav.php';
                             <div class="info">
                                 <h4 class="title"> Help Desk</h4>
                                 <span class="info-text">
-                                    <a href="#">info@robustittraining.com</a><br>
-                                    <a href="#">compliance@robustittraining.com</a>
+                                    <a href="mailto:info@robustit.co.uk">info@robustit.co.uk</a>,<br />
+                                    <a href="mailto:support@robustit.co.uk">support@robustit.co.uk</a>,<br />
+                                    <a href="mailto:compliance@robustit.co.uk">compliance@robustit.co.uk</a>
                                 </span>
                             </div>
                         </div>
@@ -739,8 +752,7 @@ include './assets/php/inc/nav.php';
                     </div>
                     <!-- Contact Information -->
                 </div>
-                <div class="col mt-lg-0 mt-md-10 mt-8" data-aos="fade-up" data-aos-offset="-100"
-                    data-aos-duration="500">
+                <div class="col mt-lg-0 mt-md-10 mt-8" data-aos="fade-up" data-aos-offset="-100">
                     <!-- Contact Form Start -->
                     <div class="contact-form-area box-shadow">
                         <!-- Section Title Start -->

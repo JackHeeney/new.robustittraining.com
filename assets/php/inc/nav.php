@@ -3,7 +3,7 @@
     <div class="site-main-mobile-menu-inner">
         <div class="mobile-menu-header">
             <div class="mobile-menu-logo">
-                <a href="index.php"><img src="<? echo SITE_ADDR ?>/assets/images/logo/robust-it-logo-light-2022.svg"
+                <a href="index.php"><img src="<? echo SITE_ADDR ?>/assets/images/logo/robust-it-logo-light-alt-2022.svg"
                         alt="Robust IT Logo" width="150px" height="auto"></a>
             </div>
             <div class="mobile-menu-close">
@@ -287,20 +287,18 @@
             data-overlay="0.9">
             <div class="modal-body">
                 <div class="modal-header">
-                    <h4 class="modal-title text-uppercase" id="exampleModalLabel">Request a call back</h4>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <h4 class="modal-title text-center" id="exampleModalLabel">Request a call back</h4>
+
+                    <button type=" button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
 
 
+
                 <form action="https://robust.flg360.co.uk/api/APIHTTPPost.php" method="POST">
 
                     <div class="row">
-                        <div class="col-lg-6 col-12">
-                            <img src="../assets/img/beginner_skill_lvl.jpg" alt="..." class="card-img-top">
-
-                        </div>
 
                         <!-- form details for sending info to leadsite -->
                         <input type="hidden" name="intLeadGroupID" value="54553" />
@@ -314,37 +312,42 @@
                         <input type="hidden" name="intDPAStatusEmailID" value="1">
                         <input type="hidden" name="strAPISuccessURL" value="http://www.robustittraining.com/thankyou" />
                         <input type="hidden" name="strAPIFailURL" value="http://www.robustittraining.com/sorry" />
-                        <input type="hidden" name="strLeadData2" id="strLeadData2"
-                            value="Lead is from www.robustittraining.com/courses/cyber_security_courses popup form new to cyber security" />
+                        <input type="hidden" name="strLeadData2" id="strLeadData2" value="" />
                         <!-- //end -->
 
-
-                        <div class="col-12 col-md-6">
+                        <div class="col-6">
                             <div class="form-label-group mt-2">
                                 <input type="text" class="form-control form-control-flush" id="strLeadFirstName"
-                                    name="strLeadFirstName" placeholder="First Name" required=required />
+                                    name="strLeadFirstName" placeholder="First Name" required="required" />
                             </div>
+                        </div>
+                        <div class="col-6">
                             <div class="form-label-group mt-2">
                                 <input type="text" class="form-control form-control-flush" id="strLeadLastName"
-                                    name="strLeadLastName" placeholder="Last Name" required=required />
+                                    name="strLeadLastName" placeholder="Last Name" required="required" />
                             </div>
+                        </div>
+
+                        <div class="col-12 col-md-12">
                             <div class="form-label-group mt-2">
                                 <input type="email" class="form-control form-control-flush" id="strLeadEmail"
-                                    name="strLeadEmail" placeholder="Email" required=required />
+                                    name="strLeadEmail" placeholder="Email" required="required" />
                             </div>
+
                             <div class="form-label-group mt-2">
                                 <input type="number" class="form-control form-control-flush" id="strLeadPhone1"
-                                    name="strLeadPhone1" placeholder="Phone Number" required=required />
+                                    name="strLeadPhone1" placeholder="Phone Number" required="required" />
                             </div>
-                            <br />
-                            <span style="font-size: 1rem;" class="text-gray-700">
-                                <i class="fas fa-info-circle text-gray-700"></i>
+
+                            <small class="d-block text-muted text-center mx-auto fz-small my-2"><i
+                                    class="fas fa-info-circle"></i>
                                 We promise to never share your information with anyone else or send you junk mail.
-                            </span>
+                            </small>
+
                             <div class="mt-2">
-                                <button class="btn btn-block btn-primary lift" type="submit" name="submit"
-                                    value="submit">
-                                    Request Info pack <i class="fas fa-paper-plane"></i>
+                                <button class="btn btn-block btn-secondary btn-hover--secondary" type="submit"
+                                    name="submit" value="submit">
+                                    Request Callback <i class="fas fa-phone fcr-animate"></i>
                                 </button>
                             </div>
                         </div>
@@ -354,10 +357,7 @@
 
 
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary btn-hover-primary"
-                        data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-outline-white btn-hover--secondary">Submit Request <i
-                            class="fas fa-paper-plane fcr-animate"></i></button>
+
                 </div>
             </div>
 
@@ -395,7 +395,8 @@
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item"
+                                    href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker.php">
                                     C|EH <span class="ft-badge">v11</span>
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>

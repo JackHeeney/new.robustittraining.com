@@ -8668,12 +8668,14 @@ fieldset:disabled .btn {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  margin: auto 0;
   width: 100%;
+  max-height: 500px !important;
   pointer-events: auto;
   background-color: #000;
   background-clip: padding-box;
   border: 3px dashed var(--rb-primary);
-  border-radius: 3rem;
+  border-radius: 50%;
   outline: 0;
 }
 
@@ -8702,10 +8704,10 @@ fieldset:disabled .btn {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: justify;
+  -webkit-box-pack: justify; 
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 1rem 1rem;
+  padding: 0 1rem;
   border-bottom: 1px solid #dee2e6;
   border-top-left-radius: calc(0.3rem - 1px);
   border-top-right-radius: calc(0.3rem - 1px);
@@ -8717,6 +8719,7 @@ fieldset:disabled .btn {
 
 .modal-title {
   margin-bottom: 0;
+  text-shadow: 0 1px 0 #000;
   line-height: 1.5;
   color: var(--rb-primary);
 }
@@ -8726,7 +8729,7 @@ fieldset:disabled .btn {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
-  padding: 1rem;
+  padding: 4rem;
 }
 
 .modal-footer {
@@ -8750,7 +8753,7 @@ fieldset:disabled .btn {
 }
 .modal-footer > * {
   margin: 0.25rem;
-} 
+}
 .modal-scrollbar-measure {
   position: absolute;
   top: -9999px;
@@ -36900,6 +36903,11 @@ textarea:focus {
   position: relative;
   margin-bottom: 40px;
 }
+
+.fz-small{
+  font-size: 0.8rem;
+}
+
 @media only screen and (max-width: 767px) {
   .section-title {
     margin-bottom: 30px;
@@ -37043,7 +37051,7 @@ textarea:focus {
   bottom: 0;
 }
 .section-title-two .title {
-  font-size: 42px;
+  font-size: 48px; 
   line-height: 42px;
   margin: 0;
   color: #030f27;
@@ -37085,7 +37093,7 @@ textarea:focus {
     width: 60px;
   }
   .section-title-two .title {
-    font-size: 36px;
+    font-size: 42px;
     line-height: 48px;
   }
   .section-title-two .title br {
@@ -37179,7 +37187,7 @@ h6:hover .fcr-animate {
   left: 0;
   background-color: #030e22 !important;
   width: 100%;
-  height: 80px;
+  height: 100px;
   -webkit-animation: headerSlideDown 0.95s ease forwards;
   animation: headerSlideDown 0.95s ease forwards;
   -webkit-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1);
@@ -37252,7 +37260,7 @@ h6:hover .fcr-animate {
 }
 .header-logo a img {
   width: 100%;
-  padding: 15px 0 0 0;
+  padding: 0;
 }
 .header-logo a img.light-logo {
   position: absolute;
@@ -40739,13 +40747,12 @@ h5 {
   color: #1292ee;
 }
 
-.scene  {
+.scene {
   visibility: visible;
-
 }
 
 @media only screen and (max-width: 479px) {
-  .scene  {
+  .scene {
     visibility: hidden;
   }
 }

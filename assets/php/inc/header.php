@@ -27,37 +27,37 @@ define("SITE_ADDR", "http://localhost/new.robustittraining.com");
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon/favicon.ico">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="<? echo SITE_ADDR ?>/assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<? echo SITE_ADDR ?>/assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<? echo SITE_ADDR ?>/assets/images/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="<? echo SITE_ADDR ?>/assets/images/favicon/favicon.ico">
+    <link rel="manifest" href="<? echo SITE_ADDR ?>/assets/images/site.webmanifest">
 
     <!-- CSS
 	============================================ -->
 
     <!-- Vendor CSS (Icon Font) -->
     <!--
-    <link rel="stylesheet" href="assets/css/vendor/font-awesome-pro.min.css">
-    <link rel="stylesheet" href="assets/css/vendor/pe-icon-7-stroke.css">
-    <link rel="stylesheet" href="assets/css/vendor/muli-font.css"> -->
+    <link rel="stylesheet" href="<? echo SITE_ADDR ?>/assets/css/vendor/font-awesome-pro.min.css">
+    <link rel="stylesheet" href="<? echo SITE_ADDR ?>/assets/css/vendor/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="<? echo SITE_ADDR ?>/assets/css/vendor/muli-font.css"> -->
 
     <!-- Plugins CSS (All Plugins Files) -->
     <!--
-    <link rel="stylesheet" href="assets/css/plugins/swiper.min.css">
-    <link rel="stylesheet" href="assets/css/plugins/animate.css">
-    <link rel="stylesheet" href="assets/css/plugins/aos.min.css">
-    <link rel="stylesheet" href="assets/css/plugins/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/plugins/jquery.animatedheadline.css">
+    <link rel="stylesheet" href="<? echo SITE_ADDR ?>/assets/css/plugins/swiper.min.css">
+    <link rel="stylesheet" href="<? echo SITE_ADDR ?>/assets/css/plugins/animate.css">
+    <link rel="stylesheet" href="<? echo SITE_ADDR ?>/assets/css/plugins/aos.min.css">
+    <link rel="stylesheet" href="<? echo SITE_ADDR ?>/assets/css/plugins/magnific-popup.css">
+    <link rel="stylesheet" href="<? echo SITE_ADDR ?>/assets/css/plugins/jquery.animatedheadline.css">
      -->
 
     <!-- Main Style CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="<? echo SITE_ADDR ?>/assets/css/style.css">
 
     <!-- Use the minified version files listed below for better performance and remove the files listed above -->
-    <link rel="stylesheet" href="assets/css/vendor/vendor.min.css">
-    <link rel="stylesheet" href="assets/css/plugins/plugins.min.css">
-    <!-- <link rel="stylesheet" href="assets/css/style.min.css"> -->
+    <link rel="stylesheet" href="<? echo SITE_ADDR ?>/assets/css/vendor/vendor.min.css">
+    <link rel="stylesheet" href="<? echo SITE_ADDR ?>/assets/css/plugins/plugins.min.css">
+    <!-- <link rel="stylesheet" href="<? echo SITE_ADDR ?>/assets/css/style.min.css"> -->
 
 </head>
 

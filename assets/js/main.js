@@ -146,6 +146,7 @@
   AOS.init({
     offset: 80,
     duration: 1000,
+    placement: top,
     once: false,
     easing: "ease-out-back",
   });
