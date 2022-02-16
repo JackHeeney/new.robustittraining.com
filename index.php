@@ -40,8 +40,8 @@ include './assets/php/inc/nav.php';
                                                 labs in AWS, Microsoft, EC-Council, and more.
                                             </p>
                                         </div>
-                                        <a href="#" class="btn btn-secondary btn-hover-primary">Get Started <i
-                                                class="fas fa-chevron-right fcr-animate"></i></a>
+                                        <a href="#scroll-to-one" class="btn btn-secondary btn-hover-primary">Get Started
+                                            <i class="fas fa-chevron-right fcr-animate"></i></a>
                                         <a href="#" class="btn btn-outline-white btn-hover--secondary"> For Business <i
                                                 class="fas fa-chevron-right fcr-animate"></i></a>
                                     </div>
@@ -69,11 +69,10 @@ include './assets/php/inc/nav.php';
                                             <p>Our bespoke AWS cloud training solution for online and classroom.
                                             </p>
                                         </div>
-                                        <a href="course-details-free.html"
-                                            class="btn btn-secondary btn-hover-primary">Get Started <i
-                                                class="fas fa-chevron-right fcr-animate"></i></a>
-                                        <a href="#" class="btn btn-outline-white btn-hover--secondary"> For Business <i
-                                                class="fas fa-chevron-right fcr-animate"></i></a>
+                                        <a href="#scroll-to-one" class="btn btn-secondary btn-hover-primary">Get Started
+                                            <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                        <a href="#" class="btn btn-outline-white btn-hover--secondary"> For
+                                            Business <i class="fas fa-chevron-right fcr-animate"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -100,9 +99,8 @@ include './assets/php/inc/nav.php';
                                                 solutions.
                                             </p>
                                         </div>
-                                        <a href="course-details-free.html"
-                                            class="btn btn-secondary btn-hover-primary">Get Started <i
-                                                class="fas fa-chevron-right fcr-animate"></i></a>
+                                        <a href="#scroll-to-one" class="btn btn-secondary btn-hover-primary">Get Started
+                                            <i class="fas fa-chevron-right fcr-animate"></i></a>
                                         <a href="#" class="btn btn-outline-white btn-hover--secondary"> For Business <i
                                                 class="fas fa-chevron-right fcr-animate"></i></a>
                                     </div>
@@ -121,7 +119,8 @@ include './assets/php/inc/nav.php';
     <!-- Slider/Intro Section End -->
 
     <!-- About Section Start -->
-    <div class="section section-padding-t90 section-padding-bottom-200">
+    <div class="section section-padding-t90 section-padding-bottom-200" id="scroll-to-one"
+        style="scroll-margin-top: 6em;">
         <div class="container">
 
             <!-- Section Title Start -->
@@ -160,16 +159,15 @@ include './assets/php/inc/nav.php';
 
 
                     <!-- Section Title Two Start -->
-                    <div class="section-title-two">
-                        <span class="sub-title">Start your quest</span>
-                        <h3 class="title">Start your journey with our bespoke cloud solutions.
+                    <div class="section-title-two mt-10">
+                        <span class="sub-title">Begin your journey</span>
+                        <h3 class="title">Take the first step
                         </h3>
                     </div>
                     <!-- Section Title Two End -->
 
-                    <p>Our cloud training is Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Unde laborum
-                        cupiditate vel quas, odit ipsa!.</p>
+                    <p>Begin your learning journey with Robust IT. We offer bespoke online and classroom learning
+                        solutions to get you from the classroom to your dream job. </p>
 
 
                     <a class="btn btn-primary btn-hover-secondary mt-xl-8 mt-lg-8 mt-md-6 mt-4" href="#cta">Begin

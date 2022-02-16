@@ -8,7 +8,8 @@
             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 col-12 mb-6">
                 <div class="footer-widget">
                     <div class="footer-logo">
-                        <a href="<? echo SITE_ADDR ?>/"><img src="assets/images/logo/robust-it-logo-light-alt-2022.svg"
+                        <a href="<? echo SITE_ADDR ?>/"><img
+                                src="<? echo SITE_ADDR ?>/assets/images/logo/robust-it-logo-light-alt-2022.svg"
                                 alt="Robust IT Logo" width="200px"></a>
                     </div>
                     <div class="footer-widget-content">
