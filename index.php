@@ -113,36 +113,6 @@ include './assets/php/inc/nav.php';
                 </div>
                 <!-- item end  -->
 
-
-                <!-- item start  -->
-                <!-- <div class="swiper-slide">
-                    <div class="intro-section section bg-video-4 before-zindex-9" data-bg-color="#030f27"
-                        data-overlay="0.7" data-bg-image="">
-
-                        <div class="container">
-                            <div class="row row-cols-lg-1 row-cols-1">
-
-                                <div class="col align-self-center max-mb-30">
-                                    <div class="intro-content mt-8">
-                                        <h2 class="title">Cyber Security Training. </h2>
-                                        <div class="desc">
-                                            <p>Our bespoke AWS cloud training solution for online and classroom.
-                                            </p>
-                                        </div>
-                                        <a href="course-details-free.html"
-                                            class="btn btn-secondary btn-hover-primary">Get Started <i
-                                                class="fas fa-chevron-right fcr-animate"></i></a>
-                                        <a href="#" class="btn btn-outline-white btn-hover--secondary"> For Business <i
-                                                class="fas fa-chevron-right fcr-animate"></i></a>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- item end  -->
-
             </div>
             <div class="home-slider-prev swiper-button-prev main-slider-nav"><i class="fal fa-angle-left"></i></div>
             <div class="home-slider-next swiper-button-next main-slider-nav"><i class="fal fa-angle-right"></i></div>
@@ -151,11 +121,11 @@ include './assets/php/inc/nav.php';
     <!-- Slider/Intro Section End -->
 
     <!-- About Section Start -->
-    <div class="section section-padding-t90 section-padding-bottom-200">
+    <div class="section section-padding-t90 section-padding-bottom-200" data-aos="fade-up">
         <div class="container">
 
             <!-- Section Title Start -->
-            <div class="section-title text-center" data-aos="fade-up">
+            <div class="section-title text-center">
                 <h2 class="title">The Future is Robust.</h2>
                 <p class="sub-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime qui facere
                     blanditiis reiciendis possimus natus!</p>
@@ -167,7 +137,7 @@ include './assets/php/inc/nav.php';
             <div class="row">
 
                 <!-- About Image Area Start -->
-                <div class="col-xl-7 col-lg-6 col-12" data-aos="fade-up">
+                <div class="col-xl-7 col-lg-6 col-12">
                     <div class="about-image-area">
                         <div class="about-image js-tilt">
                             <img src="assets/images/about/home-one-about/cloud_about_2.jpg" alt="">
@@ -186,7 +156,7 @@ include './assets/php/inc/nav.php';
                 <!-- About Image Area Start -->
 
                 <!-- About Start -->
-                <div class="col-xl-5 col-lg-6 col-12 section-padding-t100" data-aos="fade-up">
+                <div class="col-xl-5 col-lg-6 col-12 section-padding-t100">
 
 
                     <!-- Section Title Two Start -->
@@ -226,54 +196,53 @@ include './assets/php/inc/nav.php';
             </div>
 
             <!-- Section Title End -->
-            <a class="btn btn-primary btn-hover-secondary" data-aos="zoom-in-down"
-                href="<?php echo SITE_ADDR ?>/learning-paths.php">Find your path <i
-                    class="fas fa-chevron-right fcr-animate"></i></a>
+            <a class="btn btn-primary btn-hover-secondary" href="<?php echo SITE_ADDR ?>/learning-paths.php">Find your
+                path <i class="fas fa-chevron-right fcr-animate"></i></a>
 
             <!-- Icon Animation Start -->
-            <div class="shape shape-1" data-aos="zoom-in-left">
+            <div class="shape shape-1" data-aos="fade-zoom-in" data-aos-delay="1400">
                 <span>
                     <a href="#" alt="">
                         <img src="assets/images/icon-animation/icon-1.png" alt="comptia icon">
                     </a>
                 </span>
             </div>
-            <div class="shape shape-2" data-aos="zoom-in-right">
+            <div class="shape shape-2" data-aos="fade-zoom-in" data-aos-delay="1200">
                 <span>
                     <a href="#" alt="">
                         <img src="assets/images/icon-animation/icon-8.png" alt="azure icon">
                     </a>
                 </span>
             </div>
-            <div class="shape shape-3" data-aos="zoom-in-left">
+            <div class="shape shape-3" data-aos="fade-zoom-in" data-aos-delay="800">
                 <span>
                     <a href="#" alt="">
                         <img src="assets/images/icon-animation/icon-3.png" alt="microsoft icon">
                     </a>
                 </span>
             </div>
-            <div class="shape shape-4" data-aos="zoom-in-right">
+            <div class="shape shape-4" data-aos="fade-zoom-in" data-aos-delay="1000">
                 <span>
                     <a href="#" alt="">
                         <img src="assets/images/icon-animation/icon-4.png" alt="aws icon">
                     </a>
                 </span>
             </div>
-            <div class="shape shape-5" data-aos="zoom-in-left">
+            <div class="shape shape-5" data-aos="fade-zoom-in" data-aos-delay="600">
                 <span>
                     <a href="#" alt="">
                         <img src="assets/images/icon-animation/icon-5.png" alt="google cloud icon">
                     </a>
                 </span>
             </div>
-            <div class="shape shape-6" data-aos="zoom-in-right">
+            <div class="shape shape-6" data-aos="fade-zoom-in" data-aos-delay="400">
                 <span>
                     <a href="#" alt="">
                         <img src="assets/images/icon-animation/icon-6.png" alt="ec-council icon">
                     </a>
                 </span>
             </div>
-            <div class="shape shape-7" data-aos="zoom-in-left">
+            <div class="shape shape-7" data-aos="fade-zoom-in" data-aos-delay="1600">
                 <span>
                     <a href="#" alt="">
                         <img src="assets/images/icon-animation/icon-7.png" alt="linux icon">
@@ -303,9 +272,10 @@ include './assets/php/inc/nav.php';
             <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mb-n6">
 
                 <!-- Icon Box Start -->
-                <div class="col mb-6" data-aos="fade-up">
+                <div class="col mb-6">
 
-                    <div class="icon-box text-center" data-vivus-hover>
+                    <div class="icon-box text-center" data-vivus-hover data-aos="fade-up" data-aos-delay="300"
+                        data-aos-duration="800">
                         <div class="icon"><img class="svgInject"
                                 src="assets/images/svg/svgrepo/office-block-svgrepo-com.svg" alt=""></div>
                         <div class="content">
@@ -321,9 +291,10 @@ include './assets/php/inc/nav.php';
                 <!-- Icon Box End -->
 
                 <!-- Icon Box Start -->
-                <div class="col mb-6" data-aos="fade-up">
+                <div class="col mb-6">
 
-                    <div class="icon-box text-center" data-vivus-hover>
+                    <div class="icon-box text-center" data-vivus-hover data-aos="fade-up" data-aos-delay="600"
+                        data-aos-duration="800">
                         <div class="icon"><img class="svgInject"
                                 src="assets/images/svg/svgrepo/dog-tag-military-svgrepo-com.svg" alt="">
                         </div>
@@ -340,9 +311,10 @@ include './assets/php/inc/nav.php';
                 <!-- Icon Box End -->
 
                 <!-- Icon Box Start -->
-                <div class="col mb-6" data-aos="fade-up">
+                <div class="col mb-6">
 
-                    <div class="icon-box text-center" data-vivus-hover>
+                    <div class="icon-box text-center" data-vivus-hover data-aos="fade-up" data-aos-delay="800"
+                        data-aos-duration="800">
                         <div class="icon"><img class="svgInject"
                                 src="assets/images/svg/svgrepo/job-search-svgrepo-com.svg" alt=""></div>
                         <div class="content">
@@ -369,7 +341,7 @@ include './assets/php/inc/nav.php';
             <div class="row">
 
                 <!-- Success Image Start -->
-                <div class="col-lg-6" data-aos="fade-left">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
                     <div class="about-image-area right-0 skill-image-area">
                         <div class="about-image js-tilt">
                             <img src="assets/images/skill/skill-1.jpg" alt="">
@@ -388,7 +360,7 @@ include './assets/php/inc/nav.php';
                 <!-- Success Image End -->
 
                 <!-- Success Content Start -->
-                <div class="offset-lg-1 col-lg-5" data-aos="fade-up">
+                <div class="offset-lg-1 col-lg-5" data-aos="fade-up" data-aos-delay="600">
 
                     <div class="success-content section-padding-t100 mt-lg-0 mt-md-50 mt-sm-50 mt-40">
                         <!-- Section Title Two Start -->
@@ -474,9 +446,9 @@ include './assets/php/inc/nav.php';
 
     <!-- Portfolio Section Start -->
     <div class="section section-padding ag-masonary-wrapper" data-bg-color="#f8faff">
-        <div class="container" data-aos="fade-up">
+        <div class="container">
 
-            <div class="row align-items-center">
+            <div class="row align-items-center" data-aos="fade-up">
                 <div class="col-lg-5">
                     <!-- Section Title Two Start -->
                     <div class="section-title-two mb-lg-12 mb-md-6">
@@ -504,7 +476,7 @@ include './assets/php/inc/nav.php';
             <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 g-0 mesonry-list">
                 <div class="resizer col"></div>
                 <!-- Single Portfolio Start -->
-                <div class="col cat-1">
+                <div class="col cat-1" data-aos="fade-up" data-aos-delay="200">
                     <div class="single-portfolio">
                         <a href="work-details.php">
                             <div class="thumbnail">
@@ -519,7 +491,7 @@ include './assets/php/inc/nav.php';
                 </div>
                 <!-- Single Portfolio End -->
                 <!-- Single Portfolio Start -->
-                <div class="col cat-2">
+                <div class="col cat-2" data-aos="fade-up" data-aos-delay="400">
                     <div class="single-portfolio">
                         <a href="work-details.php">
                             <div class="thumbnail">
@@ -534,7 +506,7 @@ include './assets/php/inc/nav.php';
                 </div>
                 <!-- Single Portfolio End -->
                 <!-- Single Portfolio Start -->
-                <div class="col cat-3">
+                <div class="col cat-3" data-aos="fade-up" data-aos-delay="600" data-aos-offset="-200">
                     <div class="single-portfolio">
                         <a href="work-details.php">
                             <div class="thumbnail">
@@ -549,7 +521,7 @@ include './assets/php/inc/nav.php';
                 </div>
                 <!-- Single Portfolio End -->
                 <!-- Single Portfolio Start -->
-                <div class="col cat-3">
+                <div class="col cat-3" data-aos="fade-up" data-aos-delay="800" data-aos-offset="-200">
                     <div class="single-portfolio">
                         <a href="work-details.php">
                             <div class="thumbnail">
@@ -564,7 +536,7 @@ include './assets/php/inc/nav.php';
                 </div>
                 <!-- Single Portfolio End -->
                 <!-- Single Portfolio Start -->
-                <div class="col cat-4">
+                <div class="col cat-4" data-aos="fade-up" data-aos-delay="1000" data-aos-offset="-200">
                     <div class="single-portfolio">
                         <a href="work-details.php">
                             <div class="thumbnail">
@@ -580,7 +552,7 @@ include './assets/php/inc/nav.php';
                 </div>
                 <!-- Single Portfolio End -->
                 <!-- Single Portfolio Start -->
-                <div class="col cat-4">
+                <div class="col cat-4" data-aos="fade-up" data-aos-delay="1200" data-aos-offset="-500">
                     <div class="single-portfolio">
                         <a href="work-details.php">
                             <div class="thumbnail">
@@ -604,7 +576,7 @@ include './assets/php/inc/nav.php';
         <div class="container">
             <div class="row row-cols-lg-2 row-cols-1 mb-n6">
                 <!-- Faq Content Start -->
-                <div class="col mb-6" data-aos="fade-up" data-aos-offset="-100" data-aos-duration="500">
+                <div class="col mb-6" data-aos="fade-up" data-aos-offset="-100" data-aos-duration="800">
                     <div class="faq-content">
                         <!-- Section Title Two Start -->
                         <div class="section-title-two">
@@ -679,7 +651,8 @@ include './assets/php/inc/nav.php';
                 </div>
                 <!-- Faq Content End -->
 
-                <div class="col mb-6 pl-xl-12" data-aos="fade-right" data-aos-offset="-100" data-aos-duration="500">
+                <div class="col mb-6 pl-xl-12" data-aos="fade-up" data-aos-delay="300" data-aos-offset="-100"
+                    data-aos-duration="800">
                     <!-- Faq Image Start -->
                     <div class="about-image-area faq-image-area">
                         <div class="about-image right-n50 js-tilt">
