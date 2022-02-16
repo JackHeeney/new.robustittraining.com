@@ -68,7 +68,7 @@ include '../../assets/php/inc/nav.php';
 
                                 <div class="details-list">
                                     <label>Length</label>
-                                    <span><a href="#">4 hours to complete the exam</a></span>
+                                    <span>4 hours to complete the exam</span>
                                 </div>
 
                                 <div class="details-list">
