@@ -232,6 +232,11 @@
     fadeEffect: {
       crossFade: true,
     },
+    pagination: {
+      el: ".swiper-pagination",
+      type: "progressbar",
+      clickable: true,
+    },
     navigation: {
       nextEl: ".home-slider-next",
       prevEl: ".home-slider-prev",
@@ -247,6 +252,9 @@
     slidesPerGroup: 1,
     centeredSlides: true,
     loop: true,
+    autoplay: {
+      delay: 10000,
+    },
     speed: 1000,
     spaceBetween: 50,
     autoHeight: true,
@@ -278,6 +286,9 @@
   var brandSlider = new Swiper(".brand-carousel", {
     watchSlidesVisibility: true,
     loop: true,
+    autoplay: {
+      delay: 2000,
+    },
     spaceBetween: 30,
     slidesPerView: 6,
     breakpoints: {

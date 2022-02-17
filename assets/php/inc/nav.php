@@ -55,12 +55,14 @@
                             <div class="row">
                                 <div class="col-12">
                                     <h4 class="text-muted">Company</h4>
-                                    <li><a href="<? echo SITE_ADDR ?>/"><span class="text-muted">About</span></a>
+                                    <li><a href="<? echo SITE_ADDR ?>/about-us.php"><span
+                                                class="text-muted">About</span></a>
                                     </li>
                                     <li><a href="<? echo SITE_ADDR ?>/"><span class="menu-text">Blog</span></a></li>
                                     <li><a href="<? echo SITE_ADDR ?>/"><span class="menu-text">Testimonials</span></a>
                                     </li>
-                                    <li><a href="<? echo SITE_ADDR ?>/"><span class="menu-text">Terms &
+                                    <li><a href="<? echo SITE_ADDR ?>/terms-and-conditions.php"><span
+                                                class="menu-text">Terms &
                                                 Conditions</span></a>
                                     </li>
                                     <li><a href="<? echo SITE_ADDR ?>/"><span class="menu-text">Privacy
@@ -148,14 +150,15 @@
                                     <span class="menu-toggle"><i class="far fa-angle-down"></i></span>
                                 </li>
                                 <li class="has-children">
-                                    <a href="#"><span class="menu-text">About Us</span></a>
+                                    <a href="#"><span class="menu-text">About
+                                            Us</span></a>
                                     <span class="menu-toggle"><i class="far fa-angle-down"></i></span>
                                     <ul class="sub-menu">
                                         <div class="row">
                                             <div class="col-12">
                                                 <h5 class="text-muted">Company</h5>
                                                 <li>
-                                                    <a href="<? echo SITE_ADDR ?>/">
+                                                    <a href="<? echo SITE_ADDR ?>/about-us.php">
                                                         <span class="menu-text">
                                                             About <i class="fas fa-chevron-right fcr-animate"></i>
                                                         </span>
@@ -178,7 +181,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="<? echo SITE_ADDR ?>/">
+                                                    <a href="<? echo SITE_ADDR ?>/terms-and-conditions.php">
                                                         <span class="menu-text">
                                                             Terms & Conditions <i
                                                                 class="fas fa-chevron-right fcr-animate"></i>

@@ -149,6 +149,9 @@
 <script src="<? echo SITE_ADDR ?>/assets/js/vendor/jquery-3.6.0.min.js"></script>
 <script src="<? echo SITE_ADDR ?>/assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
 <script src="<? echo SITE_ADDR ?>/assets/js/vendor/bootstrap.bundle.min.js"></script> -->
+<!-- TrustBox script -->
+<script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
+<!-- End TrustBox script -->
 
 <!-- Plugins JS -->
 <!-- 

@@ -16,8 +16,20 @@ include './assets/php/inc/nav.php';
 
 ?>
 
+<div class="section">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+
+
+            </div>
+        </div>
+    </div>
+
+</div>
 
 <div id="page" class="section">
+
 
     <!-- Slider/Intro Section Start -->
     <div class="intro-slider-wrap section">
@@ -34,6 +46,7 @@ include './assets/php/inc/nav.php';
 
                                 <div class="col align-self-center">
                                     <div class="intro-content mt-xl-8 mt-lg-8 mt-md-8 mt-sm-8 mt-xs-8">
+
                                         <h2 class="title">A Better Way To Learn.</h2>
                                         <div class="desc">
                                             <p>Get certified now with official courses and real hands-on
@@ -44,6 +57,18 @@ include './assets/php/inc/nav.php';
                                             <i class="fas fa-chevron-right fcr-animate"></i></a>
                                         <a href="#" class="btn btn-outline-white btn-hover--secondary"> For Business <i
                                                 class="fas fa-chevron-right fcr-animate"></i></a>
+
+                                        <div class="trustpilot" style="position: relative; bottom: -50px; right: 180px">
+
+                                            <!-- TrustBox widget - Micro Combo -->
+                                            <div class="trustpilot-widget" data-locale="en-GB"
+                                                data-template-id="5419b6ffb0d04a076446a9af"
+                                                data-businessunit-id="5e470c6a94d8c3000152bc70" data-style-height="20px"
+                                                data-style-width="100%" data-theme="dark"> <a
+                                                    href="https://uk.trustpilot.com/review/www.robustittraining.com"
+                                                    target="_blank" rel="noopener">Trustpilot</a> </div>
+                                            <!-- End TrustBox widget -->
+                                        </div>
                                     </div>
                                 </div>
 
@@ -73,6 +98,18 @@ include './assets/php/inc/nav.php';
                                             <i class="fas fa-chevron-right fcr-animate"></i></a>
                                         <a href="#" class="btn btn-outline-white btn-hover--secondary"> For
                                             Business <i class="fas fa-chevron-right fcr-animate"></i></a>
+
+                                        <div class="trustpilot" style="position: relative; bottom: -50px; right: 180px">
+
+                                            <!-- TrustBox widget - Micro Combo -->
+                                            <div class="trustpilot-widget" data-locale="en-GB"
+                                                data-template-id="5419b6ffb0d04a076446a9af"
+                                                data-businessunit-id="5e470c6a94d8c3000152bc70" data-style-height="20px"
+                                                data-style-width="100%" data-theme="dark"> <a
+                                                    href="https://uk.trustpilot.com/review/www.robustittraining.com"
+                                                    target="_blank" rel="noopener">Trustpilot</a> </div>
+                                            <!-- End TrustBox widget -->
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -103,6 +140,18 @@ include './assets/php/inc/nav.php';
                                             <i class="fas fa-chevron-right fcr-animate"></i></a>
                                         <a href="#" class="btn btn-outline-white btn-hover--secondary"> For Business <i
                                                 class="fas fa-chevron-right fcr-animate"></i></a>
+
+                                        <div class="trustpilot" style="position: relative; bottom: -50px; right: 180px">
+
+                                            <!-- TrustBox widget - Micro Combo -->
+                                            <div class="trustpilot-widget" data-locale="en-GB"
+                                                data-template-id="5419b6ffb0d04a076446a9af"
+                                                data-businessunit-id="5e470c6a94d8c3000152bc70" data-style-height="20px"
+                                                data-style-width="100%" data-theme="dark"> <a
+                                                    href="https://uk.trustpilot.com/review/www.robustittraining.com"
+                                                    target="_blank" rel="noopener">Trustpilot</a> </div>
+                                            <!-- End TrustBox widget -->
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -120,14 +169,14 @@ include './assets/php/inc/nav.php';
 
     <!-- About Section Start -->
     <div class="section section-padding-t90 section-padding-bottom-200" id="scroll-to-one"
-        style="scroll-margin-top: 6em;">
+        style="scroll-margin-top: 4em">
         <div class="container">
 
             <!-- Section Title Start -->
-            <div class="section-title text-center" data-aos="fade-up" data-aos-delay="200">
-                <h2 class="title">The Future is Robust.</h2>
-                <p class="sub-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime qui facere
-                    blanditiis reiciendis possimus natus!</p>
+            <div class="section-title-two mb-20" data-aos="fade-up" data-aos-delay="200">
+                <h3 class="title mb-5">From Classroom To Career</h3>
+                <p class="sub-title">We offer bespoke solutions for online and classroom learning options to help you
+                    build your career.</p>
 
             </div>
             <!-- Section Title End -->

@@ -8704,7 +8704,7 @@ fieldset:disabled .btn {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: justify; 
+  -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0 1rem;
@@ -14997,6 +14997,10 @@ fieldset:disabled .btn {
 
 .text-secondary {
   color: black !important;
+}
+
+.text-trustpilot {
+  color: #00b67a !important;
 }
 
 .text-success {
@@ -34727,13 +34731,13 @@ svg:not(:root) {
   width: 12px;
   height: 12px;
   opacity: 1;
-  background: #030f27;
+  background: var(--rb-secondary);
 }
 .swiper-pagination .swiper-pagination-bullet-active:before {
   width: 12px;
   height: 12px;
   opacity: 1;
-  background: #030f27;
+  background: var(--rb-primary);
 }
 
 .swiper-pagination.swiper-pagination-white .swiper-pagination-bullet {
@@ -36904,7 +36908,7 @@ textarea:focus {
   margin-bottom: 40px;
 }
 
-.fz-small{
+.fz-small {
   font-size: 0.8rem;
 }
 
@@ -37051,7 +37055,7 @@ textarea:focus {
   bottom: 0;
 }
 .section-title-two .title {
-  font-size: 48px; 
+  font-size: 48px;
   line-height: 42px;
   margin: 0;
   color: #030f27;
@@ -38652,7 +38656,17 @@ h5 {
   -webkit-box-shadow: 0px 0px 40px 0px rgba(51, 51, 51, 0.1);
   box-shadow: 0px 0px 40px 0px rgba(51, 51, 51, 0.1);
   text-align: center;
+  transition: 500ms ease-in-out;
 }
+.testimonial-image {
+  transform: scale(1);
+  transition: 500ms ease-in-out;
+}
+.swiper-slide-active .static-testimonial:hover .testimonial-image {
+  transform: scale(1.5);
+  transition: 500ms ease-in-out;
+}
+
 @media only screen and (max-width: 767px) {
   .static-testimonial {
     padding: 30px 25px 35px;
@@ -38684,13 +38698,13 @@ h5 {
   margin-bottom: 0;
   font-weight: 400;
   text-transform: uppercase;
-  color: #1292ee;
+  color: var(--rb-primary);
 }
 .static-testimonial .author-info .cite .position {
   display: block;
   margin-top: 10px;
   font-size: 15px;
-  color: #748494;
+  color: var(--rb-secondary);
 }
 
 /*----------------------------------------*/
@@ -38838,9 +38852,10 @@ h5 {
 }
 
 .about-content-area p {
-  max-width: 420px;
+  max-width: 500px;
   margin-bottom: 0;
-}
+} 
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .about-content-area p {
     max-width: 100%;
@@ -38860,8 +38875,11 @@ h5 {
 
 @media only screen and (max-width: 767px) {
   .about-content-area {
-    margin-top: 150px;
+    margin-top: 40px;
   }
+}
+.about-figures-2 {
+  transform: translate(10%, -80%);
 }
 
 .about-funfact .number {
@@ -38917,8 +38935,13 @@ h5 {
     right: 0px;
     z-index: -1;
   }
+  .about-figures-2 {
+    transform: translate(0%, -120%);
+  }
+  .about-figures-1 {
+    transform: translate(0%, -100%);
+  }
 }
-
 .about-content-full .title {
   font-size: 42px;
   font-weight: 600;
@@ -40486,6 +40509,18 @@ h5 {
 /*----------------------------------------*/
 /*  11. Widget CSS
 /*----------------------------------------*/
+.trustpilot {
+  position: relative;
+  top: 20px;
+  transform: scale(1.5);
+}
+@media only screen and (max-width: 767px) {
+  .trustpilot {
+    position: relative;
+    top: 20px;
+    transform: scale(1.5);
+  }
+}
 .sidebar-widget-wrapper {
   float: left;
   width: 100%;
