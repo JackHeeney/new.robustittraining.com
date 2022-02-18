@@ -38,7 +38,7 @@ include './assets/php/inc/nav.php';
                 <div class="col-12" data-aos="fade-up">
                     <!-- Terms Content Area Start -->
                     <div class="terms-content-area">
-                        <!-- Section Title Two Start -->
+                        <!-- Section Title One Start -->
                         <div class="section-title-two">
                             <span class="sub-title">We want you to understand the basis upon which you buy products from
                                 us.</span>
@@ -53,7 +53,7 @@ include './assets/php/inc/nav.php';
 
                             <h3 class="title">1.0 The Ordering process</h3>
                         </div>
-                        <!-- Section Title Two End -->
+                        <!-- Section Title Ones End -->
 
                         <h3 class="sub-title">1.1 Checking Your Order</h3>
                         <p>
@@ -319,6 +319,143 @@ include './assets/php/inc/nav.php';
                             Prices quoted on Exam Vouchers are only good for one day. This is due to prices changing
                             regularly.
                         </p>
+
+                        <h3 class="sub-title">1.12 Re-scheduling classroom training or exam</h3>
+                        <p>
+                            We reserve the right to re-schedule any classroom training or exams for up to three times if
+                            necessary. We also reserve the right to change from any classroom training to webinar
+                            training when circumstances make this necessary.
+                        </p>
+
+
+                        <!-- Section Title Two Start -->
+                        <div class="section-title-two mt-20">
+                            <span class="sub-title">Terms & Conditions.</span>
+
+
+
+                            <h3 class="title">2.0 Websites & Courses</h3>
+                        </div>
+                        <!-- Section Title Two End -->
+
+
+                        <p>
+                            Please read these terms and conditions (the "Terms"), which apply to your use of any and all
+                            courses and any and all course materials as well as the following websites, including any
+                            subdomains thereof:
+                        </p>
+                        <ul>
+                            <li>
+                                <a class="text-primary" href="https://www.robustittraining.com" target="_blank"
+                                    alt="robustittraining.com">www.robustittraining.com</a>
+                            </li>
+                        </ul>
+                        <p>
+                            Please read our <a class="text-primary" href="<? echo SITE_ADDR ?>/privacy-policy.php"
+                                target="_blank" alt="privacy policy">Privacy Policy</a>, which applies to any personal
+                            information
+                            collected from you
+                            when you use any of the Websites. Robust IT Limited is registered at Companies House.
+                        </p>
+                        <p>
+                            <strong>
+                                For details or enquiries regarding this, please visit the Robust IT website or <a
+                                    class="text-primary" href="<? echo SITE_ADDR ?>/contact-us.php" target="_blank"
+                                    alt="contact us">Contact
+                                    us</a>.
+                            </strong>
+                        </p>
+
+                        <h3 class="sub-title">2.1 Definitions (These definitions apply to the whole of the document)
+                        </h3>
+                        <ul>
+                            <li>"Robust IT" means Robust IT Limited.</li>
+                            <li>"Course material" means, but is not limited to any online, digitally stored or hard copy
+                                documents, materials, Tests, Tutorials or files produced or provided by Robust IT that
+                                provides detailed or specific information with respect to the Course Materials that
+                                these Terms cover.</li>
+                            <li>"Course" means the Course license, which is granted upon registration and payment for
+                                that Course.</li>
+                            <li>"Fee" means the fee payable for the Course Study Material and shall include any VAT
+                                payable but excludes all delivery charges, any import duties, taxes and customs
+                                clearances which may be payable.</li>
+                            <li>"Terms" means these General Terms and Conditions and any other agreed upon Terms of Use
+                                with Robust IT.</li>
+                            <li>"Website" Any of Robust IT's websites or other websites explicitly mentioned in these
+                                terms in regards to coming under these terms.</li>
+                            <li>"you" means the individual purchasing the Course and users of the Course material.</li>
+                        </ul>
+
+                        <h3 class="sub-title">2.2 If you do not accept these terms
+                        </h3>
+                        <p>
+                            Access and use of any of the Websites and / or courses and course materials, are provided by
+                            us subject to these Terms. In using any of the Websites and / or courses and course
+                            materials, you are accepting these Terms and acknowledging that you have read them, as well
+                            as the Privacy Policy. If you are unhappy with these Terms you should not use any of the
+                            websites and / or courses or course materials.
+                        </p>
+                        <p>
+                            If using any of the Websites and / or courses and course materials, from outside the UK
+                            other laws may apply. We are not subject to local laws applicable in other countries and the
+                            Websites and / or courses and course materials, may not be compliant with those local laws.
+                            If you are unhappy with this you should not use any of the Websites and / or courses and
+                            course materials.
+                        </p>
+
+
+                        <h3 class="sub-title">2.3 Updates and changes to these Terms
+                        </h3>
+                        <p>
+                            These Terms may change from time to time by updating this page. You should review this page
+                            regularly. Your continued use of the Websites and / or courses and course materials, after
+                            changes have been made will be taken to mean that you have checked the Terms and you are
+                            accepting these changes to the Terms and acknowledging that you have read them, as well as
+                            the <a class="text-primary" href="<? echo SITE_ADDR ?>/privacy-policy.php" target="_blank"
+                                alt="privacy policy">Privacy Policy</a>. If you are unhappy
+                            with any changes to the Terms you should not use any
+                            of the websites.
+                        </p>
+
+
+                        <h3 class="sub-title">2.4 Intellectual property rights (inc. btm-copyright)
+                        </h3>
+                        <p>
+                            The Websites and all the materials contained within or on, and / or courses and course
+                            materials, are protected by intellectual property rights. Materials include, but are not
+                            limited to, the appearance, design, documents, graphics, layout and look on the website, as
+                            well as all other content on the Websites such as articles and other text. All
+                            btm-copyright, trademarks, design rights, patents and other intellectual property rights
+                            (registered and unregistered) subsisting in the design of, or materials on, the Websites we
+                            are entitled to use, we own or is licensed to us.
+                        </p>
+                        <p>
+                            Except as provided in these Terms, you may not redistribute, copy or republish or otherwise
+                            make the materials on the Websites, and / or courses and course materials, available to any
+                            other person, organisation or group without our written permission (including, but not
+                            limited to "caching" any material and "mirroring" any material). You may print or download
+                            materials from the Websites, and / or courses and course materials, for your own personal
+                            and non-commercial use provided that:
+                        </p>
+                        <ul>
+                            <li>No materials are modified in any way
+                            </li>
+                            <li>No graphics are used separately from it's text
+                            </li>
+                            <li>Our btm-copyright and trade mark notices appear on all copies
+                            </li>
+                            <li>You acknowledge the source of the material.
+                            </li>
+                        </ul>
+                        <p>
+                            If you have our written permission to provide these materials to any other person,
+                            organisation or group, you must ensure they are made aware of these restrictions. You can
+                            also permit your computer to make an electronically stored, transient copy of the content on
+                            the Websites only for the purpose of viewing it while connected to the internet (but you may
+                            only make one copy of any such content).
+                        </p>
+
+
 
                     </div>
                     <!-- Terms Content Area Start -->

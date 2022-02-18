@@ -621,16 +621,27 @@ include './assets/php/inc/nav.php';
     <!-- Faq Section Start -->
     <div class="faq-section section section-padding-top" data-bg-color="#ffffff">
         <div class="container">
-            <div class="row row-cols-lg-2 row-cols-1 mb-n6">
-                <!-- Faq Content Start -->
-                <div class="col mb-6" data-aos="fade-up" data-aos-offset="-100" data-aos-duration="800">
+
+            <div class="row mb-10" data-aos="fade-up" data-aos-offset="-120" data-aos-duration="800">
+                <div class="col-12">
                     <div class="faq-content">
                         <!-- Section Title Two Start -->
                         <div class="section-title-two">
                             <span class="sub-title">Frequently asked questions</span>
-                            <h3 class="title">You’ve got questions and <br> we’ve got answers</h3>
+                            <h3 class="title">You’ve got questions and we’ve got answers</h3>
                         </div>
                         <!-- Section Title Two End -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="row row-cols-lg-2 row-cols-1 mb-n6">
+
+
+                <!-- Faq Content Start -->
+                <div class="col mb-6 pl-xl-12" data-aos="fade-up" data-aos-offset="-100" data-aos-duration="800">
+                    <div class="faq-content">
+
 
                         <div class="agency-accordion max-mb-n30" id="accordionExample">
                             <div class="card">
@@ -700,14 +711,81 @@ include './assets/php/inc/nav.php';
 
                 <div class="col mb-6 pl-xl-12" data-aos="fade-up" data-aos-delay="300" data-aos-offset="-100"
                     data-aos-duration="800">
+
                     <!-- Faq Image Start -->
                     <div class="about-image-area faq-image-area">
-                        <div class="about-image right-n50 js-tilt">
+                        <div class="agency-accordion max-mb-n30" id="accordionExample1">
+                            <div class="card">
+                                <div class="card-header" id="headingFour">
+                                    <h5 class="mb-0">
+                                        <a href="#" class="acc-btn border-0" data-toggle="collapse"
+                                            data-target="#collapseFour" aria-expanded="true"
+                                            aria-controls="collapseFour">
+                                            What jobs will i be qualified for after getting certified?
+                                        </a>
+                                    </h5>
+                                </div>
+
+                                <div id="collapseFour" class="collapse show" aria-labelledby="headingFour"
+                                    data-parent="#accordionExample1">
+                                    <div class="card-body">Depending on the course you are studying there are a variety
+                                        of jobs available. We can also help you with your job search.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-header" id="headingFive">
+                                    <h5 class="mb-0">
+                                        <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse"
+                                            data-target="#collapseFive" aria-expanded="false"
+                                            aria-controls="collapseFive">
+                                            How can i get practical, hands on training by doing the studying online?
+                                        </a>
+                                    </h5>
+                                </div>
+                                <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                                    data-parent="#accordionExample1">
+                                    <div class="card-body">Your account may be eligible for access to our live practical
+                                        labs. These powerful tools simulate a classroom training environment and are run
+                                        through our remote server. All of our software specific training courses will
+                                        include live lab access, this means that the likes of our Microsoft and Cisco
+                                        Courses packages (amongst others) will come packaged with our intuitive live lab
+                                        systems.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-header" id="headingSix">
+                                    <h5 class="mb-0">
+                                        <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse"
+                                            data-target="#collapseSix" aria-expanded="false"
+                                            aria-controls="collapseSix">
+                                            I have completed my course, do i receive a certificate?
+                                        </a>
+                                    </h5>
+                                </div>
+                                <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
+                                    data-parent="#accordionExample1">
+                                    <div class="card-body">Yes, all of our courses have either a completion certificate
+                                        or official qualification. You will usually find your certificate available for
+                                        download right from your training portal once you've completed all of the tests
+                                        on your account.
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- <div class="about-image right-n50 js-tilt">
                             <img src="assets/images/faq/faq-2.jpg" alt="">
                         </div>
                         <div class="about-image js-tilt">
                             <img src="assets/images/faq/faq-1.jpg" alt="">
-                        </div>
+                        </div> -->
                         <!-- Animation Shape Start -->
                         <div class="shape shape-1 scene">
                             <span data-depth="4"><img src="assets/images/shape-animation/video-shape-1.png"
