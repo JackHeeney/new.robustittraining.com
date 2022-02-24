@@ -59,19 +59,22 @@
                                                 class="text-muted">About</span></a>
                                     </li>
                                     <li><a href="<? echo SITE_ADDR ?>/"><span class="menu-text">Blog</span></a></li>
-                                    <li><a href="<? echo SITE_ADDR ?>/"><span class="menu-text">Testimonials</span></a>
+                                    <li><a href="<? echo SITE_ADDR ?>/testimonials.php"><span
+                                                class="menu-text">Testimonials</span></a>
                                     </li>
                                     <li><a href="<? echo SITE_ADDR ?>/terms-and-conditions.php"><span
                                                 class="menu-text">Terms &
                                                 Conditions</span></a>
                                     </li>
-                                    <li><a href="<? echo SITE_ADDR ?>/"><span class="menu-text">Privacy
+                                    <li><a href="<? echo SITE_ADDR ?>/privacy-policy.php"><span
+                                                class="menu-text">Privacy
                                                 Policy</span></a>
                                     </li>
                                 </div>
                                 <div class="col-12 pt-5">
                                     <h4 class="text-muted">Help Centre</h4>
-                                    <li><a href="<? echo SITE_ADDR ?>/"><span class="menu-text">FAQ's</span></a></li>
+                                    <li><a href="<? echo SITE_ADDR ?>/faqs.php"><span class="menu-text">FAQ's</span></a>
+                                    </li>
                                     <li><a href="<? echo SITE_ADDR ?>/"><span class="menu-text">Technical
                                                 Support</span></a></li>
                                 </div>
@@ -173,7 +176,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="<? echo SITE_ADDR ?>/">
+                                                    <a href="<? echo SITE_ADDR ?>/testimonials.php">
                                                         <span class="menu-text">
                                                             Testimonials <i
                                                                 class="fas fa-chevron-right fcr-animate"></i>
@@ -189,7 +192,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="<? echo SITE_ADDR ?>/">
+                                                    <a href="<? echo SITE_ADDR ?>/privacy-policy.php">
                                                         <span class="menu-text">
                                                             Privacy Policy <i
                                                                 class="fas fa-chevron-right fcr-animate"></i>
@@ -200,7 +203,7 @@
                                             <div class="col-12 pt-5">
                                                 <h5 class="text-muted">Help Centre</h5>
                                                 <li>
-                                                    <a href="<? echo SITE_ADDR ?>/">
+                                                    <a href="<? echo SITE_ADDR ?>/faqs.php">
                                                         <span class="menu-text">
                                                             FAQ's <i class="fas fa-chevron-right fcr-animate"></i>
                                                         </span>
@@ -271,14 +274,20 @@
     <div class="sidebar-search-input">
         <form action="#">
             <div class="form-search">
-                <input id="search" class="input-text" value="" placeholder="" type="search">
+                <input id="search" class="input-text" value="" name="search" aria-label="Search"
+                    placeholder="Search Website e.g. 'Ethical Hacker'" type="search" onKeyUp="showResult(this.value)">
                 <button>
                     <i class="fa fa-search"></i>
                 </button>
             </div>
         </form>
         <p class="form-description">Hit enter to search or ESC to close</p>
+
+
+
+        <div id="livesearch"></div>
     </div>
+
 </div>
 <!-- Main Search End -->
 

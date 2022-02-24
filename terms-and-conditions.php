@@ -118,6 +118,10 @@ include './assets/php/inc/nav.php';
                             discounted products. No refunds will be given 4 weeks prior to the classroom start date.
                         </p>
                         <p>
+                            If you have purchase a course using finances with Etika, Deko or future finance you have 14
+                            days to cancel your finance without additional charges being applied.
+                        </p>
+                        <p>
                             If you need to change the date or can not come to the classroom we will need to know in
                             writing 4 weeks prior to the classroom start date or you will have to pay for the class
                             again.
@@ -455,6 +459,464 @@ include './assets/php/inc/nav.php';
                             only make one copy of any such content).
                         </p>
 
+                        <h3 class="sub-title">2.5 Information or data posted - sent or uploaded by you
+                        </h3>
+                        <p>
+                            There may be places in or on the courses and course materials and/ or pages on the Websites
+                            (including but not limited to):
+                        </p>
+                        <ul>
+                            <li>
+                                <a href="https://www.robustittraining.com/" target="_blank"
+                                    alt="robust it training">www.robustittraining.com</a>
+                            </li>
+                        </ul>
+                        <p>
+                            Where you can post, send or upload information or data on the Websites of, or Course
+                            materials provided or produced by Robust IT. If you do this we will take this to mean that
+                            you have read and accepted these Terms. You must not post, send or upload any content or
+                            information unless:
+                        </p>
+                        <ul>
+                            <li>
+                                You own or have appropriate rights to use the intellectual property rights subsisting in
+                                or relating to that content and information
+                            </li>
+                        </ul>
+                        <p>
+                            And/Or
+                        </p>
+                        <ul>
+                            <li>
+                                You are sure that posting, sending or uploading the same does not infringe the rights
+                                (including but not limited to the intellectual property rights) of any other person or
+                                organisation.
+                            </li>
+                        </ul>
+                        <strong>
+                            You Must Not Post Any Information Or Data Which
+                        </strong>
+                        <ul>
+                            <li>
+                                Is or could be considered defamatory, derogatory or in appropriate with regard to Robust
+                                IT Ltd, its customers or clients or any other person or organisation
+                            </li>
+                            <li>
+                                Which contains any confidential information about Robust IT Ltd or another person or
+                                organisation (unless you have our permission or that of the other person or
+                                organisation)
+                            </li>
+                            <li>
+                                Contains any offensive, obscene or criminal content or any other content which may cause
+                                embarrassment to Robust IT Ltd, its customers or clients or any other person or
+                                organisation
+                            </li>
+                            <li>
+                                Contains any personal information about another person including (this list is not
+                                exhaustive) names, contact details and sensitive personal data (for example, information
+                                about an identified or identifiable individual's mental or physical health, racial or
+                                ethnic origin, religious or other beliefs).
+                            </li>
+                            <li>
+                                You may request your personal information if you meet the requirements below:
+                                <ul>
+                                    <li>You must have express written permission from the person whose information is
+                                        requested about or it be yourself.</li>
+                                    <li>There is an administration fee of up to £ 50 depending on the level of details
+                                        required. As we come under the data protection act for personal information.
+                                        Please see link: <a href="https://ico.org.uk/your-data-matters/" target="_blank"
+                                            alt="link to ICO">www.ico.org.uk</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <p>
+                            Our Privacy Policy and the Information Commissioner's website provide more information about
+                            what is personal information and sensitive personal data. We are not responsible for any
+                            content and/or information which you post, send or upload onto the Websites.
+                            We reserve the right to withdraw any such content and/or information without notice and at
+                            our sole discretion and to pursue any cause of action against you available to us under
+                            applicable laws.
+                        </p>
+
+
+                        <h3 class="sub-title">2.6 Accuracy of content on the Websites and / or courses and course
+                            materials
+                        </h3>
+                        <p>
+                            We do not represent that information contained on or available via the Websites and / or
+                            courses and course materials, is accurate or complete and accordingly it should not be
+                            relied on as such.
+                        </p>
+                        <p>
+                            Any arrangements made between you and any other person, using or named on the Websites and /
+                            or courses and course materials, is entirely at your own risk and responsibility.
+                        </p>
+                        <p>
+                            Information contained in or accessible via the Websites, and / or courses and course
+                            materials, may change from time to time. We may make improvements or alterations to the
+                            Websites, and / or courses and course materials, at any time and without notice. We may
+                            modify, withdraw or deny access to the Websites, and / or courses and course materials, at
+                            any time.
+                        </p>
+
+                        <h3 class="sub-title">2.7 Links to non-Robust IT websites
+                        </h3>
+                        <p>
+                            We may link to other websites which are not within our control. Such links would be provided
+                            for your convenience. In addition, other websites outside our control may link to the
+                            Websites.
+                        </p>
+                        <p>
+                            We are not responsible for the content of any external sites we provide links to or which
+                            link to the Websites. You should exercise caution and check you are happy with the terms and
+                            conditions applicable to any other website that you visit. No link is intended to be, nor
+                            should be construed as, an endorsement of any kind by us of another website.
+                        </p>
+
+
+
+                        <!-- Section Title Two Start -->
+                        <div class="section-title-two mt-20">
+                            <span class="sub-title">Terms & Conditions.</span>
+
+
+
+                            <h3 class="title">3.0 Liability</h3>
+                        </div>
+                        <!-- Section Title Two End -->
+
+
+                        <p>
+                            We do try and ensure our website, courses and course materials are as accurate and error
+                            free as possible and make efforts fix any issues. However we cannot guarantee that the use
+                            of the Websites, and / or courses and course materials, will be compatible with the hardware
+                            and / or software you use, or that it will be uninterrupted or error free or virus free or
+                            that any defects on the Websites, and / or courses and course materials, will be fixed by us
+                            (unless we are obliged by law to fix them, such as issues within our control regarding our
+                            obligations under the Data Protection Act 1998 to keep personal information secure). However
+                            we do try and ensure our courses are as accurate and error free as possible and make efforts
+                            fix any issues.
+                        </p>
+
+                        <h3 class="sub-title">3.1
+                        </h3>
+                        <p>
+                            Please ensure that you regularly check for and protect against viruses when using the
+                            Websites, and / or courses and course materials, on any hardware device. We make no
+                            statement about the suitability of the content, information, products or services which is
+                            made available via the Websites. Accordingly, all warranties and terms and conditions
+                            implied by statute or otherwise are excluded to the fullest extent permitted by law (please
+                            see directly below for more details). For example, we make no warranty that this web site is
+                            free from computer viruses or any other malicious or impairing computer program.
+                        </p>
+
+                        <h3 class="sub-title">3.2
+                        </h3>
+                        <p>
+                            We exclude all liability to the fullest extent permitted by law (please see directly below
+                            for more details) for damages and direct, indirect or consequential loss (including but not
+                            limited to pure economic loss, loss of business, revenue or profits, business interruption,
+                            depletion of goodwill and like loss) incurred by you and / or any other person and which
+                            arises out of or in connection with your use of or inability to use the Websites or its
+                            content, and / or courses and course materials, whether that liability is in contract, tort
+                            or otherwise.
+                        </p>
+                        <p>
+                            We do not exclude or limit our liability (if any) to you, for any matter for which it would
+                            be illegal or impossible under law for us to exclude or to attempt to exclude liability.
+                        </p>
+
+                        <h3 class="sub-title">3.3
+                        </h3>
+                        <p>
+                            The internet is not a secure means of communication. Emails may be intercepted by other
+                            people or organisations. You should not send any communication to us through the Websites or
+                            by email, in particular which contains personal information (including sensitive personal
+                            data) and/or confidential information about you or any other, unless you accept that any
+                            such communication is sent at your own risk and on the understanding that we would not be
+                            liable for any loss that you might suffer as a result (except for losses which cannot be
+                            excluded or limited at law, as referred to directly above).
+                        </p>
+
+                        <h3 class="sub-title">3.4
+                        </h3>
+                        <p>
+                            The exclusions and limitations of liability contained in these Terms do not apply to a
+                            party's liability: (i) for fraud or wilful default; (ii) for death or personal injury caused
+                            by its negligence; or (iii) where such limitation or exclusion cannot lawfully be excluded.
+                            Except as set out in these Terms, Robust IT shall not be responsible for losses that result
+                            from its failure to comply with these Terms including, but not limited to, losses that fall
+                            into the following categories:
+                        </p>
+                        <ul>
+                            <li>Indirect or consequential losses</li>
+                            <li>Loss of income or revenue</li>
+                            <li>Loss of business</li>
+                            <li>Loss of anticipated savings</li>
+                            <li>Loss or corruption of data</li>
+                        </ul>
+
+
+                        <h3 class="sub-title">3.5
+                        </h3>
+                        <p>
+                            Robust IT is not responsible to you for any data that you lose as a result of accessing the
+                            Website or Course or Course Materials. It is your responsibility to ensure that you
+                            regularly save and back up all data which you hold on the computer you use.
+                        </p>
+
+                        <h3 class="sub-title">3.6
+                        </h3>
+                        <p>
+                            Except as otherwise set out in this section "Limitation of liability", Robust IT's maximum
+                            aggregate liability to you for any claims that you may have against Robust IT for direct
+                            loss in contract, tort or otherwise arising out of or in connection with these Terms, your
+                            use of the Website, Course and / or Course Materials and any technical support shall be
+                            limited to the amount of the Fee which has been paid, or is payable, by you or on your
+                            behalf.
+                        </p>
+
+                        <h3 class="sub-title">3.7
+                        </h3>
+                        <p>
+                            Robust IT will not be held responsible for any delay or failure to comply with its
+                            obligations under these conditions if the delay or failure arises from any cause which is
+                            beyond its reasonable control. This condition does not affect your statutory rights.
+                        </p>
+
+                        <h3 class="sub-title">3.8
+                        </h3>
+                        <p>
+                            Each provision in these terms shall be construed separately as between you and Robust IT. If
+                            any part is held to be unreasonable, inapplicable, or unenforceable, but would be valid if
+                            some part thereof was deleted, such provision shall apply but with such modification as may
+                            be necessary to make it valid and effective.
+                        </p>
+
+                        <h3 class="sub-title">3.9
+                        </h3>
+                        <p>
+                            It is not advisable to study for extended lengths of time without taking any breaks. We
+                            recommend for your own benefit that you do not study for any longer than 2 hours at a time.
+                        </p>
+
+                        <h3 class="sub-title">3.10 Third Party Courses
+                        </h3>
+                        <p>
+                            Please note MOC On-Demand is run by Microsoft, therefore once you have activated your course
+                            redemption code you are no longer entitled to a refund.
+                        </p>
+
+                        <h3 class="sub-title">3.11 Disclaimer
+                        </h3>
+                        <p>
+                            The Course Materials are for educational purposes only. Robust IT will not accept any
+                            responsibility to any party for the use of these Course Materials for any purpose other than
+                            for educational purposes, including but not limited to the giving of advice by you to any
+                            third party, making or not making any dietary or lifestyle changes for any reason.
+                        </p>
+
+
+
+                        <!-- Section Title Two Start -->
+                        <div class="section-title-two mt-20">
+                            <span class="sub-title">Terms & Conditions.</span>
+
+
+
+                            <h3 class="title">4.0 Privacy and Data Protection</h3>
+                        </div>
+                        <!-- Section Title Two End -->
+
+
+                        <p>
+                            Any personal information which you provide to us by which we could identify you as a living
+                            individual (whether by taking that information by itself or when using it in conjunction
+                            with other information which we hold or are likely to hold) is processed by in accordance
+                            with our Privacy Policy. In our Privacy Policy we explain, that your personal information
+                            may be used to enable Robust IT to:
+                        </p>
+
+
+                        <ul>
+                            <li>
+                                Provide information and marketing related to our products and services
+                            </li>
+                            <li>
+                                Carry out statistical analyses regarding the products and services offered by us
+                            </li>
+                            <li>
+                                Improve our, efficiency, results, communications, marketing, processes, standards and
+                                procedures as a result of such information and marketing services and statistical
+                                analyses referred to above
+                            </li>
+                        </ul>
+
+
+                        <!-- Section Title Two Start -->
+                        <div class="section-title-two mt-20">
+                            <span class="sub-title">Terms & Conditions.</span>
+
+
+
+                            <h3 class="title">5.0 Contracting Online</h3>
+                        </div>
+                        <!-- Section Title Two End -->
+
+
+                        <p>
+                            Nothing on the Websites is intended to be nor should be construed as an offer to enter into
+                            a contractual relationship with you or anyone else, except for these Terms which govern the
+                            relationship between us in relation to your use of the Websites.
+                        </p>
+
+                        <p>
+                            If you make a contract with a third party who is named or referred to on the Websites, it is
+                            your responsibility to ensure that you are comfortable with the terms of that contract and
+                            to take legal advice if necessary.
+                        </p>
+
+                        <p>
+                            Law governing the Terms Use of the Websites, and / or courses and course materials, and the
+                            formation, existence, construction, performance, validity and all aspects whatsoever of
+                            these Terms shall be governed by the laws of England and Wales.
+                        </p>
+
+                        <h3 class="sub-title">5.1 Jurisdiction
+                        </h3>
+                        <p>
+                            The Course Materials are for educational purposes only. Robust IT will not accept any
+                            responsibility to any party for the use of these Course Materials for any purpose other than
+                            for educational purposes, including but not limited to the giving of advice by you to any
+                            third party, making or not making any dietary or lifestyle changes for any reason.
+                        </p>
+
+
+                        <h3 class="sub-title">5.2 Other Agreements With Robust IT
+                        </h3>
+                        <p>
+                            The terms outlined in the general terms and conditions for orders, websites & courses is in
+                            addition to the license agreement. One agreement does invalidate the other and both, once
+                            accepted, are binding. Should any conflict of the terms occur then the terms presented in
+                            these general terms and conditions take precedence.
+                        </p>
+
+
+                        <!-- Section Title Two Start -->
+                        <div class="section-title-two mt-20">
+                            <span class="sub-title">Terms & Conditions.</span>
+
+
+
+                            <h3 class="title">6.0 Dignity at Work</h3>
+                        </div>
+                        <!-- Section Title Two End -->
+
+
+                        <p>
+                            If it is felt that continual misuse or abuse of phone support, courseware or software
+                            provided by Robust IT, then we hold the right to withdraw from supporting the student via
+                            phone calls, and will only respond via email or written letter.
+                        </p>
+
+
+                        <!-- Section Title Two Start -->
+                        <div class="section-title-two mt-20">
+                            <span class="sub-title">Terms & Conditions.</span>
+
+
+
+                            <h3 class="title">7.0 Consumer Contracts (Information, cancellation and additional charges)
+                            </h3>
+                        </div>
+                        <!-- Section Title Two End -->
+
+                        <h3 class="sub-title">7.1 Limiting cancellation rights
+                        </h3>
+                        <p>
+                            On accessing the course Cancellation rights under the CONSUMER CONTRACTS (INFORMATION,
+                            CANCELLATION AND ADDITIONAL CHARGES) REGULATIONS DECEMBER 2013 are excluded from this
+                            contract and no refund will be allowed under this act.
+                        </p>
+                        <p>
+                            Where cancellation rights apply, the consumer cannot waive those rights (although the
+                            consumer is of course free to choose not to exercise their right to cancel). However,
+                            provided that the consumer has been made aware, precontract, of their obligations with
+                            regard to payment for services or products used, and the trader has obtained express consent
+                            (on a durable medium for off-premises services) for the commencement of services in the
+                            cancellation period, then if the consumer later cancels, the trader may deduct money for
+                            goods used, or recoup the cost of any services delivered until the point of cancellation.
+                        </p>
+
+                        <h3 class="sub-title">7.2 Can my customer waive their cancellation rights?
+                        </h3>
+                        <p>
+                            Where cancellation rights apply, the consumer cannot waive those rights (although the
+                            consumer is of course free to choose not to exercise their right to cancel). However,
+                            provided that the consumer has been made aware, precontract, of their obligations with
+                            regard to payment for services or products used, and the trader has obtained express consent
+                            (on a durable medium for off-premises services) for the commencement of services in the
+                            cancellation period, then if the consumer later cancels, the trader may deduct money for
+                            goods used, or recoup the cost of any services delivered until the point of cancellation.
+                        </p>
+
+
+                        <!-- Section Title Two Start -->
+                        <div class="section-title-two mt-20">
+                            <span class="sub-title">Terms & Conditions.</span>
+
+
+
+                            <h3 class="title">8.0 Disclaimers
+                            </h3>
+                        </div>
+                        <!-- Section Title Two End -->
+
+                        <h3 class="sub-title">8.1 APMG International
+                        </h3>
+                        <p>
+                            The APMG-International and Swirl Device logo is a Trade Mark of The APM Group Ltd. Use of
+                            this Trade Mark on this website has been authorised solely for marketing purposes. All
+                            rights reserved.
+                        </p>
+
+
+                        <!-- Section Title Two Start -->
+                        <div class="section-title-two mt-20">
+                            <span class="sub-title">Terms & Conditions.</span>
+
+
+
+                            <h3 class="title">9.0 Complaints Procedure
+                            </h3>
+                        </div>
+                        <!-- Section Title Two End -->
+
+                        <p>
+                            If you’re having an issue with a member of staff or your training that can not be taken care
+                            of over the phone then you can log a complaint:
+                        </p>
+                        <ol>
+                            <li>
+                                Email <a
+                                    href="mailto:compliance@robustittraining.com">compliance@robustittraining.com</a>
+                                with your complaint
+                            </li>
+                            <li>
+                                We will respond to the complaint within 14 working days
+                            </li>
+                            <li>
+                                We may ask for evidence to back up your complaint
+                            </li>
+                            <li>
+                                We may ask for more time to allow us to investigate thoroughly
+                            </li>
+                            <li>
+                                If you are not happy with the outcome of the complaint then you can ask to escalate on
+                                request. Please ask the person who has been handling your complaint.
+                            </li>
+                        </ol>
 
 
                     </div>
@@ -468,74 +930,6 @@ include './assets/php/inc/nav.php';
         </div>
     </div>
     <!-- Terms Section End -->
-
-
-    <!-- Brand Section Start -->
-    <div class="brand-section section section-padding">
-        <div class="container">
-            <div class="row my-lg-10 my-10">
-                <div class="col-lg-12">
-                    <div class="brand-wrapper">
-                        <div class="brand-list">
-                            <div class="brand-carousel swiper-container">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide brand">
-                                        <a href="<? echo SITE_ADDR ?>/">
-                                            <img src="<? echo SITE_ADDR ?>/assets/images/brand/client-logo-01.png"
-                                                alt="logo image">
-                                        </a>
-                                    </div>
-
-                                    <div class="swiper-slide brand">
-                                        <a href="<? echo SITE_ADDR ?>/">
-                                            <img src="<? echo SITE_ADDR ?>/assets/images/brand/client-logo-02.png"
-                                                alt="logo image">
-                                        </a>
-                                    </div>
-
-                                    <div class="swiper-slide brand">
-                                        <a href="<? echo SITE_ADDR ?>/">
-                                            <img src="<? echo SITE_ADDR ?>/assets/images/brand/client-logo-03.png"
-                                                alt="logo image">
-                                        </a>
-                                    </div>
-
-                                    <div class="swiper-slide brand">
-                                        <a href="<? echo SITE_ADDR ?>/">
-                                            <img src="<? echo SITE_ADDR ?>/assets/images/brand/client-logo-04.png"
-                                                alt="logo image">
-                                        </a>
-                                    </div>
-
-                                    <div class="swiper-slide brand">
-                                        <a href="<? echo SITE_ADDR ?>/">
-                                            <img src="<? echo SITE_ADDR ?>/assets/images/brand/client-logo-05.png"
-                                                alt="logo image">
-                                        </a>
-                                    </div>
-
-                                    <div class="swiper-slide brand">
-                                        <a href="<? echo SITE_ADDR ?>/">
-                                            <img src="<? echo SITE_ADDR ?>/assets/images/brand/client-logo-06.png"
-                                                alt="logo image">
-                                        </a>
-                                    </div>
-
-                                    <div class="swiper-slide brand">
-                                        <a href="<? echo SITE_ADDR ?>/">
-                                            <img src="<? echo SITE_ADDR ?>/assets/images/brand/client-logo-03.png"
-                                                alt="logo image">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Brand Section End -->
 
 
 

@@ -59,6 +59,27 @@ define("SITE_ADDR", "http://localhost/new.robustittraining.com");
     <link rel="stylesheet" href="<? echo SITE_ADDR ?>/assets/css/plugins/plugins.min.css">
     <!-- <link rel="stylesheet" href="<? echo SITE_ADDR ?>/assets/css/style.min.css"> -->
 
+    <script type="text/javascript">
+    /*****************************
+     *        live search        *
+     *****************************/
+    function showResult(str) {
+        if (str.length == 0) {
+            document.getElementById("livesearch").innerHTML = "";
+            document.getElementById("livesearch").style.border = "0px";
+            return;
+        }
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                document.getElementById("livesearch").innerHTML = this.responseText;
+                document.getElementById("livesearch").style.border = "5px solid #fff";
+            }
+        }
+        xmlhttp.open("GET", "<? echo SITE_ADDR ?>/assets/php/inc/livesearch.php?q=" + str, true);
+        xmlhttp.send();
+    }
+    </script>
 </head>
 
 <body>

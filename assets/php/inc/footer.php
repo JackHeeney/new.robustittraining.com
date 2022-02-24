@@ -78,16 +78,17 @@
                     <h4 class="footer-widget-title">About</h4>
                     <div class="footer-widget-content">
                         <ul>
-                            <li><a href="<? echo SITE_ADDR ?>/">Features <i
+                            <li><a href="<? echo SITE_ADDR ?>/">About Us <i
                                         class="fas fa-chevron-right fcr-animate"></i></a></li>
                             <li><a href="<? echo SITE_ADDR ?>/">Our Partners <i
                                         class="fas fa-chevron-right fcr-animate"></i></a></li>
                             <li><a href="<? echo SITE_ADDR ?>/">Affiliate Program <i
                                         class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a href="">Testimonials <i class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a href="<? echo SITE_ADDR ?>/">Terms & Conditions <i
+                            <li><a href="<? echo SITE_ADDR ?>/testimonials.php">Testimonials <i
                                         class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a href="<? echo SITE_ADDR ?>/">Privacy Policy <i
+                            <li><a href="<? echo SITE_ADDR ?>/terms-and-conditions.php">Terms & Conditions <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a href="<? echo SITE_ADDR ?>/privacy-policy.php">Privacy Policy <i
                                         class="fas fa-chevron-right fcr-animate"></i></a></li>
                         </ul>
                     </div>
@@ -107,7 +108,7 @@
                                         class="fas fa-chevron-right fcr-animate"></i></a></li>
                             <li><a href="<? echo SITE_ADDR ?>/">Live Chat <i
                                         class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a href="<? echo SITE_ADDR ?>/">FAQs <i
+                            <li><a href="<? echo SITE_ADDR ?>/faqs.php">FAQs <i
                                         class="fas fa-chevron-right fcr-animate"></i></a></li>
                         </ul>
                     </div>
@@ -137,6 +138,7 @@
 </a>
 <!-- Scroll Top End -->
 </div>
+
 
 
 

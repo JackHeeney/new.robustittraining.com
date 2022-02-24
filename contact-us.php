@@ -99,6 +99,14 @@ include './assets/php/inc/nav.php';
             </div>
             <!-- Animation Shape End -->
 
+
+            <!-- Animation Shape Start -->
+            <div class="shape shape-2 scene">
+                <span data-depth="4"><img src="assets/images/shape-animation/video-shape-1.png" alt="shape"></span>
+            </div>
+            <!-- Animation Shape End -->
+
+
         </div>
     </div>
     <!-- Contact Information Section End -->
