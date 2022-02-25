@@ -40,6 +40,21 @@
     <url>services.php</url>
     <desc>Check out what services we offer.</desc>
   </link>
+  <link>
+    <title>Learning Paths</title>
+    <url>learning-paths.php</url>
+    <desc>Find the perfect path for your learning journey.</desc>
+  </link>
+  <link>
+    <title>Search by Vendor</title>
+    <url>learning-paths.php</url>
+    <desc>Search by Vendor the perfect path for your learning journey.</desc>
+  </link>
+  <link>
+    <title>Search by Career</title>
+    <url>learning-paths.php</url>
+    <desc>Search by Vendor the perfect path for your learning journey.</desc>
+  </link>
 
 
   <!-- Coursers -->
