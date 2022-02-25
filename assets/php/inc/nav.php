@@ -3,7 +3,8 @@
     <div class="site-main-mobile-menu-inner">
         <div class="mobile-menu-header">
             <div class="mobile-menu-logo">
-                <a href="index.php"><img src="<? echo SITE_ADDR ?>/assets/images/logo/robust-it-logo-light-alt-2022.svg"
+                <a href="<? echo SITE_ADDR ?>/index.php"><img
+                        src="<? echo SITE_ADDR ?>/assets/images/logo/robust-it-logo-light-alt-2022.svg"
                         alt="Robust IT Logo" width="150px" height="auto"></a>
             </div>
             <div class="mobile-menu-close">
@@ -103,7 +104,7 @@
                 <!-- Header Logo Start -->
                 <div class="col-xl-2 col-auto order-0">
                     <div class="header-logo">
-                        <a href="index.php">
+                        <a href="<? echo SITE_ADDR ?>/index.php">
                             <img class="dark-logo"
                                 src="<? echo SITE_ADDR ?>/assets/images/logo/robust-it-logo-light-alt-2022.svg"
                                 alt="Company Logo">
@@ -382,7 +383,7 @@
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel"
     data-bg-color="#000)" data-overlay="0.9" data-bg-image="<? echo SITE_ADDR ?>/assets/images/hero-image/hero-4.jpg">
     <div class="offcanvas-header container">
-        <a href="index.php" class="offcanvas-title"><img
+        <a href="<? echo SITE_ADDR ?>/index.php" class="offcanvas-title"><img
                 src="<? echo SITE_ADDR ?>/assets/images/logo/robust-it-logo-light-alt-2022.svg" alt="Robust IT Logo"
                 width="200px" height="auto"></a>
 

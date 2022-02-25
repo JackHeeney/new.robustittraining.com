@@ -41,7 +41,7 @@ include '../../assets/php/inc/nav.php';
     <!-- Start About Course -->
     <div class="section section-padding" data-bg-color="#f8faff">
         <div class="container">
-            <div class="row pt--100 pb--80">
+            <div class="row ">
                 <!-- Portfolio Left -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="work-left work-details" data-aos="fade-up">
@@ -80,7 +80,7 @@ include '../../assets/php/inc/nav.php';
                             </div>
                             <!-- End Details List -->
                             <!-- Start Work Share -->
-                            <div class="work-share pt--70 pt_md--40 pt_sm--40">
+                            <div class="work-share">
                                 <div class="links">
                                     <ul>
                                         <li class="social-share facebook">
@@ -103,6 +103,19 @@ include '../../assets/php/inc/nav.php';
                                 </div>
                             </div>
                             <!-- End Work Share -->
+
+                            <!-- Start info graphic -->
+                            <div class="info-graphic" data-aos="zoom-in">
+                                <img class="image desktop"
+                                    src="<? echo SITE_ADDR ?>/assets/images/project/course-page-info-graphic-desktop.png"
+                                    alt="learning path info graphic">
+
+                                <img class="image mobile"
+                                    src="<? echo SITE_ADDR ?>/assets/images/project/course-page-info-graphic.png"
+                                    alt="learning path info graphic">
+
+                            </div>
+                            <!-- End info graphic -->
                         </div>
                     </div>
                 </div>
@@ -110,7 +123,7 @@ include '../../assets/php/inc/nav.php';
 
                 <!-- Start About Course Right -->
                 <div class="col-lg-7 col-md-6 offset-lg-1 col-12">
-                    <div class="work-left work-details mt-6">
+                    <div class="work-left work-details mt-0">
                         <div class="work-main-info">
                             <div class="work-content">
                                 <h6 class="title text-uppercase" data-aos="fade-up">

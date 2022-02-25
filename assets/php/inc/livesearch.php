@@ -29,7 +29,7 @@ if (strlen($q) > 0) {
 						"' class='underline-hover'><div class='live-area'>" .
 
 						$y->item(0)->childNodes->item(0)->nodeValue .
-						" <br> <span class='text-muted'>" .
+						" <br><span class='text-muted'>" .
 
 						$d->item(0)->childNodes->item(0)->nodeValue .  " </span></div></a> ";
 				} else {

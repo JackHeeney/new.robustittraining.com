@@ -25,6 +25,7 @@
         04.9 Newsletter CSS
         04.10 Pagination CSS
         04.11 Team CSS
+        04.12 Desktop/Mobile CSS
     05. Header CSS
         05.01 Main Menu CSS
         05.02 Mobile Menu Toggle CSS
@@ -14731,6 +14732,14 @@ fieldset:disabled .btn {
 
 .pb-50 {
   padding-bottom: 250px !important;
+}
+
+.pb-80 {
+  padding-bottom: 350px !important;
+}
+
+.pb-100 {
+  padding-bottom: 500px !important;
 }
 
 .pl-0 {
@@ -36825,6 +36834,27 @@ textarea:focus {
   transform: translateY(0);
 }
 
+
+/* 04.12 Desktop/Mobile CSS */
+.desktop {
+  display: block;
+}
+
+.mobile {
+  display: none;
+}
+@media only screen and (max-width: 767px) {
+  .desktop {
+    display: none;
+  }
+  
+  .mobile {
+    display: block;
+  }
+  
+}
+
+
 /*----------------------------------------*/
 /*  07. Titles CSS
 /*----------------------------------------*/
@@ -37350,7 +37380,6 @@ h6:hover .fcr-animate {
   transition: all 0.5s ease-in-out;
 }
 
-
 @media only screen and (max-width: 767px) {
   .main-search-active {
     padding: 32px 20px 39px;
@@ -37556,6 +37585,7 @@ h6:hover .fcr-animate {
 #livesearch a {
   color: #fff;
   font-size: 1.5rem;
+  display: block;
 }
 
 #livesearch a:hover {
@@ -37565,8 +37595,6 @@ h6:hover .fcr-animate {
 .live-area {
   margin-bottom: 20px;
 }
-
-
 
 /* 05.01 Main Menu CSS */
 .site-main-menu {
@@ -38880,7 +38908,7 @@ h5 {
 .about-content-area p {
   max-width: 500px;
   margin-bottom: 0;
-} 
+}
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .about-content-area p {
@@ -39114,6 +39142,7 @@ h5 {
   -o-transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
   transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
 }
+
 .skill-video .icon {
   position: absolute;
   z-index: 9;
@@ -39923,10 +39952,10 @@ h5 {
 
 .work-details-course-logo {
   position: absolute;
-  top: 10%;
-  right: 50%;
-  transform: translate(100%, -50%);
-  margin-bottom: 2rem;
+  max-width: 200px;
+  top: -50px;
+  left: 220px;
+  display: block;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -39941,11 +39970,13 @@ h5 {
     font-size: 32px;
   }
   .work-details-course-logo {
-    position: relative;
+    max-width: 170px;
     top: 0;
-    left: -25%;
-    transform: translate(25%, 0%);
-    margin-bottom: 2rem;
+    left: 0;
+    right: 10px;
+    margin: auto;
+    position: relative;
+    display: block;
   }
 }
 
@@ -39992,6 +40023,35 @@ h5 {
 
 .work-share .links li:hover {
   text-decoration: underline;
+}
+
+.info-graphic{
+  position: relative;
+  right: 20px;
+}
+.info-graphic .image {
+  width: 100%;
+  -webkit-transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
+  -o-transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
+  transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
+}
+.info-graphic:hover .image {
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+}
+@media only screen and (max-width: 768px) {
+  .info-graphic .image {
+    width: 100%;
+    -webkit-transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
+    -o-transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
+    transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
+  }
+  .info-graphic:hover .image {
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+  }
 }
 
 /*----------------------------------------*/
