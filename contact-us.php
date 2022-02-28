@@ -1,8 +1,19 @@
 <?php
+// Change page title and meta tags here
+$title = "Robust IT Training | Contact Us";
+$meta['keywords'] = "";
+$meta['description'] = "";
+
+// Social media meta tags
+$title = "Robust IT Training | Contact Us";
+$meta['og:description'] = "";
+$meta['og:image'] = "";
+$meta['og:url'] = "";
+
+$leadIsFrom = "Lead is from /contact-us";
 
 include './assets/php/inc/header.php';
 include './assets/php/inc/nav.php';
-
 ?>
 
 <div id="page contact" class="section">

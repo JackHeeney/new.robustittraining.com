@@ -1,28 +1,28 @@
 <?php
 // Change page title and meta tags here
-$title = "Robust IT Training | Work Details";
-$meta['keywords'] = "";
-$meta['description'] = "";
+$title = "Robust IT Training | EC-Council | Computer Hacking Forensic Investigator";
+$meta['keywords'] = "Cyber Security, Computer Hacking Forensic Investigator, CHFI, EC-Council";
+$meta['description'] = "Robust IT Training Computer Hacking Forensic Investigator course.";
 
 // Social media meta tags
-$title = "Robust IT Training | Work Details";
-$meta['og:description'] = "";
+$title = "Robust IT Training | EC-Council | Computer Hacking Forensic Investigator";
+$meta['og:description'] = "Robust IT Training Computer Hacking Forensic Investigator course.";
 $meta['og:image'] = "";
 $meta['og:url'] = "";
 
-$leadIsFrom = "Lead is from /work-details";
+$leadIsFrom = "Lead is from /vendor/ec-council/computer-hacking-forensic-investigator";
 
-include './assets/php/inc/header.php';
-include './assets/php/inc/nav.php';
+include '../../assets/php/inc/header.php';
+include '../../assets/php/inc/nav.php';
 ?>
 
 <div id="page work-details" class="section">
     <!-- Page Title Section Start -->
     <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7"
-        data-bg-image="assets/images/bg/breadcrumb-bg-two.jpg">
+        data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/bg-certified-ethical-hacker.jpg">
         <div class="page-title">
             <div class="container">
-                <h1 class="title">AWS Certified Cloud Practitioner</h1>
+                <h1 class="title">Computer Hacking Forensic Investigator</h1>
                 <!-- <h2 class="title-h2">Learn more about this certification and AWS resources that can help you prepare
                 </h2> -->
             </div>
@@ -30,57 +30,58 @@ include './assets/php/inc/nav.php';
         <div class="page-breadcrumb position-static">
             <div class="container">
                 <ul class="breadcrumb justify-content-center">
-                    <li><a href="index.html">Home</a></li>
-                    <li class="current">Work</li>
+                    <li><a href="<? echo SITE_ADDR ?>/">Home</a></li>
+                    <li><a href="<? echo SITE_ADDR ?>/vendor">Vendor</a></li>
+                    <li class="current">CHFI</li>
                 </ul>
             </div>
         </div>
     </div>
     <!-- Page Title Section End -->
 
-    <!-- Start Work Details -->
-    <div class="section section-padding">
+    <!-- Start About Course -->
+    <div class="section section-padding" data-bg-color="#f8faff">
         <div class="container">
-            <div class="row pt--100 pb--80">
+            <div class="row ">
                 <!-- Portfolio Left -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="work-left work-details" data-aos="fade-up">
                         <div class="portfolio-main-info">
                             <h2 class="title">
                                 About the <br />
-                                project
+                                course
                             </h2>
                             <div class="work-details-course-logo">
-                                <img src="<? echo SITE_ADDR ?>/assets/images/logo/aws/AWS-CloudPractitioner.png"
+                                <img src="<? echo SITE_ADDR ?>/assets/images/logo/ec-council/chfi.png"
                                     alt="cloud practitioner logo" class="w-100">
                             </div>
                             <!-- Start Details List -->
                             <div class="work-details-list mt-lg-12 mt-6">
                                 <div class="details-list">
-                                    <label>Date</label>
-                                    <span>28 Sep 2022</span>
+                                    <label>Exam Prefix</label>
+                                    <span>312-49 (ECC EXAM)</span>
                                 </div>
 
                                 <div class="details-list">
                                     <label>Level</label>
-                                    <span>Foundational</span>
+                                    <span>Professional</span>
                                 </div>
 
                                 <div class="details-list">
                                     <label>Length</label>
-                                    <span><a href="#">90 minutes to complete the exam</a></span>
+                                    <span>4 hours to complete the exam</span>
                                 </div>
 
                                 <div class="details-list">
                                     <label>Format</label>
-                                    <span>65 questions; either multiple choice or multiple response</span>
+                                    <span>150 questions; multiple choice</span>
                                 </div>
 
 
                             </div>
                             <!-- End Details List -->
                             <!-- Start Work Share -->
-                            <div class="work-share pt--70 pt_md--40 pt_sm--40">
+                            <div class="work-share">
                                 <div class="links">
                                     <ul>
                                         <li class="social-share facebook">
@@ -102,57 +103,117 @@ include './assets/php/inc/nav.php';
                                     </ul>
                                 </div>
                             </div>
+                            <!-- End Work Share -->
+
+                            <!-- Start info graphic -->
+                            <div class="info-graphic" data-aos="zoom-in">
+                                <img class="image desktop"
+                                    src="<? echo SITE_ADDR ?>/assets/images/project/course-page-info-graphic-desktop.png"
+                                    alt="learning path info graphic">
+
+                                <img class="image mobile"
+                                    src="<? echo SITE_ADDR ?>/assets/images/project/course-page-info-graphic.png"
+                                    alt="learning path info graphic">
+
+                            </div>
+                            <!-- End info graphic -->
                         </div>
                     </div>
                 </div>
 
-                <!-- Work Right -->
+
+                <!-- Start About Course Right -->
                 <div class="col-lg-7 col-md-6 offset-lg-1 col-12">
-                    <div class="work-left work-details mt-6">
+                    <div class="work-left work-details mt-0">
                         <div class="work-main-info">
                             <div class="work-content">
-                                <h6 class="title" data-aos="fade-up">ABOUT THE PROJECT</h6>
+                                <h6 class="title text-uppercase" data-aos="fade-up">
+                                    About the Computer Hacking Forensic Investigator Course
+                                </h6>
 
                                 <div class="desc mt-8">
                                     <div class="content mb-5" data-aos="fade-up">
                                         <p>
-                                            This credential helps organizations identify and develop talent with
-                                            critical knowledge related to implementing cloud initiatives. Earning AWS
-                                            Certified Cloud Practitioner validates cloud fluency and foundational AWS
-                                            knowledge.
+                                            The Computer Hacking Forensic Investigator (CHFI) course delivers the
+                                            security discipline of digital forensics from a vendor-neutral perspective.
+                                            CHFI is a comprehensive course covering major forensic investigation
+                                            scenarios and enabling students to acquire necessary hands-on experience
+                                            with various forensic investigation techniques and standard forensic tools
+                                            necessary to successfully carry out a computer forensic investigation
+                                            leading to the prosecution of perpetrators.
                                         </p>
-                                    </div>
-                                    <div class="content mb-5" data-aos="fade-up">
-                                        <h6 class="title" data-aos="fade-up">Who should take this exam?</h6>
                                         <p>
-                                            AWS Certified Cloud Practitioner is intended for anyone who has basic
-                                            knowledge of the AWS platform. Before taking this exam, we recommend you
-                                            have:
+                                            The CHFI certification gives participants (Law enforcement personnel, system
+                                            administrators, security officers, defense and military personnel, legal
+                                            professionals, bankers, security professionals, and anyone who is concerned
+                                            about the integrity of the network infrastructure.) the necessary skills to
+                                            perform an effective digital forensics investigation.
                                         </p>
-                                        <ul>
-                                            <li>
-                                                Six months of exposure to the AWS Cloud
-                                            </li>
-                                            <li>
-                                                Basic understanding of IT services and their uses in the AWS Cloud
-                                                platform
-                                            </li>
-                                            <li>
-                                                Knowledge of core AWS services and use cases, billing and pricing
-                                                models, security concepts, and how cloud impacts your business
-                                            </li>
-                                        </ul>
+                                        <p>
+                                            CHFI presents a methodological approach to computer forensics including
+                                            searching and seizing, chain-of-custody, acquisition, preservation, analysis
+                                            and reporting of digital evidence.
+                                        </p>
                                     </div>
                                     <div class="content mb-12" data-aos="fade-up">
                                         <h6 class="title" data-aos="fade-up">What does it take to earn this
                                             certification?</h6>
                                         <p>
-                                            To earn this certification, you will need to take and pass the AWS Certified
-                                            Cloud Practitioner exam (CLF-C01). The exam features a combination of two
-                                            question formats: multiple choice and multiple response. Additional
-                                            information, such as a detailed exam content outline, is in the exam guide.
+                                            In order to maintain the high integrity of our certification exams,
+                                            EC-Council Exams are provided in multiple forms (I.e. different question
+                                            banks). Each form is carefully analyzed through beta testing with an
+                                            appropriate sample group under the purview of a committee of subject matter
+                                            experts that ensure that each of our exams not only has academic rigor but
+                                            also has “real world” applicability. We also have a process to determine the
+                                            difficulty rating of each question. The individual rating then contributes
+                                            to an overall “Cut Score” for each exam form. To ensure each form has equal
+                                            assessment standards, cut scores are set on a “per exam form” basis.
+                                            Depending on which exam form is challenged, cut scores can range from 60% to
+                                            78%.
                                         </p>
                                     </div>
+                                    <div class="content mb-5" data-aos="fade-up">
+                                        <h6 class="title" data-aos="fade-up">What will you learn?</h6>
+                                        <p>
+                                            By the end of this course you will be able to:
+                                        </p>
+                                        <ul>
+                                            <li>
+                                                Establish threat intelligence and key learning points to support
+                                                pro-active profiling and scenario modeling
+
+                                            </li>
+                                            <li>
+                                                Perform anti-forensic methods detection
+                                            </li>
+                                            <li>
+                                                Perform post-intrusion analysis of electronic and digital media to
+                                                determine the who, where, what, when, and how the intrusion occurred
+                                            </li>
+                                            <li>
+                                                Extract and analyze of logs from various devices like proxy, firewall,
+                                                IPS, IDS, Desktop, laptop, servers, SIM tool, router, firewall, switches
+                                                AD server, DHCP logs, Access Control Logs & conclude as part of
+                                                investigation process.
+                                            </li>
+                                            <li>
+                                                Identify & check the possible source / incident origin.
+
+                                            </li>
+                                            <li>
+                                                Recover deleted files and partitions in Windows, Mac OS X, and Linux
+                                            </li>
+                                            <li>
+                                                Conduct reverse engineering for known and suspected malware files
+                                            </li>
+                                            <li>
+                                                Collect data using forensic technology methods in accordance with
+                                                evidence handling procedures, including collection of hard copy and
+                                                electronic documents
+                                            </li>
+                                        </ul>
+                                    </div>
+
 
                                     <div class="work-btn">
                                         <a class="btn btn-primary btn-hover-secondary" href="#">Download the exam guide
@@ -164,8 +225,9 @@ include './assets/php/inc/nav.php';
                     </div>
                 </div>
             </div>
+            <!-- End About Course Right -->
 
-            <!-- Skill With Video Section Start -->
+            <!-- Start Brand and Labs -->
             <div class="section section-padding">
 
                 <!-- Brand Section Start -->
@@ -181,7 +243,7 @@ include './assets/php/inc/nav.php';
                 </div>
                 <!-- Brand Section End -->
 
-
+                <!-- Start Labs Area -->
                 <div class="container">
 
                     <div class="row align-items-center my-lg-20 my-12">
@@ -191,8 +253,12 @@ include './assets/php/inc/nav.php';
                             <div class="skill-with-video-content">
                                 <!-- Section Title Two Start -->
                                 <div class="section-title-two mb-8">
-                                    <span class="sub-title">Average salary after completing</span>
-                                    <h3 class="title">£86,500 <small>a year</small>.</h3>
+                                    <h3 class="heading heading-h3"></h3>
+
+                                    <span class="sub-title">Benefit of the CHFI</span>
+                                    <h2 class="title">
+                                        Course Benefits
+                                    </h2>
                                 </div>
                                 <!-- Section Title Two End -->
 
@@ -202,29 +268,90 @@ include './assets/php/inc/nav.php';
                                         <div class="icon">
                                             <i class="fas fa-check"></i>
                                         </div>
-                                        <div class="text">Select &amp; customize courses to your preferences</div>
+                                        <div class="text">
+                                            Inclusion of critical modules in Darkweb forensic and IoT Forensics
+                                        </div>
                                     </li>
                                     <li class="item">
                                         <div class="icon">
                                             <i class="fas fa-check"></i>
                                         </div>
-                                        <div class="text">Change the tutor and make arrangements</div>
+                                        <div class="text">
+                                            Significant coverage of forensic methodologies for public cloud
+                                            infrastructure, including Amazon AWS and Microsoft Azure
+                                        </div>
                                     </li>
                                     <li class="item">
                                         <div class="icon">
                                             <i class="fas fa-check"></i>
                                         </div>
-                                        <div class="text">Participate in events to join others</div>
+                                        <div class="text">
+                                            Massive updates on all modules in CHFI
+                                        </div>
                                     </li>
                                     <li class="item">
                                         <div class="icon">
                                             <i class="fas fa-check"></i>
                                         </div>
-                                        <div class="text">Get the desired certificate delivered at house</div>
+                                        <div class="text">
+                                            Inclusion of latest forensic tools including Splunk, DNSQuerySniffer etc
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <div class="icon">
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <div class="text">
+                                            Addition of new techniques such as Defeating Anti-forensic technique,
+                                            Windows ShellBags including analyzing LNK files and Jump Lists
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <div class="icon">
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <div class="text">
+                                            Extensive coverage of Malware Forensics (latest malware samples such as
+                                            Emotet and EternalBlue )
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <div class="icon">
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <div class="text">
+                                            Now more than 50GB of crafted evidence files for investigation purposes
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <div class="icon">
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <div class="text">
+                                            More than 50% of new and advanced forensic labs
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <div class="icon">
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <div class="text">
+                                            In-depth focus on Volatile and Non-volatile data acquisition and examination
+                                            process (RAM Forensics, Tor Forensics, etc.
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <div class="icon">
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <div class="text">
+                                            Accepted and trusted by cybersecurity practitioners across Fortune 500
+                                            globally.
+                                        </div>
                                     </li>
                                 </ul>
                                 <!-- Agency List End -->
-                                <a href="#" id="startScroll" class="btn btn-primary btn-hover-secondary">
+                                <a href="#scrollTo" id="startScroll" class="btn btn-primary btn-hover-secondary">
                                     Get started
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
@@ -237,7 +364,8 @@ include './assets/php/inc/nav.php';
                             <div class="video-popup-area">
                                 <!-- Video Popup Start -->
                                 <div class="skill-video" data-aos="fade-up">
-                                    <img class="image" src="assets/images/video/skill-video.jpg" alt="video popup">
+                                    <img class="image" src="<? echo SITE_ADDR ?>/assets/images/video/skill-video.jpg"
+                                        alt="video popup">
                                     <a href="https://www.youtube.com/watch?v=eS9Qm4AOOBY" class="icon video-popup">
                                         <i class="fas fa-play"></i>
                                     </a>
@@ -247,7 +375,8 @@ include './assets/php/inc/nav.php';
                                 <!-- Animation Shape Start -->
                                 <div class="shape shape-1 scene">
                                     <span data-depth="1">
-                                        <img src="assets/images/shape-animation/video-shape-1.png" alt="">
+                                        <img src="<? echo SITE_ADDR ?>/assets/images/shape-animation/video-shape-1.png"
+                                            alt="">
                                     </span>
                                 </div>
                                 <!-- Animation Shape End -->
@@ -258,39 +387,49 @@ include './assets/php/inc/nav.php';
                     </div>
 
                 </div>
+                <!-- End Labs Area -->
+
 
             </div>
-            <!-- Skill With Video Section End -->
+            <!-- Start Brand and Labs -->
 
 
-            <!-- Start Digital Marketion Area -->
+            <!-- Start Average Salary Area -->
             <div class="row my-lg-12 my-10">
                 <div class="col-lg-4 col-md-12 col-12">
                     <div class="digital-marketing" data-aos="fade-up">
-                        <h3 class="heading heading-h3">Get your team hands-on with AWS Labs.</h3>
+                        <div class="section-title-two mb-8">
+                            <span class="sub-title">Average salary after completing CHFI</span>
+                            <h2 class="title my-4">
+                                £56,650.00 / year
+                            </h2>
+                            <small>Avg. Base Salary (GBP)</small>.
+                        </div>
+
+
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-12 col-12 offset-lg-1">
                     <div class="digital-marketing mt-lg-0 mt-6" data-aos="fade-up">
                         <div class="inner">
                             <p>
-                                When it comes to learning, there’s no substitute for doing. Whether flying a plane,
-                                cooking a meal, or building in the cloud, nothing reinforces lessons like hands-on
-                                experience. That’s where our AWS Hands-on Labs come in. Give your people the ability to
-                                drop into real-world scenarios and build their skills in real AWS environments. They can
-                                work through labs as part of a course, or fire them up on demand when they need to learn
-                                or refresh a particular skill for a work project. With hundreds of labs covering all
-                                different facets of AWS, A Cloud Guru lets get your teams the exact skills they need,
-                                exactly when they need them.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ipsum possimus, dolore
+                                earum officia corporis aspernatur asperiores recusandae ut perspiciatis atque facere ex
+                                soluta, quisquam nesciunt facilis perferendis vitae iure.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ipsum possimus, dolore
+                                earum officia corporis aspernatur asperiores recusandae ut perspiciatis atque facere ex
+                                soluta, quisquam nesciunt facilis perferendis vitae iure.
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- End Digital Marketion Area -->
+            <!-- End Average Salary Area -->
 
             <!-- Faq Section Start -->
-            <div class="faq-section section section-padding-top" style="padding-bottom: 0px" data-bg-color="#ffffff">
+            <div class="faq-section section section-padding-top" style="padding-bottom: 0px">
                 <div class="container">
                     <div class="row my-lg-14 my-7">
 
@@ -298,14 +437,17 @@ include './assets/php/inc/nav.php';
                         <div class="col-xl-7 col-lg-6 col-12" data-aos="fade-up">
                             <div class="about-image-area">
                                 <div class="about-image js-tilt">
-                                    <img src="assets/images/about/home-one-about/cloud_about_2.jpg" alt="">
+                                    <img src="<? echo SITE_ADDR ?>/assets/images/about/home-one-about/cloud_about_2.jpg"
+                                        alt="">
                                 </div>
                                 <div class="about-image js-tilt">
-                                    <img src="assets/images/about/home-one-about/cloud_about_1.jpg" alt="">
+                                    <img src="<? echo SITE_ADDR ?>/assets/images/about/home-one-about/cloud_about_1.jpg"
+                                        alt="">
                                 </div>
                                 <!-- Animation Shape Start -->
                                 <div class="shape shape-1 scene">
-                                    <span data-depth="1"><img src="assets/images/shape-animation/about-shape-2.png"
+                                    <span data-depth="1"><img
+                                            src="<? echo SITE_ADDR ?>/assets/images/shape-animation/about-shape-2.png"
                                             alt=""></span>
                                 </div>
                                 <!-- Animation Shape End -->
@@ -404,11 +546,12 @@ include './assets/php/inc/nav.php';
 
 
     </div>
-    <!-- Start Work Details -->
+    <!-- Start About Course -->
 
 
     <!-- Contact Section Start -->
-    <div class="section section-padding contact-section" id="scrollTo">
+    <div class="section section-padding contact-section" id="scrollTo" data-bg-color="#000" data-overlay="0.7"
+        data-bg-image="<? echo SITE_ADDR ?>/assets/images/bg/contact-bg.jpg">
 
         <div class="container">
             <div class="row row-cols-lg-2 row-cols-1 align-items-center">
@@ -416,7 +559,7 @@ include './assets/php/inc/nav.php';
                     <!-- Contact Information -->
                     <div class="contact-Information mr-xl-7">
                         <!-- Section Title Two Start -->
-                        <div class="section-title-two">
+                        <div class="section-title-two color-light">
                             <span class="sub-title">Contact Us
                             </span>
                             <h3 class="title">Fill out the form or get in touch by using the details below:
@@ -425,44 +568,62 @@ include './assets/php/inc/nav.php';
                         <!-- Section Title Two End -->
 
                         <!-- Contact Info Item Start -->
-                        <div class="contact-info ct-info-two" data-vivus-hover>
+                        <div class="contact-info info-light" data-vivus-hover>
                             <div class="icon">
-                                <img class="svgInject" src="assets/images/svg/linea/linea-basic-map.svg" alt="">
+                                <img class="svgInject"
+                                    src="<? echo SITE_ADDR ?>/assets/images/svg/linea/linea-basic-map.svg" alt="">
                             </div>
                             <div class="info">
                                 <h4 class="title">Our Locations</h4>
-                                <span class="info-text"> Harlow Enterprise Hub, Kao Hockham Building Edinburgh Way,
-                                    Harlow, Essex, CM20 2NQ.</span>
-                            </div>
-                        </div>
-                        <!-- Contact Info Item End -->
-                        <!-- Contact Info Item Start -->
-                        <div class="contact-info ct-info-two" data-vivus-hover>
-                            <div class="icon">
-                                <img class="svgInject" src="assets/images/svg/linea/linea-basic-message-txt.svg" alt="">
-                            </div>
-                            <div class="info">
-                                <h4 class="title">Give Us A Call</h4>
-                                <span class="info-text">
-                                    Sales Team: <a href="#">02038 757 827</a>,
-                                    Support Team: <a href="#">02038 757 831</a>,
-                                    Freephone: <a href="#">0800 677 1232</a>
+                                <span class="info-text address-desktop">
+                                    <span class="address-mobile">Harlow Enterprise Hub, <br /> Kao Hockham Building
+                                        <br /> Edinburgh Way, Harlow,
+                                        <br /> Essex, CM20 2NQ.</span>
                                 </span>
                             </div>
                         </div>
                         <!-- Contact Info Item End -->
                         <!-- Contact Info Item Start -->
-                        <div class="contact-info ct-info-two" data-vivus-hover>
+                        <div class="contact-info info-light" data-vivus-hover>
                             <div class="icon">
-                                <img class="svgInject" src="assets/images/svg/linea/linea-basic-mail-open-text.svg"
+                                <img class="svgInject"
+                                    src="<? echo SITE_ADDR ?>/assets/images/svg/linea/linea-basic-message-txt.svg"
+                                    alt="">
+                            </div>
+                            <div class="info">
+                                <h4 class="title">Give Us A Call</h4>
+                                <span class="info-text">
+                                    Sales Team:
+                                    <a href="tel:02038 757 827" alt="Sales Team Contact Number">
+                                        02038 757 827
+                                    </a>
+                                    <br />
+                                    Support Team:
+                                    <a href="tel:02038 757 831" alt="Support Team Contact Number">
+                                        02038 757 831
+                                    </a>
+                                    <br />
+                                    Freephone:
+                                    <a href="tel:0800 677 1232" alt="Freephone Contact Number">
+                                        0800 677 1232
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                        <!-- Contact Info Item End -->
+                        <!-- Contact Info Item Start -->
+                        <div class="contact-info info-light" data-vivus-hover>
+                            <div class="icon">
+                                <img class="svgInject"
+                                    src="<? echo SITE_ADDR ?>/assets/images/svg/linea/linea-basic-mail-open-text.svg"
                                     alt="">
                             </div>
                             <div class="info">
                                 <h4 class="title"> Help Desk</h4>
                                 <span class="info-text">
-                                    <a href="#">info@robustittraining.com</a>,
-                                    <a href="#">support@robustit.co.uk</a>,
-                                    <a href="#">compliance@robustittraining.com</a>
+                                    <a href="mailto:info@robustit.co.uk">info@robustit.co.uk</a>,<br />
+                                    <a href="mailto:support@robustit.co.uk">support@robustit.co.uk</a>,<br />
+                                    <a href="mailto:compliance@robustit.co.uk">compliance@robustit.co.uk</a>
                                 </span>
                             </div>
                         </div>
@@ -476,23 +637,33 @@ include './assets/php/inc/nav.php';
                         <!-- Section Title Start -->
                         <div class="section-title text-center mb-7">
                             <h2 class="title fz-28">Get in touch today!</h2>
-                            <p class="sub-title">We have made it easy for clients to reach us and begin their cloud
-                                journey easily.</p>
+                            <p class="sub-title">
+                                We have made it easy for clients to reach us and begin their cloud
+                                journey easily.
+                            </p>
                         </div>
+
+                        <!-- ajax form id="contact-form" -->
                         <!-- Section Title End -->
-                        <form action="#" id="contact-form" method="post">
+                        <form action="#" method="post">
                             <div class="row mb-n4">
-                                <div class="col-md-12 col-12 mb-4">
-                                    <input type="text" placeholder="Your Name *" name="name">
+                                <div class="col-md-6 col-12 mb-4">
+                                    <input type="text" placeholder="First Name *" name="name" required="required">
+                                </div>
+                                <div class="col-md-6 col-12 mb-4">
+                                    <input type="text" placeholder="Last Name *" name="name" required="required">
                                 </div>
                                 <div class="col-md-12 col-12 mb-4">
-                                    <input type="email" placeholder="Email *" name="email">
+                                    <input type="text" placeholder="Phone *" name="phone" required="required">
+                                </div>
+                                <div class="col-md-12 col-12 mb-4">
+                                    <input type="email" placeholder="Email *" name="email" required="required">
                                 </div>
                                 <div class="col-12 mb-6">
                                     <textarea name="message" placeholder="Message"></textarea>
                                 </div>
                                 <div class="col-12 text-center mb-4">
-                                    <button class="btn btn-primary btn-hover-secondary">Get a free consultation <i
+                                    <button class="btn btn-primary btn-hover-secondary">Submit inquiry <i
                                             class="fas fa-chevron-right fcr-animate"></i></button>
                                 </div>
                             </div>
@@ -502,7 +673,7 @@ include './assets/php/inc/nav.php';
                         <!-- Animation Shape Start -->
                         <div class="shape shape-1 scene">
                             <span data-depth="1">
-                                <img src="assets/images/shape-animation/contact-shape.png" alt="">
+                                <img src="<? echo SITE_ADDR ?>/assets/images/shape-animation/contact-shape.png" alt="">
                             </span>
                         </div>
                         <!-- Animation Shape End -->
@@ -514,13 +685,8 @@ include './assets/php/inc/nav.php';
 
     </div>
     <!-- Contact Section End -->
-
-
 </div>
 
-
 <?php
-
-include './assets/php/inc/footer.php';
-
+include '../../assets/php/inc/footer.php';
 ?>

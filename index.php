@@ -10,6 +10,7 @@ $meta['og:description'] = "";
 $meta['og:image'] = "";
 $meta['og:url'] = "";
 
+$leadIsFrom = "Lead is from /home page";
 
 include './assets/php/inc/header.php';
 include './assets/php/inc/nav.php';

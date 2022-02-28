@@ -36319,14 +36319,19 @@ textarea:focus {
   -ms-flex-item-align: center;
   align-self: center;
 }
-.brand-list .brand a {
+.brand-list .brand a { 
   display: block;
 }
 .brand-list .brand a img {
   opacity: 1;
+  transform: scale(0.9);
+  transition: 250ms ease-in-out;
+
 }
 .brand-list .brand:hover a img {
   opacity: 1;
+  transform: scale(1);
+  transition: 250ms ease-in-out;
 }
 
 /* 04.9 Newsletter CSS */

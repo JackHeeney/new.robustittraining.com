@@ -1,8 +1,19 @@
 <?php
+// Change page title and meta tags here
+$title = "Robust IT Training | Services";
+$meta['keywords'] = "";
+$meta['description'] = "";
+
+// Social media meta tags
+$title = "Robust IT Training | Services";
+$meta['og:description'] = "";
+$meta['og:image'] = "";
+$meta['og:url'] = "";
+
+$leadIsFrom = "Lead is from /services";
 
 include './assets/php/inc/header.php';
 include './assets/php/inc/nav.php';
-
 ?>
 
 <div id="page service" class="section">

@@ -1,8 +1,19 @@
 <?php
+// Change page title and meta tags here
+$title = "Robust IT Training | Terms & Conditions";
+$meta['keywords'] = "";
+$meta['description'] = "";
+
+// Social media meta tags
+$title = "Robust IT Training | Terms & Conditions";
+$meta['og:description'] = "";
+$meta['og:image'] = "";
+$meta['og:url'] = "";
+
+$leadIsFrom = "Lead is from /terms-and-conditions";
 
 include './assets/php/inc/header.php';
 include './assets/php/inc/nav.php';
-
 ?>
 
 <div id="page terms" class="section">

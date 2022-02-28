@@ -292,7 +292,7 @@
 </div>
 <!-- Main Search End -->
 
-<!-- Modal -->
+<!-- Start Request a call back -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -301,6 +301,92 @@
             <div class="modal-body">
                 <div class="modal-header">
                     <h4 class="modal-title text-center" id="exampleModalLabel">Request a call back</h4>
+
+                    <button type=" button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+
+
+                <form action="https://robust.flg360.co.uk/api/APIHTTPPost.php" method="POST">
+
+                    <div class="row">
+
+                        <!-- form details for sending info to leadsite -->
+                        <input type="hidden" name="intLeadGroupID" value="54553" />
+                        <input type="hidden" name="strSource" value="" />
+                        <input type="hidden" name="strMedium" value="" />
+                        <input type="hidden" name="strTerm" value="" />
+                        <input type="hidden" name="intSiteID" value="15334" />
+                        <input type="hidden" name="intReferrerBuyerID" value="0" />
+                        <input type="hidden" name="intDPAStatusPhoneID" value="1">
+                        <input type="hidden" name="intDPAStatusSMSID" value="1">
+                        <input type="hidden" name="intDPAStatusEmailID" value="1">
+                        <input type="hidden" name="strAPISuccessURL" value="http://www.robustittraining.com/thankyou" />
+                        <input type="hidden" name="strAPIFailURL" value="http://www.robustittraining.com/sorry" />
+                        <input type="hidden" name="strLeadData2" id="strLeadData2" value="<? echo $leadIsFrom ?>/" />
+                        <!-- //end -->
+
+                        <div class="col-6">
+                            <div class="form-label-group mt-2">
+                                <input type="text" class="form-control form-control-flush" id="strLeadFirstName"
+                                    name="strLeadFirstName" placeholder="First Name" required="required" />
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-label-group mt-2">
+                                <input type="text" class="form-control form-control-flush" id="strLeadLastName"
+                                    name="strLeadLastName" placeholder="Last Name" required="required" />
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-12">
+                            <div class="form-label-group mt-2">
+                                <input type="email" class="form-control form-control-flush" id="strLeadEmail"
+                                    name="strLeadEmail" placeholder="Email" required="required" />
+                            </div>
+
+                            <div class="form-label-group mt-2">
+                                <input type="number" class="form-control form-control-flush" id="strLeadPhone1"
+                                    name="strLeadPhone1" placeholder="Phone Number" required="required" />
+                            </div>
+
+                            <small class="d-block text-muted text-center mx-auto fz-small my-2"><i
+                                    class="fas fa-info-circle"></i>
+                                We promise to never share your information with anyone else or send you junk mail.
+                            </small>
+                            <div class="mt-2">
+                                <button class="btn btn-block btn-secondary btn-hover--secondary" type="submit"
+                                    name="submit" value="submit">
+                                    Request Callback <i class="fas fa-phone fcr-animate"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+
+
+                <div class="modal-footer">
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- End Request a call back -->
+
+<!-- Start Request more info -->
+<div class="modal fade" id="requestInfoModal" tabindex="-1" role="dialog" aria-labelledby="requestInfoModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content" data-bg-image="assets/images/bg/contact-bg.jpg" data-bg-color="#000"
+            data-overlay="0.9">
+            <div class="modal-body">
+                <div class="modal-header">
+                    <h4 class="modal-title text-center" id="requestInfoModalLabel">Request more information</h4>
 
                     <button type=" button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
@@ -360,7 +446,7 @@
                             <div class="mt-2">
                                 <button class="btn btn-block btn-secondary btn-hover--secondary" type="submit"
                                     name="submit" value="submit">
-                                    Request Callback <i class="fas fa-phone fcr-animate"></i>
+                                    Request Info Pack <i class="fas fa-phone fcr-animate"></i>
                                 </button>
                             </div>
                         </div>
@@ -377,6 +463,7 @@
         </div>
     </div>
 </div>
+<!-- End Request a call back -->
 
 
 <!-- offcanvas start -->
@@ -415,13 +502,15 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item"
+                                    href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-network-defender.php">
                                     C|ND
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item"
+                                    href="<? echo SITE_ADDR ?>/vendor/ec-council/computer-hacking-forensic-investigator.php">
                                     C|HFI
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>

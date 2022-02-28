@@ -1,4 +1,16 @@
 <?php
+// Change page title and meta tags here
+$title = "Robust IT Training | About Us";
+$meta['keywords'] = "";
+$meta['description'] = "";
+
+// Social media meta tags
+$title = "Robust IT Training | About Us";
+$meta['og:description'] = "";
+$meta['og:image'] = "";
+$meta['og:url'] = "";
+
+$leadIsFrom = "Lead is from /about-us";
 
 include './assets/php/inc/header.php';
 include './assets/php/inc/nav.php';
@@ -488,62 +500,8 @@ include './assets/php/inc/nav.php';
         <div class="container">
             <div class="row my-lg-10 my-10">
                 <div class="col-lg-12">
-                    <div class="brand-wrapper">
-                        <div class="brand-list">
-                            <div class="brand-carousel swiper-container">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide brand">
-                                        <a href="<? echo SITE_ADDR ?>/">
-                                            <img src="<? echo SITE_ADDR ?>/assets/images/brand/client-logo-01.png"
-                                                alt="logo image">
-                                        </a>
-                                    </div>
-
-                                    <div class="swiper-slide brand">
-                                        <a href="<? echo SITE_ADDR ?>/">
-                                            <img src="<? echo SITE_ADDR ?>/assets/images/brand/client-logo-02.png"
-                                                alt="logo image">
-                                        </a>
-                                    </div>
-
-                                    <div class="swiper-slide brand">
-                                        <a href="<? echo SITE_ADDR ?>/">
-                                            <img src="<? echo SITE_ADDR ?>/assets/images/brand/client-logo-03.png"
-                                                alt="logo image">
-                                        </a>
-                                    </div>
-
-                                    <div class="swiper-slide brand">
-                                        <a href="<? echo SITE_ADDR ?>/">
-                                            <img src="<? echo SITE_ADDR ?>/assets/images/brand/client-logo-04.png"
-                                                alt="logo image">
-                                        </a>
-                                    </div>
-
-                                    <div class="swiper-slide brand">
-                                        <a href="<? echo SITE_ADDR ?>/">
-                                            <img src="<? echo SITE_ADDR ?>/assets/images/brand/client-logo-05.png"
-                                                alt="logo image">
-                                        </a>
-                                    </div>
-
-                                    <div class="swiper-slide brand">
-                                        <a href="<? echo SITE_ADDR ?>/">
-                                            <img src="<? echo SITE_ADDR ?>/assets/images/brand/client-logo-06.png"
-                                                alt="logo image">
-                                        </a>
-                                    </div>
-
-                                    <div class="swiper-slide brand">
-                                        <a href="<? echo SITE_ADDR ?>/">
-                                            <img src="<? echo SITE_ADDR ?>/assets/images/brand/client-logo-03.png"
-                                                alt="logo image">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <? include '../../assets/php/component/brand.php';
+                    ?>
                 </div>
             </div>
         </div>
