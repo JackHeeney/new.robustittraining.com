@@ -244,7 +244,7 @@ include './assets/php/inc/nav.php';
             </div>
 
             <!-- Section Title End -->
-            <a class="btn btn-primary btn-hover-secondary" href="<?php echo SITE_ADDR ?>/learning-paths.php">Find your
+            <a class="btn btn-primary btn-hover-secondary" href="<?php echo SITE_ADDR ?>/learning-paths">Find your
                 path <i class="fas fa-chevron-right fcr-animate"></i></a>
 
             <!-- Icon Animation Start -->
@@ -285,7 +285,7 @@ include './assets/php/inc/nav.php';
             </div>
             <div class="shape shape-6" data-aos="fade-zoom-in" data-aos-delay="400">
                 <span>
-                    <a href="#" alt="">
+                    <a href="<? echo SITE_ADDR ?>/vendor/ec-council" alt="ec-council learning paths">
                         <img src="assets/images/icon-animation/icon-6.png" alt="ec-council icon">
                     </a>
                 </span>
@@ -526,7 +526,7 @@ include './assets/php/inc/nav.php';
                 <!-- Single Portfolio Start -->
                 <div class="col cat-1" data-aos="fade-up" data-aos-delay="200">
                     <div class="single-portfolio">
-                        <a href="work-details.php">
+                        <a href="#">
                             <div class="thumbnail">
                                 <img class="img-fluid" src="assets/images/portfolio/portfolio-1.jpg" alt="Portfolio-01">
                             </div>
@@ -541,7 +541,7 @@ include './assets/php/inc/nav.php';
                 <!-- Single Portfolio Start -->
                 <div class="col cat-2" data-aos="fade-up" data-aos-delay="400">
                     <div class="single-portfolio">
-                        <a href="work-details.php">
+                        <a href="#">
                             <div class="thumbnail">
                                 <img class="img-fluid" src="assets/images/portfolio/portfolio-2.jpg" alt="Portfolio-01">
                             </div>
@@ -556,7 +556,7 @@ include './assets/php/inc/nav.php';
                 <!-- Single Portfolio Start -->
                 <div class="col cat-3" data-aos="fade-up" data-aos-delay="600" data-aos-offset="-200">
                     <div class="single-portfolio">
-                        <a href="work-details.php">
+                        <a href="#">
                             <div class="thumbnail">
                                 <img class="img-fluid" src="assets/images/portfolio/portfolio-3.jpg" alt="Portfolio-01">
                             </div>
@@ -571,7 +571,7 @@ include './assets/php/inc/nav.php';
                 <!-- Single Portfolio Start -->
                 <div class="col cat-3" data-aos="fade-up" data-aos-delay="800" data-aos-offset="-200">
                     <div class="single-portfolio">
-                        <a href="work-details.php">
+                        <a href="#">
                             <div class="thumbnail">
                                 <img class="img-fluid" src="assets/images/portfolio/portfolio-4.jpg" alt="Portfolio-01">
                             </div>
@@ -586,7 +586,7 @@ include './assets/php/inc/nav.php';
                 <!-- Single Portfolio Start -->
                 <div class="col cat-4" data-aos="fade-up" data-aos-delay="1000" data-aos-offset="-200">
                     <div class="single-portfolio">
-                        <a href="<?php echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker.php">
+                        <a href="<?php echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker">
                             <div class="thumbnail">
                                 <img class="img-fluid" src="assets/images/portfolio/portfolio-5.jpg" alt="Portfolio-01">
                             </div>
@@ -602,7 +602,7 @@ include './assets/php/inc/nav.php';
                 <!-- Single Portfolio Start -->
                 <div class="col cat-4" data-aos="fade-up" data-aos-delay="1200" data-aos-offset="-500">
                     <div class="single-portfolio">
-                        <a href="work-details.php">
+                        <a href="#">
                             <div class="thumbnail">
                                 <img class="img-fluid" src="assets/images/portfolio/portfolio-6.jpg" alt="Portfolio-01">
                             </div>
@@ -888,7 +888,25 @@ include './assets/php/inc/nav.php';
                                 and begin their cloud journey easily.</p>
                         </div>
                         <!-- Section Title End -->
-                        <form action="#" id="contact-form" method="post">
+                        <form action="https://robust.flg360.co.uk/api/APIHTTPPost.php" method="POST" id="contact-form">
+
+                            <!-- form details for sending info to leadsite -->
+                            <input type="hidden" name="intLeadGroupID" value="" />
+                            <input type="hidden" name="strSource" value="" />
+                            <input type="hidden" name="strMedium" value="" />
+                            <input type="hidden" name="strTerm" value="" />
+                            <input type="hidden" name="intSiteID" value="15334" />
+                            <input type="hidden" name="intReferrerBuyerID" value="0" />
+                            <input type="hidden" name="intDPAStatusPhoneID" value="1">
+                            <input type="hidden" name="intDPAStatusSMSID" value="1">
+                            <input type="hidden" name="intDPAStatusEmailID" value="1">
+                            <input type="hidden" name="strAPISuccessURL"
+                                value="http://www.robustittraining.com/thankyou" />
+                            <input type="hidden" name="strAPIFailURL" value="http://www.robustittraining.com/sorry" />
+                            <input type="hidden" name="strLeadData2" id="strLeadData2"
+                                value="<? echo $leadIsFrom ?>/" />
+                            <!-- //end -->
+
                             <div class="row mb-n4">
                                 <div class="col-md-6 col-12 mb-4">
                                     <input type="text" placeholder="First Name *" name="firstName">

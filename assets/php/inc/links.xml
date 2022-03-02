@@ -2,57 +2,57 @@
 <!-- General -->
   <link>
     <title>Home Page</title>
-    <url>index.php</url>
+    <url>https://www.robustittraining.com/index.php</url>
     <desc>Robust IT Training | Online and Classroom training</desc>
   </link>
   <link>
     <title>About Us</title>
-    <url>about-us.php</url>
+    <url>https://www.robustittraining.com/about-us.php</url>
     <desc>About Us? Who is Robust IT?</desc>
   </link>
   <link>
     <title>Contact Us</title>
-    <url>contact-us.php</url>
+    <url>https://www.robustittraining.com/contact-us.php</url>
     <desc>Get in touch today!</desc>
   </link>
   <link>
     <title>Testimonials</title>
-    <url>testimonials.php</url>
+    <url>https://www.robustittraining.com/testimonials.php</url>
     <desc>See what our students say about us.</desc>
   </link>
   <link>
     <title>Terms and Conditions</title>
-    <url>terms-and-conditions.php</url>
+    <url>https://www.robustittraining.com/terms-and-conditions.php</url>
     <desc>Read our terms and conditions.</desc>
   </link>
   <link>
     <title>Privacy Policy</title>
-    <url>privacy-policy.php</url>
+    <url>https://www.robustittraining.com/privacy-policy.php</url>
     <desc>Read our privacy policy.</desc>
   </link>
   <link>
     <title>FAQs</title>
-    <url>faqs.php</url>
+    <url>https://www.robustittraining.com/faqs.php</url>
     <desc>Read our frequently asked questions.</desc>
   </link>
   <link>
     <title>Services</title>
-    <url>services.php</url>
+    <url>https://www.robustittraining.com/services.php</url>
     <desc>Check out what services we offer.</desc>
   </link>
   <link>
     <title>Learning Paths</title>
-    <url>learning-paths.php</url>
+    <url>https://www.robustittraining.com/learning-paths.php</url>
     <desc>Find the perfect path for your learning journey.</desc>
   </link>
   <link>
     <title>Search by Vendor</title>
-    <url>learning-paths.php</url>
+    <url>https://www.robustittraining.com/vendor</url>
     <desc>Search by Vendor the perfect path for your learning journey.</desc>
   </link>
   <link>
     <title>Search by Career</title>
-    <url>learning-paths.php</url>
+    <url>https://www.robustittraining.com/career</url>
     <desc>Search by Vendor the perfect path for your learning journey.</desc>
   </link>
 
@@ -60,7 +60,7 @@
   <!-- Coursers -->
   <link>
     <title>Certified Ethical Hacker</title>
-    <url>./vendor/ec-council/certified-ethical-hacker.php</url>
+    <url>https://www.robustittraining.com/vendor/ec-council/certified-ethical-hacker.php</url>
     <desc>Official EC-Council Certified Ethical Hacking training.</desc>
   </link>
 </pages>

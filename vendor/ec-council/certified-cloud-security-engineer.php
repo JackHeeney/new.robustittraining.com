@@ -1,16 +1,16 @@
 <?php
 // Change page title and meta tags here
-$title = "Robust IT Training | EC-Council | Certified Network Defender";
-$meta['keywords'] = "Cyber Security, Certified Network Defender, CND, EC-Council";
-$meta['description'] = "Robust IT Training Certified Network Defender course.";
+$title = "Robust IT Training | EC-Council | Certified Cloud Security Engineer | CCSE";
+$meta['keywords'] = "Cyber Security, Certified Cloud Security Engineer, CCSE, EC-Council";
+$meta['description'] = "Robust IT Training Certified Cloud Security Engineer course.";
 
 // Social media meta tags
-$title = "Robust IT Training | EC-Council | Certified Network Defender";
-$meta['og:description'] = "Robust IT Training Certified Network Defender course.";
+$title = "Robust IT Training | EC-Council | Certified Cloud Security Engineer | CCSE";
+$meta['og:description'] = "Robust IT Training Certified Cloud Security Engineer course.";
 $meta['og:image'] = "";
 $meta['og:url'] = "";
 
-$leadIsFrom = "Lead is from /vendor/ec-council/certified-network-defender";
+$leadIsFrom = "Lead is from /vendor/ec-council/certified-cloud-security-engineer";
 
 include '../../assets/php/inc/header.php';
 include '../../assets/php/inc/nav.php';
@@ -22,7 +22,7 @@ include '../../assets/php/inc/nav.php';
         data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/bg-certified-ethical-hacker.jpg">
         <div class="page-title">
             <div class="container">
-                <h1 class="title">Certified Network Defender</h1>
+                <h1 class="title">Certified Cloud Security Engineer</h1>
                 <!-- <h2 class="title-h2">Learn more about this certification and AWS resources that can help you prepare
                 </h2> -->
             </div>
@@ -33,7 +33,7 @@ include '../../assets/php/inc/nav.php';
                     <li><a href="<? echo SITE_ADDR ?>/">Home</a></li>
                     <li><a href="<? echo SITE_ADDR ?>/vendor">Vendor</a></li>
                     <li><a href="<? echo SITE_ADDR ?>/vendor/ec-council">EC-Council</a></li>
-                    <li class="current">CND</li>
+                    <li class="current">CCSE</li>
                 </ul>
             </div>
         </div>
@@ -53,19 +53,19 @@ include '../../assets/php/inc/nav.php';
                                 course
                             </h2>
                             <div class="work-details-course-logo">
-                                <img src="<? echo SITE_ADDR ?>/assets/images/logo/ec-council/cnd.png"
+                                <img src="<? echo SITE_ADDR ?>/assets/images/logo/ec-council/chfi.png"
                                     alt="cloud practitioner logo" class="w-100">
                             </div>
                             <!-- Start Details List -->
                             <div class="work-details-list mt-lg-12 mt-6">
                                 <div class="details-list">
                                     <label>Exam Prefix</label>
-                                    <span>312-38 (ECC EXAM)</span>
+                                    <span>312-40 (ECC EXAM)</span>
                                 </div>
 
                                 <div class="details-list">
                                     <label>Level</label>
-                                    <span>Intermediate</span>
+                                    <span>Professional</span>
                                 </div>
 
                                 <div class="details-list">
@@ -75,7 +75,7 @@ include '../../assets/php/inc/nav.php';
 
                                 <div class="details-list">
                                     <label>Format</label>
-                                    <span>100 questions; multiple choice</span>
+                                    <span>125 questions; multiple choice</span>
                                 </div>
 
 
@@ -129,74 +129,171 @@ include '../../assets/php/inc/nav.php';
                         <div class="work-main-info">
                             <div class="work-content">
                                 <h6 class="title text-uppercase" data-aos="fade-up">
-                                    About the Certified Network Defender Course
+                                    About the Certified Cloud Security Engineer Course
                                 </h6>
 
                                 <div class="desc mt-8">
                                     <div class="content mb-5" data-aos="fade-up">
                                         <p>
-                                            Certified Network Defender (CND) is a vendor-neutral, hands-on,
-                                            instructor-led comprehensive network security certification training
-                                            program. It is a skills-based, lab intensive program based on the security
-                                            education framework and work role task analysis presented by the National
-                                            Infocomm Competency Framework (NICF) as well as a job-task analysis and
-                                            cybersecurity education framework by the National Initiative of
-                                            Cybersecurity Education (NICE). The course has also been mapped to global
-                                            job roles and to the Department of Defense (DoD) job roles for
-                                            system/network administrators.
+                                            Cloud technology has transformed the technology landscape and will continue
+                                            to do so for years to come. EC-Council’s Certified Cloud Security Engineer
+                                            (CCSE) is a vendor-neutral course that focuses on cloud security practices,
+                                            technologies, frameworks, and principles to deliver a well-balanced mix of
+                                            the theoretical and practical skills you need to become a cloud security
+                                            expert.
                                         </p>
                                         <p>
-                                            The program prepares network administrators how to identify what parts of an
-                                            organization need to be reviewed and tested for security vulnerabilities and
-                                            how to reduce, prevent, and mitigate risks in the network. CND covers the
-                                            protect, detect, respond and predict approach to network security.
-                                        </p>
-                                    </div>
-                                    <div class="content mb-5" data-aos="fade-up">
-                                        <h6 class="title" data-aos="fade-up">What does it take to earn this
-                                            certification?</h6>
-                                        <p>
-                                            More than 50% of the CND course contains hands-on labs dedicated to helping
-                                            students learn practical skills in live ranges designed to cover domains
-                                            such as Network Defense Management, Network Perimeter Protection, Endpoint
-                                            Protection, Application and Data Protection, Enterprise Virtual, Cloud, and
-                                            Wireless Network Protection, Incident Detection and response and Threat
-                                            Prediction which will provide network administrators real world expertise
-                                            that can be applied to current network security technologies and operations.
+                                            CCSE was created with cloud security job roles in mind and is designed to
+                                            help you meet the challenges of tomorrow. As cloud technology evolves, you
+                                            should too – come learn the skills you need now to defend the technology of
+                                            tomorrow.
+
+
                                         </p>
                                     </div>
+                                    <div class="content mb-12" data-aos="fade-up">
+                                        <h6 class="title" data-aos="fade-up">Who is it for?</h6>
+                                        <ul>
+                                            <li>Network security engineers</li>
+                                            <li>Cybersecurity analysts</li>
+                                            <li>Network security analysts</li>
+                                            <li>Cloud administrators and engineers</li>
+                                            <li>Network security administrators</li>
+                                            <li>Cloud analysts</li>
+                                            <li>Cybersecurity engineers</li>
+                                            <li>Those working in network and cloud management and operations</li>
+                                        </ul>
+                                    </div>
                                     <div class="content mb-5" data-aos="fade-up">
-                                        <h6 class="title" data-aos="fade-up">Careers paths for CND</h6>
+                                        <h6 class="title" data-aos="fade-up">Why Certified Cloud Security Engineer?</h6>
+
+                                        <!-- start -->
+                                        <div class="agency-accordion max-mb-n30" id="accordionWhy">
+                                            <div class="card">
+                                                <div class="card-header" id="headingWhyOne">
+                                                    <h5 class="mb-0">
+                                                        <a href="#" class="acc-btn border-0" data-toggle="collapse"
+                                                            data-target="#collapseWhyOne" aria-expanded="true"
+                                                            aria-controls="collapseWhyOne">
+                                                            Detailed Methodological Approach and Instructor-Led Program
+                                                        </a>
+                                                    </h5>
+                                                </div>
+
+                                                <div id="collapseWhyOne" class="collapse"
+                                                    aria-labelledby="headingWhyOne" data-parent="#accordionWhy">
+                                                    <div class="card-body">
+                                                        The CCSE program provides hands-on training to teach students
+                                                        how to create and implement security policies to safeguard cloud
+                                                        infrastructure and applications.
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- end -->
+                                            <!-- start -->
+                                            <div class="card">
+                                                <div class="card-header" id="headingWhyTwo">
+                                                    <h5 class="mb-0">
+                                                        <a href="#" class="acc-btn border-0 collapsed"
+                                                            data-toggle="collapse" data-target="#collapseWhyTwo"
+                                                            aria-expanded="false" aria-controls="collapseWhyTwo">
+                                                            Vendor-Neutral and Vendor-Specific Concepts
+                                                        </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="collapseWhyTwo" class="collapse"
+                                                    aria-labelledby="headingWhyTwo" data-parent="#accordionWhy">
+                                                    <div class="card-body">
+                                                        CCSE is the first certification to offer a blend of
+                                                        vendor-neutral and vendor-specific concepts. The course covers
+                                                        features of cloud service providers such as AWS, Azure, and GCP.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- end -->
+                                            <!-- start -->
+                                            <div class="card">
+                                                <div class="card-header" id="headingWhyThree">
+                                                    <h5 class="mb-0">
+                                                        <a href="#" class="acc-btn border-0 collapsed"
+                                                            data-toggle="collapse" data-target="#collapseWhyThree"
+                                                            aria-expanded="false" aria-controls="collapseWhyThree">
+                                                            SOAR for Incident Response
+                                                        </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="collapseWhyThree" class="collapse"
+                                                    aria-labelledby="headingWhyThree" data-parent="#accordionWhy">
+                                                    <div class="card-body">
+                                                        Learn to collect threat-related data using Security
+                                                        Orchestration, Automation, and Response (SOAR). Learn to create
+                                                        incident analysis reports and to automate incident response in
+                                                        the cloud.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- end -->
+                                            <!-- start -->
+                                            <div class="card">
+                                                <div class="card-header" id="headingFour">
+                                                    <h5 class="mb-0">
+                                                        <a href="#" class="acc-btn border-0 collapsed"
+                                                            data-toggle="collapse" data-target="#collapseFour"
+                                                            aria-expanded="false" aria-controls="collapseFour">
+                                                            SOAR for Incident Response
+                                                        </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                                    data-parent="#accordionWhy">
+                                                    <div class="card-body">
+                                                        Learn to collect threat-related data using Security
+                                                        Orchestration, Automation, and Response (SOAR). Learn to create
+                                                        incident analysis reports and to automate incident response in
+                                                        the cloud.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- end -->
+                                        </div>
+
                                         <p>
-                                            After completing this training you could apply for jobs such as:
+                                            Detailed Methodological
                                         </p>
                                         <ul>
                                             <li>
-                                                Security Analyst
+                                                Establish threat intelligence and key learning points to support
+                                                pro-active profiling and scenario modeling
+
                                             </li>
                                             <li>
-                                                Cyber Security Analyst, Senior
+                                                Perform anti-forensic methods detection
                                             </li>
                                             <li>
-                                                Cyber Security Analyst, Principal
+                                                Perform post-intrusion analysis of electronic and digital media to
+                                                determine the who, where, what, when, and how the intrusion occurred
                                             </li>
                                             <li>
-                                                Vulnerability Analyst, Principal
+                                                Extract and analyze of logs from various devices like proxy, firewall,
+                                                IPS, IDS, Desktop, laptop, servers, SIM tool, router, firewall, switches
+                                                AD server, DHCP logs, Access Control Logs & conclude as part of
+                                                investigation process.
                                             </li>
                                             <li>
-                                                Network Administrator
+                                                Identify & check the possible source / incident origin.
+
                                             </li>
                                             <li>
-                                                Staff Network Engineer
+                                                Recover deleted files and partitions in Windows, Mac OS X, and Linux
                                             </li>
                                             <li>
-                                                Information Systems Security Manager
+                                                Conduct reverse engineering for known and suspected malware files
                                             </li>
                                             <li>
-                                                Mid Level Penetration Tester
-                                            </li>
-                                            <li>
-                                                Linux System Administrator
+                                                Collect data using forensic technology methods in accordance with
+                                                evidence handling procedures, including collection of hard copy and
+                                                electronic documents
                                             </li>
                                         </ul>
                                     </div>
@@ -242,7 +339,7 @@ include '../../assets/php/inc/nav.php';
                                 <div class="section-title-two mb-8">
                                     <h3 class="heading heading-h3"></h3>
 
-                                    <span class="sub-title">Benefits of the CND</span>
+                                    <span class="sub-title">Benefit of the CHFI</span>
                                     <h2 class="title">
                                         Course Benefits
                                     </h2>
@@ -256,7 +353,7 @@ include '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            A dedicated focus on IoT security
+                                            Inclusion of critical modules in Darkweb forensic and IoT Forensics
                                         </div>
                                     </li>
                                     <li class="item">
@@ -264,7 +361,8 @@ include '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Network virtualization practices for the remote workforce
+                                            Significant coverage of forensic methodologies for public cloud
+                                            infrastructure, including Amazon AWS and Microsoft Azure
                                         </div>
                                     </li>
                                     <li class="item">
@@ -272,7 +370,7 @@ include '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Enhanced Cloud Security & IoT and Operational Technology (OT) Modules
+                                            Massive updates on all modules in CHFI
                                         </div>
                                     </li>
                                     <li class="item">
@@ -280,7 +378,7 @@ include '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Introduction to threat intelligence
+                                            Inclusion of latest forensic tools including Splunk, DNSQuerySniffer etc
                                         </div>
                                     </li>
                                     <li class="item">
@@ -288,7 +386,51 @@ include '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            In-depth Attack Surface Analysis
+                                            Addition of new techniques such as Defeating Anti-forensic technique,
+                                            Windows ShellBags including analyzing LNK files and Jump Lists
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <div class="icon">
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <div class="text">
+                                            Extensive coverage of Malware Forensics (latest malware samples such as
+                                            Emotet and EternalBlue )
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <div class="icon">
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <div class="text">
+                                            Now more than 50GB of crafted evidence files for investigation purposes
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <div class="icon">
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <div class="text">
+                                            More than 50% of new and advanced forensic labs
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <div class="icon">
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <div class="text">
+                                            In-depth focus on Volatile and Non-volatile data acquisition and examination
+                                            process (RAM Forensics, Tor Forensics, etc.
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <div class="icon">
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <div class="text">
+                                            Accepted and trusted by cybersecurity practitioners across Fortune 500
+                                            globally.
                                         </div>
                                     </li>
                                 </ul>
@@ -341,9 +483,9 @@ include '../../assets/php/inc/nav.php';
                 <div class="col-lg-4 col-md-12 col-12">
                     <div class="digital-marketing" data-aos="fade-up">
                         <div class="section-title-two mb-8">
-                            <span class="sub-title">Average salary after completing CND</span>
+                            <span class="sub-title">Average salary after completing CHFI</span>
                             <h2 class="title my-4">
-                                £51,450.00 / year
+                                £56,650.00 / year
                             </h2>
                             <small>Avg. Base Salary (GBP)</small>.
                         </div>
@@ -587,11 +729,10 @@ include '../../assets/php/inc/nav.php';
 
                         <!-- ajax form id="contact-form" -->
                         <!-- Section Title End -->
-                        <form action="https://robust.flg360.co.uk/api/APIHTTPPost.php" method="POST">
-
+                        <form action="https://robust.flg360.co.uk/api/APIHTTPPost.php" method="POST" id="contact-form">
 
                             <!-- form details for sending info to leadsite -->
-                            <input type="hidden" name="intLeadGroupID" value="54553" />
+                            <input type="hidden" name="intLeadGroupID" value="" />
                             <input type="hidden" name="strSource" value="" />
                             <input type="hidden" name="strMedium" value="" />
                             <input type="hidden" name="strTerm" value="" />
@@ -606,7 +747,6 @@ include '../../assets/php/inc/nav.php';
                             <input type="hidden" name="strLeadData2" id="strLeadData2"
                                 value="<? echo $leadIsFrom ?>/" />
                             <!-- //end -->
-
 
                             <div class="row mb-n4">
                                 <div class="col-md-6 col-12 mb-4">

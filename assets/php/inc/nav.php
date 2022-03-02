@@ -3,7 +3,7 @@
     <div class="site-main-mobile-menu-inner">
         <div class="mobile-menu-header">
             <div class="mobile-menu-logo">
-                <a href="<? echo SITE_ADDR ?>/index.php"><img
+                <a href="<? echo SITE_ADDR ?>/index"><img
                         src="<? echo SITE_ADDR ?>/assets/images/logo/robust-it-logo-light-alt-2022.svg"
                         alt="Robust IT Logo" width="150px" height="auto"></a>
             </div>
@@ -18,10 +18,10 @@
             <nav class="site-mobile-menu">
                 <ul>
                     <li>
-                        <a href="<? echo SITE_ADDR ?>/index.php"><span class="menu-text">Home</span></a>
+                        <a href="<? echo SITE_ADDR ?>/"><span class="menu-text">Home</span></a>
                     </li>
                     <li>
-                        <a href="<? echo SITE_ADDR ?>/service.php"><span class="menu-text">Services</span></a>
+                        <a href="<? echo SITE_ADDR ?>/service"><span class="menu-text">Services</span></a>
                     </li>
                     <li class="has-children">
                         <a href="#"><span class="menu-text">Courses</span></a>
@@ -56,25 +56,24 @@
                             <div class="row">
                                 <div class="col-12">
                                     <h4 class="text-muted">Company</h4>
-                                    <li><a href="<? echo SITE_ADDR ?>/about-us.php"><span
+                                    <li><a href="<? echo SITE_ADDR ?>/about-us"><span
                                                 class="text-muted">About</span></a>
                                     </li>
                                     <li><a href="<? echo SITE_ADDR ?>/"><span class="menu-text">Blog</span></a></li>
-                                    <li><a href="<? echo SITE_ADDR ?>/testimonials.php"><span
+                                    <li><a href="<? echo SITE_ADDR ?>/testimonials"><span
                                                 class="menu-text">Testimonials</span></a>
                                     </li>
-                                    <li><a href="<? echo SITE_ADDR ?>/terms-and-conditions.php"><span
+                                    <li><a href="<? echo SITE_ADDR ?>/terms-and-conditions"><span
                                                 class="menu-text">Terms &
                                                 Conditions</span></a>
                                     </li>
-                                    <li><a href="<? echo SITE_ADDR ?>/privacy-policy.php"><span
-                                                class="menu-text">Privacy
+                                    <li><a href="<? echo SITE_ADDR ?>/privacy-policy"><span class="menu-text">Privacy
                                                 Policy</span></a>
                                     </li>
                                 </div>
                                 <div class="col-12 pt-5">
                                     <h4 class="text-muted">Help Centre</h4>
-                                    <li><a href="<? echo SITE_ADDR ?>/faqs.php"><span class="menu-text">FAQ's</span></a>
+                                    <li><a href="<? echo SITE_ADDR ?>/faqs"><span class="menu-text">FAQ's</span></a>
                                     </li>
                                     <li><a href="<? echo SITE_ADDR ?>/"><span class="menu-text">Technical
                                                 Support</span></a></li>
@@ -83,7 +82,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="<? echo SITE_ADDR ?>/contact-us.php"><span class="menu-text">Contact Us</span></a>
+                        <a href="<? echo SITE_ADDR ?>/contact-us"><span class="menu-text">Contact Us</span></a>
                     </li>
                     <a href="tel:02038757827" class="btn btn-secondary btn-hover--secondary"
                         style="min-width: 226px !important"><span class="call-us"></span>
@@ -104,7 +103,7 @@
                 <!-- Header Logo Start -->
                 <div class="col-xl-2 col-auto order-0">
                     <div class="header-logo">
-                        <a href="<? echo SITE_ADDR ?>/index.php">
+                        <a href="<? echo SITE_ADDR ?>/index">
                             <img class="dark-logo"
                                 src="<? echo SITE_ADDR ?>/assets/images/logo/robust-it-logo-light-alt-2022.svg"
                                 alt="Company Logo">
@@ -143,7 +142,7 @@
                         <nav class="site-main-menu">
                             <ul>
                                 <li>
-                                    <a href="<? echo SITE_ADDR ?>/index.php"><span class="menu-text">Home</span></a>
+                                    <a href="<? echo SITE_ADDR ?>/"><span class="menu-text">Home</span></a>
 
                                 </li>
                                 <li class="has-children">
@@ -162,7 +161,7 @@
                                             <div class="col-12">
                                                 <h5 class="text-muted">Company</h5>
                                                 <li>
-                                                    <a href="<? echo SITE_ADDR ?>/about-us.php">
+                                                    <a href="<? echo SITE_ADDR ?>/about-us">
                                                         <span class="menu-text">
                                                             About <i class="fas fa-chevron-right fcr-animate"></i>
                                                         </span>
@@ -177,7 +176,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="<? echo SITE_ADDR ?>/testimonials.php">
+                                                    <a href="<? echo SITE_ADDR ?>/testimonials">
                                                         <span class="menu-text">
                                                             Testimonials <i
                                                                 class="fas fa-chevron-right fcr-animate"></i>
@@ -185,7 +184,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="<? echo SITE_ADDR ?>/terms-and-conditions.php">
+                                                    <a href="<? echo SITE_ADDR ?>/terms-and-conditions">
                                                         <span class="menu-text">
                                                             Terms & Conditions <i
                                                                 class="fas fa-chevron-right fcr-animate"></i>
@@ -193,7 +192,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="<? echo SITE_ADDR ?>/privacy-policy.php">
+                                                    <a href="<? echo SITE_ADDR ?>/privacy-policy">
                                                         <span class="menu-text">
                                                             Privacy Policy <i
                                                                 class="fas fa-chevron-right fcr-animate"></i>
@@ -204,7 +203,7 @@
                                             <div class="col-12 pt-5">
                                                 <h5 class="text-muted">Help Centre</h5>
                                                 <li>
-                                                    <a href="<? echo SITE_ADDR ?>/faqs.php">
+                                                    <a href="<? echo SITE_ADDR ?>/faqs">
                                                         <span class="menu-text">
                                                             FAQ's <i class="fas fa-chevron-right fcr-animate"></i>
                                                         </span>
@@ -223,7 +222,7 @@
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="<? echo SITE_ADDR ?>/contact-us.php"><span class="menu-text">Contact
+                                    <a href="<? echo SITE_ADDR ?>/contact-us"><span class="menu-text">Contact
                                             Us</span></a>
                                 </li>
                             </ul>
@@ -314,7 +313,7 @@
                     <div class="row">
 
                         <!-- form details for sending info to leadsite -->
-                        <input type="hidden" name="intLeadGroupID" value="54553" />
+                        <input type="hidden" name="intLeadGroupID" value="" />
                         <input type="hidden" name="strSource" value="" />
                         <input type="hidden" name="strMedium" value="" />
                         <input type="hidden" name="strTerm" value="" />
@@ -365,8 +364,6 @@
                         </div>
                     </div>
                 </form>
-
-
 
                 <div class="modal-footer">
 
@@ -470,7 +467,7 @@
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel"
     data-bg-color="#000)" data-overlay="0.9" data-bg-image="<? echo SITE_ADDR ?>/assets/images/hero-image/hero-4.jpg">
     <div class="offcanvas-header container">
-        <a href="<? echo SITE_ADDR ?>/index.php" class="offcanvas-title"><img
+        <a href="<? echo SITE_ADDR ?>/index" class="offcanvas-title"><img
                 src="<? echo SITE_ADDR ?>/assets/images/logo/robust-it-logo-light-alt-2022.svg" alt="Robust IT Logo"
                 width="200px" height="auto"></a>
 
@@ -496,33 +493,34 @@
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <li>
                                 <a class="dropdown-item"
-                                    href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker.php">
+                                    href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker">
                                     C|EH <span class="ft-badge">v11</span>
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
                                 <a class="dropdown-item"
-                                    href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-network-defender.php">
+                                    href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-network-defender">
                                     C|ND
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
                                 <a class="dropdown-item"
-                                    href="<? echo SITE_ADDR ?>/vendor/ec-council/computer-hacking-forensic-investigator.php">
+                                    href="<? echo SITE_ADDR ?>/vendor/ec-council/computer-hacking-forensic-investigator">
                                     C|HFI
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item"
+                                    href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-cloud-security-engineer">
                                     C|CSE
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/ec-council">
                                     View all
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>

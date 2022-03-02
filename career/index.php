@@ -268,7 +268,7 @@ include '../assets/php/inc/nav.php';
                         <!-- Section Title Two Start -->
                         <div class="section-title-two">
                             <span class="sub-title">Search by vendor.</span>
-                            <h3 class="title">Find your course by searching by vendor.</h3>
+                            <h3 class="title">Find your course searching by vendor.</h3>
                         </div>
                         <!-- Section Title Two End -->
 

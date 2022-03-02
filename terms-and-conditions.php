@@ -366,7 +366,7 @@ include './assets/php/inc/nav.php';
                             </li>
                         </ul>
                         <p>
-                            Please read our <a class="text-primary" href="<? echo SITE_ADDR ?>/privacy-policy.php"
+                            Please read our <a class="text-primary" href="<? echo SITE_ADDR ?>/privacy-policy"
                                 target="_blank" alt="privacy policy">Privacy Policy</a>, which applies to any personal
                             information
                             collected from you
@@ -375,7 +375,7 @@ include './assets/php/inc/nav.php';
                         <p>
                             <strong>
                                 For details or enquiries regarding this, please visit the Robust IT website or <a
-                                    class="text-primary" href="<? echo SITE_ADDR ?>/contact-us.php" target="_blank"
+                                    class="text-primary" href="<? echo SITE_ADDR ?>/contact-us" target="_blank"
                                     alt="contact us">Contact
                                     us</a>.
                             </strong>
@@ -426,7 +426,7 @@ include './assets/php/inc/nav.php';
                             regularly. Your continued use of the Websites and / or courses and course materials, after
                             changes have been made will be taken to mean that you have checked the Terms and you are
                             accepting these changes to the Terms and acknowledging that you have read them, as well as
-                            the <a class="text-primary" href="<? echo SITE_ADDR ?>/privacy-policy.php" target="_blank"
+                            the <a class="text-primary" href="<? echo SITE_ADDR ?>/privacy-policy" target="_blank"
                                 alt="privacy policy">Privacy Policy</a>. If you are unhappy
                             with any changes to the Terms you should not use any
                             of the websites.

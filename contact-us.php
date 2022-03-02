@@ -20,8 +20,7 @@ include './assets/php/inc/nav.php';
 
 
     <!-- Page Title Section Start -->
-    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7"
-        data-bg-image="assets/images/bg/breadcrumb-bg-five.jpg">
+    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7" data-bg-image="assets/images/bg/breadcrumb-bg-five.jpg">
         <div class="page-title">
             <div class="container">
                 <h1 class="title">Get in touch.</h1>
@@ -30,7 +29,7 @@ include './assets/php/inc/nav.php';
         <div class="page-breadcrumb position-static">
             <div class="container">
                 <ul class="breadcrumb justify-content-center">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="<? echo SITE_ADDR ?>/">Home</a></li>
                     <li class="current">Contact Us</li>
                 </ul>
             </div>
@@ -147,7 +146,22 @@ include './assets/php/inc/nav.php';
                     </div>
                     <!-- Section Title End -->
                     <div class="contact-form">
-                        <form action="assets/php/contact-mail.php" id="contact-form" method="post">
+                        <form action="https://robust.flg360.co.uk/api/APIHTTPPost.php" method="POST" id="contact-form">
+
+                            <!-- form details for sending info to leadsite -->
+                            <input type="hidden" name="intLeadGroupID" value="" />
+                            <input type="hidden" name="strSource" value="" />
+                            <input type="hidden" name="strMedium" value="" />
+                            <input type="hidden" name="strTerm" value="" />
+                            <input type="hidden" name="intSiteID" value="15334" />
+                            <input type="hidden" name="intReferrerBuyerID" value="0" />
+                            <input type="hidden" name="intDPAStatusPhoneID" value="1">
+                            <input type="hidden" name="intDPAStatusSMSID" value="1">
+                            <input type="hidden" name="intDPAStatusEmailID" value="1">
+                            <input type="hidden" name="strAPISuccessURL" value="http://www.robustittraining.com/thankyou" />
+                            <input type="hidden" name="strAPIFailURL" value="http://www.robustittraining.com/sorry" />
+                            <input type="hidden" name="strLeadData2" id="strLeadData2" value="<? echo $leadIsFrom ?>/" />
+                            <!-- //end -->
                             <div class="row mb-n6">
                                 <div class="col-md-6 col-12 mb-6">
                                     <input type="text" placeholder="Your Name *" name="name">
