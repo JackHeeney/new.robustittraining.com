@@ -1,12 +1,12 @@
 <?php
 
 // Change page title and meta tags here
-$title = "Robust IT Training | Official EC-Council Online & Classroom Training";
+$title = "Robust IT Training | Official Amazon Web Service Online & Classroom Training";
 $meta['keywords'] = "";
 $meta['description'] = "";
 
 // Social media meta tags
-$meta['og:title'] = "Robust IT Training | Official EC-Council Online & Classroom Training";
+$meta['og:title'] = "Robust IT Training | Official Amazon Web Service Online & Classroom Training";
 $meta['og:description'] = "";
 $meta['og:image'] = "";
 $meta['og:url'] = "";
@@ -26,7 +26,7 @@ include '../../assets/php/inc/nav.php';
         data-bg-image="<? echo SITE_ADDR ?>/assets/images/bg/breadcrumb-bg-two.jpg">
         <div class="page-title">
             <div class="container">
-                <h1 class="title">EC-Council Courses</h1>
+                <h1 class="title">AWS Courses</h1>
             </div>
         </div>
         <div class="page-breadcrumb position-static">
@@ -34,7 +34,7 @@ include '../../assets/php/inc/nav.php';
                 <ul class="breadcrumb justify-content-center">
                     <li><a href="<? echo SITE_ADDR ?>/">Home</a></li>
                     <li><a href="<? echo SITE_ADDR ?>/vendor">Vendor</a></li>
-                    <li class="current">EC-Council</li>
+                    <li class="current">AWS</li>
                 </ul>
             </div>
         </div>
@@ -47,7 +47,7 @@ include '../../assets/php/inc/nav.php';
 
             <!-- Section Title Start -->
             <div class="section-title text-center " data-aos="fade-up">
-                <h2 class="title fz-32"> View our EC-Council Courses :</h2>
+                <h2 class="title fz-32"> View our AWS Courses :</h2>
             </div>
             <!-- Section Title End -->
 
@@ -58,16 +58,15 @@ include '../../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker"><img
+                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/aws/aws-cloud-practitioner"><img
                                     src="<? echo SITE_ADDR ?>/assets/images/project/project-1.jpg" alt="work"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a
-                                    href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker">Certified
-                                    Ethical Hacker</a></h3>
+                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/aws/aws-cloud-practitioner">AWS Cloud
+                                    Practitioner</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker">View Project
+                            <a href="<? echo SITE_ADDR ?>/vendor/aws/aws-cloud-practitioner">View Project
                                 <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -79,17 +78,17 @@ include '../../assets/php/inc/nav.php';
                     <div class="work">
                         <div class="thumbnail">
                             <a class="image"
-                                href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-network-defender"><img
+                                href="<? echo SITE_ADDR ?>/vendor/aws/aws-solutions-architect-associate"><img
                                     src="<? echo SITE_ADDR ?>/assets/images/project/project-2.jpg" alt="work"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a
-                                    href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-network-defender">Certified
-                                    Network Defender</a></h3>
+                                    href="<? echo SITE_ADDR ?>/vendor/aws/aws-solutions-architect-associate">AWS
+                                    Solution Architect Associate</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nisi, quo
                                 optio sint doloribus repellat.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-network-defender">View Project <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
+                            <a href="<? echo SITE_ADDR ?>/vendor/aws/aws-solutions-architect-associate">View Project
+                                <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -100,17 +99,17 @@ include '../../assets/php/inc/nav.php';
                     <div class="work">
                         <div class="thumbnail">
                             <a class="image"
-                                href="<? echo SITE_ADDR ?>/vendor/ec-council/computer-hacking-forensic-investigator"><img
+                                href="<? echo SITE_ADDR ?>/vendor/aws/aws-solutions-architect-professional"><img
                                     src="<? echo SITE_ADDR ?>/assets/images/project/project-3.jpg" alt="work"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a
-                                    href="<? echo SITE_ADDR ?>/vendor/ec-council/computer-hacking-forensic-investigator">Computer
-                                    Hacking Forensic Investigator</a>
+                                    href="<? echo SITE_ADDR ?>/vendor/aws/aws-solutions-architect-professional">AWS
+                                    Solution Architect Professional</a>
                             </h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/ec-council/computer-hacking-forensic-investigator">View
+                            <a href="<? echo SITE_ADDR ?>/vendor/aws/aws-solutions-architect-professional">View
                                 Project <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -121,17 +120,34 @@ include '../../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work">
                         <div class="thumbnail">
-                            <a class="image"
-                                href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-cloud-security-engineer"><img
+                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/aws/aws-sysops-administrator"><img
                                     src="<? echo SITE_ADDR ?>/assets/images/project/project-4.jpg" alt="work"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a
-                                    href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-cloud-security-engineer">Certified
-                                    Cloud Security Engineer</a></h3>
+                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/aws/aws-sysops-administrator">AWS
+                                    SysOps Administrator</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-cloud-security-engineer">View
+                            <a href="<? echo SITE_ADDR ?>/vendor/aws/aws-sysops-administrator">View
+                                Project <i class="fas fa-chevron-right fcr-animate"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Work End -->
+
+                <!-- Single Work Start -->
+                <div class="col mb-6">
+                    <div class="work">
+                        <div class="thumbnail">
+                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/aws/aws-developer"><img
+                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-5.jpg" alt="work"></a>
+                        </div>
+                        <div class="info">
+                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/aws/aws-developer">AWS Developer</a>
+                            </h3>
+                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
+                                culpa, unde perspiciatis hic delectus.</p>
+                            <a href="<? echo SITE_ADDR ?>/vendor/aws/aws-developer">View
                                 Project <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>

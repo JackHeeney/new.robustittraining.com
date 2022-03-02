@@ -1,12 +1,12 @@
 <?php
 // Change page title and meta tags here
-$title = "Robust IT Training | AWS | Solutions Architect Professional ";
-$meta['keywords'] = "Amazon Web Services, AWS, Cloud";
-$meta['description'] = "Robust IT Training AWS Solutions Architect Professional course.";
+$title = "Robust IT Training | AWS | Developer ";
+$meta['keywords'] = "Amazon Web Services, AWS, Cloud, Developer";
+$meta['description'] = "Robust IT Training AWS Developer course.";
 
 // Social media meta tags
-$title = "Robust IT Training | AWS | Solutions Architect Professional";
-$meta['og:description'] = "Robust IT Training AWS Solutions Architect Professional course.";
+$title = "Robust IT Training | AWS | Developer";
+$meta['og:description'] = "Robust IT Training AWS Developer course.";
 $meta['og:image'] = "";
 $meta['og:url'] = "";
 
@@ -22,7 +22,7 @@ include '../../assets/php/inc/nav.php';
         data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/bg-certified-ethical-hacker.jpg">
         <div class="page-title">
             <div class="container">
-                <h1 class="title">AWS Solutions Architect Professional</h1>
+                <h1 class="title">AWS Developer</h1>
                 <!-- <h2 class="title-h2">Learn more about this certification and AWS resources that can help you prepare
                 </h2> -->
             </div>
@@ -33,7 +33,7 @@ include '../../assets/php/inc/nav.php';
                     <li><a href="<? echo SITE_ADDR ?>/">Home</a></li>
                     <li><a href="<? echo SITE_ADDR ?>/vendor">Vendor</a></li>
                     <li><a href="<? echo SITE_ADDR ?>/vendor/aws">AWS</a></li>
-                    <li class="current">Solutions Architect Professional</li>
+                    <li class="current">Developer</li>
                 </ul>
             </div>
         </div>
@@ -152,55 +152,126 @@ include '../../assets/php/inc/nav.php';
                                         </p>
                                     </div>
 
-                                    <div class="content mb-5" data-aos="fade-up">
-                                        <h6 class="title" data-aos="fade-up">Who is it for?</h6>
-                                        <p>
-                                            Who should consider taking the AWS Cloud Practitioner exam?
-                                        </p>
-                                        <ul>
-                                            <li>
-                                                Network security engineers
-                                            </li>
-                                            <li>
-                                                Cybersecurity analysts
-                                            </li>
-                                            <li>
-                                                Network security analysts
-                                            </li>
-                                            <li>
-                                                Cloud administrators and engineers
-                                            </li>
-                                            <li>
-                                                Network security administrators
-                                            </li>
-                                            <li>
-                                                Cloud analysts
-                                            </li>
-                                            <li>
-                                                Cybersecurity engineers
-                                            </li>
-                                            <li>
-                                                Those working in network and cloud management and operations
-                                            </li>
-                                        </ul>
+                                    <div class="content mb-10" data-aos="fade-up">
+                                        <h6 class="title mb-5" data-aos="fade-up">Why Certified Cloud Security
+                                            Engineer?</h6>
+
+                                        <!-- start -->
+                                        <div class="agency-accordion max-mb-n30" id="accordionWhy">
+                                            <div class="card">
+                                                <div class="card-header" id="headingWhyOne">
+                                                    <h5 class="mb-0">
+                                                        <a href="#" class="acc-btn border-0" data-toggle="collapse"
+                                                            data-target="#collapseWhyOne" aria-expanded="true"
+                                                            aria-controls="collapseWhyOne">
+                                                            Detailed Methodological Approach and Instructor-Led Program
+                                                        </a>
+                                                    </h5>
+                                                </div>
+
+                                                <div id="collapseWhyOne" class="collapse"
+                                                    aria-labelledby="headingWhyOne" data-parent="#accordionWhy">
+                                                    <div class="card-body">
+                                                        The CCSE program provides hands-on training to teach students
+                                                        how to create and implement security policies to safeguard cloud
+                                                        infrastructure and applications.
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- end -->
+                                            <!-- start -->
+                                            <div class="card">
+                                                <div class="card-header" id="headingWhyTwo">
+                                                    <h5 class="mb-0">
+                                                        <a href="#" class="acc-btn border-0 collapsed"
+                                                            data-toggle="collapse" data-target="#collapseWhyTwo"
+                                                            aria-expanded="false" aria-controls="collapseWhyTwo">
+                                                            Vendor-Neutral and Vendor-Specific Concepts
+                                                        </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="collapseWhyTwo" class="collapse"
+                                                    aria-labelledby="headingWhyTwo" data-parent="#accordionWhy">
+                                                    <div class="card-body">
+                                                        CCSE is the first certification to offer a blend of
+                                                        vendor-neutral and vendor-specific concepts. The course covers
+                                                        features of cloud service providers such as AWS, Azure, and GCP.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- end -->
+                                            <!-- start -->
+                                            <div class="card">
+                                                <div class="card-header" id="headingWhyThree">
+                                                    <h5 class="mb-0">
+                                                        <a href="#" class="acc-btn border-0 collapsed"
+                                                            data-toggle="collapse" data-target="#collapseWhyThree"
+                                                            aria-expanded="false" aria-controls="collapseWhyThree">
+                                                            SOAR for Incident Response
+                                                        </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="collapseWhyThree" class="collapse"
+                                                    aria-labelledby="headingWhyThree" data-parent="#accordionWhy">
+                                                    <div class="card-body">
+                                                        Learn to collect threat-related data using Security
+                                                        Orchestration, Automation, and Response (SOAR). Learn to create
+                                                        incident analysis reports and to automate incident response in
+                                                        the cloud.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- end -->
+                                            <!-- start -->
+                                            <div class="card">
+                                                <div class="card-header" id="headingWhyFour">
+                                                    <h5 class="mb-0">
+                                                        <a href="#" class="acc-btn border-0 collapsed"
+                                                            data-toggle="collapse" data-target="#collapseWhyFour"
+                                                            aria-expanded="false" aria-controls="collapseWhyFour">
+                                                            Best Practices to Secure Cloud Infrastructure
+                                                        </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="collapseWhyFour" class="collapse"
+                                                    aria-labelledby="headingWhyFour" data-parent="#accordionWhy">
+                                                    <div class="card-body">
+                                                        Students will learn best practices for securing cloud
+                                                        infrastructure through evaluating cloud storage techniques and
+                                                        threats, configuring cloud services, designing and implementing
+                                                        incident respons...
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- end -->
+                                            <!-- start -->
+                                            <div class="card">
+                                                <div class="card-header" id="headingWhyFive">
+                                                    <h5 class="mb-0">
+                                                        <a href="#" class="acc-btn border-0 collapsed"
+                                                            data-toggle="collapse" data-target="#collapseWhyFive"
+                                                            aria-expanded="false" aria-controls="collapseWhyFive">
+                                                            Governance, Risk Management, and Compliance in the Cloud
+                                                        </a>
+                                                    </h5>
+                                                </div>
+                                                <div id="collapseWhyFive" class="collapse"
+                                                    aria-labelledby="headingWhyFive" data-parent="#accordionWhy">
+                                                    <div class="card-body">
+                                                        The CCSE program equips individuals with the skills to design
+                                                        and implement governance frameworks, models, and regulations
+                                                        such as ISO/IEC 27017, HIPAA, and PCI DSS.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- end -->
+                                        </div>
+
+
+
                                     </div>
-                                    <!-- <div class="content mb-12" data-aos="fade-up">
-                                        <h6 class="title" data-aos="fade-up">What does it take to earn this
-                                            certification?</h6>
-                                        <p>
-                                            In order to maintain the high integrity of our certification exams,
-                                            EC-Council Exams are provided in multiple forms (I.e. different question
-                                            banks). Each form is carefully analyzed through beta testing with an
-                                            appropriate sample group under the purview of a committee of subject matter
-                                            experts that ensure that each of our exams not only has academic rigor but
-                                            also has real world applicability. We also have a process to determine the
-                                            difficulty rating of each question. The individual rating then contributes
-                                            to an overall cut score for each exam form. To ensure each form has equal
-                                            assessment standards, cut scores are set on a “per exam form” basis.
-                                            Depending on which exam form is challenged, cut scores can range from 60% to
-                                            85%.
-                                        </p>
-                                    </div> -->
+
 
                                     <div class="work-btn">
                                         <a class="btn btn-primary btn-hover-secondary" href="#">Download the exam guide
@@ -242,9 +313,9 @@ include '../../assets/php/inc/nav.php';
                                 <div class="section-title-two mb-8">
                                     <h3 class="heading heading-h3"></h3>
 
-                                    <span class="sub-title">Benefits of </span>
+                                    <span class="sub-title">Benefit of the CHFI</span>
                                     <h2 class="title">
-                                        Why Certified Cloud Security Engineer?
+                                        Course Benefits
                                     </h2>
                                 </div>
                                 <!-- Section Title Two End -->
@@ -394,7 +465,7 @@ include '../../assets/php/inc/nav.php';
                     <div class="digital-marketing" data-aos="fade-up">
                         <div class="section-title-two mb-8">
                             <h2 class="title mb-5">
-                                <div class="salary">£<span class="counter">56,650.00</span>+</div>
+                                £56,650.00 / year
                             </h2>
                             <small>Avg. Base Salary (GBP)</small>.
                         </div>

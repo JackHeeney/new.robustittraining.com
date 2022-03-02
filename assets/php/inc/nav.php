@@ -539,35 +539,38 @@
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <li>
-                                <a class="dropdown-item" href="#">AWS Cloud Practitioner
+                                <a class="dropdown-item"
+                                    href="<? echo SITE_ADDR ?>/vendor/aws/aws-cloud-practitioner">AWS Cloud Practitioner
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">AWS Solutions Architect (Assoc)
+                                <a class="dropdown-item"
+                                    href="<? echo SITE_ADDR ?>/vendor/aws/aws-cloud-practitioner">AWS Solutions
+                                    Architect (Assoc)
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/aws/aws-cloud-practitioner">
                                     AWS Solutions Architect (Pro)
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/aws/aws-cloud-practitioner">
                                     AWS SysOps Administrator
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/aws/aws-cloud-practitioner">
                                     AWS Developer
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/aws">
                                     View all
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
@@ -586,59 +589,63 @@
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <li>
-                                <a class="dropdown-item" href="#">Developer
+                                <a class="dropdown-item"
+                                    href="<? echo SITE_ADDR ?>/vendor/microsoft/developer">Developer
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">Administrator
+                                <a class="dropdown-item"
+                                    href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator">Administrator
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item"
+                                    href="<? echo SITE_ADDR ?>/vendor/microsoft/solutions-architect">
                                     Solution Architect
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/microsoft/data-engineer">
                                     Data Engineer
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/microsoft/data-scientist">
                                     Data Scientist
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/microsoft/ai-engineer">
                                     AI Engineer
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/microsoft/devops-engineer">
                                     DevOps Engineer
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/microsoft/developer">
                                     Security Engineer
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item"
+                                    href="<? echo SITE_ADDR ?>/vendor/microsoft/functional-consultant">
                                     Functional Consultant
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/microsoft/">
                                     View all
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>

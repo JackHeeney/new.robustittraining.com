@@ -1,20 +1,20 @@
 <?php
 
 // Change page title and meta tags here
-$title = "Robust IT Training | Official EC-Council Online & Classroom Training";
+$title = "Robust IT Training | Search by Vendor";
 $meta['keywords'] = "";
 $meta['description'] = "";
 
 // Social media meta tags
-$meta['og:title'] = "Robust IT Training | Official EC-Council Online & Classroom Training";
+$meta['og:title'] = "Robust IT Training | Search by Vendor";
 $meta['og:description'] = "";
 $meta['og:image'] = "";
 $meta['og:url'] = "";
 
-$leadIsFrom = "Lead is from /vendor/ec-council";
+$leadIsFrom = "Lead is from /search-by-vendor";
 
-include '../../assets/php/inc/header.php';
-include '../../assets/php/inc/nav.php';
+include '../../../assets/php/inc/header.php';
+include '../../../assets/php/inc/nav.php';
 
 ?>
 
@@ -26,7 +26,7 @@ include '../../assets/php/inc/nav.php';
         data-bg-image="<? echo SITE_ADDR ?>/assets/images/bg/breadcrumb-bg-two.jpg">
         <div class="page-title">
             <div class="container">
-                <h1 class="title">EC-Council Courses</h1>
+                <h1 class="title">Developer certifications</h1>
             </div>
         </div>
         <div class="page-breadcrumb position-static">
@@ -34,7 +34,8 @@ include '../../assets/php/inc/nav.php';
                 <ul class="breadcrumb justify-content-center">
                     <li><a href="<? echo SITE_ADDR ?>/">Home</a></li>
                     <li><a href="<? echo SITE_ADDR ?>/vendor">Vendor</a></li>
-                    <li class="current">EC-Council</li>
+                    <li><a href="<? echo SITE_ADDR ?>/vendor/microsoft">Microsoft</a></li>
+                    <li class="current">Developer</li>
                 </ul>
             </div>
         </div>
@@ -47,7 +48,8 @@ include '../../assets/php/inc/nav.php';
 
             <!-- Section Title Start -->
             <div class="section-title text-center " data-aos="fade-up">
-                <h2 class="title fz-32"> View our EC-Council Courses :</h2>
+                <h2 class="title fz-32"> Developer Certifications :</h2>
+                <p>Explore developer certifications most sought after by employers</p>
             </div>
             <!-- Section Title End -->
 
@@ -58,17 +60,20 @@ include '../../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker"><img
+                            <a class="image"
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/developer/microsoft-certified-azure-developer-associate"><img
                                     src="<? echo SITE_ADDR ?>/assets/images/project/project-1.jpg" alt="work"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a
-                                    href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker">Certified
-                                    Ethical Hacker</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker">View Project
-                                <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                    href="<? echo SITE_ADDR ?>/vendor/microsoft/developer/microsoft-certified-azure-developer-associate">Microsoft
+                                    Certified:
+                                    Azure Developer Associate</a></h3>
+                            <p class="desc">Azure developers design, build, test, and maintain cloud applications and
+                                services.</p>
+                            <a
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/developer/microsoft-certified-azure-developer-associate">View
+                                Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -79,17 +84,20 @@ include '../../assets/php/inc/nav.php';
                     <div class="work">
                         <div class="thumbnail">
                             <a class="image"
-                                href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-network-defender"><img
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/developer/microsoft-certified-dynamics-365-finance-and-operations-apps-developer-associate"><img
                                     src="<? echo SITE_ADDR ?>/assets/images/project/project-2.jpg" alt="work"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a
-                                    href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-network-defender">Certified
-                                    Network Defender</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nisi, quo
-                                optio sint doloribus repellat.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-network-defender">View Project <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
+                                    href="<? echo SITE_ADDR ?>/vendor/microsoft/developer/microsoft-certified-dynamics-365-finance-and-operations-apps-developer-associate">Microsoft
+                                    Certified:
+                                    Dynamics 365: Finance and Operations Apps Developer Associate</a>
+                            </h3>
+                            <p class="desc">Developers who work with finance and operations apps in Microsoft Dynamics
+                                365 implement and extend applications to meet the requirements of the business.</p>
+                            <a
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/developer/microsoft-certified-dynamics-365-finance-and-operations-apps-developer-associate">View
+                                Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -100,18 +108,20 @@ include '../../assets/php/inc/nav.php';
                     <div class="work">
                         <div class="thumbnail">
                             <a class="image"
-                                href="<? echo SITE_ADDR ?>/vendor/ec-council/computer-hacking-forensic-investigator"><img
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/developer/microsoft-365-certified-developer-associate"><img
                                     src="<? echo SITE_ADDR ?>/assets/images/project/project-3.jpg" alt="work"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a
-                                    href="<? echo SITE_ADDR ?>/vendor/ec-council/computer-hacking-forensic-investigator">Computer
-                                    Hacking Forensic Investigator</a>
-                            </h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/ec-council/computer-hacking-forensic-investigator">View
-                                Project <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                    href="<? echo SITE_ADDR ?>/vendor/microsoft/developer/microsoft-365-certified-developer-associate">Microsoft
+                                    365 Certified: Developer
+                                    Associate</a></h3>
+                            <p class="desc">Microsoft 365 developers design, build, test, and maintain applications and
+                                solutions that are optimized for the productivity and collaboration needs of
+                                organizations using the Microsoft 365 platform.</p>
+                            <a
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/developer/microsoft-365-certified-developer-associate">View
+                                Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -122,21 +132,71 @@ include '../../assets/php/inc/nav.php';
                     <div class="work">
                         <div class="thumbnail">
                             <a class="image"
-                                href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-cloud-security-engineer"><img
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/developer/microsoft-certified-power-platform-developer-associate"><img
                                     src="<? echo SITE_ADDR ?>/assets/images/project/project-4.jpg" alt="work"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a
-                                    href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-cloud-security-engineer">Certified
-                                    Cloud Security Engineer</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-cloud-security-engineer">View
-                                Project <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                    href="<? echo SITE_ADDR ?>/vendor/microsoft/developer/microsoft-certified-power-platform-developer-associate">Microsoft
+                                    Certified: Power Platform
+                                    Developer Associate</a></h3>
+                            <p class="desc">Candidates for the Microsoft Power Platform Developer Associate
+                                certification design, develop, secure, and troubleshoot Power Platform solutions.</p>
+                            <a
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/developer/microsoft-certified-power-platform-developer-associate">View
+                                Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
                 <!-- Single Work End -->
+
+                <!-- Single Work Start -->
+                <div class="col mb-6">
+                    <div class="work">
+                        <div class="thumbnail">
+                            <a class="image"
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/developer/microsoft-certified-azure-iot-developer-specialty"><img
+                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-5.jpg" alt="work"></a>
+                        </div>
+                        <div class="info">
+                            <h3 class="title"><a
+                                    href="<? echo SITE_ADDR ?>/vendor/microsoft/developer/microsoft-certified-azure-iot-developer-specialty">Microsoft
+                                    Certified: Azure IoT
+                                    Developer Specialty</a></h3>
+                            <p class="desc">Azure IoT developers develop cloud and edge components of an Azure IoT
+                                solution.</p>
+                            <a
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/developer/microsoft-certified-azure-iot-developer-specialty">View
+                                Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Work End -->
+
+                <!-- Single Work Start -->
+                <div class="col mb-6">
+                    <div class="work">
+                        <div class="thumbnail">
+                            <a class="image"
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/developer/microsoft-certified-azure-cosmos-db-developer-specialty"><img
+                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-6.jpg" alt="work"></a>
+                        </div>
+                        <div class="info">
+                            <h3 class="title"><a
+                                    href="<? echo SITE_ADDR ?>/vendor/microsoft/developer/microsoft-certified-azure-cosmos-db-developer-specialty">Microsoft
+                                    Certified: Azure Cosmos DB
+                                    Developer Specialty</a></h3>
+                            <p class="desc">Azure Cosmos DB developers design and implement data models and data
+                                distribution, load data into an Azure Cosmos DB database, and optimize and maintain the
+                                solution.</p>
+                            <a
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/developer/microsoft-certified-azure-cosmos-db-developer-specialty">View
+                                Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Work End -->
+
 
             </div>
             <!-- About Wrapper End -->
@@ -259,6 +319,6 @@ include '../../assets/php/inc/nav.php';
 
 <?php
 
-include '../../assets/php/inc/footer.php';
+include '../../../assets/php/inc/footer.php';
 
 ?>

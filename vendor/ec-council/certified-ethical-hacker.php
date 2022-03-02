@@ -342,8 +342,8 @@ include '../../assets/php/inc/nav.php';
                     <div class="digital-marketing" data-aos="fade-up">
                         <div class="section-title-two mb-8">
                             <span class="sub-title">Average salary after completing CEH</span>
-                            <h2 class="title my-4">
-                                £43,000 / year
+                            <h2 class="title mb-5">
+                                <div class="salary">£<span class="counter">43,000.00</span>+</div>
                             </h2>
                             <small>Avg. Base Salary (GBP)</small>.
                         </div>

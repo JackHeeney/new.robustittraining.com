@@ -1,17 +1,17 @@
 <?php
 
 // Change page title and meta tags here
-$title = "Robust IT Training | Official EC-Council Online & Classroom Training";
+$title = "Robust IT Training | Official Microsoft Online & Classroom Training";
 $meta['keywords'] = "";
 $meta['description'] = "";
 
 // Social media meta tags
-$meta['og:title'] = "Robust IT Training | Official EC-Council Online & Classroom Training";
+$meta['og:title'] = "Robust IT Training | Official Microsoft Online & Classroom Training";
 $meta['og:description'] = "";
 $meta['og:image'] = "";
 $meta['og:url'] = "";
 
-$leadIsFrom = "Lead is from /vendor/ec-council";
+$leadIsFrom = "Lead is from /vendor/microsoft";
 
 include '../../assets/php/inc/header.php';
 include '../../assets/php/inc/nav.php';
@@ -26,7 +26,7 @@ include '../../assets/php/inc/nav.php';
         data-bg-image="<? echo SITE_ADDR ?>/assets/images/bg/breadcrumb-bg-two.jpg">
         <div class="page-title">
             <div class="container">
-                <h1 class="title">EC-Council Courses</h1>
+                <h1 class="title">Microsoft Courses</h1>
             </div>
         </div>
         <div class="page-breadcrumb position-static">
@@ -34,7 +34,7 @@ include '../../assets/php/inc/nav.php';
                 <ul class="breadcrumb justify-content-center">
                     <li><a href="<? echo SITE_ADDR ?>/">Home</a></li>
                     <li><a href="<? echo SITE_ADDR ?>/vendor">Vendor</a></li>
-                    <li class="current">EC-Council</li>
+                    <li class="current">Microsoft</li>
                 </ul>
             </div>
         </div>
@@ -47,7 +47,7 @@ include '../../assets/php/inc/nav.php';
 
             <!-- Section Title Start -->
             <div class="section-title text-center " data-aos="fade-up">
-                <h2 class="title fz-32"> View our EC-Council Courses :</h2>
+                <h2 class="title fz-32"> View our Microsoft Courses :</h2>
             </div>
             <!-- Section Title End -->
 
@@ -58,16 +58,15 @@ include '../../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker"><img
+                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/microsoft/developer"><img
                                     src="<? echo SITE_ADDR ?>/assets/images/project/project-1.jpg" alt="work"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a
-                                    href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker">Certified
-                                    Ethical Hacker</a></h3>
+                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/microsoft/developer">Developer</a>
+                            </h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker">View Project
+                            <a href="<? echo SITE_ADDR ?>/vendor/microsoft/developer">View Project
                                 <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -78,17 +77,15 @@ include '../../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work">
                         <div class="thumbnail">
-                            <a class="image"
-                                href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-network-defender"><img
+                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator"><img
                                     src="<? echo SITE_ADDR ?>/assets/images/project/project-2.jpg" alt="work"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a
-                                    href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-network-defender">Certified
-                                    Network Defender</a></h3>
+                                    href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator">Administrator</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nisi, quo
                                 optio sint doloribus repellat.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-network-defender">View Project <i
+                            <a href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator">View Project <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -99,18 +96,17 @@ include '../../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work">
                         <div class="thumbnail">
-                            <a class="image"
-                                href="<? echo SITE_ADDR ?>/vendor/ec-council/computer-hacking-forensic-investigator"><img
+                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/microsoft/solutions-architect"><img
                                     src="<? echo SITE_ADDR ?>/assets/images/project/project-3.jpg" alt="work"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a
-                                    href="<? echo SITE_ADDR ?>/vendor/ec-council/computer-hacking-forensic-investigator">Computer
-                                    Hacking Forensic Investigator</a>
+                                    href="<? echo SITE_ADDR ?>/vendor/microsoft/solutions-architect">Solutions
+                                    Architect</a>
                             </h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/ec-council/computer-hacking-forensic-investigator">View
+                            <a href="<? echo SITE_ADDR ?>/vendor/microsoft/solutions-architect">View
                                 Project <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -121,17 +117,111 @@ include '../../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work">
                         <div class="thumbnail">
-                            <a class="image"
-                                href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-cloud-security-engineer"><img
+                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/microsoft/data-engineer"><img
                                     src="<? echo SITE_ADDR ?>/assets/images/project/project-4.jpg" alt="work"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a
-                                    href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-cloud-security-engineer">Certified
-                                    Cloud Security Engineer</a></h3>
+                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/microsoft/data-engineer">Data
+                                    Engineer</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-cloud-security-engineer">View
+                            <a href="<? echo SITE_ADDR ?>/vendor/microsoft/data-engineer">View
+                                Project <i class="fas fa-chevron-right fcr-animate"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Work End -->
+
+                <!-- Single Work Start -->
+                <div class="col mb-6">
+                    <div class="work">
+                        <div class="thumbnail">
+                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/microsoft/data-scientist"><img
+                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-5.jpg" alt="work"></a>
+                        </div>
+                        <div class="info">
+                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/microsoft/data-scientist">Data
+                                    Scientist</a></h3>
+                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
+                                culpa, unde perspiciatis hic delectus.</p>
+                            <a href="<? echo SITE_ADDR ?>/vendor/microsoft/data-scientist">View
+                                Project <i class="fas fa-chevron-right fcr-animate"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Work End -->
+
+                <!-- Single Work Start -->
+                <div class="col mb-6">
+                    <div class="work">
+                        <div class="thumbnail">
+                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/microsoft/ai-engineer"><img
+                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-6.jpg" alt="work"></a>
+                        </div>
+                        <div class="info">
+                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/microsoft/ai-engineer">AI
+                                    Engineer</a></h3>
+                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
+                                culpa, unde perspiciatis hic delectus.</p>
+                            <a href="<? echo SITE_ADDR ?>/vendor/microsoft/ai-engineer">View
+                                Project <i class="fas fa-chevron-right fcr-animate"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Work End -->
+
+                <!-- Single Work Start -->
+                <div class="col mb-6">
+                    <div class="work">
+                        <div class="thumbnail">
+                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/microsoft/devops-engineer"><img
+                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-4.jpg" alt="work"></a>
+                        </div>
+                        <div class="info">
+                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/microsoft/devops-engineer">DevOps
+                                    Engineer</a></h3>
+                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
+                                culpa, unde perspiciatis hic delectus.</p>
+                            <a href="<? echo SITE_ADDR ?>/vendor/microsoft/devops-engineer">View
+                                Project <i class="fas fa-chevron-right fcr-animate"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Work End -->
+
+                <!-- Single Work Start -->
+                <div class="col mb-6">
+                    <div class="work">
+                        <div class="thumbnail">
+                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/microsoft/security-engineer"><img
+                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-5.jpg" alt="work"></a>
+                        </div>
+                        <div class="info">
+                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/microsoft/security-engineer">Security
+                                    Engineer</a></h3>
+                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
+                                culpa, unde perspiciatis hic delectus.</p>
+                            <a href="<? echo SITE_ADDR ?>/vendor/microsoft/security-engineer">View
+                                Project <i class="fas fa-chevron-right fcr-animate"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Work End -->
+
+                <!-- Single Work Start -->
+                <div class="col mb-6">
+                    <div class="work">
+                        <div class="thumbnail">
+                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/microsoft/functional-consultant"><img
+                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-6.jpg" alt="work"></a>
+                        </div>
+                        <div class="info">
+                            <h3 class="title"><a
+                                    href="<? echo SITE_ADDR ?>/vendor/microsoft/functional-consultant">Functional
+                                    Consultant</a></h3>
+                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
+                                culpa, unde perspiciatis hic delectus.</p>
+                            <a href="<? echo SITE_ADDR ?>/vendor/microsoft/functional-consultant">View
                                 Project <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>

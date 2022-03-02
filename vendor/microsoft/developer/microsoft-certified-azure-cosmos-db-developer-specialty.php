@@ -1,19 +1,19 @@
 <?php
 // Change page title and meta tags here
-$title = "Robust IT Training | AWS | Solutions Architect Professional ";
-$meta['keywords'] = "Amazon Web Services, AWS, Cloud";
-$meta['description'] = "Robust IT Training AWS Solutions Architect Professional course.";
+$title = "Robust IT Training | EC-Council | Certified Cloud Security Engineer | CCSE";
+$meta['keywords'] = "Cyber Security, Certified Cloud Security Engineer, CCSE, EC-Council";
+$meta['description'] = "Robust IT Training Certified Cloud Security Engineer course.";
 
 // Social media meta tags
-$title = "Robust IT Training | AWS | Solutions Architect Professional";
-$meta['og:description'] = "Robust IT Training AWS Solutions Architect Professional course.";
+$title = "Robust IT Training | EC-Council | Certified Cloud Security Engineer | CCSE";
+$meta['og:description'] = "Robust IT Training Certified Cloud Security Engineer course.";
 $meta['og:image'] = "";
 $meta['og:url'] = "";
 
 $leadIsFrom = "Lead is from /vendor/ec-council/certified-cloud-security-engineer";
 
-include '../../assets/php/inc/header.php';
-include '../../assets/php/inc/nav.php';
+include '../../../assets/php/inc/header.php';
+include '../../../assets/php/inc/nav.php';
 ?>
 
 <div id="page work-details" class="section">
@@ -22,7 +22,7 @@ include '../../assets/php/inc/nav.php';
         data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/bg-certified-ethical-hacker.jpg">
         <div class="page-title">
             <div class="container">
-                <h1 class="title">AWS Solutions Architect Professional</h1>
+                <h1 class="title">Certified Cloud Security Engineer</h1>
                 <!-- <h2 class="title-h2">Learn more about this certification and AWS resources that can help you prepare
                 </h2> -->
             </div>
@@ -32,8 +32,8 @@ include '../../assets/php/inc/nav.php';
                 <ul class="breadcrumb justify-content-center">
                     <li><a href="<? echo SITE_ADDR ?>/">Home</a></li>
                     <li><a href="<? echo SITE_ADDR ?>/vendor">Vendor</a></li>
-                    <li><a href="<? echo SITE_ADDR ?>/vendor/aws">AWS</a></li>
-                    <li class="current">Solutions Architect Professional</li>
+                    <li><a href="<? echo SITE_ADDR ?>/vendor/ec-council">EC-Council</a></li>
+                    <li class="current">CCSE</li>
                 </ul>
             </div>
         </div>
@@ -155,7 +155,7 @@ include '../../assets/php/inc/nav.php';
                                     <div class="content mb-5" data-aos="fade-up">
                                         <h6 class="title" data-aos="fade-up">Who is it for?</h6>
                                         <p>
-                                            Who should consider taking the AWS Cloud Practitioner exam?
+                                            Who should consider taking the CCSE exam?
                                         </p>
                                         <ul>
                                             <li>
@@ -184,23 +184,6 @@ include '../../assets/php/inc/nav.php';
                                             </li>
                                         </ul>
                                     </div>
-                                    <!-- <div class="content mb-12" data-aos="fade-up">
-                                        <h6 class="title" data-aos="fade-up">What does it take to earn this
-                                            certification?</h6>
-                                        <p>
-                                            In order to maintain the high integrity of our certification exams,
-                                            EC-Council Exams are provided in multiple forms (I.e. different question
-                                            banks). Each form is carefully analyzed through beta testing with an
-                                            appropriate sample group under the purview of a committee of subject matter
-                                            experts that ensure that each of our exams not only has academic rigor but
-                                            also has real world applicability. We also have a process to determine the
-                                            difficulty rating of each question. The individual rating then contributes
-                                            to an overall cut score for each exam form. To ensure each form has equal
-                                            assessment standards, cut scores are set on a “per exam form” basis.
-                                            Depending on which exam form is challenged, cut scores can range from 60% to
-                                            85%.
-                                        </p>
-                                    </div> -->
 
                                     <div class="work-btn">
                                         <a class="btn btn-primary btn-hover-secondary" href="#">Download the exam guide
@@ -242,7 +225,7 @@ include '../../assets/php/inc/nav.php';
                                 <div class="section-title-two mb-8">
                                     <h3 class="heading heading-h3"></h3>
 
-                                    <span class="sub-title">Benefits of </span>
+                                    <span class="sub-title">Reasons why to take the CCSE</span>
                                     <h2 class="title">
                                         Why Certified Cloud Security Engineer?
                                     </h2>
@@ -256,7 +239,7 @@ include '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Inclusion of critical modules in Darkweb forensic and IoT Forensics
+                                            Detailed Methodological Approach and Instructor-Led Program
                                         </div>
                                     </li>
                                     <li class="item">
@@ -264,8 +247,7 @@ include '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Significant coverage of forensic methodologies for public cloud
-                                            infrastructure, including Amazon AWS and Microsoft Azure
+                                            Vendor-Neutral and Vendor-Specific Concepts
                                         </div>
                                     </li>
                                     <li class="item">
@@ -273,7 +255,7 @@ include '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Massive updates on all modules in CHFI
+                                            SOAR for Incident Response
                                         </div>
                                     </li>
                                     <li class="item">
@@ -281,7 +263,7 @@ include '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Inclusion of latest forensic tools including Splunk, DNSQuerySniffer etc
+                                            Best Practices to Secure Cloud Infrastructure
                                         </div>
                                     </li>
                                     <li class="item">
@@ -289,8 +271,7 @@ include '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Addition of new techniques such as Defeating Anti-forensic technique,
-                                            Windows ShellBags including analyzing LNK files and Jump Lists
+                                            Governance, Risk Management, and Compliance in the Cloud
                                         </div>
                                     </li>
                                     <li class="item">
@@ -298,8 +279,7 @@ include '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Extensive coverage of Malware Forensics (latest malware samples such as
-                                            Emotet and EternalBlue )
+                                            Forensic Methodologies for Cloud Infrastructure
                                         </div>
                                     </li>
                                     <li class="item">
@@ -307,7 +287,7 @@ include '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Now more than 50GB of crafted evidence files for investigation purposes
+                                            Standards, Policies, and Legal Issues in the Cloud
                                         </div>
                                     </li>
                                     <li class="item">
@@ -315,25 +295,7 @@ include '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            More than 50% of new and advanced forensic labs
-                                        </div>
-                                    </li>
-                                    <li class="item">
-                                        <div class="icon">
-                                            <i class="fas fa-check"></i>
-                                        </div>
-                                        <div class="text">
-                                            In-depth focus on Volatile and Non-volatile data acquisition and examination
-                                            process (RAM Forensics, Tor Forensics, etc.
-                                        </div>
-                                    </li>
-                                    <li class="item">
-                                        <div class="icon">
-                                            <i class="fas fa-check"></i>
-                                        </div>
-                                        <div class="text">
-                                            Accepted and trusted by cybersecurity practitioners across Fortune 500
-                                            globally.
+                                            Lab-Intensive Cloud Security Program
                                         </div>
                                     </li>
                                 </ul>
@@ -869,5 +831,5 @@ include '../../assets/php/inc/nav.php';
 </div>
 
 <?php
-include '../../assets/php/inc/footer.php';
+include '../../../assets/php/inc/footer.php';
 ?>

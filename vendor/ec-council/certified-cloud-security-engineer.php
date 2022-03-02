@@ -151,153 +151,39 @@ include '../../assets/php/inc/nav.php';
 
                                         </p>
                                     </div>
-                                    <div class="content mb-12" data-aos="fade-up">
-                                        <h6 class="title" data-aos="fade-up">Who is it for?</h6>
-                                        <ul>
-                                            <li>Network security engineers</li>
-                                            <li>Cybersecurity analysts</li>
-                                            <li>Network security analysts</li>
-                                            <li>Cloud administrators and engineers</li>
-                                            <li>Network security administrators</li>
-                                            <li>Cloud analysts</li>
-                                            <li>Cybersecurity engineers</li>
-                                            <li>Those working in network and cloud management and operations</li>
-                                        </ul>
-                                    </div>
+
                                     <div class="content mb-5" data-aos="fade-up">
-                                        <h6 class="title" data-aos="fade-up">Why Certified Cloud Security Engineer?</h6>
-
-                                        <!-- start -->
-                                        <div class="agency-accordion max-mb-n30" id="accordionWhy">
-                                            <div class="card">
-                                                <div class="card-header" id="headingWhyOne">
-                                                    <h5 class="mb-0">
-                                                        <a href="#" class="acc-btn border-0" data-toggle="collapse"
-                                                            data-target="#collapseWhyOne" aria-expanded="true"
-                                                            aria-controls="collapseWhyOne">
-                                                            Detailed Methodological Approach and Instructor-Led Program
-                                                        </a>
-                                                    </h5>
-                                                </div>
-
-                                                <div id="collapseWhyOne" class="collapse"
-                                                    aria-labelledby="headingWhyOne" data-parent="#accordionWhy">
-                                                    <div class="card-body">
-                                                        The CCSE program provides hands-on training to teach students
-                                                        how to create and implement security policies to safeguard cloud
-                                                        infrastructure and applications.
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- end -->
-                                            <!-- start -->
-                                            <div class="card">
-                                                <div class="card-header" id="headingWhyTwo">
-                                                    <h5 class="mb-0">
-                                                        <a href="#" class="acc-btn border-0 collapsed"
-                                                            data-toggle="collapse" data-target="#collapseWhyTwo"
-                                                            aria-expanded="false" aria-controls="collapseWhyTwo">
-                                                            Vendor-Neutral and Vendor-Specific Concepts
-                                                        </a>
-                                                    </h5>
-                                                </div>
-                                                <div id="collapseWhyTwo" class="collapse"
-                                                    aria-labelledby="headingWhyTwo" data-parent="#accordionWhy">
-                                                    <div class="card-body">
-                                                        CCSE is the first certification to offer a blend of
-                                                        vendor-neutral and vendor-specific concepts. The course covers
-                                                        features of cloud service providers such as AWS, Azure, and GCP.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- end -->
-                                            <!-- start -->
-                                            <div class="card">
-                                                <div class="card-header" id="headingWhyThree">
-                                                    <h5 class="mb-0">
-                                                        <a href="#" class="acc-btn border-0 collapsed"
-                                                            data-toggle="collapse" data-target="#collapseWhyThree"
-                                                            aria-expanded="false" aria-controls="collapseWhyThree">
-                                                            SOAR for Incident Response
-                                                        </a>
-                                                    </h5>
-                                                </div>
-                                                <div id="collapseWhyThree" class="collapse"
-                                                    aria-labelledby="headingWhyThree" data-parent="#accordionWhy">
-                                                    <div class="card-body">
-                                                        Learn to collect threat-related data using Security
-                                                        Orchestration, Automation, and Response (SOAR). Learn to create
-                                                        incident analysis reports and to automate incident response in
-                                                        the cloud.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- end -->
-                                            <!-- start -->
-                                            <div class="card">
-                                                <div class="card-header" id="headingFour">
-                                                    <h5 class="mb-0">
-                                                        <a href="#" class="acc-btn border-0 collapsed"
-                                                            data-toggle="collapse" data-target="#collapseFour"
-                                                            aria-expanded="false" aria-controls="collapseFour">
-                                                            SOAR for Incident Response
-                                                        </a>
-                                                    </h5>
-                                                </div>
-                                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
-                                                    data-parent="#accordionWhy">
-                                                    <div class="card-body">
-                                                        Learn to collect threat-related data using Security
-                                                        Orchestration, Automation, and Response (SOAR). Learn to create
-                                                        incident analysis reports and to automate incident response in
-                                                        the cloud.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- end -->
-                                        </div>
-
+                                        <h6 class="title" data-aos="fade-up">Who is it for?</h6>
                                         <p>
-                                            Detailed Methodological
+                                            Who should consider taking the CCSE exam?
                                         </p>
                                         <ul>
                                             <li>
-                                                Establish threat intelligence and key learning points to support
-                                                pro-active profiling and scenario modeling
-
+                                                Network security engineers
                                             </li>
                                             <li>
-                                                Perform anti-forensic methods detection
+                                                Cybersecurity analysts
                                             </li>
                                             <li>
-                                                Perform post-intrusion analysis of electronic and digital media to
-                                                determine the who, where, what, when, and how the intrusion occurred
+                                                Network security analysts
                                             </li>
                                             <li>
-                                                Extract and analyze of logs from various devices like proxy, firewall,
-                                                IPS, IDS, Desktop, laptop, servers, SIM tool, router, firewall, switches
-                                                AD server, DHCP logs, Access Control Logs & conclude as part of
-                                                investigation process.
+                                                Cloud administrators and engineers
                                             </li>
                                             <li>
-                                                Identify & check the possible source / incident origin.
-
+                                                Network security administrators
                                             </li>
                                             <li>
-                                                Recover deleted files and partitions in Windows, Mac OS X, and Linux
+                                                Cloud analysts
                                             </li>
                                             <li>
-                                                Conduct reverse engineering for known and suspected malware files
+                                                Cybersecurity engineers
                                             </li>
                                             <li>
-                                                Collect data using forensic technology methods in accordance with
-                                                evidence handling procedures, including collection of hard copy and
-                                                electronic documents
+                                                Those working in network and cloud management and operations
                                             </li>
                                         </ul>
                                     </div>
-
 
                                     <div class="work-btn">
                                         <a class="btn btn-primary btn-hover-secondary" href="#">Download the exam guide
@@ -339,9 +225,9 @@ include '../../assets/php/inc/nav.php';
                                 <div class="section-title-two mb-8">
                                     <h3 class="heading heading-h3"></h3>
 
-                                    <span class="sub-title">Benefit of the CHFI</span>
+                                    <span class="sub-title">Reasons why to take the CCSE</span>
                                     <h2 class="title">
-                                        Course Benefits
+                                        Why Certified Cloud Security Engineer?
                                     </h2>
                                 </div>
                                 <!-- Section Title Two End -->
@@ -353,7 +239,7 @@ include '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Inclusion of critical modules in Darkweb forensic and IoT Forensics
+                                            Detailed Methodological Approach and Instructor-Led Program
                                         </div>
                                     </li>
                                     <li class="item">
@@ -361,8 +247,7 @@ include '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Significant coverage of forensic methodologies for public cloud
-                                            infrastructure, including Amazon AWS and Microsoft Azure
+                                            Vendor-Neutral and Vendor-Specific Concepts
                                         </div>
                                     </li>
                                     <li class="item">
@@ -370,7 +255,7 @@ include '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Massive updates on all modules in CHFI
+                                            SOAR for Incident Response
                                         </div>
                                     </li>
                                     <li class="item">
@@ -378,7 +263,7 @@ include '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Inclusion of latest forensic tools including Splunk, DNSQuerySniffer etc
+                                            Best Practices to Secure Cloud Infrastructure
                                         </div>
                                     </li>
                                     <li class="item">
@@ -386,8 +271,7 @@ include '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Addition of new techniques such as Defeating Anti-forensic technique,
-                                            Windows ShellBags including analyzing LNK files and Jump Lists
+                                            Governance, Risk Management, and Compliance in the Cloud
                                         </div>
                                     </li>
                                     <li class="item">
@@ -395,8 +279,7 @@ include '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Extensive coverage of Malware Forensics (latest malware samples such as
-                                            Emotet and EternalBlue )
+                                            Forensic Methodologies for Cloud Infrastructure
                                         </div>
                                     </li>
                                     <li class="item">
@@ -404,7 +287,7 @@ include '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Now more than 50GB of crafted evidence files for investigation purposes
+                                            Standards, Policies, and Legal Issues in the Cloud
                                         </div>
                                     </li>
                                     <li class="item">
@@ -412,25 +295,7 @@ include '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            More than 50% of new and advanced forensic labs
-                                        </div>
-                                    </li>
-                                    <li class="item">
-                                        <div class="icon">
-                                            <i class="fas fa-check"></i>
-                                        </div>
-                                        <div class="text">
-                                            In-depth focus on Volatile and Non-volatile data acquisition and examination
-                                            process (RAM Forensics, Tor Forensics, etc.
-                                        </div>
-                                    </li>
-                                    <li class="item">
-                                        <div class="icon">
-                                            <i class="fas fa-check"></i>
-                                        </div>
-                                        <div class="text">
-                                            Accepted and trusted by cybersecurity practitioners across Fortune 500
-                                            globally.
+                                            Lab-Intensive Cloud Security Program
                                         </div>
                                     </li>
                                 </ul>
@@ -480,12 +345,18 @@ include '../../assets/php/inc/nav.php';
 
             <!-- Start Average Salary Area -->
             <div class="row my-lg-12 my-10">
+                <div class="digital-marketing" data-aos="fade-up">
+                    <div class="section-title-two">
+                        <span class="sub-title">Average salary after completing CHFI</span>
+                    </div>
+
+
+                </div>
                 <div class="col-lg-4 col-md-12 col-12">
                     <div class="digital-marketing" data-aos="fade-up">
                         <div class="section-title-two mb-8">
-                            <span class="sub-title">Average salary after completing CHFI</span>
-                            <h2 class="title my-4">
-                                £56,650.00 / year
+                            <h2 class="title mb-5">
+                                <div class="salary">£<span class="counter">56,650.00</span>+</div>
                             </h2>
                             <small>Avg. Base Salary (GBP)</small>.
                         </div>
@@ -496,16 +367,186 @@ include '../../assets/php/inc/nav.php';
                 <div class="col-lg-7 col-md-12 col-12 offset-lg-1">
                     <div class="digital-marketing mt-lg-0 mt-6" data-aos="fade-up">
                         <div class="inner">
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ipsum possimus, dolore
-                                earum officia corporis aspernatur asperiores recusandae ut perspiciatis atque facere ex
-                                soluta, quisquam nesciunt facilis perferendis vitae iure.
-                            </p>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ipsum possimus, dolore
-                                earum officia corporis aspernatur asperiores recusandae ut perspiciatis atque facere ex
-                                soluta, quisquam nesciunt facilis perferendis vitae iure.
-                            </p>
+
+                            <div class="row">
+                                <h2 class="title mb-5">
+                                    Job Roles
+                                </h2>
+
+                                <div class="col-6">
+                                    <!-- job roles List Start -->
+                                    <ul class="agency-list">
+                                        <li class="item">
+                                            <div class="icon">
+                                                <i class="fas fa-check"></i>
+                                            </div>
+                                            <div class="text">
+                                                Cloud Security Engineer
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <div class="icon">
+                                                <i class="fas fa-check"></i>
+                                            </div>
+                                            <div class="text">
+                                                Cloud Security Consultant
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <div class="icon">
+                                                <i class="fas fa-check"></i>
+                                            </div>
+                                            <div class="text">
+                                                Cyber Cloud Security Manager
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <div class="icon">
+                                                <i class="fas fa-check"></i>
+                                            </div>
+                                            <div class="text">
+                                                Cloud Security Architect
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <div class="icon">
+                                                <i class="fas fa-check"></i>
+                                            </div>
+                                            <div class="text">
+                                                Cloud Security Manager
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <div class="icon">
+                                                <i class="fas fa-check"></i>
+                                            </div>
+                                            <div class="text">
+                                                API Cloud Security Engineer
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <div class="icon">
+                                                <i class="fas fa-check"></i>
+                                            </div>
+                                            <div class="text">
+                                                Cloud Security Technical Lead
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <div class="icon">
+                                                <i class="fas fa-check"></i>
+                                            </div>
+                                            <div class="text">
+                                                Cloud Security Administrator
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <div class="icon">
+                                                <i class="fas fa-check"></i>
+                                            </div>
+                                            <div class="text">
+                                                Cloud Security Analyst
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <div class="icon">
+                                                <i class="fas fa-check"></i>
+                                            </div>
+                                            <div class="text">
+                                                Cloud Security Specialist
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <!-- job roles List End -->
+                                </div>
+                                <div class="col-6">
+                                    <!-- job roles List Start -->
+                                    <ul class="agency-list">
+                                        <li class="item">
+                                            <div class="icon">
+                                                <i class="fas fa-check"></i>
+                                            </div>
+                                            <div class="text">
+                                                Cloud Security and Compliance Specialist
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <div class="icon">
+                                                <i class="fas fa-check"></i>
+                                            </div>
+                                            <div class="text">
+                                                Cloud Security Operations Lead
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <div class="icon">
+                                                <i class="fas fa-check"></i>
+                                            </div>
+                                            <div class="text">
+                                                Cloud Security Practice Manager
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <div class="icon">
+                                                <i class="fas fa-check"></i>
+                                            </div>
+                                            <div class="text">
+                                                Cloud Security Engineer – DevSecOps
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <div class="icon">
+                                                <i class="fas fa-check"></i>
+                                            </div>
+                                            <div class="text">
+                                                DevSecOps Cloud Security Architect
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <div class="icon">
+                                                <i class="fas fa-check"></i>
+                                            </div>
+                                            <div class="text">
+                                                Cloud Security/OPS
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <div class="icon">
+                                                <i class="fas fa-check"></i>
+                                            </div>
+                                            <div class="text">
+                                                Cloud Security SME
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <div class="icon">
+                                                <i class="fas fa-check"></i>
+                                            </div>
+                                            <div class="text">
+                                                Cloud Security Project Manager
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <div class="icon">
+                                                <i class="fas fa-check"></i>
+                                            </div>
+                                            <div class="text">
+                                                Cloud Security/Operations Engineer
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <div class="icon">
+                                                <i class="fas fa-check"></i>
+                                            </div>
+                                            <div class="text">
+                                                Cloud Security/Infosec/SecOps Engineer
+
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <!-- job roles List End -->
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

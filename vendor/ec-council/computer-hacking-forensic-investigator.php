@@ -401,13 +401,11 @@ include '../../assets/php/inc/nav.php';
                     <div class="digital-marketing" data-aos="fade-up">
                         <div class="section-title-two mb-8">
                             <span class="sub-title">Average salary after completing CHFI</span>
-                            <h2 class="title my-4">
-                                £56,650.00 / year
+                            <h2 class="title mb-5">
+                                <div class="salary">£<span class="counter">51,450.00</span>+</div>
                             </h2>
                             <small>Avg. Base Salary (GBP)</small>.
                         </div>
-
-
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-12 col-12 offset-lg-1">
