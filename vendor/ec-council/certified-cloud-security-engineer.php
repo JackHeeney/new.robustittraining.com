@@ -558,30 +558,8 @@ include '../../assets/php/inc/nav.php';
                 <div class="container">
                     <div class="row my-lg-14 my-7">
 
-                        <!-- FAQ Image Area Start -->
-                        <div class="col-xl-7 col-lg-6 col-12" data-aos="fade-up">
-                            <div class="about-image-area">
-                                <div class="about-image js-tilt">
-                                    <img src="<? echo SITE_ADDR ?>/assets/images/about/home-one-about/cloud_about_2.jpg"
-                                        alt="">
-                                </div>
-                                <div class="about-image js-tilt">
-                                    <img src="<? echo SITE_ADDR ?>/assets/images/about/home-one-about/cloud_about_1.jpg"
-                                        alt="">
-                                </div>
-                                <!-- Animation Shape Start -->
-                                <div class="shape shape-1 scene">
-                                    <span data-depth="1"><img
-                                            src="<? echo SITE_ADDR ?>/assets/images/shape-animation/about-shape-2.png"
-                                            alt=""></span>
-                                </div>
-                                <!-- Animation Shape End -->
-                            </div>
-                        </div>
-                        <!-- FAQ Image Area Start -->
-
                         <!-- FAQ Start -->
-                        <div class="col-xl-5 col-lg-6 col-12 mt-lg-1 mt-20" data-aos="fade-up">
+                        <div class="col-xl-6 col-lg-6 col-12 mt-lg-1 mt-20" data-aos="fade-up">
                             <!-- FAQ Content Area Start -->
                             <div class="faq-content">
                                 <!-- Section Title Two Start -->
@@ -662,6 +640,28 @@ include '../../assets/php/inc/nav.php';
                             <!-- FAQ Content Area Start -->
                         </div>
                         <!-- FAQ Start -->
+
+
+                        <!-- FAQ Image Area Start -->
+                        <div class="col-xl-6 col-lg-6 col-12 pl-lg-10 pl-md-5 pl-0" data-aos="fade-up">
+                            <div class="about-image-area">
+                                <div class="about-image right-n50 js-tilt">
+                                    <img src="<? echo SITE_ADDR ?>/assets/images/faq/faq-2.jpg" alt="">
+                                </div>
+                                <div class="about-image js-tilt">
+                                    <img src="<? echo SITE_ADDR ?>/assets/images/faq/faq-1.jpg" alt="">
+                                </div>
+                                <!-- Animation Shape Start -->
+                                <div class="shape shape-1 scene">
+                                    <span data-depth="3"><img
+                                            src="<? echo SITE_ADDR ?>/assets/images/shape-animation/about-shape-2.png"
+                                            alt=""></span>
+                                </div>
+                                <!-- Animation Shape End -->
+                            </div>
+                        </div>
+                        <!-- FAQ Image Area Start -->
+
 
                     </div>
                 </div>

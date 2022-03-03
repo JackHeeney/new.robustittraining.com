@@ -1,12 +1,12 @@
 <?php
 // Change page title and meta tags here
-$title = "Robust IT Training | EC-Council | Certified Cloud Security Engineer | CCSE";
-$meta['keywords'] = "Cyber Security, Certified Cloud Security Engineer, CCSE, EC-Council";
-$meta['description'] = "Robust IT Training Certified Cloud Security Engineer course.";
+$title = "Robust IT Training | Microsoft | Developer | Microsoft Certified: Dynamics 365: Finance and Operations Apps Developer Associate";
+$meta['keywords'] = "";
+$meta['description'] = "";
 
 // Social media meta tags
-$title = "Robust IT Training | EC-Council | Certified Cloud Security Engineer | CCSE";
-$meta['og:description'] = "Robust IT Training Certified Cloud Security Engineer course.";
+$title = "Robust IT Training | Microsoft | Developer | Microsoft Certified: Dynamics 365: Finance and Operations Apps Developer Associate";
+$meta['og:description'] = "";
 $meta['og:image'] = "";
 $meta['og:url'] = "";
 
@@ -22,7 +22,8 @@ include '../../../assets/php/inc/nav.php';
         data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/bg-certified-ethical-hacker.jpg">
         <div class="page-title">
             <div class="container">
-                <h1 class="title">Certified Cloud Security Engineer</h1>
+                <h1 class="title">Microsoft Certified: Dynamics 365: Finance and Operations Apps Developer Associate
+                </h1>
                 <!-- <h2 class="title-h2">Learn more about this certification and AWS resources that can help you prepare
                 </h2> -->
             </div>
@@ -31,9 +32,9 @@ include '../../../assets/php/inc/nav.php';
             <div class="container">
                 <ul class="breadcrumb justify-content-center">
                     <li><a href="<? echo SITE_ADDR ?>/">Home</a></li>
-                    <li><a href="<? echo SITE_ADDR ?>/vendor">Vendor</a></li>
-                    <li><a href="<? echo SITE_ADDR ?>/vendor/ec-council">EC-Council</a></li>
-                    <li class="current">CCSE</li>
+                    <li><a href="<? echo SITE_ADDR ?>/vendor/microsoft">Microsoft</a></li>
+                    <li><a href="<? echo SITE_ADDR ?>/vendor/microsoft/developer">Developer</a></li>
+                    <li class="current">Finance and Operations Apps Developer</li>
                 </ul>
             </div>
         </div>

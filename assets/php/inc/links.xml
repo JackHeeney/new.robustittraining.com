@@ -2,47 +2,47 @@
 <!-- General -->
   <link>
     <title>Home Page</title>
-    <url>https://www.robustittraining.com/index.php</url>
+    <url>https://www.robustittraining.com/</url>
     <desc>Robust IT Training | Online and Classroom training</desc>
   </link>
   <link>
     <title>About Us</title>
-    <url>https://www.robustittraining.com/about-us.php</url>
+    <url>https://www.robustittraining.com/about-us</url>
     <desc>About Us? Who is Robust IT?</desc>
   </link>
   <link>
     <title>Contact Us</title>
-    <url>https://www.robustittraining.com/contact-us.php</url>
+    <url>https://www.robustittraining.com/contact-us</url>
     <desc>Get in touch today!</desc>
   </link>
   <link>
     <title>Testimonials</title>
-    <url>https://www.robustittraining.com/testimonials.php</url>
+    <url>https://www.robustittraining.com/testimonials</url>
     <desc>See what our students say about us.</desc>
   </link>
   <link>
     <title>Terms and Conditions</title>
-    <url>https://www.robustittraining.com/terms-and-conditions.php</url>
+    <url>https://www.robustittraining.com/terms-and-conditions</url>
     <desc>Read our terms and conditions.</desc>
   </link>
   <link>
     <title>Privacy Policy</title>
-    <url>https://www.robustittraining.com/privacy-policy.php</url>
+    <url>https://www.robustittraining.com/privacy-policy</url>
     <desc>Read our privacy policy.</desc>
   </link>
   <link>
     <title>FAQs</title>
-    <url>https://www.robustittraining.com/faqs.php</url>
+    <url>https://www.robustittraining.com/faqs</url>
     <desc>Read our frequently asked questions.</desc>
   </link>
   <link>
     <title>Services</title>
-    <url>https://www.robustittraining.com/services.php</url>
+    <url>https://www.robustittraining.com/services</url>
     <desc>Check out what services we offer.</desc>
   </link>
   <link>
     <title>Learning Paths</title>
-    <url>https://www.robustittraining.com/learning-paths.php</url>
+    <url>https://www.robustittraining.com/learning-paths</url>
     <desc>Find the perfect path for your learning journey.</desc>
   </link>
   <link>
@@ -57,10 +57,31 @@
   </link>
 
 
-  <!-- Coursers -->
+<!--
+************************************
+*             Coursers             *
+************************************
+-->
+
+<!-- = EC-Council = -->
   <link>
     <title>Certified Ethical Hacker</title>
-    <url>https://www.robustittraining.com/vendor/ec-council/certified-ethical-hacker.php</url>
+    <url>https://www.robustittraining.com/vendor/ec-council/certified-ethical-hacker</url>
     <desc>Official EC-Council Certified Ethical Hacking training.</desc>
+  </link>
+  <link>
+    <title>Certified Network Defender</title>
+    <url>https://www.robustittraining.com/vendor/ec-council/certified-network-defender</url>
+    <desc>Official EC-Council Certified Network Defender training.</desc>
+  </link>
+  <link>
+    <title>Computer Hacking Forensic Investigator</title>
+    <url>https://www.robustittraining.com/vendor/ec-council/computer-hacking-forensic-investigator</url>
+    <desc>Official EC-Council Computer Hacking Forensic Investigator training.</desc>
+  </link>
+  <link>
+    <title>Certified Cloud Security Engineer</title>
+    <url>https://www.robustittraining.com/vendor/ec-council/certified-cloud-security-engineer</url>
+    <desc>Official EC-Council Certified Cloud Security Engineer training.</desc>
   </link>
 </pages>

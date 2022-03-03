@@ -11,7 +11,7 @@ $meta['og:description'] = "";
 $meta['og:image'] = "";
 $meta['og:url'] = "";
 
-$leadIsFrom = "Lead is from /search-by-vendor";
+$leadIsFrom = "Lead is from /microsoft/developer";
 
 include '../../../assets/php/inc/header.php';
 include '../../../assets/php/inc/nav.php';

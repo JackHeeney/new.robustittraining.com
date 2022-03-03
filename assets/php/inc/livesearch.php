@@ -26,21 +26,24 @@ if (strlen($q) > 0) {
 					$hint = "<a href='" .
 
 						$z->item(0)->childNodes->item(0)->nodeValue .
-						"' class='underline-hover'><div class='live-area'>" .
+						"'class='underline-hover'><div class='live-area'>" .
 
 						$y->item(0)->childNodes->item(0)->nodeValue .
-						" <br><span class='text-muted'>" .
+						"<br/> <span class='text-muted' style='font-size: 1rem'>" .
 
-						$d->item(0)->childNodes->item(0)->nodeValue .  " </span></div></a> ";
+						$d->item(0)->childNodes->item(0)->nodeValue .
+						"</span></div></a> ";
 				} else {
 					$hint = $hint . "<a href='" .
 
 						$z->item(0)->childNodes->item(0)->nodeValue .
-						"' class='underline-hover'><div class='live-area text-white'>" .
+						"'class='underline-hover'><div class='live-area'>" .
 
-						$y->item(0)->childNodes->item(0)->nodeValue . " <br> <span class='text-muted'>" .
+						$y->item(0)->childNodes->item(0)->nodeValue .
+						"<br/> <span class='text-muted' style='font-size: 1rem'>" .
 
-						$d->item(0)->childNodes->item(0)->nodeValue .  " </span></div></a> ";
+						$d->item(0)->childNodes->item(0)->nodeValue .
+						"</span></div></a>";
 				}
 			}
 		}

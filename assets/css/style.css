@@ -37584,9 +37584,20 @@ h6:hover .fcr-animate {
   transform: translate3d(0, 0, 0);
 }
 
+@media only screen and (max-width: 768px) {
+  .main-search-active.inside input[placeholder] {
+    font-size: 2em; 
+  }
+  }
+
 /*****************************
  *         livesearch        *
  *****************************/
+#livesearch {
+  overflow-y: scroll !important;
+  max-height: 70vh; 
+}
+
 #livesearch a {
   color: #fff;
   font-size: 1.5rem;

@@ -1,20 +1,20 @@
 <?php
 
 // Change page title and meta tags here
-$title = "Robust IT Training | Search by Vendor";
+$title = "Robust IT Training | Microsoft | Administration Certifications";
 $meta['keywords'] = "";
 $meta['description'] = "";
 
 // Social media meta tags
-$meta['og:title'] = "Robust IT Training | Search by Vendor";
+$meta['og:title'] = "Robust IT Training | Microsoft | Administration Certifications";
 $meta['og:description'] = "";
 $meta['og:image'] = "";
 $meta['og:url'] = "";
 
-$leadIsFrom = "Lead is from /search-by-vendor";
+$leadIsFrom = "Lead is from /microsoft/administrator";
 
-include '../assets/php/inc/header.php';
-include '../assets/php/inc/nav.php';
+include '../../../assets/php/inc/header.php';
+include '../../../assets/php/inc/nav.php';
 
 ?>
 
@@ -26,14 +26,16 @@ include '../assets/php/inc/nav.php';
         data-bg-image="<? echo SITE_ADDR ?>/assets/images/bg/breadcrumb-bg-two.jpg">
         <div class="page-title">
             <div class="container">
-                <h1 class="title">Courses by vendor</h1>
+                <h1 class="title">Administration certifications</h1>
             </div>
         </div>
         <div class="page-breadcrumb position-static">
             <div class="container">
                 <ul class="breadcrumb justify-content-center">
                     <li><a href="<? echo SITE_ADDR ?>/">Home</a></li>
-                    <li class="current">Vendor</li>
+                    <li><a href="<? echo SITE_ADDR ?>/vendor">Vendor</a></li>
+                    <li><a href="<? echo SITE_ADDR ?>/vendor/microsoft">Microsoft</a></li>
+                    <li class="current">Administration</li>
                 </ul>
             </div>
         </div>
@@ -46,7 +48,8 @@ include '../assets/php/inc/nav.php';
 
             <!-- Section Title Start -->
             <div class="section-title text-center " data-aos="fade-up">
-                <h2 class="title fz-32"> View paths by vendor :</h2>
+                <h2 class="title fz-32"> Administration Certifications :</h2>
+                <p>Explore administrator certifications most sought after by employers</p>
             </div>
             <!-- Section Title End -->
 
@@ -57,15 +60,19 @@ include '../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/ec-council"><img
+                            <a class="image"
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-certified-azure-administration-associate"><img
                                     src="<? echo SITE_ADDR ?>/assets/images/project/project-1.jpg" alt="work"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/ec-council">EC-Council</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/ec-council">View Courses <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
+                            <h3 class="title"><a
+                                    href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-certified-azure-administration-associate">Microsoft
+                                    Certified: Azure Administrator Associate</a></h3>
+                            <p class="desc">Azure administrators implement, manage, and monitor an organization’s
+                                Microsoft Azure environment.</p>
+                            <a
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-certified-azure-administration-associate">View
+                                Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -75,16 +82,20 @@ include '../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor"><img
+                            <a class="image"
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-certified-azure-for-sap-workloads-specialty"><img
                                     src="<? echo SITE_ADDR ?>/assets/images/project/project-2.jpg" alt="work"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/ec-council">Amazon Web Services</a>
+                            <h3 class="title"><a
+                                    href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-certified-azure-for-sap-workloads-specialty">Microsoft
+                                    Certified: Azure for SAP Workloads Specialty</a>
                             </h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nisi, quo
-                                optio sint doloribus repellat.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor">View Courses <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
+                            <p class="desc">Architects or engineers for Azure for SAP Workloads partner with cloud
+                                administrators, cloud database administrators, and clients to implement solutions.</p>
+                            <a
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-certified-azure-for-sap-workloads-specialty">View
+                                Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -94,15 +105,20 @@ include '../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor"><img
+                            <a class="image"
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-certified-azure-virtual-desktop-specialty"><img
                                     src="<? echo SITE_ADDR ?>/assets/images/project/project-3.jpg" alt="work"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor">Microsoft</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor">View Courses <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
+                            <h3 class="title"><a
+                                    href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-certified-azure-virtual-desktop-specialty">Microsoft
+                                    Certified: Azure Virtual Desktop Specialty</a></h3>
+                            <p class="desc">Candidates for the Azure Virtual Desktop Specialty certification are
+                                Microsoft Azure administrators with subject matter expertise in planning, delivering,
+                                and managing virtual desktop experiences and remote apps, for any device, on Azure.</p>
+                            <a
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-certified-azure-virtual-desktop-specialty">View
+                                Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -112,15 +128,20 @@ include '../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor"><img
+                            <a class="image"
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-certified-azure-stack-hub-operator-associate"><img
                                     src="<? echo SITE_ADDR ?>/assets/images/project/project-4.jpg" alt="work"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor">CompTIA</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor">View Courses <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
+                            <h3 class="title"><a
+                                    href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-certified-azure-stack-hub-operator-associate">Microsoft
+                                    Certified: Azure Stack Hub Operator Associate</a></h3>
+                            <p class="desc">Candidates for the Azure Stack Hub Operator Associate certification are
+                                Azure administrators or Azure Stack Hub operators who provide cloud services to end
+                                users or customers from within their own datacenter using Azure Stack Hub.</p>
+                            <a
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-certified-azure-stack-hub-operator-associate">View
+                                Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -130,15 +151,20 @@ include '../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor"><img
+                            <a class="image"
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-365-certified-messaging-administrator-associate"><img
                                     src="<? echo SITE_ADDR ?>/assets/images/project/project-5.jpg" alt="work"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor">CISCO</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor">View Courses <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
+                            <h3 class="title"><a
+                                    href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-365-certified-messaging-administrator-associate">Microsoft
+                                    365 Certified: Messaging Administrator Associate</a></h3>
+                            <p class="desc">Microsoft 365 messaging administrators deploy, configure, manage,
+                                troubleshoot, and monitor recipients, compliance, threat protection, and mail flow in
+                                hybrid and cloud enterprise environments.</p>
+                            <a
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-365-certified-messaging-administrator-associate">View
+                                Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -148,53 +174,183 @@ include '../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor"><img
+                            <a class="image"
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-365-certified-modern-desktop-administrator-associate"><img
                                     src="<? echo SITE_ADDR ?>/assets/images/project/project-6.jpg" alt="work"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor">Axelos</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor">View Courses <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
+                            <h3 class="title"><a
+                                    href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-365-certified-modern-desktop-administrator-associate">Microsoft
+                                    365 Certified: Modern Desktop Administrator Associate</a></h3>
+                            <p class="desc">Modern desktop administrators deploy, configure, secure, manage, and monitor
+                                devices and client applications in an enterprise environment.</p>
+                            <a
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-365-certified-modern-desktop-administrator-associate">View
+                                Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
                 <!-- Single Work End -->
 
-
                 <!-- Single Work Start -->
                 <div class="col mb-6">
                     <div class="work">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor"><img
+                            <a class="image"
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-365-certified-security-administrator-associate"><img
                                     src="<? echo SITE_ADDR ?>/assets/images/project/project-6.jpg" alt="work"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor">ISACA</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor">View Courses <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
+                            <h3 class="title"><a
+                                    href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-365-certified-security-administrator-associate">Microsoft
+                                    365 Certified: Security Administrator Associate</a></h3>
+                            <p class="desc">Microsoft 365 security administrators proactively secure Microsoft 365
+                                enterprise and hybrid environments, implement and manage security and compliance
+                                solutions, respond to threats, and enforce data governance.</p>
+                            <a
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-365-certified-security-administrator-associate">View
+                                Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
                 <!-- Single Work End -->
 
+                <!-- Single Work Start -->
+                <div class="col mb-6">
+                    <div class="work">
+                        <div class="thumbnail">
+                            <a class="image"
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-365-certified-enterprise-administrator-expert"><img
+                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-6.jpg" alt="work"></a>
+                        </div>
+                        <div class="info">
+                            <h3 class="title"><a
+                                    href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-365-certified-enterprise-administrator-expert">Microsoft
+                                    365 Certified: Enterprise Administrator Expert</a></h3>
+                            <p class="desc">Microsoft 365 enterprise administrators evaluate, plan, migrate, deploy, and
+                                manage Microsoft 365 services.</p>
+                            <a
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-365-certified-enterprise-administrator-expert">View
+                                Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Work End -->
 
                 <!-- Single Work Start -->
                 <div class="col mb-6">
                     <div class="work">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor"><img
+                            <a class="image"
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-365-certified-teams-administrator-associate"><img
                                     src="<? echo SITE_ADDR ?>/assets/images/project/project-6.jpg" alt="work"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor">(ISC)&#178;</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor">View Courses <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
+                            <h3 class="title"><a
+                                    href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-365-certified-teams-administrator-associate">Microsoft
+                                    365 Certified: Teams Administrator Associate</a></h3>
+                            <p class="desc">Microsoft Teams administrators manage Microsoft Teams to facilitate
+                                efficient and effective collaboration and communication in a Microsoft 365 environment.
+                            </p>
+                            <a
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-365-certified-teams-administrator-associate">View
+                                Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Work End -->
+
+                <!-- Single Work Start -->
+                <div class="col mb-6">
+                    <div class="work">
+                        <div class="thumbnail">
+                            <a class="image"
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-certified-identity-and-access-administrator-associate"><img
+                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-6.jpg" alt="work"></a>
+                        </div>
+                        <div class="info">
+                            <h3 class="title"><a
+                                    href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-certified-identity-and-access-administrator-associate">Microsoft
+                                    Certified: Identity and Access Administrator Associate</a></h3>
+                            <p class="desc">The Microsoft identity and access administrator designs, implements, and
+                                operates an organization’s identity and access management systems by using Azure AD.
+                                They manage tasks such as providing secure authentication and authorization access to
+                                enterprise applications.
+                            </p>
+                            <a
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-certified-identity-and-access-administrator-associate">View
+                                Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Work End -->
+
+                <!-- Single Work Start -->
+                <div class="col mb-6">
+                    <div class="work">
+                        <div class="thumbnail">
+                            <a class="image"
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-certified-information-protection-administrator-associate"><img
+                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-6.jpg" alt="work"></a>
+                        </div>
+                        <div class="info">
+                            <h3 class="title"><a
+                                    href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-certified-information-protection-administrator-associate">Microsoft
+                                    Certified: Information Protection Administrator Associate</a></h3>
+                            <p class="desc">The Microsoft information protection administrator plans and implements
+                                controls that meet organizational compliance needs. This person is responsible for
+                                translating requirements and compliance controls into technical implementation. They
+                                assist organizational control owners to become and stay compliant.
+                            </p>
+                            <a
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-certified-information-protection-administrator-associate">View
+                                Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Work End -->
+
+                <!-- Single Work Start -->
+                <div class="col mb-6">
+                    <div class="work">
+                        <div class="thumbnail">
+                            <a class="image"
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-365-certified-teams-voice-engineer-expert"><img
+                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-6.jpg" alt="work"></a>
+                        </div>
+                        <div class="info">
+                            <h3 class="title"><a
+                                    href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-365-certified-teams-voice-engineer-expert">Microsoft
+                                    365 Certified: Teams Voice Engineer Expert</a></h3>
+                            <p class="desc">Microsoft Teams voice engineers plan, design, configure, maintain, and
+                                troubleshoot an integrated communications solution at an organization.
+                            </p>
+                            <a
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-365-certified-teams-voice-engineer-expert">View
+                                Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Work End -->
+
+                <!-- Single Work Start -->
+                <div class="col mb-6">
+                    <div class="work">
+                        <div class="thumbnail">
+                            <a class="image"
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-certified-windows-server-hybrid-administrator-associate"><img
+                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-6.jpg" alt="work"></a>
+                        </div>
+                        <div class="info">
+                            <h3 class="title"><a
+                                    href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-certified-windows-server-hybrid-administrator-associate">Microsoft
+                                    Certified: Windows Server Hybrid Administrator Associate</a></h3>
+                            <p class="desc">Windows Server hybrid administrators integrate Windows Server environments
+                                with Azure services and manage Windows Server in on-premises networks.
+                            </p>
+                            <a
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-certified-windows-server-hybrid-administrator-associate">View
+                                Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -322,6 +478,6 @@ include '../assets/php/inc/nav.php';
 
 <?php
 
-include '../assets/php/inc/footer.php';
+include '../../../assets/php/inc/footer.php';
 
 ?>

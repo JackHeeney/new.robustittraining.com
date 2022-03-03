@@ -281,10 +281,9 @@
                 </button>
             </div>
         </form>
-        <p class="form-description">Hit enter to search or ESC to close</p>
-
-
-
+        <p class="form-description">
+            Search Website e.g. 'Ethical Hacker'...
+        </p>
         <div id="livesearch"></div>
     </div>
 

@@ -322,7 +322,7 @@ include './assets/php/inc/nav.php';
                 <!-- Icon Box Start -->
                 <div class="col mb-6">
 
-                    <div class="icon-box text-center" data-vivus-hover data-aos="fade-up" data-aos-delay="300"
+                    <div class="icon-box text-center" data-vivus-hover data-aos="fade-up" data-aos-delay="200"
                         data-aos-duration="800">
                         <div class="icon"><img class="svgInject"
                                 src="assets/images/svg/svgrepo/office-block-svgrepo-com.svg" alt=""></div>
@@ -341,7 +341,7 @@ include './assets/php/inc/nav.php';
                 <!-- Icon Box Start -->
                 <div class="col mb-6">
 
-                    <div class="icon-box text-center" data-vivus-hover data-aos="fade-up" data-aos-delay="600"
+                    <div class="icon-box text-center" data-vivus-hover data-aos="fade-up" data-aos-delay="400"
                         data-aos-duration="800">
                         <div class="icon"><img class="svgInject"
                                 src="assets/images/svg/svgrepo/dog-tag-military-svgrepo-com.svg" alt="">
@@ -361,7 +361,7 @@ include './assets/php/inc/nav.php';
                 <!-- Icon Box Start -->
                 <div class="col mb-6">
 
-                    <div class="icon-box text-center" data-vivus-hover data-aos="fade-up" data-aos-delay="800"
+                    <div class="icon-box text-center" data-vivus-hover data-aos="fade-up" data-aos-delay="600"
                         data-aos-duration="800">
                         <div class="icon"><img class="svgInject"
                                 src="assets/images/svg/svgrepo/job-search-svgrepo-com.svg" alt=""></div>
@@ -389,7 +389,7 @@ include './assets/php/inc/nav.php';
             <div class="row">
 
                 <!-- Success Image Start -->
-                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="col-lg-6" data-aos="fade-up">
                     <div class="about-image-area right-0 skill-image-area">
                         <div class="about-image js-tilt">
                             <img src="assets/images/skill/skill-1.jpg" alt="">
@@ -408,7 +408,7 @@ include './assets/php/inc/nav.php';
                 <!-- Success Image End -->
 
                 <!-- Success Content Start -->
-                <div class="offset-lg-1 col-lg-5" data-aos="fade-up" data-aos-delay="600">
+                <div class="offset-lg-1 col-lg-5" data-aos="fade-up" data-aos-delay="200">
 
                     <div class="success-content section-padding-t100 mt-lg-0 mt-md-50 mt-sm-50 mt-40">
                         <!-- Section Title Two Start -->
@@ -524,7 +524,7 @@ include './assets/php/inc/nav.php';
             <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 g-0 mesonry-list">
                 <div class="resizer col"></div>
                 <!-- Single Portfolio Start -->
-                <div class="col cat-1" data-aos="fade-up" data-aos-delay="200">
+                <div class="col cat-1" data-aos="fade-up">
                     <div class="single-portfolio">
                         <a href="#">
                             <div class="thumbnail">
@@ -539,7 +539,7 @@ include './assets/php/inc/nav.php';
                 </div>
                 <!-- Single Portfolio End -->
                 <!-- Single Portfolio Start -->
-                <div class="col cat-2" data-aos="fade-up" data-aos-delay="400">
+                <div class="col cat-2" data-aos="fade-up">
                     <div class="single-portfolio">
                         <a href="#">
                             <div class="thumbnail">
@@ -554,7 +554,7 @@ include './assets/php/inc/nav.php';
                 </div>
                 <!-- Single Portfolio End -->
                 <!-- Single Portfolio Start -->
-                <div class="col cat-3" data-aos="fade-up" data-aos-delay="600" data-aos-offset="-200">
+                <div class="col cat-3" data-aos="fade-up" data-aos-offset="-240">
                     <div class="single-portfolio">
                         <a href="#">
                             <div class="thumbnail">
@@ -569,7 +569,7 @@ include './assets/php/inc/nav.php';
                 </div>
                 <!-- Single Portfolio End -->
                 <!-- Single Portfolio Start -->
-                <div class="col cat-3" data-aos="fade-up" data-aos-delay="800" data-aos-offset="-200">
+                <div class="col cat-3" data-aos="fade-up" data-aos-offset="-200">
                     <div class="single-portfolio">
                         <a href="#">
                             <div class="thumbnail">
@@ -584,7 +584,7 @@ include './assets/php/inc/nav.php';
                 </div>
                 <!-- Single Portfolio End -->
                 <!-- Single Portfolio Start -->
-                <div class="col cat-4" data-aos="fade-up" data-aos-delay="1000" data-aos-offset="-200">
+                <div class="col cat-4" data-aos="fade-up" data-aos-offset="-200">
                     <div class="single-portfolio">
                         <a href="<?php echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker">
                             <div class="thumbnail">
@@ -600,7 +600,7 @@ include './assets/php/inc/nav.php';
                 </div>
                 <!-- Single Portfolio End -->
                 <!-- Single Portfolio Start -->
-                <div class="col cat-4" data-aos="fade-up" data-aos-delay="1200" data-aos-offset="-500">
+                <div class="col cat-4" data-aos="fade-up" data-aos-offset="-530">
                     <div class="single-portfolio">
                         <a href="#">
                             <div class="thumbnail">
@@ -710,7 +710,7 @@ include './assets/php/inc/nav.php';
                 </div>
                 <!-- Faq Content End -->
 
-                <div class="col mb-6 pl-xl-12" data-aos="fade-up" data-aos-delay="300" data-aos-offset="-100"
+                <div class="col mb-6 pl-xl-12" data-aos="fade-up" data-aos-delay="200" data-aos-offset="-100"
                     data-aos-duration="800">
 
                     <!-- Faq Image Start -->
@@ -934,7 +934,7 @@ include './assets/php/inc/nav.php';
                         <!-- Animation Shape Start -->
                         <div class="shape shape-1 scene">
                             <span data-depth="1">
-                                <img src="assets/images/shape-animation/contact-shape.png" alt="">
+                                <img src="<? echo SITE_ADDR ?>/assets/images/shape-animation/contact-shape.png" alt="">
                             </span>
                         </div>
                         <!-- Animation Shape End -->

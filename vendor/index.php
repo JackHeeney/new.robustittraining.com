@@ -75,15 +75,15 @@ include '../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor"><img
+                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/aws"><img
                                     src="<? echo SITE_ADDR ?>/assets/images/project/project-2.jpg" alt="work"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/ec-council">Amazon Web Services</a>
+                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/aws">Amazon Web Services</a>
                             </h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nisi, quo
                                 optio sint doloribus repellat.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor">View Courses <i
+                            <a href="<? echo SITE_ADDR ?>/vendor/aws">View Courses <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -94,14 +94,14 @@ include '../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor"><img
+                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/microsoft"><img
                                     src="<? echo SITE_ADDR ?>/assets/images/project/project-3.jpg" alt="work"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor">Microsoft</a></h3>
+                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/microsoft">Microsoft</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor">View Courses <i
+                            <a href="<? echo SITE_ADDR ?>/vendor/microsoft">View Courses <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
