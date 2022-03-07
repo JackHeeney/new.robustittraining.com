@@ -1,20 +1,20 @@
 <?php
 
 // Change page title and meta tags here
-$title = "Robust IT Training | Search by Vendor";
+$title = "Robust IT Training | Official Axelos Online & Classroom Training";
 $meta['keywords'] = "";
 $meta['description'] = "";
 
 // Social media meta tags
-$meta['og:title'] = "Robust IT Training | Search by Vendor";
+$meta['og:title'] = "Robust IT Training | Official Axelos Online & Classroom Training";
 $meta['og:description'] = "";
 $meta['og:image'] = "";
 $meta['og:url'] = "";
 
-$leadIsFrom = "Lead is from /search-by-vendor";
+$leadIsFrom = "Lead is from /vendor/axelos";
 
-include '../assets/php/inc/header.php';
-include '../assets/php/inc/nav.php';
+include '../../assets/php/inc/header.php';
+include '../../assets/php/inc/nav.php';
 
 ?>
 
@@ -26,14 +26,15 @@ include '../assets/php/inc/nav.php';
         data-bg-image="<? echo SITE_ADDR ?>/assets/images/bg/breadcrumb-bg-two.jpg">
         <div class="page-title">
             <div class="container">
-                <h1 class="title">Courses by vendor</h1>
+                <h1 class="title">Axelos Courses</h1>
             </div>
         </div>
         <div class="page-breadcrumb position-static">
             <div class="container">
                 <ul class="breadcrumb justify-content-center">
                     <li><a href="<? echo SITE_ADDR ?>/">Home</a></li>
-                    <li class="current">Vendor</li>
+                    <li><a href="<? echo SITE_ADDR ?>/vendor">Vendor</a></li>
+                    <li class="current">Axelos</li>
                 </ul>
             </div>
         </div>
@@ -46,7 +47,7 @@ include '../assets/php/inc/nav.php';
 
             <!-- Section Title Start -->
             <div class="section-title text-center " data-aos="fade-up">
-                <h2 class="title fz-32"> View paths by vendor :</h2>
+                <h2 class="title fz-32"> View our Axelos Courses :</h2>
             </div>
             <!-- Section Title End -->
 
@@ -57,15 +58,15 @@ include '../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/ec-council"><img
+                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/axelos/itil"><img
                                     src="<? echo SITE_ADDR ?>/assets/images/project/project-1.jpg" alt="work"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/ec-council">EC-Council</a></h3>
+                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/axelos/itil">ITIL &#174;</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/ec-council">View Courses <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
+                            <a href="<? echo SITE_ADDR ?>/vendor/axelos/itil">View Project
+                                <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -75,15 +76,15 @@ include '../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/aws"><img
+                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/axelos/prince2"><img
                                     src="<? echo SITE_ADDR ?>/assets/images/project/project-2.jpg" alt="work"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/aws">Amazon Web Services</a>
+                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/axelos/prince2">PRINCE2 &#174;</a>
                             </h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nisi, quo
                                 optio sint doloribus repellat.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/aws">View Courses <i
+                            <a href="<? echo SITE_ADDR ?>/vendor/axelos/prince2">View Project <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -94,112 +95,21 @@ include '../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/microsoft"><img
-                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-3.jpg" alt="work"></a>
+                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/axelos/prince2-agile"><img
+                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-2.jpg" alt="work"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/microsoft">Microsoft</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/microsoft">View Courses <i
+                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/axelos/prince2-agile">PRINCE2
+                                    Agile &#174;</a>
+                            </h3>
+                            <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nisi, quo
+                                optio sint doloribus repellat.</p>
+                            <a href="<? echo SITE_ADDR ?>/vendor/axelos/prince2-agile">View Project <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
                 <!-- Single Work End -->
-
-                <!-- Single Work Start -->
-                <div class="col mb-6">
-                    <div class="work">
-                        <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/comptia"><img
-                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-4.jpg" alt="work"></a>
-                        </div>
-                        <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/comptia">CompTIA</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/comptia">View Courses <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Work End -->
-
-                <!-- Single Work Start -->
-                <div class="col mb-6">
-                    <div class="work">
-                        <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/cisco"><img
-                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-5.jpg" alt="work"></a>
-                        </div>
-                        <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/cisco">CISCO</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/cisco">View Courses <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Work End -->
-
-                <!-- Single Work Start -->
-                <div class="col mb-6">
-                    <div class="work">
-                        <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/axelos"><img
-                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-6.jpg" alt="work"></a>
-                        </div>
-                        <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/axelos">Axelos</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/axelos">View Courses <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Work End -->
-
-
-                <!-- Single Work Start -->
-                <div class="col mb-6">
-                    <div class="work">
-                        <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/isaca"><img
-                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-6.jpg" alt="work"></a>
-                        </div>
-                        <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/isaca">ISACA</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/isaca">View Courses <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Work End -->
-
-
-                <!-- Single Work Start -->
-                <div class="col mb-6">
-                    <div class="work">
-                        <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/isc2"><img
-                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-6.jpg" alt="work"></a>
-                        </div>
-                        <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/isc2">(ISC)&#178;</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/isc2">View Courses <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Work End -->
-
 
             </div>
             <!-- About Wrapper End -->
@@ -322,6 +232,6 @@ include '../assets/php/inc/nav.php';
 
 <?php
 
-include '../assets/php/inc/footer.php';
+include '../../assets/php/inc/footer.php';
 
 ?>
