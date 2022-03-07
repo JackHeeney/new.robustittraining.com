@@ -21,7 +21,7 @@ include '../../../assets/php/inc/nav.php';
     <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7"
         data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/bg-certified-ethical-hacker.jpg">
         <div class="page-title">
-            <div class="container">
+            <div class="container"> `
                 <h1 class="title">Microsoft Certified: Power Platform Solutions Architect Expert</h1>
                 <!-- <h2 class="title-h2">Learn more about this certification and AWS resources that can help you prepare
                 </h2> -->

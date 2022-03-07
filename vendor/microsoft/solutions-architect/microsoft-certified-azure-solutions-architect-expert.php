@@ -1,11 +1,11 @@
 <?php
 // Change page title and meta tags here
-$title = "Robust IT Training | Microsoft | Developer | Microsoft 365 Certified: Developer Associate";
+$title = "Robust IT Training | Microsoft | Solutions Architect | Microsoft Certified: Azure Solutions Architect Expert";
 $meta['keywords'] = "";
 $meta['description'] = "";
 
 // Social media meta tags
-$title = "Robust IT Training | Microsoft | Developer | Microsoft 365 Certified: Developer Associate";
+$title = "Robust IT Training | Microsoft | Solutions Architect | Microsoft Certified: Azure Solutions Architect Expert";
 $meta['og:description'] = "";
 $meta['og:image'] = "";
 $meta['og:url'] = "";
@@ -22,7 +22,7 @@ include '../../../assets/php/inc/nav.php';
         data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/bg-certified-ethical-hacker.jpg">
         <div class="page-title">
             <div class="container">
-                <h1 class="title">Microsoft 365 Certified: Developer Associate</h1>
+                <h1 class="title">Microsoft Certified: Azure Solutions Architect Expert</h1>
                 <!-- <h2 class="title-h2">Learn more about this certification and AWS resources that can help you prepare
                 </h2> -->
             </div>
@@ -32,8 +32,8 @@ include '../../../assets/php/inc/nav.php';
                 <ul class="breadcrumb justify-content-center">
                     <li><a href="<? echo SITE_ADDR ?>/">Home</a></li>
                     <li><a href="<? echo SITE_ADDR ?>/vendor/microsoft">Microsoft</a></li>
-                    <li><a href="<? echo SITE_ADDR ?>/vendor/microsoft/developer">Developer</a></li>
-                    <li class="current">Developer Associate</li>
+                    <li><a href="<? echo SITE_ADDR ?>/vendor/microsoft/solutions-architect">Solutions Architect</a></li>
+                    <li class="current">Azure Solutions Architect</li>
                 </ul>
             </div>
         </div>

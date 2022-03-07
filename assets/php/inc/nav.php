@@ -112,22 +112,25 @@
                     </div>
                     <ul class="d-flex pl-0">
                         <li class="menu-list-style-none pr-2">
-                            <a href="#" alt="go to robust facebook">
+                            <a href="https://www.facebook.com/RobustIT/" alt="go to robust facebook" target="_blank">
                                 <i class="fab fa-facebook text-light"></i>
                             </a>
                         </li>
                         <li class="menu-list-style-none px-2">
-                            <a href="#" alt="go to robust linkedin">
+                            <a href="https://www.linkedin.com/school/robust-it/" alt="go to robust linkedin"
+                                target="_blank">
                                 <i class="fab fa-linkedin text-light"></i>
                             </a>
                         </li>
                         <li class="menu-list-style-none px-2">
-                            <a href="#" alt="go to robust instagram">
+                            <a href="https://www.instagram.com/robustit.co.uk" alt="go to robust instagram"
+                                target="_blank">
                                 <i class="fab fa-instagram text-light"></i>
                             </a>
                         </li>
                         <li class="menu-list-style-none px-2">
-                            <a href="#" alt="go to robust youtube">
+                            <a href="https://www.youtube.com/channel/UCw9vXr0OYT8udzW79KSsABQ"
+                                alt="go to robust youtube" target="_blank">
                                 <i class="fab fa-youtube text-light"></i>
                             </a>
                         </li>
@@ -631,7 +634,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/microsoft/developer">
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/microsoft/security-engineer">
                                     Security Engineer
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>

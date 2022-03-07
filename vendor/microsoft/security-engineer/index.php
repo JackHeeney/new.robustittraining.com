@@ -1,20 +1,20 @@
 <?php
 
 // Change page title and meta tags here
-$title = "Robust IT Training | Search by Vendor";
+$title = "Robust IT Training | Microsoft | Security Engineer Certifications";
 $meta['keywords'] = "";
 $meta['description'] = "";
 
 // Social media meta tags
-$meta['og:title'] = "Robust IT Training | Search by Vendor";
+$meta['og:title'] = "Robust IT Training | Microsoft | Security Engineer Certifications";
 $meta['og:description'] = "";
 $meta['og:image'] = "";
 $meta['og:url'] = "";
 
-$leadIsFrom = "Lead is from /search-by-vendor";
+$leadIsFrom = "Lead is from /microsoft/administrator";
 
-include '../assets/php/inc/header.php';
-include '../assets/php/inc/nav.php';
+include '../../../assets/php/inc/header.php';
+include '../../../assets/php/inc/nav.php';
 
 ?>
 
@@ -26,14 +26,16 @@ include '../assets/php/inc/nav.php';
         data-bg-image="<? echo SITE_ADDR ?>/assets/images/bg/breadcrumb-bg-two.jpg">
         <div class="page-title">
             <div class="container">
-                <h1 class="title">Courses by vendor</h1>
+                <h1 class="title">Security Engineer certifications</h1>
             </div>
         </div>
         <div class="page-breadcrumb position-static">
             <div class="container">
                 <ul class="breadcrumb justify-content-center">
                     <li><a href="<? echo SITE_ADDR ?>/">Home</a></li>
-                    <li class="current">Vendor</li>
+                    <li><a href="<? echo SITE_ADDR ?>/vendor">Vendor</a></li>
+                    <li><a href="<? echo SITE_ADDR ?>/vendor/microsoft">Microsoft</a></li>
+                    <li class="current">Security Engineer</li>
                 </ul>
             </div>
         </div>
@@ -46,7 +48,8 @@ include '../assets/php/inc/nav.php';
 
             <!-- Section Title Start -->
             <div class="section-title text-center " data-aos="fade-up">
-                <h2 class="title fz-32"> View paths by vendor :</h2>
+                <h2 class="title fz-32">Security Engineer Certifications :</h2>
+                <p>Explore security engineer certifications most sought after by employers</p>
             </div>
             <!-- Section Title End -->
 
@@ -57,15 +60,20 @@ include '../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/ec-council"><img
+                            <a class="image"
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/security-engineer/microsoft-certified-azure-security-engineer-associate"><img
                                     src="<? echo SITE_ADDR ?>/assets/images/project/project-1.jpg" alt="work"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/ec-council">EC-Council</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/ec-council">View Courses <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
+                            <h3 class="title"><a
+                                    href="<? echo SITE_ADDR ?>/vendor/microsoft/security-engineer/microsoft-certified-azure-security-engineer-associate">Microsoft
+                                    Certified: Azure Security Engineer Associate</a></h3>
+                            <p class="desc">Azure security engineers implement Azure security controls that protect
+                                identity, access, data, applications, and networks in cloud and hybrid environments as
+                                part of an end-to-end infrastructure.</p>
+                            <a
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/security-engineer/microsoft-certified-azure-security-engineer-associate">View
+                                Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -75,16 +83,22 @@ include '../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor"><img
+                            <a class="image"
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/security-engineer/microsoft-certified-security-operations-analyst-associate"><img
                                     src="<? echo SITE_ADDR ?>/assets/images/project/project-2.jpg" alt="work"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/ec-council">Amazon Web Services</a>
-                            </h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nisi, quo
-                                optio sint doloribus repellat.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor">View Courses <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
+                            <h3 class="title"><a
+                                    href="<? echo SITE_ADDR ?>/vendor/microsoft/security-engineer/microsoft-certified-security-operations-analyst-associate">Microsoft
+                                    Certified: Security Operations Analyst Associate</a></h3>
+                            <p class="desc">The Microsoft security operations analyst collaborates with organizational
+                                stakeholders to secure information technology systems for the organization. Their goal
+                                is to reduce organizational risk by rapidly remediating active attacks in the
+                                environment, advising on improvements to threat protection practices, and referring
+                                violations of organizational policies to appropriate stakeholders.</p>
+                            <a
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/security-engineer/microsoft-certified-security-operations-analyst-associate">View
+                                Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -94,15 +108,21 @@ include '../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor"><img
+                            <a class="image"
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/security-engineer/microsoft-certified-identity-and-access-administrator-associate"><img
                                     src="<? echo SITE_ADDR ?>/assets/images/project/project-3.jpg" alt="work"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor">Microsoft</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor">View Courses <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
+                            <h3 class="title"><a
+                                    href="<? echo SITE_ADDR ?>/vendor/microsoft/security-engineer/microsoft-certified-identity-and-access-administrator-associate">Microsoft
+                                    Certified: Identity and Access Administrator Associate</a></h3>
+                            <p class="desc">The Microsoft identity and access administrator designs, implements, and
+                                operates an organization’s identity and access management systems by using Azure AD.
+                                They manage tasks such as providing secure authentication and authorization access to
+                                enterprise applications.</p>
+                            <a
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/security-engineer/microsoft-certified-identity-and-access-administrator-associate">View
+                                Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -112,15 +132,21 @@ include '../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor"><img
+                            <a class="image"
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/security-engineer/microsoft-certified-information-protection-administrator-associate"><img
                                     src="<? echo SITE_ADDR ?>/assets/images/project/project-4.jpg" alt="work"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor">CompTIA</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor">View Courses <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
+                            <h3 class="title"><a
+                                    href="<? echo SITE_ADDR ?>/vendor/microsoft/security-engineer/microsoft-certified-information-protection-administrator-associate">Microsoft
+                                    Certified: Information Protection Administrator Associate</a></h3>
+                            <p class="desc">The Microsoft information protection administrator plans and implements
+                                controls that meet organizational compliance needs. This person is responsible for
+                                translating requirements and compliance controls into technical implementation. They
+                                assist organizational control owners to become and stay compliant.</p>
+                            <a
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/security-engineer/microsoft-certified-information-protection-administrator-associate">View
+                                Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -130,71 +156,19 @@ include '../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor"><img
+                            <a class="image"
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/security-engineer/microsoft-certified-windows-server-hybrid-administrator-associate"><img
                                     src="<? echo SITE_ADDR ?>/assets/images/project/project-5.jpg" alt="work"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor">CISCO</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor">View Courses <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Work End -->
-
-                <!-- Single Work Start -->
-                <div class="col mb-6">
-                    <div class="work">
-                        <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor"><img
-                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-6.jpg" alt="work"></a>
-                        </div>
-                        <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor">Axelos</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor">View Courses <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Work End -->
-
-
-                <!-- Single Work Start -->
-                <div class="col mb-6">
-                    <div class="work">
-                        <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor"><img
-                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-6.jpg" alt="work"></a>
-                        </div>
-                        <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor">ISACA</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor">View Courses <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Work End -->
-
-
-                <!-- Single Work Start -->
-                <div class="col mb-6">
-                    <div class="work">
-                        <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor"><img
-                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-6.jpg" alt="work"></a>
-                        </div>
-                        <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor">(ISC)&#178;</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor">View Courses <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
+                            <h3 class="title"><a
+                                    href="<? echo SITE_ADDR ?>/vendor/microsoft/security-engineer/microsoft-certified-windows-server-hybrid-administrator-associate">Microsoft
+                                    Certified: Windows Server Hybrid Administrator Associate</a></h3>
+                            <p class="desc">Windows Server hybrid administrators integrate Windows Server environments
+                                with Azure services and manage Windows Server in on-premises networks.</p>
+                            <a
+                                href="<? echo SITE_ADDR ?>/vendor/microsoft/security-engineer/microsoft-certified-windows-server-hybrid-administrator-associate">View
+                                Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -322,6 +296,6 @@ include '../assets/php/inc/nav.php';
 
 <?php
 
-include '../assets/php/inc/footer.php';
+include '../../../assets/php/inc/footer.php';
 
 ?>
