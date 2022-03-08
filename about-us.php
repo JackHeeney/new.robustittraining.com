@@ -500,7 +500,7 @@ include './assets/php/inc/nav.php';
         <div class="container">
             <div class="row my-lg-10 my-10">
                 <div class="col-lg-12">
-                    <? include '../../assets/php/component/brand.php';
+                    <? include './assets/php/component/brand.php';
                     ?>
                 </div>
             </div>

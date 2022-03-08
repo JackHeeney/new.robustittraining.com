@@ -1,16 +1,16 @@
 <?php
 // Change page title and meta tags here
-$title = "Robust IT Training | Microsoft | Data Scientist | Microsoft Certified: Azure Data Scientist Associate";
+$title = "Robust IT Training | Axelos | PRINCE2 Agile | PRINCE2 Agile Practitioner";
 $meta['keywords'] = "";
 $meta['description'] = "";
 
 // Social media meta tags
-$title = "Robust IT Training | Microsoft | Data Scientist | Microsoft Certified: Azure Data Scientist Associate";
+$title = "Robust IT Training | Axelos | PRINCE2 Agile | PRINCE2 Agile Practitioner";
 $meta['og:description'] = "";
 $meta['og:image'] = "";
 $meta['og:url'] = "";
 
-$leadIsFrom = "Lead is from /microsoft/administrator/microsoft-certified-windows-server-hybrid-administrator-associate";
+$leadIsFrom = "Lead is from /axelos/prince2-agile/prince2-agile-practitioner";
 
 include '../../../assets/php/inc/header.php';
 include '../../../assets/php/inc/nav.php';
@@ -22,7 +22,7 @@ include '../../../assets/php/inc/nav.php';
         data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/bg-certified-ethical-hacker.jpg">
         <div class="page-title">
             <div class="container">
-                <h1 class="title">Microsoft Certified: Azure Data Scientist Associate</h1>
+                <h1 class="title">PRINCE2&#174; Agile Practitioner</h1>
                 <!-- <h2 class="title-h2">Learn more about this certification and AWS resources that can help you prepare
                 </h2> -->
             </div>
@@ -31,9 +31,9 @@ include '../../../assets/php/inc/nav.php';
             <div class="container">
                 <ul class="breadcrumb justify-content-center">
                     <li><a href="<? echo SITE_ADDR ?>/">Home</a></li>
-                    <li><a href="<? echo SITE_ADDR ?>/vendor/microsoft">Microsoft</a></li>
-                    <li><a href="<? echo SITE_ADDR ?>/vendor/microsoft/data-scientist">Data Scientist</a></li>
-                    <li class="current">Azure Data Scientist Associate</li>
+                    <li><a href="<? echo SITE_ADDR ?>/vendor/axelos">Axelos</a></li>
+                    <li><a href="<? echo SITE_ADDR ?>/vendor/axelos/prince2-agile">PRINCE2&#174; Agile</a></li>
+                    <li class="current">PRINCE2&#174; Agile Practitioner</li>
                 </ul>
             </div>
         </div>

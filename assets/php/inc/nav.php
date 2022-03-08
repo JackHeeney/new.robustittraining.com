@@ -667,66 +667,68 @@
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <li>
-                                <a class="dropdown-item" href="#">IT Fundamentals+
+                                <a class="dropdown-item"
+                                    href="<? echo SITE_ADDR ?>/vendor/comptia/comptia-it-fundamentals">IT Fundamentals+
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/comptia/comptia-a">
                                     A+
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/comptia/comptia-network">
                                     Network+
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/comptia/comptia-security">
                                     Security+
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item"
+                                    href="<? echo SITE_ADDR ?>/vendor/comptia/comptia-it-fundamentals">
                                     Server+
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/comptia/comptia-linux">
                                     Linux+
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/comptia/comptia-pentest">
                                     PenTest+
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/comptia/comptia-cysa">
                                     CySA+
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/comptia/comptia-casp">
                                     CASP+
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/comptia/cloud">
                                     Cloud+
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/comptia">
                                     View all
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
@@ -746,35 +748,36 @@
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <li>
-                                <a class="dropdown-item" href="#">CCNA
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/cisco/ccna">CCNA
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">CCNA Wireless
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/cisco/ccna-wireless">CCNA
+                                    Wireless
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/cisco/ccna-security">
                                     CCNA Security
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/cisco/ccda">
                                     CCDA
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/cisco/ccnp">
                                     CCNP
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/cisco">
                                     View all
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
@@ -795,22 +798,27 @@
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <li>
-                                <a class="dropdown-item" href="#">ITIL® 4 Foundation
+                                <a class="dropdown-item"
+                                    href="<? echo SITE_ADDR ?>/vendor/axelos/itil/itil-4-foundation">ITIL® 4
+                                    Foundation
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">PRINCE2®
+                                <a class="dropdown-item"
+                                    href="<? echo SITE_ADDR ?>/vendor/axelos/prince2/prince2-4-foundation">PRINCE2®
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">PRINCE2® Agile
+                                <a class="dropdown-item"
+                                    href="<? echo SITE_ADDR ?>/vendor/axelos/prince2/prince2-4-practitioner">PRINCE2®
+                                    Agile
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">View all
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/axelos">View all
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>

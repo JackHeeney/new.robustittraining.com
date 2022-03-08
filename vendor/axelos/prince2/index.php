@@ -60,18 +60,19 @@ include '../../../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/axelos/itil/itil-4-foundation"><img
+                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/axelos/prince2/prince2-4-foundation"><img
                                     src="<? echo SITE_ADDR ?>/assets/images/project/project-1.jpg" alt="work"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a
-                                    href="<? echo SITE_ADDR ?>/vendor/axelos/itil/itil-4-foundation">PRINCE2&#174; 4
+                                    href="<? echo SITE_ADDR ?>/vendor/axelos/prince2/prince2-4-foundation">PRINCE2&#174;
+                                    4
                                     Foundation</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, quaerat
                                 quisquam? Laborum, pariatur delectus reiciendis quod quasi ullam labore perferendis
                                 quisquam asperiores impedit saepe sequi, esse culpa, laboriosam totam harum.
                             <p>
-                                <a href="<? echo SITE_ADDR ?>/vendor/axelos/itil/itil-4-foundation">View
+                                <a href="<? echo SITE_ADDR ?>/vendor/axelos/prince2/prince2-4-foundation">View
                                     Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -82,18 +83,20 @@ include '../../../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/axelos/itil/itil-4-foundation"><img
+                            <a class="image"
+                                href="<? echo SITE_ADDR ?>/vendor/axelos/prince2/prince2-4-practitioner"><img
                                     src="<? echo SITE_ADDR ?>/assets/images/project/project-2.jpg" alt="work"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a
-                                    href="<? echo SITE_ADDR ?>/vendor/axelos/itil/itil-4-foundation">PRINCE2&#174; 4
+                                    href="<? echo SITE_ADDR ?>/vendor/axelos/prince2/prince2-4-practitioner">PRINCE2&#174;
+                                    4
                                     Practitioner</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, quaerat
                                 quisquam? Laborum, pariatur delectus reiciendis quod quasi ullam labore perferendis
                                 quisquam asperiores impedit saepe sequi, esse culpa, laboriosam totam harum.
                             <p>
-                                <a href="<? echo SITE_ADDR ?>/vendor/axelos/itil/itil-4-foundation">View
+                                <a href="<? echo SITE_ADDR ?>/vendor/axelos/prince2/prince2-4-practitioner">View
                                     Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -205,7 +208,7 @@ include '../../../assets/php/inc/nav.php';
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <? include '../../assets/php/component/brand.php';
+                    <? include '../../../assets/php/component/brand.php';
                     ?>
                 </div>
             </div>

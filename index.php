@@ -250,14 +250,14 @@ include './assets/php/inc/nav.php';
             <!-- Icon Animation Start -->
             <div class="shape shape-1" data-aos="fade-zoom-in" data-aos-delay="1400">
                 <span>
-                    <a href="#" alt="">
+                    <a href="<? echo SITE_ADDR ?>/vendor/comptia" alt="">
                         <img src="assets/images/icon-animation/icon-1.png" alt="comptia icon">
                     </a>
                 </span>
             </div>
             <div class="shape shape-2" data-aos="fade-zoom-in" data-aos-delay="1200">
                 <span>
-                    <a href="#" alt="">
+                    <a href="<? echo SITE_ADDR ?>/vendor/microsoft" alt="">
                         <img src="assets/images/icon-animation/icon-8.png" alt="azure icon">
                     </a>
                 </span>
