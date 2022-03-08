@@ -58,6 +58,13 @@
                     </a>
                 </div>
 
+                <div class="swiper-slide brand">
+                    <a href="<? echo SITE_ADDR ?>/">
+                        <img src="<? echo SITE_ADDR ?>/assets/images/brand/client-logo-09.png" alt="AWS Logo"
+                            title="Amazon Web Service Partners">
+                    </a>
+                </div>
+
             </div>
 
 

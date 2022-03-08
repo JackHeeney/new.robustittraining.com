@@ -66,7 +66,7 @@ include '../../assets/php/inc/nav.php';
                             </h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/microsoft/developer">View Project
+                            <a href="<? echo SITE_ADDR ?>/vendor/microsoft/developer">View Course
                                 <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -85,7 +85,7 @@ include '../../assets/php/inc/nav.php';
                                     href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator">Administrator</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nisi, quo
                                 optio sint doloribus repellat.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator">View Project <i
+                            <a href="<? echo SITE_ADDR ?>/vendor/microsoft/administrator">View Course <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -107,7 +107,7 @@ include '../../assets/php/inc/nav.php';
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
                             <a href="<? echo SITE_ADDR ?>/vendor/microsoft/solutions-architect">View
-                                Project <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -126,7 +126,7 @@ include '../../assets/php/inc/nav.php';
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
                             <a href="<? echo SITE_ADDR ?>/vendor/microsoft/data-engineer">View
-                                Project <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -145,7 +145,7 @@ include '../../assets/php/inc/nav.php';
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
                             <a href="<? echo SITE_ADDR ?>/vendor/microsoft/data-scientist">View
-                                Project <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -164,7 +164,7 @@ include '../../assets/php/inc/nav.php';
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
                             <a href="<? echo SITE_ADDR ?>/vendor/microsoft/ai-engineer">View
-                                Project <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -183,7 +183,7 @@ include '../../assets/php/inc/nav.php';
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
                             <a href="<? echo SITE_ADDR ?>/vendor/microsoft/devops-engineer">View
-                                Project <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -202,7 +202,7 @@ include '../../assets/php/inc/nav.php';
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
                             <a href="<? echo SITE_ADDR ?>/vendor/microsoft/security-engineer">View
-                                Project <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -222,7 +222,7 @@ include '../../assets/php/inc/nav.php';
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
                             <a href="<? echo SITE_ADDR ?>/vendor/microsoft/functional-consultant">View
-                                Project <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>

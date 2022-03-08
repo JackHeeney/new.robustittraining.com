@@ -238,9 +238,10 @@ include './assets/php/inc/nav.php';
             <!-- Section Title Start -->
             <div class="section-title text-center" data-aos="fade-up">
                 <h2 class="title fz-34">Choose a learning path.</h2>
-                <p class="sub-title">Choose from many learning paths to start your cloud journey. Courses from
-                    AWS,
-                    CompTIA, Microsoft, EC-Council, Google Cloud and more.</p>
+                <p class="sub-title">
+                    Choose from many learning paths to start your learning journey. Complete certifications with big
+                    name vendors such as AWS, CompTIA, Microsoft, EC-Council, CISCO and more.
+                </p>
             </div>
 
             <!-- Section Title End -->
@@ -248,52 +249,52 @@ include './assets/php/inc/nav.php';
                 path <i class="fas fa-chevron-right fcr-animate"></i></a>
 
             <!-- Icon Animation Start -->
-            <div class="shape shape-1" data-aos="fade-zoom-in" data-aos-delay="1400">
+            <div class="shape shape-1" data-aos="fade-zoom-in" data-aos-delay="800">
                 <span>
                     <a href="<? echo SITE_ADDR ?>/vendor/comptia" alt="">
                         <img src="assets/images/icon-animation/icon-1.png" alt="comptia icon">
                     </a>
                 </span>
             </div>
-            <div class="shape shape-2" data-aos="fade-zoom-in" data-aos-delay="1200">
+            <div class="shape shape-2" data-aos="fade-zoom-in" data-aos-delay="1400">
                 <span>
-                    <a href="<? echo SITE_ADDR ?>/vendor/microsoft" alt="">
+                    <a href="<? echo SITE_ADDR ?>/vendor/microsoft/azure" alt="">
                         <img src="assets/images/icon-animation/icon-8.png" alt="azure icon">
                     </a>
                 </span>
             </div>
-            <div class="shape shape-3" data-aos="fade-zoom-in" data-aos-delay="800">
+            <div class="shape shape-3" data-aos="fade-zoom-in" data-aos-delay="400">
                 <span>
-                    <a href="#" alt="">
+                    <a href="<? echo SITE_ADDR ?>/vendor/microsoft" alt="">
                         <img src="assets/images/icon-animation/icon-3.png" alt="microsoft icon">
                     </a>
                 </span>
             </div>
-            <div class="shape shape-4" data-aos="fade-zoom-in" data-aos-delay="1000">
+            <div class="shape shape-4" data-aos="fade-zoom-in" data-aos-delay="600">
                 <span>
-                    <a href="#" alt="">
+                    <a href="<? echo SITE_ADDR ?>/vendor/aws" alt="">
                         <img src="assets/images/icon-animation/icon-4.png" alt="aws icon">
                     </a>
                 </span>
             </div>
-            <div class="shape shape-5" data-aos="fade-zoom-in" data-aos-delay="600">
+            <!-- <div class="shape shape-5" data-aos="fade-zoom-in" data-aos-delay="600">
                 <span>
-                    <a href="#" alt="">
+                    <a href="<? echo SITE_ADDR ?>/vendor/google" alt="">
                         <img src="assets/images/icon-animation/icon-5.png" alt="google cloud icon">
                     </a>
                 </span>
-            </div>
-            <div class="shape shape-6" data-aos="fade-zoom-in" data-aos-delay="400">
+            </div> -->
+            <div class="shape shape-6" data-aos="fade-zoom-in" data-aos-delay="1000">
                 <span>
                     <a href="<? echo SITE_ADDR ?>/vendor/ec-council" alt="ec-council learning paths">
                         <img src="assets/images/icon-animation/icon-6.png" alt="ec-council icon">
                     </a>
                 </span>
             </div>
-            <div class="shape shape-7" data-aos="fade-zoom-in" data-aos-delay="1600">
+            <div class="shape shape-7" data-aos="fade-zoom-in" data-aos-delay="1200">
                 <span>
-                    <a href="#" alt="">
-                        <img src="assets/images/icon-animation/icon-7.png" alt="linux icon">
+                    <a href="<? echo SITE_ADDR ?>/vendor/cisco" alt="">
+                        <img src="assets/images/icon-animation/icon-7.png" alt="cisco icon">
                     </a>
                 </span>
             </div>

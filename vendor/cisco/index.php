@@ -65,7 +65,7 @@ include '../../assets/php/inc/nav.php';
                             <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/cisco/ccna">CCNA</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/cisco/ccna">View Project
+                            <a href="<? echo SITE_ADDR ?>/vendor/cisco/ccna">View Course
                                 <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -84,7 +84,7 @@ include '../../assets/php/inc/nav.php';
                                     Wireless</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nisi, quo
                                 optio sint doloribus repellat.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/cisco/ccna-wireless">View Project <i
+                            <a href="<? echo SITE_ADDR ?>/vendor/cisco/ccna-wireless">View Course <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -105,7 +105,7 @@ include '../../assets/php/inc/nav.php';
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
                             <a href="<? echo SITE_ADDR ?>/vendor/cisco/ccna-security">View
-                                Project <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -123,7 +123,7 @@ include '../../assets/php/inc/nav.php';
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
                             <a href="<? echo SITE_ADDR ?>/vendor/cisco/ccda">View
-                                Project <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -141,7 +141,7 @@ include '../../assets/php/inc/nav.php';
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
                             <a href="<? echo SITE_ADDR ?>/vendor/cisco/ccnp">View
-                                Project <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>

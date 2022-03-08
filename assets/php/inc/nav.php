@@ -837,17 +837,18 @@
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <li>
-                                <a class="dropdown-item" href="#">CISA
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/isaca/cisa">CISA
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">CISM
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/isaca/cism">CISM
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item d-block ml-auto" href="#">View all
+                                <a class="dropdown-item d-block ml-auto" href="<? echo SITE_ADDR ?>/vendor/isaca">View
+                                    all
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
@@ -866,17 +867,17 @@
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <li>
-                                <a class="dropdown-item" href="#">CISSP
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/isc2/cissp">CISSP
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">CCSP
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/isc2/ccsp">CCSP
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">View all
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/isc2">View all
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>

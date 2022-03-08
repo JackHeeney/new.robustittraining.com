@@ -1,17 +1,17 @@
 <?php
 
 // Change page title and meta tags here
-$title = "Robust IT Training | Official Amazon Web Service Online & Classroom Training";
+$title = "Robust IT Training | Official ISACA Online & Classroom Training";
 $meta['keywords'] = "";
 $meta['description'] = "";
 
 // Social media meta tags
-$meta['og:title'] = "Robust IT Training | Official Amazon Web Service Online & Classroom Training";
+$meta['og:title'] = "Robust IT Training | Official ISACA Online & Classroom Training";
 $meta['og:description'] = "";
 $meta['og:image'] = "";
 $meta['og:url'] = "";
 
-$leadIsFrom = "Lead is from /vendor/ec-council";
+$leadIsFrom = "Lead is from /vendor/isaca";
 
 include '../../assets/php/inc/header.php';
 include '../../assets/php/inc/nav.php';
@@ -26,7 +26,7 @@ include '../../assets/php/inc/nav.php';
         data-bg-image="<? echo SITE_ADDR ?>/assets/images/bg/breadcrumb-bg-two.jpg">
         <div class="page-title">
             <div class="container">
-                <h1 class="title">AWS Courses</h1>
+                <h1 class="title">ISACA Courses</h1>
             </div>
         </div>
         <div class="page-breadcrumb position-static">
@@ -34,7 +34,7 @@ include '../../assets/php/inc/nav.php';
                 <ul class="breadcrumb justify-content-center">
                     <li><a href="<? echo SITE_ADDR ?>/">Home</a></li>
                     <li><a href="<? echo SITE_ADDR ?>/vendor">Vendor</a></li>
-                    <li class="current">AWS</li>
+                    <li class="current">ISACA</li>
                 </ul>
             </div>
         </div>
@@ -47,7 +47,7 @@ include '../../assets/php/inc/nav.php';
 
             <!-- Section Title Start -->
             <div class="section-title text-center " data-aos="fade-up">
-                <h2 class="title fz-32"> View our AWS Courses :</h2>
+                <h2 class="title fz-32"> View our ISACA Courses :</h2>
             </div>
             <!-- Section Title End -->
 
@@ -58,15 +58,18 @@ include '../../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/aws/aws-cloud-practitioner"><img
+                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/isaca/cisa"><img
                                     src="<? echo SITE_ADDR ?>/assets/images/project/project-1.jpg" alt="work"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/aws/aws-cloud-practitioner">AWS Cloud
-                                    Practitioner</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/aws/aws-cloud-practitioner">View Course
+                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/isaca/cisa">CISA &#174;</a></h3>
+                            <p class="desc">The CISA certification is world-renowned as the standard of achievement for
+                                those who audit, control, monitor and assess an organization’s information technology
+                                and business systems. The recent quarterly IT Skills and Certifications Pay Index
+                                (ITSCPI) from Foote Partners ranked CISA among the most sought-after and highest-paying
+                                IT certifications. This certification is a must have for entry to mid-career IT
+                                professionals looking for leverage in career growth.</p>
+                            <a href="<? echo SITE_ADDR ?>/vendor/isaca/cisa">View Course
                                 <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -77,78 +80,22 @@ include '../../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work">
                         <div class="thumbnail">
-                            <a class="image"
-                                href="<? echo SITE_ADDR ?>/vendor/aws/aws-solutions-architect-associate"><img
+                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/isaca/cism"><img
                                     src="<? echo SITE_ADDR ?>/assets/images/project/project-2.jpg" alt="work"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a
-                                    href="<? echo SITE_ADDR ?>/vendor/aws/aws-solutions-architect-associate">AWS
-                                    Solution Architect Associate</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nisi, quo
-                                optio sint doloribus repellat.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/aws/aws-solutions-architect-associate">View Course
-                                <i class="fas fa-chevron-right fcr-animate"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Work End -->
-
-                <!-- Single Work Start -->
-                <div class="col mb-6">
-                    <div class="work">
-                        <div class="thumbnail">
-                            <a class="image"
-                                href="<? echo SITE_ADDR ?>/vendor/aws/aws-solutions-architect-professional"><img
-                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-3.jpg" alt="work"></a>
-                        </div>
-                        <div class="info">
-                            <h3 class="title"><a
-                                    href="<? echo SITE_ADDR ?>/vendor/aws/aws-solutions-architect-professional">AWS
-                                    Solution Architect Professional</a>
+                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/isaca/cism">CISM &#174;</a>
                             </h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/aws/aws-solutions-architect-professional">View
-                                Course <i class="fas fa-chevron-right fcr-animate"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Work End -->
+                            <p class="desc">ISACA’s Certified Information Security Manager&#174; (CISM&#174;)
+                                certification
+                                indicates expertise in information security governance, program development and
+                                management, incident management and risk management. If you are a mid-career IT
+                                professional aspiring to senior management roles in IT security and control, CISM can
+                                get you the visibility you need.
 
-                <!-- Single Work Start -->
-                <div class="col mb-6">
-                    <div class="work">
-                        <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/aws/aws-sysops-administrator"><img
-                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-4.jpg" alt="work"></a>
-                        </div>
-                        <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/aws/aws-sysops-administrator">AWS
-                                    SysOps Administrator</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/aws/aws-sysops-administrator">View
-                                Course <i class="fas fa-chevron-right fcr-animate"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Work End -->
-
-                <!-- Single Work Start -->
-                <div class="col mb-6">
-                    <div class="work">
-                        <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/aws/aws-developer"><img
-                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-5.jpg" alt="work"></a>
-                        </div>
-                        <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/aws/aws-developer">AWS Developer</a>
-                            </h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/aws/aws-developer">View
-                                Course <i class="fas fa-chevron-right fcr-animate"></i></a>
+                            </p>
+                            <a href="<? echo SITE_ADDR ?>/vendor/isaca/cism">View Course <i
+                                    class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>

@@ -66,7 +66,7 @@ include '../../assets/php/inc/nav.php';
                                     Fundamentals+</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/comptia/comptia-it-fundamentals">View Project
+                            <a href="<? echo SITE_ADDR ?>/vendor/comptia/comptia-it-fundamentals">View Course
                                 <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -84,7 +84,7 @@ include '../../assets/php/inc/nav.php';
                             <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/comptia/comptia-a">A+</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nisi, quo
                                 optio sint doloribus repellat.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/comptia/comptia-a">View Project <i
+                            <a href="<? echo SITE_ADDR ?>/vendor/comptia/comptia-a">View Course <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -104,7 +104,7 @@ include '../../assets/php/inc/nav.php';
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
                             <a href="<? echo SITE_ADDR ?>/vendor/comptia/comptia-network">View
-                                Project <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -124,7 +124,7 @@ include '../../assets/php/inc/nav.php';
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
                             <a href="<? echo SITE_ADDR ?>/vendor/comptia/comptia-security">View
-                                Project <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -143,7 +143,7 @@ include '../../assets/php/inc/nav.php';
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
                             <a href="<? echo SITE_ADDR ?>/vendor/comptia/comptia-server">View
-                                Project <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -162,7 +162,7 @@ include '../../assets/php/inc/nav.php';
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
                             <a href="<? echo SITE_ADDR ?>/vendor/comptia/comptia-linux">View
-                                Project <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -181,7 +181,7 @@ include '../../assets/php/inc/nav.php';
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
                             <a href="<? echo SITE_ADDR ?>/vendor/comptia/comptia-pentest">View
-                                Project <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -200,7 +200,7 @@ include '../../assets/php/inc/nav.php';
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
                             <a href="<? echo SITE_ADDR ?>/vendor/comptia/comptia-cysa">View
-                                Project <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -219,7 +219,7 @@ include '../../assets/php/inc/nav.php';
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
                             <a href="<? echo SITE_ADDR ?>/vendor/comptia/comptia-casp">View
-                                Project <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -238,7 +238,7 @@ include '../../assets/php/inc/nav.php';
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
                             <a href="<? echo SITE_ADDR ?>/vendor/comptia/comptia-cloud">View
-                                Project <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>

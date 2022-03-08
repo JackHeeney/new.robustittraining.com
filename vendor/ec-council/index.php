@@ -67,7 +67,7 @@ include '../../assets/php/inc/nav.php';
                                     Ethical Hacker</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker">View Project
+                            <a href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker">View Course
                                 <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -88,7 +88,7 @@ include '../../assets/php/inc/nav.php';
                                     Network Defender</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nisi, quo
                                 optio sint doloribus repellat.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-network-defender">View Project <i
+                            <a href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-network-defender">View Course <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -111,7 +111,7 @@ include '../../assets/php/inc/nav.php';
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
                             <a href="<? echo SITE_ADDR ?>/vendor/ec-council/computer-hacking-forensic-investigator">View
-                                Project <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -132,7 +132,7 @@ include '../../assets/php/inc/nav.php';
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
                             <a href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-cloud-security-engineer">View
-                                Project <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>

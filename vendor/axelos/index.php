@@ -65,7 +65,7 @@ include '../../assets/php/inc/nav.php';
                             <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/axelos/itil">ITIL &#174;</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/axelos/itil">View Project
+                            <a href="<? echo SITE_ADDR ?>/vendor/axelos/itil">View Course
                                 <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -84,7 +84,7 @@ include '../../assets/php/inc/nav.php';
                             </h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nisi, quo
                                 optio sint doloribus repellat.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/axelos/prince2">View Project <i
+                            <a href="<? echo SITE_ADDR ?>/vendor/axelos/prince2">View Course <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -104,7 +104,7 @@ include '../../assets/php/inc/nav.php';
                             </h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nisi, quo
                                 optio sint doloribus repellat.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/axelos/prince2-agile">View Project <i
+                            <a href="<? echo SITE_ADDR ?>/vendor/axelos/prince2-agile">View Course <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
