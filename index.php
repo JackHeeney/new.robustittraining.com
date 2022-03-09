@@ -56,7 +56,8 @@ include './assets/php/inc/nav.php';
                                         </div>
                                         <a href="#scroll-to-one" class="btn btn-secondary btn-hover-primary">Get Started
                                             <i class="fas fa-chevron-right fcr-animate"></i></a>
-                                        <a href="#" class="btn btn-outline-white btn-hover--secondary"> For Business <i
+                                        <a href="<? echo SITE_ADDR ?>/corporate"
+                                            class="btn btn-outline-white btn-hover--secondary"> For Corporate <i
                                                 class="fas fa-chevron-right fcr-animate"></i></a>
 
                                         <div class="trustpilot" style="position: relative; bottom: -50px; right: 180px">
@@ -97,8 +98,9 @@ include './assets/php/inc/nav.php';
                                         </div>
                                         <a href="#scroll-to-one" class="btn btn-secondary btn-hover-primary">Get Started
                                             <i class="fas fa-chevron-right fcr-animate"></i></a>
-                                        <a href="#" class="btn btn-outline-white btn-hover--secondary"> For
-                                            Business <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                        <a href="<? echo SITE_ADDR ?>/corporate"
+                                            class="btn btn-outline-white btn-hover--secondary"> For
+                                            Corporate <i class="fas fa-chevron-right fcr-animate"></i></a>
 
                                         <div class="trustpilot" style="position: relative; bottom: -50px; right: 180px">
 
@@ -139,7 +141,8 @@ include './assets/php/inc/nav.php';
                                         </div>
                                         <a href="#scroll-to-one" class="btn btn-secondary btn-hover-primary">Get Started
                                             <i class="fas fa-chevron-right fcr-animate"></i></a>
-                                        <a href="#" class="btn btn-outline-white btn-hover--secondary"> For Business <i
+                                        <a href="<? echo SITE_ADDR ?>/corporate"
+                                            class="btn btn-outline-white btn-hover--secondary"> For Corporate <i
                                                 class="fas fa-chevron-right fcr-animate"></i></a>
 
                                         <div class="trustpilot" style="position: relative; bottom: -50px; right: 180px">
@@ -170,7 +173,7 @@ include './assets/php/inc/nav.php';
 
     <!-- About Section Start -->
     <div class="section section-padding-t90 section-padding-bottom-200" id="scroll-to-one"
-        style="scroll-margin-top: 4em">
+        style="scroll-margin-top: 4em" data-bg-color="#f8faff">
         <div class="container">
 
             <!-- Section Title Start -->
@@ -210,8 +213,8 @@ include './assets/php/inc/nav.php';
 
                     <!-- Section Title Two Start -->
                     <div class="section-title-two mt-10">
-                        <span class="sub-title">Begin your journey</span>
-                        <h3 class="title">Take the first step
+                        <span class="sub-title">Take the first step</span>
+                        <h3 class="title">Begin your journey
                         </h3>
                     </div>
                     <!-- Section Title Two End -->
@@ -220,20 +223,24 @@ include './assets/php/inc/nav.php';
                         solutions to get you from the classroom to your dream job. </p>
 
 
-                    <a class="btn btn-primary btn-hover-secondary mt-xl-8 mt-lg-8 mt-md-6 mt-4" href="#cta">Begin
-                        Journey <i class="fas fa-chevron-right fcr-animate"></i></a>
+                    <a class="btn btn-primary btn-hover-secondary mt-xl-8 mt-lg-8 mt-md-6 mt-4" href="#go">
+                        Go
+                        <i class="fas fa-chevron-right fcr-animate"></i>
+                    </a>
                 </div>
 
             </div>
             <!-- About Wrapper End -->
-            <span id="cta"></span>
+
         </div>
     </div>
     <!-- About Section End -->
 
-    <!-- CTA Section Start -->
-    <div class="cta-section section section-padding-250">
+    <!-- learning path Section Start -->
+    <div class="section my-xl-50 py-25" data-bg-color="#fff">
+
         <div class="container text-center icon-up-down-animation">
+            <span id="go" style="scroll-margin-top: 26em"></span>
 
             <!-- Section Title Start -->
             <div class="section-title text-center" data-aos="fade-up">
@@ -330,9 +337,10 @@ include './assets/php/inc/nav.php';
                         <div class="content">
                             <h3 class="title">Corporate</h3>
                             <div class="desc">
-                                <p>Up-skill your business. Enquire about our corporate offers.</p>
+                                <p>Up-skill your employees. Enquire about our corporate offers today.</p>
                             </div>
-                            <a href="#" class="link">Learn More <i class="fas fa-chevron-right fcr-animate"></i></a>
+                            <a href="<? echo SITE_ADDR ?>/services" class="link">Learn More <i
+                                    class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
 
@@ -352,7 +360,8 @@ include './assets/php/inc/nav.php';
                             <div class="desc">
                                 <p>We offer enhanced learning credits for ex-military personnel.</p>
                             </div>
-                            <a href="#" class="link">Learn More <i class="fas fa-chevron-right fcr-animate"></i></a>
+                            <a href="<? echo SITE_ADDR ?>/services" class="link">Learn More <i
+                                    class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
 
@@ -371,7 +380,8 @@ include './assets/php/inc/nav.php';
                             <div class="desc">
                                 <p>Qualified for the position? We will help get you into your first job role.</p>
                             </div>
-                            <a href="#" class="link">Learn More <i class="fas fa-chevron-right fcr-animate"></i></a>
+                            <a href="<? echo SITE_ADDR ?>/services" class="link">Learn More <i
+                                    class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
 
@@ -384,114 +394,6 @@ include './assets/php/inc/nav.php';
     </div>
     <!-- Service Section End -->
 
-    <!-- Success Section Start -->
-    <div class="section section-padding-top success-section-padding-bottom-180">
-        <div class="container">
-            <div class="row">
-
-                <!-- Success Image Start -->
-                <div class="col-lg-6" data-aos="fade-up">
-                    <div class="about-image-area right-0 skill-image-area">
-                        <div class="about-image js-tilt">
-                            <img src="assets/images/skill/skill-1.jpg" alt="">
-                        </div>
-                        <div class="about-image js-tilt">
-                            <img src="assets/images/skill/skill-2.jpg" alt="">
-                        </div>
-                        <!-- Animation Shape Start -->
-                        <div class="shape shape-1 scene">
-                            <span data-depth="1"><img src="assets/images/shape-animation/about-shape-2.png"
-                                    alt=""></span>
-                        </div>
-                        <!-- Animation Shape End -->
-                    </div>
-                </div>
-                <!-- Success Image End -->
-
-                <!-- Success Content Start -->
-                <div class="offset-lg-1 col-lg-5" data-aos="fade-up" data-aos-delay="200">
-
-                    <div class="success-content section-padding-t100 mt-lg-0 mt-md-50 mt-sm-50 mt-40">
-                        <!-- Section Title Two Start -->
-                        <div class="section-title-two mb-lg-8 mb-6">
-                            <span class="sub-title">Your success is our success</span>
-                            <h3 class="title">Jobs and Average Salary that our students achieve</h3>
-                        </div>
-                        <!-- Section Title Two End -->
-
-                        <div class="progress-bar--one">
-                            <!-- Start Single Progress Charts -->
-                            <div class="progress-charts">
-                                <h6 class="heading lead">Cloud Architect</h6>
-                                <div class="progress">
-                                    <div class="progress-bar gradient-1 wow fadeInLeft" data-wow-duration="0.5s"
-                                        data-wow-delay=".3s" role="progressbar"
-                                        style="width: 81%; visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInLeft;"
-                                        aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
-                                            class="percent-label lead">£77,973</span></div>
-                                </div>
-                            </div>
-                            <!-- End Single Progress Charts -->
-
-                            <!-- Start Single Progress Charts -->
-                            <div class="progress-charts ">
-                                <h6 class="heading lead">Cloud Architect</h6>
-                                <div class="progress">
-                                    <div class="progress-bar gradient-2 wow fadeInLeft" data-wow-duration="0.7s"
-                                        data-wow-delay=".5s" role="progressbar"
-                                        style="width: 72%; visibility: visible; animation-duration: 0.7s; animation-delay: 0.5s; animation-name: fadeInLeft;"
-                                        aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"><span
-                                            class="percent-label lead">£72,851</span></div>
-                                </div>
-                            </div>
-                            <!-- End Single Progress Charts -->
-
-                            <!-- Start Single Progress Charts -->
-                            <div class="progress-charts ">
-                                <h6 class="heading lead">Cloud Architect</h6>
-                                <div class="progress">
-                                    <div class="progress-bar gradient-3 wow fadeInLeft" data-wow-duration="0.8s"
-                                        data-wow-delay=".8s" role="progressbar"
-                                        style="width: 82%; visibility: visible; animation-duration: 0.8s; animation-delay: 0.8s; animation-name: fadeInLeft;"
-                                        aria-valuenow="82" aria-valuemin="0" aria-valuemax="100"><span
-                                            class="percent-label lead">£82,178</span></div>
-                                </div>
-                            </div>
-                            <!-- End Single Progress Charts -->
-
-                            <!-- Start Single Progress Charts -->
-                            <div class="progress-charts ">
-                                <h6 class="heading lead">Cloud Architect</h6>
-                                <div class="progress">
-                                    <div class="progress-bar gradient-4 wow fadeInLeft" data-wow-duration="0.9s"
-                                        data-wow-delay=".9s" role="progressbar"
-                                        style="width: 85%; visibility: visible; animation-duration: 0.9s; animation-delay: 0.9s; animation-name: fadeInLeft;"
-                                        aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
-                                            class="percent-label lead">£85,826</span></div>
-                                </div>
-                            </div>
-                            <!-- End Single Progress Charts -->
-
-                            <!-- Start Single Progress Charts -->
-                            <div class="progress-charts ">
-                                <h6 class="heading lead">Cloud Architect</h6>
-                                <div class="progress">
-                                    <div class="progress-bar gradient-5 wow fadeInLeft" data-wow-duration="0.9s"
-                                        data-wow-delay=".9s" role="progressbar"
-                                        style="width: 90%; visibility: visible; animation-duration: 0.9s; animation-delay: 0.9s; animation-name: fadeInLeft;"
-                                        aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"><span
-                                            class="percent-label lead">£90,431</span></div>
-                                </div>
-                            </div>
-                            <!-- End Single Progress Charts -->
-                        </div>
-                    </div>
-                </div>
-                <!-- Success Content End -->
-            </div>
-        </div>
-    </div>
-    <!-- Success Section End -->
 
     <!-- Portfolio Section Start -->
     <div class="section section-padding ag-masonary-wrapper" data-bg-color="#f8faff">

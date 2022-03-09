@@ -56,15 +56,16 @@
                     <h4 class="footer-widget-title">Vendors</h4>
                     <div class="footer-widget-content">
                         <ul>
-                            <li><a href="<? echo SITE_ADDR ?>/">EC-Council <i
+                            <li><a href="<? echo SITE_ADDR ?>/vendor/ec-council">EC-Council <i
                                         class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a href="<? echo SITE_ADDR ?>/"><span class="ref"></span> <i
+                            <li><a href="<? echo SITE_ADDR ?>/vendor/aws"><span class="aws"></span> <i
                                         class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a href="<? echo SITE_ADDR ?>/">Microsoft <span class="ft-badge">New</span> <i
+                            <li><a href="<? echo SITE_ADDR ?>/vendor/microsoft">Microsoft <span
+                                        class="ft-badge">New</span> <i class="fas fa-chevron-right fcr-animate"></i></a>
+                            </li>
+                            <li><a href="<? echo SITE_ADDR ?>/vendor/comptia">CompTIA <i
                                         class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a href="<? echo SITE_ADDR ?>/">CompTIA <i
-                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a href="<? echo SITE_ADDR ?>/">Cisco <i
+                            <li><a href="<? echo SITE_ADDR ?>/vendor/cisco">Cisco <i
                                         class="fas fa-chevron-right fcr-animate"></i></a></li>
                         </ul>
                     </div>
@@ -78,11 +79,11 @@
                     <h4 class="footer-widget-title">About</h4>
                     <div class="footer-widget-content">
                         <ul>
-                            <li><a href="<? echo SITE_ADDR ?>/">About Us <i
+                            <li><a href="<? echo SITE_ADDR ?>/about-us">About Us <i
                                         class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a href="<? echo SITE_ADDR ?>/">Our Partners <i
+                            <li><a href="<? echo SITE_ADDR ?>/trusted-by">Trusted By <i
                                         class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a href="<? echo SITE_ADDR ?>/">Affiliate Program <i
+                            <li><a href="<? echo SITE_ADDR ?>/affiliate-program">Affiliate Program <i
                                         class="fas fa-chevron-right fcr-animate"></i></a></li>
                             <li><a href="<? echo SITE_ADDR ?>/testimonials">Testimonials <i
                                         class="fas fa-chevron-right fcr-animate"></i></a></li>

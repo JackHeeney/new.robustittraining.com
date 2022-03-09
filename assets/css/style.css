@@ -111,11 +111,11 @@
 *::after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-user-select: none;
+  /* -webkit-user-select: none;
   -webkit-touch-callout: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none;
+  user-select: none; */
 }
 
 body {
@@ -5475,6 +5475,7 @@ textarea.form-control.is-invalid {
   user-select: none;
   background-color: transparent;
   border: 1px solid transparent;
+  border-bottom-right-radius: 25px !important;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   border-radius: 0.25rem;
@@ -34898,6 +34899,10 @@ svg:not(:root) {
   padding-bottom: 250px;
 }
 
+.section-height-v100 {
+  height: 100vh;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section-padding-250 {
     padding-top: 180px;
@@ -36686,20 +36691,26 @@ textarea:focus {
 }
 @media only screen and (max-width: 767px) {
   .icon-up-down-animation .shape-1 {
-    top: -110px;
-    left: 90px;
+    top: 233px;
+    left: 52px;
+    width: 60px;
+    height: 60px;
   }
   .icon-up-down-animation .shape-2 {
-    top: -110px;
-    right: 90px;
+    top: 241px;
+    right: 169px;
+    width: 60px;
+    height: 60px;
   }
   .icon-up-down-animation .shape-3 {
-    top: -80px;
-    left: 15px;
+    top: -109px;
+    left: 37px;
+    width: 60px;
+    height: 60px;
   }
   .icon-up-down-animation .shape-4 {
-    top: -100px;
-    right: 163px;
+    top: -138px;
+    right: 175px;
     width: 60px;
     height: 60px;
   }
@@ -36713,20 +36724,28 @@ textarea:focus {
     border-radius: 20px;
   }
   .icon-up-down-animation .shape-6 {
-    top: -73px;
-    right: 16px;
+    top: -116px;
+    right: 44px;
+    width: 60px;
+    height: 60px;
   }
   .icon-up-down-animation .shape-7 {
-    bottom: 17px;
-    left: 299px;
+    bottom: -54px;
+    left: 316px;
+    width: 60px;
+    height: 60px;
   }
   .icon-up-down-animation .shape-8 {
     bottom: -70px;
     right: 45px;
+    width: 60px;
+    height: 60px;
   }
   .icon-up-down-animation .shape-9 {
     bottom: 10px;
     right: 15px;
+    width: 60px;
+    height: 60px;
   }
 }
 
@@ -40909,7 +40928,7 @@ h5 {
   overflow: hidden;
 }
 
-.ref::before {
+.aws::before {
   content: "Amazon Web Services ";
 }
 

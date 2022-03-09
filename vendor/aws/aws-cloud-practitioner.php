@@ -12,6 +12,11 @@ $meta['og:url'] = "";
 
 $leadIsFrom = "Lead is from /vendor/ec-council/certified-cloud-security-engineer";
 
+$path1 = "Cake muffin donut chocolate cake jelly sesame snaps wafer tart pie sweet roll muffin chupa chups.";
+$path2 = "Cake cookie lemon drops muffin sugar plum. Liquorice pudding plum topping macaroon pie chocolate.";
+$path3 = "Cake muffin donut chocolate cake jelly sesame snaps wafer tart pie sweet roll muffin chupa chups.";
+$path4 = "Cake cookie lemon drops muffin sugar plum. Liquorice pudding plum topping macaroon pie chocolate.";
+
 include '../../assets/php/inc/header.php';
 include '../../assets/php/inc/nav.php';
 ?>
@@ -108,13 +113,103 @@ include '../../assets/php/inc/nav.php';
 
                             <!-- Start info graphic -->
                             <div class="info-graphic" data-aos="zoom-in">
-                                <img class="image desktop"
+                                <!-- <img class="image desktop"
                                     src="<? echo SITE_ADDR ?>/assets/images/project/course-page-info-graphic-desktop.png"
                                     alt="learning path info graphic">
 
                                 <img class="image mobile"
                                     src="<? echo SITE_ADDR ?>/assets/images/project/course-page-info-graphic.png"
-                                    alt="learning path info graphic">
+                                    alt="learning path info graphic"> -->
+
+
+                                <style>
+                                :root {
+                                    --n: 4
+                                }
+
+                                .info-graphic {
+                                    --i: var(--wide, 1);
+                                    --j: calc(1 - var(--i));
+                                    --k: calc(1 - var(--narr, 1));
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    justify-content: center;
+                                    /* background: repeating-linear-gradient(-45deg, gainsboro 0, gainsboro 2px, transparent 0, transparent 5px);
+                                    font: 400 0.8em coda, trebuchet ms, arial, sans-serif; */
+                                }
+
+                                .info-graphic:after {
+                                    margin-top: 1em;
+                                    width: 25em;
+                                    height: 1.5em;
+                                    max-width: 100%;
+                                    background: radial-gradient(closest-side, rgba(0, 0, 0, .75), rgba(0, 0, 0, .35) 15%, transparent);
+                                    filter: blur(3px);
+                                    content: '';
+                                }
+
+                                @media (max-width: 43em) {
+                                    .info-graphic {
+                                        --wide: 0;
+                                    }
+                                }
+
+                                @media (min-width: 270px) {
+                                    .info-graphic {
+                                        --narr: 0;
+                                    }
+                                }
+
+                                .info-graphic p {
+                                    --p: var(--parity, 1);
+                                    --q: calc(1 - var(--p));
+                                    --s: calc(1 - 2*var(--p));
+                                    display: flex;
+                                    flex-direction: var(--narr, column);
+                                    align-items: center;
+                                    justify-content: center;
+                                    margin: calc(var(--j)*.25em) 0;
+                                    padding: calc(var(--i)*10em/var(--n) + var(--j)*5vw) calc(var(--i)*10em + var(--j)*2vw);
+                                    width: calc(var(--i)*40em + var(--j)*100%);
+                                    min-height: var(--wide, calc(40em/var(--n)));
+                                    transform: translate(calc(var(--i)*var(--s)*-1.5em)) scale(1);
+                                    background: radial-gradient(at calc(var(--q)*100%) 0, rgba(0, 0, 0, calc), transparent 63%) calc(var(--q)*100%) 0/ 65% 65% no-repeat, linear-gradient(calc(var(--s)*-90deg), #000, #858585);
+                                    color: #000;
+                                    text-align: var(--parity, right);
+                                    clip-path: var(--wide, circle(20em at 50% calc((.5*var(--n) - var(--idx))*40em/var(--n))));
+                                    counter-increment: idx;
+                                    transition: 500ms ease-in-out;
+                                }
+
+                                .info-graphic p:before {
+                                    margin: 0 calc(var(--k)*var(--q)*.25em) 0 calc(var(--k)*var(--p)*.25em);
+                                    order: calc(var(--k)*var(--p));
+                                    font-size: 4em;
+                                    content: counter(idx, decimal-leading-zero);
+                                }
+
+                                .info-graphic p:nth-child(odd) {
+                                    --parity: 0;
+                                }
+
+                                .info-graphic p:hover {
+                                    transform: scale(1.1);
+                                    transition: 500ms ease-in-out;
+                                }
+                                </style>
+                                <p style="--idx: 0">
+                                    <? echo $path1 ?>
+                                </p>
+                                <p style="--idx: 1">
+                                    <? echo $path2 ?>
+                                </p>
+                                <p style="--idx: 2">
+                                    <? echo $path3 ?>
+                                </p>
+                                <p style="--idx: 3">
+                                    <? echo $path4 ?>
+                                </p>
 
                             </div>
                             <!-- End info graphic -->
