@@ -18,8 +18,7 @@ include './assets/php/inc/nav.php';
 
 <div id="page work-details" class="section">
     <!-- Page Title Section Start -->
-    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7"
-        data-bg-image="assets/images/bg/breadcrumb-bg-two.jpg">
+    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7" data-bg-image="assets/images/bg/breadcrumb-bg-two.jpg">
         <div class="page-title">
             <div class="container">
                 <h1 class="title">AWS Certified Cloud Practitioner</h1>
@@ -51,8 +50,7 @@ include './assets/php/inc/nav.php';
                                 project
                             </h2>
                             <div class="work-details-course-logo">
-                                <img src="<? echo SITE_ADDR ?>/assets/images/logo/aws/AWS-CloudPractitioner.png"
-                                    alt="cloud practitioner logo" class="w-100">
+                                <img src="<? echo SITE_ADDR ?>/assets/images/logo/aws/AWS-CloudPractitioner.png" alt="cloud practitioner logo" class="w-100">
                             </div>
                             <!-- Start Details List -->
                             <div class="work-details-list mt-lg-12 mt-6">
@@ -84,19 +82,16 @@ include './assets/php/inc/nav.php';
                                 <div class="links">
                                     <ul>
                                         <li class="social-share facebook">
-                                            <h6 class="heading heading-h6">Share on Facebook <i
-                                                    class="fas fa-share fcr-animate"></i></h6>
+                                            <h6 class="heading heading-h6">Share on Facebook <i class="fas fa-share fcr-animate"></i></h6>
 
                                         </li>
                                         <li class="social-share twitter">
-                                            <h6 class="heading heading-h6">Share on Twitter <i
-                                                    class="fas fa-share fcr-animate"></i>
+                                            <h6 class="heading heading-h6">Share on Twitter <i class="fas fa-share fcr-animate"></i>
                                             </h6>
 
                                         </li>
                                         <li class="social-share linkedin">
-                                            <h6 class="heading heading-h6">Share on LinkedIn <i
-                                                    class="fas fa-share fcr-animate"></i></h6>
+                                            <h6 class="heading heading-h6">Share on LinkedIn <i class="fas fa-share fcr-animate"></i></h6>
 
                                         </li>
                                     </ul>
@@ -305,8 +300,7 @@ include './assets/php/inc/nav.php';
                                 </div>
                                 <!-- Animation Shape Start -->
                                 <div class="shape shape-1 scene">
-                                    <span data-depth="1"><img src="assets/images/shape-animation/about-shape-2.png"
-                                            alt=""></span>
+                                    <span data-depth="1"><img src="assets/images/shape-animation/about-shape-2.png" alt=""></span>
                                 </div>
                                 <!-- Animation Shape End -->
                             </div>
@@ -328,16 +322,13 @@ include './assets/php/inc/nav.php';
                                     <div class="card">
                                         <div class="card-header" id="headingOne">
                                             <h5 class="mb-0">
-                                                <a href="#" class="acc-btn border-0" data-toggle="collapse"
-                                                    data-target="#collapseOne" aria-expanded="true"
-                                                    aria-controls="collapseOne">
+                                                <a href="#" class="acc-btn border-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                                     Which AWS Certification is right for me?
                                                 </a>
                                             </h5>
                                         </div>
 
-                                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                                            data-parent="#accordionExample">
+                                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                                             <div class="card-body">
                                                 Learn about each AWS Certification <a href="#">exam
                                                     here</a>. To
@@ -351,16 +342,13 @@ include './assets/php/inc/nav.php';
                                     <div class="card">
                                         <div class="card-header" id="headingTwo">
                                             <h5 class="mb-0">
-                                                <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse"
-                                                    data-target="#collapseTwo" aria-expanded="false"
-                                                    aria-controls="collapseTwo">
+                                                <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                                     Are there any mandatory training or exam requirements to take an AWS
                                                     Certification exam?
                                                 </a>
                                             </h5>
                                         </div>
-                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                                            data-parent="#accordionExample">
+                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                                             <div class="card-body">
                                                 Training is recommended as part of your certification
                                                 preparation, but it is not mandatory for the completion of the
@@ -373,15 +361,12 @@ include './assets/php/inc/nav.php';
                                     <div class="card">
                                         <div class="card-header" id="headingThree">
                                             <h5 class="mb-0">
-                                                <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse"
-                                                    data-target="#collapseThree" aria-expanded="false"
-                                                    aria-controls="collapseThree">
+                                                <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                                     Why should I consider AWS Certified?
                                                 </a>
                                             </h5>
                                         </div>
-                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                                            data-parent="#accordionExample">
+                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                                             <div class="card-body">AWS Certification helps learners build credibility
                                                 and confidence by validating their cloud expertise with an
                                                 industry-recognized credential and organizations identify skilled
@@ -454,8 +439,7 @@ include './assets/php/inc/nav.php';
                         <!-- Contact Info Item Start -->
                         <div class="contact-info ct-info-two" data-vivus-hover>
                             <div class="icon">
-                                <img class="svgInject" src="assets/images/svg/linea/linea-basic-mail-open-text.svg"
-                                    alt="">
+                                <img class="svgInject" src="assets/images/svg/linea/linea-basic-mail-open-text.svg" alt="">
                             </div>
                             <div class="info">
                                 <h4 class="title"> Help Desk</h4>
@@ -476,8 +460,7 @@ include './assets/php/inc/nav.php';
                         <!-- Section Title Start -->
                         <div class="section-title text-center mb-7">
                             <h2 class="title fz-28">Get in touch today!</h2>
-                            <p class="sub-title">We have made it easy for clients to reach us and begin their cloud
-                                journey easily.</p>
+                            <p class="sub-title">We have made it easier for you to reach us and begin your learning journey.</p>
                         </div>
                         <!-- Section Title End -->
                         <form action="#" id="contact-form" method="post">
@@ -492,8 +475,7 @@ include './assets/php/inc/nav.php';
                                     <textarea name="message" placeholder="Message"></textarea>
                                 </div>
                                 <div class="col-12 text-center mb-4">
-                                    <button class="btn btn-primary btn-hover-secondary">Get a free consultation <i
-                                            class="fas fa-chevron-right fcr-animate"></i></button>
+                                    <button class="btn btn-primary btn-hover-secondary">Get a free consultation <i class="fas fa-chevron-right fcr-animate"></i></button>
                                 </div>
                             </div>
                         </form>

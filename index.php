@@ -17,17 +17,7 @@ include './assets/php/inc/nav.php';
 
 ?>
 
-<div class="section">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
 
-
-            </div>
-        </div>
-    </div>
-
-</div>
 
 <div id="page" class="section">
 
@@ -56,7 +46,7 @@ include './assets/php/inc/nav.php';
                                         </div>
                                         <a href="#scroll-to-one" class="btn btn-secondary btn-hover-primary">Get Started
                                             <i class="fas fa-chevron-right fcr-animate"></i></a>
-                                        <a href="<? echo SITE_ADDR ?>/corporate"
+                                        <a href="<? echo SITE_ADDR ?>/corporate-enquiries"
                                             class="btn btn-outline-white btn-hover--secondary"> For Corporate <i
                                                 class="fas fa-chevron-right fcr-animate"></i></a>
 
@@ -98,7 +88,7 @@ include './assets/php/inc/nav.php';
                                         </div>
                                         <a href="#scroll-to-one" class="btn btn-secondary btn-hover-primary">Get Started
                                             <i class="fas fa-chevron-right fcr-animate"></i></a>
-                                        <a href="<? echo SITE_ADDR ?>/corporate"
+                                        <a href="<? echo SITE_ADDR ?>/corporate-enquiries"
                                             class="btn btn-outline-white btn-hover--secondary"> For
                                             Corporate <i class="fas fa-chevron-right fcr-animate"></i></a>
 
@@ -141,7 +131,7 @@ include './assets/php/inc/nav.php';
                                         </div>
                                         <a href="#scroll-to-one" class="btn btn-secondary btn-hover-primary">Get Started
                                             <i class="fas fa-chevron-right fcr-animate"></i></a>
-                                        <a href="<? echo SITE_ADDR ?>/corporate"
+                                        <a href="<? echo SITE_ADDR ?>/corporate-enquiries"
                                             class="btn btn-outline-white btn-hover--secondary"> For Corporate <i
                                                 class="fas fa-chevron-right fcr-animate"></i></a>
 
@@ -184,6 +174,10 @@ include './assets/php/inc/nav.php';
 
             </div>
             <!-- Section Title End -->
+
+
+            <!-- <div id="stage">
+            </div> -->
 
             <!-- About Wrapper Start -->
             <div class="row">
@@ -330,7 +324,9 @@ include './assets/php/inc/nav.php';
                 <!-- Icon Box Start -->
                 <div class="col mb-6">
 
-                    <div class="icon-box text-center" data-vivus-hover data-aos="fade-up" data-aos-delay="200"
+                    <div class="icon-box text-center"
+                        data-bg-image="https://s3.amazonaws.com/mentoring.redesign/s3fs-public/male-CEO-business-team.jpg"
+                        data-overlay="0.8" data-vivus-hover data-aos="fade-up" data-aos-delay="200"
                         data-aos-duration="800">
                         <div class="icon"><img class="svgInject"
                                 src="assets/images/svg/svgrepo/office-block-svgrepo-com.svg" alt=""></div>
@@ -350,7 +346,9 @@ include './assets/php/inc/nav.php';
                 <!-- Icon Box Start -->
                 <div class="col mb-6">
 
-                    <div class="icon-box text-center" data-vivus-hover data-aos="fade-up" data-aos-delay="400"
+                    <div class="icon-box text-center"
+                        data-bg-image="https://armyrotc.as.uky.edu/sites/default/files/styles/flexslider_full/public/UK%20Army%20ROTC%20Cadet%20Classroom%20Experience%20%E2%80%93%202010-1?itok=T9Va1SKu&timestamp=1436910840"
+                        data-overlay="0.8" data-vivus-hover data-aos="fade-up" data-aos-delay="400"
                         data-aos-duration="800">
                         <div class="icon"><img class="svgInject"
                                 src="assets/images/svg/svgrepo/dog-tag-military-svgrepo-com.svg" alt="">
@@ -371,7 +369,9 @@ include './assets/php/inc/nav.php';
                 <!-- Icon Box Start -->
                 <div class="col mb-6">
 
-                    <div class="icon-box text-center" data-vivus-hover data-aos="fade-up" data-aos-delay="600"
+                    <div class="icon-box text-center"
+                        data-bg-image="https://miro.medium.com/max/1000/1*n7LK5cSZarhBRXRjxmkg5A.jpeg"
+                        data-overlay="0.8" data-vivus-hover data-aos="fade-up" data-aos-delay="600"
                         data-aos-duration="800">
                         <div class="icon"><img class="svgInject"
                                 src="assets/images/svg/svgrepo/job-search-svgrepo-com.svg" alt=""></div>
@@ -404,7 +404,7 @@ include './assets/php/inc/nav.php';
                     <!-- Section Title Two Start -->
                     <div class="section-title-two mb-lg-12 mb-md-6">
                         <span class="sub-title">Trending Training</span>
-                        <h3 class="title">Our most popular training</h3>
+                        <h3 class="title">Our most popular courses</h3>
                     </div>
                     <!-- Section Title Two End -->
                 </div>
@@ -424,97 +424,139 @@ include './assets/php/inc/nav.php';
 
 
 
-            <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 g-0 mesonry-list">
+            <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 g-0 mesonry-list" data-aos="fade-in">
                 <div class="resizer col"></div>
                 <!-- Single Portfolio Start -->
-                <div class="col cat-1" data-aos="fade-up">
-                    <div class="single-portfolio">
-                        <a href="#">
+                <div class="col cat-1">
+                    <!-- Single Work Start -->
+                    <div class="col mb-6">
+                        <div class="work single-portfolio">
                             <div class="thumbnail">
-                                <img class="img-fluid" src="assets/images/portfolio/portfolio-1.jpg" alt="Portfolio-01">
+                                <a class="image"
+                                    href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker"><img
+                                        src="<? echo SITE_ADDR ?>/assets/images/project/project-1.jpg" alt="work"></a>
                             </div>
-                            <div class="content">
-                                <h5 class="title">AWS Solutions Architect<img
-                                        src="assets/images/icons/arrow-up-right.svg" alt=""></h5>
+                            <div class="info">
+                                <h3 class="title"><a
+                                        href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker">Certified
+                                        Ethical
+                                        Hacker</a></h3>
+                                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
+                                    culpa, unde perspiciatis hic delectus.</p>
+                                <a href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker">View Course
+                                    <i class="fas fa-chevron-right fcr-animate"></i></a>
                             </div>
-                        </a>
+                        </div>
                     </div>
+                    <!-- Single Work End -->
                 </div>
                 <!-- Single Portfolio End -->
                 <!-- Single Portfolio Start -->
-                <div class="col cat-2" data-aos="fade-up">
-                    <div class="single-portfolio">
-                        <a href="#">
+                <div class="col cat-2">
+                    <!-- Single Work Start -->
+                    <div class="col mb-6">
+                        <div class="work single-portfolio">
                             <div class="thumbnail">
-                                <img class="img-fluid" src="assets/images/portfolio/portfolio-2.jpg" alt="Portfolio-01">
+                                <a class="image" href="<? echo SITE_ADDR ?>/vendor/ec-council"><img
+                                        src="<? echo SITE_ADDR ?>/assets/images/project/project-2.jpg" alt="work"></a>
                             </div>
-                            <div class="content">
-                                <h5 class="title">Microsoft Azure Fundamentals <br> (AZ-900) <img
-                                        src="assets/images/icons/arrow-up-right.svg" alt=""></h5>
+                            <div class="info">
+                                <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/ec-council">EC-Council</a></h3>
+                                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
+                                    culpa, unde perspiciatis hic delectus.</p>
+                                <a href="<? echo SITE_ADDR ?>/vendor/ec-council">View Courses <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a>
                             </div>
-                        </a>
+                        </div>
                     </div>
+                    <!-- Single Work End -->
                 </div>
                 <!-- Single Portfolio End -->
                 <!-- Single Portfolio Start -->
-                <div class="col cat-3" data-aos="fade-up" data-aos-offset="-240">
-                    <div class="single-portfolio">
-                        <a href="#">
+                <div class="col cat-3">
+                    <!-- Single Work Start -->
+                    <div class="col mb-6">
+                        <div class="work single-portfolio">
                             <div class="thumbnail">
-                                <img class="img-fluid" src="assets/images/portfolio/portfolio-3.jpg" alt="Portfolio-01">
+                                <a class="image" href="<? echo SITE_ADDR ?>/vendor/ec-council"><img
+                                        src="<? echo SITE_ADDR ?>/assets/images/project/project-3.jpg" alt="work"></a>
                             </div>
-                            <div class="content">
-                                <h5 class="title">CompTIA Security+ <img src="assets/images/icons/arrow-up-right.svg"
-                                        alt=""></h5>
+                            <div class="info">
+                                <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/ec-council">EC-Council</a></h3>
+                                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
+                                    culpa, unde perspiciatis hic delectus.</p>
+                                <a href="<? echo SITE_ADDR ?>/vendor/ec-council">View Courses <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a>
                             </div>
-                        </a>
+                        </div>
                     </div>
+                    <!-- Single Work End -->
+
                 </div>
                 <!-- Single Portfolio End -->
                 <!-- Single Portfolio Start -->
-                <div class="col cat-3" data-aos="fade-up" data-aos-offset="-200">
-                    <div class="single-portfolio">
-                        <a href="#">
+                <div class="col cat-3">
+                    <!-- Single Work Start -->
+                    <div class="col mb-6">
+                        <div class="work single-portfolio">
                             <div class="thumbnail">
-                                <img class="img-fluid" src="assets/images/portfolio/portfolio-4.jpg" alt="Portfolio-01">
+                                <a class="image" href="<? echo SITE_ADDR ?>/vendor/ec-council"><img
+                                        src="<? echo SITE_ADDR ?>/assets/images/project/project-4.jpg" alt="work"></a>
                             </div>
-                            <div class="content">
-                                <h5 class="title">CompTIA Network+ <img src="assets/images/icons/arrow-up-right.svg"
-                                        alt=""></h5>
+                            <div class="info">
+                                <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/ec-council">EC-Council</a></h3>
+                                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
+                                    culpa, unde perspiciatis hic delectus.</p>
+                                <a href="<? echo SITE_ADDR ?>/vendor/ec-council">View Courses <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a>
                             </div>
-                        </a>
+                        </div>
                     </div>
+                    <!-- Single Work End -->
                 </div>
                 <!-- Single Portfolio End -->
                 <!-- Single Portfolio Start -->
-                <div class="col cat-4" data-aos="fade-up" data-aos-offset="-200">
-                    <div class="single-portfolio">
-                        <a href="<?php echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker">
+                <div class="col cat-4">
+                    <!-- Single Work Start -->
+                    <div class="col mb-6">
+                        <div class="work single-portfolio">
                             <div class="thumbnail">
-                                <img class="img-fluid" src="assets/images/portfolio/portfolio-5.jpg" alt="Portfolio-01">
+                                <a class="image" href="<? echo SITE_ADDR ?>/vendor/ec-council"><img
+                                        src="<? echo SITE_ADDR ?>/assets/images/project/project-5.jpg" alt="work"></a>
                             </div>
-                            <div class="content">
-                                <h5 class="title">Certified Ethical Hacker
-                                    <img src="assets/images/icons/arrow-up-right.svg" alt="">
-                                </h5>
+                            <div class="info">
+                                <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/ec-council">EC-Council</a></h3>
+                                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
+                                    culpa, unde perspiciatis hic delectus.</p>
+                                <a href="<? echo SITE_ADDR ?>/vendor/ec-council">View Courses <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a>
                             </div>
-                        </a>
+                        </div>
                     </div>
+                    <!-- Single Work End -->
+
                 </div>
                 <!-- Single Portfolio End -->
                 <!-- Single Portfolio Start -->
-                <div class="col cat-4" data-aos="fade-up" data-aos-offset="-530">
-                    <div class="single-portfolio">
-                        <a href="#">
+                <div class="col cat-4">
+                    <!-- Single Work Start -->
+                    <div class="col mb-6">
+                        <div class="work single-portfolio">
                             <div class="thumbnail">
-                                <img class="img-fluid" src="assets/images/portfolio/portfolio-6.jpg" alt="Portfolio-01">
+                                <a class="image" href="<? echo SITE_ADDR ?>/vendor/ec-council"><img
+                                        src="<? echo SITE_ADDR ?>/assets/images/project/project-6.jpg" alt="work"></a>
                             </div>
-                            <div class="content">
-                                <h5 class="title">Certified Cloud Security Expert <img
-                                        src="assets/images/icons/arrow-up-right.svg" alt=""></h5>
+                            <div class="info">
+                                <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/ec-council">EC-Council</a></h3>
+                                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
+                                    culpa, unde perspiciatis hic delectus.</p>
+                                <a href="<? echo SITE_ADDR ?>/vendor/ec-council">View Courses <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a>
                             </div>
-                        </a>
+                        </div>
                     </div>
+                    <!-- Single Work End -->
+
                 </div>
                 <!-- Single Portfolio End -->
             </div>
@@ -526,7 +568,7 @@ include './assets/php/inc/nav.php';
     <div class="faq-section section section-padding-top" data-bg-color="#ffffff">
         <div class="container">
 
-            <div class="row mb-10" data-aos="fade-up" data-aos-offset="-120" data-aos-duration="800">
+            <div class="row mb-10">
                 <div class="col-12">
                     <div class="faq-content">
                         <!-- Section Title Two Start -->
@@ -543,7 +585,7 @@ include './assets/php/inc/nav.php';
 
 
                 <!-- Faq Content Start -->
-                <div class="col mb-6 pl-xl-12" data-aos="fade-up" data-aos-offset="-100" data-aos-duration="800">
+                <div class="col mb-6 pl-xl-12">
                     <div class="faq-content">
 
 
@@ -613,8 +655,7 @@ include './assets/php/inc/nav.php';
                 </div>
                 <!-- Faq Content End -->
 
-                <div class="col mb-6 pl-xl-12" data-aos="fade-up" data-aos-delay="200" data-aos-offset="-100"
-                    data-aos-duration="800">
+                <div class="col mb-6 pl-xl-12">
 
                     <!-- Faq Image Start -->
                     <div class="about-image-area faq-image-area">

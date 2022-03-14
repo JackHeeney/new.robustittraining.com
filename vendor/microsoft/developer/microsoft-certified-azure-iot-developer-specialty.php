@@ -18,8 +18,7 @@ include '../../../assets/php/inc/nav.php';
 
 <div id="page work-details" class="section">
     <!-- Page Title Section Start -->
-    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7"
-        data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/bg-certified-ethical-hacker.jpg">
+    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7" data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/bg-certified-ethical-hacker.jpg">
         <div class="page-title">
             <div class="container">
                 <h1 class="title">Microsoft Certified: Azure IOT Developer Specialty</h1>
@@ -53,8 +52,7 @@ include '../../../assets/php/inc/nav.php';
                                 course
                             </h2>
                             <div class="work-details-course-logo">
-                                <img src="<? echo SITE_ADDR ?>/assets/images/logo/ec-council/chfi.png"
-                                    alt="cloud practitioner logo" class="w-100">
+                                <img src="<? echo SITE_ADDR ?>/assets/images/logo/ec-council/chfi.png" alt="cloud practitioner logo" class="w-100">
                             </div>
                             <!-- Start Details List -->
                             <div class="work-details-list mt-lg-12 mt-6">
@@ -86,19 +84,16 @@ include '../../../assets/php/inc/nav.php';
                                 <div class="links">
                                     <ul>
                                         <li class="social-share facebook">
-                                            <h6 class="heading heading-h6">Share on Facebook <i
-                                                    class="fas fa-share fcr-animate"></i></h6>
+                                            <h6 class="heading heading-h6">Share on Facebook <i class="fas fa-share fcr-animate"></i></h6>
 
                                         </li>
                                         <li class="social-share twitter">
-                                            <h6 class="heading heading-h6">Share on Twitter <i
-                                                    class="fas fa-share fcr-animate"></i>
+                                            <h6 class="heading heading-h6">Share on Twitter <i class="fas fa-share fcr-animate"></i>
                                             </h6>
 
                                         </li>
                                         <li class="social-share linkedin">
-                                            <h6 class="heading heading-h6">Share on LinkedIn <i
-                                                    class="fas fa-share fcr-animate"></i></h6>
+                                            <h6 class="heading heading-h6">Share on LinkedIn <i class="fas fa-share fcr-animate"></i></h6>
 
                                         </li>
                                     </ul>
@@ -108,13 +103,9 @@ include '../../../assets/php/inc/nav.php';
 
                             <!-- Start info graphic -->
                             <div class="info-graphic" data-aos="zoom-in">
-                                <img class="image desktop"
-                                    src="<? echo SITE_ADDR ?>/assets/images/project/course-page-info-graphic-desktop.png"
-                                    alt="learning path info graphic">
+                                <img class="image desktop" src="<? echo SITE_ADDR ?>/assets/images/project/course-page-info-graphic-desktop.png" alt="learning path info graphic">
 
-                                <img class="image mobile"
-                                    src="<? echo SITE_ADDR ?>/assets/images/project/course-page-info-graphic.png"
-                                    alt="learning path info graphic">
+                                <img class="image mobile" src="<? echo SITE_ADDR ?>/assets/images/project/course-page-info-graphic.png" alt="learning path info graphic">
 
                             </div>
                             <!-- End info graphic -->
@@ -313,8 +304,7 @@ include '../../../assets/php/inc/nav.php';
                             <div class="video-popup-area">
                                 <!-- Video Popup Start -->
                                 <div class="skill-video" data-aos="fade-up">
-                                    <img class="image" src="<? echo SITE_ADDR ?>/assets/images/video/skill-video.jpg"
-                                        alt="video popup">
+                                    <img class="image" src="<? echo SITE_ADDR ?>/assets/images/video/skill-video.jpg" alt="video popup">
                                     <a href="https://www.youtube.com/watch?v=eS9Qm4AOOBY" class="icon video-popup">
                                         <i class="fas fa-play"></i>
                                     </a>
@@ -324,8 +314,7 @@ include '../../../assets/php/inc/nav.php';
                                 <!-- Animation Shape Start -->
                                 <div class="shape shape-1 scene">
                                     <span data-depth="1">
-                                        <img src="<? echo SITE_ADDR ?>/assets/images/shape-animation/video-shape-1.png"
-                                            alt="">
+                                        <img src="<? echo SITE_ADDR ?>/assets/images/shape-animation/video-shape-1.png" alt="">
                                     </span>
                                 </div>
                                 <!-- Animation Shape End -->
@@ -562,18 +551,14 @@ include '../../../assets/php/inc/nav.php';
                         <div class="col-xl-7 col-lg-6 col-12" data-aos="fade-up">
                             <div class="about-image-area">
                                 <div class="about-image js-tilt">
-                                    <img src="<? echo SITE_ADDR ?>/assets/images/about/home-one-about/cloud_about_2.jpg"
-                                        alt="">
+                                    <img src="<? echo SITE_ADDR ?>/assets/images/about/home-one-about/cloud_about_2.jpg" alt="">
                                 </div>
                                 <div class="about-image js-tilt">
-                                    <img src="<? echo SITE_ADDR ?>/assets/images/about/home-one-about/cloud_about_1.jpg"
-                                        alt="">
+                                    <img src="<? echo SITE_ADDR ?>/assets/images/about/home-one-about/cloud_about_1.jpg" alt="">
                                 </div>
                                 <!-- Animation Shape Start -->
                                 <div class="shape shape-1 scene">
-                                    <span data-depth="1"><img
-                                            src="<? echo SITE_ADDR ?>/assets/images/shape-animation/about-shape-2.png"
-                                            alt=""></span>
+                                    <span data-depth="1"><img src="<? echo SITE_ADDR ?>/assets/images/shape-animation/about-shape-2.png" alt=""></span>
                                 </div>
                                 <!-- Animation Shape End -->
                             </div>
@@ -595,16 +580,13 @@ include '../../../assets/php/inc/nav.php';
                                     <div class="card">
                                         <div class="card-header" id="headingOne">
                                             <h5 class="mb-0">
-                                                <a href="#" class="acc-btn border-0" data-toggle="collapse"
-                                                    data-target="#collapseOne" aria-expanded="true"
-                                                    aria-controls="collapseOne">
+                                                <a href="#" class="acc-btn border-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                                     Which AWS Certification is right for me?
                                                 </a>
                                             </h5>
                                         </div>
 
-                                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                                            data-parent="#accordionExample">
+                                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                                             <div class="card-body">
                                                 Learn about each AWS Certification <a href="#">exam
                                                     here</a>. To
@@ -618,16 +600,13 @@ include '../../../assets/php/inc/nav.php';
                                     <div class="card">
                                         <div class="card-header" id="headingTwo">
                                             <h5 class="mb-0">
-                                                <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse"
-                                                    data-target="#collapseTwo" aria-expanded="false"
-                                                    aria-controls="collapseTwo">
+                                                <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                                     Are there any mandatory training or exam requirements to take an AWS
                                                     Certification exam?
                                                 </a>
                                             </h5>
                                         </div>
-                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                                            data-parent="#accordionExample">
+                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                                             <div class="card-body">
                                                 Training is recommended as part of your certification
                                                 preparation, but it is not mandatory for the completion of the
@@ -640,15 +619,12 @@ include '../../../assets/php/inc/nav.php';
                                     <div class="card">
                                         <div class="card-header" id="headingThree">
                                             <h5 class="mb-0">
-                                                <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse"
-                                                    data-target="#collapseThree" aria-expanded="false"
-                                                    aria-controls="collapseThree">
+                                                <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                                     Why should I consider AWS Certified?
                                                 </a>
                                             </h5>
                                         </div>
-                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                                            data-parent="#accordionExample">
+                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                                             <div class="card-body">AWS Certification helps learners build credibility
                                                 and confidence by validating their cloud expertise with an
                                                 industry-recognized credential and organizations identify skilled
@@ -675,8 +651,7 @@ include '../../../assets/php/inc/nav.php';
 
 
     <!-- Contact Section Start -->
-    <div class="section section-padding contact-section" id="scrollTo" data-bg-color="#000" data-overlay="0.7"
-        data-bg-image="<? echo SITE_ADDR ?>/assets/images/bg/contact-bg.jpg">
+    <div class="section section-padding contact-section" id="scrollTo" data-bg-color="#000" data-overlay="0.7" data-bg-image="<? echo SITE_ADDR ?>/assets/images/bg/contact-bg.jpg">
 
         <div class="container">
             <div class="row row-cols-lg-2 row-cols-1 align-items-center">
@@ -695,8 +670,7 @@ include '../../../assets/php/inc/nav.php';
                         <!-- Contact Info Item Start -->
                         <div class="contact-info info-light" data-vivus-hover>
                             <div class="icon">
-                                <img class="svgInject"
-                                    src="<? echo SITE_ADDR ?>/assets/images/svg/linea/linea-basic-map.svg" alt="">
+                                <img class="svgInject" src="<? echo SITE_ADDR ?>/assets/images/svg/linea/linea-basic-map.svg" alt="">
                             </div>
                             <div class="info">
                                 <h4 class="title">Our Locations</h4>
@@ -711,9 +685,7 @@ include '../../../assets/php/inc/nav.php';
                         <!-- Contact Info Item Start -->
                         <div class="contact-info info-light" data-vivus-hover>
                             <div class="icon">
-                                <img class="svgInject"
-                                    src="<? echo SITE_ADDR ?>/assets/images/svg/linea/linea-basic-message-txt.svg"
-                                    alt="">
+                                <img class="svgInject" src="<? echo SITE_ADDR ?>/assets/images/svg/linea/linea-basic-message-txt.svg" alt="">
                             </div>
                             <div class="info">
                                 <h4 class="title">Give Us A Call</h4>
@@ -739,9 +711,7 @@ include '../../../assets/php/inc/nav.php';
                         <!-- Contact Info Item Start -->
                         <div class="contact-info info-light" data-vivus-hover>
                             <div class="icon">
-                                <img class="svgInject"
-                                    src="<? echo SITE_ADDR ?>/assets/images/svg/linea/linea-basic-mail-open-text.svg"
-                                    alt="">
+                                <img class="svgInject" src="<? echo SITE_ADDR ?>/assets/images/svg/linea/linea-basic-mail-open-text.svg" alt="">
                             </div>
                             <div class="info">
                                 <h4 class="title"> Help Desk</h4>
@@ -763,8 +733,7 @@ include '../../../assets/php/inc/nav.php';
                         <div class="section-title text-center mb-7">
                             <h2 class="title fz-28">Get in touch today!</h2>
                             <p class="sub-title">
-                                We have made it easy for clients to reach us and begin their cloud
-                                journey easily.
+                                We have made it easier for you to reach us and begin your learning journey.
                             </p>
                         </div>
 
@@ -782,11 +751,9 @@ include '../../../assets/php/inc/nav.php';
                             <input type="hidden" name="intDPAStatusPhoneID" value="1">
                             <input type="hidden" name="intDPAStatusSMSID" value="1">
                             <input type="hidden" name="intDPAStatusEmailID" value="1">
-                            <input type="hidden" name="strAPISuccessURL"
-                                value="http://www.robustittraining.com/thankyou" />
+                            <input type="hidden" name="strAPISuccessURL" value="http://www.robustittraining.com/thankyou" />
                             <input type="hidden" name="strAPIFailURL" value="http://www.robustittraining.com/sorry" />
-                            <input type="hidden" name="strLeadData2" id="strLeadData2"
-                                value="<? echo $leadIsFrom ?>/" />
+                            <input type="hidden" name="strLeadData2" id="strLeadData2" value="<? echo $leadIsFrom ?>/" />
                             <!-- //end -->
 
                             <div class="row mb-n4">
@@ -806,8 +773,7 @@ include '../../../assets/php/inc/nav.php';
                                     <textarea name="message" placeholder="Message"></textarea>
                                 </div>
                                 <div class="col-12 text-center mb-4">
-                                    <button class="btn btn-primary btn-hover-secondary">Submit inquiry <i
-                                            class="fas fa-chevron-right fcr-animate"></i></button>
+                                    <button class="btn btn-primary btn-hover-secondary">Start Learning <i class="fas fa-chevron-right fcr-animate"></i></button>
                                 </div>
                             </div>
                         </form>

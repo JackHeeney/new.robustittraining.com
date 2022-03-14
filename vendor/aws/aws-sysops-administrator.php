@@ -10,7 +10,7 @@ $meta['og:description'] = "Robust IT Training AWS SysOps Administrator course.";
 $meta['og:image'] = "";
 $meta['og:url'] = "";
 
-$leadIsFrom = "Lead is from /vendor/ec-council/certified-cloud-security-engineer";
+$leadIsFrom = "Lead is from /vendor/aws/aws-sysops-administrator";
 
 include '../../assets/php/inc/header.php';
 include '../../assets/php/inc/nav.php';
@@ -19,7 +19,7 @@ include '../../assets/php/inc/nav.php';
 <div id="page work-details" class="section">
     <!-- Page Title Section Start -->
     <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7"
-        data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/bg-certified-ethical-hacker.jpg">
+        data-bg-image="<?php echo SITE_ADDR ?>/assets/images/hero-image/hero-aws-cloud-practitioner.jpeg">
         <div class="page-title">
             <div class="container">
                 <h1 class="title">AWS SysOps Administrator</h1>
@@ -53,36 +53,49 @@ include '../../assets/php/inc/nav.php';
                                 course
                             </h2>
                             <div class="work-details-course-logo">
-                                <img src="<? echo SITE_ADDR ?>/assets/images/logo/ec-council/chfi.png"
+                                <img src="<? echo SITE_ADDR ?>/assets/images/logo/aws/AWS-SysOps-Administrator.png"
                                     alt="cloud practitioner logo" class="w-100">
                             </div>
                             <!-- Start Details List -->
-                            <div class="work-details-list mt-lg-12 mt-6">
+                            <div class="work-details-list my-10">
                                 <div class="details-list">
                                     <label>Exam Prefix</label>
-                                    <span>312-40 (ECC EXAM)</span>
+                                    <span>SOA-C02</span>
                                 </div>
 
                                 <div class="details-list">
                                     <label>Level</label>
-                                    <span>Professional</span>
+                                    <span>Associate</span>
                                 </div>
 
                                 <div class="details-list">
                                     <label>Length</label>
-                                    <span>4 hours to complete the exam</span>
+                                    <span>180 minutes to complete the exam</span>
                                 </div>
 
                                 <div class="details-list">
                                     <label>Format</label>
-                                    <span>125 questions; multiple choice</span>
+                                    <span>65 scoring opportunities that may be multiple choice, multiple response, or
+                                        exam lab
+                                    </span>
                                 </div>
 
 
                             </div>
                             <!-- End Details List -->
+
+                            <div class="work-btn mb-10">
+                                <a class="btn btn-outline-secondary btn-hover--secondary"
+                                    href="https://d1.awsstatic.com/training-and-certification/docs-sysops-associate/AWS-Certified-SysOps-Administrator-Associate_Exam-Guide.pdf"
+                                    target="_blank" alt="download aws sysops administrator exam guide">
+                                    Download the exam guide
+                                    <i class="fas fa-download fcr-animate"></i>
+                                </a>
+                            </div>
+
+
                             <!-- Start Work Share -->
-                            <div class="work-share">
+                            <div class="work-share mb-10">
                                 <div class="links">
                                     <ul>
                                         <li class="social-share facebook">
@@ -105,19 +118,6 @@ include '../../assets/php/inc/nav.php';
                                 </div>
                             </div>
                             <!-- End Work Share -->
-
-                            <!-- Start info graphic -->
-                            <div class="info-graphic" data-aos="zoom-in">
-                                <img class="image desktop"
-                                    src="<? echo SITE_ADDR ?>/assets/images/project/course-page-info-graphic-desktop.png"
-                                    alt="learning path info graphic">
-
-                                <img class="image mobile"
-                                    src="<? echo SITE_ADDR ?>/assets/images/project/course-page-info-graphic.png"
-                                    alt="learning path info graphic">
-
-                            </div>
-                            <!-- End info graphic -->
                         </div>
                     </div>
                 </div>
@@ -128,154 +128,73 @@ include '../../assets/php/inc/nav.php';
                     <div class="work-left work-details mt-0">
                         <div class="work-main-info">
                             <div class="work-content">
-                                <h6 class="title text-uppercase" data-aos="fade-up">
-                                    About the Certified Cloud Security Engineer Course
-                                </h6>
 
                                 <div class="desc mt-8">
                                     <div class="content mb-5" data-aos="fade-up">
                                         <p>
-                                            Cloud technology has transformed the technology landscape and will continue
-                                            to do so for years to come. EC-Council’s Certified Cloud Security Engineer
-                                            (CCSE) is a vendor-neutral course that focuses on cloud security practices,
-                                            technologies, frameworks, and principles to deliver a well-balanced mix of
-                                            the theoretical and practical skills you need to become a cloud security
-                                            expert.
-                                        </p>
-                                        <p>
-                                            CCSE was created with cloud security job roles in mind and is designed to
-                                            help you meet the challenges of tomorrow. As cloud technology evolves, you
-                                            should too – come learn the skills you need now to defend the technology of
-                                            tomorrow.
-
-
+                                            This credential helps organizations identify and develop talent with
+                                            critical skills for
+                                            implementing cloud initiatives. Earning AWS Certified SysOps Administrator –
+                                            Associate
+                                            demonstrates experience deploying, managing, and operating workloads on AWS.
                                         </p>
                                     </div>
 
-                                    <div class="content mb-10" data-aos="fade-up">
-                                        <h6 class="title mb-5" data-aos="fade-up">Why Certified Cloud Security
-                                            Engineer?</h6>
 
-                                        <!-- start -->
-                                        <div class="agency-accordion max-mb-n30" id="accordionWhy">
-                                            <div class="card">
-                                                <div class="card-header" id="headingWhyOne">
-                                                    <h5 class="mb-0">
-                                                        <a href="#" class="acc-btn border-0" data-toggle="collapse"
-                                                            data-target="#collapseWhyOne" aria-expanded="true"
-                                                            aria-controls="collapseWhyOne">
-                                                            Detailed Methodological Approach and Instructor-Led Program
-                                                        </a>
-                                                    </h5>
-                                                </div>
-
-                                                <div id="collapseWhyOne" class="collapse"
-                                                    aria-labelledby="headingWhyOne" data-parent="#accordionWhy">
-                                                    <div class="card-body">
-                                                        The CCSE program provides hands-on training to teach students
-                                                        how to create and implement security policies to safeguard cloud
-                                                        infrastructure and applications.
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- end -->
-                                            <!-- start -->
-                                            <div class="card">
-                                                <div class="card-header" id="headingWhyTwo">
-                                                    <h5 class="mb-0">
-                                                        <a href="#" class="acc-btn border-0 collapsed"
-                                                            data-toggle="collapse" data-target="#collapseWhyTwo"
-                                                            aria-expanded="false" aria-controls="collapseWhyTwo">
-                                                            Vendor-Neutral and Vendor-Specific Concepts
-                                                        </a>
-                                                    </h5>
-                                                </div>
-                                                <div id="collapseWhyTwo" class="collapse"
-                                                    aria-labelledby="headingWhyTwo" data-parent="#accordionWhy">
-                                                    <div class="card-body">
-                                                        CCSE is the first certification to offer a blend of
-                                                        vendor-neutral and vendor-specific concepts. The course covers
-                                                        features of cloud service providers such as AWS, Azure, and GCP.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- end -->
-                                            <!-- start -->
-                                            <div class="card">
-                                                <div class="card-header" id="headingWhyThree">
-                                                    <h5 class="mb-0">
-                                                        <a href="#" class="acc-btn border-0 collapsed"
-                                                            data-toggle="collapse" data-target="#collapseWhyThree"
-                                                            aria-expanded="false" aria-controls="collapseWhyThree">
-                                                            SOAR for Incident Response
-                                                        </a>
-                                                    </h5>
-                                                </div>
-                                                <div id="collapseWhyThree" class="collapse"
-                                                    aria-labelledby="headingWhyThree" data-parent="#accordionWhy">
-                                                    <div class="card-body">
-                                                        Learn to collect threat-related data using Security
-                                                        Orchestration, Automation, and Response (SOAR). Learn to create
-                                                        incident analysis reports and to automate incident response in
-                                                        the cloud.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- end -->
-                                            <!-- start -->
-                                            <div class="card">
-                                                <div class="card-header" id="headingWhyFour">
-                                                    <h5 class="mb-0">
-                                                        <a href="#" class="acc-btn border-0 collapsed"
-                                                            data-toggle="collapse" data-target="#collapseWhyFour"
-                                                            aria-expanded="false" aria-controls="collapseWhyFour">
-                                                            Best Practices to Secure Cloud Infrastructure
-                                                        </a>
-                                                    </h5>
-                                                </div>
-                                                <div id="collapseWhyFour" class="collapse"
-                                                    aria-labelledby="headingWhyFour" data-parent="#accordionWhy">
-                                                    <div class="card-body">
-                                                        Students will learn best practices for securing cloud
-                                                        infrastructure through evaluating cloud storage techniques and
-                                                        threats, configuring cloud services, designing and implementing
-                                                        incident respons...
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- end -->
-                                            <!-- start -->
-                                            <div class="card">
-                                                <div class="card-header" id="headingWhyFive">
-                                                    <h5 class="mb-0">
-                                                        <a href="#" class="acc-btn border-0 collapsed"
-                                                            data-toggle="collapse" data-target="#collapseWhyFive"
-                                                            aria-expanded="false" aria-controls="collapseWhyFive">
-                                                            Governance, Risk Management, and Compliance in the Cloud
-                                                        </a>
-                                                    </h5>
-                                                </div>
-                                                <div id="collapseWhyFive" class="collapse"
-                                                    aria-labelledby="headingWhyFive" data-parent="#accordionWhy">
-                                                    <div class="card-body">
-                                                        The CCSE program equips individuals with the skills to design
-                                                        and implement governance frameworks, models, and regulations
-                                                        such as ISO/IEC 27017, HIPAA, and PCI DSS.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- end -->
+                                    <h6 class="title  mt-10" data-aos="fade-up">
+                                        Who should take this exam?
+                                    </h6>
+                                    <div class="desc">
+                                        <div class="content " data-aos="fade-up">
+                                            <p>
+                                                AWS Certified SysOps Administrator – Associate is intended for system
+                                                administrators in cloud operations roles to validate technical skills.
+                                                Before you take this exam, we recommend you have:
+                                            </p>
+                                            <ul>
+                                                <li>
+                                                    A minimum of one year of hands-on experience with AWS technology
+                                                </li>
+                                                <li>
+                                                    Experience deploying, managing, and operating workloads on AWS as
+                                                    well as implementing security controls and compliance requirements
+                                                </li>
+                                                <li>
+                                                    Familiarity with using both the AWS Management Console and the AWS
+                                                    Command Line Interface (CLI)
+                                                </li>
+                                                <li>
+                                                    Understanding of the AWS Well-Architected Framework as well as AWS
+                                                    networking and security services
+                                                </li>
+                                            </ul>
                                         </div>
-
-
-
                                     </div>
 
+                                    <h6 class="title  mt-10" data-aos="fade-up">
+                                        What does it take to earn this certification?
+                                    </h6>
+                                    <div class="desc">
+                                        <div class="content " data-aos="fade-up">
+                                            <p>
+                                                To earn this certification, you’ll need to take and pass the AWS
+                                                Certified SysOps Administrator - Associate exam. The exam features a
+                                                combination of three possible question formats, including multiple
+                                                choice, multiple response, and exam labs. Exam labs allow you to
+                                                showcase your skills by building solutions using the AWS Management
+                                                Console and AWS Command Line Interface (CLI). Additional information,
+                                                such as the exam content outline and passing score, is in the exam
+                                                guide.
+                                            </p>
+                                        </div>
+                                    </div>
 
-                                    <div class="work-btn">
-                                        <a class="btn btn-primary btn-hover-secondary" href="#">Download the exam guide
-                                            <i class="fas fa-download fcr-animate"></i></a>
+                                    <div class="work-btn my-10">
+                                        <a class="btn btn-secondary btn-hover--secondary mb-5" href="#"
+                                            data-toggle="modal" data-target="#beginnersModal">
+                                            Beginners start here
+                                            <i class="fas fa-chevron-right fcr-animate"></i>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -301,33 +220,32 @@ include '../../assets/php/inc/nav.php';
                 </div>
                 <!-- Brand Section End -->
 
-                <!-- Start Labs Area -->
+                <!-- Start Benefits Area -->
                 <div class="container">
 
                     <div class="row align-items-center my-lg-20 my-12">
 
                         <div class="col-xl-5 col-lg-6 col-12" data-aos="fade-up">
-                            <!-- Skill With Video Content Start -->
                             <div class="skill-with-video-content">
                                 <!-- Section Title Two Start -->
                                 <div class="section-title-two mb-8">
                                     <h3 class="heading heading-h3"></h3>
 
-                                    <span class="sub-title">Benefit of the CHFI</span>
+                                    <span class="sub-title">Benefits at a Glance</span>
                                     <h2 class="title">
-                                        Course Benefits
+                                        Why use AWS?
                                     </h2>
                                 </div>
                                 <!-- Section Title Two End -->
 
-                                <!-- Agency List Start -->
+                                <!-- Benefits List Start -->
                                 <ul class="agency-list">
                                     <li class="item">
                                         <div class="icon">
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Inclusion of critical modules in Darkweb forensic and IoT Forensics
+                                            Easy to use
                                         </div>
                                     </li>
                                     <li class="item">
@@ -335,8 +253,7 @@ include '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Significant coverage of forensic methodologies for public cloud
-                                            infrastructure, including Amazon AWS and Microsoft Azure
+                                            Flexible
                                         </div>
                                     </li>
                                     <li class="item">
@@ -344,7 +261,7 @@ include '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Massive updates on all modules in CHFI
+                                            Cost-Effective
                                         </div>
                                     </li>
                                     <li class="item">
@@ -352,7 +269,7 @@ include '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Inclusion of latest forensic tools including Splunk, DNSQuerySniffer etc
+                                            Reliable
                                         </div>
                                     </li>
                                     <li class="item">
@@ -360,8 +277,7 @@ include '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Addition of new techniques such as Defeating Anti-forensic technique,
-                                            Windows ShellBags including analyzing LNK files and Jump Lists
+                                            Scalable and high-performance
                                         </div>
                                     </li>
                                     <li class="item">
@@ -369,52 +285,13 @@ include '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Extensive coverage of Malware Forensics (latest malware samples such as
-                                            Emotet and EternalBlue )
-                                        </div>
-                                    </li>
-                                    <li class="item">
-                                        <div class="icon">
-                                            <i class="fas fa-check"></i>
-                                        </div>
-                                        <div class="text">
-                                            Now more than 50GB of crafted evidence files for investigation purposes
-                                        </div>
-                                    </li>
-                                    <li class="item">
-                                        <div class="icon">
-                                            <i class="fas fa-check"></i>
-                                        </div>
-                                        <div class="text">
-                                            More than 50% of new and advanced forensic labs
-                                        </div>
-                                    </li>
-                                    <li class="item">
-                                        <div class="icon">
-                                            <i class="fas fa-check"></i>
-                                        </div>
-                                        <div class="text">
-                                            In-depth focus on Volatile and Non-volatile data acquisition and examination
-                                            process (RAM Forensics, Tor Forensics, etc.
-                                        </div>
-                                    </li>
-                                    <li class="item">
-                                        <div class="icon">
-                                            <i class="fas fa-check"></i>
-                                        </div>
-                                        <div class="text">
-                                            Accepted and trusted by cybersecurity practitioners across Fortune 500
-                                            globally.
+                                            Secure.
                                         </div>
                                     </li>
                                 </ul>
-                                <!-- Agency List End -->
-                                <a href="#scrollTo" id="startScroll" class="btn btn-primary btn-hover-secondary">
-                                    Get started
-                                    <i class="fas fa-chevron-right fcr-animate"></i>
-                                </a>
+                                <!-- Benefits List End -->
+
                             </div>
-                            <!-- Skill With Video Content End -->
                         </div>
 
                         <div class="offset-xl-1 col-xl-6 col-lg-6 col-12" data-aos="fade-up">
@@ -453,10 +330,13 @@ include '../../assets/php/inc/nav.php';
 
 
             <!-- Start Average Salary Area -->
-            <div class="row my-lg-12 my-10">
+            <div class="text-white row my-lg-12 my-10 p-10 pl-2 p-xl-10 pl-xl-10" data-bg-color="#fff"
+                data-bg-image="https://www.expatica.com/app/uploads/sites/10/2014/05/Find-a-job-1-1200x675.jpg"
+                data-overlay="0.9">
                 <div class="digital-marketing" data-aos="fade-up">
                     <div class="section-title-two">
-                        <span class="sub-title">Average salary after completing CHFI</span>
+                        <span class="sub-title text-white">Average salary for AWS SysOps Administrator
+                            professionals</span>
                     </div>
 
 
@@ -465,9 +345,11 @@ include '../../assets/php/inc/nav.php';
                     <div class="digital-marketing" data-aos="fade-up">
                         <div class="section-title-two mb-8">
                             <h2 class="title mb-5">
-                                £56,650.00 / year
+                                <div class="salary text-white">£<span class="counter">57,500.00</span>+</div>
                             </h2>
-                            <small>Avg. Base Salary (GBP)</small>.
+                            <small>The average aws sysops administrator salary in the United Kingdom is £57,500 per year
+                                or £29.49 per hour. Entry level positions start at £50,000 per year while most
+                                experienced workers make up to £63,500 per year</small>.
                         </div>
 
 
@@ -478,11 +360,11 @@ include '../../assets/php/inc/nav.php';
                         <div class="inner">
 
                             <div class="row">
-                                <h2 class="title mb-5">
+                                <h2 class="title mb-5 text-white">
                                     Job Roles
                                 </h2>
 
-                                <div class="col-6">
+                                <div class="col-12 col-xl-6">
                                     <!-- job roles List Start -->
                                     <ul class="agency-list">
                                         <li class="item">
@@ -490,7 +372,7 @@ include '../../assets/php/inc/nav.php';
                                                 <i class="fas fa-check"></i>
                                             </div>
                                             <div class="text">
-                                                Cloud Security Engineer
+                                                DevOps Engineer
                                             </div>
                                         </li>
                                         <li class="item">
@@ -498,7 +380,7 @@ include '../../assets/php/inc/nav.php';
                                                 <i class="fas fa-check"></i>
                                             </div>
                                             <div class="text">
-                                                Cloud Security Consultant
+                                                Remote System Administrator
                                             </div>
                                         </li>
                                         <li class="item">
@@ -506,7 +388,7 @@ include '../../assets/php/inc/nav.php';
                                                 <i class="fas fa-check"></i>
                                             </div>
                                             <div class="text">
-                                                Cyber Cloud Security Manager
+                                                AWS DevOps Engineer
                                             </div>
                                         </li>
                                         <li class="item">
@@ -514,7 +396,7 @@ include '../../assets/php/inc/nav.php';
                                                 <i class="fas fa-check"></i>
                                             </div>
                                             <div class="text">
-                                                Cloud Security Architect
+                                                Junior System Administrator
                                             </div>
                                         </li>
                                         <li class="item">
@@ -522,53 +404,14 @@ include '../../assets/php/inc/nav.php';
                                                 <i class="fas fa-check"></i>
                                             </div>
                                             <div class="text">
-                                                Cloud Security Manager
+                                                AWS Cloud Systems Engineer
                                             </div>
                                         </li>
-                                        <li class="item">
-                                            <div class="icon">
-                                                <i class="fas fa-check"></i>
-                                            </div>
-                                            <div class="text">
-                                                API Cloud Security Engineer
-                                            </div>
-                                        </li>
-                                        <li class="item">
-                                            <div class="icon">
-                                                <i class="fas fa-check"></i>
-                                            </div>
-                                            <div class="text">
-                                                Cloud Security Technical Lead
-                                            </div>
-                                        </li>
-                                        <li class="item">
-                                            <div class="icon">
-                                                <i class="fas fa-check"></i>
-                                            </div>
-                                            <div class="text">
-                                                Cloud Security Administrator
-                                            </div>
-                                        </li>
-                                        <li class="item">
-                                            <div class="icon">
-                                                <i class="fas fa-check"></i>
-                                            </div>
-                                            <div class="text">
-                                                Cloud Security Analyst
-                                            </div>
-                                        </li>
-                                        <li class="item">
-                                            <div class="icon">
-                                                <i class="fas fa-check"></i>
-                                            </div>
-                                            <div class="text">
-                                                Cloud Security Specialist
-                                            </div>
-                                        </li>
+
                                     </ul>
                                     <!-- job roles List End -->
                                 </div>
-                                <div class="col-6">
+                                <div class="col-12 col-xl-6">
                                     <!-- job roles List Start -->
                                     <ul class="agency-list">
                                         <li class="item">
@@ -576,7 +419,7 @@ include '../../assets/php/inc/nav.php';
                                                 <i class="fas fa-check"></i>
                                             </div>
                                             <div class="text">
-                                                Cloud Security and Compliance Specialist
+                                                IT Operations Engineer
                                             </div>
                                         </li>
                                         <li class="item">
@@ -584,7 +427,7 @@ include '../../assets/php/inc/nav.php';
                                                 <i class="fas fa-check"></i>
                                             </div>
                                             <div class="text">
-                                                Cloud Security Operations Lead
+                                                AWS Cloud Engineer
                                             </div>
                                         </li>
                                         <li class="item">
@@ -592,7 +435,7 @@ include '../../assets/php/inc/nav.php';
                                                 <i class="fas fa-check"></i>
                                             </div>
                                             <div class="text">
-                                                Cloud Security Practice Manager
+                                                IT Operations Engineer
                                             </div>
                                         </li>
                                         <li class="item">
@@ -600,7 +443,7 @@ include '../../assets/php/inc/nav.php';
                                                 <i class="fas fa-check"></i>
                                             </div>
                                             <div class="text">
-                                                Cloud Security Engineer – DevSecOps
+                                                AWS Systems Development
                                             </div>
                                         </li>
                                         <li class="item">
@@ -608,50 +451,10 @@ include '../../assets/php/inc/nav.php';
                                                 <i class="fas fa-check"></i>
                                             </div>
                                             <div class="text">
-                                                DevSecOps Cloud Security Architect
+                                                Senior Data Engineer
                                             </div>
                                         </li>
-                                        <li class="item">
-                                            <div class="icon">
-                                                <i class="fas fa-check"></i>
-                                            </div>
-                                            <div class="text">
-                                                Cloud Security/OPS
-                                            </div>
-                                        </li>
-                                        <li class="item">
-                                            <div class="icon">
-                                                <i class="fas fa-check"></i>
-                                            </div>
-                                            <div class="text">
-                                                Cloud Security SME
-                                            </div>
-                                        </li>
-                                        <li class="item">
-                                            <div class="icon">
-                                                <i class="fas fa-check"></i>
-                                            </div>
-                                            <div class="text">
-                                                Cloud Security Project Manager
-                                            </div>
-                                        </li>
-                                        <li class="item">
-                                            <div class="icon">
-                                                <i class="fas fa-check"></i>
-                                            </div>
-                                            <div class="text">
-                                                Cloud Security/Operations Engineer
-                                            </div>
-                                        </li>
-                                        <li class="item">
-                                            <div class="icon">
-                                                <i class="fas fa-check"></i>
-                                            </div>
-                                            <div class="text">
-                                                Cloud Security/Infosec/SecOps Engineer
 
-                                            </div>
-                                        </li>
                                     </ul>
                                     <!-- job roles List End -->
                                 </div>
@@ -872,8 +675,7 @@ include '../../assets/php/inc/nav.php';
                         <div class="section-title text-center mb-7">
                             <h2 class="title fz-28">Get in touch today!</h2>
                             <p class="sub-title">
-                                We have made it easy for clients to reach us and begin their cloud
-                                journey easily.
+                                We have made it easier for you to reach us and begin your learning journey.
                             </p>
                         </div>
 
@@ -915,7 +717,7 @@ include '../../assets/php/inc/nav.php';
                                     <textarea name="message" placeholder="Message"></textarea>
                                 </div>
                                 <div class="col-12 text-center mb-4">
-                                    <button class="btn btn-primary btn-hover-secondary">Submit inquiry <i
+                                    <button class="btn btn-primary btn-hover-secondary">Start Learning <i
                                             class="fas fa-chevron-right fcr-animate"></i></button>
                                 </div>
                             </div>

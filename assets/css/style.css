@@ -6809,7 +6809,7 @@ fieldset:disabled .btn {
 .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #1292ee;
+  background-color: var(--rb-primary);
 }
 .dropdown-item.disabled,
 .dropdown-item:disabled {
@@ -8664,6 +8664,7 @@ fieldset:disabled .btn {
   -ms-flex-align: center;
   align-items: center;
   min-height: calc(100% - 1rem);
+
 }
 
 .modal-content {
@@ -8690,7 +8691,7 @@ fieldset:disabled .btn {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1040;
+  /* z-index: 1040; */
   width: 100vw;
   height: 100vh;
   background-color: #000;
@@ -35986,7 +35987,7 @@ textarea:focus {
   font-size: 20px;
   line-height: 1;
   margin: 0;
-  color: #030f27;
+  color: #fff;
 }
 .icon-box .content .desc {
   margin-top: 25px;
@@ -36003,7 +36004,7 @@ textarea:focus {
 }
 .icon-box .content .desc p {
   line-height: 1.6;
-  color: #748494;
+  color: #fff;
 }
 .icon-box .content .link {
   font-size: 16px;
@@ -36016,8 +36017,12 @@ textarea:focus {
   -ms-flex-align: center;
   align-items: center;
   margin-top: 35px;
-  color: #1292ee;
+  color: #fff;
 }
+.icon-box .content .link:hover {
+  color: var(--rb-primary) !important;
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .icon-box .content .link {
     margin-top: 20px;
@@ -36037,8 +36042,9 @@ textarea:focus {
   z-index: 1;
 }
 .icon-box:hover .content .link {
-  color: #1292ee;
-}
+  color: var(--rb-primary);
+  transition: 200ms ease-in-out;
+} 
 
 .icon-box-shape-animation {
   position: relative;
@@ -36334,7 +36340,7 @@ textarea:focus {
 }
 .brand-list .brand a img {
   opacity: 1;
-  transform: scale(0.9);
+  transform: scale(1);
   transition: 250ms ease-in-out;
 }
 .brand-list .brand:hover a img {
@@ -39531,7 +39537,9 @@ h5 {
   opacity: 1;
   visibility: visible;
 }
-
+.mesonry-list .col {
+  padding: 0 10px;
+}
 .single-portfolio {
   display: block;
   position: relative;
@@ -39553,7 +39561,7 @@ h5 {
   transition: all 0.5s ease 0s;
   opacity: 0;
   background: linear-gradient(
-    145deg,
+    45deg,
     rgba(219, 17, 201, 0.8) 0%,
     rgba(63, 9, 121, 0.8) 50%,
     rgba(0, 212, 255, 1) 100%
@@ -39980,8 +39988,8 @@ h5 {
 /* 12.06 Work Details CSS */
 .portfolio-main-info .title,
 .digital-marketing .title {
-  font-size: 42px;
-  line-height: 1.3;
+  font-size: 48px;
+  line-height: 42px;
   margin-bottom: 0;
   display: flex;
 }
@@ -39990,20 +39998,20 @@ h5 {
   position: absolute;
   max-width: 200px;
   top: -50px;
-  left: 220px;
-  display: block;
+  left: 240px;
+  display: block; 
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .portfolio-main-info .title,
   .digital-marketing .title {
-    font-size: 36px;
+    font-size: 48px; 
   }
 }
 @media only screen and (max-width: 767px) {
   .portfolio-main-info .title,
   .digital-marketing .title {
-    font-size: 32px;
+    font-size: 48px;
   }
   .work-details-course-logo {
     max-width: 170px;
@@ -40061,34 +40069,153 @@ h5 {
   text-decoration: underline;
 }
 
+.work-main-info .title {
+  font-size: 48px;
+    line-height: 42px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
 .info-graphic {
   position: relative;
   right: 20px;
 }
-.info-graphic .image {
-  width: 100%;
-  -webkit-transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
-  -o-transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
-  transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
+:root {
+  --n: 4;
 }
-.info-graphic:hover .image {
-  -webkit-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  transform: scale(1.5);
+
+.info-graphic {
+  --i: var(--wide, 1);
+  --j: calc(1 - var(--i));
+  --k: calc(1 - var(--narr, 1));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background: repeating-linear-gradient(-45deg, #e7e7e7 0, #e7e7e7 2px, transparent 0, transparent 10px); */
+  font-size: 0.8em;
+  font-weight: 400;
+  line-height: 1em;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em; 
 }
+
+/* .info-graphic:after {
+  margin-top: 1em;
+  width: 25em;
+  height: 1.5em;
+  max-width: 100%;
+  background: radial-gradient(
+    closest-side,
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0.35) 15%,
+    transparent
+  );
+  filter: blur(3px);
+  content: "";
+} */
+
+@media (max-width: 43em) {
+  .info-graphic {
+    --wide: 1;
+  }
+}
+
+@media (min-width: 270px) {
+  .info-graphic {
+    --narr: 0;
+  }
+}
+
+.info-graphic p {
+  --p: var(--parity, 1);
+  --q: calc(1 - var(--p));
+  --s: calc(1 - 2 * var(--p));
+  display: flex;
+  flex-direction: var(--narr, column);
+  align-items: center;
+  justify-content: center;
+  margin: calc(var(--j) * 0.25em) 0;
+  padding: calc(var(--i) * 10em / var(--n) + var(--j) * 5vw)
+    calc(var(--i) * 10em + var(--j) * 2vw);
+  width: calc(var(--i) * 40em + var(--j) * 100%);
+  min-height: var(--wide, calc(40em / var(--n)));
+  transform: translate(calc(var(--i) * var(--s) * -1.5em)) scale(1);
+  box-shadow: 10px 30px 100px #6772c5;
+  background: radial-gradient(
+        at calc(var(--q) * 100%) 0,
+        rgba(0, 0, 0, calc),
+        transparent 63%
+      )
+      calc(var(--q) * 100%) 0/ 65% 65% no-repeat,
+    linear-gradient(calc(var(--s) * -90deg), #000, #858585);
+  background: rgb(219, 17, 201);
+  background: linear-gradient(
+    145deg,
+    var(--rb-primary) 0%,
+    var(--rb-secondary) 100%
+  );
+  color: #fff;
+  text-align: var(--parity, right);
+  clip-path: var(
+    --wide,
+    circle(20em at 50% calc((0.5 * var(--n) - var(--idx)) * 40em / var(--n)))
+  );
+  counter-increment: idx;
+  transition: 500ms ease-in-out;
+}
+
 @media only screen and (max-width: 768px) {
-  .info-graphic .image {
-    width: 100%;
-    -webkit-transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
-    -o-transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
-    transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
-  }
-  .info-graphic:hover .image {
-    -webkit-transform: scale(1.5);
-    -ms-transform: scale(1.5);
-    transform: scale(1.5);
+  .info-graphic p {
+    box-shadow: 0px 0px 0px transparent;
   }
 }
+
+.info-graphic p:before {
+  margin: 0 calc(var(--k) * var(--q) * 0.25em) 0
+    calc(var(--k) * var(--p) * 0.25em);
+  order: calc(var(--k) * var(--p));
+  font-size: 4em;
+  content: counter(idx, decimal-leading-zero);
+}
+
+.info-graphic p:nth-child(odd) {
+  --parity: 0;
+}
+
+/* 
+.info-graphic p:nth-child(odd):hover {
+  --parity: 0;
+}
+
+.info-graphic p:hover {
+  --parity: 0;
+}
+*/
+.info-graphic p:hover:nth-child(1) {
+  transform: translateX(20px);
+  transition: 500ms ease-in-out;
+  /* --p: var(--parity, 0); */
+}
+
+.info-graphic p:hover:nth-child(2) {
+  transform: translateX(-20px);
+  transition: 500ms ease-in-out;
+  /* --p: var(--parity, 0); */
+}
+
+.info-graphic p:hover:nth-child(3) {
+  transform: translateX(20px);
+  transition: 500ms ease-in-out;
+  /* --p: var(--parity, 0); */
+}
+
+.info-graphic p:hover:nth-child(4) {
+  transform: translateX(-20px);
+  transition: 500ms ease-in-out;
+  /* --p: var(--parity, 0); */
+}
+
 
 /*----------------------------------------*/
 /*  08. Blog CSS

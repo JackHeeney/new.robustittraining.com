@@ -53,6 +53,13 @@
 
                 <div class="swiper-slide brand">
                     <a href="<? echo SITE_ADDR ?>/">
+                        <img src="<? echo SITE_ADDR ?>/assets/images/brand/client-logo-10.png"
+                            alt="Armed Forces Covenant" title="Armed Forces Covenant">
+                    </a>
+                </div>
+
+                <div class="swiper-slide brand">
+                    <a href="<? echo SITE_ADDR ?>/">
                         <img src="<? echo SITE_ADDR ?>/assets/images/brand/client-logo-08.png" alt="TLM Logo"
                             title="TLM Partners">
                     </a>

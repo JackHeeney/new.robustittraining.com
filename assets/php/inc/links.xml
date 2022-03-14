@@ -84,4 +84,32 @@
     <url>https://www.robustittraining.com/vendor/ec-council/certified-cloud-security-engineer</url>
     <desc>Official EC-Council Certified Cloud Security Engineer training.</desc>
   </link>
+
+  <!-- = Amazon Web Services = -->
+  <link>
+    <title>AWS Cloud Practitioner</title>
+    <url>https://www.robustittraining.com/vendor/aws/aws-cloud-practitioner</url>
+    <desc>Official AWS Cloud Practitioner.</desc>
+  </link>
+  <link>
+    <title>AWS Solutions Architect (Associate)</title>
+    <url>https://www.robustittraining.com/vendor/aws/aws-cloud-practitioner</url>
+    <desc>Official AWS Cloud Practitioner.</desc>
+  </link>
+  <link>
+    <title>AWS Solutions Architect (Professional)</title>
+    <url>https://www.robustittraining.com/vendor/aws/aws-cloud-practitioner</url>
+    <desc>Official AWS Cloud Practitioner.</desc>
+  </link>
+  <link>
+    <title>AWS SysOps Administrator</title>
+    <url>https://www.robustittraining.com/vendor/aws/aws-cloud-practitioner</url>
+    <desc>Official AWS Cloud Practitioner.</desc>
+  </link>
+  <link>
+    <title>AWS Developer</title>
+    <url>https://www.robustittraining.com/vendor/aws/aws-cloud-practitioner</url>
+    <desc>Official AWS Cloud Practitioner.</desc>
+  </link>
+
 </pages>

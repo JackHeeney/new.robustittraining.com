@@ -18,8 +18,7 @@ include '../../assets/php/inc/nav.php';
 
 <div id="page work-details" class="section">
     <!-- Page Title Section Start -->
-    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7"
-        data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/bg-certified-ethical-hacker.jpg">
+    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7" data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/bg-certified-ethical-hacker.jpg">
         <div class="page-title">
             <div class="container">
                 <h1 class="title">Certified Network Defender</h1>
@@ -53,11 +52,10 @@ include '../../assets/php/inc/nav.php';
                                 course
                             </h2>
                             <div class="work-details-course-logo">
-                                <img src="<? echo SITE_ADDR ?>/assets/images/logo/ec-council/cnd.png"
-                                    alt="cloud practitioner logo" class="w-100">
+                                <img src="<? echo SITE_ADDR ?>/assets/images/logo/ec-council/cnd.png" alt="cloud practitioner logo" class="w-100">
                             </div>
                             <!-- Start Details List -->
-                            <div class="work-details-list mt-lg-12 mt-6">
+                            <div class="work-details-list my-10">
                                 <div class="details-list">
                                     <label>Exam Prefix</label>
                                     <span>312-38 (ECC EXAM)</span>
@@ -81,24 +79,29 @@ include '../../assets/php/inc/nav.php';
 
                             </div>
                             <!-- End Details List -->
+
+                            <div class="work-btn mb-10">
+                                <a class="btn btn-outline-secondary btn-hover--secondary" href="https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS-Certified-Solutions-Architect-Associate_Exam-Guide.pdf" target="_blank" alt="download CND exam guide">
+                                    Download the exam guide
+                                    <i class="fas fa-download fcr-animate"></i>
+                                </a>
+                            </div>
+
                             <!-- Start Work Share -->
-                            <div class="work-share">
+                            <div class="work-share mb-10">
                                 <div class="links">
                                     <ul>
                                         <li class="social-share facebook">
-                                            <h6 class="heading heading-h6">Share on Facebook <i
-                                                    class="fas fa-share fcr-animate"></i></h6>
+                                            <h6 class="heading heading-h6">Share on Facebook <i class="fas fa-share fcr-animate"></i></h6>
 
                                         </li>
                                         <li class="social-share twitter">
-                                            <h6 class="heading heading-h6">Share on Twitter <i
-                                                    class="fas fa-share fcr-animate"></i>
+                                            <h6 class="heading heading-h6">Share on Twitter <i class="fas fa-share fcr-animate"></i>
                                             </h6>
 
                                         </li>
                                         <li class="social-share linkedin">
-                                            <h6 class="heading heading-h6">Share on LinkedIn <i
-                                                    class="fas fa-share fcr-animate"></i></h6>
+                                            <h6 class="heading heading-h6">Share on LinkedIn <i class="fas fa-share fcr-animate"></i></h6>
 
                                         </li>
                                     </ul>
@@ -106,18 +109,6 @@ include '../../assets/php/inc/nav.php';
                             </div>
                             <!-- End Work Share -->
 
-                            <!-- Start info graphic -->
-                            <div class="info-graphic" data-aos="zoom-in">
-                                <img class="image desktop"
-                                    src="<? echo SITE_ADDR ?>/assets/images/project/course-page-info-graphic-desktop.png"
-                                    alt="learning path info graphic">
-
-                                <img class="image mobile"
-                                    src="<? echo SITE_ADDR ?>/assets/images/project/course-page-info-graphic.png"
-                                    alt="learning path info graphic">
-
-                            </div>
-                            <!-- End info graphic -->
                         </div>
                     </div>
                 </div>
@@ -128,9 +119,7 @@ include '../../assets/php/inc/nav.php';
                     <div class="work-left work-details mt-0">
                         <div class="work-main-info">
                             <div class="work-content">
-                                <h6 class="title text-uppercase" data-aos="fade-up">
-                                    About the Certified Network Defender Course
-                                </h6>
+
 
                                 <div class="desc mt-8">
                                     <div class="content mb-5" data-aos="fade-up">
@@ -153,6 +142,39 @@ include '../../assets/php/inc/nav.php';
                                         </p>
                                     </div>
                                     <div class="content mb-5" data-aos="fade-up">
+                                        <h6 class="title" data-aos="fade-up">Who Should Get Trained in Network Security?
+                                        </h6>
+                                        <p>
+                                            According to LinkedIn’s 2020 Emerging Jobs Report, Network Defender jobs are
+                                            in high demand — and have been for the last 3 years! Globally, Network
+                                            Administrators and Engineers are adding significant value to their jobs and
+                                            salary by learning critical network security and network defense skills.
+                                        </p>
+                                        <p>
+                                            Certified Network Defender v2 is recommended for individuals who have
+                                            fundamental knowledge of networking concepts. It will also help individuals
+                                            from the below mentioned job roles progress further in their career:
+                                        </p>
+                                        <ul>
+                                            <li>
+                                                Network Administrators
+                                            </li>
+                                            <li>
+                                                IT Administrators
+                                            </li>
+                                            <li>
+                                                Network Engineers
+                                            </li>
+                                            <li>
+                                                Data Analysts
+                                            </li>
+                                            <li>
+                                                Network Technicians
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="content mb-5" data-aos="fade-up">
                                         <h6 class="title" data-aos="fade-up">What does it take to earn this
                                             certification?</h6>
                                         <p>
@@ -165,46 +187,11 @@ include '../../assets/php/inc/nav.php';
                                             that can be applied to current network security technologies and operations.
                                         </p>
                                     </div>
-                                    <div class="content mb-5" data-aos="fade-up">
-                                        <h6 class="title" data-aos="fade-up">Careers paths for CND</h6>
-                                        <p>
-                                            After completing this training you could apply for jobs such as:
-                                        </p>
-                                        <ul>
-                                            <li>
-                                                Security Analyst
-                                            </li>
-                                            <li>
-                                                Cyber Security Analyst, Senior
-                                            </li>
-                                            <li>
-                                                Cyber Security Analyst, Principal
-                                            </li>
-                                            <li>
-                                                Vulnerability Analyst, Principal
-                                            </li>
-                                            <li>
-                                                Network Administrator
-                                            </li>
-                                            <li>
-                                                Staff Network Engineer
-                                            </li>
-                                            <li>
-                                                Information Systems Security Manager
-                                            </li>
-                                            <li>
-                                                Mid Level Penetration Tester
-                                            </li>
-                                            <li>
-                                                Linux System Administrator
-                                            </li>
-                                        </ul>
-                                    </div>
 
 
                                     <div class="work-btn">
-                                        <a class="btn btn-primary btn-hover-secondary" href="#">Download the exam guide
-                                            <i class="fas fa-download fcr-animate"></i></a>
+                                        <a class="btn btn-secondary btn-hover--secondary" href="#">Beginners start here
+                                            <i class="fas fa-chevron-right fcr-animate"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -239,13 +226,15 @@ include '../../assets/php/inc/nav.php';
                             <!-- Skill With Video Content Start -->
                             <div class="skill-with-video-content">
                                 <!-- Section Title Two Start -->
-                                <div class="section-title-two mb-8">
-                                    <h3 class="heading heading-h3"></h3>
+                                <div class="section-title-two mb-4">
 
-                                    <span class="sub-title">Benefits of the CND</span>
+                                    <span class="sub-title">How You Will Benefit from CND v2</span>
+
+
                                     <h2 class="title">
-                                        Course Benefits
+                                        Why use CND?
                                     </h2>
+
                                 </div>
                                 <!-- Section Title Two End -->
 
@@ -256,7 +245,8 @@ include '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            A dedicated focus on IoT security
+                                            Based on Common Job Role frameworks recognized by organizations around the
+                                            world.
                                         </div>
                                     </li>
                                     <li class="item">
@@ -264,7 +254,7 @@ include '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Network virtualization practices for the remote workforce
+                                            ANSI/ISO/IEC 17024 accredited Certification Program.
                                         </div>
                                     </li>
                                     <li class="item">
@@ -272,7 +262,7 @@ include '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Enhanced Cloud Security & IoT and Operational Technology (OT) Modules
+                                            Mapped to the NICE 2.0 framework.
                                         </div>
                                     </li>
                                     <li class="item">
@@ -280,7 +270,11 @@ include '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Introduction to threat intelligence
+                                            Focuses on latest technologies including Cloud, IoT, Virtualization and
+                                            Remote Worker Threats, Attack Surface Analysis, Threat Intelligence,
+                                            Software Defined Networks (SDN), and Network Function Virtualization (NFV),
+                                            as well as docker, Kubernetes, and container security.
+
                                         </div>
                                     </li>
                                     <li class="item">
@@ -288,15 +282,13 @@ include '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            In-depth Attack Surface Analysis
+                                            Covers the latest tools, techniques, and methodologies used by top
+                                            cybersecurity experts around the world.
+
                                         </div>
                                     </li>
                                 </ul>
-                                <!-- Agency List End -->
-                                <a href="#scrollTo" id="startScroll" class="btn btn-primary btn-hover-secondary">
-                                    Get started
-                                    <i class="fas fa-chevron-right fcr-animate"></i>
-                                </a>
+
                             </div>
                             <!-- Skill With Video Content End -->
                         </div>
@@ -306,8 +298,7 @@ include '../../assets/php/inc/nav.php';
                             <div class="video-popup-area">
                                 <!-- Video Popup Start -->
                                 <div class="skill-video" data-aos="fade-up">
-                                    <img class="image" src="<? echo SITE_ADDR ?>/assets/images/video/skill-video.jpg"
-                                        alt="video popup">
+                                    <img class="image" src="<? echo SITE_ADDR ?>/assets/images/video/skill-video.jpg" alt="video popup">
                                     <a href="https://www.youtube.com/watch?v=eS9Qm4AOOBY" class="icon video-popup">
                                         <i class="fas fa-play"></i>
                                     </a>
@@ -317,8 +308,7 @@ include '../../assets/php/inc/nav.php';
                                 <!-- Animation Shape Start -->
                                 <div class="shape shape-1 scene">
                                     <span data-depth="1">
-                                        <img src="<? echo SITE_ADDR ?>/assets/images/shape-animation/video-shape-1.png"
-                                            alt="">
+                                        <img src="<? echo SITE_ADDR ?>/assets/images/shape-animation/video-shape-1.png" alt="">
                                     </span>
                                 </div>
                                 <!-- Animation Shape End -->
@@ -337,13 +327,20 @@ include '../../assets/php/inc/nav.php';
 
 
             <!-- Start Average Salary Area -->
-            <div class="row my-lg-12 my-10">
+            <div class="text-white row my-lg-12 my-10 p-10 pl-2 p-xl-10 pl-xl-10" data-bg-color="#fff" data-bg-image="https://www.expatica.com/app/uploads/sites/10/2014/05/Find-a-job-1-1200x675.jpg" data-overlay="0.9">
+                <div class="digital-marketing" data-aos="fade-up">
+                    <div class="section-title-two">
+                        <span class="sub-title text-white">Average salary for Certified Network Defender
+                            Professionals</span>
+                    </div>
+
+
+                </div>
                 <div class="col-lg-4 col-md-12 col-12">
                     <div class="digital-marketing" data-aos="fade-up">
                         <div class="section-title-two mb-8">
-                            <span class="sub-title">Average salary after completing CND</span>
                             <h2 class="title mb-5">
-                                <div class="salary">£<span class="counter">51,450.00</span>+</div>
+                                <div class="salary text-white">£<span class="counter">51,450.00</span>+</div>
                             </h2>
                             <small>Avg. Base Salary (GBP)</small>.
                         </div>
@@ -354,16 +351,122 @@ include '../../assets/php/inc/nav.php';
                 <div class="col-lg-7 col-md-12 col-12 offset-lg-1">
                     <div class="digital-marketing mt-lg-0 mt-6" data-aos="fade-up">
                         <div class="inner">
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ipsum possimus, dolore
-                                earum officia corporis aspernatur asperiores recusandae ut perspiciatis atque facere ex
-                                soluta, quisquam nesciunt facilis perferendis vitae iure.
-                            </p>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ipsum possimus, dolore
-                                earum officia corporis aspernatur asperiores recusandae ut perspiciatis atque facere ex
-                                soluta, quisquam nesciunt facilis perferendis vitae iure.
-                            </p>
+
+                            <div class="row">
+                                <h2 class="title mb-5 text-white">
+                                    Job Roles
+                                </h2>
+
+                                <div class="col-12 col-xl-6">
+                                    <!-- job roles List Start -->
+                                    <ul class="agency-list">
+                                        <li class="item">
+                                            <div class="icon">
+                                                <i class="fas fa-check"></i>
+                                            </div>
+                                            <div class="text">
+                                                Associate Network
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <div class="icon">
+                                                <i class="fas fa-check"></i>
+                                            </div>
+                                            <div class="text">
+                                                Tier 2 SOC Analyst
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <div class="icon">
+                                                <i class="fas fa-check"></i>
+                                            </div>
+                                            <div class="text">
+                                                SOC Engineer
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <div class="icon">
+                                                <i class="fas fa-check"></i>
+                                            </div>
+                                            <div class="text">
+                                                IT Security Administrator
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <div class="icon">
+                                                <i class="fas fa-check"></i>
+                                            </div>
+                                            <div class="text">
+                                                Cyber Security Lead
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <div class="icon">
+                                                <i class="fas fa-check"></i>
+                                            </div>
+                                            <div class="text">
+                                                Cyber Security Engineer
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <!-- job roles List End -->
+                                </div>
+                                <div class="col-12 col-xl-6">
+                                    <!-- job roles List Start -->
+                                    <ul class="agency-list">
+                                        <li class="item">
+                                            <div class="icon">
+                                                <i class="fas fa-check"></i>
+                                            </div>
+                                            <div class="text">
+                                                Network Security Engineer
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <div class="icon">
+                                                <i class="fas fa-check"></i>
+                                            </div>
+                                            <div class="text">
+                                                Security Consulting Manager
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <div class="icon">
+                                                <i class="fas fa-check"></i>
+                                            </div>
+                                            <div class="text">
+                                                Network Engineer
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <div class="icon">
+                                                <i class="fas fa-check"></i>
+                                            </div>
+                                            <div class="text">
+                                                Security Delivery Manager (MSS)
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <div class="icon">
+                                                <i class="fas fa-check"></i>
+                                            </div>
+                                            <div class="text">
+                                                Security Architect
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <div class="icon">
+                                                <i class="fas fa-check"></i>
+                                            </div>
+                                            <div class="text">
+                                                Principal SOC Analyst
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                    <!-- job roles List End -->
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -375,36 +478,14 @@ include '../../assets/php/inc/nav.php';
                 <div class="container">
                     <div class="row my-lg-14 my-7">
 
-                        <!-- FAQ Image Area Start -->
-                        <div class="col-xl-7 col-lg-6 col-12" data-aos="fade-up">
-                            <div class="about-image-area">
-                                <div class="about-image js-tilt">
-                                    <img src="<? echo SITE_ADDR ?>/assets/images/about/home-one-about/cloud_about_2.jpg"
-                                        alt="">
-                                </div>
-                                <div class="about-image js-tilt">
-                                    <img src="<? echo SITE_ADDR ?>/assets/images/about/home-one-about/cloud_about_1.jpg"
-                                        alt="">
-                                </div>
-                                <!-- Animation Shape Start -->
-                                <div class="shape shape-1 scene">
-                                    <span data-depth="1"><img
-                                            src="<? echo SITE_ADDR ?>/assets/images/shape-animation/about-shape-2.png"
-                                            alt=""></span>
-                                </div>
-                                <!-- Animation Shape End -->
-                            </div>
-                        </div>
-                        <!-- FAQ Image Area Start -->
-
                         <!-- FAQ Start -->
-                        <div class="col-xl-5 col-lg-6 col-12 mt-lg-1 mt-20" data-aos="fade-up">
+                        <div class="col-12 mt-lg-1 mt-20" data-aos="fade-up">
                             <!-- FAQ Content Area Start -->
                             <div class="faq-content">
                                 <!-- Section Title Two Start -->
                                 <div class="section-title-two">
-                                    <span class="sub-title">Frequently asked questions</span>
-                                    <h3 class="title">You’ve got questions & <br> we’ve got answers</h3>
+                                    <span class="sub-title">Career with CND</span>
+                                    <h3 class="title">How CND v2 Will Build Your Career</h3>
                                 </div>
                                 <!-- Section Title Two End -->
 
@@ -412,22 +493,19 @@ include '../../assets/php/inc/nav.php';
                                     <div class="card">
                                         <div class="card-header" id="headingOne">
                                             <h5 class="mb-0">
-                                                <a href="#" class="acc-btn border-0" data-toggle="collapse"
-                                                    data-target="#collapseOne" aria-expanded="true"
-                                                    aria-controls="collapseOne">
-                                                    Which AWS Certification is right for me?
+                                                <a href="#" class="acc-btn border-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                    Your pathway to a career in a blue team
                                                 </a>
                                             </h5>
                                         </div>
 
-                                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                                            data-parent="#accordionExample">
+                                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                                             <div class="card-body">
-                                                Learn about each AWS Certification <a href="#">exam
-                                                    here</a>. To
-                                                learn more about the benefits of AWS Certification, <a href="#">go
-                                                    here</a>.
-
+                                                The <strong>Protect, Detect, Respond, and Predict</strong> approach
+                                                defines the job roles
+                                                for a Blue Team Security Professional. One can continue their career as
+                                                a Network Defender or later transition into a niche job profile as CND
+                                                v2 covers a base understanding of Blue Teams.
                                             </div>
                                         </div>
                                     </div>
@@ -435,21 +513,16 @@ include '../../assets/php/inc/nav.php';
                                     <div class="card">
                                         <div class="card-header" id="headingTwo">
                                             <h5 class="mb-0">
-                                                <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse"
-                                                    data-target="#collapseTwo" aria-expanded="false"
-                                                    aria-controls="collapseTwo">
-                                                    Are there any mandatory training or exam requirements to take an AWS
-                                                    Certification exam?
+                                                <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                    Mobile & IOT Security Defense
                                                 </a>
                                             </h5>
                                         </div>
-                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                                            data-parent="#accordionExample">
+                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                                             <div class="card-body">
-                                                Training is recommended as part of your certification
-                                                preparation, but it is not mandatory for the completion of the
-                                                certification. Go to AWS Skill Builder to find a learning plan that’s
-                                                right for you.
+                                                The first certification program to offer device and enterprise level
+                                                security for its students. Career changers planning a move into
+                                                cybersecurity will also benefit from this.
                                             </div>
                                         </div>
                                     </div>
@@ -457,19 +530,69 @@ include '../../assets/php/inc/nav.php';
                                     <div class="card">
                                         <div class="card-header" id="headingThree">
                                             <h5 class="mb-0">
-                                                <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse"
-                                                    data-target="#collapseThree" aria-expanded="false"
-                                                    aria-controls="collapseThree">
-                                                    Why should I consider AWS Certified?
+                                                <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                    Tactical defense of cloud services
                                                 </a>
                                             </h5>
                                         </div>
-                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                                            data-parent="#accordionExample">
-                                            <div class="card-body">AWS Certification helps learners build credibility
-                                                and confidence by validating their cloud expertise with an
-                                                industry-recognized credential and organizations identify skilled
-                                                professionals to lead cloud initiatives using AWS.
+                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                Learn different ways to ensure security across various cloud platforms —
+                                                Amazon Web Services, Microsoft Azure Cloud, and Google Cloud Platform.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="card-header" id="headingFour">
+                                            <h5 class="mb-0">
+                                                <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                    Learning beyond technical aspects
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                CND v2 is the only certification program that offers a chance to learn
+                                                beyond the technological aspects of network security. The module has a
+                                                strong focus on the strategical domain with special attention to
+                                                adaptive & defense in depth security, framing network policies,
+                                                achieving compliance, and the operational domain to learn the
+                                                implementation of the above decisions.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="card-header" id="headingFive">
+                                            <h5 class="mb-0">
+                                                <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                                    Building perimeter defense skills
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                CND v2 puts the spotlight on perimeter defense as the latest
+                                                technologies have made networks too complex for everyone. Perimeter
+                                                defense can help with modern security requirements.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="card-header" id="headingFive">
+                                            <h5 class="mb-0">
+                                                <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                                    80 complex labs
+                                                </a>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                The only program that gives a chance to students to learn under
+                                                simulated threat environments and gain real-world skills before they
+                                                start their professional career.
                                             </div>
                                         </div>
                                     </div>
@@ -492,8 +615,7 @@ include '../../assets/php/inc/nav.php';
 
 
     <!-- Contact Section Start -->
-    <div class="section section-padding contact-section" id="scrollTo" data-bg-color="#000" data-overlay="0.7"
-        data-bg-image="<? echo SITE_ADDR ?>/assets/images/bg/contact-bg.jpg">
+    <div class="section section-padding contact-section" id="scrollTo" data-bg-color="#000" data-overlay="0.7" data-bg-image="<? echo SITE_ADDR ?>/assets/images/bg/contact-bg.jpg">
 
         <div class="container">
             <div class="row row-cols-lg-2 row-cols-1 align-items-center">
@@ -512,8 +634,7 @@ include '../../assets/php/inc/nav.php';
                         <!-- Contact Info Item Start -->
                         <div class="contact-info info-light" data-vivus-hover>
                             <div class="icon">
-                                <img class="svgInject"
-                                    src="<? echo SITE_ADDR ?>/assets/images/svg/linea/linea-basic-map.svg" alt="">
+                                <img class="svgInject" src="<? echo SITE_ADDR ?>/assets/images/svg/linea/linea-basic-map.svg" alt="">
                             </div>
                             <div class="info">
                                 <h4 class="title">Our Locations</h4>
@@ -528,9 +649,7 @@ include '../../assets/php/inc/nav.php';
                         <!-- Contact Info Item Start -->
                         <div class="contact-info info-light" data-vivus-hover>
                             <div class="icon">
-                                <img class="svgInject"
-                                    src="<? echo SITE_ADDR ?>/assets/images/svg/linea/linea-basic-message-txt.svg"
-                                    alt="">
+                                <img class="svgInject" src="<? echo SITE_ADDR ?>/assets/images/svg/linea/linea-basic-message-txt.svg" alt="">
                             </div>
                             <div class="info">
                                 <h4 class="title">Give Us A Call</h4>
@@ -556,9 +675,7 @@ include '../../assets/php/inc/nav.php';
                         <!-- Contact Info Item Start -->
                         <div class="contact-info info-light" data-vivus-hover>
                             <div class="icon">
-                                <img class="svgInject"
-                                    src="<? echo SITE_ADDR ?>/assets/images/svg/linea/linea-basic-mail-open-text.svg"
-                                    alt="">
+                                <img class="svgInject" src="<? echo SITE_ADDR ?>/assets/images/svg/linea/linea-basic-mail-open-text.svg" alt="">
                             </div>
                             <div class="info">
                                 <h4 class="title"> Help Desk</h4>
@@ -580,8 +697,7 @@ include '../../assets/php/inc/nav.php';
                         <div class="section-title text-center mb-7">
                             <h2 class="title fz-28">Get in touch today!</h2>
                             <p class="sub-title">
-                                We have made it easy for clients to reach us and begin their cloud
-                                journey easily.
+                                We have made it easier for you to reach us and begin your learning journey.
                             </p>
                         </div>
 
@@ -600,11 +716,9 @@ include '../../assets/php/inc/nav.php';
                             <input type="hidden" name="intDPAStatusPhoneID" value="1">
                             <input type="hidden" name="intDPAStatusSMSID" value="1">
                             <input type="hidden" name="intDPAStatusEmailID" value="1">
-                            <input type="hidden" name="strAPISuccessURL"
-                                value="http://www.robustittraining.com/thankyou" />
+                            <input type="hidden" name="strAPISuccessURL" value="http://www.robustittraining.com/thankyou" />
                             <input type="hidden" name="strAPIFailURL" value="http://www.robustittraining.com/sorry" />
-                            <input type="hidden" name="strLeadData2" id="strLeadData2"
-                                value="<? echo $leadIsFrom ?>/" />
+                            <input type="hidden" name="strLeadData2" id="strLeadData2" value="<? echo $leadIsFrom ?>/" />
                             <!-- //end -->
 
 
@@ -625,8 +739,7 @@ include '../../assets/php/inc/nav.php';
                                     <textarea name="message" placeholder="Message"></textarea>
                                 </div>
                                 <div class="col-12 text-center mb-4">
-                                    <button class="btn btn-primary btn-hover-secondary">Submit inquiry <i
-                                            class="fas fa-chevron-right fcr-animate"></i></button>
+                                    <button class="btn btn-primary btn-hover-secondary">Start Learning <i class="fas fa-chevron-right fcr-animate"></i></button>
                                 </div>
                             </div>
                         </form>
