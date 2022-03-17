@@ -56,10 +56,10 @@ include '../../assets/php/inc/nav.php';
 
                 <!-- Single Work Start -->
                 <div class="col mb-6">
-                    <div class="work">
+                    <div class="work single-portfolio">
                         <div class="thumbnail">
                             <a class="image" href="<? echo SITE_ADDR ?>/vendor/axelos/itil"><img
-                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-1.jpg" alt="work"></a>
+                                    src="<? echo SITE_ADDR ?>/assets/images/bg/bg-project-manager.jpg" alt="work"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/axelos/itil">ITIL &#174;</a></h3>
@@ -74,10 +74,10 @@ include '../../assets/php/inc/nav.php';
 
                 <!-- Single Work Start -->
                 <div class="col mb-6">
-                    <div class="work">
+                    <div class="work single-portfolio">
                         <div class="thumbnail">
                             <a class="image" href="<? echo SITE_ADDR ?>/vendor/axelos/prince2"><img
-                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-2.jpg" alt="work"></a>
+                                    src="<? echo SITE_ADDR ?>/assets/images/bg/bg-project-manager.jpg" alt="work"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/axelos/prince2">PRINCE2 &#174;</a>
@@ -93,10 +93,10 @@ include '../../assets/php/inc/nav.php';
 
                 <!-- Single Work Start -->
                 <div class="col mb-6">
-                    <div class="work">
+                    <div class="work single-portfolio">
                         <div class="thumbnail">
                             <a class="image" href="<? echo SITE_ADDR ?>/vendor/axelos/prince2-agile"><img
-                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-2.jpg" alt="work"></a>
+                                    src="<? echo SITE_ADDR ?>/assets/images/bg/bg-project-manager.jpg" alt="work"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/axelos/prince2-agile">PRINCE2

@@ -759,26 +759,20 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/cisco/ccna-wireless">CCNA
-                                    Wireless
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/cisco/ccnp-security">CCNP
+                                    Security
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/cisco/ccna-security">
-                                    CCNA Security
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/cisco/cyberops-associate">
+                                    CyberOps Associate
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/cisco/ccda">
-                                    CCDA
-                                    <i class="fas fa-chevron-right fcr-animate"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/cisco/ccnp">
-                                    CCNP
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/cisco/cyberops-professional">
+                                    CyberOps Professional
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
@@ -811,14 +805,13 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item"
-                                    href="<? echo SITE_ADDR ?>/vendor/axelos/prince2/prince2-4-foundation">PRINCE2®
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/axelos/prince2/">PRINCE2®
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
                                 <a class="dropdown-item"
-                                    href="<? echo SITE_ADDR ?>/vendor/axelos/prince2/prince2-4-practitioner">PRINCE2®
+                                    href="<? echo SITE_ADDR ?>/vendor/axelos/prince2-agile/">PRINCE2®
                                     Agile
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
@@ -858,7 +851,6 @@
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
-                            <? echo SITE_ADDR ?>/career/
                         </ul>
 
                     </div>
@@ -1039,12 +1031,12 @@
                                         class="fas fa-chevron-right fcr-animate"></i></a></li>
                             <li><a class="dropdown-item" href="<? echo SITE_ADDR ?>/career/">Internatnal Managing
                                     Benefits&#0153; <i class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a class="dropdown-item" href="<? echo SITE_ADDR ?>/career/">International Change
-                                    Manage... <i class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item" href="<? echo SITE_ADDR ?>/career/">Change
+                                    Management <i class="fas fa-chevron-right fcr-animate"></i></a></li>
                             <li><a class="dropdown-item" href="<? echo SITE_ADDR ?>/career/">Project Management
-                                    Qualifica... <i class="fas fa-chevron-right fcr-animate"></i></a></li>
+                                    <i class="fas fa-chevron-right fcr-animate"></i></a></li>
                             <li><a class="dropdown-item" href="<? echo SITE_ADDR ?>/career/">Project Fundamentals
-                                    Qualifica... <i class="fas fa-chevron-right fcr-animate"></i></a></li>
+                                    <i class="fas fa-chevron-right fcr-animate"></i></a></li>
                             <li><a class="dropdown-item" href="<? echo SITE_ADDR ?>/career/">Six Sigma Black Belt <i
                                         class="fas fa-chevron-right fcr-animate"></i></a></li>
                             <li><a class="dropdown-item" href="<? echo SITE_ADDR ?>/career/">View all <i

@@ -188,7 +188,7 @@ include '../../assets/php/inc/nav.php';
                                     </div>
 
                                     <div class="work-btn my-10">
-                                        <a class="btn btn-secondary btn-hover--secondary mb-5" href="#"
+                                        <a class="btn btn-secondary btn-hover--secondary mb-5" href="#beginnersModal"
                                             data-toggle="modal" data-target="#beginnersModal">
                                             Beginners start here
                                             <i class="fas fa-chevron-right fcr-animate"></i>

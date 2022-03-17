@@ -6620,6 +6620,11 @@ fieldset:disabled .btn {
   border-radius: 0.25rem;
 }
 
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
 .dropdown-menu-left {
   right: auto;
   left: 0;
@@ -8664,7 +8669,6 @@ fieldset:disabled .btn {
   -ms-flex-align: center;
   align-items: center;
   min-height: calc(100% - 1rem);
-
 }
 
 .modal-content {
@@ -34620,7 +34624,7 @@ svg:not(:root) {
 
 /* Background Image */
 [data-bg-image] {
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-position: top center;
 }
 [data-bg-image]:not(.bg-pattern) {
@@ -36044,7 +36048,7 @@ textarea:focus {
 .icon-box:hover .content .link {
   color: var(--rb-primary);
   transition: 200ms ease-in-out;
-} 
+}
 
 .icon-box-shape-animation {
   position: relative;
@@ -36208,7 +36212,7 @@ textarea:focus {
 .agency-accordion .card-header h5 a.acc-btn,
 .agency-accordion .card-header .h5 a.acc-btn {
   color: #030f27;
-  font-size: 16px;
+  font-size: 24px;
   line-height: 24px;
   padding: 0;
   font-weight: 400;
@@ -36221,6 +36225,7 @@ textarea:focus {
   margin: -1px -1px 0;
   position: relative;
   border-radius: 5px;
+  transition: 250ms ease-in-out;
 }
 .agency-accordion .card-header h5 a.acc-btn::before,
 .agency-accordion .card-header .h5 a.acc-btn::before {
@@ -36229,12 +36234,13 @@ textarea:focus {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+  transition: 250ms ease-in-out;
   font-family: "Font Awesome 5 Pro";
   font-weight: 900;
   content: "\f107";
   right: 16px;
   font-size: 20px;
-  color: #030f27;
+  color: var(--rb-primary);
 }
 .agency-accordion .card-header h5 a.acc-btn[aria-expanded="true"],
 .agency-accordion .card-header .h5 a.acc-btn[aria-expanded="true"] {
@@ -36244,7 +36250,7 @@ textarea:focus {
 .agency-accordion .card-header h5 a.acc-btn[aria-expanded="true"]::before,
 .agency-accordion .card-header .h5 a.acc-btn[aria-expanded="true"]::before {
   content: "\f106";
-  color: #030f27;
+  color: var(--rb-secondary);
 }
 .agency-accordion .card-header h5 a.border-0,
 .agency-accordion .card-header .h5 a.border-0 {
@@ -36257,7 +36263,7 @@ textarea:focus {
   font-weight: 400;
   letter-spacing: 0em;
   line-height: 1.74;
-  font-size: 15px;
+  font-size: 18px;
   font-family: "Muli";
   border: 0 none;
   -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.07);
@@ -36266,6 +36272,42 @@ textarea:focus {
   -o-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   border-radius: 0 0 5px 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .agency-accordion .card-header h5 a.acc-btn,
+  .agency-accordion .card-header .h5 a.acc-btn {
+    color: #030f27;
+    font-size: 15px;
+    line-height: 24px;
+    padding: 0;
+    font-weight: 400;
+    border: 0 none;
+    -webkit-appearance: none;
+    display: block;
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 20px 26px;
+    margin: -1px -1px 0;
+    position: relative;
+    border-radius: 5px;
+  }
+
+  .agency-accordion .card-body {
+    padding: 10px 25px 39px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    line-height: 1.74;
+    font-size: 15px;
+    font-family: "Muli";
+    border: 0 none;
+    -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.07);
+    -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    border-radius: 0 0 5px 5px;
+  }
 }
 
 .faq-image-area {
@@ -39999,13 +40041,13 @@ h5 {
   max-width: 200px;
   top: -50px;
   left: 240px;
-  display: block; 
+  display: block;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .portfolio-main-info .title,
   .digital-marketing .title {
-    font-size: 48px; 
+    font-size: 48px;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -40045,6 +40087,21 @@ h5 {
   font-size: 16px;
   display: block;
 }
+
+.details-list label {
+  color: #030f27;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+.details-list span {
+  color: #748494;
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 16px;
+  display: block;
+}
 .work-details-list .details-list span a {
   color: #748494;
   -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -40071,9 +40128,9 @@ h5 {
 
 .work-main-info .title {
   font-size: 48px;
-    line-height: 42px;
-    margin-bottom: 20px;
-    display: flex;
+  line-height: 42px;
+  margin-bottom: 20px;
+  display: flex;
 }
 
 .info-graphic {
@@ -40097,7 +40154,7 @@ h5 {
   font-weight: 400;
   line-height: 1em;
   margin-top: 2.5em;
-  margin-bottom: 2.5em; 
+  margin-bottom: 2.5em;
 }
 
 /* .info-graphic:after {
@@ -40215,7 +40272,6 @@ h5 {
   transition: 500ms ease-in-out;
   /* --p: var(--parity, 0); */
 }
-
 
 /*----------------------------------------*/
 /*  08. Blog CSS

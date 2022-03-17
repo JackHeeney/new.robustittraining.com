@@ -23,7 +23,7 @@ include '../../assets/php/inc/nav.php';
 
     <!-- Page Title Section Start -->
     <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7"
-        data-bg-image="<? echo SITE_ADDR ?>/assets/images/bg/breadcrumb-bg-two.jpg">
+        data-bg-image="<? echo SITE_ADDR ?>/assets/images/bg/bg-certified-ethical-hacker.jpg">
         <div class="page-title">
             <div class="container">
                 <h1 class="title">EC-Council Courses</h1>
@@ -56,18 +56,21 @@ include '../../assets/php/inc/nav.php';
 
                 <!-- Single Work Start -->
                 <div class="col mb-6">
-                    <div class="work">
+                    <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker"><img
-                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-1.jpg" alt="work"></a>
+                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker"
+                                alt="link to CEH"><img
+                                    src="<? echo SITE_ADDR ?>/assets/images/bg/bg-certified-ethical-hacker.jpg"
+                                    alt="CEH"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a
-                                    href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker">Certified
+                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker"
+                                    alt="link to CEH">Certified
                                     Ethical Hacker</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker">View Course
+                            <a href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker"
+                                atl="link to CEH">View Course
                                 <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -76,20 +79,22 @@ include '../../assets/php/inc/nav.php';
 
                 <!-- Single Work Start -->
                 <div class="col mb-6">
-                    <div class="work">
+                    <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image"
-                                href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-network-defender"><img
-                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-2.jpg" alt="work"></a>
+                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-network-defender"
+                                alt="link to CND"><img
+                                    src="<? echo SITE_ADDR ?>/assets/images/bg/bg-certified-ethical-hacker.jpg"
+                                    alt="CND"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a
-                                    href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-network-defender">Certified
+                                    href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-network-defender"
+                                    alt="link to CND">Certified
                                     Network Defender</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nisi, quo
                                 optio sint doloribus repellat.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-network-defender">View Course <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
+                            <a href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-network-defender"
+                                alt="link to CND">View Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -97,20 +102,24 @@ include '../../assets/php/inc/nav.php';
 
                 <!-- Single Work Start -->
                 <div class="col mb-6">
-                    <div class="work">
+                    <div class="work single-portfolio">
                         <div class="thumbnail">
                             <a class="image"
-                                href="<? echo SITE_ADDR ?>/vendor/ec-council/computer-hacking-forensic-investigator"><img
-                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-3.jpg" alt="work"></a>
+                                href="<? echo SITE_ADDR ?>/vendor/ec-council/computer-hacking-forensic-investigator"
+                                alt="link to CHFI"><img
+                                    src="<? echo SITE_ADDR ?>/assets/images/bg/bg-certified-ethical-hacker.jpg"
+                                    alt="CHFI"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a
-                                    href="<? echo SITE_ADDR ?>/vendor/ec-council/computer-hacking-forensic-investigator">Computer
+                                    href="<? echo SITE_ADDR ?>/vendor/ec-council/computer-hacking-forensic-investigator"
+                                    alt="link to CHFI">Computer
                                     Hacking Forensic Investigator</a>
                             </h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/ec-council/computer-hacking-forensic-investigator">View
+                            <a href="<? echo SITE_ADDR ?>/vendor/ec-council/computer-hacking-forensic-investigator"
+                                alt="link to CHFI">View
                                 Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -119,19 +128,23 @@ include '../../assets/php/inc/nav.php';
 
                 <!-- Single Work Start -->
                 <div class="col mb-6">
-                    <div class="work">
+                    <div class="work single-portfolio">
                         <div class="thumbnail">
                             <a class="image"
-                                href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-cloud-security-engineer"><img
-                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-4.jpg" alt="work"></a>
+                                href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-cloud-security-engineer"
+                                alt="link to CHFI"><img
+                                    src="<? echo SITE_ADDR ?>/assets/images/bg/bg-certified-ethical-hacker.jpg"
+                                    alt="CHFI"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a
-                                    href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-cloud-security-engineer">Certified
+                                    href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-cloud-security-engineer"
+                                    alt="link to CHFI">Certified
                                     Cloud Security Engineer</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-cloud-security-engineer">View
+                            <a href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-cloud-security-engineer"
+                                alt="link to CHFI">View
                                 Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>

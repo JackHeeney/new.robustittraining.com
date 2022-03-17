@@ -58,10 +58,10 @@ include '../../../assets/php/inc/nav.php';
 
                 <!-- Single Work Start -->
                 <div class="col mb-6">
-                    <div class="work">
+                    <div class="work single-portfolio">
                         <div class="thumbnail">
                             <a class="image" href="<? echo SITE_ADDR ?>/vendor/axelos/prince2/prince2-4-foundation"><img
-                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-1.jpg" alt="work"></a>
+                                    src="<? echo SITE_ADDR ?>/assets/images/bg/bg-project-manager.jpg" alt="work"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a
@@ -81,11 +81,11 @@ include '../../../assets/php/inc/nav.php';
 
                 <!-- Single Work Start -->
                 <div class="col mb-6">
-                    <div class="work">
+                    <div class="work single-portfolio">
                         <div class="thumbnail">
                             <a class="image"
                                 href="<? echo SITE_ADDR ?>/vendor/axelos/prince2/prince2-4-practitioner"><img
-                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-2.jpg" alt="work"></a>
+                                    src="<? echo SITE_ADDR ?>/assets/images/bg/bg-project-manager.jpg" alt="work"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a

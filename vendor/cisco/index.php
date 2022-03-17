@@ -23,7 +23,7 @@ include '../../assets/php/inc/nav.php';
 
     <!-- Page Title Section Start -->
     <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7"
-        data-bg-image="<? echo SITE_ADDR ?>/assets/images/bg/breadcrumb-bg-two.jpg">
+        data-bg-image="<? echo SITE_ADDR ?>/assets/images/bg/bg-ccna.jpg">
         <div class="page-title">
             <div class="container">
                 <h1 class="title">CISCO Courses</h1>
@@ -56,10 +56,10 @@ include '../../assets/php/inc/nav.php';
 
                 <!-- Single Work Start -->
                 <div class="col mb-6">
-                    <div class="work">
+                    <div class="work single-portfolio">
                         <div class="thumbnail">
                             <a class="image" href="<? echo SITE_ADDR ?>/vendor/cisco/ccna"><img
-                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-1.jpg" alt="work"></a>
+                                    src="<? echo SITE_ADDR ?>/assets/images/bg/bg-ccna.jpg" alt="ccna"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/cisco/ccna">CCNA</a></h3>
@@ -74,37 +74,19 @@ include '../../assets/php/inc/nav.php';
 
                 <!-- Single Work Start -->
                 <div class="col mb-6">
-                    <div class="work">
+                    <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/cisco/ccna-wireless"><img
-                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-2.jpg" alt="work"></a>
+                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/cisco/ccnp-security"
+                                alt="link to ccnp security"><img src="<? echo SITE_ADDR ?>/assets/images/bg/bg-ccna.jpg"
+                                    alt="ccnp security"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/cisco/ccna-wireless">CCNA
-                                    Wireless</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nisi, quo
-                                optio sint doloribus repellat.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/cisco/ccna-wireless">View Course <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Work End -->
-
-                <!-- Single Work Start -->
-                <div class="col mb-6">
-                    <div class="work">
-                        <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/cisco/ccna-security"><img
-                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-3.jpg" alt="work"></a>
-                        </div>
-                        <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/cisco/ccna-security">CCNA
-                                    Security</a>
+                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/cisco/ccnp-security"
+                                    alt="link to ccnp security">CCNP Security</a>
                             </h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/cisco/ccna-security">View
+                            <a href="<? echo SITE_ADDR ?>/vendor/cisco/ccnp-security" alt="link to ccnp security">View
                                 Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -113,16 +95,21 @@ include '../../assets/php/inc/nav.php';
 
                 <!-- Single Work Start -->
                 <div class="col mb-6">
-                    <div class="work">
+                    <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/cisco/ccda"><img
-                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-4.jpg" alt="work"></a>
+                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/cisco/cyberops-associate"
+                                alt="link to cyberops associate"><img
+                                    src="<? echo SITE_ADDR ?>/assets/images/bg/bg-ccna.jpg"
+                                    alt="CyberOps Associate"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/cisco/ccda">CCDA</a></h3>
+                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/cisco/cyberops-associate"
+                                    alt="link to cyberops associate">CyberOps Associate</a>
+                            </h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/cisco/ccda">View
+                            <a href="<? echo SITE_ADDR ?>/vendor/cisco/cyberops-associate"
+                                alt="link to cyberops associate">View
                                 Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -131,21 +118,27 @@ include '../../assets/php/inc/nav.php';
 
                 <!-- Single Work Start -->
                 <div class="col mb-6">
-                    <div class="work">
+                    <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/cisco/ccnp"><img
-                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-5.jpg" alt="work"></a>
+                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/cisco/cyberops-professional"
+                                alt="link to cyberops professional"><img
+                                    src="<? echo SITE_ADDR ?>/assets/images/bg/bg-ccna.jpg"
+                                    alt="CyberOps Professional"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/cisco/ccnp">CCNP</a></h3>
+                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/cisco/cyberops-professional"
+                                    alt="link to cyberops professional">CyberOps Professional</a>
+                            </h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/cisco/ccnp">View
+                            <a href="<? echo SITE_ADDR ?>/vendor/cisco/cyberops-professional"
+                                alt="link to cyberops professional">View
                                 Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
                 <!-- Single Work End -->
+
 
             </div>
             <!-- About Wrapper End -->

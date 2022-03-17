@@ -432,18 +432,18 @@ include './assets/php/inc/nav.php';
                     <div class="col mb-6">
                         <div class="work single-portfolio">
                             <div class="thumbnail">
-                                <a class="image"
-                                    href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker"><img
+                                <a class="image" href="<? echo SITE_ADDR ?>/vendor/aws/cloud-practitioner"
+                                    alt="link to aws cloud practitioner"><img
                                         src="<? echo SITE_ADDR ?>/assets/images/project/project-1.jpg" alt="work"></a>
                             </div>
                             <div class="info">
-                                <h3 class="title"><a
-                                        href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker">Certified
-                                        Ethical
-                                        Hacker</a></h3>
+                                <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/aws/cloud-practitioner"
+                                        alt="link to aws cloud practitioner">AWS Cloud
+                                        Practitioner</a></h3>
                                 <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                     culpa, unde perspiciatis hic delectus.</p>
-                                <a href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker">View Course
+                                <a href="<? echo SITE_ADDR ?>/vendor/aws/cloud-practitioner"
+                                    alt="link to aws cloud practitioner">View Course
                                     <i class="fas fa-chevron-right fcr-animate"></i></a>
                             </div>
                         </div>
@@ -457,15 +457,22 @@ include './assets/php/inc/nav.php';
                     <div class="col mb-6">
                         <div class="work single-portfolio">
                             <div class="thumbnail">
-                                <a class="image" href="<? echo SITE_ADDR ?>/vendor/ec-council"><img
+                                <a class="image"
+                                    href="<? echo SITE_ADDR ?>/vendor/microsoft/azure/microsoft-certified-azure-fundamentals"
+                                    alt="link to microsoft azure fundamentals"><img
                                         src="<? echo SITE_ADDR ?>/assets/images/project/project-2.jpg" alt="work"></a>
                             </div>
                             <div class="info">
-                                <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/ec-council">EC-Council</a></h3>
+                                <h3 class="title"><a
+                                        href="<? echo SITE_ADDR ?>/vendor/microsoft/azure/microsoft-certified-azure-fundamentals"
+                                        alt="link to microsoft azure fundamentals">Microsoft
+                                        Azure
+                                        Fundamentals</a></h3>
                                 <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                     culpa, unde perspiciatis hic delectus.</p>
-                                <a href="<? echo SITE_ADDR ?>/vendor/ec-council">View Courses <i
-                                        class="fas fa-chevron-right fcr-animate"></i></a>
+                                <a href="<? echo SITE_ADDR ?>/vendor/microsoft/azure/microsoft-certified-azure-fundamentals"
+                                    alt="link to microsoft azure fundamentals">View
+                                    Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                             </div>
                         </div>
                     </div>
@@ -478,14 +485,19 @@ include './assets/php/inc/nav.php';
                     <div class="col mb-6">
                         <div class="work single-portfolio">
                             <div class="thumbnail">
-                                <a class="image" href="<? echo SITE_ADDR ?>/vendor/ec-council"><img
+                                <a class="image" href="<? echo SITE_ADDR ?>/vendor/comptia/comptia-security"
+                                    alt="link to comptia security+"><img
                                         src="<? echo SITE_ADDR ?>/assets/images/project/project-3.jpg" alt="work"></a>
                             </div>
                             <div class="info">
-                                <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/ec-council">EC-Council</a></h3>
+                                <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/comptia/comptia-security"
+                                        alt="link to comptia security+">CompTIA
+                                        Security+</a>
+                                </h3>
                                 <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                     culpa, unde perspiciatis hic delectus.</p>
-                                <a href="<? echo SITE_ADDR ?>/vendor/ec-council">View Courses <i
+                                <a href="<? echo SITE_ADDR ?>/vendor/comptia/comptia-security"
+                                    alt="link to comptia security+">View Courses <i
                                         class="fas fa-chevron-right fcr-animate"></i></a>
                             </div>
                         </div>
@@ -500,14 +512,18 @@ include './assets/php/inc/nav.php';
                     <div class="col mb-6">
                         <div class="work single-portfolio">
                             <div class="thumbnail">
-                                <a class="image" href="<? echo SITE_ADDR ?>/vendor/ec-council"><img
+                                <a class="image" href="<? echo SITE_ADDR ?>/vendor/comptia/comptia-network"
+                                    alt="link to comptia network+"><img
                                         src="<? echo SITE_ADDR ?>/assets/images/project/project-4.jpg" alt="work"></a>
                             </div>
                             <div class="info">
-                                <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/ec-council">EC-Council</a></h3>
+                                <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/comptia/comptia-network"
+                                        alt="link to comptia network+">CompTIA
+                                        Network+</a></h3>
                                 <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                     culpa, unde perspiciatis hic delectus.</p>
-                                <a href="<? echo SITE_ADDR ?>/vendor/ec-council">View Courses <i
+                                <a href="<? echo SITE_ADDR ?>/vendor/comptia/comptia-network"
+                                    alt="link to comptia network+">View Courses <i
                                         class="fas fa-chevron-right fcr-animate"></i></a>
                             </div>
                         </div>
@@ -521,15 +537,21 @@ include './assets/php/inc/nav.php';
                     <div class="col mb-6">
                         <div class="work single-portfolio">
                             <div class="thumbnail">
-                                <a class="image" href="<? echo SITE_ADDR ?>/vendor/ec-council"><img
-                                        src="<? echo SITE_ADDR ?>/assets/images/project/project-5.jpg" alt="work"></a>
+                                <a class="image" href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker"
+                                    alt="link to ec-council certified certified ethical hacker"><img
+                                        src="<? echo SITE_ADDR ?>/assets/images/project/project-1.jpg" alt="work"></a>
                             </div>
                             <div class="info">
-                                <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/ec-council">EC-Council</a></h3>
+                                <h3 class="title"><a
+                                        href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker"
+                                        alt="link to ec-council certified certified ethical hacker">Certified
+                                        Ethical
+                                        Hacker</a></h3>
                                 <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                     culpa, unde perspiciatis hic delectus.</p>
-                                <a href="<? echo SITE_ADDR ?>/vendor/ec-council">View Courses <i
-                                        class="fas fa-chevron-right fcr-animate"></i></a>
+                                <a href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker"
+                                    alt="link to ec-council certified certified ethical hacker">View Course
+                                    <i class="fas fa-chevron-right fcr-animate"></i></a>
                             </div>
                         </div>
                     </div>
@@ -543,15 +565,22 @@ include './assets/php/inc/nav.php';
                     <div class="col mb-6">
                         <div class="work single-portfolio">
                             <div class="thumbnail">
-                                <a class="image" href="<? echo SITE_ADDR ?>/vendor/ec-council"><img
+                                <a class="image"
+                                    href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-cloud-security-expert"
+                                    alt="link to ec-council certified cloud security expert"><img
                                         src="<? echo SITE_ADDR ?>/assets/images/project/project-6.jpg" alt="work"></a>
                             </div>
                             <div class="info">
-                                <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/ec-council">EC-Council</a></h3>
+                                <h3 class="title"><a
+                                        href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-cloud-security-expert"
+                                        alt="link to ec-council certified cloud security expert">Certified
+                                        Cloud
+                                        Security Expert</a></h3>
                                 <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                     culpa, unde perspiciatis hic delectus.</p>
-                                <a href="<? echo SITE_ADDR ?>/vendor/ec-council">View Courses <i
-                                        class="fas fa-chevron-right fcr-animate"></i></a>
+                                <a href="<? echo SITE_ADDR ?>/vendor/ec-council/certified-cloud-security-expert"
+                                    alt="link to ec-council certified cloud security expert">View
+                                    Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                             </div>
                         </div>
                     </div>
@@ -586,10 +615,8 @@ include './assets/php/inc/nav.php';
 
                 <!-- Faq Content Start -->
                 <div class="col mb-6 pl-xl-12">
-                    <div class="faq-content">
-
-
-                        <div class="agency-accordion max-mb-n30" id="accordionExample">
+                    <div class="faq-content ">
+                        <div class="agency-accordion max-mb-n30" id="faqLeft">
                             <div class="card">
                                 <div class="card-header" id="headingOne">
                                     <h5 class="mb-0">
@@ -601,7 +628,7 @@ include './assets/php/inc/nav.php';
                                 </div>
 
                                 <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                                    data-parent="#accordionExample">
+                                    data-parent="#faqLeft">
                                     <div class="card-body">Depending on the course you are studying there are a variety
                                         of jobs available. We can also help you with your job search.
                                     </div>
@@ -619,7 +646,7 @@ include './assets/php/inc/nav.php';
                                     </h5>
                                 </div>
                                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                                    data-parent="#accordionExample">
+                                    data-parent="#faqLeft">
                                     <div class="card-body">Your account may be eligible for access to our live practical
                                         labs. These powerful tools simulate a classroom training environment and are run
                                         through our remote server. All of our software specific training courses will
@@ -641,7 +668,7 @@ include './assets/php/inc/nav.php';
                                     </h5>
                                 </div>
                                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                                    data-parent="#accordionExample">
+                                    data-parent="#faqLeft">
                                     <div class="card-body">Yes, all of our courses have either a completion certificate
                                         or official qualification. You will usually find your certificate available for
                                         download right from your training portal once you've completed all of the tests
@@ -658,21 +685,20 @@ include './assets/php/inc/nav.php';
                 <div class="col mb-6 pl-xl-12">
 
                     <!-- Faq Image Start -->
-                    <div class="about-image-area faq-image-area">
-                        <div class="agency-accordion max-mb-n30" id="accordionExample1">
+                    <div class="faq-image-area">
+                        <div class="agency-accordion max-mb-n30" id="faqRight">
                             <div class="card">
-                                <div class="card-header" id="headingFour">
+                                <div class="card-header" id="headingOne">
                                     <h5 class="mb-0">
                                         <a href="#" class="acc-btn border-0" data-toggle="collapse"
-                                            data-target="#collapseFour" aria-expanded="true"
-                                            aria-controls="collapseFour">
+                                            data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                             What jobs will i be qualified for after getting certified?
                                         </a>
                                     </h5>
                                 </div>
 
-                                <div id="collapseFour" class="collapse show" aria-labelledby="headingFour"
-                                    data-parent="#accordionExample1">
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                    data-parent="#faqRight">
                                     <div class="card-body">Depending on the course you are studying there are a variety
                                         of jobs available. We can also help you with your job search.
                                     </div>
@@ -680,17 +706,17 @@ include './assets/php/inc/nav.php';
                             </div>
 
                             <div class="card">
-                                <div class="card-header" id="headingFive">
+                                <div class="card-header" id="headingTwo">
                                     <h5 class="mb-0">
                                         <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse"
-                                            data-target="#collapseFive" aria-expanded="false"
-                                            aria-controls="collapseFive">
+                                            data-target="#collapseTwo" aria-expanded="false"
+                                            aria-controls="collapseTwo">
                                             How can i get practical, hands on training by doing the studying online?
                                         </a>
                                     </h5>
                                 </div>
-                                <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
-                                    data-parent="#accordionExample1">
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                    data-parent="#faqRight">
                                     <div class="card-body">Your account may be eligible for access to our live practical
                                         labs. These powerful tools simulate a classroom training environment and are run
                                         through our remote server. All of our software specific training courses will
@@ -702,17 +728,17 @@ include './assets/php/inc/nav.php';
                             </div>
 
                             <div class="card">
-                                <div class="card-header" id="headingSix">
+                                <div class="card-header" id="headingThree">
                                     <h5 class="mb-0">
                                         <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse"
-                                            data-target="#collapseSix" aria-expanded="false"
-                                            aria-controls="collapseSix">
+                                            data-target="#collapseThree" aria-expanded="false"
+                                            aria-controls="collapseThree">
                                             I have completed my course, do i receive a certificate?
                                         </a>
                                     </h5>
                                 </div>
-                                <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
-                                    data-parent="#accordionExample1">
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                    data-parent="#faqRight">
                                     <div class="card-body">Yes, all of our courses have either a completion certificate
                                         or official qualification. You will usually find your certificate available for
                                         download right from your training portal once you've completed all of the tests

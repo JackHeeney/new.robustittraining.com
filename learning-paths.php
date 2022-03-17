@@ -57,14 +57,14 @@ include './assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/"><img src="assets/images/project/project-1.jpg"
-                                    alt="work single-portfolio"></a>
+                            <a class="image" href="<? echo SITE_ADDR ?>/" alt=""><img
+                                    src="assets/images/project/project-1.jpg" title=""></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/">Cloud Architect</a></h3>
+                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/" alt="">Cloud Architect</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/">View Project <i
+                            <a href="<? echo SITE_ADDR ?>/" alt="">View Project <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -75,14 +75,14 @@ include './assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/"><img src="assets/images/project/project-2.jpg"
-                                    alt="work single-portfolio"></a>
+                            <a class="image" href="<? echo SITE_ADDR ?>/" alt=""><img
+                                    src="assets/images/project/project-2.jpg" title=""></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/">Ethical Hacker</a></h3>
+                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/" alt="">Ethical Hacker</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nisi, quo
                                 optio sint doloribus repellat.</p>
-                            <a href="<? echo SITE_ADDR ?>/">View Project <i
+                            <a href="<? echo SITE_ADDR ?>/" alt="">View Project <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -93,14 +93,14 @@ include './assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/"><img src="assets/images/project/project-3.jpg"
-                                    alt="work single-portfolio"></a>
+                            <a class="image" href="<? echo SITE_ADDR ?>/" alt=""><img
+                                    src="assets/images/project/project-3.jpg" title=""></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/">Network Engineer</a></h3>
+                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/" alt="">Network Engineer</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/">View Project <i
+                            <a href="<? echo SITE_ADDR ?>/" alt="">View Project <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -111,14 +111,14 @@ include './assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/"><img src="assets/images/project/project-4.jpg"
-                                    alt="work single-portfolio"></a>
+                            <a class="image" href="<? echo SITE_ADDR ?>/" alt=""><img
+                                    src="assets/images/project/project-4.jpg" title=""></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/">IT Project Manager</a></h3>
+                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/" alt="">IT Project Manager</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/">View Project <i
+                            <a href="<? echo SITE_ADDR ?>/" alt="">View Project <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -129,14 +129,14 @@ include './assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/"><img src="assets/images/project/project-5.jpg"
-                                    alt="work single-portfolio"></a>
+                            <a class="image" href="<? echo SITE_ADDR ?>/" alt=""><img
+                                    src="assets/images/project/project-5.jpg" title=""></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/">Security Analyst</a></h3>
+                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/" alt="">Security Analyst</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/">View Project <i
+                            <a href="<? echo SITE_ADDR ?>/" alt="">View Project <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -147,33 +147,14 @@ include './assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/"><img src="assets/images/project/project-6.jpg"
-                                    alt="work single-portfolio"></a>
+                            <a class="image" href="<? echo SITE_ADDR ?>/" alt=""><img
+                                    src="assets/images/project/project-6.jpg" title=""></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/">Developer</a></h3>
+                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/" alt="">Developer</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/">View Project <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Work End -->
-
-
-                <!-- Single Work Start -->
-                <div class="col mb-6">
-                    <div class="work single-portfolio">
-                        <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/"><img src="assets/images/project/project-6.jpg"
-                                    alt="work single-portfolio"></a>
-                        </div>
-                        <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/">DevOps</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/">View Project <i
+                            <a href="<? echo SITE_ADDR ?>/" alt="">View Project <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -185,14 +166,34 @@ include './assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/"><img src="assets/images/project/project-6.jpg"
-                                    alt="work single-portfolio"></a>
+                            <a class="image" href="<? echo SITE_ADDR ?>/" alt=""><img
+                                    src="assets/images/project/project-6.jpg" title=""></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/">1<small>st</small> Line Support</a></h3>
+                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/" alt="">DevOps</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/">View Project <i
+                            <a href="<? echo SITE_ADDR ?>/" alt="">View Project <i
+                                    class="fas fa-chevron-right fcr-animate"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Work End -->
+
+
+                <!-- Single Work Start -->
+                <div class="col mb-6">
+                    <div class="work single-portfolio">
+                        <div class="thumbnail">
+                            <a class="image" href="<? echo SITE_ADDR ?>/" alt=""><img
+                                    src="assets/images/project/project-6.jpg" title=""></a>
+                        </div>
+                        <div class="info">
+                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/" alt="">1<small>st</small> Line Support</a>
+                            </h3>
+                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
+                                culpa, unde perspiciatis hic delectus.</p>
+                            <a href="<? echo SITE_ADDR ?>/" alt="">View Project <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -216,15 +217,17 @@ include './assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/ec-council"><img
-                                    src="assets/images/project/project-1.jpg" alt="work single-portfolio"></a>
+                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/ec-council"
+                                alt="link to ec-council courses"><img src="assets/images/project/project-1.jpg"
+                                    title=""></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/ec-council">EC-Council</a></h3>
+                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/ec-council"
+                                    alt="link to ec-council courses">EC-Council</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/ec-council">View Project <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
+                            <a href="<? echo SITE_ADDR ?>/vendor/ec-council" alt="link to ec-council courses">View
+                                Project <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -234,14 +237,15 @@ include './assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/"><img src="assets/images/project/project-2.jpg"
-                                    alt="work single-portfolio"></a>
+                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/aws" alt="link to AWS courses"><img
+                                    src="assets/images/project/project-2.jpg" title=""></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/">Amazon Web Services</a></h3>
+                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/aws" alt="link to AWS courses">Amazon
+                                    Web Services</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nisi, quo
                                 optio sint doloribus repellat.</p>
-                            <a href="<? echo SITE_ADDR ?>/">View Project <i
+                            <a href="<? echo SITE_ADDR ?>/vendor/aws" alt="link to AWS courses">View Project <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -252,14 +256,55 @@ include './assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/"><img src="assets/images/project/project-3.jpg"
-                                    alt="work single-portfolio"></a>
+                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/microsoft"
+                                alt="link to microsoft courses"><img src="assets/images/project/project-3.jpg"
+                                    title=""></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/">Microsoft</a></h3>
+                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/microsoft"
+                                    alt="link to microsoft courses">Microsoft</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/">View Project <i
+                            <a href="<? echo SITE_ADDR ?>/vendor/microsoft" alt="link to microsoft courses">View Project
+                                <i class="fas fa-chevron-right fcr-animate"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Work End -->
+
+                <!-- Single Work Start -->
+                <div class="col mb-6">
+                    <div class="work single-portfolio">
+                        <div class="thumbnail">
+                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/comptia"
+                                alt="link to microsoft courses"><img src="assets/images/project/project-4.jpg"
+                                    title=""></a>
+                        </div>
+                        <div class="info">
+                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/comptia"
+                                    alt="link to microsoft courses">CompTIA</a></h3>
+                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
+                                culpa, unde perspiciatis hic delectus.</p>
+                            <a href="<? echo SITE_ADDR ?>/vendor/comptia" alt="link to microsoft courses">View Project
+                                <i class="fas fa-chevron-right fcr-animate"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Work End -->
+
+                <!-- Single Work Start -->
+                <div class="col mb-6">
+                    <div class="work single-portfolio">
+                        <div class="thumbnail">
+                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/cisco" alt="link to cisco courses"><img
+                                    src="assets/images/project/project-5.jpg" title=""></a>
+                        </div>
+                        <div class="info">
+                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/cisco"
+                                    alt="link to cisco courses">CISCO</a></h3>
+                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
+                                culpa, unde perspiciatis hic delectus.</p>
+                            <a href="<? echo SITE_ADDR ?>/vendor/cisco" alt="link to cisco courses">View Project <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -270,69 +315,15 @@ include './assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/"><img src="assets/images/project/project-4.jpg"
-                                    alt="work single-portfolio"></a>
+                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/axelos" alt="link to axelos courses"><img
+                                    src="assets/images/project/project-6.jpg" title=""></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/">CompTIA</a></h3>
+                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/axelos"
+                                    alt="link to axelos courses">Axelos</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/">View Project <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Work End -->
-
-                <!-- Single Work Start -->
-                <div class="col mb-6">
-                    <div class="work single-portfolio">
-                        <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/"><img src="assets/images/project/project-5.jpg"
-                                    alt="work single-portfolio"></a>
-                        </div>
-                        <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/">CISCO</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/">View Project <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Work End -->
-
-                <!-- Single Work Start -->
-                <div class="col mb-6">
-                    <div class="work single-portfolio">
-                        <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/"><img src="assets/images/project/project-6.jpg"
-                                    alt="work single-portfolio"></a>
-                        </div>
-                        <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/">Axelos</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/">View Project <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Work End -->
-
-
-                <!-- Single Work Start -->
-                <div class="col mb-6">
-                    <div class="work single-portfolio">
-                        <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/"><img src="assets/images/project/project-6.jpg"
-                                    alt="work single-portfolio"></a>
-                        </div>
-                        <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/">ISACA</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/">View Project <i
+                            <a href="<? echo SITE_ADDR ?>/vendor/axelos" alt="link to axelos courses">View Project <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -344,14 +335,37 @@ include './assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/"><img src="assets/images/project/project-6.jpg"
-                                    alt="work single-portfolio"></a>
+                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/isaca" alt="link to isaca courses"><img
+                                    src="assets/images/project/project-6.jpg" title=""></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/">(ISC)&#178;</a></h3>
+                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/isaca"
+                                    alt="link to isaca courses">ISACA</a>
+                            </h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/">View Project <i
+                            <a href="<? echo SITE_ADDR ?>/vendor/isaca" alt="link to isaca courses">View Project <i
+                                    class="fas fa-chevron-right fcr-animate"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Work End -->
+
+
+                <!-- Single Work Start -->
+                <div class="col mb-6">
+                    <div class="work single-portfolio">
+                        <div class="thumbnail">
+                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/isc2" alt="link to ISC2 courses"><img
+                                    src="assets/images/project/project-6.jpg" title=""></a>
+                        </div>
+                        <div class="info">
+                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/isc2"
+                                    alt="link to ISC2 courses">(ISC)&#178;</a>
+                            </h3>
+                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
+                                culpa, unde perspiciatis hic delectus.</p>
+                            <a href="<? echo SITE_ADDR ?>/vendor/isc2" alt="link to ISC2 courses">View Project <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>

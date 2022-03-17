@@ -57,14 +57,16 @@ include '../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/ec-council"><img
-                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-1.jpg" alt="work"></a>
+                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/ec-council" alt="link to EC-council"><img
+                                    src="<? echo SITE_ADDR ?>/assets/images/bg/bg-certified-ethical-hacker.jpg"
+                                    alt="EC-Council"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/ec-council">EC-Council</a></h3>
+                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/ec-council"
+                                    alt="link to EC-council">EC-Council</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/ec-council">View Courses <i
+                            <a href="<? echo SITE_ADDR ?>/vendor/ec-council" alt="link to EC-council">View Courses <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -131,7 +133,7 @@ include '../assets/php/inc/nav.php';
                     <div class="work single-portfolio">
                         <div class="thumbnail">
                             <a class="image" href="<? echo SITE_ADDR ?>/vendor/cisco"><img
-                                    src="<? echo SITE_ADDR ?>/assets/images/project/project-5.jpg" alt="work"></a>
+                                    src="<? echo SITE_ADDR ?>/assets/images/bg/bg-ccna.jpg" alt="work"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/cisco">CISCO</a></h3>
