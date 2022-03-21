@@ -697,8 +697,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item"
-                                    href="<? echo SITE_ADDR ?>/vendor/comptia/comptia-it-fundamentals">
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/comptia/comptia-server">
                                     Server+
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
@@ -728,7 +727,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/comptia/cloud">
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/vendor/comptia/comptia-cloud">
                                     Cloud+
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>

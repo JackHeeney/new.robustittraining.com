@@ -226,7 +226,91 @@
     </div>
 </div>
 <!-- End Beginners Start Here -->
+<!-- Download Guide Start Here -->
+<div class="modal fade" id="download-guide" tabindex="-1" role="dialog" aria-labelledby="downloadModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content" data-bg-image="assets/images/bg/contact-bg.jpg" data-bg-color="#000"
+            data-overlay="0.9">
+            <div class="modal-body"
+                data-bg-image="https://image.cnbcfm.com/api/v1/image/106922887-1628206615260-gettyimages-887132600-as1700__08.jpeg?v=1628206641"
+                data-overlay="0.9">
+                <div class="modal-header">
+                    <h4 class="modal-title text-center" id="downloadModalLabel">
+                        Download exam guide </h4>
 
+                    <button type=" button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+
+                <form action="https://robust.flg360.co.uk/api/APIHTTPPost.php" method="POST">
+
+                    <div class="row">
+
+                        <!-- form details for sending info to leadsite -->
+                        <input type="hidden" name="intLeadGroupID" value="" />
+                        <input type="hidden" name="strSource" value="" />
+                        <input type="hidden" name="strMedium" value="" />
+                        <input type="hidden" name="strTerm" value="" />
+                        <input type="hidden" name="intSiteID" value="15334" />
+                        <input type="hidden" name="intReferrerBuyerID" value="0" />
+                        <input type="hidden" name="intDPAStatusPhoneID" value="1">
+                        <input type="hidden" name="intDPAStatusSMSID" value="1">
+                        <input type="hidden" name="intDPAStatusEmailID" value="1">
+                        <input type="hidden" name="strAPISuccessURL" value="http://www.robustittraining.com/thankyou" />
+                        <input type="hidden" name="strAPIFailURL" value="http://www.robustittraining.com/sorry" />
+                        <input type="hidden" name="strLeadData2" id="strLeadData2" value="<? echo $leadIsFrom ?>/" />
+                        <!-- //end -->
+
+                        <div class="col-6">
+                            <div class="form-label-group mt-2">
+                                <input type="text" class="form-control form-control-flush" id="strLeadFirstName"
+                                    name="strLeadFirstName" placeholder="First Name" required="required" />
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-label-group mt-2">
+                                <input type="text" class="form-control form-control-flush" id="strLeadLastName"
+                                    name="strLeadLastName" placeholder="Last Name" required="required" />
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-12">
+                            <div class="form-label-group mt-2">
+                                <input type="email" class="form-control form-control-flush" id="strLeadEmail"
+                                    name="strLeadEmail" placeholder="Email" required="required" />
+                            </div>
+
+                            <div class="form-label-group mt-2">
+                                <input type="number" class="form-control form-control-flush" id="strLeadPhone1"
+                                    name="strLeadPhone1" placeholder="Phone Number" required="required" />
+                            </div>
+
+                            <small class="d-block text-muted text-center mx-auto fz-small my-2"><i
+                                    class="fas fa-info-circle"></i>
+                                We promise to never share your information with anyone else or send you junk mail.
+                            </small>
+                            <div class="mt-2">
+                                <button class="btn btn-block btn-secondary btn-hover--secondary" type="submit"
+                                    name="submit" value="submit">
+                                    Download Exam Guide <i class="fas fa-download fcr-animate"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+                <div class="modal-footer">
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- End Download Guide Here -->
 
 
 <!-- JS
