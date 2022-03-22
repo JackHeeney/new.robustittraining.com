@@ -13,8 +13,8 @@ $meta['og:url'] = "";
 
 $leadIsFrom = "Lead is from /microsoft/administrator";
 
-include '../../../assets/php/inc/header.php';
-include '../../../assets/php/inc/nav.php';
+require '../../../assets/php/inc/header.php';
+require '../../../assets/php/inc/nav.php';
 
 ?>
 
@@ -22,7 +22,7 @@ include '../../../assets/php/inc/nav.php';
 <div id="page" class="section">
 
     <!-- Page Title Section Start -->
-    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7" data-bg-image="<? echo SITE_ADDR ?>/assets/images/bg/breadcrumb-bg-two.jpg">
+    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7" data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/breadcrumb-bg-two.jpg">
         <div class="page-title">
             <div class="container">
                 <h1 class="title">Functional Consultant certifications</h1>
@@ -31,9 +31,9 @@ include '../../../assets/php/inc/nav.php';
         <div class="page-breadcrumb position-static">
             <div class="container">
                 <ul class="breadcrumb justify-content-center">
-                    <li><a href="<? echo SITE_ADDR ?>/">Home</a></li>
-                    <li><a href="<? echo SITE_ADDR ?>/vendor">Vendor</a></li>
-                    <li><a href="<? echo SITE_ADDR ?>/vendor/microsoft">Microsoft</a></li>
+                    <li><a href="<?php echo SITE_ADDR ?>/">Home</a></li>
+                    <li><a href="<?php echo SITE_ADDR ?>/vendor">Vendor</a></li>
+                    <li><a href="<?php echo SITE_ADDR ?>/vendor/microsoft">Microsoft</a></li>
                     <li class="current">Functional Consultant</li>
                 </ul>
             </div>
@@ -59,15 +59,15 @@ include '../../../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-customer-service-functional-consultant-associate"><img src="<? echo SITE_ADDR ?>/assets/images/project/project-1.jpg" alt="work"></a>
+                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-customer-service-functional-consultant-associate"><img src="<?php echo SITE_ADDR ?>/assets/images/project/project-1.jpg" alt="work"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-customer-service-functional-consultant-associate">Microsoft
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-customer-service-functional-consultant-associate">Microsoft
                                     Certified: Dynamics 365 Customer Service Functional Consultant Associate</a></h3>
                             <p class="desc">Microsoft Dynamics 365 Customer Service functional consultants are
                                 responsible for implementing omnichannel solutions that focus on service, quality,
                                 reliability, efficiency, and customer satisfaction.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-customer-service-functional-consultant-associate">View
+                            <a href="<?php echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-customer-service-functional-consultant-associate">View
                                 Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -78,15 +78,15 @@ include '../../../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-field-service-functional-consultant-associate"><img src="<? echo SITE_ADDR ?>/assets/images/project/project-2.jpg" alt="work"></a>
+                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-field-service-functional-consultant-associate"><img src="<?php echo SITE_ADDR ?>/assets/images/project/project-2.jpg" alt="work"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-field-service-functional-consultant-associate">Microsoft
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-field-service-functional-consultant-associate">Microsoft
                                     Certified: Dynamics 365 Field Service Functional Consultant Associate</a></h3>
                             <p class="desc">Microsoft Dynamics 365 Field Service functional consultants are responsible
                                 for implementing solutions that manage resources which complete the field service
                                 lifecycle.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-field-service-functional-consultant-associate">View
+                            <a href="<?php echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-field-service-functional-consultant-associate">View
                                 Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -97,15 +97,15 @@ include '../../../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-finance-functional-consultant-associate"><img src="<? echo SITE_ADDR ?>/assets/images/project/project-3.jpg" alt="work"></a>
+                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-finance-functional-consultant-associate"><img src="<?php echo SITE_ADDR ?>/assets/images/project/project-3.jpg" alt="work"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-finance-functional-consultant-associate">Microsoft
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-finance-functional-consultant-associate">Microsoft
                                     Certified: Dynamics 365 Finance Functional Consultant Associate</a></h3>
                             <p class="desc">Dynamics 365 Finance functional consultants unify global financials and
                                 operations; automate tasks and workflows; and streamline customer ordering, selling,
                                 invoicing, and reporting.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-finance-functional-consultant-associate">View
+                            <a href="<?php echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-finance-functional-consultant-associate">View
                                 Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -116,17 +116,17 @@ include '../../../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-supply-chain-management-manufacturing-functional-consultant-associate"><img src="<? echo SITE_ADDR ?>/assets/images/project/project-4.jpg" alt="work"></a>
+                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-supply-chain-management-manufacturing-functional-consultant-associate"><img src="<?php echo SITE_ADDR ?>/assets/images/project/project-4.jpg" alt="work"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-supply-chain-management-manufacturing-functional-consultant-associate">Microsoft
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-supply-chain-management-manufacturing-functional-consultant-associate">Microsoft
                                     Certified: Dynamics 365 Supply Chain Management, Manufacturing Functional Consultant
                                     Associate</a></h3>
                             <p class="desc">The Microsoft information protection administrator plans and implements
                                 controls that meet organizational compliance needs. This person is responsible for
                                 translating requirements and compliance controls into technical implementation. They
                                 assist organizational control owners to become and stay compliant.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-supply-chain-management-manufacturing-functional-consultant-associate">View
+                            <a href="<?php echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-supply-chain-management-manufacturing-functional-consultant-associate">View
                                 Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -137,14 +137,14 @@ include '../../../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-marketing-functional-consultant-associate"><img src="<? echo SITE_ADDR ?>/assets/images/project/project-5.jpg" alt="work"></a>
+                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-marketing-functional-consultant-associate"><img src="<?php echo SITE_ADDR ?>/assets/images/project/project-5.jpg" alt="work"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-marketing-functional-consultant-associate">Microsoft
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-marketing-functional-consultant-associate">Microsoft
                                     Certified: Dynamics 365 Marketing Functional Consultant Associate</a></h3>
                             <p class="desc">Windows Server hybrid administrators integrate Windows Server environments
                                 with Azure services and manage Windows Server in on-premises networks.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-marketing-functional-consultant-associate">View
+                            <a href="<?php echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-marketing-functional-consultant-associate">View
                                 Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -155,15 +155,15 @@ include '../../../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-sales-functional-consultant-associate"><img src="<? echo SITE_ADDR ?>/assets/images/project/project-6.jpg" alt="work"></a>
+                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-sales-functional-consultant-associate"><img src="<?php echo SITE_ADDR ?>/assets/images/project/project-6.jpg" alt="work"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-sales-functional-consultant-associate">Microsoft
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-sales-functional-consultant-associate">Microsoft
                                     Certified: Dynamics 365 Sales Functional Consultant Associate</a></h3>
                             <p class="desc">Microsoft Dynamics 365 Sales functional consultants implement solutions that
                                 anticipate and plan customer connections, manage deals through processing and closing,
                                 and accelerate sales team performance using data analytics.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-sales-functional-consultant-associate">View
+                            <a href="<?php echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-sales-functional-consultant-associate">View
                                 Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -174,16 +174,16 @@ include '../../../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-supply-chain-management-functional-consultant-associate"><img src="<? echo SITE_ADDR ?>/assets/images/project/project-4.jpg" alt="work"></a>
+                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-supply-chain-management-functional-consultant-associate"><img src="<?php echo SITE_ADDR ?>/assets/images/project/project-4.jpg" alt="work"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-supply-chain-management-functional-consultant-associate">Microsoft
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-supply-chain-management-functional-consultant-associate">Microsoft
                                     Certified: Dynamics 365 Supply Chain Management Functional Consultant Associate</a>
                             </h3>
                             <p class="desc">Microsoft Dynamics 365 Sales functional consultants implement solutions that
                                 anticipate and plan customer connections, manage deals through processing and closing,
                                 and accelerate sales team performance using data analytics.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-supply-chain-management-functional-consultant-associate">View
+                            <a href="<?php echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-supply-chain-management-functional-consultant-associate">View
                                 Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -194,17 +194,17 @@ include '../../../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-power-platform-functional-consultant-associate"><img src="<? echo SITE_ADDR ?>/assets/images/project/project-1.jpg" alt="work"></a>
+                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-power-platform-functional-consultant-associate"><img src="<?php echo SITE_ADDR ?>/assets/images/project/project-1.jpg" alt="work"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-power-platform-functional-consultant-associate">Microsoft
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-power-platform-functional-consultant-associate">Microsoft
                                     Certified: Power Platform Functional Consultant Associate</a>
                             </h3>
                             <p class="desc">As a functional consultant, use this certification to market yourself more
                                 effectively for projects and other engagements. The Microsoft Power Platform Functional
                                 Consultant Associate certification lets organizations know that—with no code or low
                                 code—you can build solutions that would normally require developer expertise.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-power-platform-functional-consultant-associate">View
+                            <a href="<?php echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-power-platform-functional-consultant-associate">View
                                 Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -215,16 +215,16 @@ include '../../../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-business-central-functional-consultant-associate"><img src="<? echo SITE_ADDR ?>/assets/images/project/project-2.jpg" alt="work"></a>
+                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-business-central-functional-consultant-associate"><img src="<?php echo SITE_ADDR ?>/assets/images/project/project-2.jpg" alt="work"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-business-central-functional-consultant-associate">Microsoft
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-business-central-functional-consultant-associate">Microsoft
                                     Certified: Dynamics 365 Business Central Functional Consultant Associate</a>
                             </h3>
                             <p class="desc">Dynamics 365 Business Central functional consultants are responsible for
                                 implementing core application setup processes for small and medium businesses with the
                                 Microsoft Dynamics 365 Business Central app.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-business-central-functional-consultant-associate">View
+                            <a href="<?php echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-dynamics-365-business-central-functional-consultant-associate">View
                                 Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -235,16 +235,16 @@ include '../../../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-customer-data-platform-specialty"><img src="<? echo SITE_ADDR ?>/assets/images/project/project-3.jpg" alt="work"></a>
+                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-customer-data-platform-specialty"><img src="<?php echo SITE_ADDR ?>/assets/images/project/project-3.jpg" alt="work"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-customer-data-platform-specialty">Microsoft
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-customer-data-platform-specialty">Microsoft
                                     Certified: Customer Data Platform Specialty</a>
                             </h3>
                             <p class="desc">Microsoft customer data platform specialists implement solutions that
                                 provide insights into customer profiles and that track engagement activities to help
                                 improve customer experiences and increase customer retention.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-customer-data-platform-specialty">View
+                            <a href="<?php echo SITE_ADDR ?>/vendor/microsoft/functional-consultant/microsoft-certified-customer-data-platform-specialty">View
                                 Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -261,7 +261,7 @@ include '../../../assets/php/inc/nav.php';
     <!-- Work Section End -->
 
     <!-- CTA Section Start -->
-    <div class="section section-padding-t110-b120 newsletter-section" data-bg-color="#000" data-overlay="0.7" data-bg-image="<? echo SITE_ADDR ?>/assets/images/bg/cta.jpg">
+    <div class="section section-padding-t110-b120 newsletter-section" data-bg-color="#000" data-overlay="0.7" data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/cta.jpg">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12">
@@ -285,7 +285,7 @@ include '../../../assets/php/inc/nav.php';
         <!-- Animation Shape Start -->
         <div class="shape shape-1 scene">
             <span data-depth="1">
-                <img src="<? echo SITE_ADDR ?>/assets/images/shape-animation/newsletter-shape.png" alt="">
+                <img src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/newsletter-shape.png" alt="">
             </span>
         </div>
         <!-- Animation Shape End -->
@@ -303,14 +303,14 @@ include '../../../assets/php/inc/nav.php';
                 <div class="col-xl-7 col-lg-6 col-12" data-aos="fade-up">
                     <div class="about-image-area">
                         <div class="about-image js-tilt">
-                            <img src="<? echo SITE_ADDR ?>/assets/images/about/about-3.jpg" alt="">
+                            <img src="<?php echo SITE_ADDR ?>/assets/images/about/about-3.jpg" alt="">
                         </div>
                         <div class="about-image js-tilt">
-                            <img src="<? echo SITE_ADDR ?>/assets/images/about/about-7.jpg" alt="">
+                            <img src="<?php echo SITE_ADDR ?>/assets/images/about/about-7.jpg" alt="">
                         </div>
                         <!-- Animation Shape Start -->
                         <div class="shape shape-2 scene">
-                            <span data-depth="4"><img src="<? echo SITE_ADDR ?>/assets/images/shape-animation/about-shape-2.png" alt=""></span>
+                            <span data-depth="4"><img src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/about-shape-2.png" alt=""></span>
                         </div>
                         <!-- Animation Shape End -->
                     </div>
@@ -332,7 +332,7 @@ include '../../../assets/php/inc/nav.php';
                             Do you know what career path you want to go down? Search for the perfect course by career.
                         </p>
 
-                        <a class="btn btn-secondary btn-hover--secondary mt-xl-12 mt-lg-8 mt-md-6 mt-4" href="<? echo SITE_ADDR ?>/career">Search
+                        <a class="btn btn-secondary btn-hover--secondary mt-xl-12 mt-lg-8 mt-md-6 mt-4" href="<?php echo SITE_ADDR ?>/career">Search
                             by career <i class="fas fa-chevron-right fcr-animate"></i></a>
                     </div>
                     <!-- About Content Area Start -->
@@ -351,7 +351,7 @@ include '../../../assets/php/inc/nav.php';
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <? include '../../../assets/php/component/brand.php';
+                    <? require '../../../assets/php/component/brand.php';
                     ?>
                 </div>
             </div>
@@ -367,6 +367,6 @@ include '../../../assets/php/inc/nav.php';
 
 <?php
 
-include '../../../assets/php/inc/footer.php';
+require '../../../assets/php/inc/footer.php';
 
 ?>

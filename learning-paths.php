@@ -13,8 +13,8 @@ $meta['og:url'] = "";
 
 $leadIsFrom = "Lead is from /learning-paths";
 
-include './assets/php/inc/header.php';
-include './assets/php/inc/nav.php';
+require './assets/php/inc/header.php';
+require './assets/php/inc/nav.php';
 
 ?>
 
@@ -22,8 +22,7 @@ include './assets/php/inc/nav.php';
 <div id="page" class="section">
 
     <!-- Page Title Section Start -->
-    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7"
-        data-bg-image="assets/images/bg/breadcrumb-bg-two.jpg">
+    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7" data-bg-image="assets/images/bg/breadcrumb-bg-two.jpg">
         <div class="page-title">
             <div class="container">
                 <h1 class="title">Find the pathway to your new career</h1>
@@ -32,7 +31,7 @@ include './assets/php/inc/nav.php';
         <div class="page-breadcrumb position-static">
             <div class="container">
                 <ul class="breadcrumb justify-content-center">
-                    <li><a href="<? echo SITE_ADDR ?>/">Home</a></li>
+                    <li><a href="<?php echo SITE_ADDR ?>/">Home</a></li>
                     <li class="current">Learning Paths</li>
                 </ul>
             </div>
@@ -57,15 +56,13 @@ include './assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/" alt=""><img
-                                    src="assets/images/project/project-1.jpg" title=""></a>
+                            <a class="image" href="<?php echo SITE_ADDR ?>/" alt=""><img src="assets/images/project/project-1.jpg" title=""></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/" alt="">Cloud Architect</a></h3>
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/" alt="">Cloud Architect</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/" alt="">View Project <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
+                            <a href="<?php echo SITE_ADDR ?>/" alt="">View Project <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -75,15 +72,13 @@ include './assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/" alt=""><img
-                                    src="assets/images/project/project-2.jpg" title=""></a>
+                            <a class="image" href="<?php echo SITE_ADDR ?>/" alt=""><img src="assets/images/project/project-2.jpg" title=""></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/" alt="">Ethical Hacker</a></h3>
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/" alt="">Ethical Hacker</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nisi, quo
                                 optio sint doloribus repellat.</p>
-                            <a href="<? echo SITE_ADDR ?>/" alt="">View Project <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
+                            <a href="<?php echo SITE_ADDR ?>/" alt="">View Project <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -93,15 +88,13 @@ include './assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/" alt=""><img
-                                    src="assets/images/project/project-3.jpg" title=""></a>
+                            <a class="image" href="<?php echo SITE_ADDR ?>/" alt=""><img src="assets/images/project/project-3.jpg" title=""></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/" alt="">Network Engineer</a></h3>
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/" alt="">Network Engineer</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/" alt="">View Project <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
+                            <a href="<?php echo SITE_ADDR ?>/" alt="">View Project <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -111,15 +104,13 @@ include './assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/" alt=""><img
-                                    src="assets/images/project/project-4.jpg" title=""></a>
+                            <a class="image" href="<?php echo SITE_ADDR ?>/" alt=""><img src="assets/images/project/project-4.jpg" title=""></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/" alt="">IT Project Manager</a></h3>
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/" alt="">IT Project Manager</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/" alt="">View Project <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
+                            <a href="<?php echo SITE_ADDR ?>/" alt="">View Project <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -129,15 +120,13 @@ include './assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/" alt=""><img
-                                    src="assets/images/project/project-5.jpg" title=""></a>
+                            <a class="image" href="<?php echo SITE_ADDR ?>/" alt=""><img src="assets/images/project/project-5.jpg" title=""></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/" alt="">Security Analyst</a></h3>
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/" alt="">Security Analyst</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/" alt="">View Project <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
+                            <a href="<?php echo SITE_ADDR ?>/" alt="">View Project <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -147,15 +136,13 @@ include './assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/" alt=""><img
-                                    src="assets/images/project/project-6.jpg" title=""></a>
+                            <a class="image" href="<?php echo SITE_ADDR ?>/" alt=""><img src="assets/images/project/project-6.jpg" title=""></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/" alt="">Developer</a></h3>
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/" alt="">Developer</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/" alt="">View Project <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
+                            <a href="<?php echo SITE_ADDR ?>/" alt="">View Project <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -166,15 +153,13 @@ include './assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/" alt=""><img
-                                    src="assets/images/project/project-6.jpg" title=""></a>
+                            <a class="image" href="<?php echo SITE_ADDR ?>/" alt=""><img src="assets/images/project/project-6.jpg" title=""></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/" alt="">DevOps</a></h3>
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/" alt="">DevOps</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/" alt="">View Project <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
+                            <a href="<?php echo SITE_ADDR ?>/" alt="">View Project <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -185,16 +170,14 @@ include './assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/" alt=""><img
-                                    src="assets/images/project/project-6.jpg" title=""></a>
+                            <a class="image" href="<?php echo SITE_ADDR ?>/" alt=""><img src="assets/images/project/project-6.jpg" title=""></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/" alt="">1<small>st</small> Line Support</a>
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/" alt="">1<small>st</small> Line Support</a>
                             </h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/" alt="">View Project <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
+                            <a href="<?php echo SITE_ADDR ?>/" alt="">View Project <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -217,16 +200,13 @@ include './assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/ec-council"
-                                alt="link to ec-council courses"><img src="assets/images/project/project-1.jpg"
-                                    title=""></a>
+                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/ec-council" alt="link to ec-council courses"><img src="assets/images/project/project-1.jpg" title=""></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/ec-council"
-                                    alt="link to ec-council courses">EC-Council</a></h3>
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/ec-council" alt="link to ec-council courses">EC-Council</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/ec-council" alt="link to ec-council courses">View
+                            <a href="<?php echo SITE_ADDR ?>/vendor/ec-council" alt="link to ec-council courses">View
                                 Project <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -237,16 +217,14 @@ include './assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/aws" alt="link to AWS courses"><img
-                                    src="assets/images/project/project-2.jpg" title=""></a>
+                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/aws" alt="link to AWS courses"><img src="assets/images/project/project-2.jpg" title=""></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/aws" alt="link to AWS courses">Amazon
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/aws" alt="link to AWS courses">Amazon
                                     Web Services</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nisi, quo
                                 optio sint doloribus repellat.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/aws" alt="link to AWS courses">View Project <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
+                            <a href="<?php echo SITE_ADDR ?>/vendor/aws" alt="link to AWS courses">View Project <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -256,16 +234,13 @@ include './assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/microsoft"
-                                alt="link to microsoft courses"><img src="assets/images/project/project-3.jpg"
-                                    title=""></a>
+                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/microsoft" alt="link to microsoft courses"><img src="assets/images/project/project-3.jpg" title=""></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/microsoft"
-                                    alt="link to microsoft courses">Microsoft</a></h3>
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/microsoft" alt="link to microsoft courses">Microsoft</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/microsoft" alt="link to microsoft courses">View Project
+                            <a href="<?php echo SITE_ADDR ?>/vendor/microsoft" alt="link to microsoft courses">View Project
                                 <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -276,16 +251,13 @@ include './assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/comptia"
-                                alt="link to microsoft courses"><img src="assets/images/project/project-4.jpg"
-                                    title=""></a>
+                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/comptia" alt="link to microsoft courses"><img src="assets/images/project/project-4.jpg" title=""></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/comptia"
-                                    alt="link to microsoft courses">CompTIA</a></h3>
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/comptia" alt="link to microsoft courses">CompTIA</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/comptia" alt="link to microsoft courses">View Project
+                            <a href="<?php echo SITE_ADDR ?>/vendor/comptia" alt="link to microsoft courses">View Project
                                 <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -296,16 +268,13 @@ include './assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/cisco" alt="link to cisco courses"><img
-                                    src="assets/images/project/project-5.jpg" title=""></a>
+                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/cisco" alt="link to cisco courses"><img src="assets/images/project/project-5.jpg" title=""></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/cisco"
-                                    alt="link to cisco courses">CISCO</a></h3>
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/cisco" alt="link to cisco courses">CISCO</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/cisco" alt="link to cisco courses">View Project <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
+                            <a href="<?php echo SITE_ADDR ?>/vendor/cisco" alt="link to cisco courses">View Project <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -315,16 +284,13 @@ include './assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/axelos" alt="link to axelos courses"><img
-                                    src="assets/images/project/project-6.jpg" title=""></a>
+                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/axelos" alt="link to axelos courses"><img src="assets/images/project/project-6.jpg" title=""></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/axelos"
-                                    alt="link to axelos courses">Axelos</a></h3>
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/axelos" alt="link to axelos courses">Axelos</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/axelos" alt="link to axelos courses">View Project <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
+                            <a href="<?php echo SITE_ADDR ?>/vendor/axelos" alt="link to axelos courses">View Project <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -335,17 +301,14 @@ include './assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/isaca" alt="link to isaca courses"><img
-                                    src="assets/images/project/project-6.jpg" title=""></a>
+                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/isaca" alt="link to isaca courses"><img src="assets/images/project/project-6.jpg" title=""></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/isaca"
-                                    alt="link to isaca courses">ISACA</a>
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/isaca" alt="link to isaca courses">ISACA</a>
                             </h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/isaca" alt="link to isaca courses">View Project <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
+                            <a href="<?php echo SITE_ADDR ?>/vendor/isaca" alt="link to isaca courses">View Project <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -356,17 +319,14 @@ include './assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<? echo SITE_ADDR ?>/vendor/isc2" alt="link to ISC2 courses"><img
-                                    src="assets/images/project/project-6.jpg" title=""></a>
+                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/isc2" alt="link to ISC2 courses"><img src="assets/images/project/project-6.jpg" title=""></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<? echo SITE_ADDR ?>/vendor/isc2"
-                                    alt="link to ISC2 courses">(ISC)&#178;</a>
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/isc2" alt="link to ISC2 courses">(ISC)&#178;</a>
                             </h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<? echo SITE_ADDR ?>/vendor/isc2" alt="link to ISC2 courses">View Project <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
+                            <a href="<?php echo SITE_ADDR ?>/vendor/isc2" alt="link to ISC2 courses">View Project <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -382,8 +342,7 @@ include './assets/php/inc/nav.php';
     <!-- Work Section End -->
 
     <!-- CTA Section Start -->
-    <div class="section section-padding-t110-b120 newsletter-section" data-bg-color="#000" data-overlay="0.7"
-        data-bg-image="assets/images/bg/cta.jpg">
+    <div class="section section-padding-t110-b120 newsletter-section" data-bg-color="#000" data-overlay="0.7" data-bg-image="assets/images/bg/cta.jpg">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12">
@@ -396,8 +355,7 @@ include './assets/php/inc/nav.php';
                                 clicking the button below this form will only be used to respond to your request.</p>
                         </div>
                         <!-- Section Title End -->
-                        <a href="#" class="btn btn-secondary btn-hover--secondary mt-6"
-                            style="min-width: 226px !important"><span class="call-back"></span>
+                        <a href="#" class="btn btn-secondary btn-hover--secondary mt-6" style="min-width: 226px !important"><span class="call-back"></span>
                             <i class="fas fa-phone fcr-animate"></i></a>
                     </div>
                     <!-- CTA Content End -->
@@ -433,8 +391,7 @@ include './assets/php/inc/nav.php';
                         </div>
                         <!-- Animation Shape Start -->
                         <div class="shape shape-1 scene">
-                            <span data-depth="4"><img src="assets/images/shape-animation/about-shape-1.png"
-                                    alt=""></span>
+                            <span data-depth="4"><img src="assets/images/shape-animation/about-shape-1.png" alt=""></span>
                         </div>
                         <!-- Animation Shape End -->
                     </div>
@@ -474,7 +431,7 @@ include './assets/php/inc/nav.php';
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <? include './assets/php/component/brand.php';
+                    <? require './assets/php/component/brand.php';
                     ?>
                 </div>
             </div>
@@ -490,6 +447,6 @@ include './assets/php/inc/nav.php';
 
 <?php
 
-include './assets/php/inc/footer.php';
+require './assets/php/inc/footer.php';
 
 ?>

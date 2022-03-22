@@ -12,15 +12,14 @@ $meta['og:url'] = "";
 
 $leadIsFrom = "Lead is from /services";
 
-include './assets/php/inc/header.php';
-include './assets/php/inc/nav.php';
+require './assets/php/inc/header.php';
+require './assets/php/inc/nav.php';
 ?>
 
 <div id="page service" class="section">
 
     <!-- Page Title Section Start -->
-    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7"
-        data-bg-image="assets/images/bg/breadcrumb-bg-three.jpg">
+    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7" data-bg-image="assets/images/bg/breadcrumb-bg-three.jpg">
         <div class="page-title">
             <div class="container">
                 <h1 class="title">Finance Options.</h1>
@@ -29,7 +28,7 @@ include './assets/php/inc/nav.php';
         <div class="page-breadcrumb position-static">
             <div class="container">
                 <ul class="breadcrumb justify-content-center">
-                    <li><a href="<? echo SITE_ADDR ?>/">Home</a></li>
+                    <li><a href="<?php echo SITE_ADDR ?>/">Home</a></li>
                     <li class="current">Finance Options</li>
                 </ul>
             </div>
@@ -56,8 +55,7 @@ include './assets/php/inc/nav.php';
                 <div class="col mb-6" data-aos="fade-up">
 
                     <div class="icon-box box-border text-center" data-vivus-hover>
-                        <div class="icon"><img class="svgInject" src="assets/images/svg/linea/linea-basic-target.svg"
-                                alt=""></div>
+                        <div class="icon"><img class="svgInject" src="assets/images/svg/linea/linea-basic-target.svg" alt=""></div>
                         <div class="content">
                             <h3 class="title">Sub-Heading One</h3>
                             <div class="desc">
@@ -75,8 +73,7 @@ include './assets/php/inc/nav.php';
                 <div class="col mb-6" data-aos="fade-up">
 
                     <div class="icon-box box-border text-center" data-vivus-hover>
-                        <div class="icon"><img class="svgInject" src="assets/images/svg/linea/linea-basic-gear.svg"
-                                alt=""></div>
+                        <div class="icon"><img class="svgInject" src="assets/images/svg/linea/linea-basic-gear.svg" alt=""></div>
                         <div class="content">
                             <h3 class="title">Sub-Heading Two</h3>
                             <div class="desc">
@@ -94,8 +91,7 @@ include './assets/php/inc/nav.php';
                 <div class="col mb-6" data-aos="fade-up">
 
                     <div class="icon-box box-border text-center" data-vivus-hover>
-                        <div class="icon"><img class="svgInject" src="assets/images/svg/linea/linea-basic-display.svg"
-                                alt=""></div>
+                        <div class="icon"><img class="svgInject" src="assets/images/svg/linea/linea-basic-display.svg" alt=""></div>
                         <div class="content">
                             <h3 class="title">Sub-Heading Three</h3>
                             <div class="desc">
@@ -113,8 +109,7 @@ include './assets/php/inc/nav.php';
                 <div class="col mb-6" data-aos="fade-up">
 
                     <div class="icon-box box-border text-center" data-vivus-hover>
-                        <div class="icon"><img class="svgInject"
-                                src="assets/images/svg/linea/linea-ecommerce-cart-plus.svg" alt=""></div>
+                        <div class="icon"><img class="svgInject" src="assets/images/svg/linea/linea-ecommerce-cart-plus.svg" alt=""></div>
                         <div class="content">
                             <h3 class="title">Sub-Heading Four</h3>
                             <div class="desc">
@@ -132,8 +127,7 @@ include './assets/php/inc/nav.php';
                 <div class="col mb-6" data-aos="fade-up">
 
                     <div class="icon-box box-border text-center" data-vivus-hover>
-                        <div class="icon"><img class="svgInject"
-                                src="assets/images/svg/linea/linea-basic-picture-multiple.svg" alt=""></div>
+                        <div class="icon"><img class="svgInject" src="assets/images/svg/linea/linea-basic-picture-multiple.svg" alt=""></div>
                         <div class="content">
                             <h3 class="title">Sub-Heading Five</h3>
                             <div class="desc">
@@ -151,8 +145,7 @@ include './assets/php/inc/nav.php';
                 <div class="col mb-6" data-aos="fade-up">
 
                     <div class="icon-box box-border text-center" data-vivus-hover>
-                        <div class="icon"><img class="svgInject" src="assets/images/svg/linea/linea-basic-picture.svg"
-                                alt=""></div>
+                        <div class="icon"><img class="svgInject" src="assets/images/svg/linea/linea-basic-picture.svg" alt=""></div>
                         <div class="content">
                             <h3 class="title">Sub-Heading Six</h3>
                             <div class="desc">
@@ -200,11 +193,7 @@ include './assets/php/inc/nav.php';
                             <div class="progress-charts">
                                 <h6 class="heading ">£25,000</h6>
                                 <div class="progress">
-                                    <div class="progress-bar gradient-1 wow fadeInLeft" data-wow-duration="0.5s"
-                                        data-wow-delay=".3s" role="progressbar"
-                                        style="width: 81%; visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInLeft;"
-                                        aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
-                                            class="percent-label">81%</span></div>
+                                    <div class="progress-bar gradient-1 wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 81%; visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInLeft;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span class="percent-label">81%</span></div>
                                 </div>
                             </div>
                             <!-- End Single Progress Charts -->
@@ -213,11 +202,7 @@ include './assets/php/inc/nav.php';
                             <div class="progress-charts ">
                                 <h6 class="heading ">£35,000</h6>
                                 <div class="progress">
-                                    <div class="progress-bar gradient-2 wow fadeInLeft" data-wow-duration="0.7s"
-                                        data-wow-delay=".5s" role="progressbar"
-                                        style="width: 72%; visibility: visible; animation-duration: 0.7s; animation-delay: 0.5s; animation-name: fadeInLeft;"
-                                        aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
-                                            class="percent-label">72%</span></div>
+                                    <div class="progress-bar gradient-2 wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay=".5s" role="progressbar" style="width: 72%; visibility: visible; animation-duration: 0.7s; animation-delay: 0.5s; animation-name: fadeInLeft;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span class="percent-label">72%</span></div>
                                 </div>
                             </div>
                             <!-- End Single Progress Charts -->
@@ -226,11 +211,7 @@ include './assets/php/inc/nav.php';
                             <div class="progress-charts ">
                                 <h6 class="heading ">£45,000</h6>
                                 <div class="progress">
-                                    <div class="progress-bar gradient-3 wow fadeInLeft" data-wow-duration="0.8s"
-                                        data-wow-delay=".8s" role="progressbar"
-                                        style="width: 80%; visibility: visible; animation-duration: 0.8s; animation-delay: 0.8s; animation-name: fadeInLeft;"
-                                        aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"><span
-                                            class="percent-label">80%</span></div>
+                                    <div class="progress-bar gradient-3 wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay=".8s" role="progressbar" style="width: 80%; visibility: visible; animation-duration: 0.8s; animation-delay: 0.8s; animation-name: fadeInLeft;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"><span class="percent-label">80%</span></div>
                                 </div>
                             </div>
                             <!-- End Single Progress Charts -->
@@ -239,11 +220,7 @@ include './assets/php/inc/nav.php';
                             <div class="progress-charts ">
                                 <h6 class="heading ">£55,000</h6>
                                 <div class="progress">
-                                    <div class="progress-bar gradient-4 wow fadeInLeft" data-wow-duration="0.9s"
-                                        data-wow-delay=".9s" role="progressbar"
-                                        style="width: 57%; visibility: visible; animation-duration: 0.9s; animation-delay: 0.9s; animation-name: fadeInLeft;"
-                                        aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"><span
-                                            class="percent-label">57%</span></div>
+                                    <div class="progress-bar gradient-4 wow fadeInLeft" data-wow-duration="0.9s" data-wow-delay=".9s" role="progressbar" style="width: 57%; visibility: visible; animation-duration: 0.9s; animation-delay: 0.9s; animation-name: fadeInLeft;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"><span class="percent-label">57%</span></div>
                                 </div>
                             </div>
                             <!-- End Single Progress Charts -->
@@ -264,8 +241,7 @@ include './assets/php/inc/nav.php';
                         </div>
                         <!-- Animation Shape Start -->
                         <div class="shape shape-1 scene">
-                            <span data-depth="1"><img src="assets/images/shape-animation/video-shape-1.png"
-                                    alt=""></span>
+                            <span data-depth="1"><img src="assets/images/shape-animation/video-shape-1.png" alt=""></span>
                         </div>
                         <!-- Animation Shape End -->
                     </div>
@@ -295,8 +271,7 @@ include './assets/php/inc/nav.php';
                         </div>
                         <!-- Animation Shape Start -->
                         <div class="shape shape-1 scene">
-                            <span data-depth="1"><img src="assets/images/shape-animation/about-shape-1.png"
-                                    alt=""></span>
+                            <span data-depth="1"><img src="assets/images/shape-animation/about-shape-1.png" alt=""></span>
                         </div>
                         <!-- Animation Shape End -->
                     </div>
@@ -388,8 +363,7 @@ include './assets/php/inc/nav.php';
     <!-- Funfact Section End -->
 
     <!-- Contact Section Start -->
-    <div class="section section-padding contact-section" data-bg-color="#000" data-overlay="0.7"
-        data-bg-image="assets/images/bg/contact-bg.jpg">
+    <div class="section section-padding contact-section" data-bg-color="#000" data-overlay="0.7" data-bg-image="assets/images/bg/contact-bg.jpg">
 
         <div class="container">
             <div class="row row-cols-lg-2 row-cols-1 align-items-center">
@@ -428,8 +402,7 @@ include './assets/php/inc/nav.php';
                         <!-- Contact Info Item Start -->
                         <div class="contact-info info-light" data-vivus-hover>
                             <div class="icon">
-                                <img class="svgInject" src="assets/images/svg/linea/linea-basic-mail-open-text.svg"
-                                    alt="">
+                                <img class="svgInject" src="assets/images/svg/linea/linea-basic-mail-open-text.svg" alt="">
                             </div>
                             <div class="info">
                                 <h4 class="title"> Help Desk</h4>
@@ -465,11 +438,9 @@ include './assets/php/inc/nav.php';
                             <input type="hidden" name="intDPAStatusPhoneID" value="1">
                             <input type="hidden" name="intDPAStatusSMSID" value="1">
                             <input type="hidden" name="intDPAStatusEmailID" value="1">
-                            <input type="hidden" name="strAPISuccessURL"
-                                value="http://www.robustittraining.com/thankyou" />
+                            <input type="hidden" name="strAPISuccessURL" value="http://www.robustittraining.com/thankyou" />
                             <input type="hidden" name="strAPIFailURL" value="http://www.robustittraining.com/sorry" />
-                            <input type="hidden" name="strLeadData2" id="strLeadData2"
-                                value="<? echo $leadIsFrom ?>/" />
+                            <input type="hidden" name="strLeadData2" id="strLeadData2" value="<?php echo $leadIsFrom ?>/" />
                             <!-- //end -->
 
                             <div class="row mb-n4">
@@ -518,6 +489,6 @@ include './assets/php/inc/nav.php';
 
 <?php
 
-include './assets/php/inc/footer.php';
+require './assets/php/inc/footer.php';
 
 ?>

@@ -13,8 +13,8 @@ $meta['og:url'] = "";
 
 $leadIsFrom = "Lead is from /search-by-careers";
 
-include '../assets/php/inc/header.php';
-include '../assets/php/inc/nav.php';
+require '../assets/php/inc/header.php';
+require '../assets/php/inc/nav.php';
 
 ?>
 
@@ -22,7 +22,7 @@ include '../assets/php/inc/nav.php';
 <div id="page" class="section">
 
     <!-- Page Title Section Start -->
-    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7" data-bg-image="<? echo SITE_ADDR ?>/assets/images/bg/breadcrumb-bg-two.jpg">
+    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7" data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/breadcrumb-bg-two.jpg">
         <div class="page-title">
             <div class="container">
                 <h1 class="title">Courses by career</h1>
@@ -31,7 +31,7 @@ include '../assets/php/inc/nav.php';
         <div class="page-breadcrumb position-static">
             <div class="container">
                 <ul class="breadcrumb justify-content-center">
-                    <li><a href="<? echo SITE_ADDR ?>/">Home</a></li>
+                    <li><a href="<?php echo SITE_ADDR ?>/">Home</a></li>
                     <li class="current">Career</li>
                 </ul>
             </div>
@@ -55,7 +55,7 @@ include '../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="#"><img src="<? echo SITE_ADDR ?>/assets/images/project/project-1.jpg" alt="work"></a>
+                            <a class="image" href="#"><img src="<?php echo SITE_ADDR ?>/assets/images/project/project-1.jpg" alt="work"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a href="#">Cloud Architect</a></h3>
@@ -71,7 +71,7 @@ include '../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="#"><img src="<? echo SITE_ADDR ?>/assets/images/project/project-2.jpg" alt="work"></a>
+                            <a class="image" href="#"><img src="<?php echo SITE_ADDR ?>/assets/images/project/project-2.jpg" alt="work"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a href="#">Ethical Hacker</a></h3>
@@ -87,7 +87,7 @@ include '../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="#"><img src="<? echo SITE_ADDR ?>/assets/images/project/project-3.jpg" alt="work"></a>
+                            <a class="image" href="#"><img src="<?php echo SITE_ADDR ?>/assets/images/project/project-3.jpg" alt="work"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a href="#">Network Engineer</a></h3>
@@ -103,7 +103,7 @@ include '../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="#"><img src="<? echo SITE_ADDR ?>/assets/images/project/project-4.jpg" alt="work"></a>
+                            <a class="image" href="#"><img src="<?php echo SITE_ADDR ?>/assets/images/project/project-4.jpg" alt="work"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a href="#">IT Project Manager</a></h3>
@@ -119,7 +119,7 @@ include '../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="#"><img src="<? echo SITE_ADDR ?>/assets/images/project/project-5.jpg" alt="work"></a>
+                            <a class="image" href="#"><img src="<?php echo SITE_ADDR ?>/assets/images/project/project-5.jpg" alt="work"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a href="#">Security Analyst</a></h3>
@@ -135,7 +135,7 @@ include '../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="#"><img src="<? echo SITE_ADDR ?>/assets/images/project/project-6.jpg" alt="work"></a>
+                            <a class="image" href="#"><img src="<?php echo SITE_ADDR ?>/assets/images/project/project-6.jpg" alt="work"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a href="#">Developer</a></h3>
@@ -152,7 +152,7 @@ include '../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="#"><img src="<? echo SITE_ADDR ?>/assets/images/project/project-6.jpg" alt="work"></a>
+                            <a class="image" href="#"><img src="<?php echo SITE_ADDR ?>/assets/images/project/project-6.jpg" alt="work"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a href="#">DevOps</a></h3>
@@ -169,7 +169,7 @@ include '../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="#"><img src="<? echo SITE_ADDR ?>/assets/images/project/project-6.jpg" alt="work"></a>
+                            <a class="image" href="#"><img src="<?php echo SITE_ADDR ?>/assets/images/project/project-6.jpg" alt="work"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a href="#">1<small>st</small> Line Support</a></h3>
@@ -191,7 +191,7 @@ include '../assets/php/inc/nav.php';
     <!-- Work Section End -->
 
     <!-- CTA Section Start -->
-    <div class="section section-padding-t110-b120 newsletter-section" data-bg-color="#000" data-overlay="0.7" data-bg-image="<? echo SITE_ADDR ?>/assets/images/bg/cta.jpg">
+    <div class="section section-padding-t110-b120 newsletter-section" data-bg-color="#000" data-overlay="0.7" data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/cta.jpg">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12">
@@ -215,7 +215,7 @@ include '../assets/php/inc/nav.php';
         <!-- Animation Shape Start -->
         <div class="shape shape-1 scene">
             <span data-depth="1">
-                <img src="<? echo SITE_ADDR ?>/assets/images/shape-animation/newsletter-shape.png" alt="">
+                <img src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/newsletter-shape.png" alt="">
             </span>
         </div>
         <!-- Animation Shape End -->
@@ -233,14 +233,14 @@ include '../assets/php/inc/nav.php';
                 <div class="col-xl-7 col-lg-6 col-12" data-aos="fade-up">
                     <div class="about-image-area">
                         <div class="about-image js-tilt">
-                            <img src="<? echo SITE_ADDR ?>/assets/images/about/about-3.jpg" alt="">
+                            <img src="<?php echo SITE_ADDR ?>/assets/images/about/about-3.jpg" alt="">
                         </div>
                         <div class="about-image js-tilt">
-                            <img src="<? echo SITE_ADDR ?>/assets/images/about/about-7.jpg" alt="">
+                            <img src="<?php echo SITE_ADDR ?>/assets/images/about/about-7.jpg" alt="">
                         </div>
                         <!-- Animation Shape Start -->
                         <div class="shape shape-2 scene">
-                            <span data-depth="4"><img src="<? echo SITE_ADDR ?>/assets/images/shape-animation/about-shape-2.png" alt=""></span>
+                            <span data-depth="4"><img src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/about-shape-2.png" alt=""></span>
                         </div>
                         <!-- Animation Shape End -->
                     </div>
@@ -263,7 +263,7 @@ include '../assets/php/inc/nav.php';
                             vendors.
                         </p>
 
-                        <a class="btn btn-secondary btn-hover--secondary mt-xl-12 mt-lg-8 mt-md-6 mt-4" href="<? echo SITE_ADDR ?>/vendor">Search
+                        <a class="btn btn-secondary btn-hover--secondary mt-xl-12 mt-lg-8 mt-md-6 mt-4" href="<?php echo SITE_ADDR ?>/vendor">Search
                             by vendor <i class="fas fa-chevron-right fcr-animate"></i></a>
                     </div>
                     <!-- About Content Area Start -->
@@ -282,7 +282,7 @@ include '../assets/php/inc/nav.php';
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <? include '../assets/php/component/brand.php';
+                    <? require '../assets/php/component/brand.php';
                     ?>
                 </div>
             </div>
@@ -298,6 +298,6 @@ include '../assets/php/inc/nav.php';
 
 <?php
 
-include '../assets/php/inc/footer.php';
+require '../assets/php/inc/footer.php';
 
 ?>

@@ -12,16 +12,15 @@ $meta['og:url'] = "";
 
 $leadIsFrom = "Lead is from /terms-and-conditions";
 
-include './assets/php/inc/header.php';
-include './assets/php/inc/nav.php';
+require './assets/php/inc/header.php';
+require './assets/php/inc/nav.php';
 ?>
 
 <div id="page terms" class="section">
 
 
     <!-- Page Title Section Start -->
-    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="1"
-        data-bg-image="<? echo SITE_ADDR ?>/assets/images/bg/breadcrumb-bg.jpg">
+    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="1" data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/breadcrumb-bg.jpg">
         <div class="page-title">
             <div class="container">
                 <h1 class="title">Terms & Conditions</h1>
@@ -30,7 +29,7 @@ include './assets/php/inc/nav.php';
         <div class="page-breadcrumb position-static">
             <div class="container">
                 <ul class="breadcrumb justify-content-center">
-                    <li><a href="<? echo SITE_ADDR ?>/">Home</a></li>
+                    <li><a href="<?php echo SITE_ADDR ?>/">Home</a></li>
                     <li class="current">Terms & Conditions</li>
                 </ul>
             </div>
@@ -55,9 +54,7 @@ include './assets/php/inc/nav.php';
                                 us.</span>
 
 
-                            <a class="btn btn-primary btn-hover-secondary float-right"
-                                href="https://www.robustittraining.com/assets/uploads/terms-and-conditions.pdf"
-                                download>Download / Print
+                            <a class="btn btn-primary btn-hover-secondary float-right" href="https://www.robustittraining.com/assets/uploads/terms-and-conditions.pdf" download>Download / Print
                                 Copy
                                 <i class="fas fa-print fcr-animate"></i></a>
 
@@ -361,22 +358,18 @@ include './assets/php/inc/nav.php';
                         </p>
                         <ul>
                             <li>
-                                <a class="text-primary" href="https://www.robustittraining.com" target="_blank"
-                                    alt="robustittraining.com">www.robustittraining.com</a>
+                                <a class="text-primary" href="https://www.robustittraining.com" target="_blank" alt="robustittraining.com">www.robustittraining.com</a>
                             </li>
                         </ul>
                         <p>
-                            Please read our <a class="text-primary" href="<? echo SITE_ADDR ?>/privacy-policy"
-                                target="_blank" alt="privacy policy">Privacy Policy</a>, which applies to any personal
+                            Please read our <a class="text-primary" href="<?php echo SITE_ADDR ?>/privacy-policy" target="_blank" alt="privacy policy">Privacy Policy</a>, which applies to any personal
                             information
                             collected from you
                             when you use any of the Websites. Robust IT Limited is registered at Companies House.
                         </p>
                         <p>
                             <strong>
-                                For details or enquiries regarding this, please visit the Robust IT website or <a
-                                    class="text-primary" href="<? echo SITE_ADDR ?>/contact-us" target="_blank"
-                                    alt="contact us">Contact
+                                For details or enquiries regarding this, please visit the Robust IT website or <a class="text-primary" href="<?php echo SITE_ADDR ?>/contact-us" target="_blank" alt="contact us">Contact
                                     us</a>.
                             </strong>
                         </p>
@@ -426,8 +419,7 @@ include './assets/php/inc/nav.php';
                             regularly. Your continued use of the Websites and / or courses and course materials, after
                             changes have been made will be taken to mean that you have checked the Terms and you are
                             accepting these changes to the Terms and acknowledging that you have read them, as well as
-                            the <a class="text-primary" href="<? echo SITE_ADDR ?>/privacy-policy" target="_blank"
-                                alt="privacy policy">Privacy Policy</a>. If you are unhappy
+                            the <a class="text-primary" href="<?php echo SITE_ADDR ?>/privacy-policy" target="_blank" alt="privacy policy">Privacy Policy</a>. If you are unhappy
                             with any changes to the Terms you should not use any
                             of the websites.
                         </p>
@@ -478,8 +470,7 @@ include './assets/php/inc/nav.php';
                         </p>
                         <ul>
                             <li>
-                                <a href="https://www.robustittraining.com/" target="_blank"
-                                    alt="robust it training">www.robustittraining.com</a>
+                                <a href="https://www.robustittraining.com/" target="_blank" alt="robust it training">www.robustittraining.com</a>
                             </li>
                         </ul>
                         <p>
@@ -535,8 +526,7 @@ include './assets/php/inc/nav.php';
                                         requested about or it be yourself.</li>
                                     <li>There is an administration fee of up to £ 50 depending on the level of details
                                         required. As we come under the data protection act for personal information.
-                                        Please see link: <a href="https://ico.org.uk/your-data-matters/" target="_blank"
-                                            alt="link to ICO">www.ico.org.uk</a>
+                                        Please see link: <a href="https://ico.org.uk/your-data-matters/" target="_blank" alt="link to ICO">www.ico.org.uk</a>
                                     </li>
                                 </ul>
                             </li>
@@ -910,8 +900,7 @@ include './assets/php/inc/nav.php';
                         </p>
                         <ol>
                             <li>
-                                Email <a
-                                    href="mailto:compliance@robustittraining.com">compliance@robustittraining.com</a>
+                                Email <a href="mailto:compliance@robustittraining.com">compliance@robustittraining.com</a>
                                 with your complaint
                             </li>
                             <li>
@@ -950,6 +939,6 @@ include './assets/php/inc/nav.php';
 
 <?php
 
-include './assets/php/inc/footer.php';
+require './assets/php/inc/footer.php';
 
 ?>

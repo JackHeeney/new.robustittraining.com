@@ -12,8 +12,8 @@ $meta['og:url'] = "";
 
 $leadIsFrom = "Lead is from /contact-us";
 
-include './assets/php/inc/header.php';
-include './assets/php/inc/nav.php';
+require './assets/php/inc/header.php';
+require './assets/php/inc/nav.php';
 ?>
 
 <div id="page contact" class="section">
@@ -29,7 +29,7 @@ include './assets/php/inc/nav.php';
         <div class="page-breadcrumb position-static">
             <div class="container">
                 <ul class="breadcrumb justify-content-center">
-                    <li><a href="<? echo SITE_ADDR ?>/">Home</a></li>
+                    <li><a href="<?php echo SITE_ADDR ?>/">Home</a></li>
                     <li class="current">Contact Us</li>
                 </ul>
             </div>
@@ -160,7 +160,7 @@ include './assets/php/inc/nav.php';
                             <input type="hidden" name="intDPAStatusEmailID" value="1">
                             <input type="hidden" name="strAPISuccessURL" value="http://www.robustittraining.com/thankyou" />
                             <input type="hidden" name="strAPIFailURL" value="http://www.robustittraining.com/sorry" />
-                            <input type="hidden" name="strLeadData2" id="strLeadData2" value="<? echo $leadIsFrom ?>/" />
+                            <input type="hidden" name="strLeadData2" id="strLeadData2" value="<?php echo $leadIsFrom ?>/" />
                             <!-- //end -->
                             <div class="row mb-n6">
                                 <div class="col-md-6 col-12 mb-6">
@@ -195,6 +195,6 @@ include './assets/php/inc/nav.php';
 
 <?php
 
-include './assets/php/inc/footer.php';
+require './assets/php/inc/footer.php';
 
 ?>

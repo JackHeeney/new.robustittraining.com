@@ -27,58 +27,58 @@ define("SITE_ADDR", "http://localhost/new.robustittraining.com");
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="<? echo SITE_ADDR ?>/assets/images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="<? echo SITE_ADDR ?>/assets/images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="<? echo SITE_ADDR ?>/assets/images/favicon-16x16.png">
-    <link rel="shortcut icon" type="image/x-icon" href="<? echo SITE_ADDR ?>/assets/images/favicon/favicon.ico">
-    <link rel="manifest" href="<? echo SITE_ADDR ?>/assets/images/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo SITE_ADDR ?>/assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo SITE_ADDR ?>/assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo SITE_ADDR ?>/assets/images/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo SITE_ADDR ?>/assets/images/favicon/favicon.ico">
+    <link rel="manifest" href="<?php echo SITE_ADDR ?>/assets/images/site.webmanifest">
 
     <!-- CSS
 	============================================ -->
 
     <!-- Vendor CSS (Icon Font) -->
     <!--
-    <link rel="stylesheet" href="<? echo SITE_ADDR ?>/assets/css/vendor/font-awesome-pro.min.css">
-    <link rel="stylesheet" href="<? echo SITE_ADDR ?>/assets/css/vendor/pe-icon-7-stroke.css">
-    <link rel="stylesheet" href="<? echo SITE_ADDR ?>/assets/css/vendor/muli-font.css"> -->
+    <link rel="stylesheet" href="<?php echo SITE_ADDR ?>/assets/css/vendor/font-awesome-pro.min.css">
+    <link rel="stylesheet" href="<?php echo SITE_ADDR ?>/assets/css/vendor/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="<?php echo SITE_ADDR ?>/assets/css/vendor/muli-font.css"> -->
 
     <!-- Plugins CSS (All Plugins Files) -->
     <!--
-    <link rel="stylesheet" href="<? echo SITE_ADDR ?>/assets/css/plugins/swiper.min.css">
-    <link rel="stylesheet" href="<? echo SITE_ADDR ?>/assets/css/plugins/animate.css">
-    <link rel="stylesheet" href="<? echo SITE_ADDR ?>/assets/css/plugins/aos.min.css">
-    <link rel="stylesheet" href="<? echo SITE_ADDR ?>/assets/css/plugins/magnific-popup.css">
-    <link rel="stylesheet" href="<? echo SITE_ADDR ?>/assets/css/plugins/jquery.animatedheadline.css">
+    <link rel="stylesheet" href="<?php echo SITE_ADDR ?>/assets/css/plugins/swiper.min.css">
+    <link rel="stylesheet" href="<?php echo SITE_ADDR ?>/assets/css/plugins/animate.css">
+    <link rel="stylesheet" href="<?php echo SITE_ADDR ?>/assets/css/plugins/aos.min.css">
+    <link rel="stylesheet" href="<?php echo SITE_ADDR ?>/assets/css/plugins/magnific-popup.css">
+    <link rel="stylesheet" href="<?php echo SITE_ADDR ?>/assets/css/plugins/jquery.animatedheadline.css">
      -->
 
     <!-- Main Style CSS -->
-    <link rel="stylesheet" href="<? echo SITE_ADDR ?>/assets/css/style.css">
+    <link rel="stylesheet" href="<?php echo SITE_ADDR ?>/assets/css/style.css">
 
     <!-- Use the minified version files listed below for better performance and remove the files listed above -->
-    <link rel="stylesheet" href="<? echo SITE_ADDR ?>/assets/css/vendor/vendor.min.css">
-    <link rel="stylesheet" href="<? echo SITE_ADDR ?>/assets/css/plugins/plugins.min.css">
-    <!-- <link rel="stylesheet" href="<? echo SITE_ADDR ?>/assets/css/style.min.css"> -->
+    <link rel="stylesheet" href="<?php echo SITE_ADDR ?>/assets/css/vendor/vendor.min.css">
+    <link rel="stylesheet" href="<?php echo SITE_ADDR ?>/assets/css/plugins/plugins.min.css">
+    <!-- <link rel="stylesheet" href="<?php echo SITE_ADDR ?>/assets/css/style.min.css"> -->
 
     <script type="text/javascript">
-    /*****************************
-     *        live search        *
-     *****************************/
-    function showResult(str) {
-        if (str.length == 0) {
-            document.getElementById("livesearch").innerHTML = "";
-            document.getElementById("livesearch").style.border = "0px";
-            return;
-        }
-        var xmlhttp = new XMLHttpRequest();
-        xmlhttp.onreadystatechange = function() {
-            if (this.readyState == 4 && this.status == 200) {
-                document.getElementById("livesearch").innerHTML = this.responseText;
-                document.getElementById("livesearch").style.border = "5px solid #fff";
+        /*****************************
+         *        live search        *
+         *****************************/
+        function showResult(str) {
+            if (str.length == 0) {
+                document.getElementById("livesearch").innerHTML = "";
+                document.getElementById("livesearch").style.border = "0px";
+                return;
             }
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("livesearch").innerHTML = this.responseText;
+                    document.getElementById("livesearch").style.border = "5px solid #fff";
+                }
+            }
+            xmlhttp.open("GET", "<?php echo SITE_ADDR ?>/assets/php/inc/livesearch.php?q=" + str, true);
+            xmlhttp.send();
         }
-        xmlhttp.open("GET", "<? echo SITE_ADDR ?>/assets/php/inc/livesearch.php?q=" + str, true);
-        xmlhttp.send();
-    }
     </script>
 </head>
 

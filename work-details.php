@@ -12,8 +12,8 @@ $meta['og:url'] = "";
 
 $leadIsFrom = "Lead is from /work-details";
 
-include './assets/php/inc/header.php';
-include './assets/php/inc/nav.php';
+require './assets/php/inc/header.php';
+require './assets/php/inc/nav.php';
 ?>
 
 <div id="page work-details" class="section">
@@ -29,7 +29,7 @@ include './assets/php/inc/nav.php';
         <div class="page-breadcrumb position-static">
             <div class="container">
                 <ul class="breadcrumb justify-content-center">
-                    <li><a href="<? echo SITE_ADDR ?>/">Home</a></li>
+                    <li><a href="<?php echo SITE_ADDR ?>/">Home</a></li>
                     <li class="current">Work</li>
                 </ul>
             </div>
@@ -50,7 +50,7 @@ include './assets/php/inc/nav.php';
                                 project
                             </h2>
                             <div class="work-details-course-logo">
-                                <img src="<? echo SITE_ADDR ?>/assets/images/logo/aws/AWS-CloudPractitioner.png" alt="cloud practitioner logo" class="w-100">
+                                <img src="<?php echo SITE_ADDR ?>/assets/images/logo/aws/AWS-CloudPractitioner.png" alt="cloud practitioner logo" class="w-100">
                             </div>
                             <!-- Start Details List -->
                             <div class="work-details-list mt-lg-12 mt-6">
@@ -168,7 +168,7 @@ include './assets/php/inc/nav.php';
                     <div class="container">
                         <div class="row my-lg-10 my-10">
                             <div class="col-lg-12">
-                                <? include './assets/php/component/brand.php';
+                                <? require './assets/php/component/brand.php';
                                 ?>
                             </div>
                         </div>
@@ -503,6 +503,6 @@ include './assets/php/inc/nav.php';
 
 <?php
 
-include './assets/php/inc/footer.php';
+require './assets/php/inc/footer.php';
 
 ?>

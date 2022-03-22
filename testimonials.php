@@ -12,16 +12,15 @@ $meta['og:url'] = "";
 
 $leadIsFrom = "Lead is from /testimonials";
 
-include './assets/php/inc/header.php';
-include './assets/php/inc/nav.php';
+require './assets/php/inc/header.php';
+require './assets/php/inc/nav.php';
 ?>
 
 <div id="page about-us" class="section">
 
 
     <!-- Page Title Section Start -->
-    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7"
-        data-bg-image="<? echo SITE_ADDR ?>/assets/images/bg/breadcrumb-bg.jpg">
+    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7" data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/breadcrumb-bg.jpg">
         <div class="page-title">
             <div class="container">
                 <h1 class="title">What our students are saying about us</h1>
@@ -30,7 +29,7 @@ include './assets/php/inc/nav.php';
         <div class="page-breadcrumb position-static">
             <div class="container">
                 <ul class="breadcrumb justify-content-center">
-                    <li><a href="<? echo SITE_ADDR ?>/">Home</a></li>
+                    <li><a href="<?php echo SITE_ADDR ?>/">Home</a></li>
                     <li class="current">Testimonials</li>
                 </ul>
             </div>
@@ -57,13 +56,12 @@ include './assets/php/inc/nav.php';
                 <div class="swiper-wrapper">
 
                     <div class="swiper-slide">
-                        <a href="https://uk.trustpilot.com/users/5d4d941de3f4c577ac08de46" alt="trustpilot link"
-                            target="_blank">
+                        <a href="https://uk.trustpilot.com/users/5d4d941de3f4c577ac08de46" alt="trustpilot link" target="_blank">
 
                             <!-- Static Testimonial Start -->
                             <div class="static-testimonial mb-6">
                                 <div class="testimonial-image">
-                                    <img src="<? echo SITE_ADDR ?>/assets/images/testimonial/90/author-1.png" alt="">
+                                    <img src="<?php echo SITE_ADDR ?>/assets/images/testimonial/90/author-1.png" alt="">
                                 </div>
                                 <div class="testimonial-content">
                                     <i class="fas fa-star text-trustpilot"></i>
@@ -83,8 +81,7 @@ include './assets/php/inc/nav.php';
                                 <div class="author-info">
                                     <div class="cite">
                                         <h6 class="name text-trustpilot">Simone Mascia</h6>
-                                        <span class="position text-trustpilot"><i
-                                                class="fas fa-location text-trustpilot"></i> GB</span>
+                                        <span class="position text-trustpilot"><i class="fas fa-location text-trustpilot"></i> GB</span>
                                     </div>
                                 </div>
                             </div>
@@ -94,13 +91,12 @@ include './assets/php/inc/nav.php';
                     </div>
 
                     <div class="swiper-slide">
-                        <a href="https://uk.trustpilot.com/users/620d20c246f36d0013b55c27" alt="trustpilot link"
-                            target="_blank">
+                        <a href="https://uk.trustpilot.com/users/620d20c246f36d0013b55c27" alt="trustpilot link" target="_blank">
 
                             <!-- Static Testimonial Start -->
                             <div class="static-testimonial mb-6">
                                 <div class="testimonial-image">
-                                    <img src="<? echo SITE_ADDR ?>/assets/images/testimonial/90/author-2.png" alt="">
+                                    <img src="<?php echo SITE_ADDR ?>/assets/images/testimonial/90/author-2.png" alt="">
                                 </div>
                                 <div class="testimonial-content">
                                     <h3 class="title">Positive experience</h3>
@@ -123,7 +119,7 @@ include './assets/php/inc/nav.php';
                         <!-- Static Testimonial Start -->
                         <div class="static-testimonial mb-6">
                             <div class="testimonial-image">
-                                <img src="<? echo SITE_ADDR ?>/assets/images/testimonial/90/author-3.png" alt="">
+                                <img src="<?php echo SITE_ADDR ?>/assets/images/testimonial/90/author-3.png" alt="">
                             </div>
                             <div class="testimonial-content">
                                 <h3 class="title">The courses were well <br />set up for online…</h3>
@@ -145,7 +141,7 @@ include './assets/php/inc/nav.php';
                         <!-- Static Testimonial Start -->
                         <div class="static-testimonial mb-6">
                             <div class="testimonial-image">
-                                <img src="<? echo SITE_ADDR ?>/assets/images/testimonial/90/author-3.png" alt="">
+                                <img src="<?php echo SITE_ADDR ?>/assets/images/testimonial/90/author-3.png" alt="">
                             </div>
                             <div class="testimonial-content">
                                 <h3 class="title">I really enjoyed every step of the…</h3>
@@ -173,8 +169,7 @@ include './assets/php/inc/nav.php';
 
 
     <!-- Video Section Start -->
-    <div class="video-section section section-padding" data-bg-color="#000" data-overlay="0.7"
-        data-bg-image="assets/images/bg/video-bg.jpg">
+    <div class="video-section section section-padding" data-bg-color="#000" data-overlay="0.7" data-bg-image="assets/images/bg/video-bg.jpg">
 
         <div class="container text-center">
 
@@ -184,10 +179,7 @@ include './assets/php/inc/nav.php';
                 <div class="trustpilot">
 
                     <!-- TrustBox widget - Micro Combo -->
-                    <div class="trustpilot-widget" data-locale="en-GB" data-template-id="5419b6ffb0d04a076446a9af"
-                        data-businessunit-id="5e470c6a94d8c3000152bc70" data-style-height="20px" data-style-width="100%"
-                        data-theme="dark"> <a href="https://uk.trustpilot.com/review/www.robustittraining.com"
-                            target="_blank" rel="noopener">Trustpilot</a> </div>
+                    <div class="trustpilot-widget" data-locale="en-GB" data-template-id="5419b6ffb0d04a076446a9af" data-businessunit-id="5e470c6a94d8c3000152bc70" data-style-height="20px" data-style-width="100%" data-theme="dark"> <a href="https://uk.trustpilot.com/review/www.robustittraining.com" target="_blank" rel="noopener">Trustpilot</a> </div>
                     <!-- End TrustBox widget -->
                 </div>
             </div>
@@ -216,7 +208,7 @@ include './assets/php/inc/nav.php';
         <div class="container">
             <div class="row my-lg-10 my-10">
                 <div class="col-lg-12">
-                    <? include './assets/php/component/brand.php';
+                    <? require './assets/php/component/brand.php';
                     ?>
                 </div>
             </div>
@@ -232,6 +224,6 @@ include './assets/php/inc/nav.php';
 
 <?php
 
-include './assets/php/inc/footer.php';
+require './assets/php/inc/footer.php';
 
 ?>

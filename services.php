@@ -12,15 +12,14 @@ $meta['og:url'] = "";
 
 $leadIsFrom = "Lead is from /services";
 
-include './assets/php/inc/header.php';
-include './assets/php/inc/nav.php';
+require './assets/php/inc/header.php';
+require './assets/php/inc/nav.php';
 ?>
 
 <div id="page service" class="section">
 
     <!-- Page Title Section Start -->
-    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7"
-        data-bg-image="assets/images/bg/breadcrumb-bg-three.jpg">
+    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7" data-bg-image="assets/images/bg/breadcrumb-bg-three.jpg">
         <div class="page-title">
             <div class="container">
                 <h1 class="title">Lorem ipsum dolor sit amet consectetur.</h1>
@@ -29,7 +28,7 @@ include './assets/php/inc/nav.php';
         <div class="page-breadcrumb position-static">
             <div class="container">
                 <ul class="breadcrumb justify-content-center">
-                    <li><a href="<? echo SITE_ADDR ?>/">Home</a></li>
+                    <li><a href="<?php echo SITE_ADDR ?>/">Home</a></li>
                     <li class="current">Services</li>
                 </ul>
             </div>
@@ -55,11 +54,8 @@ include './assets/php/inc/nav.php';
                 <!-- Icon Box Start -->
                 <div class="col mb-6" data-aos="fade-up">
 
-                    <div class="icon-box box-border text-center"
-                        data-bg-image="https://s3.amazonaws.com/mentoring.redesign/s3fs-public/male-CEO-business-team.jpg"
-                        data-overlay="0.8" data-vivus-hover>
-                        <div class="icon"><img class="svgInject" src="assets/images/svg/linea/linea-basic-target.svg"
-                                alt=""></div>
+                    <div class="icon-box box-border text-center" data-bg-image="https://s3.amazonaws.com/mentoring.redesign/s3fs-public/male-CEO-business-team.jpg" data-overlay="0.8" data-vivus-hover>
+                        <div class="icon"><img class="svgInject" src="assets/images/svg/linea/linea-basic-target.svg" alt=""></div>
                         <div class="content">
                             <h3 class="title">Sub-Heading One</h3>
                             <div class="desc">
@@ -76,11 +72,8 @@ include './assets/php/inc/nav.php';
                 <!-- Icon Box Start -->
                 <div class="col mb-6" data-aos="fade-up">
 
-                    <div class="icon-box box-border text-center"
-                        data-bg-image="https://s3.amazonaws.com/mentoring.redesign/s3fs-public/male-CEO-business-team.jpg"
-                        data-overlay="0.8" data-vivus-hover>
-                        <div class="icon"><img class="svgInject" src="assets/images/svg/linea/linea-basic-gear.svg"
-                                alt=""></div>
+                    <div class="icon-box box-border text-center" data-bg-image="https://s3.amazonaws.com/mentoring.redesign/s3fs-public/male-CEO-business-team.jpg" data-overlay="0.8" data-vivus-hover>
+                        <div class="icon"><img class="svgInject" src="assets/images/svg/linea/linea-basic-gear.svg" alt=""></div>
                         <div class="content">
                             <h3 class="title">Sub-Heading Two</h3>
                             <div class="desc">
@@ -97,11 +90,8 @@ include './assets/php/inc/nav.php';
                 <!-- Icon Box Start -->
                 <div class="col mb-6" data-aos="fade-up">
 
-                    <div class="icon-box box-border text-center"
-                        data-bg-image="https://s3.amazonaws.com/mentoring.redesign/s3fs-public/male-CEO-business-team.jpg"
-                        data-overlay="0.8" data-vivus-hover>
-                        <div class="icon"><img class="svgInject" src="assets/images/svg/linea/linea-basic-display.svg"
-                                alt=""></div>
+                    <div class="icon-box box-border text-center" data-bg-image="https://s3.amazonaws.com/mentoring.redesign/s3fs-public/male-CEO-business-team.jpg" data-overlay="0.8" data-vivus-hover>
+                        <div class="icon"><img class="svgInject" src="assets/images/svg/linea/linea-basic-display.svg" alt=""></div>
                         <div class="content">
                             <h3 class="title">Sub-Heading Three</h3>
                             <div class="desc">
@@ -118,11 +108,8 @@ include './assets/php/inc/nav.php';
                 <!-- Icon Box Start -->
                 <div class="col mb-6" data-aos="fade-up">
 
-                    <div class="icon-box box-border text-center"
-                        data-bg-image="https://s3.amazonaws.com/mentoring.redesign/s3fs-public/male-CEO-business-team.jpg"
-                        data-overlay="0.8" data-vivus-hover>
-                        <div class="icon"><img class="svgInject"
-                                src="assets/images/svg/linea/linea-ecommerce-cart-plus.svg" alt=""></div>
+                    <div class="icon-box box-border text-center" data-bg-image="https://s3.amazonaws.com/mentoring.redesign/s3fs-public/male-CEO-business-team.jpg" data-overlay="0.8" data-vivus-hover>
+                        <div class="icon"><img class="svgInject" src="assets/images/svg/linea/linea-ecommerce-cart-plus.svg" alt=""></div>
                         <div class="content">
                             <h3 class="title">Sub-Heading Four</h3>
                             <div class="desc">
@@ -139,11 +126,8 @@ include './assets/php/inc/nav.php';
                 <!-- Icon Box Start -->
                 <div class="col mb-6" data-aos="fade-up">
 
-                    <div class="icon-box box-border text-center"
-                        data-bg-image="https://s3.amazonaws.com/mentoring.redesign/s3fs-public/male-CEO-business-team.jpg"
-                        data-overlay="0.8" data-vivus-hover>
-                        <div class="icon"><img class="svgInject"
-                                src="assets/images/svg/linea/linea-basic-picture-multiple.svg" alt=""></div>
+                    <div class="icon-box box-border text-center" data-bg-image="https://s3.amazonaws.com/mentoring.redesign/s3fs-public/male-CEO-business-team.jpg" data-overlay="0.8" data-vivus-hover>
+                        <div class="icon"><img class="svgInject" src="assets/images/svg/linea/linea-basic-picture-multiple.svg" alt=""></div>
                         <div class="content">
                             <h3 class="title">Sub-Heading Five</h3>
                             <div class="desc">
@@ -160,11 +144,8 @@ include './assets/php/inc/nav.php';
                 <!-- Icon Box Start -->
                 <div class="col mb-6" data-aos="fade-up">
 
-                    <div class="icon-box box-border text-center"
-                        data-bg-image="https://s3.amazonaws.com/mentoring.redesign/s3fs-public/male-CEO-business-team.jpg"
-                        data-overlay="0.8" data-vivus-hover>
-                        <div class="icon"><img class="svgInject" src="assets/images/svg/linea/linea-basic-picture.svg"
-                                alt=""></div>
+                    <div class="icon-box box-border text-center" data-bg-image="https://s3.amazonaws.com/mentoring.redesign/s3fs-public/male-CEO-business-team.jpg" data-overlay="0.8" data-vivus-hover>
+                        <div class="icon"><img class="svgInject" src="assets/images/svg/linea/linea-basic-picture.svg" alt=""></div>
                         <div class="content">
                             <h3 class="title">Sub-Heading Six</h3>
                             <div class="desc">
@@ -254,6 +235,6 @@ include './assets/php/inc/nav.php';
 
 <?php
 
-include './assets/php/inc/footer.php';
+require './assets/php/inc/footer.php';
 
 ?>

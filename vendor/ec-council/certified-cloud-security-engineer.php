@@ -12,8 +12,8 @@ $meta['og:url'] = "";
 
 $leadIsFrom = "Lead is from /vendor/ec-council/certified-cloud-security-engineer";
 
-include '../../assets/php/inc/header.php';
-include '../../assets/php/inc/nav.php';
+require '../../assets/php/inc/header.php';
+require '../../assets/php/inc/nav.php';
 ?>
 
 <div id="page work-details" class="section">
@@ -29,9 +29,9 @@ include '../../assets/php/inc/nav.php';
         <div class="page-breadcrumb position-static">
             <div class="container">
                 <ul class="breadcrumb justify-content-center">
-                    <li><a href="<? echo SITE_ADDR ?>/">Home</a></li>
-                    <li><a href="<? echo SITE_ADDR ?>/vendor">Vendor</a></li>
-                    <li><a href="<? echo SITE_ADDR ?>/vendor/ec-council">EC-Council</a></li>
+                    <li><a href="<?php echo SITE_ADDR ?>/">Home</a></li>
+                    <li><a href="<?php echo SITE_ADDR ?>/vendor">Vendor</a></li>
+                    <li><a href="<?php echo SITE_ADDR ?>/vendor/ec-council">EC-Council</a></li>
                     <li class="current">CCSE</li>
                 </ul>
             </div>
@@ -52,7 +52,7 @@ include '../../assets/php/inc/nav.php';
                                 course
                             </h2>
                             <div class="work-details-course-logo">
-                                <img src="<? echo SITE_ADDR ?>/assets/images/logo/ec-council/chfi.png" alt="cloud practitioner logo" class="w-100">
+                                <img src="<?php echo SITE_ADDR ?>/assets/images/logo/ec-council/chfi.png" alt="cloud practitioner logo" class="w-100">
                             </div>
                             <!-- Start Details List -->
                             <div class="work-details-list my-10">
@@ -195,7 +195,7 @@ include '../../assets/php/inc/nav.php';
                     <div class="container">
                         <div class="row my-lg-10 my-10">
                             <div class="col-lg-12">
-                                <? include '../../assets/php/component/brand.php';
+                                <? require '../../assets/php/component/brand.php';
                                 ?>
                             </div>
                         </div>
@@ -292,7 +292,7 @@ include '../../assets/php/inc/nav.php';
                             <div class="video-popup-area">
                                 <!-- Video Popup Start -->
                                 <div class="skill-video" data-aos="fade-up">
-                                    <img class="image" src="<? echo SITE_ADDR ?>/assets/images/video/skill-video.jpg" alt="video popup">
+                                    <img class="image" src="<?php echo SITE_ADDR ?>/assets/images/video/skill-video.jpg" alt="video popup">
                                     <a href="https://www.youtube.com/watch?v=eS9Qm4AOOBY" class="icon video-popup">
                                         <i class="fas fa-play"></i>
                                     </a>
@@ -302,7 +302,7 @@ include '../../assets/php/inc/nav.php';
                                 <!-- Animation Shape Start -->
                                 <div class="shape shape-1 scene">
                                     <span data-depth="1">
-                                        <img src="<? echo SITE_ADDR ?>/assets/images/shape-animation/video-shape-1.png" alt="">
+                                        <img src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/video-shape-1.png" alt="">
                                     </span>
                                 </div>
                                 <!-- Animation Shape End -->
@@ -650,7 +650,7 @@ include '../../assets/php/inc/nav.php';
 
 
     <!-- Contact Section Start -->
-    <div class="section section-padding contact-section" id="scrollTo" data-bg-color="#000" data-overlay="0.7" data-bg-image="<? echo SITE_ADDR ?>/assets/images/bg/contact-bg.jpg">
+    <div class="section section-padding contact-section" id="scrollTo" data-bg-color="#000" data-overlay="0.7" data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/contact-bg.jpg">
 
         <div class="container">
             <div class="row row-cols-lg-2 row-cols-1 align-items-center">
@@ -669,7 +669,7 @@ include '../../assets/php/inc/nav.php';
                         <!-- Contact Info Item Start -->
                         <div class="contact-info info-light" data-vivus-hover>
                             <div class="icon">
-                                <img class="svgInject" src="<? echo SITE_ADDR ?>/assets/images/svg/linea/linea-basic-map.svg" alt="">
+                                <img class="svgInject" src="<?php echo SITE_ADDR ?>/assets/images/svg/linea/linea-basic-map.svg" alt="">
                             </div>
                             <div class="info">
                                 <h4 class="title">Our Locations</h4>
@@ -684,7 +684,7 @@ include '../../assets/php/inc/nav.php';
                         <!-- Contact Info Item Start -->
                         <div class="contact-info info-light" data-vivus-hover>
                             <div class="icon">
-                                <img class="svgInject" src="<? echo SITE_ADDR ?>/assets/images/svg/linea/linea-basic-message-txt.svg" alt="">
+                                <img class="svgInject" src="<?php echo SITE_ADDR ?>/assets/images/svg/linea/linea-basic-message-txt.svg" alt="">
                             </div>
                             <div class="info">
                                 <h4 class="title">Give Us A Call</h4>
@@ -710,7 +710,7 @@ include '../../assets/php/inc/nav.php';
                         <!-- Contact Info Item Start -->
                         <div class="contact-info info-light" data-vivus-hover>
                             <div class="icon">
-                                <img class="svgInject" src="<? echo SITE_ADDR ?>/assets/images/svg/linea/linea-basic-mail-open-text.svg" alt="">
+                                <img class="svgInject" src="<?php echo SITE_ADDR ?>/assets/images/svg/linea/linea-basic-mail-open-text.svg" alt="">
                             </div>
                             <div class="info">
                                 <h4 class="title"> Help Desk</h4>
@@ -752,7 +752,7 @@ include '../../assets/php/inc/nav.php';
                             <input type="hidden" name="intDPAStatusEmailID" value="1">
                             <input type="hidden" name="strAPISuccessURL" value="http://www.robustittraining.com/thankyou" />
                             <input type="hidden" name="strAPIFailURL" value="http://www.robustittraining.com/sorry" />
-                            <input type="hidden" name="strLeadData2" id="strLeadData2" value="<? echo $leadIsFrom ?>/" />
+                            <input type="hidden" name="strLeadData2" id="strLeadData2" value="<?php echo $leadIsFrom ?>/" />
                             <!-- //end -->
 
                             <div class="row mb-n4">
@@ -781,7 +781,7 @@ include '../../assets/php/inc/nav.php';
                         <!-- Animation Shape Start -->
                         <div class="shape shape-1 scene">
                             <span data-depth="1">
-                                <img src="<? echo SITE_ADDR ?>/assets/images/shape-animation/contact-shape.png" alt="">
+                                <img src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/contact-shape.png" alt="">
                             </span>
                         </div>
                         <!-- Animation Shape End -->
@@ -796,5 +796,5 @@ include '../../assets/php/inc/nav.php';
 </div>
 
 <?php
-include '../../assets/php/inc/footer.php';
+require '../../assets/php/inc/footer.php';
 ?>

@@ -12,16 +12,15 @@ $meta['og:url'] = "";
 
 $leadIsFrom = "Lead is from /privacy-policy";
 
-include './assets/php/inc/header.php';
-include './assets/php/inc/nav.php';
+require './assets/php/inc/header.php';
+require './assets/php/inc/nav.php';
 ?>
 
 <div id="page terms" class="section">
 
 
     <!-- Page Title Section Start -->
-    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="1"
-        data-bg-image="<? echo SITE_ADDR ?>/assets/images/bg/breadcrumb-bg.jpg">
+    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="1" data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/breadcrumb-bg.jpg">
         <div class="page-title">
             <div class="container">
                 <h1 class="title">Privacy Policy</h1>
@@ -30,7 +29,7 @@ include './assets/php/inc/nav.php';
         <div class="page-breadcrumb position-static">
             <div class="container">
                 <ul class="breadcrumb justify-content-center">
-                    <li><a href="<? echo SITE_ADDR ?>/">Home</a></li>
+                    <li><a href="<?php echo SITE_ADDR ?>/">Home</a></li>
                     <li class="current">Privacy Policy</li>
                 </ul>
             </div>
@@ -123,8 +122,7 @@ include './assets/php/inc/nav.php';
                             </li>
                         </ul>
                         <p>
-                            You also have the right to complain to the ICO [<a href="www.ico.org.uk" target="_blank"
-                                class="text-primary" alt="link to ico">www.ico.org.uk</a>] if you feel there is a
+                            You also have the right to complain to the ICO [<a href="www.ico.org.uk" target="_blank" class="text-primary" alt="link to ico">www.ico.org.uk</a>] if you feel there is a
                             problem with the way we are handling your data.
                         </p>
                         <p>
@@ -308,13 +306,11 @@ include './assets/php/inc/nav.php';
                             provide you with an easy method to withdraw your consent (unsubscribe) or manage your
                             preferences / the information we hold about you at any time. See any marketing messages for
                             instructions on how to unsubscribe or manage your preferences, you can also unsubscribe from
-                            our marketing list, by contacting our support team <a class="text-primary"
-                                href="mailto:support@robustittraining.com">support@robustittraining.com</a>.
+                            our marketing list, by contacting our support team <a class="text-primary" href="mailto:support@robustittraining.com">support@robustittraining.com</a>.
                         </p>
 
                         <p>
-                            Our EMS provider is; <a href="www.activecampaign.com" target="_blank"
-                                alt="link to active campaign">www.activecampaign.com</a>. We hold the following
+                            Our EMS provider is; <a href="www.activecampaign.com" target="_blank" alt="link to active campaign">www.activecampaign.com</a>. We hold the following
                             information about you
                             within our EMS system
                         </p>
@@ -333,30 +329,23 @@ include './assets/php/inc/nav.php';
 
                         <ul>
                             <li>
-                                <a class="text-primary"
-                                    href="https://ico.org.uk/for-organisations/data-protection-reform/overview-of-the-gdpr/"
-                                    target="_blank" alt="link to GDPR">Overview
+                                <a class="text-primary" href="https://ico.org.uk/for-organisations/data-protection-reform/overview-of-the-gdpr/" target="_blank" alt="link to GDPR">Overview
                                     of the GDPR – General </a>
                             </li>
                             <li>
-                                <a class="text-primary" href="http://www.legislation.gov.uk/ukpga/1998/29/contents"
-                                    target="_blank" alt="ink to data protection reg">Data Protection
+                                <a class="text-primary" href="http://www.legislation.gov.uk/ukpga/1998/29/contents" target="_blank" alt="ink to data protection reg">Data Protection
                                     Regulation</a>
                             </li>
                             <li>
-                                <a class="text-primary"
-                                    href="http://www.legislation.gov.uk/uksi/2003/2426/contents/made" target="_blank"
-                                    alt="ink to data protection act">Data
+                                <a class="text-primary" href="http://www.legislation.gov.uk/uksi/2003/2426/contents/made" target="_blank" alt="ink to data protection act">Data
                                     Protection
                                     Act 1998</a>
                             </li>
                             <li>
-                                <a class="text-primary" href="http://www.facebook.com/about/privacy/" target="_blank"
-                                    alt="ink to facebook privacy policy">Facebook Privacy Policy</a>
+                                <a class="text-primary" href="http://www.facebook.com/about/privacy/" target="_blank" alt="ink to facebook privacy policy">Facebook Privacy Policy</a>
                             </li>
                             <li>
-                                <a class="text-primary" href="http://www.google.com/privacy.html" target="_blank"
-                                    alt="ink to google privacy policy">Google Privacy
+                                <a class="text-primary" href="http://www.google.com/privacy.html" target="_blank" alt="ink to google privacy policy">Google Privacy
                                     Policy</a>
                             </li>
                         </ul>
@@ -384,6 +373,6 @@ include './assets/php/inc/nav.php';
 
 <?php
 
-include './assets/php/inc/footer.php';
+require './assets/php/inc/footer.php';
 
 ?>

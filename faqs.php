@@ -12,16 +12,15 @@ $meta['og:url'] = "";
 
 $leadIsFrom = "Lead is from /faqs";
 
-include './assets/php/inc/header.php';
-include './assets/php/inc/nav.php';
+require './assets/php/inc/header.php';
+require './assets/php/inc/nav.php';
 ?>
 
 <div id="page about-us" class="section">
 
 
     <!-- Page Title Section Start -->
-    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7"
-        data-bg-image="<? echo SITE_ADDR ?>/assets/images/bg/breadcrumb-bg.jpg">
+    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7" data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/breadcrumb-bg.jpg">
         <div class="page-title">
             <div class="container">
                 <h1 class="title">Frequently Asked Questions</h1>
@@ -30,7 +29,7 @@ include './assets/php/inc/nav.php';
         <div class="page-breadcrumb position-static">
             <div class="container">
                 <ul class="breadcrumb justify-content-center">
-                    <li><a href="<? echo SITE_ADDR ?>/">Home</a></li>
+                    <li><a href="<?php echo SITE_ADDR ?>/">Home</a></li>
                     <li class="current">FAQs</li>
                 </ul>
             </div>
@@ -68,15 +67,13 @@ include './assets/php/inc/nav.php';
                             <div class="card">
                                 <div class="card-header" id="headingOne">
                                     <h5 class="mb-0">
-                                        <a href="#" class="acc-btn border-0" data-toggle="collapse"
-                                            data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <a href="#" class="acc-btn border-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                             What jobs will i be qualified for after getting certified?
                                         </a>
                                     </h5>
                                 </div>
 
-                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                                    data-parent="#accordionExample">
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                                     <div class="card-body">Depending on the course you are studying there are a variety
                                         of jobs available. We can also help you with your job search.
                                     </div>
@@ -86,15 +83,12 @@ include './assets/php/inc/nav.php';
                             <div class="card">
                                 <div class="card-header" id="headingTwo">
                                     <h5 class="mb-0">
-                                        <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse"
-                                            data-target="#collapseTwo" aria-expanded="false"
-                                            aria-controls="collapseTwo">
+                                        <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                             How can i get practical, hands on training by doing the studying online?
                                         </a>
                                     </h5>
                                 </div>
-                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                                    data-parent="#accordionExample">
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                                     <div class="card-body">Your account may be eligible for access to our live practical
                                         labs. These powerful tools simulate a classroom training environment and are run
                                         through our remote server. All of our software specific training courses will
@@ -108,15 +102,12 @@ include './assets/php/inc/nav.php';
                             <div class="card">
                                 <div class="card-header" id="headingThree">
                                     <h5 class="mb-0">
-                                        <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse"
-                                            data-target="#collapseThree" aria-expanded="false"
-                                            aria-controls="collapseThree">
+                                        <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                             I have completed my course, do i receive a certificate?
                                         </a>
                                     </h5>
                                 </div>
-                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                                    data-parent="#accordionExample">
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                                     <div class="card-body">Yes, all of our courses have either a completion certificate
                                         or official qualification. You will usually find your certificate available for
                                         download right from your training portal once you've completed all of the tests
@@ -130,8 +121,7 @@ include './assets/php/inc/nav.php';
                 </div>
                 <!-- Faq Content End -->
 
-                <div class="col mb-6 pl-xl-12" data-aos="fade-up" data-aos-delay="300" data-aos-offset="-100"
-                    data-aos-duration="800">
+                <div class="col mb-6 pl-xl-12" data-aos="fade-up" data-aos-delay="300" data-aos-offset="-100" data-aos-duration="800">
 
 
                     <!-- Faq Image Start -->
@@ -140,16 +130,13 @@ include './assets/php/inc/nav.php';
                             <div class="card">
                                 <div class="card-header" id="headingFour">
                                     <h5 class="mb-0">
-                                        <a href="#" class="acc-btn border-0" data-toggle="collapse"
-                                            data-target="#collapseFour" aria-expanded="true"
-                                            aria-controls="collapseFour">
+                                        <a href="#" class="acc-btn border-0" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
                                             What jobs will i be qualified for after getting certified?
                                         </a>
                                     </h5>
                                 </div>
 
-                                <div id="collapseFour" class="collapse show" aria-labelledby="headingFour"
-                                    data-parent="#accordionExample1">
+                                <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#accordionExample1">
                                     <div class="card-body">Depending on the course you are studying there are a variety
                                         of jobs available. We can also help you with your job search.
                                     </div>
@@ -159,15 +146,12 @@ include './assets/php/inc/nav.php';
                             <div class="card">
                                 <div class="card-header" id="headingFive">
                                     <h5 class="mb-0">
-                                        <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse"
-                                            data-target="#collapseFive" aria-expanded="false"
-                                            aria-controls="collapseFive">
+                                        <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                             How can i get practical, hands on training by doing the studying online?
                                         </a>
                                     </h5>
                                 </div>
-                                <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
-                                    data-parent="#accordionExample1">
+                                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample1">
                                     <div class="card-body">Your account may be eligible for access to our live practical
                                         labs. These powerful tools simulate a classroom training environment and are run
                                         through our remote server. All of our software specific training courses will
@@ -181,15 +165,12 @@ include './assets/php/inc/nav.php';
                             <div class="card">
                                 <div class="card-header" id="headingSix">
                                     <h5 class="mb-0">
-                                        <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse"
-                                            data-target="#collapseSix" aria-expanded="false"
-                                            aria-controls="collapseSix">
+                                        <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                                             I have completed my course, do i receive a certificate?
                                         </a>
                                     </h5>
                                 </div>
-                                <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
-                                    data-parent="#accordionExample1">
+                                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample1">
                                     <div class="card-body">Yes, all of our courses have either a completion certificate
                                         or official qualification. You will usually find your certificate available for
                                         download right from your training portal once you've completed all of the tests
@@ -204,8 +185,7 @@ include './assets/php/inc/nav.php';
 
                         <!-- Animation Shape Start -->
                         <div class="shape shape-1 scene">
-                            <span data-depth="4"><img src="assets/images/shape-animation/about-shape-1.png"
-                                    alt=""></span>
+                            <span data-depth="4"><img src="assets/images/shape-animation/about-shape-1.png" alt=""></span>
                         </div>
                         <!-- Animation Shape End -->
 
@@ -219,8 +199,7 @@ include './assets/php/inc/nav.php';
 
 
     <!-- Video Section Start -->
-    <div class="video-section section section-padding" data-bg-color="#000" data-overlay="0.7"
-        data-bg-image="assets/images/bg/video-bg.jpg">
+    <div class="video-section section section-padding" data-bg-color="#000" data-overlay="0.7" data-bg-image="assets/images/bg/video-bg.jpg">
 
         <div class="container text-center">
 
@@ -230,10 +209,7 @@ include './assets/php/inc/nav.php';
                 <div class="trustpilot">
 
                     <!-- TrustBox widget - Micro Combo -->
-                    <div class="trustpilot-widget" data-locale="en-GB" data-template-id="5419b6ffb0d04a076446a9af"
-                        data-businessunit-id="5e470c6a94d8c3000152bc70" data-style-height="20px" data-style-width="100%"
-                        data-theme="dark"> <a href="https://uk.trustpilot.com/review/www.robustittraining.com"
-                            target="_blank" rel="noopener">Trustpilot</a> </div>
+                    <div class="trustpilot-widget" data-locale="en-GB" data-template-id="5419b6ffb0d04a076446a9af" data-businessunit-id="5e470c6a94d8c3000152bc70" data-style-height="20px" data-style-width="100%" data-theme="dark"> <a href="https://uk.trustpilot.com/review/www.robustittraining.com" target="_blank" rel="noopener">Trustpilot</a> </div>
                     <!-- End TrustBox widget -->
                 </div>
             </div>
@@ -262,7 +238,7 @@ include './assets/php/inc/nav.php';
         <div class="container">
             <div class="row my-lg-10 my-10">
                 <div class="col-lg-12">
-                    <? include './assets/php/component/brand.php';
+                    <? require './assets/php/component/brand.php';
                     ?>
                 </div>
             </div>
@@ -278,6 +254,6 @@ include './assets/php/inc/nav.php';
 
 <?php
 
-include './assets/php/inc/footer.php';
+require './assets/php/inc/footer.php';
 
 ?>
