@@ -19,7 +19,8 @@ require '../../assets/php/inc/nav.php';
 
 <div id="page work-details" class="section">
     <!-- Page Title Section Start -->
-    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7" data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/bg-certified-ethical-hacker.jpg">
+    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7"
+        data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/bg-certified-ethical-hacker.jpg">
         <div class="page-title">
             <div class="container">
                 <h1 class="title">CCSP – Certified Cloud Security Professional</h1>
@@ -53,7 +54,8 @@ require '../../assets/php/inc/nav.php';
                                 course
                             </h2>
                             <div class="work-details-course-logo">
-                                <img src="<?php echo SITE_ADDR ?>/assets/images/logo/isc2/CCSP.png" alt="CISA logo" class="w-100">
+                                <img src="<?php echo SITE_ADDR ?>/assets/images/logo/isc2/CCSP.png" alt="CISA logo"
+                                    class="w-100">
                             </div>
                             <!-- Start Details List -->
                             <div class="work-details-list my-10">
@@ -101,7 +103,9 @@ require '../../assets/php/inc/nav.php';
                             <!-- End Details List -->
 
                             <div class="work-btn mb-10">
-                                <a class="btn btn-outline-secondary btn-hover--secondary" href="<?php echo SITE_ADDR ?>/assets/pdf/exam-guides/isc2/CCSP-Exam-Outline.pdf" target="_blank" alt="download CCSP exam guide">
+                                <a class="btn btn-outline-secondary btn-hover--secondary"
+                                    href="<?php echo SITE_ADDR ?>/assets/pdf/exam-guides/isc2/CCSP-Exam-Outline.pdf"
+                                    target="_blank" alt="download CCSP exam guide">
                                     Download the exam guide
                                     <i class="fas fa-download fcr-animate"></i>
                                 </a>
@@ -113,16 +117,19 @@ require '../../assets/php/inc/nav.php';
                                 <div class="links">
                                     <ul>
                                         <li class="social-share facebook">
-                                            <h6 class="heading heading-h6">Share on Facebook <i class="fas fa-share fcr-animate"></i></h6>
+                                            <h6 class="heading heading-h6">Share on Facebook <i
+                                                    class="fas fa-share fcr-animate"></i></h6>
 
                                         </li>
                                         <li class="social-share twitter">
-                                            <h6 class="heading heading-h6">Share on Twitter <i class="fas fa-share fcr-animate"></i>
+                                            <h6 class="heading heading-h6">Share on Twitter <i
+                                                    class="fas fa-share fcr-animate"></i>
                                             </h6>
 
                                         </li>
                                         <li class="social-share linkedin">
-                                            <h6 class="heading heading-h6">Share on LinkedIn <i class="fas fa-share fcr-animate"></i></h6>
+                                            <h6 class="heading heading-h6">Share on LinkedIn <i
+                                                    class="fas fa-share fcr-animate"></i></h6>
 
                                         </li>
                                     </ul>
@@ -183,44 +190,12 @@ require '../../assets/php/inc/nav.php';
 
 
                                     </div>
-                                    <div class="content mb-5" data-aos="fade-up">
-                                        <h6 class="title" data-aos="fade-up">Leadership and Operations
-                                        </h6>
 
-                                        <p>
-                                            This course is designed for information security professionals with deep
-                                            technical and managerial knowledge and experience to effectively design,
-                                            engineer and manage the overall security posture of an organization. This
-                                            training course provides a comprehensive review of information systems
-                                            security concepts and industry best practices, covering the following eight
-                                            domains of the CISSP Common Body of Knowledge (CBK®).
-                                        </p>
-                                        <p>
-                                            Features of the course vary by delivery method and include:
-                                        </p>
-                                        <ul>
-                                            <li>Official (ISC)&#178; course materials delivered via a book for classroom
-                                                and
-                                                online instructor-led, and the LMS for self-paced</li>
-                                            <li>Instruction by an (ISC)&#178; authorized instructor (classroom and
-                                                online
-                                                instructor-led only)</li>
-                                            <li>Learner support by an (ISC)&#178; authorized instructor (self-paced
-                                                only)
-                                            </li>
-                                            <li>Peer to peer discussions (classroom and online instructor-led only)</li>
-                                            <li>Learning activities that include case studies and a course-wide applied
-                                                scenario</li>
-                                            <li>Interactive flash cards</li>
-                                            <li>Post-course assessment</li>
-                                            <li>Glossary</li>
-                                        </ul>
-
-                                    </div>
 
 
                                     <div class="work-btn">
-                                        <a class="btn btn-secondary btn-hover--secondary" href="#beginnersModal" data-toggle="modal" data-target="#beginnersModal">Beginners start here
+                                        <a class="btn btn-secondary btn-hover--secondary" href="#beginnersModal"
+                                            data-toggle="modal" data-target="#beginnersModal">Beginners start here
                                             <i class="fas fa-chevron-right fcr-animate"></i></a>
                                     </div>
                                 </div>
@@ -338,7 +313,8 @@ require '../../assets/php/inc/nav.php';
                             <div class="video-popup-area">
                                 <!-- Video Popup Start -->
                                 <div class="skill-video" data-aos="fade-up">
-                                    <img class="image" src="<?php echo SITE_ADDR ?>/assets/images/video/ccsp.jpg" alt="CCSP video">
+                                    <img class="image" src="<?php echo SITE_ADDR ?>/assets/images/video/ccsp.jpg"
+                                        alt="CCSP video">
                                     <a href="https://www.youtube.com/watch?v=4yizP0wc1ds" class="icon video-popup">
                                         <i class="fas fa-play"></i>
                                     </a>
@@ -348,7 +324,8 @@ require '../../assets/php/inc/nav.php';
                                 <!-- Animation Shape Start -->
                                 <div class="shape shape-1 scene">
                                     <span data-depth="1">
-                                        <img src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/video-shape-1.png" alt="">
+                                        <img src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/video-shape-1.png"
+                                            alt="">
                                     </span>
                                 </div>
                                 <!-- Animation Shape End -->
@@ -366,7 +343,9 @@ require '../../assets/php/inc/nav.php';
             <!-- Start Brand and Labs -->
 
             <!-- Start Average Salary Area -->
-            <div class="text-white row my-lg-12 my-10 p-10 pl-2 p-xl-10 pl-xl-10" data-bg-color="#fff" data-bg-image="https://www.expatica.com/app/uploads/sites/10/2014/05/Find-a-job-1-1200x675.jpg" data-overlay="0.9">
+            <div class="text-white row my-lg-12 my-10 p-10 pl-2 p-xl-10 pl-xl-10" data-bg-color="#fff"
+                data-bg-image="https://www.expatica.com/app/uploads/sites/10/2014/05/Find-a-job-1-1200x675.jpg"
+                data-overlay="0.9">
                 <div class="digital-marketing" data-aos="fade-up">
                     <div class="section-title-two">
                         <span class="sub-title text-white">Average salary for CCSP
@@ -494,13 +473,16 @@ require '../../assets/php/inc/nav.php';
                                     <div class="card">
                                         <div class="card-header" id="headingOne">
                                             <h5 class="mb-0">
-                                                <a href="#" class="acc-btn border-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                <a href="#" class="acc-btn border-0" data-toggle="collapse"
+                                                    data-target="#collapseOne" aria-expanded="true"
+                                                    aria-controls="collapseOne">
                                                     Ensure the CISSP is Right for You
                                                 </a>
                                             </h5>
                                         </div>
 
-                                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                            data-parent="#accordionExample">
                                             <div class="card-body">
                                                 <strong>
                                                     Who Earns the CISSP?
@@ -540,12 +522,15 @@ require '../../assets/php/inc/nav.php';
                                     <div class="card">
                                         <div class="card-header" id="headingTwo">
                                             <h5 class="mb-0">
-                                                <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse"
+                                                    data-target="#collapseTwo" aria-expanded="false"
+                                                    aria-controls="collapseTwo">
                                                     Register and Prepare for the Exam
                                                 </a>
                                             </h5>
                                         </div>
-                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                            data-parent="#accordionExample">
                                             <div class="card-body">
                                                 <strong>What to Expect on the CISSP Exam</strong>
                                                 <p>
@@ -568,7 +553,9 @@ require '../../assets/php/inc/nav.php';
                                                 </strong>
                                                 <p>Don’t wait. If you’re ready to pursue the CISSP certification, commit
                                                     yourself now by registering for the exam.</p>
-                                                <p>Schedule your exam by creating an account with <a href="https://home.pearsonvue.com/isc2" target="_blank" alt="link to pearson vue" class="text-primary">Pearson VUE</a>
+                                                <p>Schedule your exam by creating an account with <a
+                                                        href="https://home.pearsonvue.com/isc2" target="_blank"
+                                                        alt="link to pearson vue" class="text-primary">Pearson VUE</a>
                                                     , the leading provider of global, computer-based testing
                                                     for certification and licensure exams. You can find details on
                                                     testing locations, policies, accommodations and more on their
@@ -592,12 +579,15 @@ require '../../assets/php/inc/nav.php';
                                     <div class="card">
                                         <div class="card-header" id="headingThree">
                                             <h5 class="mb-0">
-                                                <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse"
+                                                    data-target="#collapseThree" aria-expanded="false"
+                                                    aria-controls="collapseThree">
                                                     Get Certified
                                                 </a>
                                             </h5>
                                         </div>
-                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                            data-parent="#accordionExample">
                                             <div class="card-body">
                                                 <strong>Gain the Necessary Work Experience</strong>
                                                 <p>
@@ -636,7 +626,9 @@ require '../../assets/php/inc/nav.php';
                                                 </ul>
                                                 <strong>Pay Your First Annual Maintenance Fee</strong>
                                                 <p>
-                                                    <a href="https://www.isc2.org/Policies-Procedures/AMFs-Overview" target="_blank" alt="link to isc2 Annual Maintenance Fees">Annual Maintenance
+                                                    <a href="https://www.isc2.org/Policies-Procedures/AMFs-Overview"
+                                                        target="_blank"
+                                                        alt="link to isc2 Annual Maintenance Fees">Annual Maintenance
                                                         Fees (AMFs)</a> are used by (ISC)&#178; to support the
                                                     costs of maintaining the (ISC)&#178; certifications and related
                                                     support
@@ -651,7 +643,9 @@ require '../../assets/php/inc/nav.php';
                                                     certifications they earn. AMFs for members with multiple
                                                     certifications are due on their earliest certification anniversary.
                                                 </p>
-                                                <a class="btn btn-outline-secondary btn-hover--secondary my-5" href="<?php echo SITE_ADDR ?>/assets/pdf/exam-guides/isc2/UltimateGuideCCSP-2018.pdf" target="_blank" alt="download CCSP ultimate guide">
+                                                <a class="btn btn-outline-secondary btn-hover--secondary my-5"
+                                                    href="<?php echo SITE_ADDR ?>/assets/pdf/exam-guides/isc2/UltimateGuideCCSP-2018.pdf"
+                                                    target="_blank" alt="download CCSP ultimate guide">
                                                     Download the ultimate guide
                                                     <i class="fas fa-download fcr-animate"></i>
                                                 </a>
@@ -679,7 +673,8 @@ require '../../assets/php/inc/nav.php';
 
 
     <!-- Contact Section Start -->
-    <div class="section section-padding contact-section" id="scrollTo" data-bg-color="#000" data-overlay="0.7" data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/contact-bg.jpg">
+    <div class="section section-padding contact-section" id="scrollTo" data-bg-color="#000" data-overlay="0.7"
+        data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/contact-bg.jpg">
 
         <div class="container">
             <div class="row row-cols-lg-2 row-cols-1 align-items-center">
@@ -698,7 +693,8 @@ require '../../assets/php/inc/nav.php';
                         <!-- Contact Info Item Start -->
                         <div class="contact-info info-light" data-vivus-hover>
                             <div class="icon">
-                                <img class="svgInject" src="<?php echo SITE_ADDR ?>/assets/images/svg/linea/linea-basic-map.svg" alt="">
+                                <img class="svgInject"
+                                    src="<?php echo SITE_ADDR ?>/assets/images/svg/linea/linea-basic-map.svg" alt="">
                             </div>
                             <div class="info">
                                 <h4 class="title">Our Locations</h4>
@@ -713,7 +709,9 @@ require '../../assets/php/inc/nav.php';
                         <!-- Contact Info Item Start -->
                         <div class="contact-info info-light" data-vivus-hover>
                             <div class="icon">
-                                <img class="svgInject" src="<?php echo SITE_ADDR ?>/assets/images/svg/linea/linea-basic-message-txt.svg" alt="">
+                                <img class="svgInject"
+                                    src="<?php echo SITE_ADDR ?>/assets/images/svg/linea/linea-basic-message-txt.svg"
+                                    alt="">
                             </div>
                             <div class="info">
                                 <h4 class="title">Give Us A Call</h4>
@@ -739,7 +737,9 @@ require '../../assets/php/inc/nav.php';
                         <!-- Contact Info Item Start -->
                         <div class="contact-info info-light" data-vivus-hover>
                             <div class="icon">
-                                <img class="svgInject" src="<?php echo SITE_ADDR ?>/assets/images/svg/linea/linea-basic-mail-open-text.svg" alt="">
+                                <img class="svgInject"
+                                    src="<?php echo SITE_ADDR ?>/assets/images/svg/linea/linea-basic-mail-open-text.svg"
+                                    alt="">
                             </div>
                             <div class="info">
                                 <h4 class="title"> Help Desk</h4>
@@ -779,9 +779,11 @@ require '../../assets/php/inc/nav.php';
                             <input type="hidden" name="intDPAStatusPhoneID" value="1">
                             <input type="hidden" name="intDPAStatusSMSID" value="1">
                             <input type="hidden" name="intDPAStatusEmailID" value="1">
-                            <input type="hidden" name="strAPISuccessURL" value="http://www.robustittraining.com/thankyou" />
+                            <input type="hidden" name="strAPISuccessURL"
+                                value="http://www.robustittraining.com/thankyou" />
                             <input type="hidden" name="strAPIFailURL" value="http://www.robustittraining.com/sorry" />
-                            <input type="hidden" name="strLeadData2" id="strLeadData2" value="<?php echo $leadIsFrom ?>/" />
+                            <input type="hidden" name="strLeadData2" id="strLeadData2"
+                                value="<?php echo $leadIsFrom ?>/" />
                             <!-- //end -->
 
                             <div class="row mb-n4">
@@ -801,7 +803,8 @@ require '../../assets/php/inc/nav.php';
                                     <textarea name="message" placeholder="Message"></textarea>
                                 </div>
                                 <div class="col-12 text-center mb-4">
-                                    <button class="btn btn-primary btn-hover-secondary">Start Learning <i class="fas fa-chevron-right fcr-animate"></i></button>
+                                    <button class="btn btn-primary btn-hover-secondary">Start Learning <i
+                                            class="fas fa-chevron-right fcr-animate"></i></button>
                                 </div>
                             </div>
                         </form>
@@ -810,7 +813,8 @@ require '../../assets/php/inc/nav.php';
                         <!-- Animation Shape Start -->
                         <div class="shape shape-1 scene">
                             <span data-depth="1">
-                                <img src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/contact-shape.png" alt="">
+                                <img src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/contact-shape.png"
+                                    alt="">
                             </span>
                         </div>
                         <!-- Animation Shape End -->
