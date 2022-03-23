@@ -476,7 +476,7 @@ require '../../assets/php/inc/nav.php';
                                                 <a href="#" class="acc-btn border-0" data-toggle="collapse"
                                                     data-target="#collapseOne" aria-expanded="true"
                                                     aria-controls="collapseOne">
-                                                    Ensure the CISSP is Right for You
+                                                    Ensure the CCSP is Right for You
                                                 </a>
                                             </h5>
                                         </div>
@@ -485,36 +485,37 @@ require '../../assets/php/inc/nav.php';
                                             data-parent="#accordionExample">
                                             <div class="card-body">
                                                 <strong>
-                                                    Who Earns the CISSP?
+                                                    Who Earns the CCSP?
                                                 </strong>
                                                 <p>
-                                                    The CISSP is ideal for experienced security practitioners, managers
-                                                    and executives interested in proving their knowledge across a wide
-                                                    array of security practices and principles, including those in the
-                                                    following positions:
+                                                    The CCSP is ideal for IT and information security leaders
+                                                    responsible for applying best practices to cloud security
+                                                    architecture, design, operations and service orchestration,
+                                                    including those in the following positions:
                                                 </p>
                                                 <ul>
-                                                    <li>Chief Information Security Officer</li>
-                                                    <li>Chief Information Officer</li>
-                                                    <li>Director of Security</li>
-                                                    <li>IT Director/Manager</li>
-                                                    <li>Security Systems Engineer</li>
-                                                    <li>Security Analyst</li>
-                                                    <li>Security Manager</li>
-                                                    <li>Security Auditor</li>
+                                                    <li>Cloud Architect</li>
+                                                    <li>Cloud Engineer</li>
+                                                    <li>Cloud Consultant</li>
+                                                    <li>Cloud Administrator</li>
+                                                    <li>Cloud Security Analyst</li>
+                                                    <li>Cloud Specialist</li>
+                                                    <li>Auditor of Cloud Computing Services</li>
+                                                    <li>Professional Cloud Developer</li>
                                                     <li>Security Architect</li>
                                                     <li>Security Consultant</li>
                                                     <li>Network Architect</li>
                                                 </ul>
 
                                                 <strong>
-                                                    …But It’s Not for Everyone
+                                                    Is the CCSP Right for You?
                                                 </strong>
-                                                <p>The CISSP isn’t the best option for every cybersecurity professional.
-                                                    Before you start down your certification path, make sure you aren’t
-                                                    missing an opportunity to pursue a certification more aligned with
-                                                    your immediate career goals.</p>
-                                                <p></p>
+                                                <p>
+                                                    The CCSP isn’t the best IT certification option for everyone. Before
+                                                    you start down your certification path, make sure you aren’t missing
+                                                    an opportunity to pursue a credential more aligned with your
+                                                    immediate career goals.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -532,26 +533,25 @@ require '../../assets/php/inc/nav.php';
                                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
                                             data-parent="#accordionExample">
                                             <div class="card-body">
-                                                <strong>What to Expect on the CISSP Exam</strong>
+                                                <strong>What will You Need to Know to Pass the CCSP Exam?</strong>
                                                 <p>
-                                                    The CISSP exam outline provides details on the eight domains covered
-                                                    by the examination.
+                                                    The CCSP exam evaluates your expertise across six security domains.
+                                                    Think of the domains as topics you need to master based on your
+                                                    professional experience and education.
                                                 </p>
-                                                <strong>CISSP Domains</strong>
+                                                <strong>CCSP Domains</strong>
                                                 <ul>
-                                                    <li>Domain 1. Security and Risk Management</li>
-                                                    <li>Domain 2. Asset Security</li>
-                                                    <li>Domain 3. Security Architecture and Engineering</li>
-                                                    <li>Domain 4. Communication and Network Security</li>
-                                                    <li>Domain 5. Identity and Access Management (IAM)</li>
-                                                    <li>Domain 6. Security Assessment and Testing</li>
-                                                    <li>Domain 7. Security Operations</li>
-                                                    <li>Domain 8. Software Development Security</li>
+                                                    <li>Domain 1. Cloud Concepts, Architecture and Design</li>
+                                                    <li>Domain 2. Cloud Data Security</li>
+                                                    <li>Domain 3. Cloud Platform & Infrastructure Security</li>
+                                                    <li>Domain 4. Cloud Application Security</li>
+                                                    <li>Domain 5. Cloud Security Operations</li>
+                                                    <li>Domain 6. Legal, Risk and Compliance</li>
                                                 </ul>
                                                 <strong>
-                                                    Register for Your CISSP Exam
+                                                    Register for Your CCSP Exam
                                                 </strong>
-                                                <p>Don’t wait. If you’re ready to pursue the CISSP certification, commit
+                                                <p>Don’t wait. If you’re ready to pursue the CCSP certification, commit
                                                     yourself now by registering for the exam.</p>
                                                 <p>Schedule your exam by creating an account with <a
                                                         href="https://home.pearsonvue.com/isc2" target="_blank"
@@ -561,16 +561,16 @@ require '../../assets/php/inc/nav.php';
                                                     testing locations, policies, accommodations and more on their
                                                     website.</p>
                                                 <strong>
-                                                    Get CISSP Training that's Right for You
+                                                    Get CCSP Training that's Right for You
                                                 </strong>
                                                 <p>
                                                     With self-paced or instructor-led online and classroom courses,
                                                     (ISC)&#178; has a training option to fit your schedule and learning
                                                     style. Trainings, seminars, courseware and self-study aids directly
                                                     from (ISC)&#178; or one of our many Official Training Providers help
-                                                    you
-                                                    get ready for the rigorous CISSP exam by reviewing relevant domains
-                                                    and topics.
+                                                    you get ready for the rigorous CCSP exam by reviewing relevant
+                                                    domains and topics. Visit the (ISC)&#178; Training Finder to
+                                                    register for the course that best meets your needs, including:
                                                 </p>
                                             </div>
                                         </div>
@@ -593,29 +593,38 @@ require '../../assets/php/inc/nav.php';
                                                 <p>
                                                     To qualify for this cybersecurity certification, you must pass the
                                                     exam and have at least five years of cumulative, paid work
-                                                    experience in two or more of the eight domains of the (ISC)&#178;
-                                                    CISSP Common Body of Knowledge (CBK).
+                                                    experience in information technology, of which three years must be
+                                                    in information security, and one year in one or more of the six
+                                                    domains of the (ISC)&#178; CCSP Common Body of Knowledge (CBK).
                                                 </p>
-                                                <p>Learn more about CISSP Experience Requirements and how you may be
-                                                    able to satisfy one year of required work experience with a relevant
-                                                    four-year college degree or if you hold an approved credential.</p>
-                                                <p>Don’t have enough experience yet? You can still pass the CISSP exam
+                                                <p>
+                                                    Learn more about CCSP Experience Requirements and how earning CSA’s
+                                                    CCSK certificate can be substituted for one year of experience, or
+                                                    how earning (ISC)&#178;’s CISSP credential can be substituted for
+                                                    the
+                                                    entire CCSP experience requirement.
+                                                </p>
+                                                <p>
+                                                    Don’t have enough experience yet? You can still pass the CCSP exam
                                                     and become an Associate of (ISC)&#178; while you earn the required
-                                                    work experience.</p>
+                                                    work
+                                                    experience.
+                                                </p>
                                                 <strong>Complete the Endorsement Process</strong>
-                                                <p>Once you receive notification informing you that you have
-                                                    successfully passed the exam, you can start the online endorsement
-                                                    process. This process attests that your assertions regarding
-                                                    professional experience are true and that you are in good standing
-                                                    within the cybersecurity industry.</p>
+                                                <p>
+                                                    Once you receive notification that you have successfully passed the
+                                                    exam, you can start the online endorsement process. This process
+                                                    attests that your assertions regarding professional experience are
+                                                    true and that you are in good standing within the cybersecurity
+                                                    industry.
+                                                </p>
                                                 <strong>Agree to the (ISC)&#178; Code of Ethics</strong>
                                                 <p>
-                                                    all information security professionals who are certified by
-                                                    (ISC)&#178;
-                                                    recognize that such certification is a privilege that must be both
-                                                    earned and maintained. All (ISC)&#178; members are required to
-                                                    commit to
-                                                    fully support (ISC)&#178; Code of Ethics Canons:
+                                                    All information security professionals who are certified by
+                                                    (ISC)&#178; recognize that such certification is a privilege that
+                                                    must be both earned and maintained. All (ISC)&#178; members are
+                                                    required to commit to fully support (ISC)&#178; Code of Ethics
+                                                    Canons:
                                                 </p>
                                                 <ul>
                                                     <li>Protect society, the common good, necessary public trust and

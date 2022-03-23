@@ -343,42 +343,34 @@
 
   // Background Video Active
   var sliderBG1 = new vidim(".bg-video-1", {
-    src: [
-      {
-        type: "video/mp4",
-        src: "assets/media/video/bg-video-1.mp4",
-      },
-    ],
+    src: [{
+      type: "video/mp4",
+      src: "assets/media/video/bg-video-1.mp4",
+    }, ],
     poster: "assets/media/video/cyber-security.jpg",
   });
 
   var sliderBG2 = new vidim(".bg-video-2", {
-    src: [
-      {
-        type: "video/mp4",
-        src: "assets/media/video/bg-video-2.mp4",
-      },
-    ],
+    src: [{
+      type: "video/mp4",
+      src: "assets/media/video/bg-video-2.mp4",
+    }, ],
     poster: "assets/media/video/cyber-security.jpg",
   });
 
   var sliderBG3 = new vidim(".bg-video-3", {
-    src: [
-      {
-        type: "video/mp4",
-        src: "assets/media/video/bg-video-3.mp4",
-      },
-    ],
+    src: [{
+      type: "video/mp4",
+      src: "assets/media/video/bg-video-3.mp4",
+    }, ],
     poster: "assets/media/video/cyber-security.jpg",
   });
 
   var sliderBG4 = new vidim(".bg-video-4", {
-    src: [
-      {
-        type: "video/mp4",
-        src: "assets/media/video/bg-video-4.mp4",
-      },
-    ],
+    src: [{
+      type: "video/mp4",
+      src: "assets/media/video/bg-video-4.mp4",
+    }, ],
     poster: "assets/media/video/cyber-security.jpg",
   });
 
@@ -405,7 +397,9 @@
     });
 
     $scrollUp.on("click", function (evt) {
-      $("html, body").animate({ scrollTop: 0 }, 600);
+      $("html, body").animate({
+        scrollTop: 0
+      }, 600);
       evt.preventDefault();
     });
   }
@@ -431,10 +425,10 @@
 
       // Submit the form using AJAX.
       $.ajax({
-        type: "POST",
-        url: $(form).attr("action"),
-        data: formData,
-      })
+          type: "POST",
+          url: $(form).attr("action"),
+          data: formData,
+        })
         .done(function (response) {
           // Make sure that the formMessages div has the 'success' class.
           $(formMessages).removeClass("error");
@@ -519,8 +513,7 @@ function setShareLinks() {
         scrollTo 
     ---------------------------*/
 $("#startScroll").click(function () {
-  $("html,body").animate(
-    {
+  $("html,body").animate({
       scrollTop: $("#scrollTo").offset().top,
     },
     "slow"
