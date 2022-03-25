@@ -16182,18 +16182,35 @@ fieldset:disabled .btn {
 }
 
 .text-rb-gradient {
-  background: -webkit-linear-gradient(#a431c0, #ffac4d);
+  background: -webkit-radial-gradient(var(--rb-primary), var(--rb-secondary));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  transition: 500ms ease-in-out;
+}
+
+.text-rb-gradient:hover {
+  background: -webkit-radial-gradient(var(--rb-secondary), var(--rb-primary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 500ms ease-in-out;
 }
 
 .text-rb-linkedin {
   color: #0a61b9;
 }
 
+.text-rb-primary {
+  color: var(--rb-primary) !important;
+}
+
+.text-rb-secondary {
+  color: var(--rb-secondary) !important;
+}
+
 .text-primary {
   color: #1292ee !important;
 }
+
 
 .text-secondary {
   color: black !important;

@@ -555,7 +555,8 @@ require '../../assets/php/inc/nav.php';
                                                     yourself now by registering for the exam.</p>
                                                 <p>Schedule your exam by creating an account with <a
                                                         href="https://home.pearsonvue.com/isc2" target="_blank"
-                                                        alt="link to pearson vue" class="text-primary">Pearson VUE</a>
+                                                        alt="link to pearson vue" class="text-rb-gradient">Pearson
+                                                        VUE</a>
                                                     , the leading provider of global, computer-based testing
                                                     for certification and licensure exams. You can find details on
                                                     testing locations, policies, accommodations and more on their
