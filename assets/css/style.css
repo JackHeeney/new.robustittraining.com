@@ -43886,18 +43886,57 @@ textarea:focus {
 }
 
 @-webkit-keyframes up-down {
-  50% {
+  100% {
     -webkit-transform: translateY(30px);
     transform: translateY(30px);
   }
 }
 
-@keyframes up-down {
+.cross-up-down {
+  height: 5%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #015871;
+}
+
+.wave-1 {
+  position: absolute;
+  bottom: 0;
+  width: 6400px;
+  height: 198px;
+  animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+  transform: translate3d(0, 0, 0);
+}
+
+
+
+.cross-up-down {
+  animation-delay: 500ms !important;
+  animation: footer-up-down infinite 2s ease-in-out;
+}
+
+
+@-webkit-keyframes footer-up-down {
+  0% {
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+  }
+
   50% {
-    -webkit-transform: translateY(30px);
-    transform: translateY(30px);
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+
+
+  100% {
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
   }
 }
+
+
 
 /* 04.11 Team CSS */
 .team .thumb {
@@ -47614,6 +47653,10 @@ only screen and (max-width: 767px) {
 .work-share .links li:hover {
   text-decoration: underline;
 }
+
+/* .pre-links a {
+  display: inline;
+} */
 
 .work-main-info .title {
   font-size: 48px;

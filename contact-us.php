@@ -20,7 +20,8 @@ require './assets/php/inc/nav.php';
 
 
     <!-- Page Title Section Start -->
-    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7" data-bg-image="assets/images/bg/breadcrumb-bg-five.jpg">
+    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7"
+        data-bg-image="assets/images/bg/breadcrumb-bg-five.jpg">
         <div class="page-title">
             <div class="container">
                 <h1 class="title">Get in touch.</h1>
@@ -43,8 +44,7 @@ require './assets/php/inc/nav.php';
             <!-- Section Title Start -->
             <div class="section-title text-center mb-lg-12 mb-sm-8 mb-xs-8" data-aos="fade-up">
                 <h2 class="title">Contact our professional course advisors today.</h2>
-                <p class="sub-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad aut placeat eaque
-                    culpa, facere nemo!</p>
+
             </div>
             <!-- Section Title End -->
 
@@ -134,15 +134,15 @@ require './assets/php/inc/nav.php';
     <!--Google Map Area Start-->
 
     <!-- Contact Form Section Start -->
-    <div class="contact-form-section section section-padding-t90-b100" data-bg-color="#f8faff">
+    <div class="contact-form-section section section-padding-t90-b100" data-bg-color="#fff">
         <div class="container">
             <div class="row">
                 <div class="offset-lg-2 col-lg-8">
                     <!-- Section Title Start -->
                     <div class="section-title text-center" data-aos="fade-up">
-                        <h2 class="title fz-32">Lorem ipsum dolor sit amet consectetur.</h2>
-                        <p class="sub-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam illo
-                            rerum, magni blanditiis hic fugiat.</p>
+                        <h2 class="title fz-32">Get in touch today!</h2>
+                        <p class="sub-title">We have made it easier for you to reach us and begin your learning journey.
+                        </p>
                     </div>
                     <!-- Section Title End -->
                     <div class="contact-form">
@@ -158,9 +158,11 @@ require './assets/php/inc/nav.php';
                             <input type="hidden" name="intDPAStatusPhoneID" value="1">
                             <input type="hidden" name="intDPAStatusSMSID" value="1">
                             <input type="hidden" name="intDPAStatusEmailID" value="1">
-                            <input type="hidden" name="strAPISuccessURL" value="http://www.robustittraining.com/thankyou" />
+                            <input type="hidden" name="strAPISuccessURL"
+                                value="http://www.robustittraining.com/thankyou" />
                             <input type="hidden" name="strAPIFailURL" value="http://www.robustittraining.com/sorry" />
-                            <input type="hidden" name="strLeadData2" id="strLeadData2" value="<?php echo $leadIsFrom ?>/" />
+                            <input type="hidden" name="strLeadData2" id="strLeadData2"
+                                value="<?php echo $leadIsFrom ?>/" />
                             <!-- //end -->
                             <div class="row mb-n6">
                                 <div class="col-md-6 col-12 mb-6">

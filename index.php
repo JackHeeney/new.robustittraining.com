@@ -29,7 +29,8 @@ require './assets/php/inc/nav.php';
 
                 <!-- item start  -->
                 <div class="swiper-slide">
-                    <div class="intro-section section bg-video-1 before-zindex-9" data-bg-color="#030f27" data-overlay="0.7" data-bg-image="">
+                    <div class="intro-section section bg-video-1 before-zindex-9" data-bg-color="#030f27"
+                        data-overlay="0.7" data-bg-image="">
 
                         <div class="container">
                             <div class="row row-cols-lg-1 row-cols-1">
@@ -45,12 +46,19 @@ require './assets/php/inc/nav.php';
                                         </div>
                                         <a href="#scroll-to-one" class="btn btn-secondary btn-hover-primary">Get Started
                                             <i class="fas fa-chevron-right fcr-animate"></i></a>
-                                        <a href="<?php echo SITE_ADDR ?>/corporate-enquiries" class="btn btn-outline-white btn-hover--secondary"> For Corporate <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                        <a href="<?php echo SITE_ADDR ?>/corporate-enquiries"
+                                            class="btn btn-outline-white btn-hover--secondary"> For Corporate <i
+                                                class="fas fa-chevron-right fcr-animate"></i></a>
 
                                         <div class="trustpilot" style="position: relative; bottom: -50px; right: 180px">
 
                                             <!-- TrustBox widget - Micro Combo -->
-                                            <div class="trustpilot-widget" data-locale="en-GB" data-template-id="5419b6ffb0d04a076446a9af" data-businessunit-id="5e470c6a94d8c3000152bc70" data-style-height="20px" data-style-width="100%" data-theme="dark"> <a href="https://uk.trustpilot.com/review/www.robustittraining.com" target="_blank" rel="noopener">Trustpilot</a> </div>
+                                            <div class="trustpilot-widget" data-locale="en-GB"
+                                                data-template-id="5419b6ffb0d04a076446a9af"
+                                                data-businessunit-id="5e470c6a94d8c3000152bc70" data-style-height="20px"
+                                                data-style-width="100%" data-theme="dark"> <a
+                                                    href="https://uk.trustpilot.com/review/www.robustittraining.com"
+                                                    target="_blank" rel="noopener">Trustpilot</a> </div>
                                             <!-- End TrustBox widget -->
                                         </div>
                                     </div>
@@ -65,7 +73,8 @@ require './assets/php/inc/nav.php';
 
                 <!-- item start  -->
                 <div class="swiper-slide ">
-                    <div class="intro-section section bg-video-2 before-zindex-9" data-bg-color="#030f27" data-overlay="0.7" data-bg-image="">
+                    <div class="intro-section section bg-video-2 before-zindex-9" data-bg-color="#030f27"
+                        data-overlay="0.7" data-bg-image="">
 
                         <div class="container">
                             <div class="row row-cols-lg-1 row-cols-1">
@@ -79,13 +88,19 @@ require './assets/php/inc/nav.php';
                                         </div>
                                         <a href="#scroll-to-one" class="btn btn-secondary btn-hover-primary">Get Started
                                             <i class="fas fa-chevron-right fcr-animate"></i></a>
-                                        <a href="<?php echo SITE_ADDR ?>/corporate-enquiries" class="btn btn-outline-white btn-hover--secondary"> For
+                                        <a href="<?php echo SITE_ADDR ?>/corporate-enquiries"
+                                            class="btn btn-outline-white btn-hover--secondary"> For
                                             Corporate <i class="fas fa-chevron-right fcr-animate"></i></a>
 
                                         <div class="trustpilot" style="position: relative; bottom: -50px; right: 180px">
 
                                             <!-- TrustBox widget - Micro Combo -->
-                                            <div class="trustpilot-widget" data-locale="en-GB" data-template-id="5419b6ffb0d04a076446a9af" data-businessunit-id="5e470c6a94d8c3000152bc70" data-style-height="20px" data-style-width="100%" data-theme="dark"> <a href="https://uk.trustpilot.com/review/www.robustittraining.com" target="_blank" rel="noopener">Trustpilot</a> </div>
+                                            <div class="trustpilot-widget" data-locale="en-GB"
+                                                data-template-id="5419b6ffb0d04a076446a9af"
+                                                data-businessunit-id="5e470c6a94d8c3000152bc70" data-style-height="20px"
+                                                data-style-width="100%" data-theme="dark"> <a
+                                                    href="https://uk.trustpilot.com/review/www.robustittraining.com"
+                                                    target="_blank" rel="noopener">Trustpilot</a> </div>
                                             <!-- End TrustBox widget -->
                                         </div>
                                     </div>
@@ -98,7 +113,8 @@ require './assets/php/inc/nav.php';
 
                 <!-- item start  -->
                 <div class="swiper-slide ">
-                    <div class="intro-section section bg-video-3 before-zindex-9" data-bg-color="#030f27" data-overlay="0.7" data-bg-image="">
+                    <div class="intro-section section bg-video-3 before-zindex-9" data-bg-color="#030f27"
+                        data-overlay="0.7" data-bg-image="">
 
                         <div class="container">
                             <div class="row row-cols-lg-1 row-cols-1">
@@ -115,12 +131,19 @@ require './assets/php/inc/nav.php';
                                         </div>
                                         <a href="#scroll-to-one" class="btn btn-secondary btn-hover-primary">Get Started
                                             <i class="fas fa-chevron-right fcr-animate"></i></a>
-                                        <a href="<?php echo SITE_ADDR ?>/corporate-enquiries" class="btn btn-outline-white btn-hover--secondary"> For Corporate <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                        <a href="<?php echo SITE_ADDR ?>/corporate-enquiries"
+                                            class="btn btn-outline-white btn-hover--secondary"> For Corporate <i
+                                                class="fas fa-chevron-right fcr-animate"></i></a>
 
                                         <div class="trustpilot" style="position: relative; bottom: -50px; right: 180px">
 
                                             <!-- TrustBox widget - Micro Combo -->
-                                            <div class="trustpilot-widget" data-locale="en-GB" data-template-id="5419b6ffb0d04a076446a9af" data-businessunit-id="5e470c6a94d8c3000152bc70" data-style-height="20px" data-style-width="100%" data-theme="dark"> <a href="https://uk.trustpilot.com/review/www.robustittraining.com" target="_blank" rel="noopener">Trustpilot</a> </div>
+                                            <div class="trustpilot-widget" data-locale="en-GB"
+                                                data-template-id="5419b6ffb0d04a076446a9af"
+                                                data-businessunit-id="5e470c6a94d8c3000152bc70" data-style-height="20px"
+                                                data-style-width="100%" data-theme="dark"> <a
+                                                    href="https://uk.trustpilot.com/review/www.robustittraining.com"
+                                                    target="_blank" rel="noopener">Trustpilot</a> </div>
                                             <!-- End TrustBox widget -->
                                         </div>
                                     </div>
@@ -139,7 +162,8 @@ require './assets/php/inc/nav.php';
     <!-- Slider/Intro Section End -->
 
     <!-- About Section Start -->
-    <div class="section section-padding-t90 section-padding-bottom-200" id="scroll-to-one" style="scroll-margin-top: 4em" data-bg-color="#f8faff">
+    <div class="section section-padding-t90 section-padding-bottom-200" id="scroll-to-one"
+        style="scroll-margin-top: 4em" data-bg-color="#f8faff">
         <div class="container">
 
             <!-- Section Title Start -->
@@ -300,14 +324,19 @@ require './assets/php/inc/nav.php';
                 <!-- Icon Box Start -->
                 <div class="col mb-6">
 
-                    <div class="icon-box text-center" data-bg-image="https://s3.amazonaws.com/mentoring.redesign/s3fs-public/male-CEO-business-team.jpg" data-overlay="0.8" data-vivus-hover data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
-                        <div class="icon"><img class="svgInject" src="assets/images/svg/svgrepo/office-block-svgrepo-com.svg" alt=""></div>
+                    <div class="icon-box text-center"
+                        data-bg-image="https://s3.amazonaws.com/mentoring.redesign/s3fs-public/male-CEO-business-team.jpg"
+                        data-overlay="0.8" data-vivus-hover data-aos="fade-up" data-aos-delay="200"
+                        data-aos-duration="800">
+                        <div class="icon"><img class="svgInject"
+                                src="assets/images/svg/svgrepo/office-block-svgrepo-com.svg" alt=""></div>
                         <div class="content">
                             <h3 class="title">Corporate</h3>
                             <div class="desc">
                                 <p>Up-skill your employees. Enquire about our corporate offers today.</p>
                             </div>
-                            <a href="<?php echo SITE_ADDR ?>/services" class="link">Learn More <i class="fas fa-chevron-right fcr-animate"></i></a>
+                            <a href="<?php echo SITE_ADDR ?>/services" class="link">Learn More <i
+                                    class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
 
@@ -317,15 +346,20 @@ require './assets/php/inc/nav.php';
                 <!-- Icon Box Start -->
                 <div class="col mb-6">
 
-                    <div class="icon-box text-center" data-bg-image="https://armyrotc.as.uky.edu/sites/default/files/styles/flexslider_full/public/UK%20Army%20ROTC%20Cadet%20Classroom%20Experience%20%E2%80%93%202010-1?itok=T9Va1SKu&timestamp=1436910840" data-overlay="0.8" data-vivus-hover data-aos="fade-up" data-aos-delay="400" data-aos-duration="800">
-                        <div class="icon"><img class="svgInject" src="assets/images/svg/svgrepo/dog-tag-military-svgrepo-com.svg" alt="">
+                    <div class="icon-box text-center"
+                        data-bg-image="https://armyrotc.as.uky.edu/sites/default/files/styles/flexslider_full/public/UK%20Army%20ROTC%20Cadet%20Classroom%20Experience%20%E2%80%93%202010-1?itok=T9Va1SKu&timestamp=1436910840"
+                        data-overlay="0.8" data-vivus-hover data-aos="fade-up" data-aos-delay="400"
+                        data-aos-duration="800">
+                        <div class="icon"><img class="svgInject"
+                                src="assets/images/svg/svgrepo/dog-tag-military-svgrepo-com.svg" alt="">
                         </div>
                         <div class="content">
                             <h3 class="title">ELCAS</h3>
                             <div class="desc">
                                 <p>We offer enhanced learning credits for ex-military personnel.</p>
                             </div>
-                            <a href="<?php echo SITE_ADDR ?>/services" class="link">Learn More <i class="fas fa-chevron-right fcr-animate"></i></a>
+                            <a href="<?php echo SITE_ADDR ?>/services" class="link">Learn More <i
+                                    class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
 
@@ -335,14 +369,19 @@ require './assets/php/inc/nav.php';
                 <!-- Icon Box Start -->
                 <div class="col mb-6">
 
-                    <div class="icon-box text-center" data-bg-image="https://miro.medium.com/max/1000/1*n7LK5cSZarhBRXRjxmkg5A.jpeg" data-overlay="0.8" data-vivus-hover data-aos="fade-up" data-aos-delay="600" data-aos-duration="800">
-                        <div class="icon"><img class="svgInject" src="assets/images/svg/svgrepo/job-search-svgrepo-com.svg" alt=""></div>
+                    <div class="icon-box text-center"
+                        data-bg-image="https://miro.medium.com/max/1000/1*n7LK5cSZarhBRXRjxmkg5A.jpeg"
+                        data-overlay="0.8" data-vivus-hover data-aos="fade-up" data-aos-delay="600"
+                        data-aos-duration="800">
+                        <div class="icon"><img class="svgInject"
+                                src="assets/images/svg/svgrepo/job-search-svgrepo-com.svg" alt=""></div>
                         <div class="content">
                             <h3 class="title">Career Advice</h3>
                             <div class="desc">
                                 <p>Qualified for the position? We will help get you into your first job role.</p>
                             </div>
-                            <a href="<?php echo SITE_ADDR ?>/services" class="link">Learn More <i class="fas fa-chevron-right fcr-animate"></i></a>
+                            <a href="<?php echo SITE_ADDR ?>/services" class="link">Learn More <i
+                                    class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
 
@@ -357,7 +396,7 @@ require './assets/php/inc/nav.php';
 
 
     <!-- Portfolio Section Start -->
-    <div class="section section-padding ag-masonary-wrapper" data-bg-color="#f8faff">
+    <div class="section section-padding ag-masonary-wrapper" data-bg-color="#fff">
         <div class="container">
 
             <div class="row align-items-center" data-aos="fade-up">
@@ -393,14 +432,19 @@ require './assets/php/inc/nav.php';
                     <div class="col mb-6">
                         <div class="work single-portfolio">
                             <div class="thumbnail">
-                                <a class="image" href="<?php echo SITE_ADDR ?>/vendor/aws/cloud-practitioner" alt="link to aws cloud practitioner"><img src="<?php echo SITE_ADDR ?>/assets/images/project/project-1.jpg" alt="work"></a>
+                                <a class="image" href="<?php echo SITE_ADDR ?>/vendor/aws/cloud-practitioner"
+                                    alt="link to aws cloud practitioner"><img
+                                        src="<?php echo SITE_ADDR ?>/assets/images/project/project-1.jpg"
+                                        alt="work"></a>
                             </div>
                             <div class="info">
-                                <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/aws/cloud-practitioner" alt="link to aws cloud practitioner">AWS Cloud
+                                <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/aws/cloud-practitioner"
+                                        alt="link to aws cloud practitioner">AWS Cloud
                                         Practitioner</a></h3>
                                 <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                     culpa, unde perspiciatis hic delectus.</p>
-                                <a href="<?php echo SITE_ADDR ?>/vendor/aws/cloud-practitioner" alt="link to aws cloud practitioner">View Course
+                                <a href="<?php echo SITE_ADDR ?>/vendor/aws/cloud-practitioner"
+                                    alt="link to aws cloud practitioner">View Course
                                     <i class="fas fa-chevron-right fcr-animate"></i></a>
                             </div>
                         </div>
@@ -414,15 +458,22 @@ require './assets/php/inc/nav.php';
                     <div class="col mb-6">
                         <div class="work single-portfolio">
                             <div class="thumbnail">
-                                <a class="image" href="<?php echo SITE_ADDR ?>/vendor/microsoft/azure/microsoft-certified-azure-fundamentals" alt="link to microsoft azure fundamentals"><img src="<?php echo SITE_ADDR ?>/assets/images/project/project-2.jpg" alt="work"></a>
+                                <a class="image"
+                                    href="<?php echo SITE_ADDR ?>/vendor/microsoft/azure/microsoft-certified-azure-fundamentals"
+                                    alt="link to microsoft azure fundamentals"><img
+                                        src="<?php echo SITE_ADDR ?>/assets/images/project/project-2.jpg"
+                                        alt="work"></a>
                             </div>
                             <div class="info">
-                                <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/microsoft/azure/microsoft-certified-azure-fundamentals" alt="link to microsoft azure fundamentals">Microsoft
+                                <h3 class="title"><a
+                                        href="<?php echo SITE_ADDR ?>/vendor/microsoft/azure/microsoft-certified-azure-fundamentals"
+                                        alt="link to microsoft azure fundamentals">Microsoft
                                         Azure
                                         Fundamentals</a></h3>
                                 <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                     culpa, unde perspiciatis hic delectus.</p>
-                                <a href="<?php echo SITE_ADDR ?>/vendor/microsoft/azure/microsoft-certified-azure-fundamentals" alt="link to microsoft azure fundamentals">View
+                                <a href="<?php echo SITE_ADDR ?>/vendor/microsoft/azure/microsoft-certified-azure-fundamentals"
+                                    alt="link to microsoft azure fundamentals">View
                                     Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                             </div>
                         </div>
@@ -436,15 +487,21 @@ require './assets/php/inc/nav.php';
                     <div class="col mb-6">
                         <div class="work single-portfolio">
                             <div class="thumbnail">
-                                <a class="image" href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-security" alt="link to comptia security+"><img src="<?php echo SITE_ADDR ?>/assets/images/project/project-3.jpg" alt="work"></a>
+                                <a class="image" href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-security"
+                                    alt="link to comptia security+"><img
+                                        src="<?php echo SITE_ADDR ?>/assets/images/project/project-3.jpg"
+                                        alt="work"></a>
                             </div>
                             <div class="info">
-                                <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-security" alt="link to comptia security+">CompTIA
+                                <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-security"
+                                        alt="link to comptia security+">CompTIA
                                         Security+</a>
                                 </h3>
                                 <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                     culpa, unde perspiciatis hic delectus.</p>
-                                <a href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-security" alt="link to comptia security+">View Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                <a href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-security"
+                                    alt="link to comptia security+">View Courses <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a>
                             </div>
                         </div>
                     </div>
@@ -458,14 +515,20 @@ require './assets/php/inc/nav.php';
                     <div class="col mb-6">
                         <div class="work single-portfolio">
                             <div class="thumbnail">
-                                <a class="image" href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-network" alt="link to comptia network+"><img src="<?php echo SITE_ADDR ?>/assets/images/project/project-4.jpg" alt="work"></a>
+                                <a class="image" href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-network"
+                                    alt="link to comptia network+"><img
+                                        src="<?php echo SITE_ADDR ?>/assets/images/project/project-4.jpg"
+                                        alt="work"></a>
                             </div>
                             <div class="info">
-                                <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-network" alt="link to comptia network+">CompTIA
+                                <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-network"
+                                        alt="link to comptia network+">CompTIA
                                         Network+</a></h3>
                                 <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                     culpa, unde perspiciatis hic delectus.</p>
-                                <a href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-network" alt="link to comptia network+">View Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                <a href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-network"
+                                    alt="link to comptia network+">View Courses <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a>
                             </div>
                         </div>
                     </div>
@@ -478,15 +541,22 @@ require './assets/php/inc/nav.php';
                     <div class="col mb-6">
                         <div class="work single-portfolio">
                             <div class="thumbnail">
-                                <a class="image" href="<?php echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker" alt="link to ec-council certified certified ethical hacker"><img src="<?php echo SITE_ADDR ?>/assets/images/project/project-1.jpg" alt="work"></a>
+                                <a class="image"
+                                    href="<?php echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker"
+                                    alt="link to ec-council certified certified ethical hacker"><img
+                                        src="<?php echo SITE_ADDR ?>/assets/images/project/project-1.jpg"
+                                        alt="work"></a>
                             </div>
                             <div class="info">
-                                <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker" alt="link to ec-council certified certified ethical hacker">Certified
+                                <h3 class="title"><a
+                                        href="<?php echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker"
+                                        alt="link to ec-council certified certified ethical hacker">Certified
                                         Ethical
                                         Hacker</a></h3>
                                 <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                     culpa, unde perspiciatis hic delectus.</p>
-                                <a href="<?php echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker" alt="link to ec-council certified certified ethical hacker">View Course
+                                <a href="<?php echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker"
+                                    alt="link to ec-council certified certified ethical hacker">View Course
                                     <i class="fas fa-chevron-right fcr-animate"></i></a>
                             </div>
                         </div>
@@ -501,15 +571,22 @@ require './assets/php/inc/nav.php';
                     <div class="col mb-6">
                         <div class="work single-portfolio">
                             <div class="thumbnail">
-                                <a class="image" href="<?php echo SITE_ADDR ?>/vendor/ec-council/certified-cloud-security-expert" alt="link to ec-council certified cloud security expert"><img src="<?php echo SITE_ADDR ?>/assets/images/project/project-6.jpg" alt="work"></a>
+                                <a class="image"
+                                    href="<?php echo SITE_ADDR ?>/vendor/ec-council/certified-cloud-security-expert"
+                                    alt="link to ec-council certified cloud security expert"><img
+                                        src="<?php echo SITE_ADDR ?>/assets/images/project/project-6.jpg"
+                                        alt="work"></a>
                             </div>
                             <div class="info">
-                                <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/ec-council/certified-cloud-security-expert" alt="link to ec-council certified cloud security expert">Certified
+                                <h3 class="title"><a
+                                        href="<?php echo SITE_ADDR ?>/vendor/ec-council/certified-cloud-security-expert"
+                                        alt="link to ec-council certified cloud security expert">Certified
                                         Cloud
                                         Security Expert</a></h3>
                                 <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                     culpa, unde perspiciatis hic delectus.</p>
-                                <a href="<?php echo SITE_ADDR ?>/vendor/ec-council/certified-cloud-security-expert" alt="link to ec-council certified cloud security expert">View
+                                <a href="<?php echo SITE_ADDR ?>/vendor/ec-council/certified-cloud-security-expert"
+                                    alt="link to ec-council certified cloud security expert">View
                                     Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                             </div>
                         </div>
@@ -524,7 +601,7 @@ require './assets/php/inc/nav.php';
     <!-- Portfolio Section End -->
 
     <!-- Faq Section Start -->
-    <div class="faq-section section section-padding-top" data-bg-color="#ffffff">
+    <div class="faq-section section section-padding-top" data-bg-color="#f8faff">
         <div class="container">
 
             <div class="row mb-10">
@@ -540,23 +617,25 @@ require './assets/php/inc/nav.php';
                 </div>
             </div>
 
-            <div class="row row-cols-lg-2 row-cols-1 mb-n6">
+            <div class="row row-cols-lg-1 row-cols-1  mb-n6">
 
 
                 <!-- Faq Content Start -->
-                <div class="col mb-6 pl-xl-12">
+                <div class="col-12 mb-6 pl-xl-12">
                     <div class="faq-content ">
                         <div class="agency-accordion max-mb-n30" id="faqLeft">
                             <div class="card">
                                 <div class="card-header" id="headingOne">
                                     <h5 class="mb-0">
-                                        <a href="#" class="acc-btn border-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <a href="#" class="acc-btn border-0" data-toggle="collapse"
+                                            data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                             What jobs will i be qualified for after getting certified?
                                         </a>
                                     </h5>
                                 </div>
 
-                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faqLeft">
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                    data-parent="#faqLeft">
                                     <div class="card-body">Depending on the course you are studying there are a variety
                                         of jobs available. We can also help you with your job search.
                                     </div>
@@ -566,12 +645,15 @@ require './assets/php/inc/nav.php';
                             <div class="card">
                                 <div class="card-header" id="headingTwo">
                                     <h5 class="mb-0">
-                                        <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse"
+                                            data-target="#collapseTwo" aria-expanded="false"
+                                            aria-controls="collapseTwo">
                                             How can i get practical, hands on training by doing the studying online?
                                         </a>
                                     </h5>
                                 </div>
-                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqLeft">
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                    data-parent="#faqLeft">
                                     <div class="card-body">Your account may be eligible for access to our live practical
                                         labs. These powerful tools simulate a classroom training environment and are run
                                         through our remote server. All of our software specific training courses will
@@ -585,12 +667,15 @@ require './assets/php/inc/nav.php';
                             <div class="card">
                                 <div class="card-header" id="headingThree">
                                     <h5 class="mb-0">
-                                        <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse"
+                                            data-target="#collapseThree" aria-expanded="false"
+                                            aria-controls="collapseThree">
                                             I have completed my course, do i receive a certificate?
                                         </a>
                                     </h5>
                                 </div>
-                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqLeft">
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                    data-parent="#faqLeft">
                                     <div class="card-body">Yes, all of our courses have either a completion certificate
                                         or official qualification. You will usually find your certificate available for
                                         download right from your training portal once you've completed all of the tests
@@ -604,88 +689,13 @@ require './assets/php/inc/nav.php';
                 </div>
                 <!-- Faq Content End -->
 
-                <div class="col mb-6 pl-xl-12">
-
-                    <!-- Faq Image Start -->
-                    <div class="faq-image-area">
-                        <div class="agency-accordion max-mb-n30" id="faqRight">
-                            <div class="card">
-                                <div class="card-header" id="headingOne">
-                                    <h5 class="mb-0">
-                                        <a href="#" class="acc-btn border-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            What jobs will i be qualified for after getting certified?
-                                        </a>
-                                    </h5>
-                                </div>
-
-                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faqRight">
-                                    <div class="card-body">Depending on the course you are studying there are a variety
-                                        of jobs available. We can also help you with your job search.
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="card">
-                                <div class="card-header" id="headingTwo">
-                                    <h5 class="mb-0">
-                                        <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            How can i get practical, hands on training by doing the studying online?
-                                        </a>
-                                    </h5>
-                                </div>
-                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqRight">
-                                    <div class="card-body">Your account may be eligible for access to our live practical
-                                        labs. These powerful tools simulate a classroom training environment and are run
-                                        through our remote server. All of our software specific training courses will
-                                        include live lab access, this means that the likes of our Microsoft and Cisco
-                                        Courses packages (amongst others) will come packaged with our intuitive live lab
-                                        systems.
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="card">
-                                <div class="card-header" id="headingThree">
-                                    <h5 class="mb-0">
-                                        <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            I have completed my course, do i receive a certificate?
-                                        </a>
-                                    </h5>
-                                </div>
-                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqRight">
-                                    <div class="card-body">Yes, all of our courses have either a completion certificate
-                                        or official qualification. You will usually find your certificate available for
-                                        download right from your training portal once you've completed all of the tests
-                                        on your account.
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-
-
-                        <!-- <div class="about-image right-n50 js-tilt">
-                            <img src="assets/images/faq/faq-2.jpg" alt="">
-                        </div>
-                        <div class="about-image js-tilt">
-                            <img src="assets/images/faq/faq-1.jpg" alt="">
-                        </div> -->
-                        <!-- Animation Shape Start -->
-                        <div class="shape shape-1 scene">
-                            <span data-depth="4"><img src="assets/images/shape-animation/video-shape-1.png" alt=""></span>
-                        </div>
-                        <!-- Animation Shape End -->
-                    </div>
-                    <!-- Faq Image End -->
-                </div>
             </div>
         </div>
     </div>
     <!-- Faq Section End -->
 
     <!-- Contact Section Start -->
-    <div class="section section-padding contact-section" data-bg-color="#000" data-overlay="0.7" data-bg-image="assets/images/bg/contact-bg.jpg">
+    <div class="section section-padding contact-section" data-bg-color="#fff" data-overlay="0">
 
         <div class="container">
             <div class="row row-cols-lg-2 row-cols-1 align-items-center">
@@ -693,7 +703,7 @@ require './assets/php/inc/nav.php';
                     <!-- Contact Information -->
                     <div class="contact-Information mr-xl-7">
                         <!-- Section Title Two Start -->
-                        <div class="section-title-two color-light">
+                        <div class="section-title-two color-dark">
                             <span class="sub-title">Contact Us</span>
                             <h3 class="title">Fill out the form or get in touch by using the details below:
                             </h3>
@@ -701,7 +711,7 @@ require './assets/php/inc/nav.php';
                         <!-- Section Title Two End -->
 
                         <!-- Contact Info Item Start -->
-                        <div class="contact-info info-light" data-vivus-hover>
+                        <div class="contact-info info-dark" data-vivus-hover>
                             <div class="icon">
                                 <img class="svgInject" src="assets/images/svg/linea/linea-basic-map.svg" alt="">
                             </div>
@@ -716,7 +726,7 @@ require './assets/php/inc/nav.php';
                         </div>
                         <!-- Contact Info Item End -->
                         <!-- Contact Info Item Start -->
-                        <div class="contact-info info-light" data-vivus-hover>
+                        <div class="contact-info info-dark" data-vivus-hover>
                             <div class="icon">
                                 <img class="svgInject" src="assets/images/svg/linea/linea-basic-message-txt.svg" alt="">
                             </div>
@@ -742,9 +752,10 @@ require './assets/php/inc/nav.php';
                         </div>
                         <!-- Contact Info Item End -->
                         <!-- Contact Info Item Start -->
-                        <div class="contact-info info-light" data-vivus-hover>
+                        <div class="contact-info info-dark" data-vivus-hover>
                             <div class="icon">
-                                <img class="svgInject" src="assets/images/svg/linea/linea-basic-mail-open-text.svg" alt="">
+                                <img class="svgInject" src="assets/images/svg/linea/linea-basic-mail-open-text.svg"
+                                    alt="">
                             </div>
                             <div class="info">
                                 <h4 class="title"> Help Desk</h4>
@@ -761,10 +772,11 @@ require './assets/php/inc/nav.php';
                 </div>
                 <div class="col mt-lg-0 mt-md-10 mt-8" data-aos="fade-up" data-aos-offset="-100">
                     <!-- Contact Form Start -->
-                    <div class="contact-form-area box-shadow">
+                    <div class="contact-form-area box-shadow" data-bg-image="assets/images/bg/contact-bg.jpg"
+                        data-overlay="0.8">
                         <!-- Section Title Start -->
                         <div class="section-title text-center mb-7">
-                            <h2 class="title fz-28">Get in touch today!</h2>
+                            <h2 class="title fz-28 text-white">Get in touch today!</h2>
                             <p class="sub-title">We have made it easy for clients to reach us
                                 and begin their cloud journey easily.</p>
                         </div>
@@ -781,9 +793,11 @@ require './assets/php/inc/nav.php';
                             <input type="hidden" name="intDPAStatusPhoneID" value="1">
                             <input type="hidden" name="intDPAStatusSMSID" value="1">
                             <input type="hidden" name="intDPAStatusEmailID" value="1">
-                            <input type="hidden" name="strAPISuccessURL" value="http://www.robustittraining.com/thankyou" />
+                            <input type="hidden" name="strAPISuccessURL"
+                                value="http://www.robustittraining.com/thankyou" />
                             <input type="hidden" name="strAPIFailURL" value="http://www.robustittraining.com/sorry" />
-                            <input type="hidden" name="strLeadData2" id="strLeadData2" value="<?php echo $leadIsFrom ?>/" />
+                            <input type="hidden" name="strLeadData2" id="strLeadData2"
+                                value="<?php echo $leadIsFrom ?>/" />
                             <!-- //end -->
 
                             <div class="row mb-n4">
@@ -803,7 +817,8 @@ require './assets/php/inc/nav.php';
                                     <textarea name="message" placeholder="Message"></textarea>
                                 </div>
                                 <div class="col-12 text-center mb-4">
-                                    <button class="btn btn-primary btn-hover-secondary">Get a free consultation <i class="fas fa-chevron-right fcr-animate"></i></button>
+                                    <button class="btn btn-primary btn-hover-secondary">Get a free consultation <i
+                                            class="fas fa-chevron-right fcr-animate"></i></button>
                                 </div>
                             </div>
                         </form>
@@ -812,7 +827,8 @@ require './assets/php/inc/nav.php';
                         <!-- Animation Shape Start -->
                         <div class="shape shape-1 scene">
                             <span data-depth="1">
-                                <img src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/contact-shape.png" alt="">
+                                <img src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/contact-shape.png"
+                                    alt="">
                             </span>
                         </div>
                         <!-- Animation Shape End -->

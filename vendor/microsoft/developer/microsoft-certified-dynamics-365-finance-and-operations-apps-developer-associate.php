@@ -90,9 +90,15 @@ require '../../../assets/php/inc/nav.php';
 
                             <div class="work-btn mb-10">
                                 <a class="btn btn-outline-secondary btn-hover--secondary"
-                                    href="<?php echo SITE_ADDR ?>/assets/pdf/exam-guides/microsoft/exam-az-204-developing-solutions-for-microsoft-azure-skills-measured.pdf"
-                                    target="_blank" alt="download az-204 exam guide">
-                                    Download the exam guide
+                                    href="<?php echo SITE_ADDR ?>/assets/pdf/exam-guides/microsoft/exam-mb-300-microsoft-finance-and-operations-core-skills-measured.pdf"
+                                    target="_blank" alt="download MB-300 exam guide">
+                                    Download the MB-300 guide
+                                    <i class="fas fa-download fcr-animate"></i>
+                                </a>
+                                <a class="btn btn-outline-secondary btn-hover--secondary mt-5"
+                                    href="<?php echo SITE_ADDR ?>/assets/pdf/exam-guides/microsoft/exam-mb-500-microsoft-dynamics-365-finance-and-operations-apps-developer-skills-measured.pdf"
+                                    target="_blank" alt="download MB-500 exam guide">
+                                    Download the MB-500 guide
                                     <i class="fas fa-download fcr-animate"></i>
                                 </a>
                             </div>
@@ -168,29 +174,6 @@ require '../../../assets/php/inc/nav.php';
                                         </ul>
                                     </div>
 
-
-                                    <!-- <div class="content mb-5" data-aos="fade-up">
-                                        <h6 class="title" data-aos="fade-up">Recommended Experience</h6>
-                                        <span>
-                                            <p>
-                                                A candidate for this certification should have 1-2 years professional
-                                                development
-                                                experience and experience with Microsoft Azure.
-                                            </p>
-                                            <p>
-                                                In addition, the candidate
-                                                for this
-                                                role should have the ability to program in a language supported by Azure
-                                                and
-                                                proficiency in Azure SDKs, Azure PowerShell, Azure CLI, data storage
-                                                options, data
-                                                connections, APIs, app authentication and authorization, compute and
-                                                container
-                                                deployment, debugging, performance tuning, and monitoring.
-                                            </p>
-
-                                        </span>
-                                    </div> -->
 
                                     <div class="work-btn">
                                         <a class="btn btn-secondary btn-hover--secondary" href="#beginnersModal"
@@ -492,8 +475,8 @@ require '../../../assets/php/inc/nav.php';
                             <div class="faq-content">
                                 <!-- Section Title Two Start -->
                                 <div class="section-title-two">
-                                    <span class="sub-title">Frequently asked questions</span>
-                                    <h3 class="title">You’ve got questions & we’ve got answers</h3>
+                                    <span class="sub-title">Related Exams</span>
+                                    <h3 class="title">Exam skills outline</h3>
                                 </div>
                                 <!-- Section Title Two End -->
 
@@ -504,8 +487,7 @@ require '../../../assets/php/inc/nav.php';
                                                 <a href="#" class="acc-btn border-0" data-toggle="collapse"
                                                     data-target="#collapseOne" aria-expanded="true"
                                                     aria-controls="collapseOne">
-                                                    What is the Developing Solutions for Microsoft Azure (AZ-204)
-                                                    Certification?
+                                                    Exam MB-300: Microsoft Dynamics 365: Core Finance and Operations
                                                 </a>
                                             </h5>
                                         </div>
@@ -514,27 +496,39 @@ require '../../../assets/php/inc/nav.php';
                                             data-parent="#accordionExample">
                                             <div class="card-body">
                                                 <p>
-                                                    This certification is designed for IT and cloud professionals who
-                                                    have 1-2 years of experience with development tools and processes
-                                                    and wish to take their knowledge to the next level by passing the
-                                                    AZ-204 exam.
+                                                    Consultants (functional and technical) gather and analyze business
+                                                    requirements and translate those requirements into fully realized
+                                                    business processes and solutions that implement industry recommended
+                                                    practices. They serve as a key resource in implementing and
+                                                    configuring apps to meet business requirements.
                                                 </p>
                                                 <p>
-                                                    The exam, according to Microsoft, requires that you have or build a
-                                                    strong knowledge base around:
+                                                    Consultants should be able to implement core components and features
+                                                    of Dynamics 365 Finance and Operations apps. They should also have
+                                                    awareness of how Dynamics 365 Finance and Operations apps integrate
+                                                    with external systems and tools including Power Platform. The
+                                                    consultant uses Lifecycle Services (LCS), Azure DevOps, and other
+                                                    Microsoft tools and platforms to facilitate the application
+                                                    lifecycle management (ALM) process.
+                                                </p>
+                                                <p>
+                                                    Consultants pursue continuous education by reading the product
+                                                    release notes, reviewing product roadmaps, participating in
+                                                    conferences, or continue learning by using Microsoft Learn,
+                                                    Microsoft Docs, instructor-led training, blogs, and user
+                                                    communities. They should also pursue role-base certifications and
+                                                    assessments to ensure their knowledge is recognized.
                                                 </p>
                                                 <ul>
-                                                    <li>Azure SDKs </li>
-                                                    <li>Azure PowerShell /li>
-                                                    <li>Azure CLI </li>
-                                                    <li>Data storage options </li>
-                                                    <li>Data connections </li>
-                                                    <li>APIs</li>
-                                                    <li>App authentication and authorization </li>
-                                                    <li>Compute and container deployment </li>
-                                                    <li>Debugging </li>
-                                                    <li>Performance tuning </li>
-                                                    <li>Monitoring </li>
+                                                    <li>The content of this exam was updated on August 9, 2021. Please
+                                                        download the exam skills outline below to see what changed.
+                                                    </li>
+                                                    <li>Describe finance and operations apps, and extend apps by using
+                                                        Microsoft Power Platform technologies (20–25%) </li>
+                                                    <li>Configure administrative features and workflows (30–35%) </li>
+                                                    <li>Manage finance and operations data (25-30%)
+                                                    </li>
+                                                    <li>Validate and support solutions (20-25%) </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -546,38 +540,55 @@ require '../../../assets/php/inc/nav.php';
                                                 <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse"
                                                     data-target="#collapseTwo" aria-expanded="false"
                                                     aria-controls="collapseTwo">
-                                                    What do I get once I pass the exam?
+                                                    Exam MB-500: Microsoft Dynamics 365: Finance and Operations Apps
+                                                    Developer
                                                 </a>
                                             </h5>
                                         </div>
                                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
                                             data-parent="#accordionExample">
                                             <div class="card-body">
-                                                Once you pass the exam, you will be the proud owner of the “Microsoft
-                                                Certified: Azure Developer Associate” badge.
+                                                <p>
+                                                    Candidates for this exam are developers who work with Finance and
+                                                    Operations apps in Microsoft Dynamics 365 to implement and extend
+                                                    applications that meet the requirements of a business. Candidates
+                                                    provide fully realized solutions by using standardized application
+                                                    coding patterns, extensible features, and external integrations.
+                                                </p>
+                                                <p>
+                                                    Candidates develop business logic by using X++, create and modify
+                                                    Finance and Operations reports and workspaces, customize user
+                                                    interfaces, provide endpoints and APIs to support Power Platform
+                                                    apps and external systems, perform testing, monitor performance,
+                                                    analyze and manipulate data, create technical designs and
+                                                    implementation details, and implement permission policies and
+                                                    security requirements.
+                                                </p>
+                                                <p>
+                                                    Candidates should have a deep knowledge and experience using the
+                                                    underlying framework, data structures, and objects associated with
+                                                    the Finance and Operations solutions. Candidates should have
+                                                    experience with products that include Visual Studio, Azure DevOps,
+                                                    Lifecycle Services (LCS) tools, and SQL Server Management Studio.
+                                                </p>
+                                                <ul>
+                                                    <li>The English language version of this exam will be updated on
+                                                        April 22, 2022. Please download the exam skills outline below to
+                                                        see what’s changing.</li>
+                                                    <li>Plan architecture and solution design (10-15%)
+                                                    </li>
+                                                    <li>Apply developer tools (10-15%)</li>
+                                                    <li>Design and develop AOT elements (20-25%)</li>
+                                                    <li>Develop and test code (10-15%)</li>
+                                                    <li>Implement reporting (10-15%)
+                                                    </li>
+                                                    <li>Integrate and manage data solutions (10-15%)</li>
+                                                    <li>Implement security and optimize performance (10-15%)</li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="card">
-                                        <div class="card-header" id="headingThree">
-                                            <h5 class="mb-0">
-                                                <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse"
-                                                    data-target="#collapseThree" aria-expanded="false"
-                                                    aria-controls="collapseThree">
-                                                    How long is the certification valid?
-                                                </a>
-                                            </h5>
-                                        </div>
-                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                                            data-parent="#accordionExample">
-                                            <div class="card-body">
-                                                <p>
-                                                    The AZ-204 certification is valid for two years.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                             <!-- FAQ Content Area Start -->

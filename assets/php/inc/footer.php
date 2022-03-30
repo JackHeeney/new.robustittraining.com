@@ -1,3 +1,127 @@
+<svg class="w-100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920"
+    height="446" viewBox="0 0 1920 446">
+    <defs>
+        <style>
+        .a {
+            clip-path: url(#i);
+        }
+
+        .b {
+            fill: #c4399b;
+        }
+
+        .c {
+            fill: #0da5e9;
+        }
+
+        .d {
+            fill: #ebebeb;
+        }
+
+        .e {
+            fill: url(#c);
+        }
+
+        .f {
+            fill: #030e22;
+            opacity: 0.95;
+        }
+
+        .g {
+            filter: url(#f);
+        }
+
+        .h {
+            filter: url(#d);
+        }
+
+        .i {
+            filter: url(#a);
+            mix-blend-mode: darken;
+            isolation: isolate;
+        }
+        </style>
+        <filter id="a" x="-25" y="110.998" width="2010" height="706.004" filterUnits="userSpaceOnUse">
+            <feOffset dx="20" dy="20" input="SourceAlpha" />
+            <feGaussianBlur stdDeviation="15" result="b" />
+            <feFlood flood-opacity="0.161" />
+            <feComposite operator="in" in2="b" />
+            <feComposite in="SourceGraphic" />
+        </filter>
+        <linearGradient id="c" x1="0.167" y1="0.231" x2="1.171" y2="0.532" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#c73a9d" />
+            <stop offset="1" stop-color="#0da5e9" />
+        </linearGradient>
+        <filter id="d" x="-25" y="178.998" width="2010" height="706.004" filterUnits="userSpaceOnUse">
+            <feOffset dx="20" dy="20" input="SourceAlpha" />
+            <feGaussianBlur stdDeviation="15" result="e" />
+            <feFlood flood-opacity="0.161" />
+            <feComposite operator="in" in2="e" />
+            <feComposite in="SourceGraphic" />
+        </filter>
+        <filter id="f" x="-25" y="245.998" width="2010" height="706.004" filterUnits="userSpaceOnUse">
+            <feOffset dx="20" dy="20" input="SourceAlpha" />
+            <feGaussianBlur stdDeviation="15" result="g" />
+            <feFlood />
+            <feComposite operator="in" in2="g" />
+            <feComposite in="SourceGraphic" />
+        </filter>
+        <clipPath id="i">
+            <rect width="1920" height="446" />
+        </clipPath>
+    </defs>
+    <g id="h" class="">
+        <g transform="translate(1850.416 221.715) rotate(14)" class="">
+            <rect class="b" width="8.503" height="34.011" rx="4.251" transform="translate(12.754 0)" />
+            <rect class="b" width="8.503" height="34.011" rx="4.251" transform="translate(34.011 12.754) rotate(90)" />
+        </g>
+        <g transform="matrix(0.914, -0.407, 0.407, 0.914, 1356.885, 62.802)" class="">
+            <rect class="c" width="11" height="44" rx="5.5" transform="translate(16.5 0)" />
+            <rect class="c" width="11" height="44" rx="5.5" transform="translate(44 16.5) rotate(90)" />
+        </g>
+        <g class="i" transform="matrix(1, 0, 0, 1, 0, 0)" class="">
+            <path class="d"
+                d="M0,540s143.534-122.587,292.66,0,292.66,0,292.66,0S747.5,372.983,924.583,540s335.534,0,335.534,0,152.854-165.085,341.126,0S1920,540,1920,540v541.774H0Z"
+                transform="translate(0 -329.77)" />
+        </g>
+        <g transform="matrix(0.883, -0.469, 0.469, 0.883, 45.747, 156.655)" class="">
+            <rect class="b" width="11" height="44" rx="5.5" transform="translate(16.5)" />
+            <rect class="b" width="11" height="44" rx="5.5" transform="translate(44 16.5) rotate(90)" />
+        </g>
+        <g transform="translate(394.999 259.601) rotate(-59)" class="">
+            <rect class="c" width="7.931" height="31.722" rx="3.965" transform="translate(11.896)" />
+            <rect class="c" width="7.931" height="31.722" rx="3.965" transform="translate(31.722 11.896) rotate(90)" />
+        </g>
+        <g transform="matrix(0.914, -0.407, 0.407, 0.914, 1807.624, 269.945)" class="">
+            <rect class="c" width="7.302" height="29.209" rx="3.651" transform="translate(10.953 0)" />
+            <rect class="c" width="7.302" height="29.209" rx="3.651" transform="translate(29.209 10.953) rotate(90)" />
+        </g>
+        <g transform="translate(666.617 111.481) rotate(7)" class="">
+            <rect class="b" width="11" height="44" rx="5.5" transform="translate(16.5)" />
+            <rect class="b" width="11" height="44" rx="5.5" transform="translate(44 16.5) rotate(90)" />
+        </g>
+        <g transform="translate(1006.884 267.583) rotate(7)" class="">
+            <rect class="b" width="8.019" height="32.074" rx="4.009" transform="translate(12.028 0)" />
+            <rect class="b" width="8.019" height="32.074" rx="4.009" transform="translate(32.074 12.028) rotate(90)" />
+        </g>
+        <g class="h" transform="matrix(1, 0, 0, 1, 0, 0)" class="">
+            <path class="e"
+                d="M0,540s143.534-122.587,292.66,0,292.66,0,292.66,0S747.5,372.983,924.583,540s335.534,0,335.534,0,152.854-165.085,341.126,0S1920,540,1920,540v541.774H0Z"
+                transform="translate(0 -261.77)" />
+        </g>
+        <g class="g" transform="matrix(1, 0, 0, 1, 0, 0)" class="wave-1">
+            <path class="f"
+                d="M0,540s143.534-122.587,292.66,0,292.66,0,292.66,0S747.5,372.983,924.583,540s335.534,0,335.534,0,152.854-165.085,341.126,0S1920,540,1920,540v541.774H0Z"
+                transform="translate(0 -194.77)" />
+        </g>
+    </g>
+</svg>
+
+<div class="ocean">
+    <div class="wave"></div>
+    <div class="wave"></div>
+</div>
+
 <div class="footer-section section" data-bg-color="#030e22">
     <div class="container">
 
@@ -8,12 +132,12 @@
             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 col-12 mb-6">
                 <div class="footer-widget">
                     <div class="footer-logo">
-                        <a href="<?php echo SITE_ADDR ?>/"><img src="<?php echo SITE_ADDR ?>/assets/images/logo/robust-it-logo-light-alt-2022.svg" alt="Robust IT Logo" width="200px"></a>
+                        <a href="<?php echo SITE_ADDR ?>/"><img
+                                src="<?php echo SITE_ADDR ?>/assets/images/logo/robust-it-logo-light-alt-2022.svg"
+                                alt="Robust IT Logo" width="200px"></a>
                     </div>
                     <div class="footer-widget-content">
                         <div class="content">
-
-
                             <p><a href="<?php echo SITE_ADDR ?>/">Sales Team: 02038 757 827</a></p>
                             <p><a href="<?php echo SITE_ADDR ?>/">Support Team: 02038 757 831</a></p>
                             <p><a href="<?php echo SITE_ADDR ?>/">info@robustittraining.com</a> </p>
@@ -34,10 +158,14 @@
                     <h4 class="footer-widget-title">Services</h4>
                     <div class="footer-widget-content">
                         <ul>
-                            <li><a href="<?php echo SITE_ADDR ?>/">Marketing <i class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a href="<?php echo SITE_ADDR ?>/">SEO/SEM <i class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a href="<?php echo SITE_ADDR ?>/">Development <i class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a href="<?php echo SITE_ADDR ?>/">UX Design <i class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a href="<?php echo SITE_ADDR ?>/">Marketing <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a href="<?php echo SITE_ADDR ?>/">SEO/SEM <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a href="<?php echo SITE_ADDR ?>/">Development <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a href="<?php echo SITE_ADDR ?>/">UX Design <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -50,12 +178,17 @@
                     <h4 class="footer-widget-title">Vendors</h4>
                     <div class="footer-widget-content">
                         <ul>
-                            <li><a href="<?php echo SITE_ADDR ?>/vendor/ec-council">EC-Council <i class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a href="<?php echo SITE_ADDR ?>/vendor/aws"><span class="aws"></span> <i class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a href="<?php echo SITE_ADDR ?>/vendor/microsoft">Microsoft <span class="ft-badge">New</span> <i class="fas fa-chevron-right fcr-animate"></i></a>
+                            <li><a href="<?php echo SITE_ADDR ?>/vendor/ec-council">EC-Council <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a href="<?php echo SITE_ADDR ?>/vendor/aws"><span class="aws"></span> <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a href="<?php echo SITE_ADDR ?>/vendor/microsoft">Microsoft <span
+                                        class="ft-badge">New</span> <i class="fas fa-chevron-right fcr-animate"></i></a>
                             </li>
-                            <li><a href="<?php echo SITE_ADDR ?>/vendor/comptia">CompTIA <i class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a href="<?php echo SITE_ADDR ?>/vendor/cisco">Cisco <i class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a href="<?php echo SITE_ADDR ?>/vendor/comptia">CompTIA <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a href="<?php echo SITE_ADDR ?>/vendor/cisco">Cisco <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -68,12 +201,18 @@
                     <h4 class="footer-widget-title">About</h4>
                     <div class="footer-widget-content">
                         <ul>
-                            <li><a href="<?php echo SITE_ADDR ?>/about-us">About Us <i class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a href="<?php echo SITE_ADDR ?>/trusted-by">Trusted By <i class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a href="<?php echo SITE_ADDR ?>/affiliate-program">Affiliate Program <i class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a href="<?php echo SITE_ADDR ?>/testimonials">Testimonials <i class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a href="<?php echo SITE_ADDR ?>/terms-and-conditions">Terms & Conditions <i class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a href="<?php echo SITE_ADDR ?>/privacy-policy">Privacy Policy <i class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a href="<?php echo SITE_ADDR ?>/about-us">About Us <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a href="<?php echo SITE_ADDR ?>/trusted-by">Trusted By <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a href="<?php echo SITE_ADDR ?>/affiliate-program">Affiliate Program <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a href="<?php echo SITE_ADDR ?>/testimonials">Testimonials <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a href="<?php echo SITE_ADDR ?>/terms-and-conditions">Terms & Conditions <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a href="<?php echo SITE_ADDR ?>/privacy-policy">Privacy Policy <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -86,10 +225,14 @@
                     <h4 class="footer-widget-title">Contact</h4>
                     <div class="footer-widget-content">
                         <ul>
-                            <li><a href="<?php echo SITE_ADDR ?>/">Support Ticket <i class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a href="<?php echo SITE_ADDR ?>/">Help Desk <i class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a href="<?php echo SITE_ADDR ?>/">Live Chat <i class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a href="<?php echo SITE_ADDR ?>/faqs">FAQs <i class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a href="<?php echo SITE_ADDR ?>/">Support Ticket <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a href="<?php echo SITE_ADDR ?>/">Help Desk <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a href="<?php echo SITE_ADDR ?>/">Live Chat <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a href="<?php echo SITE_ADDR ?>/faqs">FAQs <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -121,10 +264,14 @@
 
 
 <!-- Beginners Start Here -->
-<div class="modal fade" id="beginnersModal" tabindex="-1" role="dialog" aria-labelledby="beginnersModalLabel" aria-hidden="true">
+<div class="modal fade" id="beginnersModal" tabindex="-1" role="dialog" aria-labelledby="beginnersModalLabel"
+    aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content" data-bg-image="assets/images/bg/contact-bg.jpg" data-bg-color="#000" data-overlay="0.9">
-            <div class="modal-body" data-bg-image="https://image.cnbcfm.com/api/v1/image/106922887-1628206615260-gettyimages-887132600-as1700__08.jpeg?v=1628206641" data-overlay="0.9">
+        <div class="modal-content" data-bg-image="assets/images/bg/contact-bg.jpg" data-bg-color="#000"
+            data-overlay="0.9">
+            <div class="modal-body"
+                data-bg-image="https://image.cnbcfm.com/api/v1/image/106922887-1628206615260-gettyimages-887132600-as1700__08.jpeg?v=1628206641"
+                data-overlay="0.9">
                 <div class="modal-header">
                     <h4 class="modal-title text-center" id="beginnersModalLabel"><i class="fa fa-info-circle"></i>
                         Beginners start here </h4>
@@ -156,29 +303,35 @@
 
                         <div class="col-6">
                             <div class="form-label-group mt-2">
-                                <input type="text" class="form-control form-control-flush" id="strLeadFirstName" name="strLeadFirstName" placeholder="First Name" required="required" />
+                                <input type="text" class="form-control form-control-flush" id="strLeadFirstName"
+                                    name="strLeadFirstName" placeholder="First Name" required="required" />
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="form-label-group mt-2">
-                                <input type="text" class="form-control form-control-flush" id="strLeadLastName" name="strLeadLastName" placeholder="Last Name" required="required" />
+                                <input type="text" class="form-control form-control-flush" id="strLeadLastName"
+                                    name="strLeadLastName" placeholder="Last Name" required="required" />
                             </div>
                         </div>
 
                         <div class="col-12 col-md-12">
                             <div class="form-label-group mt-2">
-                                <input type="email" class="form-control form-control-flush" id="strLeadEmail" name="strLeadEmail" placeholder="Email" required="required" />
+                                <input type="email" class="form-control form-control-flush" id="strLeadEmail"
+                                    name="strLeadEmail" placeholder="Email" required="required" />
                             </div>
 
                             <div class="form-label-group mt-2">
-                                <input type="number" class="form-control form-control-flush" id="strLeadPhone1" name="strLeadPhone1" placeholder="Phone Number" required="required" />
+                                <input type="number" class="form-control form-control-flush" id="strLeadPhone1"
+                                    name="strLeadPhone1" placeholder="Phone Number" required="required" />
                             </div>
 
-                            <small class="d-block text-muted text-center mx-auto fz-small my-2"><i class="fas fa-info-circle"></i>
+                            <small class="d-block text-muted text-center mx-auto fz-small my-2"><i
+                                    class="fas fa-info-circle"></i>
                                 We promise to never share your information with anyone else or send you junk mail.
                             </small>
                             <div class="mt-2">
-                                <button class="btn btn-block btn-secondary btn-hover--secondary" type="submit" name="submit" value="submit">
+                                <button class="btn btn-block btn-secondary btn-hover--secondary" type="submit"
+                                    name="submit" value="submit">
                                     Request Callback <i class="fas fa-phone fcr-animate"></i>
                                 </button>
                             </div>
@@ -196,10 +349,14 @@
 </div>
 <!-- End Beginners Start Here -->
 <!-- Download Guide Start Here -->
-<div class="modal fade" id="download-guide" tabindex="-1" role="dialog" aria-labelledby="downloadModalLabel" aria-hidden="true">
+<div class="modal fade" id="download-guide" tabindex="-1" role="dialog" aria-labelledby="downloadModalLabel"
+    aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content" data-bg-image="assets/images/bg/contact-bg.jpg" data-bg-color="#000" data-overlay="0.9">
-            <div class="modal-body" data-bg-image="https://image.cnbcfm.com/api/v1/image/106922887-1628206615260-gettyimages-887132600-as1700__08.jpeg?v=1628206641" data-overlay="0.9">
+        <div class="modal-content" data-bg-image="assets/images/bg/contact-bg.jpg" data-bg-color="#000"
+            data-overlay="0.9">
+            <div class="modal-body"
+                data-bg-image="https://image.cnbcfm.com/api/v1/image/106922887-1628206615260-gettyimages-887132600-as1700__08.jpeg?v=1628206641"
+                data-overlay="0.9">
                 <div class="modal-header">
                     <h4 class="modal-title text-center" id="downloadModalLabel">
                         Download exam guide </h4>
@@ -231,29 +388,35 @@
 
                         <div class="col-6">
                             <div class="form-label-group mt-2">
-                                <input type="text" class="form-control form-control-flush" id="strLeadFirstName" name="strLeadFirstName" placeholder="First Name" required="required" />
+                                <input type="text" class="form-control form-control-flush" id="strLeadFirstName"
+                                    name="strLeadFirstName" placeholder="First Name" required="required" />
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="form-label-group mt-2">
-                                <input type="text" class="form-control form-control-flush" id="strLeadLastName" name="strLeadLastName" placeholder="Last Name" required="required" />
+                                <input type="text" class="form-control form-control-flush" id="strLeadLastName"
+                                    name="strLeadLastName" placeholder="Last Name" required="required" />
                             </div>
                         </div>
 
                         <div class="col-12 col-md-12">
                             <div class="form-label-group mt-2">
-                                <input type="email" class="form-control form-control-flush" id="strLeadEmail" name="strLeadEmail" placeholder="Email" required="required" />
+                                <input type="email" class="form-control form-control-flush" id="strLeadEmail"
+                                    name="strLeadEmail" placeholder="Email" required="required" />
                             </div>
 
                             <div class="form-label-group mt-2">
-                                <input type="number" class="form-control form-control-flush" id="strLeadPhone1" name="strLeadPhone1" placeholder="Phone Number" required="required" />
+                                <input type="number" class="form-control form-control-flush" id="strLeadPhone1"
+                                    name="strLeadPhone1" placeholder="Phone Number" required="required" />
                             </div>
 
-                            <small class="d-block text-muted text-center mx-auto fz-small my-2"><i class="fas fa-info-circle"></i>
+                            <small class="d-block text-muted text-center mx-auto fz-small my-2"><i
+                                    class="fas fa-info-circle"></i>
                                 We promise to never share your information with anyone else or send you junk mail.
                             </small>
                             <div class="mt-2">
-                                <button class="btn btn-block btn-secondary btn-hover--secondary" type="submit" name="submit" value="submit">
+                                <button class="btn btn-block btn-secondary btn-hover--secondary" type="submit"
+                                    name="submit" value="submit">
                                     Download Exam Guide <i class="fas fa-download fcr-animate"></i>
                                 </button>
                             </div>
@@ -304,7 +467,8 @@
 -->
 
 <!-- Use the minified version files listed below for better performance and remove the files listed above -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
 </script>
 <script src="<?php echo SITE_ADDR ?>/assets/js/vendor/vendor.min.js"></script>
 <script src="<?php echo SITE_ADDR ?>/assets/js/plugins/plugins.min.js"></script>
