@@ -54,7 +54,7 @@ require '../../assets/php/inc/nav.php';
                             </h2>
                             <div class="work-details-course-logo">
                                 <img src="<?php echo SITE_ADDR ?>/assets/images/logo/aws/AWS-Soluitons-Architect-Pro.png"
-                                    alt="cloud practitioner logo" class="w-100">
+                                    alt="AWS Solutions Architect Pro logo" class="w-100">
                             </div>
 
                             <!-- Start Details List -->
