@@ -8903,13 +8903,13 @@ fieldset:disabled .btn {
 }
 
 .alert-info {
-  color: #858500;
-  background-color: #ffffcc;
-  border-color: #ffffb8;
+  color: #3b2e58;
+  background-color: #EFD9FD;
+  border-color: #EFD9FD;
 }
 
 .alert-info .alert-link {
-  color: #525200;
+  color: #3b2e58;
 }
 
 .alert-warning {
