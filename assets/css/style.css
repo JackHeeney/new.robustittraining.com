@@ -43886,20 +43886,19 @@ textarea:focus {
 }
 
 @-webkit-keyframes up-down {
-  100% {
+  50% {
     -webkit-transform: translateY(30px);
     transform: translateY(30px);
   }
 }
 
-.cross-up-down {
-  height: 5%;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background: #015871;
+@keyframes up-down {
+  50% {
+    -webkit-transform: translateY(30px);
+    transform: translateY(30px);
+  }
 }
+
 
 .wave-1 {
   position: absolute;
@@ -43910,6 +43909,15 @@ textarea:focus {
   transform: translate3d(0, 0, 0);
 }
 
+
+.cross-up-down {
+  height: 5%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #015871;
+}
 
 
 .cross-up-down {

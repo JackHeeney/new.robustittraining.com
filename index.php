@@ -231,7 +231,7 @@ require './assets/php/inc/nav.php';
     <!-- About Section End -->
 
     <!-- learning path Section Start -->
-    <div class="section my-xl-50 py-25" data-bg-color="#fff">
+    <div class="section mt-xl-25  py-25" data-bg-color="#fff">
 
         <div class="container text-center icon-up-down-animation">
             <span id="go" style="scroll-margin-top: 26em"></span>
@@ -308,7 +308,7 @@ require './assets/php/inc/nav.php';
 
 
     <!-- Service Section Start -->
-    <div class="section section-padding-t90-b100" data-bg-color="#f8faff">
+    <div class="section my-xl-25 py-25" data-bg-color="#f8faff">
         <div class="container">
 
             <!-- Section Title Start -->
@@ -432,18 +432,18 @@ require './assets/php/inc/nav.php';
                     <div class="col mb-6">
                         <div class="work single-portfolio">
                             <div class="thumbnail">
-                                <a class="image" href="<?php echo SITE_ADDR ?>/vendor/aws/cloud-practitioner"
+                                <a class="image" href="<?php echo SITE_ADDR ?>/vendor/aws/aws-cloud-practitioner"
                                     alt="link to aws cloud practitioner"><img
-                                        src="<?php echo SITE_ADDR ?>/assets/images/project/project-1.jpg"
+                                        src="<?php echo SITE_ADDR ?>/assets/images/project/aws/aws-cloud-practitioner.jpg"
                                         alt="work"></a>
                             </div>
                             <div class="info">
-                                <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/aws/cloud-practitioner"
+                                <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/aws/aws-cloud-practitioner"
                                         alt="link to aws cloud practitioner">AWS Cloud
                                         Practitioner</a></h3>
                                 <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                     culpa, unde perspiciatis hic delectus.</p>
-                                <a href="<?php echo SITE_ADDR ?>/vendor/aws/cloud-practitioner"
+                                <a href="<?php echo SITE_ADDR ?>/vendor/aws/aws-cloud-practitioner"
                                     alt="link to aws cloud practitioner">View Course
                                     <i class="fas fa-chevron-right fcr-animate"></i></a>
                             </div>
@@ -461,7 +461,7 @@ require './assets/php/inc/nav.php';
                                 <a class="image"
                                     href="<?php echo SITE_ADDR ?>/vendor/microsoft/azure/microsoft-certified-azure-fundamentals"
                                     alt="link to microsoft azure fundamentals"><img
-                                        src="<?php echo SITE_ADDR ?>/assets/images/project/project-2.jpg"
+                                        src="<?php echo SITE_ADDR ?>/assets/images/project/microsoft/azure/microsoft-certified-azure-fundamentals.jpg"
                                         alt="work"></a>
                             </div>
                             <div class="info">
@@ -474,7 +474,7 @@ require './assets/php/inc/nav.php';
                                     culpa, unde perspiciatis hic delectus.</p>
                                 <a href="<?php echo SITE_ADDR ?>/vendor/microsoft/azure/microsoft-certified-azure-fundamentals"
                                     alt="link to microsoft azure fundamentals">View
-                                    Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                    Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                             </div>
                         </div>
                     </div>
@@ -489,7 +489,7 @@ require './assets/php/inc/nav.php';
                             <div class="thumbnail">
                                 <a class="image" href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-security"
                                     alt="link to comptia security+"><img
-                                        src="<?php echo SITE_ADDR ?>/assets/images/project/project-3.jpg"
+                                        src="<?php echo SITE_ADDR ?>/assets/images/project/comptia/security-plus.jpg"
                                         alt="work"></a>
                             </div>
                             <div class="info">
@@ -500,7 +500,7 @@ require './assets/php/inc/nav.php';
                                 <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                     culpa, unde perspiciatis hic delectus.</p>
                                 <a href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-security"
-                                    alt="link to comptia security+">View Courses <i
+                                    alt="link to comptia security+">View Course <i
                                         class="fas fa-chevron-right fcr-animate"></i></a>
                             </div>
                         </div>
@@ -517,7 +517,7 @@ require './assets/php/inc/nav.php';
                             <div class="thumbnail">
                                 <a class="image" href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-network"
                                     alt="link to comptia network+"><img
-                                        src="<?php echo SITE_ADDR ?>/assets/images/project/project-4.jpg"
+                                        src="<?php echo SITE_ADDR ?>/assets/images/project/comptia/network-plus.jpg"
                                         alt="work"></a>
                             </div>
                             <div class="info">
@@ -527,7 +527,7 @@ require './assets/php/inc/nav.php';
                                 <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                     culpa, unde perspiciatis hic delectus.</p>
                                 <a href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-network"
-                                    alt="link to comptia network+">View Courses <i
+                                    alt="link to comptia network+">View Course <i
                                         class="fas fa-chevron-right fcr-animate"></i></a>
                             </div>
                         </div>
@@ -544,7 +544,7 @@ require './assets/php/inc/nav.php';
                                 <a class="image"
                                     href="<?php echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker"
                                     alt="link to ec-council certified certified ethical hacker"><img
-                                        src="<?php echo SITE_ADDR ?>/assets/images/project/project-1.jpg"
+                                        src="<?php echo SITE_ADDR ?>/assets/images/project/ec-council/ceh.jpg"
                                         alt="work"></a>
                             </div>
                             <div class="info">
@@ -572,22 +572,22 @@ require './assets/php/inc/nav.php';
                         <div class="work single-portfolio">
                             <div class="thumbnail">
                                 <a class="image"
-                                    href="<?php echo SITE_ADDR ?>/vendor/ec-council/certified-cloud-security-expert"
-                                    alt="link to ec-council certified cloud security expert"><img
-                                        src="<?php echo SITE_ADDR ?>/assets/images/project/project-6.jpg"
+                                    href="<?php echo SITE_ADDR ?>/vendor/ec-council/certified-cloud-security-engineer"
+                                    alt="link to ec-council certified cloud security engineer"><img
+                                        src="<?php echo SITE_ADDR ?>/assets/images/project/ec-council/ccse.jpg"
                                         alt="work"></a>
                             </div>
                             <div class="info">
                                 <h3 class="title"><a
-                                        href="<?php echo SITE_ADDR ?>/vendor/ec-council/certified-cloud-security-expert"
-                                        alt="link to ec-council certified cloud security expert">Certified
+                                        href="<?php echo SITE_ADDR ?>/vendor/ec-council/certified-cloud-security-engineer"
+                                        alt="link to ec-council certified cloud security engineer">Certified
                                         Cloud
-                                        Security Expert</a></h3>
+                                        Security Engineer</a></h3>
                                 <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                     culpa, unde perspiciatis hic delectus.</p>
-                                <a href="<?php echo SITE_ADDR ?>/vendor/ec-council/certified-cloud-security-expert"
-                                    alt="link to ec-council certified cloud security expert">View
-                                    Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                <a href="<?php echo SITE_ADDR ?>/vendor/ec-council/certified-cloud-security-engineer"
+                                    alt="link to ec-council certified cloud security engineer">View
+                                    Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                             </div>
                         </div>
                     </div>
@@ -771,9 +771,11 @@ require './assets/php/inc/nav.php';
                     <!-- Contact Information -->
                 </div>
                 <div class="col mt-lg-0 mt-md-10 mt-8" data-aos="fade-up" data-aos-offset="-100">
+
                     <!-- Contact Form Start -->
                     <div class="contact-form-area box-shadow" data-bg-image="assets/images/bg/contact-bg.jpg"
                         data-overlay="0.8">
+
                         <!-- Section Title Start -->
                         <div class="section-title text-center mb-7">
                             <h2 class="title fz-28 text-white">Get in touch today!</h2>

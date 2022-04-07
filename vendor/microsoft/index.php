@@ -59,7 +59,8 @@ require '../../assets/php/inc/nav.php';
                     <div class="work single-portfolio">
                         <div class="thumbnail">
                             <a class="image" href="<?php echo SITE_ADDR ?>/vendor/microsoft/developer"><img
-                                    src="<?php echo SITE_ADDR ?>/assets/images/project/project-1.jpg" alt="work"></a>
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/microsoft/developer/developer.jpg"
+                                    alt="developer.jpg"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/microsoft/developer">Developer</a>
@@ -78,7 +79,8 @@ require '../../assets/php/inc/nav.php';
                     <div class="work single-portfolio">
                         <div class="thumbnail">
                             <a class="image" href="<?php echo SITE_ADDR ?>/vendor/microsoft/administrator"><img
-                                    src="<?php echo SITE_ADDR ?>/assets/images/project/project-2.jpg" alt="work"></a>
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/microsoft/administrator/administrator.jpg"
+                                    alt="administrator.jpg"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a
@@ -97,7 +99,8 @@ require '../../assets/php/inc/nav.php';
                     <div class="work single-portfolio">
                         <div class="thumbnail">
                             <a class="image" href="<?php echo SITE_ADDR ?>/vendor/microsoft/solutions-architect"><img
-                                    src="<?php echo SITE_ADDR ?>/assets/images/project/project-3.jpg" alt="work"></a>
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/microsoft/solutions-architect/solutions-architect.jpg"
+                                    alt="solutions-architect.jpg"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a
@@ -118,7 +121,8 @@ require '../../assets/php/inc/nav.php';
                     <div class="work single-portfolio">
                         <div class="thumbnail">
                             <a class="image" href="<?php echo SITE_ADDR ?>/vendor/microsoft/data-engineer"><img
-                                    src="<?php echo SITE_ADDR ?>/assets/images/project/project-4.jpg" alt="work"></a>
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/microsoft/data-engineer/data-engineer.jpg"
+                                    alt="data-engineer.jpg"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/microsoft/data-engineer">Data
@@ -137,7 +141,8 @@ require '../../assets/php/inc/nav.php';
                     <div class="work single-portfolio">
                         <div class="thumbnail">
                             <a class="image" href="<?php echo SITE_ADDR ?>/vendor/microsoft/data-scientist"><img
-                                    src="<?php echo SITE_ADDR ?>/assets/images/project/project-5.jpg" alt="work"></a>
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/microsoft/data-scientist/data-scientist.jpg"
+                                    alt="data-scientist.jpg"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/microsoft/data-scientist">Data
@@ -156,7 +161,8 @@ require '../../assets/php/inc/nav.php';
                     <div class="work single-portfolio">
                         <div class="thumbnail">
                             <a class="image" href="<?php echo SITE_ADDR ?>/vendor/microsoft/ai-engineer"><img
-                                    src="<?php echo SITE_ADDR ?>/assets/images/project/project-6.jpg" alt="work"></a>
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/microsoft/ai-engineer/ai-engineer.jpg"
+                                    alt="ai-engineer.jpg"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/microsoft/ai-engineer">AI
@@ -175,7 +181,8 @@ require '../../assets/php/inc/nav.php';
                     <div class="work single-portfolio">
                         <div class="thumbnail">
                             <a class="image" href="<?php echo SITE_ADDR ?>/vendor/microsoft/devops-engineer"><img
-                                    src="<?php echo SITE_ADDR ?>/assets/images/project/project-4.jpg" alt="work"></a>
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/microsoft/devops-engineer/devops-engineer.jpg"
+                                    alt="devops-engineer.jpg"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/microsoft/devops-engineer">DevOps
@@ -194,7 +201,8 @@ require '../../assets/php/inc/nav.php';
                     <div class="work single-portfolio">
                         <div class="thumbnail">
                             <a class="image" href="<?php echo SITE_ADDR ?>/vendor/microsoft/security-engineer"><img
-                                    src="<?php echo SITE_ADDR ?>/assets/images/project/project-5.jpg" alt="work"></a>
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/microsoft/security-engineer/security-engineer.jpg"
+                                    alt="security-engineer.jpg"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a
@@ -214,7 +222,8 @@ require '../../assets/php/inc/nav.php';
                     <div class="work single-portfolio">
                         <div class="thumbnail">
                             <a class="image" href="<?php echo SITE_ADDR ?>/vendor/microsoft/functional-consultant"><img
-                                    src="<?php echo SITE_ADDR ?>/assets/images/project/project-6.jpg" alt="work"></a>
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/microsoft/functional-consultant/functional-consultant.jpg"
+                                    alt="functional-consultant.jpg"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a

@@ -22,7 +22,8 @@ require '../../assets/php/inc/nav.php';
 <div id="page" class="section">
 
     <!-- Page Title Section Start -->
-    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7" data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/breadcrumb-bg-two.jpg">
+    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7"
+        data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/breadcrumb-bg-two.jpg">
         <div class="page-title">
             <div class="container">
                 <h1 class="title">AWS Courses</h1>
@@ -57,14 +58,23 @@ require '../../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/aws/aws-cloud-practitioner"><img src="<?php echo SITE_ADDR ?>/assets/images/project/project-1.jpg" alt="work"></a>
+                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/aws/aws-cloud-practitioner" alt="AWS
+                                    Cloud
+                                    Practitioner"><img
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/aws/aws-cloud-practitioner.jpg"
+                                    alt="aws-cloud-practitioner.jpg"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/aws/aws-cloud-practitioner">AWS Cloud
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/aws/aws-cloud-practitioner" alt="AWS
+                                    Cloud
+                                    Practitioner">AWS
+                                    Cloud
                                     Practitioner</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<?php echo SITE_ADDR ?>/vendor/aws/aws-cloud-practitioner">View Course
+                            <a href="<?php echo SITE_ADDR ?>/vendor/aws/aws-cloud-practitioner" alt="AWS
+                                    Cloud
+                                    Practitioner">View Course
                                 <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -75,14 +85,21 @@ require '../../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/aws/aws-solutions-architect-associate"><img src="<?php echo SITE_ADDR ?>/assets/images/project/project-2.jpg" alt="work"></a>
+                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/aws/aws-solutions-architect-associate"
+                                alt="AWS
+                                Solution Architect Associate"><img
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/aws/aws-solution-architect-assoc.jpg"
+                                    alt="aws-solution-architect-assoc.jpg"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/aws/aws-solutions-architect-associate">AWS
+                            <h3 class="title"><a
+                                    href="<?php echo SITE_ADDR ?>/vendor/aws/aws-solutions-architect-associate" alt="AWS
+                                Solution Architect Associate">AWS
                                     Solution Architect Associate</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nisi, quo
                                 optio sint doloribus repellat.</p>
-                            <a href="<?php echo SITE_ADDR ?>/vendor/aws/aws-solutions-architect-associate">View Course
+                            <a href="<?php echo SITE_ADDR ?>/vendor/aws/aws-solutions-architect-associate" alt="AWS
+                                Solution Architect Associate">View Course
                                 <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -93,15 +110,22 @@ require '../../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/aws/aws-solutions-architect-professional"><img src="<?php echo SITE_ADDR ?>/assets/images/project/project-3.jpg" alt="work"></a>
+                            <a class="image"
+                                href="<?php echo SITE_ADDR ?>/vendor/aws/aws-solutions-architect-professional" alt="AWS
+                                Solution Architect Professional"><img
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/aws/aws-solution-architect-pro.jpg"
+                                    alt="aws-solution-architect-pro.jpg"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/aws/aws-solutions-architect-professional">AWS
+                            <h3 class="title"><a
+                                    href="<?php echo SITE_ADDR ?>/vendor/aws/aws-solutions-architect-professional" alt="AWS
+                                Solution Architect Professional">AWS
                                     Solution Architect Professional</a>
                             </h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<?php echo SITE_ADDR ?>/vendor/aws/aws-solutions-architect-professional">View
+                            <a href="<?php echo SITE_ADDR ?>/vendor/aws/aws-solutions-architect-professional" alt="AWS
+                                Solution Architect Professional">View
                                 Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -112,14 +136,19 @@ require '../../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/aws/aws-sysops-administrator"><img src="<?php echo SITE_ADDR ?>/assets/images/project/project-4.jpg" alt="work"></a>
+                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/aws/aws-sysops-administrator" alt="AWS
+                            SysOps Administrator"><img
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/aws/aws-sysops-administrator.jpg"
+                                    alt="aws-sysops-administrator.jpg"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/aws/aws-sysops-administrator">AWS
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/aws/aws-sysops-administrator" alt="AWS
+                            SysOps Administrator">AWS
                                     SysOps Administrator</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<?php echo SITE_ADDR ?>/vendor/aws/aws-sysops-administrator">View
+                            <a href="<?php echo SITE_ADDR ?>/vendor/aws/aws-sysops-administrator" alt="AWS
+                            SysOps Administrator">View
                                 Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -130,14 +159,19 @@ require '../../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/aws/aws-developer"><img src="<?php echo SITE_ADDR ?>/assets/images/project/project-5.jpg" alt="work"></a>
+                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/aws/aws-developer" alt="AWS
+                            Developer"><img src="<?php echo SITE_ADDR ?>/assets/images/project/aws/aws-developer.jpg"
+                                    alt="aws-developer.jpg"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/aws/aws-developer">AWS Developer</a>
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/aws/aws-developer" alt="AWS
+                            Developer">AWS
+                                    Developer</a>
                             </h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<?php echo SITE_ADDR ?>/vendor/aws/aws-developer">View
+                            <a href="<?php echo SITE_ADDR ?>/vendor/aws/aws-developer" alt="AWS
+                            Developer">View
                                 Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -153,7 +187,8 @@ require '../../assets/php/inc/nav.php';
     <!-- Work Section End -->
 
     <!-- CTA Section Start -->
-    <div class="section section-padding-t110-b120 newsletter-section" data-bg-color="#000" data-overlay="0.7" data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/cta.jpg">
+    <div class="section section-padding-t110-b120 newsletter-section" data-bg-color="#000" data-overlay="0.7"
+        data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/cta.jpg">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12">
@@ -166,7 +201,9 @@ require '../../assets/php/inc/nav.php';
                                 clicking the button below this form will only be used to respond to your request.</p>
                         </div>
                         <!-- Section Title End -->
-                        <a href="#" data-toggle="modal" data-target="#exampleModal" class="btn btn-secondary btn-hover--secondary mt-6" style="min-width: 226px !important"><span class="call-back"></span>
+                        <a href="#" data-toggle="modal" data-target="#exampleModal"
+                            class="btn btn-secondary btn-hover--secondary mt-6"
+                            style="min-width: 226px !important"><span class="call-back"></span>
                             <i class="fas fa-phone fcr-animate"></i></a>
                     </div>
                     <!-- CTA Content End -->
@@ -202,7 +239,9 @@ require '../../assets/php/inc/nav.php';
                         </div>
                         <!-- Animation Shape Start -->
                         <div class="shape shape-2 scene">
-                            <span data-depth="4"><img src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/about-shape-2.png" alt=""></span>
+                            <span data-depth="4"><img
+                                    src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/about-shape-2.png"
+                                    alt=""></span>
                         </div>
                         <!-- Animation Shape End -->
                     </div>
@@ -224,7 +263,8 @@ require '../../assets/php/inc/nav.php';
                             Do you know what career path you want to go down? Search for the perfect course by career.
                         </p>
 
-                        <a class="btn btn-secondary btn-hover--secondary mt-xl-12 mt-lg-8 mt-md-6 mt-4" href="<?php echo SITE_ADDR ?>/career">Search
+                        <a class="btn btn-secondary btn-hover--secondary mt-xl-12 mt-lg-8 mt-md-6 mt-4"
+                            href="<?php echo SITE_ADDR ?>/career">Search
                             by career <i class="fas fa-chevron-right fcr-animate"></i></a>
                     </div>
                     <!-- About Content Area Start -->
