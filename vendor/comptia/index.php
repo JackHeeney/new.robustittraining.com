@@ -66,8 +66,9 @@ require '../../assets/php/inc/nav.php';
                             <h3 class="title"><a
                                     href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-it-fundamentals">IT
                                     Fundamentals+</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">The CompTIA IT Fundamentals exam focuses on the essential IT skills and
+                                knowledge needed to perform tasks commonly performed by advanced end-users and
+                                entry-level IT professionals alike.</p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-it-fundamentals">View Course
                                 <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
@@ -85,8 +86,9 @@ require '../../assets/php/inc/nav.php';
                         </div>
                         <div class="info">
                             <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-a">A+</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nisi, quo
-                                optio sint doloribus repellat.</p>
+                            <p class="desc">CompTIA A+ certified professionals are proven problem solvers. They support
+                                today’s core technologies from security to cloud to data management and more. CompTIA A+
+                                is the industry standard for launching IT careers into today’s digital world.</p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-a">View Course <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
@@ -106,8 +108,8 @@ require '../../assets/php/inc/nav.php';
                             <h3 class="title"><a
                                     href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-network">Network+</a>
                             </h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">CompTIA Network+ validates the technical skills needed to securely
+                                establish, maintain and troubleshoot the essential networks that businesses rely on.</p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-network">View
                                 Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
@@ -127,8 +129,9 @@ require '../../assets/php/inc/nav.php';
                             <h3 class="title"><a
                                     href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-security">Security+</a>
                             </h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">CompTIA Security+ is a global certification that validates the baseline
+                                skills necessary to perform core security functions and pursue an IT security career.
+                            </p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-security">View
                                 Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
@@ -148,8 +151,9 @@ require '../../assets/php/inc/nav.php';
                             <h3 class="title"><a
                                     href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-server">Server+</a>
                             </h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">CompTIA Server+ is a global certification that validates the hands-on skills
+                                of IT professionals who install, manage and troubleshoot servers in data centers as well
+                                as on-premise and hybrid environments.</p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-server">View
                                 Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
@@ -168,8 +172,8 @@ require '../../assets/php/inc/nav.php';
                         <div class="info">
                             <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-linux">Linux+</a>
                             </h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">CompTIA Linux+ validates the competencies required of an early career system
+                                administrator supporting Linux systems.</p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-linux">View
                                 Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
@@ -189,8 +193,8 @@ require '../../assets/php/inc/nav.php';
                             <h3 class="title"><a
                                     href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-pentest">PenTest+</a>
                             </h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">CompTIA PenTest+ is for cybersecurity professionals tasked with penetration
+                                testing and vulnerability management.</p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-pentest">View
                                 Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
@@ -209,8 +213,9 @@ require '../../assets/php/inc/nav.php';
                         <div class="info">
                             <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-cysa">CySA+</a>
                             </h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">CompTIA Cybersecurity Analyst (CySA+) is an IT workforce certification that
+                                applies behavioral analytics to networks and devices to prevent, detect and combat
+                                cybersecurity threats through continuous security monitoring.</p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-cysa">View
                                 Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
@@ -229,8 +234,9 @@ require '../../assets/php/inc/nav.php';
                         <div class="info">
                             <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-casp">CASP+</a>
                             </h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">CompTIA Advanced Security Practitioner (CASP+) is an advanced-level
+                                cybersecurity certification for security architects and senior security engineers
+                                charged with leading and improving an enterprise’s cybersecurity readiness.</p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-casp">View
                                 Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
@@ -249,8 +255,9 @@ require '../../assets/php/inc/nav.php';
                         <div class="info">
                             <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-cloud">Cloud+</a>
                             </h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">CompTIA Cloud+ is a global certification that validates the skills needed to
+                                deploy and automate secure cloud environments that support the high availability of
+                                business systems and data.</p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-cloud">View
                                 Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>

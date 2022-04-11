@@ -22,7 +22,8 @@ require '../../../assets/php/inc/nav.php';
 <div id="page" class="section">
 
     <!-- Page Title Section Start -->
-    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7" data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/breadcrumb-bg-two.jpg">
+    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7"
+        data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/breadcrumb-bg-two.jpg">
         <div class="page-title">
             <div class="container">
                 <h1 class="title">ITIL&#174; Certifications</h1>
@@ -59,10 +60,13 @@ require '../../../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/axelos/itil/itil-4-foundation"><img src="<?php echo SITE_ADDR ?>/assets/images/bg/bg-project-manager.jpg" alt="work"></a>
+                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/axelos/itil/itil-4-foundation"><img
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/axelos/itil/itil.jpg"
+                                    alt="work"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/axelos/itil/itil-4-foundation">ITIL&#174; 4
+                            <h3 class="title"><a
+                                    href="<?php echo SITE_ADDR ?>/vendor/axelos/itil/itil-4-foundation">ITIL&#174; 4
                                     Foundation</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque hic, cum
                                 fugit esse a amet quidem quisquam officia ab itaque, blanditiis possimus cumque qui. Sed
@@ -83,7 +87,8 @@ require '../../../assets/php/inc/nav.php';
     <!-- Work Section End -->
 
     <!-- CTA Section Start -->
-    <div class="section section-padding-t110-b120 newsletter-section" data-bg-color="#000" data-overlay="0.7" data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/cta.jpg">
+    <div class="section section-padding-t110-b120 newsletter-section" data-bg-color="#000" data-overlay="0.7"
+        data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/cta.jpg">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12">
@@ -96,7 +101,9 @@ require '../../../assets/php/inc/nav.php';
                                 clicking the button below this form will only be used to respond to your request.</p>
                         </div>
                         <!-- Section Title End -->
-                        <a href="#" data-toggle="modal" data-target="#exampleModal" class="btn btn-secondary btn-hover--secondary mt-6" style="min-width: 226px !important"><span class="call-back"></span>
+                        <a href="#" data-toggle="modal" data-target="#exampleModal"
+                            class="btn btn-secondary btn-hover--secondary mt-6"
+                            style="min-width: 226px !important"><span class="call-back"></span>
                             <i class="fas fa-phone fcr-animate"></i></a>
                     </div>
                     <!-- CTA Content End -->
@@ -132,7 +139,9 @@ require '../../../assets/php/inc/nav.php';
                         </div>
                         <!-- Animation Shape Start -->
                         <div class="shape shape-2 scene">
-                            <span data-depth="4"><img src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/about-shape-2.png" alt=""></span>
+                            <span data-depth="4"><img
+                                    src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/about-shape-2.png"
+                                    alt=""></span>
                         </div>
                         <!-- Animation Shape End -->
                     </div>
@@ -154,7 +163,8 @@ require '../../../assets/php/inc/nav.php';
                             Do you know what career path you want to go down? Search for the perfect course by career.
                         </p>
 
-                        <a class="btn btn-secondary btn-hover--secondary mt-xl-12 mt-lg-8 mt-md-6 mt-4" href="<?php echo SITE_ADDR ?>/career">Search
+                        <a class="btn btn-secondary btn-hover--secondary mt-xl-12 mt-lg-8 mt-md-6 mt-4"
+                            href="<?php echo SITE_ADDR ?>/career">Search
                             by career <i class="fas fa-chevron-right fcr-animate"></i></a>
                     </div>
                     <!-- About Content Area Start -->

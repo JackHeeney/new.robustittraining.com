@@ -62,7 +62,8 @@ require '../../../assets/php/inc/nav.php';
                         <div class="thumbnail">
                             <a class="image"
                                 href="<?php echo SITE_ADDR ?>/vendor/microsoft/solutions-architect/microsoft-certified-azure-solutions-architect-expert"><img
-                                    src="<?php echo SITE_ADDR ?>/assets/images/project/project-1.jpg" alt="work"></a>
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/microsoft/expert.jpg"
+                                    alt="expert.jpg"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a
@@ -85,7 +86,8 @@ require '../../../assets/php/inc/nav.php';
                         <div class="thumbnail">
                             <a class="image"
                                 href="<?php echo SITE_ADDR ?>/vendor/microsoft/solutions-architect/microsoft-certified-dynamics-365-finance-and-operations-apps-solutions-architect-expert"><img
-                                    src="<?php echo SITE_ADDR ?>/assets/images/project/project-2.jpg" alt="work"></a>
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/microsoft/expert.jpg"
+                                    alt="expert.jpg"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a
@@ -109,7 +111,8 @@ require '../../../assets/php/inc/nav.php';
                         <div class="thumbnail">
                             <a class="image"
                                 href="<?php echo SITE_ADDR ?>/vendor/microsoft/solutions-architect/microsoft-certified-azure-for-sap-workloads-specialty"><img
-                                    src="<?php echo SITE_ADDR ?>/assets/images/project/project-3.jpg" alt="work"></a>
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/microsoft/specialty.jpg"
+                                    alt="specialty.jpg"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a
@@ -131,7 +134,8 @@ require '../../../assets/php/inc/nav.php';
                         <div class="thumbnail">
                             <a class="image"
                                 href="<?php echo SITE_ADDR ?>/vendor/microsoft/solutions-architect/microsoft-certified-power-platform-solution-architect-expert"><img
-                                    src="<?php echo SITE_ADDR ?>/assets/images/project/project-4.jpg" alt="work"></a>
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/microsoft/expert.jpg"
+                                    alt="expert.jpg"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a

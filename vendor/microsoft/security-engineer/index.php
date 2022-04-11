@@ -62,7 +62,8 @@ require '../../../assets/php/inc/nav.php';
                         <div class="thumbnail">
                             <a class="image"
                                 href="<?php echo SITE_ADDR ?>/vendor/microsoft/security-engineer/microsoft-certified-azure-security-engineer-associate"><img
-                                    src="<?php echo SITE_ADDR ?>/assets/images/project/project-1.jpg" alt="work"></a>
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/microsoft/associate.jpg"
+                                    alt="associate.jpg"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a
@@ -85,7 +86,8 @@ require '../../../assets/php/inc/nav.php';
                         <div class="thumbnail">
                             <a class="image"
                                 href="<?php echo SITE_ADDR ?>/vendor/microsoft/security-engineer/microsoft-certified-security-operations-analyst-associate"><img
-                                    src="<?php echo SITE_ADDR ?>/assets/images/project/project-2.jpg" alt="work"></a>
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/microsoft/associate.jpg"
+                                    alt="associate.jpg"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a
@@ -110,7 +112,8 @@ require '../../../assets/php/inc/nav.php';
                         <div class="thumbnail">
                             <a class="image"
                                 href="<?php echo SITE_ADDR ?>/vendor/microsoft/security-engineer/microsoft-certified-identity-and-access-administrator-associate"><img
-                                    src="<?php echo SITE_ADDR ?>/assets/images/project/project-3.jpg" alt="work"></a>
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/microsoft/associate.jpg"
+                                    alt="associate.jpg"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a
@@ -134,7 +137,8 @@ require '../../../assets/php/inc/nav.php';
                         <div class="thumbnail">
                             <a class="image"
                                 href="<?php echo SITE_ADDR ?>/vendor/microsoft/security-engineer/microsoft-certified-information-protection-administrator-associate"><img
-                                    src="<?php echo SITE_ADDR ?>/assets/images/project/project-4.jpg" alt="work"></a>
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/microsoft/associate.jpg"
+                                    alt="associate.jpg"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a
@@ -158,7 +162,8 @@ require '../../../assets/php/inc/nav.php';
                         <div class="thumbnail">
                             <a class="image"
                                 href="<?php echo SITE_ADDR ?>/vendor/microsoft/security-engineer/microsoft-certified-windows-server-hybrid-administrator-associate"><img
-                                    src="<?php echo SITE_ADDR ?>/assets/images/project/project-5.jpg" alt="work"></a>
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/microsoft/associate.jpg"
+                                    alt="associate.jpg"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a

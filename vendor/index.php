@@ -33,6 +33,7 @@ require '../assets/php/inc/nav.php';
             <div class="container">
                 <ul class="breadcrumb justify-content-center">
                     <li><a href="<?php echo SITE_ADDR ?>/">Home</a></li>
+                    <li><a href="<?php echo SITE_ADDR ?>/learning-paths">Learning Paths</a></li>
                     <li class="current">Vendor</li>
                 </ul>
             </div>

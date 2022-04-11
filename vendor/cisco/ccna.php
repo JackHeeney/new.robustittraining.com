@@ -53,8 +53,8 @@ require '../../assets/php/inc/nav.php';
                                 course
                             </h2>
                             <div class="work-details-course-logo">
-                                <img src="<?php echo SITE_ADDR ?>/assets/images/logo/cisco/cisco-ccna.png"
-                                    alt="CCNA logo" class="w-100">
+                                <img src="<?php echo SITE_ADDR ?>/assets/images/logo/cisco/CCNA.svg" alt="CCNA logo"
+                                    class="w-100">
                             </div>
                             <!-- Start Details List -->
                             <div class="work-details-list my-10">

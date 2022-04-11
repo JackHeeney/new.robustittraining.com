@@ -47181,6 +47181,7 @@ only screen and (max-width: 767px) {
   font-size: 20px;
   line-height: 30px;
   margin: 0;
+  color: var(--rb-primary);
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {

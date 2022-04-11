@@ -22,7 +22,8 @@ require '../../assets/php/inc/nav.php';
 <div id="page" class="section">
 
     <!-- Page Title Section Start -->
-    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7" data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/bg-ccna.jpg">
+    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7"
+        data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/bg-ccna.jpg">
         <div class="page-title">
             <div class="container">
                 <h1 class="title">CISCO Courses</h1>
@@ -57,12 +58,15 @@ require '../../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/cisco/ccna"><img src="<?php echo SITE_ADDR ?>/assets/images/bg/bg-ccna.jpg" alt="ccna"></a>
+                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/cisco/ccna"><img
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/cisco/ccna.jpg"
+                                    alt="ccna.jpg"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/cisco/ccna">CCNA</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">CCNA certification proves you have what it takes to navigate the
+                                ever-changing landscape of IT. CCNA exam covers networking fundamentals, IP services,
+                                security fundamentals, automation and programmability.</p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/cisco/ccna">View Course
                                 <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
@@ -74,14 +78,20 @@ require '../../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/cisco/ccnp-security" alt="link to ccnp security"><img src="<?php echo SITE_ADDR ?>/assets/images/bg/bg-ccna.jpg" alt="ccnp security"></a>
+                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/cisco/ccnp-security"
+                                alt="link to ccnp security"><img
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/cisco/ccnp.jpg"
+                                    alt="ccnp.jpg"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/cisco/ccnp-security" alt="link to ccnp security">CCNP Security</a>
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/cisco/ccnp-security"
+                                    alt="link to ccnp security">CCNP Security</a>
                             </h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<?php echo SITE_ADDR ?>/vendor/cisco/ccnp-security" alt="link to ccnp security">View
+                            <p class="desc">Software and networking become more and more interconnected every day,
+                                creating ever greater need for robust, scalable security across all platforms—from
+                                networks to mobile devices.</p>
+                            <a href="<?php echo SITE_ADDR ?>/vendor/cisco/ccnp-security"
+                                alt="link to ccnp security">View
                                 Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -92,14 +102,20 @@ require '../../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/cisco/cyberops-associate" alt="link to cyberops associate"><img src="<?php echo SITE_ADDR ?>/assets/images/bg/bg-ccna.jpg" alt="CyberOps Associate"></a>
+                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/cisco/cyberops-associate"
+                                alt="link to cyberops associate"><img
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/cisco/cyberops-associate.jpg"
+                                    alt="CyberOps Associate"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/cisco/cyberops-associate" alt="link to cyberops associate">CyberOps Associate</a>
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/cisco/cyberops-associate"
+                                    alt="link to cyberops associate">CyberOps Associate</a>
                             </h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<?php echo SITE_ADDR ?>/vendor/cisco/cyberops-associate" alt="link to cyberops associate">View
+                            <p class="desc">Cisco Certified CyberOps Associate certification program validates the
+                                day-today, tactical knowledge and skills that Security Operations Center (SOC) teams
+                                need to detect and respond to cybersecurity threats.</p>
+                            <a href="<?php echo SITE_ADDR ?>/vendor/cisco/cyberops-associate"
+                                alt="link to cyberops associate">View
                                 Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -110,14 +126,20 @@ require '../../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/cisco/cyberops-professional" alt="link to cyberops professional"><img src="<?php echo SITE_ADDR ?>/assets/images/bg/bg-ccna.jpg" alt="CyberOps Professional"></a>
+                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/cisco/cyberops-professional"
+                                alt="link to cyberops professional"><img
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/cisco/cyberops-professional.jpg"
+                                    alt="CyberOps Professional"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/cisco/cyberops-professional" alt="link to cyberops professional">CyberOps Professional</a>
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/cisco/cyberops-professional"
+                                    alt="link to cyberops professional">CyberOps Professional</a>
                             </h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<?php echo SITE_ADDR ?>/vendor/cisco/cyberops-professional" alt="link to cyberops professional">View
+                            <p class="desc">Traditional information security is no match for the expanding cybercrime
+                                ecosystem; therefore, security measures must evolve to intelligent security rather than
+                                information security. </p>
+                            <a href="<?php echo SITE_ADDR ?>/vendor/cisco/cyberops-professional"
+                                alt="link to cyberops professional">View
                                 Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -134,7 +156,8 @@ require '../../assets/php/inc/nav.php';
     <!-- Work Section End -->
 
     <!-- CTA Section Start -->
-    <div class="section section-padding-t110-b120 newsletter-section" data-bg-color="#000" data-overlay="0.7" data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/cta.jpg">
+    <div class="section section-padding-t110-b120 newsletter-section" data-bg-color="#000" data-overlay="0.7"
+        data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/cta.jpg">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12">
@@ -147,7 +170,9 @@ require '../../assets/php/inc/nav.php';
                                 clicking the button below this form will only be used to respond to your request.</p>
                         </div>
                         <!-- Section Title End -->
-                        <a href="#" data-toggle="modal" data-target="#exampleModal" class="btn btn-secondary btn-hover--secondary mt-6" style="min-width: 226px !important"><span class="call-back"></span>
+                        <a href="#" data-toggle="modal" data-target="#exampleModal"
+                            class="btn btn-secondary btn-hover--secondary mt-6"
+                            style="min-width: 226px !important"><span class="call-back"></span>
                             <i class="fas fa-phone fcr-animate"></i></a>
                     </div>
                     <!-- CTA Content End -->
@@ -183,7 +208,9 @@ require '../../assets/php/inc/nav.php';
                         </div>
                         <!-- Animation Shape Start -->
                         <div class="shape shape-2 scene">
-                            <span data-depth="4"><img src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/about-shape-2.png" alt=""></span>
+                            <span data-depth="4"><img
+                                    src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/about-shape-2.png"
+                                    alt=""></span>
                         </div>
                         <!-- Animation Shape End -->
                     </div>
@@ -205,7 +232,8 @@ require '../../assets/php/inc/nav.php';
                             Do you know what career path you want to go down? Search for the perfect course by career.
                         </p>
 
-                        <a class="btn btn-secondary btn-hover--secondary mt-xl-12 mt-lg-8 mt-md-6 mt-4" href="<?php echo SITE_ADDR ?>/career">Search
+                        <a class="btn btn-secondary btn-hover--secondary mt-xl-12 mt-lg-8 mt-md-6 mt-4"
+                            href="<?php echo SITE_ADDR ?>/career">Search
                             by career <i class="fas fa-chevron-right fcr-animate"></i></a>
                     </div>
                     <!-- About Content Area Start -->

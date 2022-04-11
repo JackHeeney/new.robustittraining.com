@@ -53,7 +53,7 @@ require '../../assets/php/inc/nav.php';
                                 course
                             </h2>
                             <div class="work-details-course-logo">
-                                <img src="<?php echo SITE_ADDR ?>/assets/images/logo/cisco/cisco-cyberops-professional.png"
+                                <img src="<?php echo SITE_ADDR ?>/assets/images/logo/cisco/CyberOps-Professional.svg"
                                     alt="CyberOps Pro logo" class="w-100">
                             </div>
                             <!-- Start Details List -->

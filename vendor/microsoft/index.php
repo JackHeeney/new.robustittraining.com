@@ -65,8 +65,7 @@ require '../../assets/php/inc/nav.php';
                         <div class="info">
                             <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/microsoft/developer">Developer</a>
                             </h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">Developers design, build, test, and maintain cloud solutions.</p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/microsoft/developer">View Courses
                                 <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
@@ -85,8 +84,7 @@ require '../../assets/php/inc/nav.php';
                         <div class="info">
                             <h3 class="title"><a
                                     href="<?php echo SITE_ADDR ?>/vendor/microsoft/administrator">Administrator</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nisi, quo
-                                optio sint doloribus repellat.</p>
+                            <p class="desc">Administrators implement, monitor, and maintain Microsoft solutions.</p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/microsoft/administrator">View Courses <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
@@ -107,8 +105,8 @@ require '../../assets/php/inc/nav.php';
                                     href="<?php echo SITE_ADDR ?>/vendor/microsoft/solutions-architect">Solutions
                                     Architect</a>
                             </h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">Solutions architects have expertise in compute, network, storage, security.
+                            </p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/microsoft/solutions-architect">View
                                 Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
@@ -127,8 +125,8 @@ require '../../assets/php/inc/nav.php';
                         <div class="info">
                             <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/microsoft/data-engineer">Data
                                     Engineer</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">Data engineers design and implement the management, monitoring, security,
+                                and privacy of data using the full stack of data services.</p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/microsoft/data-engineer">View
                                 Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
@@ -147,8 +145,8 @@ require '../../assets/php/inc/nav.php';
                         <div class="info">
                             <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/microsoft/data-scientist">Data
                                     Scientist</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">Data scientists apply machine learning techniques to train, evaluate, and
+                                deploy models that solve business problems.</p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/microsoft/data-scientist">View
                                 Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
@@ -167,8 +165,8 @@ require '../../assets/php/inc/nav.php';
                         <div class="info">
                             <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/microsoft/ai-engineer">AI
                                     Engineer</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">AI engineers use Cognitive Services, Machine Learning, and Knowledge Mining
+                                to architect and implement Microsoft AI solutions.</p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/microsoft/ai-engineer">View
                                 Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
@@ -187,8 +185,9 @@ require '../../assets/php/inc/nav.php';
                         <div class="info">
                             <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/microsoft/devops-engineer">DevOps
                                     Engineer</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">DevOps engineers combine people, process, and technologies to continuously
+                                deliver valuable products and services that meet end user needs and business objectives.
+                            </p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/microsoft/devops-engineer">View
                                 Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
@@ -208,8 +207,8 @@ require '../../assets/php/inc/nav.php';
                             <h3 class="title"><a
                                     href="<?php echo SITE_ADDR ?>/vendor/microsoft/security-engineer">Security
                                     Engineer</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">Security engineers implement security controls and threat protection, manage
+                                identity and access, and protect data, applications, and networks.</p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/microsoft/security-engineer">View
                                 Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
@@ -229,8 +228,8 @@ require '../../assets/php/inc/nav.php';
                             <h3 class="title"><a
                                     href="<?php echo SITE_ADDR ?>/vendor/microsoft/functional-consultant">Functional
                                     Consultant</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">Functional consultants leverage Microsoft Dynamics 365 and Microsoft Power
+                                Platform to anticipate and plan for customer needs.</p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/microsoft/functional-consultant">View
                                 Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>

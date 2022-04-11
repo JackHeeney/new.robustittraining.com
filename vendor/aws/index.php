@@ -70,8 +70,9 @@ require '../../assets/php/inc/nav.php';
                                     Practitioner">AWS
                                     Cloud
                                     Practitioner</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">This credential helps organizations identify and develop talent with
+                                critical knowledge related to implementing cloud initiatives. Earning AWS Certified
+                                Cloud Practitioner validates cloud fluency and foundational AWS knowledge.</p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/aws/aws-cloud-practitioner" alt="AWS
                                     Cloud
                                     Practitioner">View Course
@@ -96,8 +97,10 @@ require '../../assets/php/inc/nav.php';
                                     href="<?php echo SITE_ADDR ?>/vendor/aws/aws-solutions-architect-associate" alt="AWS
                                 Solution Architect Associate">AWS
                                     Solution Architect Associate</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nisi, quo
-                                optio sint doloribus repellat.</p>
+                            <p class="desc">This credential helps organizations identify and develop talent with
+                                critical skills for implementing cloud initiatives. Earning AWS Certified Solutions
+                                Architect – Associate validates the ability to design and implement distributed systems
+                                on AWS.</p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/aws/aws-solutions-architect-associate" alt="AWS
                                 Solution Architect Associate">View Course
                                 <i class="fas fa-chevron-right fcr-animate"></i></a>
@@ -122,8 +125,10 @@ require '../../assets/php/inc/nav.php';
                                 Solution Architect Professional">AWS
                                     Solution Architect Professional</a>
                             </h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">This credential helps organizations identify and develop talent with
+                                critical skills for implementing cloud initiatives. Earning AWS Certified Solutions
+                                Architect – Professional validates the ability to design, deploy, and evaluate
+                                applications on AWS within diverse, complex requirements.</p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/aws/aws-solutions-architect-professional" alt="AWS
                                 Solution Architect Professional">View
                                 Course <i class="fas fa-chevron-right fcr-animate"></i></a>
@@ -145,8 +150,10 @@ require '../../assets/php/inc/nav.php';
                             <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/aws/aws-sysops-administrator" alt="AWS
                             SysOps Administrator">AWS
                                     SysOps Administrator</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">This credential helps organizations identify and develop talent with
+                                critical skills for implementing cloud initiatives. Earning AWS Certified SysOps
+                                Administrator – Associate demonstrates experience deploying, managing, and operating
+                                workloads on AWS.</p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/aws/aws-sysops-administrator" alt="AWS
                             SysOps Administrator">View
                                 Course <i class="fas fa-chevron-right fcr-animate"></i></a>
@@ -168,8 +175,9 @@ require '../../assets/php/inc/nav.php';
                             Developer">AWS
                                     Developer</a>
                             </h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">This credential helps organizations identify and develop talent with
+                                critical skills for implementing cloud initiatives. Earning AWS Certified Developer –
+                                Associate validates the ability to write and deploy cloud-based applications.</p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/aws/aws-developer" alt="AWS
                             Developer">View
                                 Course <i class="fas fa-chevron-right fcr-animate"></i></a>

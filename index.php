@@ -218,7 +218,7 @@ require './assets/php/inc/nav.php';
 
 
                     <a class="btn btn-primary btn-hover-secondary mt-xl-8 mt-lg-8 mt-md-6 mt-4" href="#go">
-                        Go
+                        Choose learning path
                         <i class="fas fa-chevron-right fcr-animate"></i>
                     </a>
                 </div>
@@ -246,8 +246,8 @@ require './assets/php/inc/nav.php';
             </div>
 
             <!-- Section Title End -->
-            <a class="btn btn-primary btn-hover-secondary" href="<?php echo SITE_ADDR ?>/learning-paths">Find your
-                path <i class="fas fa-chevron-right fcr-animate"></i></a>
+            <a class="btn btn-primary btn-hover-secondary" href="<?php echo SITE_ADDR ?>/learning-paths">View all paths
+                <i class="fas fa-chevron-right fcr-animate"></i></a>
 
             <!-- Icon Animation Start -->
             <div class="shape shape-1" data-aos="fade-zoom-in" data-aos-delay="800">

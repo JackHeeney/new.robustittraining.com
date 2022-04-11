@@ -68,8 +68,10 @@ require '../../assets/php/inc/nav.php';
                                     href="<?php echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker"
                                     alt="link to CEH">Certified
                                     Ethical Hacker</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">A Certified Ethical Hacker is a skilled professional who understands and
+                                knows how to look for weaknesses and vulnerabilities in target systems and uses the same
+                                knowledge and tools as a malicious hacker, but in a lawful and legitimate manner to
+                                assess the security posture of a target system(s).</p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker"
                                 atl="link to CEH">View Course
                                 <i class="fas fa-chevron-right fcr-animate"></i></a>
@@ -92,8 +94,8 @@ require '../../assets/php/inc/nav.php';
                                     href="<?php echo SITE_ADDR ?>/vendor/ec-council/certified-network-defender"
                                     alt="link to CND">Certified
                                     Network Defender</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nisi, quo
-                                optio sint doloribus repellat.</p>
+                            <p class="desc">Certified Network Defender (CND) is a vendor-neutral, hands-on,
+                                instructor-led comprehensive network security certification training program. </p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/ec-council/certified-network-defender"
                                 alt="link to CND">View Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
@@ -117,8 +119,8 @@ require '../../assets/php/inc/nav.php';
                                     alt="link to CHFI">Computer
                                     Hacking Forensic Investigator</a>
                             </h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">The Computer Hacking Forensic Investigator (CHFI) course delivers the
+                                security discipline of digital forensics from a vendor-neutral perspective.</p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/ec-council/computer-hacking-forensic-investigator"
                                 alt="link to CHFI">View
                                 Course <i class="fas fa-chevron-right fcr-animate"></i></a>
@@ -142,8 +144,8 @@ require '../../assets/php/inc/nav.php';
                                     href="<?php echo SITE_ADDR ?>/vendor/ec-council/certified-cloud-security-engineer"
                                     alt="link to ccse">Certified
                                     Cloud Security Engineer</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">Cloud technology has transformed the technology landscape and will continue
+                                to do so for years to come.</p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/ec-council/certified-cloud-security-engineer"
                                 alt="link to ccse">View
                                 Course <i class="fas fa-chevron-right fcr-animate"></i></a>

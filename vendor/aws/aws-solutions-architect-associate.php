@@ -344,11 +344,11 @@ require '../../assets/php/inc/nav.php';
                     <div class="digital-marketing" data-aos="fade-up">
                         <div class="section-title-two mb-8">
                             <h2 class="title mb-5">
-                                <div class="salary text-white">£<span class="counter">35,000.00</span>+</div>
+                                <div class="salary text-white">£<span class="counter">77,800</span>+</div>
                             </h2>
-                            <small>The average solutions architect associate salary in the United Kingdom is £35,000 per
-                                year or £17.95 per hour. Entry level positions start at £30,024 per year while most
-                                experienced workers make up to £78,500 per year</small>.
+                            <small>The average aws solutions architect salary in the United Kingdom is £77,800 per year
+                                or £39.90 per hour. Entry level positions start at £65,000 per year while most
+                                experienced workers make up to £90,000 per year</small>.
                         </div>
 
 
@@ -379,7 +379,7 @@ require '../../assets/php/inc/nav.php';
                                                 <i class="fas fa-check"></i>
                                             </div>
                                             <div class="text">
-                                                Cloud Engineer
+                                                AWS Solutions Architect
                                             </div>
                                         </li>
                                         <li class="item">
@@ -387,7 +387,7 @@ require '../../assets/php/inc/nav.php';
                                                 <i class="fas fa-check"></i>
                                             </div>
                                             <div class="text">
-                                                AWS DevOps Engineer
+                                                Frontend Solutions Architect
                                             </div>
                                         </li>
                                         <li class="item">
@@ -426,7 +426,7 @@ require '../../assets/php/inc/nav.php';
                                                 <i class="fas fa-check"></i>
                                             </div>
                                             <div class="text">
-                                                Cloud Infrastructure Engineer
+                                                AWS Junior Solutions Architect
                                             </div>
                                         </li>
                                         <li class="item">
