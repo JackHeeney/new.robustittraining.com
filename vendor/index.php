@@ -47,7 +47,8 @@ require '../assets/php/inc/nav.php';
 
             <!-- Section Title Start -->
             <div class="section-title text-center " data-aos="fade-up">
-                <h2 class="title fz-32"> View paths by vendor :</h2>
+                <h2 class="title fz-32"> View paths by <a class="text-rb-primary" href="<? echo SITE_ADDR ?>/vendor"
+                        alt="link to career vendor">vendor</a> :</h2>
             </div>
             <!-- Section Title End -->
 

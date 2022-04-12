@@ -1261,103 +1261,118 @@
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/career/1st-line-support/comptia-a">
                                     A+
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item"
+                                    href="<? echo SITE_ADDR ?>/career/1st-line-support/comptia-it-fundamentals">
                                     IT Fundamentals+
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item"
+                                    href="<? echo SITE_ADDR ?>/career/1st-line-support/comptia-server">
                                     Server+
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item"
+                                    href="<? echo SITE_ADDR ?>/career/1st-line-support/microsoft-certified-azure-administration-associate">
                                     Azure Administrator
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item"
+                                    href="<? echo SITE_ADDR ?>/career/1st-line-support/microsoft-certified-azure-for-sap-workloads-specialty">
                                     Azure for SAP Workloads
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item"
+                                    href="<? echo SITE_ADDR ?>/career/1st-line-support/microsoft-certified-azure-virtual-desktop-specialty">
                                     Azure Virtual Desktop
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item"
+                                    href="<? echo SITE_ADDR ?>/career/1st-line-support/microsoft-certified-azure-stack-hub-operator-associate">
                                     Azure Stack Hub Operator
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item"
+                                    href="<? echo SITE_ADDR ?>/career/1st-line-support/microsoft-365-certified-messaging-administrator-associate">
                                     Messaging Administrator
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item"
+                                    href="<? echo SITE_ADDR ?>/career/1st-line-support/microsoft-365-certified-modern-desktop-administrator-associate">
                                     Modern Desktop Administrator
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item"
+                                    href="<? echo SITE_ADDR ?>/career/1st-line-support/microsoft-365-certified-security-administrator-associate">
                                     Security Administrator
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item"
+                                    href="<? echo SITE_ADDR ?>/career/1st-line-support/microsoft-365-certified-enterprise-administrator-expert">
                                     Enterprise Administrator
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item"
+                                    href="<? echo SITE_ADDR ?>/career/1st-line-support/microsoft-365-certified-teams-administrator-associate">
                                     Teams Administrator
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item"
+                                    href="<? echo SITE_ADDR ?>/career/1st-line-support/microsoft-certified-identity-and-access-administrator-associate">
                                     Identity and Access Admin
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item"
+                                    href="<? echo SITE_ADDR ?>/career/1st-line-support/microsoft-certified-information-protection-administrator-associate">
                                     Information Protection Admin
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item"
+                                    href="<? echo SITE_ADDR ?>/career/1st-line-support/microsoft-365-certified-teams-voice-engineer-expert">
                                     Teams Voice Engineer
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item"
+                                    href="<? echo SITE_ADDR ?>/career/1st-line-support/microsoft-certified-windows-server-hybrid-administrator-associate">
                                     Windows Server Hybrid Admin
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="<? echo SITE_ADDR ?>/career/1st-line-support">
                                     View all
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>

@@ -46,7 +46,8 @@ require './assets/php/inc/nav.php';
 
             <!-- Section Title Start -->
             <div class="section-title text-center" data-aos="fade-up">
-                <h2 class="title fz-32"> View paths by career :</h2>
+                <h2 class="title fz-32"> View paths by <a class="text-primary" href="<? echo SITE_ADDR ?>/career"
+                        alt="link to career courses">career</a> :</h2>
             </div>
             <!-- Section Title End -->
 
@@ -200,19 +201,20 @@ require './assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<?php echo SITE_ADDR ?>/"
+                            <a class="image" href="<?php echo SITE_ADDR ?>/career/1st-line-support"
                                 alt="link to courses for 1st line support"><img
                                     src="assets/images/project/by-career/first-line-support.jpg"
                                     title="link to courses for 1st line support" alt="first-line-support.jpg"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/"
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/career/1st-line-support"
                                     alt="link to courses for 1st line support">1<small>st</small> Line
                                     Support</a>
                             </h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<?php echo SITE_ADDR ?>/" alt="link to courses for 1st line support">View Courses
+                            <a href="<?php echo SITE_ADDR ?>/career/1st-line-support"
+                                alt="link to courses for 1st line support">View Courses
                                 <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -225,7 +227,8 @@ require './assets/php/inc/nav.php';
 
             <!-- Section Title Start -->
             <div class="section-title text-center " data-aos="fade-up">
-                <h2 class="title fz-32"> View paths by vendor :</h2>
+                <h2 class="title fz-32"> View paths by <a class="text-rb-primary" href="<? echo SITE_ADDR ?>/vendor"
+                        alt="link to career vendor">vendor</a> :</h2>
             </div>
             <!-- Section Title End -->
 

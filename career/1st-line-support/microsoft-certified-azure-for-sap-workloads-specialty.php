@@ -12,8 +12,8 @@ $meta['og:url'] = "";
 
 $leadIsFrom = "Lead is from /vendor/microsoft/microsoft-certified-azure-for-sap-workloads-specialty";
 
-require '../../../assets/php/inc/header.php';
-require '../../../assets/php/inc/nav.php';
+require '../../assets/php/inc/header.php';
+require '../../assets/php/inc/nav.php';
 ?>
 
 <div id="page work-details" class="section">
@@ -188,7 +188,7 @@ require '../../../assets/php/inc/nav.php';
                     <div class="container">
                         <div class="row my-lg-10 my-10">
                             <div class="col-lg-12">
-                                <? require '../../../assets/php/component/brand.php';
+                                <? require '../../assets/php/component/brand.php';
                                 ?>
                             </div>
                         </div>
@@ -207,12 +207,10 @@ require '../../../assets/php/inc/nav.php';
                                 <!-- Section Title Two Start -->
                                 <div class="section-title-two mb-8">
                                     <h3 class="heading heading-h3"></h3>
-
                                     <span class="sub-title">What you will learn</span>
                                     <h2 class="title">
                                         Skills measured
                                     </h2>
-
                                 </div>
                                 <!-- Section Title Two End -->
 
@@ -637,5 +635,5 @@ require '../../../assets/php/inc/nav.php';
 </div>
 
 <?php
-require '../../../assets/php/inc/footer.php';
+require '../../assets/php/inc/footer.php';
 ?>

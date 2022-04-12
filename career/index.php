@@ -46,7 +46,8 @@ require '../assets/php/inc/nav.php';
         <div class="container">
             <!-- Section Title Start -->
             <div class="section-title text-center" data-aos="fade-up">
-                <h2 class="title fz-32"> View paths by career :</h2>
+                <h2 class="title fz-32"> View paths by <a class="text-primary" href="<? echo SITE_ADDR ?>/career"
+                        alt="link to career courses">career</a> :</h2>
             </div>
             <!-- Section Title End -->
 

@@ -47279,9 +47279,9 @@ only screen and (max-width: 767px) {
     flex-wrap: wrap;
   }
 
-  .info {
+  /* .info {
     margin-left: 2rem;
-  }
+  } */
 
   .address-mobile {
     display: block;

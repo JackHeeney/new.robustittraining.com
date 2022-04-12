@@ -12,8 +12,8 @@ $meta['og:url'] = "";
 
 $leadIsFrom = "Lead is from /microsoft/administrator/microsoft-certified-azure-administration-associate";
 
-require '../../../assets/php/inc/header.php';
-require '../../../assets/php/inc/nav.php';
+require '../../assets/php/inc/header.php';
+require '../../assets/php/inc/nav.php';
 ?>
 
 <div id="page work-details" class="section">
@@ -174,21 +174,22 @@ require '../../../assets/php/inc/nav.php';
             </div>
             <!-- End About Course Right -->
 
-            <!-- Start Brand and Labs -->
-            <div class="section section-padding">
 
-                <!-- Brand Section Start -->
-                <div class="brand-section section section-padding-bottom">
-                    <div class="container">
-                        <div class="row my-lg-10 my-10">
-                            <div class="col-lg-12">
-                                <? require '../../../assets/php/component/brand.php';
+            <!-- Brand Section Start -->
+            <div class="brand-section ">
+                <div class="container">
+                    <div class="row my-lg-10 my-10">
+                        <div class="col-lg-12">
+                            <? require '../../assets/php/component/brand.php';
                                 ?>
-                            </div>
                         </div>
                     </div>
                 </div>
-                <!-- Brand Section End -->
+            </div>
+            <!-- Brand Section End -->
+
+            <!-- Start skills -->
+            <div class="section section-padding">
 
                 <!-- Start Labs Area -->
                 <div class="container">
@@ -628,5 +629,5 @@ require '../../../assets/php/inc/nav.php';
 </div>
 
 <?php
-require '../../../assets/php/inc/footer.php';
+require '../../assets/php/inc/footer.php';
 ?>

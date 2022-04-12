@@ -1,19 +1,19 @@
 <?php
 // Change page title and meta tags here
-$title = "Robust IT Training | Microsoft | Microsoft 365 Certified: Modern Desktop Administrator Associate";
+$title = "Robust IT Training | Microsoft | Microsoft 365 Certified: Enterprise Administrator Expert";
 $meta['keywords'] = "";
 $meta['description'] = "";
 
 // Social media meta tags
-$title = "Robust IT Training | Microsoft | Microsoft 365 Certified: Modern Desktop Administrator Associate";
+$title = "Robust IT Training | Microsoft | Microsoft 365 Certified: Enterprise Administrator Expert";
 $meta['og:description'] = "";
 $meta['og:image'] = "";
 $meta['og:url'] = "";
 
-$leadIsFrom = "Lead is from /microsoft/administrator/microsoft-365-certified-modern-desktop-administrator-associate";
+$leadIsFrom = "Lead is from /microsoft/administrator/microsoft-365-certified-enterprise-administrator-expert";
 
-require '../../assets/php/inc/header.php';
-require '../../assets/php/inc/nav.php';
+require '../../../assets/php/inc/header.php';
+require '../../../assets/php/inc/nav.php';
 ?>
 
 <div id="page work-details" class="section">
@@ -22,7 +22,7 @@ require '../../assets/php/inc/nav.php';
         data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/bg-certified-ethical-hacker.jpg">
         <div class="page-title">
             <div class="container">
-                <h1 class="title">Microsoft 365 Certified: Modern Desktop Administrator Associate</h1>
+                <h1 class="title">Microsoft 365 Certified: Enterprise Administrator Expert</h1>
                 <!-- <h2 class="title-h2">Learn more about this certification and AWS resources that can help you prepare
                 </h2> -->
             </div>
@@ -33,7 +33,7 @@ require '../../assets/php/inc/nav.php';
                     <li><a href="<?php echo SITE_ADDR ?>/">Home</a></li>
                     <li><a href="<?php echo SITE_ADDR ?>/vendor/microsoft">Microsoft</a></li>
                     <li><a href="<?php echo SITE_ADDR ?>/vendor/microsoft/administrator">Administrator</a></li>
-                    <li class="current">Microsoft 365 Certified: Modern Desktop Administrator Associate</li>
+                    <li class="current">Microsoft 365 Certified: Enterprise Administrator Expert</li>
                 </ul>
             </div>
         </div>
@@ -53,19 +53,19 @@ require '../../assets/php/inc/nav.php';
                                 course
                             </h2>
                             <div class="work-details-course-logo">
-                                <img src="<?php echo SITE_ADDR ?>/assets/images/logo/microsoft/microsoft-certified-associate-badge.svg"
-                                    alt="microsoft certified associate badge" class="w-100">
+                                <img src="<?php echo SITE_ADDR ?>/assets/images/logo/microsoft/microsoft-certified-expert-badge.svg"
+                                    alt="microsoft certified expert badge" class="w-100">
                             </div>
                             <!-- Start Details List -->
                             <div class="work-details-list my-10">
                                 <div class="details-list">
                                     <label>Exam Prefix</label>
-                                    <span>MD-100, MD-101</span>
+                                    <span>MS-100, MS-101</span>
                                 </div>
 
                                 <div class="details-list">
                                     <label>Level</label>
-                                    <span>Associate</span>
+                                    <span>Expert</span>
                                 </div>
 
                                 <div class="details-list">
@@ -138,10 +138,67 @@ require '../../assets/php/inc/nav.php';
 
                                 <div class="desc mt-8">
                                     <div class="content mb-5" data-aos="fade-up">
+                                        <div class="alert alert-primary">
+                                            <i class="fa fa-info-circle pr-1"></i> <strong>Important</strong> <br />
+                                            The English language version of this certification was updated recently.
+                                            Exam MS-101 was updated on February 2, 2022. Exam MS-100 was updated on
+                                            November 30, 2021. Please download the skills measured documents on the
+                                            associated exam pages to see changes.
+                                        </div>
                                         <p>
-                                            Modern desktop administrators deploy, configure, secure, manage, and monitor
-                                            devices and client applications in an enterprise environment.
+                                            Microsoft 365 security administrators proactively secure Microsoft 365
+                                            enterprise and hybrid environments, implement and manage security and
+                                            compliance solutions, respond to threats, and enforce data governance.
                                         </p>
+
+                                        <div class="details-list mb-10">
+                                            <label>Prerequisites</label>
+                                            <span class="pre-links">
+                                                To become a Microsoft 365 Certified: Enterprise Administrator Expert,
+                                                you must earn
+                                                at least one of the following:
+                                                <ul>
+                                                    <li>
+                                                        <a class="text-rb-gradient" target="_blank"
+                                                            href="<?php echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-365-certified-modern-desktop-administrator-associate"
+                                                            alt="Microsoft 365 Certified: Modern Desktop Administrator
+                                                            Associate">
+                                                            Microsoft 365 Certified: Modern Desktop Administrator
+                                                            Associate
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="text-rb-gradient" target="_blank"
+                                                            href="<?php echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-365-certified-security-administrator-associate"
+                                                            alt="Microsoft 365 Certified: Security Administrator Associate">
+                                                            Microsoft 365 Certified: Security Administrator Associate
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="text-rb-gradient" target="_blank"
+                                                            href="<?php echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-365-certified-messaging-administrator-associate"
+                                                            alt="Microsoft 365 Certified: Messaging Administrator Associate">
+                                                            Microsoft 365 Certified: Messaging Administrator Associate
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="text-rb-gradient" target="_blank"
+                                                            href="<?php echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-365-certified-teams-administrator-associate"
+                                                            alt="Microsoft 365 Certified: Teams Administrator Associate">
+                                                            Microsoft 365 Certified: Teams Administrator Associate
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="text-rb-gradient" target="_blank"
+                                                            href="<?php echo SITE_ADDR ?>/vendor/microsoft/administrator/microsoft-certified-identity-and-access-administrator-associate"
+                                                            alt="#">
+                                                            Microsoft Certified: Identity and Access Administrator
+                                                            Associate
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </span>
+                                        </div>
                                     </div>
 
 
@@ -167,7 +224,7 @@ require '../../assets/php/inc/nav.php';
                     <div class="container">
                         <div class="row my-lg-10 my-10">
                             <div class="col-lg-12">
-                                <? require '../../assets/php/component/brand.php';
+                                <? require '../../../assets/php/component/brand.php';
                                 ?>
                             </div>
                         </div>
@@ -202,7 +259,7 @@ require '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Deploy Windows
+                                            Design and implement Microsoft 365 services
                                         </div>
                                     </li>
                                     <li class="item">
@@ -210,7 +267,7 @@ require '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Manage devices and data
+                                            Manage user identity and roles
                                         </div>
                                     </li>
                                     <li class="item">
@@ -218,7 +275,7 @@ require '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Configure storage and connectivity
+                                            Manage access and authentication
                                         </div>
                                     </li>
                                     <li class="item">
@@ -226,7 +283,7 @@ require '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Maintain Windows
+                                            Plan Office 365 workloads and applications
                                         </div>
                                     </li>
                                     <li class="item">
@@ -234,7 +291,7 @@ require '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Deploy and upgrade operating systems
+                                            Implement modern device services
                                         </div>
                                     </li>
                                     <li class="item">
@@ -242,7 +299,7 @@ require '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Manage policies and profiles
+                                            Implement Microsoft 365 security and threat management
                                         </div>
                                     </li>
                                     <li class="item">
@@ -250,21 +307,15 @@ require '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Manage and protect devices
-                                        </div>
-                                    </li>
-                                    <li class="item">
-                                        <div class="icon">
-                                            <i class="fas fa-check"></i>
-                                        </div>
-                                        <div class="text">
-                                            Manage apps and data
+                                            Manage Microsoft 365 governance and compliance
                                         </div>
                                     </li>
                                 </ul>
                                 <!-- Agency List End -->
-                                <a href="#scrollTo" id="startScroll" class="btn btn-primary btn-hover-secondary">
-                                    Get started
+                                <a href="<?php echo SITE_ADDR ?>/assets/pdf/exam-guides/microsoft/microsoft-certified-365-enterprise-administrator-expert-skills-measured.pdf"
+                                    alt="Download certification skill outline"
+                                    class="btn btn-primary btn-hover-secondary" target="_blank">
+                                    Download certification skill outline
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </div>
@@ -311,7 +362,7 @@ require '../../assets/php/inc/nav.php';
                 data-overlay="0.9">
                 <div class="digital-marketing" data-aos="fade-up">
                     <div class="section-title-two">
-                        <span class="sub-title text-white">Average salary for Desktop Administrator
+                        <span class="sub-title text-white">Average salary for Microsoft Security
                             professionals</span>
                     </div>
 
@@ -321,11 +372,11 @@ require '../../assets/php/inc/nav.php';
                     <div class="digital-marketing" data-aos="fade-up">
                         <div class="section-title-two mb-8">
                             <h2 class="title mb-5">
-                                <div class="salary text-white">£<span class="counter">26,000.00</span>+</div>
+                                <div class="salary text-white">£<span class="counter">62,500.00</span>+</div>
                             </h2>
-                            <small>The average desktop administrator salary in the United Kingdom is £26,000 per year or
-                                £13.33 per hour. Entry level positions start at £25,000 per year while most experienced
-                                workers make up to £53,000 per year</small>.
+                            <small>The average microsoft security salary in the United Kingdom is £62,500 per year or
+                                £32.05 per hour. Entry level positions start at £45,000 per year while most experienced
+                                workers make up to £85,000 per year</small>.
                         </div>
 
 
@@ -348,7 +399,7 @@ require '../../assets/php/inc/nav.php';
                                                 <i class="fas fa-check"></i>
                                             </div>
                                             <div class="text">
-                                                Desktop Administrator
+                                                Security & Infrastructure Specialist
                                             </div>
                                         </li>
                                         <li class="item">
@@ -356,7 +407,7 @@ require '../../assets/php/inc/nav.php';
                                                 <i class="fas fa-check"></i>
                                             </div>
                                             <div class="text">
-                                                Systems Administrator
+                                                Security Analyst
                                             </div>
                                         </li>
                                         <li class="item">
@@ -364,7 +415,7 @@ require '../../assets/php/inc/nav.php';
                                                 <i class="fas fa-check"></i>
                                             </div>
                                             <div class="text">
-                                                Desktop Support
+                                                Security Consultant
                                             </div>
                                         </li>
 
@@ -379,7 +430,7 @@ require '../../assets/php/inc/nav.php';
                                                 <i class="fas fa-check"></i>
                                             </div>
                                             <div class="text">
-                                                Infrastructure System Administrator
+                                                Cloud Security Consultant
                                             </div>
                                         </li>
                                         <li class="item">
@@ -387,7 +438,7 @@ require '../../assets/php/inc/nav.php';
                                                 <i class="fas fa-check"></i>
                                             </div>
                                             <div class="text">
-                                                Desktop Migration Manager
+                                                Microsoft Enterprise And Security Consultant
                                             </div>
                                         </li>
                                         <li class="item">
@@ -395,7 +446,7 @@ require '../../assets/php/inc/nav.php';
                                                 <i class="fas fa-check"></i>
                                             </div>
                                             <div class="text">
-                                                IT Desktop Support
+                                                Microsoft Endpoint Security Engineer
                                             </div>
                                         </li>
                                     </ul>
@@ -691,5 +742,5 @@ require '../../assets/php/inc/nav.php';
 </div>
 
 <?php
-require '../../assets/php/inc/footer.php';
+require '../../../assets/php/inc/footer.php';
 ?>
