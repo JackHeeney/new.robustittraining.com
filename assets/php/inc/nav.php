@@ -929,8 +929,7 @@
                                     Expert <i class="fas fa-chevron-right fcr-animate"></i></a>
                             </li>
                             <li>
-                                <a class="dropdown-item"
-                                    href="<?php echo SITE_ADDR ?>/career/<? echo SITE_ADDR ?>/career/">Finance and
+                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">Finance and
                                     Operations Apps <i class="fas fa-chevron-right fcr-animate"></i></a>
                             </li>
                             <li>

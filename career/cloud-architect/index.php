@@ -111,15 +111,15 @@ require '../../assets/php/inc/nav.php';
                     <div class="work single-portfolio">
                         <div class="thumbnail">
                             <a class="image"
-                                href="http://localhost/new.robustittraining.com/vendor/aws/aws-solutions-architect-professional"
+                                href="<? echo SITE_ADDR ?>/career/cloud-architect/aws-solutions-architect-professional"
                                 alt="AWS
                                 Solution Architect Professional"><img
-                                    src="http://localhost/new.robustittraining.com/assets/images/project/aws/aws-solution-architect-pro.jpg"
+                                    src="<? echo SITE_ADDR ?>/assets/images/project/aws/aws-solution-architect-pro.jpg"
                                     alt="aws-solution-architect-pro.jpg"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a
-                                    href="http://localhost/new.robustittraining.com/vendor/aws/aws-solutions-architect-professional"
+                                    href="<? echo SITE_ADDR ?>/career/cloud-architect/aws-solutions-architect-professional"
                                     alt="AWS
                                 Solution Architect Professional">AWS
                                     Solution Architect Professional</a>
@@ -128,7 +128,7 @@ require '../../assets/php/inc/nav.php';
                                 critical skills for implementing cloud initiatives. Earning AWS Certified Solutions
                                 Architect – Professional validates the ability to design, deploy, and evaluate
                                 applications on AWS within diverse, complex requirements.</p>
-                            <a href="http://localhost/new.robustittraining.com/vendor/aws/aws-solutions-architect-professional"
+                            <a href="<? echo SITE_ADDR ?>/career/cloud-architect/aws-solutions-architect-professional"
                                 alt="AWS
                                 Solution Architect Professional">View
                                 Course <i class="fas fa-chevron-right fcr-animate"></i></a>
@@ -142,20 +142,22 @@ require '../../assets/php/inc/nav.php';
                     <div class="work single-portfolio">
                         <div class="thumbnail">
                             <a class="image"
-                                href="<?php echo SITE_ADDR ?>/career/1st-line-support/microsoft-certified-azure-administration-associate"
-                                alt="link to microsoft-certified-azure-administration-associate"><img
-                                    src="<?php echo SITE_ADDR ?>/assets/images/project/microsoft/associate.jpg"
-                                    alt="associate.jpg"></a>
+                                href="<?php echo SITE_ADDR ?>/career/cloud-architect/microsoft-certified-azure-solutions-architect-expert"
+                                alt="link to Microsoft Certified: Dynamics 365: Finance and Operations Apps Solution Architect Expert"><img
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/microsoft/expert.jpg"
+                                    alt="expert.jpg"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a
-                                    href="<?php echo SITE_ADDR ?>/career/1st-line-support/microsoft-certified-azure-administration-associate"
-                                    alt="link to microsoft-certified-azure-administration-associate">Microsoft
-                                    Certified: Azure Administrator Associate</a></h3>
-                            <p class="desc">Azure administrators implement, manage, and monitor an organization’s
-                                Microsoft Azure environment.</p>
-                            <a href="<?php echo SITE_ADDR ?>/career/1st-line-support/microsoft-certified-azure-administration-associate"
-                                alt="link to microsoft-certified-azure-administration-associate">View
+                                    href="<?php echo SITE_ADDR ?>/career/cloud-architect/microsoft-certified-azure-solutions-architect-expert"
+                                    alt="link to Microsoft Certified: Dynamics 365: Finance and Operations Apps Solution Architect Expert">Microsoft
+                                    Certified: Azure Solutions Architect Expert</a>
+                            </h3>
+                            <p class="desc">Azure solution architects have subject matter expertise in designing cloud
+                                and hybrid solutions that run on Microsoft Azure, including compute, network, storage,
+                                monitor, and security.</p>
+                            <a href="<?php echo SITE_ADDR ?>/career/cloud-architect/microsoft-certified-azure-solutions-architect-expert"
+                                alt="link to Microsoft Certified: Dynamics 365: Finance and Operations Apps Solution Architect Expert">View
                                 Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -167,21 +169,48 @@ require '../../assets/php/inc/nav.php';
                     <div class="work single-portfolio">
                         <div class="thumbnail">
                             <a class="image"
-                                href="<?php echo SITE_ADDR ?>/career/1st-line-support/microsoft-certified-azure-for-sap-workloads-specialty"
+                                href="<?php echo SITE_ADDR ?>/career/cloud-architect/microsoft-certified-dynamics-365-finance-and-operations-apps-solutions-architect-expert"
+                                alt="link to Microsoft Certified: Dynamics 365: Finance and Operations Apps Solution Architect Expert"><img
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/microsoft/associate.jpg"
+                                    alt="associate.jpg"></a>
+                        </div>
+                        <div class="info">
+                            <h3 class="title"><a
+                                    href="<?php echo SITE_ADDR ?>/career/cloud-architect/microsoft-certified-dynamics-365-finance-and-operations-apps-solutions-architect-expert"
+                                    alt="link to Microsoft Certified: Dynamics 365: Finance and Operations Apps Solution Architect Expert">Microsoft
+                                    Certified: Dynamics 365: Finance and Operations Apps Solution Architect Expert</a>
+                            </h3>
+                            <p class="desc">As a candidate for this certification, you’re a Dynamics 365 professional
+                                who advises stakeholders and translates business requirements into secure, scalable, and
+                                reliable solutions.</p>
+                            <a href="<?php echo SITE_ADDR ?>/career/cloud-architect/microsoft-certified-dynamics-365-finance-and-operations-apps-solutions-architect-expert"
+                                alt="link to Microsoft Certified: Dynamics 365: Finance and Operations Apps Solution Architect Expert">View
+                                Course <i class="fas fa-chevron-right fcr-animate"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Work End -->
+
+                <!-- Single Work Start -->
+                <div class="col mb-6">
+                    <div class="work single-portfolio">
+                        <div class="thumbnail">
+                            <a class="image"
+                                href="<?php echo SITE_ADDR ?>/career/cloud-architect/microsoft-certified-azure-for-sap-workloads-specialty"
                                 alt="link to microsoft certified azure for sap workloads specialty"><img
                                     src="<?php echo SITE_ADDR ?>/assets/images/project/microsoft/specialty.jpg"
                                     alt="specialty.jpg"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a
-                                    href="<?php echo SITE_ADDR ?>/career/1st-line-support/microsoft-certified-azure-for-sap-workloads-specialty"
+                                    href="<?php echo SITE_ADDR ?>/career/cloud-architect/microsoft-certified-azure-for-sap-workloads-specialty"
                                     alt="link to microsoft certified azure for sap workloads specialty">Microsoft
                                     Certified: Azure for SAP Workloads Specialty</a>
                             </h3>
                             <p class="desc">Candidates for the Azure Virtual Desktop Specialty certification are
                                 Microsoft Azure administrators with subject matter expertise in planning, delivering,
                                 and managing virtual desktop experiences and remote apps, for any device, on Azure.</p>
-                            <a href="<?php echo SITE_ADDR ?>/career/1st-line-support/microsoft-certified-azure-for-sap-workloads-specialty"
+                            <a href="<?php echo SITE_ADDR ?>/career/cloud-architect/microsoft-certified-azure-for-sap-workloads-specialty"
                                 alt="link to microsoft certified azure for sap workloads specialty">View
                                 Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
@@ -194,21 +223,22 @@ require '../../assets/php/inc/nav.php';
                     <div class="work single-portfolio">
                         <div class="thumbnail">
                             <a class="image"
-                                href="<?php echo SITE_ADDR ?>/career/1st-line-support/microsoft-certified-azure-stack-hub-operator-associate"
+                                href="<?php echo SITE_ADDR ?>/career/cloud-architect/microsoft-certified-power-platform-solution-architect-expert"
                                 alt="link to microsoft certified azure stack hub operator associate"><img
-                                    src="<?php echo SITE_ADDR ?>/assets/images/project/microsoft/associate.jpg"
-                                    alt="associate.jpg"></a>
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/microsoft/expert.jpg"
+                                    alt="expert.jpg"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a
-                                    href="<?php echo SITE_ADDR ?>/career/1st-line-support/microsoft-certified-azure-stack-hub-operator-associate"
+                                    href="<?php echo SITE_ADDR ?>/career/cloud-architect/microsoft-certified-power-platform-solution-architect-expert"
                                     alt="link to microsoft certified azure stack hub operator associate">Microsoft
-                                    Certified: Azure Stack Hub Operator Associate</a>
+                                    Certified: Power Platform Solution Architect Expert</a>
                             </h3>
-                            <p class="desc">Candidates for the Azure Stack Hub Operator Associate certification are
-                                Azure administrators or Azure Stack Hub operators who provide cloud services to end
-                                users or customers from within their own datacenter using Azure Stack Hub.</p>
-                            <a href="<?php echo SITE_ADDR ?>/career/1st-line-support/microsoft-certified-azure-stack-hub-operator-associate"
+                            <p class="desc">If you’re looking to prove your expertise as a Microsoft Power Platform or
+                                Microsoft Dynamics 365 solution architect, or if you’re a developer or a senior
+                                consultant ready to take the next step to become a solution architect, this expert
+                                certification can help you move forward in your career.</p>
+                            <a href="<?php echo SITE_ADDR ?>/career/cloud-architect/microsoft-certified-power-platform-solution-architect-expert"
                                 alt="link to microsoft certified azure stack hub operator associate">View
                                 Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>

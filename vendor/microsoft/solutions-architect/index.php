@@ -141,9 +141,10 @@ require '../../../assets/php/inc/nav.php';
                             <h3 class="title"><a
                                     href="<?php echo SITE_ADDR ?>/vendor/microsoft/solutions-architect/microsoft-certified-power-platform-solution-architect-expert">Microsoft
                                     Certified: Power Platform Solution Architect Expert</a></h3>
-                            <p class="desc">Candidates for the Azure Stack Hub Operator Associate certification are
-                                Azure administrators or Azure Stack Hub operators who provide cloud services to end
-                                users or customers from within their own datacenter using Azure Stack Hub.</p>
+                            <p class="desc">If you’re looking to prove your expertise as a Microsoft Power Platform or
+                                Microsoft Dynamics 365 solution architect, or if you’re a developer or a senior
+                                consultant ready to take the next step to become a solution architect, this expert
+                                certification can help you move forward in your career.</p>
                             <a
                                 href="<?php echo SITE_ADDR ?>/vendor/microsoft/solutions-architect/microsoft-certified-power-platform-solution-architect-expert">View
                                 Course <i class="fas fa-chevron-right fcr-animate"></i></a>
