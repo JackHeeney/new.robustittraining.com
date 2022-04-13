@@ -68,11 +68,10 @@ require '../../../assets/php/inc/nav.php';
                             <h3 class="title"><a
                                     href="<?php echo SITE_ADDR ?>/vendor/axelos/itil/itil-4-foundation">ITIL&#174; 4
                                     Foundation</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque hic, cum
-                                fugit esse a amet quidem quisquam officia ab itaque, blanditiis possimus cumque qui. Sed
-                                magnam consequuntur a rem quibusdam?/p>
-                                <a href="<?php echo SITE_ADDR ?>/vendor/axelos/itil/itil-4-foundation">View
-                                    Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
+                            <p class="desc">ITIL 4 Foundation introduces an end-to-end operating model for the creation,
+                                delivery and continual improvement of technology-enabled products and services</p>
+                            <a href="<?php echo SITE_ADDR ?>/vendor/axelos/itil/itil-4-foundation">View
+                                Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>

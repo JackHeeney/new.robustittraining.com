@@ -251,20 +251,21 @@ require '../../assets/php/inc/nav.php';
                     <div class="work single-portfolio">
                         <div class="thumbnail">
                             <a class="image"
-                                href="<?php echo SITE_ADDR ?>/career/1st-line-support/microsoft-certified-azure-administration-associate"
-                                alt="link to microsoft-certified-azure-administration-associate"><img
+                                href="<?php echo SITE_ADDR ?>/career/cloud-architect/microsoft-certified-azure-data-engineer-associate"
+                                alt="link to Microsoft Certified: Azure Data Engineer Associate"><img
                                     src="<?php echo SITE_ADDR ?>/assets/images/project/microsoft/associate.jpg"
                                     alt="associate.jpg"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a
-                                    href="<?php echo SITE_ADDR ?>/career/1st-line-support/microsoft-certified-azure-administration-associate"
-                                    alt="link to microsoft-certified-azure-administration-associate">Microsoft
-                                    Certified: Azure Administrator Associate</a></h3>
-                            <p class="desc">Azure administrators implement, manage, and monitor an organization’s
-                                Microsoft Azure environment.</p>
-                            <a href="<?php echo SITE_ADDR ?>/career/1st-line-support/microsoft-certified-azure-administration-associate"
-                                alt="link to microsoft-certified-azure-administration-associate">View
+                                    href="<?php echo SITE_ADDR ?>/career/cloud-architect/microsoft-certified-azure-data-engineer-associate"
+                                    alt="link to Microsoft Certified: Azure Data Engineer Associate">Microsoft
+                                    Certified: Azure Data Engineer Associate</a></h3>
+                            <p class="desc">Azure data engineers integrate, transform, and consolidate data from various
+                                structured and unstructured data systems into structures that are suitable for building
+                                analytics solutions.</p>
+                            <a href="<?php echo SITE_ADDR ?>/career/cloud-architect/microsoft-certified-azure-data-engineer-associate"
+                                alt="link to Microsoft Certified: Azure Data Engineer Associate">View
                                 Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -276,49 +277,22 @@ require '../../assets/php/inc/nav.php';
                     <div class="work single-portfolio">
                         <div class="thumbnail">
                             <a class="image"
-                                href="<?php echo SITE_ADDR ?>/career/1st-line-support/microsoft-certified-azure-for-sap-workloads-specialty"
-                                alt="link to microsoft certified azure for sap workloads specialty"><img
-                                    src="<?php echo SITE_ADDR ?>/assets/images/project/microsoft/specialty.jpg"
-                                    alt="specialty.jpg"></a>
-                        </div>
-                        <div class="info">
-                            <h3 class="title"><a
-                                    href="<?php echo SITE_ADDR ?>/career/1st-line-support/microsoft-certified-azure-for-sap-workloads-specialty"
-                                    alt="link to microsoft certified azure for sap workloads specialty">Microsoft
-                                    Certified: Azure for SAP Workloads Specialty</a>
-                            </h3>
-                            <p class="desc">Candidates for the Azure Virtual Desktop Specialty certification are
-                                Microsoft Azure administrators with subject matter expertise in planning, delivering,
-                                and managing virtual desktop experiences and remote apps, for any device, on Azure.</p>
-                            <a href="<?php echo SITE_ADDR ?>/career/1st-line-support/microsoft-certified-azure-for-sap-workloads-specialty"
-                                alt="link to microsoft certified azure for sap workloads specialty">View
-                                Course <i class="fas fa-chevron-right fcr-animate"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Work End -->
-
-                <!-- Single Work Start -->
-                <div class="col mb-6">
-                    <div class="work single-portfolio">
-                        <div class="thumbnail">
-                            <a class="image"
-                                href="<?php echo SITE_ADDR ?>/career/1st-line-support/microsoft-certified-azure-stack-hub-operator-associate"
-                                alt="link to microsoft certified azure stack hub operator associate"><img
+                                href="<?php echo SITE_ADDR ?>/career/cloud-architect/microsoft-certified-azure-data-scientist-associate"
+                                alt="link to Microsoft Certified: Azure Data Scientist Associate"><img
                                     src="<?php echo SITE_ADDR ?>/assets/images/project/microsoft/associate.jpg"
                                     alt="associate.jpg"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a
-                                    href="<?php echo SITE_ADDR ?>/career/1st-line-support/microsoft-certified-azure-stack-hub-operator-associate"
-                                    alt="link to microsoft certified azure st ack hub operator associate">Microsoft
-                                    Certified: Azure Stack Hub Operator Associate</a>
+                                    href="<?php echo SITE_ADDR ?>/career/cloud-architect/microsoft-certified-azure-data-scientist-associate"
+                                    alt="link to Microsoft Certified: Azure Data Scientist Associate">Microsoft
+                                    Certified: Azure Data Scientist Associate</a>
                             </h3>
-                            <p class="desc">Candidates for the Azure Stack Hub Operator Associate certification are
-                                Azure administrators or Azure Stack Hub operators who provide cloud services to end
-                                users or customers from within their own datacenter using Azure Stack Hub.</p>
-                            <a href="<?php echo SITE_ADDR ?>/career/1st-line-support/microsoft-certified-azure-stack-hub-operator-associate"
-                                alt="link to microsoft certified azure stack hub operator associate">View
+                            <p class="desc">The Azure data scientist applies their knowledge of data science and machine
+                                learning to implement and run machine learning workloads on Azure; in particular, using
+                                Azure Machine Learning Service.</p>
+                            <a href="<?php echo SITE_ADDR ?>/career/cloud-architect/microsoft-certified-azure-data-scientist-associate"
+                                alt="link to Microsoft Certified: Azure Data Scientist Associate">View
                                 Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>

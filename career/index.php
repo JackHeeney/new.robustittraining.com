@@ -124,17 +124,17 @@ require '../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<?php echo SITE_ADDR ?>/career/it-project-manger"
+                            <a class="image" href="<?php echo SITE_ADDR ?>/career/it-project-manager"
                                 alt="link to it project manager courses"><img
                                     src="<?php echo SITE_ADDR ?>/assets/images/project/by-career/it-project-manager.jpg"
                                     title="link to it project manager courses" alt="it-project-manager.jpg"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/career/it-project-manger"
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/career/it-project-manager"
                                     alt="link to it project manager courses">IT Project Manager</a></h3>
                             <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
                                 culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<?php echo SITE_ADDR ?>/career/it-project-manger"
+                            <a href="<?php echo SITE_ADDR ?>/career/it-project-manager"
                                 alt="link to it project manager courses">View Courses <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>

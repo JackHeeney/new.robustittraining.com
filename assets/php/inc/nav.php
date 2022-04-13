@@ -912,45 +912,63 @@
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <li>
-                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">AWS Cloud Practitioner
+                                <a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/cloud-architect/aws-cloud-practitioner">AWS
+                                    Cloud Practitioner
                                     <i class="fas fa-chevron-right fcr-animate"></i></a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">AWS Solutions Architect
+                                <a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/cloud-architect/aws-solutions-architect-associate">AWS
+                                    Solutions Architect
                                     (Assoc) <i class="fas fa-chevron-right fcr-animate"></i></a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">AWS Solutions Architect
+                                <a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/cloud-architect/aws-solutions-architect-professional">AWS
+                                    Solutions Architect
                                     (Pro) <i class="fas fa-chevron-right fcr-animate"></i></a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">Azure Solutions
+                                <a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/cloud-architect/microsoft-certified-azure-solutions-architect-expert">Azure
+                                    Solutions
                                     Architect
                                     Expert <i class="fas fa-chevron-right fcr-animate"></i></a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">Finance and
+                                <a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/cloud-architect/microsoft-certified-dynamics-365-finance-and-operations-apps-solutions-architect-expert">Finance
+                                    and
                                     Operations Apps <i class="fas fa-chevron-right fcr-animate"></i></a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">Azure for SAP Workloads
+                                <a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/cloud-architect/microsoft-certified-azure-for-sap-workloads-specialty">Azure
+                                    for SAP Workloads
                                     Specialty <i class="fas fa-chevron-right fcr-animate"></i></a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">Power Platform Solution
+                                <a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/cloud-architect/microsoft-certified-power-platform-solution-architect-expert">Power
+                                    Platform Solution
                                     Architect <i class="fas fa-chevron-right fcr-animate"></i> </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">Azure Data Engineer
+                                <a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/cloud-architect/microsoft-certified-azure-data-engineer-associate">Azure
+                                    Data Engineer
                                     Associate <i class="fas fa-chevron-right fcr-animate"></i></a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">Azure Data Scientist
+                                <a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/cloud-architect/microsoft-certified-azure-data-scientist-associate">Azure
+                                    Data Scientist
                                     Associate <i class="fas fa-chevron-right fcr-animate"></i></a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">View all <i
-                                        class="fas fa-chevron-right fcr-animate"></i></a>
+                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/cloud-architect">View all
+                                    <i class="fas fa-chevron-right fcr-animate"></i></a>
                             </li>
                         </ul>
 
@@ -966,24 +984,32 @@
                             Ethical Hacker
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <li><a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">C|EH <i
+                            <li><a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/ethical-hacker/certified-ethical-hacker">C|EH
+                                    <i class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/ethical-hacker/certified-network-defender">C|ND
+                                    <i class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/ethical-hacker/computer-hacking-forensic-investigator">C|HFI
+                                    <i class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/ethical-hacker/certified-cloud-security-engineer">C|CSE
+                                    <i class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/ethical-hacker/comptia-linux">Linux+ <i
                                         class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">C|ND <i
-                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">C|HFI <i
-                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">C|CSE <i
-                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">Linux+ <i
-                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">PenTest+ <i
-                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">CySA+ <i
-                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">CASP+ <i
-                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">View all <i
-                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/ethical-hacker/comptia-pentest">PenTest+
+                                    <i class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/ethical-hacker/comptia-cysa">CySA+
+                                    <i class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/ethical-hacker/comptia-casp">CASP+
+                                    <i class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/ethical-hacker">View
+                                    all <i class="fas fa-chevron-right fcr-animate"></i></a></li>
                         </ul>
 
                     </div>
@@ -998,20 +1024,26 @@
                             Network Engineer
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <li><a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">Network+ <i
+                            <li><a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/network-engineer/comptia-network">Network+ <i
                                         class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">Server+ <i
+                            <li><a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/network-engineer/comptia-server">Server+ <i
                                         class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">CCNA <i
+                            <li><a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/network-engineer/comptia-casp">CASP+ <i
                                         class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">CCNP Security <i
+                            <li><a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/network-engineer/certified-network-defender">C|ND
+                                    <i class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/network-engineer/ccna">CCNA <i
                                         class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">CASP+ <i
-                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">C|ND <i
-                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">View all <i
-                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/network-engineer/ccnp-security">CCNP Security
+                                    <i class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/network-engineer">View all
+                                    <i class="fas fa-chevron-right fcr-animate"></i></a></li>
                         </ul>
 
                     </div>
@@ -1026,13 +1058,24 @@
                             IT Project Manager
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <li><a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">ITIL 4 Foundation <i
-                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">PRINCE2 <i
-                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">PRINCE2 Agile <i
-                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">Internatnal Managing
+                            <li><a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/it-project-manager/itil-4-foundation">ITIL 4
+                                    Foundation <i class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/it-project-manager/prince2-4-foundation/">PRINCE2
+                                    Foundation<i class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/it-project-manager/prince2-4-practitioner/">PRINCE2
+                                    Practitioner <i class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/it-project-manager/prince2-agile-foundation/">PRINCE2
+                                    Agile
+                                    Foundation<i class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/it-project-manager/prince2-agile-practitioner/">PRINCE2
+                                    Agile
+                                    Practitioner<i class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <!-- <li><a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">Internatnal Managing
                                     Benefits&#0153; <i class="fas fa-chevron-right fcr-animate"></i></a></li>
                             <li><a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">Change
                                     Management <i class="fas fa-chevron-right fcr-animate"></i></a></li>
@@ -1041,9 +1084,9 @@
                             <li><a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">Project Fundamentals
                                     <i class="fas fa-chevron-right fcr-animate"></i></a></li>
                             <li><a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">Six Sigma Black Belt <i
-                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">View all <i
-                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li> -->
+                            <li><a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/it-project-manager">View
+                                    all <i class="fas fa-chevron-right fcr-animate"></i></a></li>
                         </ul>
 
                     </div>

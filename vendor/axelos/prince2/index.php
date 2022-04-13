@@ -70,9 +70,10 @@ require '../../../assets/php/inc/nav.php';
                                     href="<?php echo SITE_ADDR ?>/vendor/axelos/prince2/prince2-4-foundation">PRINCE2&#174;
                                     4
                                     Foundation</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, quaerat
-                                quisquam? Laborum, pariatur delectus reiciendis quod quasi ullam labore perferendis
-                                quisquam asperiores impedit saepe sequi, esse culpa, laboriosam totam harum.
+                            <p class="desc">The Foundation Level certification introduces the PRINCE2 method and aims to
+                                confirm that you know and understand the PRINCE2 method well enough to be able to work
+                                effectively with, or as a member of, a project management team working within an
+                                environment supporting PRINCE2.
                             <p>
                                 <a href="<?php echo SITE_ADDR ?>/vendor/axelos/prince2/prince2-4-foundation">View
                                     Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
@@ -95,9 +96,9 @@ require '../../../assets/php/inc/nav.php';
                                     href="<?php echo SITE_ADDR ?>/vendor/axelos/prince2/prince2-4-practitioner">PRINCE2&#174;
                                     4
                                     Practitioner</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, quaerat
-                                quisquam? Laborum, pariatur delectus reiciendis quod quasi ullam labore perferendis
-                                quisquam asperiores impedit saepe sequi, esse culpa, laboriosam totam harum.
+                            <p class="desc">PRINCE2 Practitioner certification is suitable for anyone managing projects.
+                                This could be as part of a formal project management function or a role which involves
+                                project management as part of day-to-day work.
                             <p>
                                 <a href="<?php echo SITE_ADDR ?>/vendor/axelos/prince2/prince2-4-practitioner">View
                                     Courses <i class="fas fa-chevron-right fcr-animate"></i></a>

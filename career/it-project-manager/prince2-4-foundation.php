@@ -12,8 +12,8 @@ $meta['og:url'] = "";
 
 $leadIsFrom = "Lead is from /axelos/prince2/prince2-4-foundation";
 
-require '../../../assets/php/inc/header.php';
-require '../../../assets/php/inc/nav.php';
+require '../../assets/php/inc/header.php';
+require '../../assets/php/inc/nav.php';
 ?>
 
 <div id="page work-details" class="section">
@@ -206,7 +206,7 @@ require '../../../assets/php/inc/nav.php';
                     <div class="container">
                         <div class="row my-lg-10 my-10">
                             <div class="col-lg-12">
-                                <? require '../../../assets/php/component/brand.php';
+                                <? require '../../assets/php/component/brand.php';
                                 ?>
                             </div>
                         </div>
@@ -760,5 +760,5 @@ require '../../../assets/php/inc/nav.php';
 </div>
 
 <?php
-require '../../../assets/php/inc/footer.php';
+require '../../assets/php/inc/footer.php';
 ?>
