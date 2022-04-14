@@ -470,8 +470,9 @@ require './assets/php/inc/nav.php';
                                         alt="link to microsoft azure fundamentals">Microsoft
                                         Azure
                                         Fundamentals</a></h3>
-                                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                    culpa, unde perspiciatis hic delectus.</p>
+                                <p class="desc">Candidates for the Azure Administrator Associate certification should
+                                    have subject matter expertise implementing, managing, and monitoring an
+                                    organization’s Microsoft Azure environment.</p>
                                 <a href="<?php echo SITE_ADDR ?>/vendor/microsoft/azure/microsoft-certified-azure-fundamentals"
                                     alt="link to microsoft azure fundamentals">View
                                     Course <i class="fas fa-chevron-right fcr-animate"></i></a>
@@ -497,8 +498,9 @@ require './assets/php/inc/nav.php';
                                         alt="link to comptia security+">CompTIA
                                         Security+</a>
                                 </h3>
-                                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                    culpa, unde perspiciatis hic delectus.</p>
+                                <p class="desc">CompTIA Security+ is a global certification that validates the baseline
+                                    skills necessary to perform core security functions and pursue an IT security
+                                    career.</p>
                                 <a href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-security"
                                     alt="link to comptia security+">View Course <i
                                         class="fas fa-chevron-right fcr-animate"></i></a>
@@ -524,8 +526,9 @@ require './assets/php/inc/nav.php';
                                 <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-network"
                                         alt="link to comptia network+">CompTIA
                                         Network+</a></h3>
-                                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                    culpa, unde perspiciatis hic delectus.</p>
+                                <p class="desc">CompTIA Network+ validates the technical skills needed to securely
+                                    establish, maintain and troubleshoot the essential networks that businesses rely on.
+                                </p>
                                 <a href="<?php echo SITE_ADDR ?>/vendor/comptia/comptia-network"
                                     alt="link to comptia network+">View Course <i
                                         class="fas fa-chevron-right fcr-animate"></i></a>
@@ -553,8 +556,10 @@ require './assets/php/inc/nav.php';
                                         alt="link to ec-council certified certified ethical hacker">Certified
                                         Ethical
                                         Hacker</a></h3>
-                                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                    culpa, unde perspiciatis hic delectus.</p>
+                                <p class="desc">A Certified Ethical Hacker is a skilled professional who understands and
+                                    knows how to look for weaknesses and vulnerabilities in target systems and uses the
+                                    same knowledge and tools as a malicious hacker, but in a lawful and legitimate
+                                    manner to assess the security posture of a target system(s).</p>
                                 <a href="<?php echo SITE_ADDR ?>/vendor/ec-council/certified-ethical-hacker"
                                     alt="link to ec-council certified certified ethical hacker">View Course
                                     <i class="fas fa-chevron-right fcr-animate"></i></a>
@@ -583,8 +588,8 @@ require './assets/php/inc/nav.php';
                                         alt="link to ec-council certified cloud security engineer">Certified
                                         Cloud
                                         Security Engineer</a></h3>
-                                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                    culpa, unde perspiciatis hic delectus.</p>
+                                <p class="desc">Cloud technology has transformed the technology landscape and will
+                                    continue to do so for years to come.</p>
                                 <a href="<?php echo SITE_ADDR ?>/vendor/ec-council/certified-cloud-security-engineer"
                                     alt="link to ec-council certified cloud security engineer">View
                                     Course <i class="fas fa-chevron-right fcr-animate"></i></a>
