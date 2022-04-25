@@ -33,7 +33,7 @@ require '../../assets/php/inc/nav.php';
                     <li><a href="<?php echo SITE_ADDR ?>/">Home</a></li>
                     <li><a href="<?php echo SITE_ADDR ?>/vendor">Vendor</a></li>
                     <li><a href="<?php echo SITE_ADDR ?>/vendor/aws">AWS</a></li>
-                    <li class="current">SysOps Administrator</li>
+                    <li class="current">AWS SysOps Administrator</li>
                 </ul>
             </div>
         </div>

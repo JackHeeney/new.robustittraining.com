@@ -48429,6 +48429,7 @@ only screen and (max-width: 767px) {
     position: relative;
     top: 20px;
     transform: scale(1.5);
+    right: 80px !important;
   }
 }
 

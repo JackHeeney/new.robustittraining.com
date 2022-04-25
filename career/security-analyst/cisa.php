@@ -19,7 +19,8 @@ require '../../assets/php/inc/nav.php';
 
 <div id="page work-details" class="section">
     <!-- Page Title Section Start -->
-    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7" data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/bg-certified-ethical-hacker.jpg">
+    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7"
+        data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/bg-certified-ethical-hacker.jpg">
         <div class="page-title">
             <div class="container">
                 <h1 class="title">CISA - Certified Information Systems Auditor</h1>
@@ -31,8 +32,8 @@ require '../../assets/php/inc/nav.php';
             <div class="container">
                 <ul class="breadcrumb justify-content-center">
                     <li><a href="<?php echo SITE_ADDR ?>/">Home</a></li>
-                    <li><a href="<?php echo SITE_ADDR ?>/vendor">Vendor</a></li>
-                    <li><a href="<?php echo SITE_ADDR ?>/vendor/isaca">ISACA</a></li>
+                    <li><a href="<?php echo SITE_ADDR ?>/career">Career</a></li>
+                    <li><a href="<?php echo SITE_ADDR ?>/career/security-analyst">Security Analyst</a></li>
                     <li class="current">CISA</li>
                 </ul>
             </div>
@@ -53,7 +54,8 @@ require '../../assets/php/inc/nav.php';
                                 course
                             </h2>
                             <div class="work-details-course-logo">
-                                <img src="<?php echo SITE_ADDR ?>/assets/images/logo/isaca/cisa.png" alt="CISA logo" class="w-100">
+                                <img src="<?php echo SITE_ADDR ?>/assets/images/logo/isaca/cisa.png" alt="CISA logo"
+                                    class="w-100">
                             </div>
                             <!-- Start Details List -->
                             <div class="work-details-list my-10">
@@ -90,7 +92,9 @@ require '../../assets/php/inc/nav.php';
                             <!-- End Details List -->
 
                             <div class="work-btn mb-10">
-                                <a class="btn btn-outline-secondary btn-hover--secondary" href="<?php echo SITE_ADDR ?>/assets/pdf/exam-guides/isaca/cisa/Exam-Candidate-Guide-English_0621.pdf" target="_blank" alt="download CISA exam guide">
+                                <a class="btn btn-outline-secondary btn-hover--secondary"
+                                    href="<?php echo SITE_ADDR ?>/assets/pdf/exam-guides/isaca/cisa/Exam-Candidate-Guide-English_0621.pdf"
+                                    target="_blank" alt="download CISA exam guide">
                                     Download the study guide
                                     <i class="fas fa-download fcr-animate"></i>
                                 </a>
@@ -102,16 +106,19 @@ require '../../assets/php/inc/nav.php';
                                 <div class="links">
                                     <ul>
                                         <li class="social-share facebook">
-                                            <h6 class="heading heading-h6">Share on Facebook <i class="fas fa-share fcr-animate"></i></h6>
+                                            <h6 class="heading heading-h6">Share on Facebook <i
+                                                    class="fas fa-share fcr-animate"></i></h6>
 
                                         </li>
                                         <li class="social-share twitter">
-                                            <h6 class="heading heading-h6">Share on Twitter <i class="fas fa-share fcr-animate"></i>
+                                            <h6 class="heading heading-h6">Share on Twitter <i
+                                                    class="fas fa-share fcr-animate"></i>
                                             </h6>
 
                                         </li>
                                         <li class="social-share linkedin">
-                                            <h6 class="heading heading-h6">Share on LinkedIn <i class="fas fa-share fcr-animate"></i></h6>
+                                            <h6 class="heading heading-h6">Share on LinkedIn <i
+                                                    class="fas fa-share fcr-animate"></i></h6>
 
                                         </li>
                                     </ul>
@@ -159,7 +166,8 @@ require '../../assets/php/inc/nav.php';
 
 
                                     <div class="work-btn">
-                                        <a class="btn btn-secondary btn-hover--secondary" href="#beginnersModal" data-toggle="modal" data-target="#beginnersModal">Beginners start here
+                                        <a class="btn btn-secondary btn-hover--secondary" href="#beginnersModal"
+                                            data-toggle="modal" data-target="#beginnersModal">Beginners start here
                                             <i class="fas fa-chevron-right fcr-animate"></i></a>
                                     </div>
                                 </div>
@@ -269,7 +277,8 @@ require '../../assets/php/inc/nav.php';
                             <div class="video-popup-area">
                                 <!-- Video Popup Start -->
                                 <div class="skill-video" data-aos="fade-up">
-                                    <img class="image" src="<?php echo SITE_ADDR ?>/assets/images/video/skill-video.jpg" alt="video popup">
+                                    <img class="image" src="<?php echo SITE_ADDR ?>/assets/images/video/skill-video.jpg"
+                                        alt="video popup">
                                     <a href="https://www.youtube.com/watch?v=eS9Qm4AOOBY" class="icon video-popup">
                                         <i class="fas fa-play"></i>
                                     </a>
@@ -279,7 +288,8 @@ require '../../assets/php/inc/nav.php';
                                 <!-- Animation Shape Start -->
                                 <div class="shape shape-1 scene">
                                     <span data-depth="1">
-                                        <img src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/video-shape-1.png" alt="">
+                                        <img src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/video-shape-1.png"
+                                            alt="">
                                     </span>
                                 </div>
                                 <!-- Animation Shape End -->
@@ -297,7 +307,9 @@ require '../../assets/php/inc/nav.php';
             <!-- Start Brand and Labs -->
 
             <!-- Start Average Salary Area -->
-            <div class="text-white row my-lg-12 my-10 p-10 pl-2 p-xl-10 pl-xl-10" data-bg-color="#fff" data-bg-image="https://www.expatica.com/app/uploads/sites/10/2014/05/Find-a-job-1-1200x675.jpg" data-overlay="0.9">
+            <div class="text-white row my-lg-12 my-10 p-10 pl-2 p-xl-10 pl-xl-10" data-bg-color="#fff"
+                data-bg-image="https://www.expatica.com/app/uploads/sites/10/2014/05/Find-a-job-1-1200x675.jpg"
+                data-overlay="0.9">
                 <div class="digital-marketing" data-aos="fade-up">
                     <div class="section-title-two">
                         <span class="sub-title text-white">Average salary for CISA
@@ -425,13 +437,16 @@ require '../../assets/php/inc/nav.php';
                                     <div class="card">
                                         <div class="card-header" id="headingOne">
                                             <h5 class="mb-0">
-                                                <a href="#" class="acc-btn border-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                <a href="#" class="acc-btn border-0" data-toggle="collapse"
+                                                    data-target="#collapseOne" aria-expanded="true"
+                                                    aria-controls="collapseOne">
                                                     Build a World Class Team
                                                 </a>
                                             </h5>
                                         </div>
 
-                                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                            data-parent="#accordionExample">
                                             <div class="card-body">
                                                 <p>
                                                     ISACA's Certified Information Security Manager (CISM) certification
@@ -447,12 +462,15 @@ require '../../assets/php/inc/nav.php';
                                     <div class="card">
                                         <div class="card-header" id="headingTwo">
                                             <h5 class="mb-0">
-                                                <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse"
+                                                    data-target="#collapseTwo" aria-expanded="false"
+                                                    aria-controls="collapseTwo">
                                                     CISA Job Practice Areas
                                                 </a>
                                             </h5>
                                         </div>
-                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                            data-parent="#accordionExample">
                                             <div class="card-body">
                                                 <p>
                                                     The CISM job practice consists of task and knowledge statements,
@@ -1263,19 +1281,24 @@ require '../../assets/php/inc/nav.php';
                                     <div class="card">
                                         <div class="card-header" id="headingThree">
                                             <h5 class="mb-0">
-                                                <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse"
+                                                    data-target="#collapseThree" aria-expanded="false"
+                                                    aria-controls="collapseThree">
                                                     Resources to assist on your path to becoming CISA certified:
                                                 </a>
                                             </h5>
                                         </div>
-                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                            data-parent="#accordionExample">
                                             <div class="card-body">
                                                 <p>
                                                     Access the Exam Candidate Guide here: The candidate’s guide to the
                                                     CISA exam including registration, scheduling, re-scheduling
                                                     information and important exam day terms and conditions.
                                                 </p>
-                                                <a class="btn btn-outline-secondary btn-hover--secondary my-5" href="<?php echo SITE_ADDR ?>/assets/pdf/exam-guides/isaca/cisa/Exam-Candidate-Guide-English_0621.pdf" target="_blank" alt="download CISA exam guide">
+                                                <a class="btn btn-outline-secondary btn-hover--secondary my-5"
+                                                    href="<?php echo SITE_ADDR ?>/assets/pdf/exam-guides/isaca/cisa/Exam-Candidate-Guide-English_0621.pdf"
+                                                    target="_blank" alt="download CISA exam guide">
                                                     Download the exam guide
                                                     <i class="fas fa-download fcr-animate"></i>
                                                 </a>
@@ -1284,7 +1307,9 @@ require '../../assets/php/inc/nav.php';
                                                     including exam preparation resources and information about
                                                     maintaining your certification.
                                                 </p>
-                                                <a class="btn btn-outline-secondary btn-hover--secondary my-5" href="<?php echo SITE_ADDR ?>/assets/pdf/exam-guides/isaca/cisa/CISAplanningguide_2019.pdf" target="_blank" alt="download CISA exam guide">
+                                                <a class="btn btn-outline-secondary btn-hover--secondary my-5"
+                                                    href="<?php echo SITE_ADDR ?>/assets/pdf/exam-guides/isaca/cisa/CISAplanningguide_2019.pdf"
+                                                    target="_blank" alt="download CISA exam guide">
                                                     Download the planning guide
                                                     <i class="fas fa-download fcr-animate"></i>
                                                 </a>
@@ -1311,7 +1336,8 @@ require '../../assets/php/inc/nav.php';
 
 
     <!-- Contact Section Start -->
-    <div class="section section-padding contact-section" id="scrollTo" data-bg-color="#000" data-overlay="0.7" data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/contact-bg.jpg">
+    <div class="section section-padding contact-section" id="scrollTo" data-bg-color="#000" data-overlay="0.7"
+        data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/contact-bg.jpg">
 
         <div class="container">
             <div class="row row-cols-lg-2 row-cols-1 align-items-center">
@@ -1330,7 +1356,8 @@ require '../../assets/php/inc/nav.php';
                         <!-- Contact Info Item Start -->
                         <div class="contact-info info-light" data-vivus-hover>
                             <div class="icon">
-                                <img class="svgInject" src="<?php echo SITE_ADDR ?>/assets/images/svg/linea/linea-basic-map.svg" alt="">
+                                <img class="svgInject"
+                                    src="<?php echo SITE_ADDR ?>/assets/images/svg/linea/linea-basic-map.svg" alt="">
                             </div>
                             <div class="info">
                                 <h4 class="title">Our Locations</h4>
@@ -1345,7 +1372,9 @@ require '../../assets/php/inc/nav.php';
                         <!-- Contact Info Item Start -->
                         <div class="contact-info info-light" data-vivus-hover>
                             <div class="icon">
-                                <img class="svgInject" src="<?php echo SITE_ADDR ?>/assets/images/svg/linea/linea-basic-message-txt.svg" alt="">
+                                <img class="svgInject"
+                                    src="<?php echo SITE_ADDR ?>/assets/images/svg/linea/linea-basic-message-txt.svg"
+                                    alt="">
                             </div>
                             <div class="info">
                                 <h4 class="title">Give Us A Call</h4>
@@ -1371,7 +1400,9 @@ require '../../assets/php/inc/nav.php';
                         <!-- Contact Info Item Start -->
                         <div class="contact-info info-light" data-vivus-hover>
                             <div class="icon">
-                                <img class="svgInject" src="<?php echo SITE_ADDR ?>/assets/images/svg/linea/linea-basic-mail-open-text.svg" alt="">
+                                <img class="svgInject"
+                                    src="<?php echo SITE_ADDR ?>/assets/images/svg/linea/linea-basic-mail-open-text.svg"
+                                    alt="">
                             </div>
                             <div class="info">
                                 <h4 class="title"> Help Desk</h4>
@@ -1411,9 +1442,11 @@ require '../../assets/php/inc/nav.php';
                             <input type="hidden" name="intDPAStatusPhoneID" value="1">
                             <input type="hidden" name="intDPAStatusSMSID" value="1">
                             <input type="hidden" name="intDPAStatusEmailID" value="1">
-                            <input type="hidden" name="strAPISuccessURL" value="http://www.robustittraining.com/thankyou" />
+                            <input type="hidden" name="strAPISuccessURL"
+                                value="http://www.robustittraining.com/thankyou" />
                             <input type="hidden" name="strAPIFailURL" value="http://www.robustittraining.com/sorry" />
-                            <input type="hidden" name="strLeadData2" id="strLeadData2" value="<?php echo $leadIsFrom ?>/" />
+                            <input type="hidden" name="strLeadData2" id="strLeadData2"
+                                value="<?php echo $leadIsFrom ?>/" />
                             <!-- //end -->
 
                             <div class="row mb-n4">
@@ -1433,7 +1466,8 @@ require '../../assets/php/inc/nav.php';
                                     <textarea name="message" placeholder="Message"></textarea>
                                 </div>
                                 <div class="col-12 text-center mb-4">
-                                    <button class="btn btn-primary btn-hover-secondary">Start Learning <i class="fas fa-chevron-right fcr-animate"></i></button>
+                                    <button class="btn btn-primary btn-hover-secondary">Start Learning <i
+                                            class="fas fa-chevron-right fcr-animate"></i></button>
                                 </div>
                             </div>
                         </form>
@@ -1442,7 +1476,8 @@ require '../../assets/php/inc/nav.php';
                         <!-- Animation Shape Start -->
                         <div class="shape shape-1 scene">
                             <span data-depth="1">
-                                <img src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/contact-shape.png" alt="">
+                                <img src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/contact-shape.png"
+                                    alt="">
                             </span>
                         </div>
                         <!-- Animation Shape End -->

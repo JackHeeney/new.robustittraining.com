@@ -1,17 +1,16 @@
 <?php
-
 // Change page title and meta tags here
-$title = "Robust IT Training | Official ISACA Online & Classroom Training";
+$title = "Robust IT Training | Search by career | Developer";
 $meta['keywords'] = "";
 $meta['description'] = "";
 
 // Social media meta tags
-$meta['og:title'] = "Robust IT Training | Official ISACA Online & Classroom Training";
+$meta['og:title'] = "Robust IT Training | Search by career | Developer";
 $meta['og:description'] = "";
 $meta['og:image'] = "";
 $meta['og:url'] = "";
 
-$leadIsFrom = "Lead is from /vendor/isaca";
+$leadIsFrom = "Lead is from /career/developer";
 
 require '../../assets/php/inc/header.php';
 require '../../assets/php/inc/nav.php';
@@ -26,15 +25,15 @@ require '../../assets/php/inc/nav.php';
         data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/breadcrumb-bg-two.jpg">
         <div class="page-title">
             <div class="container">
-                <h1 class="title">ISACA Courses</h1>
+                <h1 class="title">Developer Courses</h1>
             </div>
         </div>
         <div class="page-breadcrumb position-static">
             <div class="container">
                 <ul class="breadcrumb justify-content-center">
                     <li><a href="<?php echo SITE_ADDR ?>/">Home</a></li>
-                    <li><a href="<?php echo SITE_ADDR ?>/vendor">Vendor</a></li>
-                    <li class="current">ISACA</li>
+                    <li><a href="<?php echo SITE_ADDR ?>/career">Career</a></li>
+                    <li class="current">Developer</li>
                 </ul>
             </div>
         </div>
@@ -47,7 +46,7 @@ require '../../assets/php/inc/nav.php';
 
             <!-- Section Title Start -->
             <div class="section-title text-center " data-aos="fade-up">
-                <h2 class="title fz-32"> View our ISACA Courses :</h2>
+                <h2 class="title fz-32"> View our Developer Courses :</h2>
             </div>
             <!-- Section Title End -->
 
@@ -58,17 +57,23 @@ require '../../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/isaca/cisa"><img
-                                    src="<?php echo SITE_ADDR ?>/assets/images/project/isaca/cisa.jpg"
-                                    alt="cisa.jpg"></a>
+                            <a class="image" href="<?php echo SITE_ADDR ?>/career/devops/aws-sysops-administrator" alt="AWS
+                            SysOps Administrator"><img
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/aws/aws-sysops-administrator.jpg"
+                                    alt="aws-sysops-administrator.jpg"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/isaca/cisa">CISA &#174;</a></h3>
-                            <p class="desc">The CISA certification is world-renowned as the standard of achievement for
-                                those who audit, control, monitor and assess an organization’s information technology
-                                and business systems. </p>
-                            <a href="<?php echo SITE_ADDR ?>/vendor/isaca/cisa">View Course
-                                <i class="fas fa-chevron-right fcr-animate"></i></a>
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/career/devops/aws-sysops-administrator"
+                                    alt="AWS
+                            SysOps Administrator">AWS
+                                    SysOps Administrator</a></h3>
+                            <p class="desc">This credential helps organizations identify and develop talent with
+                                critical skills for implementing cloud initiatives. Earning AWS Certified SysOps
+                                Administrator – Associate demonstrates experience deploying, managing, and operating
+                                workloads on AWS.</p>
+                            <a href="<?php echo SITE_ADDR ?>/career/devops/aws-sysops-administrator" alt="AWS
+                            SysOps Administrator">View
+                                Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -78,25 +83,26 @@ require '../../assets/php/inc/nav.php';
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
-                            <a class="image" href="<?php echo SITE_ADDR ?>/vendor/isaca/cism"><img
-                                    src="<?php echo SITE_ADDR ?>/assets/images/project/isaca/cism.jpg"
-                                    alt="cism.jpg"></a>
+                            <a class="image"
+                                href="<?php echo SITE_ADDR ?>/career/devops/microsoft-certified-devops-engineer-expert"><img
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/microsoft/expert.jpg"
+                                    alt="expert.jpg"></a>
                         </div>
                         <div class="info">
-                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/isaca/cism">CISM &#174;</a>
-                            </h3>
-                            <p class="desc">ISACA’s Certified Information Security Manager&#174; (CISM&#174;)
-                                certification
-                                indicates expertise in information security governance, program development and
-                                management, incident management and risk management.
-
-                            </p>
-                            <a href="<?php echo SITE_ADDR ?>/vendor/isaca/cism">View Course <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
+                            <h3 class="title"><a
+                                    href="<?php echo SITE_ADDR ?>/career/devops/microsoft-certified-devops-engineer-expert">Microsoft
+                                    Certified: DevOps Engineer Expert</a></h3>
+                            <p class="desc">DevOps engineers design and implement strategies for collaboration, code,
+                                infrastructure, source control, security, compliance, continuous integration, testing,
+                                delivery, monitoring, and feedback.</p>
+                            <a href="<?php echo SITE_ADDR ?>/career/devops/microsoft-certified-devops-engineer-expert">View
+                                Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
                 <!-- Single Work End -->
+
+
 
             </div>
             <!-- About Wrapper End -->

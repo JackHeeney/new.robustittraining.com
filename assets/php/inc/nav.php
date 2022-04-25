@@ -1102,85 +1102,108 @@
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <li>
-                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">
+                                <a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/security-analyst/certified-cloud-security-engineer"
+                                    alt="link to certified cloud security engineer">
                                     C|CSE
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/security-analyst/comptia-security"
+                                    alt="link to comptia security +">
                                     Security+
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">
+                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/security-analyst/cisa"
+                                    alt="link to CISA">
                                     CISA
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">
+                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/security-analyst/cism"
+                                    alt="link to CISM">
                                     CISM
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">
+                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/security-analyst/cissp"
+                                    alt="link to CISSP">
                                     CISSP
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">
+                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/security-analyst/ccsp"
+                                    alt="link to CCSP">
                                     CCSP
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">
-                                    Security Administrator
-                                    <i class="fas fa-chevron-right fcr-animate"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">
-                                    Azure Security Engineer
-                                    <i class="fas fa-chevron-right fcr-animate"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">
-                                    Security Operations Analyst
-                                    <i class="fas fa-chevron-right fcr-animate"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">
-                                    Identity and Access Admin
-                                    <i class="fas fa-chevron-right fcr-animate"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">
-                                    Information Protection Admin
-                                    <i class="fas fa-chevron-right fcr-animate"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">
-                                    Windows Server Hybrid Admin
-                                    <i class="fas fa-chevron-right fcr-animate"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">
+                                <a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/security-analyst/ccnp-security"
+                                    alt="link to ccnp security">
                                     CCNP Security
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">
+                                <a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/security-analyst/microsoft-365-certified-security-administrator-associate"
+                                    alt="link to microsoft 365 certified security administrator associate">
+                                    Security Administrator
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/security-analyst/microsoft-certified-azure-security-engineer-associate"
+                                    alt="link to microsoft certified azure security engineer associate">
+                                    Azure Security Engineer
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/security-analyst/microsoft-certified-security-operations-analyst-associate"
+                                    alt="link to microsoft certified security operations analyst associate">
+                                    Security Operations Analyst
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/security-analyst/microsoft-certified-identity-and-access-administrator-associate"
+                                    alt="link to microsoft certified identity and access administrator associate">
+                                    Identity and Access Admin
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/security-analyst/microsoft-certified-information-protection-administrator-associate"
+                                    alt="link to microsoft certified information protection administrator associate">
+                                    Information Protection Admin
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/security-analyst/microsoft-certified-windows-server-hybrid-administrator-associate"
+                                    alt="link to microsoft certified windows server hybrid administrator associate">
+                                    Windows Server Hybrid Admin
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/security-analyst"
+                                    alt="link to search by career security analyst">
                                     View all
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
@@ -1199,61 +1222,69 @@
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <li>
-                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">
+                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/developer/aws-developer">
                                     AWS Developer
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">
+                                <a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/developer/microsoft-certified-azure-developer-associate">
                                     Azure Developer Associate
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">
+                                <a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/developer/microsoft-certified-dynamics-365-finance-and-operations-apps-developer-associate">
                                     Finance and Operations Apps
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">
+                                <a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/developer/microsoft-365-certified-developer-associate">
                                     Developer Associate
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">
+                                <a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/developer/microsoft-certified-power-platform-developer-associate">
                                     Power Platform Developer
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">
+                                <a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/developer/microsoft-certified-azure-iot-developer-specialty">
                                     Azure IoT Developer Specialty
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">
+                                <a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/developer/microsoft-certified-azure-cosmos-db-developer-specialty">
                                     Azure Cosmos DB Developer
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">
+                                <a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/developer/microsoft-certified-azure-ai-engineer-associate">
                                     Azure AI Engineer Associate
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">
+                                <a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/developer/python-programming">
                                     Python Programming
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">
+                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/developer">
                                     View all
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
@@ -1272,19 +1303,19 @@
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <li>
-                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">
+                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/devops">
                                     AWS SysOps Administrator
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">
+                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/devops">
                                     DevOps Engineer Expert
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/">
+                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/devops">
                                     View all
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>

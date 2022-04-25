@@ -10,7 +10,7 @@ $meta['og:description'] = "Robust IT Training AWS SysOps Administrator course.";
 $meta['og:image'] = "";
 $meta['og:url'] = "";
 
-$leadIsFrom = "Lead is from /vendor/aws/aws-sysops-administrator";
+$leadIsFrom = "Lead is from /career/devops/aws-sysops-administrator";
 
 require '../../assets/php/inc/header.php';
 require '../../assets/php/inc/nav.php';
@@ -31,8 +31,8 @@ require '../../assets/php/inc/nav.php';
             <div class="container">
                 <ul class="breadcrumb justify-content-center">
                     <li><a href="<?php echo SITE_ADDR ?>/">Home</a></li>
-                    <li><a href="<?php echo SITE_ADDR ?>/vendor">Vendor</a></li>
-                    <li><a href="<?php echo SITE_ADDR ?>/vendor/aws">AWS</a></li>
+                    <li><a href="<?php echo SITE_ADDR ?>/career">Career</a></li>
+                    <li><a href="<?php echo SITE_ADDR ?>/career/devops">DevOps</a></li>
                     <li class="current">SysOps Administrator</li>
                 </ul>
             </div>

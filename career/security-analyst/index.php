@@ -10,7 +10,7 @@ $meta['og:description'] = "";
 $meta['og:image'] = "";
 $meta['og:url'] = "";
 
-$leadIsFrom = "Lead is from /career/1st-line-support";
+$leadIsFrom = "Lead is from /career/security-analyst";
 
 require '../../assets/php/inc/header.php';
 require '../../assets/php/inc/nav.php';
@@ -58,20 +58,20 @@ require '../../assets/php/inc/nav.php';
                     <div class="work single-portfolio">
                         <div class="thumbnail">
                             <a class="image"
-                                href="<?php echo SITE_ADDR ?>/vendor/ec-council/certified-cloud-security-engineer"
+                                href="<?php echo SITE_ADDR ?>/career/security-analyst/certified-cloud-security-engineer"
                                 alt="link to ec-council certified cloud security engineer"><img
                                     src="<?php echo SITE_ADDR ?>/assets/images/project/ec-council/ccse.jpg"
                                     alt="work"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a
-                                    href="<?php echo SITE_ADDR ?>/vendor/ec-council/certified-cloud-security-engineer"
+                                    href="<?php echo SITE_ADDR ?>/career/security-analyst/certified-cloud-security-engineer"
                                     alt="link to ec-council certified cloud security engineer">Certified
                                     Cloud
                                     Security Engineer</a></h3>
                             <p class="desc">Cloud technology has transformed the technology landscape and will continue
                                 to do so for years to come.</p>
-                            <a href="<?php echo SITE_ADDR ?>/vendor/ec-council/certified-cloud-security-engineer"
+                            <a href="<?php echo SITE_ADDR ?>/career/security-analyst/certified-cloud-security-engineer"
                                 alt="link to ec-council certified cloud security engineer">View
                                 Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
@@ -85,22 +85,143 @@ require '../../assets/php/inc/nav.php';
                     <div class="work single-portfolio">
                         <div class="thumbnail">
                             <a class="image"
-                                href="<?php echo SITE_ADDR ?>/career/it-project-manager/prince2-4-foundation"><img
-                                    src="<?php echo SITE_ADDR ?>/assets/images/project/axelos/prince2/prince2.jpg"
-                                    alt="work"></a>
+                                href="<?php echo SITE_ADDR ?>/career/security-analyst/certified-cloud-security-engineer"
+                                alt="link to ec-council certified cloud security engineer"><img
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/comptia/security-plus.jpg"
+                                    alt="security-plus.jpg"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a
-                                    href="<?php echo SITE_ADDR ?>/career/it-project-manager/prince2-4-foundation">PRINCE2&#174;
-                                    4
-                                    Foundation</a></h3>
-                            <p class="desc">The Foundation Level certification introduces the PRINCE2 method and aims to
-                                confirm that you know and understand the PRINCE2 method well enough to be able to work
-                                effectively with, or as a member of, a project management team working within an
-                                environment supporting PRINCE2.
-                            <p>
-                                <a href="<?php echo SITE_ADDR ?>/career/it-project-manager/prince2-4-foundation">View
-                                    Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                    href="<?php echo SITE_ADDR ?>/career/security-analyst/comptia-security">Security+</a>
+                            </h3>
+                            <p class="desc">CompTIA Security+ is a global certification that validates the baseline
+                                skills necessary to perform core security functions and pursue an IT security career.
+                            </p>
+                            <a href="<?php echo SITE_ADDR ?>/career/security-analyst/comptia-security">View
+                                Course <i class="fas fa-chevron-right fcr-animate"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Work End -->
+
+                <!-- Single Work Start -->
+                <div class="col mb-6">
+                    <div class="work single-portfolio">
+                        <div class="thumbnail">
+                            <a class="image" href="<?php echo SITE_ADDR ?>/career/security-analyst/cisa"
+                                alt="link to cisa"><img
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/isaca/cisa.jpg"
+                                    alt="cisa.jpg"></a>
+                        </div>
+                        <div class="info">
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/career/security-analyst/cisa"
+                                    alt="link to cisa">CISA
+                                    &#174;</a></h3>
+                            <p class="desc">The CISA certification is world-renowned as the standard of achievement for
+                                those who audit, control, monitor and assess an organization’s information technology
+                                and business systems. </p>
+                            <a href="<?php echo SITE_ADDR ?>/career/security-analyst/cisa" alt="link to cisa">View
+                                Course
+                                <i class="fas fa-chevron-right fcr-animate"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Work End -->
+
+                <!-- Single Work Start -->
+                <div class="col mb-6">
+                    <div class="work single-portfolio">
+                        <div class="thumbnail">
+                            <a class="image" href="<?php echo SITE_ADDR ?>/career/security-analyst/cism"
+                                alt="link to cism"><img
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/isaca/cism.jpg"
+                                    alt="cism.jpg"></a>
+                        </div>
+                        <div class="info">
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/career/security-analyst/cism"
+                                    alt="link to cism">CISM
+                                    &#174;</a>
+                            </h3>
+                            <p class="desc">ISACA’s Certified Information Security Manager&#174; (CISM&#174;)
+                                certification
+                                indicates expertise in information security governance, program development and
+                                management, incident management and risk management.
+
+                            </p>
+                            <a href="<?php echo SITE_ADDR ?>/career/security-analyst/cism" alt="link to cism">View
+                                Course <i class="fas fa-chevron-right fcr-animate"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Work End -->
+
+                <!-- Single Work Start -->
+                <div class="col mb-6">
+                    <div class="work single-portfolio">
+                        <div class="thumbnail">
+                            <a class="image" href="<?php echo SITE_ADDR ?>/career/security-analyst/cissp"
+                                alt="link to cissp"><img
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/isc2/cissp.jpg" alt="work"></a>
+                        </div>
+                        <div class="info">
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/career/security-analyst/cissp"
+                                    alt="link to cissp">CISSP - Certified
+                                    Information Systems Security Professional</a></h3>
+                            <p class="desc">Recognizes information security leaders who understand cybersecurity
+                                strategy and hands-on implementation. Proves professionals have the knowledge and
+                                experience to design, develop and manage an organization’s overall security posture.</p>
+                            <a href="<?php echo SITE_ADDR ?>/career/security-analyst/cissp" alt="link to cissp">View
+                                Course
+                                <i class="fas fa-chevron-right fcr-animate"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Work End -->
+
+                <!-- Single Work Start -->
+                <div class="col mb-6">
+                    <div class="work single-portfolio">
+                        <div class="thumbnail">
+                            <a class="image" href="<?php echo SITE_ADDR ?>/career/security-analyst/ccsp"
+                                alt="link to ccsp"><img
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/isc2/ccsp.jpg" alt="work"></a>
+                        </div>
+                        <div class="info">
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/career/security-analyst/ccsp"
+                                    alt="link to ccsp">CCSP
+                                    – Certified Cloud
+                                    Security Professional</a>
+                            </h3>
+                            <p class="desc">
+                                Shows professionals have the advanced technical skills and knowledge to design, manage
+                                and secure data, applications and infrastructure in the cloud.
+                            </p>
+                            <a href="<?php echo SITE_ADDR ?>/career/security-analyst/ccsp" alt="link to ccsp">View
+                                Course <i class="fas fa-chevron-right fcr-animate"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Work End -->
+
+                <!-- Single Work Start -->
+                <div class="col mb-6">
+                    <div class="work single-portfolio">
+                        <div class="thumbnail">
+                            <a class="image" href="<?php echo SITE_ADDR ?>/career/security-analyst/ccnp-security"
+                                alt="link to ccnp security"><img
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/cisco/ccnp.jpg"
+                                    alt="ccnp.jpg"></a>
+                        </div>
+                        <div class="info">
+                            <h3 class="title"><a href="<?php echo SITE_ADDR ?>/career/security-analyst/ccnp-security"
+                                    alt="link to ccnp security">CCNP Security</a>
+                            </h3>
+                            <p class="desc">Software and networking become more and more interconnected every day,
+                                creating ever greater need for robust, scalable security across all platforms—from
+                                networks to mobile devices.</p>
+                            <a href="<?php echo SITE_ADDR ?>/career/security-analyst/ccnp-security"
+                                alt="link to ccnp security">View
+                                Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -111,21 +232,20 @@ require '../../assets/php/inc/nav.php';
                     <div class="work single-portfolio">
                         <div class="thumbnail">
                             <a class="image"
-                                href="<?php echo SITE_ADDR ?>/career/it-project-manager/prince2-4-practitioner"><img
-                                    src="<?php echo SITE_ADDR ?>/assets/images/project/axelos/prince2/prince2.jpg"
-                                    alt="work"></a>
+                                href="<?php echo SITE_ADDR ?>/career/security-analyst/microsoft-365-certified-security-administrator-associate"><img
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/microsoft/associate.jpg"
+                                    alt="associate.jpg"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a
-                                    href="<?php echo SITE_ADDR ?>/career/it-project-manager/prince2-4-practitioner">PRINCE2&#174;
-                                    4
-                                    Practitioner</a></h3>
-                            <p class="desc">PRINCE2 Practitioner certification is suitable for anyone managing projects.
-                                This could be as part of a formal project management function or a role which involves
-                                project management as part of day-to-day work.
-                            <p>
-                                <a href="<?php echo SITE_ADDR ?>/career/it-project-manager/prince2-4-practitioner">View
-                                    Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                    href="<?php echo SITE_ADDR ?>/career/security-analyst/microsoft-365-certified-security-administrator-associate">Microsoft
+                                    365 Certified: Security Administrator Associate</a></h3>
+                            <p class="desc">Microsoft 365 security administrators proactively secure Microsoft 365
+                                enterprise and hybrid environments, implement and manage security and compliance
+                                solutions, respond to threats, and enforce data governance.</p>
+                            <a
+                                href="<?php echo SITE_ADDR ?>/career/security-analyst/microsoft-365-certified-security-administrator-associate">View
+                                Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -136,21 +256,20 @@ require '../../assets/php/inc/nav.php';
                     <div class="work single-portfolio">
                         <div class="thumbnail">
                             <a class="image"
-                                href="<?php echo SITE_ADDR ?>/career/it-project-manager/prince2-agile-foundation"><img
-                                    src="<?php echo SITE_ADDR ?>/assets/images/project/axelos/prince2-agile/prince2-agile.jpg"
-                                    alt="work"></a>
+                                href="<?php echo SITE_ADDR ?>/career/security-analyst/microsoft-certified-azure-security-engineer-associate"><img
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/microsoft/associate.jpg"
+                                    alt="associate.jpg"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a
-                                    href="<?php echo SITE_ADDR ?>/career/it-project-manager/prince2-agile-foundation">PRINCE2&#174;
-                                    Agile
-                                    Foundation</a></h3>
-                            <p class="desc">The PRINCE2 Agile Foundation certificate is designed to help professionals
-                                deliver agile projects by tailoring PRINCE2 management controls with a broad toolset of
-                                agile delivery techniques and frameworks.
-                            <p>
-                                <a href="<?php echo SITE_ADDR ?>/career/it-project-manager/prince2-agile-foundation">View
-                                    Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                    href="<?php echo SITE_ADDR ?>/career/security-analyst/microsoft-certified-azure-security-engineer-associate">Microsoft
+                                    Certified: Azure Security Engineer Associate</a></h3>
+                            <p class="desc">Azure security engineers implement Azure security controls that protect
+                                identity, access, data, applications, and networks in cloud and hybrid environments as
+                                part of an end-to-end infrastructure.</p>
+                            <a
+                                href="<?php echo SITE_ADDR ?>/career/security-analyst/microsoft-certified-azure-security-engineer-associate">View
+                                Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -161,25 +280,100 @@ require '../../assets/php/inc/nav.php';
                     <div class="work single-portfolio">
                         <div class="thumbnail">
                             <a class="image"
-                                href="<?php echo SITE_ADDR ?>/career/it-project-manager/prince2-agile-practitioner"><img
-                                    src="<?php echo SITE_ADDR ?>/assets/images/project/axelos/prince2-agile/prince2-agile.jpg"
-                                    alt="work"></a>
+                                href="<?php echo SITE_ADDR ?>/career/security-analyst/microsoft-certified-security-operations-analyst-associate"><img
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/microsoft/associate.jpg"
+                                    alt="associate.jpg"></a>
                         </div>
                         <div class="info">
                             <h3 class="title"><a
-                                    href="<?php echo SITE_ADDR ?>/career/it-project-manager/prince2-agile-practitioner">PRINCE2&#174;
-                                    Agile
-                                    Practitioner</a></h3>
-                            <p class="desc">The PRINCE2 Agile Practitioner certificate is designed to help professionals
-                                deliver agile projects by tailoring PRINCE2 management controls with a broad toolset of
-                                agile delivery techniques and frameworks.
-                            <p>
-                                <a href="<?php echo SITE_ADDR ?>/career/it-project-manager/prince2-agile-practitioner">View
-                                    Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                    href="<?php echo SITE_ADDR ?>/career/security-analyst/microsoft-certified-security-operations-analyst-associate">Microsoft
+                                    Certified: Security Operations Analyst Associate</a></h3>
+                            <p class="desc">The Microsoft security operations analyst collaborates with organizational
+                                stakeholders to secure information technology systems for the organization. Their goal
+                                is to reduce organizational risk by rapidly remediating active attacks in the
+                                environment, advising on improvements to threat protection practices, and referring
+                                violations of organizational policies to appropriate stakeholders.</p>
+                            <a
+                                href="<?php echo SITE_ADDR ?>/career/security-analyst/microsoft-certified-security-operations-analyst-associate">View
+                                Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
                 <!-- Single Work End -->
+
+                <!-- Single Work Start -->
+                <div class="col mb-6">
+                    <div class="work single-portfolio">
+                        <div class="thumbnail">
+                            <a class="image"
+                                href="<?php echo SITE_ADDR ?>/career/security-analyst/microsoft-certified-identity-and-access-administrator-associate"><img
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/microsoft/associate.jpg"
+                                    alt="associate.jpg"></a>
+                        </div>
+                        <div class="info">
+                            <h3 class="title"><a
+                                    href="<?php echo SITE_ADDR ?>/career/security-analyst/microsoft-certified-identity-and-access-administrator-associate">Microsoft
+                                    Certified: Identity and Access Administrator Associate</a></h3>
+                            <p class="desc">The Microsoft identity and access administrator designs, implements, and
+                                operates an organization’s identity and access management systems by using Azure AD.
+                                They manage tasks such as providing secure authentication and authorization access to
+                                enterprise applications.</p>
+                            <a
+                                href="<?php echo SITE_ADDR ?>/career/security-analyst/microsoft-certified-identity-and-access-administrator-associate">View
+                                Course <i class="fas fa-chevron-right fcr-animate"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Work End -->
+
+                <!-- Single Work Start -->
+                <div class="col mb-6">
+                    <div class="work single-portfolio">
+                        <div class="thumbnail">
+                            <a class="image"
+                                href="<?php echo SITE_ADDR ?>/career/security-analyst/microsoft-certified-information-protection-administrator-associate"><img
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/microsoft/associate.jpg"
+                                    alt="associate.jpg"></a>
+                        </div>
+                        <div class="info">
+                            <h3 class="title"><a
+                                    href="<?php echo SITE_ADDR ?>/career/security-analyst/microsoft-certified-information-protection-administrator-associate">Microsoft
+                                    Certified: Information Protection Administrator Associate</a></h3>
+                            <p class="desc">The Microsoft information protection administrator plans and implements
+                                controls that meet organizational compliance needs. This person is responsible for
+                                translating requirements and compliance controls into technical implementation. They
+                                assist organizational control owners to become and stay compliant.</p>
+                            <a
+                                href="<?php echo SITE_ADDR ?>/career/security-analyst/microsoft-certified-information-protection-administrator-associate">View
+                                Course <i class="fas fa-chevron-right fcr-animate"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Work End -->
+
+                <!-- Single Work Start -->
+                <div class="col mb-6">
+                    <div class="work single-portfolio">
+                        <div class="thumbnail">
+                            <a class="image"
+                                href="<?php echo SITE_ADDR ?>/career/security-analyst/microsoft-certified-windows-server-hybrid-administrator-associate"><img
+                                    src="<?php echo SITE_ADDR ?>/assets/images/project/microsoft/associate.jpg"
+                                    alt="associate.jpg"></a>
+                        </div>
+                        <div class="info">
+                            <h3 class="title"><a
+                                    href="<?php echo SITE_ADDR ?>/career/security-analyst/microsoft-certified-windows-server-hybrid-administrator-associate">Microsoft
+                                    Certified: Windows Server Hybrid Administrator Associate</a></h3>
+                            <p class="desc">Windows Server hybrid administrators integrate Windows Server environments
+                                with Azure services and manage Windows Server in on-premises networks.</p>
+                            <a
+                                href="<?php echo SITE_ADDR ?>/career/security-analyst/microsoft-certified-windows-server-hybrid-administrator-associate">View
+                                Course <i class="fas fa-chevron-right fcr-animate"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Work End -->
+
 
 
             </div>

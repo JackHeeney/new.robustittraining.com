@@ -1,11 +1,11 @@
 <?php
 // Change page title and meta tags here
-$title = "Robust IT Training | Microsoft | Security Engineer | Microsoft Certified: Windows Server Hybrid Administrator Associate";
+$title = "Robust IT Training | Microsoft | AI Engineer | Microsoft Certified: Azure AI Engineer Associate";
 $meta['keywords'] = "";
 $meta['description'] = "";
 
 // Social media meta tags
-$title = "Robust IT Training | Microsoft | Security Engineer | Microsoft Certified: Windows Server Hybrid Administrator Associate";
+$title = "Robust IT Training | Microsoft | AI Engineer | Microsoft Certified: Azure AI Engineer Associate";
 $meta['og:description'] = "";
 $meta['og:image'] = "";
 $meta['og:url'] = "";
@@ -22,7 +22,8 @@ require '../../assets/php/inc/nav.php';
         data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/bg-certified-ethical-hacker.jpg">
         <div class="page-title">
             <div class="container">
-                <h1 class="title">Microsoft Certified: Windows Server Hybrid Administrator Associate</h1>
+                <h1 class="title">Microsoft Certified: Azure AI Engineer Associate
+                </h1>
                 <!-- <h2 class="title-h2">Learn more about this certification and AWS resources that can help you prepare
                 </h2> -->
             </div>
@@ -32,8 +33,9 @@ require '../../assets/php/inc/nav.php';
                 <ul class="breadcrumb justify-content-center">
                     <li><a href="<?php echo SITE_ADDR ?>/">Home</a></li>
                     <li><a href="<?php echo SITE_ADDR ?>/career">Career</a></li>
-                    <li><a href="<?php echo SITE_ADDR ?>/career/security-analyst">Security Analyst</a></li>
-                    <li class="current">Microsoft Certified: Windows Server Hybrid Administrator Associate</li>
+                    <li><a href="<?php echo SITE_ADDR ?>/career/developer">Developer</a>
+                    </li>
+                    <li class="current">Microsoft Certified: Azure AI Engineer Associate</li>
                 </ul>
             </div>
         </div>
@@ -60,7 +62,7 @@ require '../../assets/php/inc/nav.php';
                             <div class="work-details-list my-10">
                                 <div class="details-list">
                                     <label>Exam Prefix</label>
-                                    <span>AZ-800, AZ-801</span>
+                                    <span>AI-102</span>
                                 </div>
 
                                 <div class="details-list">
@@ -88,15 +90,9 @@ require '../../assets/php/inc/nav.php';
 
                             <div class="work-btn mb-10">
                                 <a class="btn btn-outline-secondary btn-hover--secondary"
-                                    href="<?php echo SITE_ADDR ?>/assets/pdf/exam-guides/microsoft/exam-az-800-administering-windows-server-hybrid-core-infrastructure-skills-measured.pdf"
-                                    target="_blank" alt="download AZ-800 exam guide">
-                                    Download the AZ-800 guide
-                                    <i class="fas fa-download fcr-animate"></i>
-                                </a>
-                                <a class="btn btn-outline-secondary btn-hover--secondary mt-5"
-                                    href="<?php echo SITE_ADDR ?>/assets/pdf/exam-guides/microsoft/exam-az-801-configuring-windows-server-hybrid-advanced-services-skills-measured.pdf"
-                                    target="_blank" alt="download AZ-801 exam guide">
-                                    Download the AZ-801 guide
+                                    href="<?php echo SITE_ADDR ?>/assets/pdf/exam-guides/microsoft/exam-ai-102-designing-and-implementing-a-microsoft-azure-ai-solution-skills-measured.pdf"
+                                    target="_blank" alt="download AI-102 exam guide">
+                                    Download the AI-102 guide
                                     <i class="fas fa-download fcr-animate"></i>
                                 </a>
                             </div>
@@ -138,44 +134,39 @@ require '../../assets/php/inc/nav.php';
 
                                 <div class="desc mt-8">
                                     <div class="content mb-5" data-aos="fade-up">
-
+                                        <div class="alert alert-primary">
+                                            <i class="fa fa-info-circle pr-1"></i> <strong>Important</strong> <br />
+                                            The content of this certification was updated on November 30, 2021. Please
+                                            download the skills measured document on the Exam AI-102 page to see what
+                                            changed.
+                                        </div>
                                         <p>
-                                            Candidates for the Windows Server Hybrid Administrator Associate
-                                            certification should have subject matter expertise in configuring and
-                                            managing Windows Server on-premises, hybrid, and infrastructure as a service
-                                            (IaaS) platform workloads.
+                                            Candidates for the Azure AI Engineer Associate certification build, manage,
+                                            and deploy AI solutions that leverage Azure Cognitive Services and Azure
+                                            Applied AI services.
                                         </p>
                                         <p>
-                                            Responsibilities for this role include integrating Windows Server
-                                            environments with Azure services and managing Windows Server in on-premises
-                                            networks. This role manages and maintains Windows Server IaaS workloads in
-                                            Azure, in addition to migrating and deploying workloads to Azure.
+                                            Their responsibilities include participating in all phases of AI solutions
+                                            development—from requirements definition and design to development,
+                                            deployment, maintenance, performance tuning, and monitoring.
                                         </p>
                                         <p>
-                                            This role typically collaborates with Azure administrators, enterprise
-                                            architects, Microsoft 365 administrators, and network engineers.
+                                            They work with solution architects to translate their vision and with data
+                                            scientists, data engineers, IoT specialists, and AI developers to build
+                                            complete end-to-end AI solutions.
                                         </p>
                                         <p>
-                                            Candidates for this certification administer core and advanced Windows
-                                            Server workloads and services using on-premises, hybrid, and cloud
-                                            technologies. These professionals should have expertise in implementing and
-                                            managing on-premises and hybrid solutions, such as identity, management,
-                                            compute, networking, and storage. They are also experts at performing tasks
-                                            related to security, migration, monitoring, high availability,
-                                            troubleshooting, and disaster recovery. These professionals use
-                                            administrative tools and technologies, including Windows Admin Center,
-                                            PowerShell, Azure Arc, and IaaS virtual machine administration. They also
-                                            work with Azure Automation Update Management, Microsoft Defender for
-                                            Identity, Azure Security Center, Azure Migrate, and Azure Monitor.
+                                            Candidates for this certification should be proficient in C# or Python and
+                                            should be able to use REST-based APIs and SDKs to build computer vision,
+                                            natural language processing, knowledge mining, and conversational AI
+                                            solutions on Azure.
                                         </p>
                                         <p>
-                                            A candidate for this certification should have extensive experience working
-                                            with Windows Server operating systems.
+                                            They should also understand the components that make up the Azure AI
+                                            portfolio and the available data storage options. Plus, candidates need to
+                                            understand and be able to apply responsible AI principles.
                                         </p>
-
                                     </div>
-
-
 
                                     <div class="work-btn">
                                         <a class="btn btn-secondary btn-hover--secondary" href="#beginnersModal"
@@ -222,18 +213,19 @@ require '../../assets/php/inc/nav.php';
                                     <h2 class="title">
                                         Skills measured
                                     </h2>
+
                                 </div>
                                 <!-- Section Title Two End -->
 
                                 <!-- Agency List Start -->
                                 <ul class="agency-list">
+
                                     <li class="item">
                                         <div class="icon">
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Deploy and manage Active Directory Domain Services (AD DS) in on-premises
-                                            and cloud environments
+                                            Plan and manage an Azure Cognitive Services solution
                                         </div>
                                     </li>
                                     <li class="item">
@@ -241,7 +233,7 @@ require '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Manage Windows Servers and workloads in a hybrid environment
+                                            Implement Computer Vision solutions
                                         </div>
                                     </li>
                                     <li class="item">
@@ -249,7 +241,7 @@ require '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Manage virtual machines and containers
+                                            Implement natural language processing solutions
                                         </div>
                                     </li>
                                     <li class="item">
@@ -257,7 +249,7 @@ require '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Implement and manage an on-premises and hybrid networking infrastructure
+                                            Implement knowledge mining solutions
                                         </div>
                                     </li>
                                     <li class="item">
@@ -265,51 +257,16 @@ require '../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Manage storage and file services
-                                        </div>
-                                    </li>
-                                    <li class="item">
-                                        <div class="icon">
-                                            <i class="fas fa-check"></i>
-                                        </div>
-                                        <div class="text">
-                                            Secure Windows Server on-premises and hybrid infrastructures
-                                        </div>
-                                    </li>
-                                    <li class="item">
-                                        <div class="icon">
-                                            <i class="fas fa-check"></i>
-                                        </div>
-                                        <div class="text">
-                                            Implement and manage Windows Server high availability
-                                        </div>
-                                    </li>
-                                    <li class="item">
-                                        <div class="icon">
-                                            <i class="fas fa-check"></i>
-                                        </div>
-                                        <div class="text">
-                                            Implement disaster recovery
-                                        </div>
-                                    </li>
-                                    <li class="item">
-                                        <div class="icon">
-                                            <i class="fas fa-check"></i>
-                                        </div>
-                                        <div class="text">
-                                            Migrate servers and workloads
-                                        </div>
-                                    </li>
-                                    <li class="item">
-                                        <div class="icon">
-                                            <i class="fas fa-check"></i>
-                                        </div>
-                                        <div class="text">
-                                            Monitor and troubleshoot Windows Server environments
+                                            Implement conversational AI solutions
                                         </div>
                                     </li>
                                 </ul>
-
+                                <a href="<?php echo SITE_ADDR ?>/assets/pdf/exam-guides/microsoft/microsoft-certified-azure-ai-engineer-associate-skills-measured.pdf"
+                                    alt="Download certification skill outline"
+                                    class="btn btn-primary btn-hover-secondary" target="_blank">
+                                    Download certification skill outline
+                                    <i class="fas fa-chevron-right fcr-animate"></i>
+                                </a>
                             </div>
                             <!-- Skill With Video Content End -->
                         </div>
@@ -354,7 +311,7 @@ require '../../assets/php/inc/nav.php';
                 data-overlay="0.9">
                 <div class="digital-marketing" data-aos="fade-up">
                     <div class="section-title-two">
-                        <span class="sub-title text-white">Average salary for Microsoft Windows Server
+                        <span class="sub-title text-white">Average salary for Azure AI Engineer
                             professionals</span>
                     </div>
 
@@ -364,11 +321,11 @@ require '../../assets/php/inc/nav.php';
                     <div class="digital-marketing" data-aos="fade-up">
                         <div class="section-title-two mb-8">
                             <h2 class="title mb-5">
-                                <div class="salary text-white">£<span class="counter">40,000.00</span>+</div>
+                                <div class="salary text-white">£<span class="counter">65,000.00</span>+</div>
                             </h2>
-                            <small>The average microsoft windows server salary in the United Kingdom is £40,000 per year
-                                or £20.51 per hour. Entry level positions start at £29,150 per year while most
-                                experienced workers make up to £52,500 per year</small>.
+                            <small>The average azure ai engineer salary in the United Kingdom is £65,000 per year or
+                                £33.33 per hour. Entry level positions start at £65,000 per year while most experienced
+                                workers make up to £75,000 per year</small>.
                         </div>
 
 
@@ -391,7 +348,7 @@ require '../../assets/php/inc/nav.php';
                                                 <i class="fas fa-check"></i>
                                             </div>
                                             <div class="text">
-                                                Server Engineer
+                                                Senior Azure Data Engineer
                                             </div>
                                         </li>
                                         <li class="item">
@@ -399,7 +356,7 @@ require '../../assets/php/inc/nav.php';
                                                 <i class="fas fa-check"></i>
                                             </div>
                                             <div class="text">
-                                                Windows Engineer
+                                                AI Consultancy
                                             </div>
                                         </li>
                                         <li class="item">
@@ -407,7 +364,7 @@ require '../../assets/php/inc/nav.php';
                                                 <i class="fas fa-check"></i>
                                             </div>
                                             <div class="text">
-                                                Systems Analyst Windows server
+                                                Infrastructure Engineer Azure
                                             </div>
                                         </li>
 
@@ -422,7 +379,7 @@ require '../../assets/php/inc/nav.php';
                                                 <i class="fas fa-check"></i>
                                             </div>
                                             <div class="text">
-                                                IT Infrastructure Manager
+                                                Microsoft Azure DevOps Engineer
                                             </div>
                                         </li>
                                         <li class="item">
@@ -430,7 +387,7 @@ require '../../assets/php/inc/nav.php';
                                                 <i class="fas fa-check"></i>
                                             </div>
                                             <div class="text">
-                                                Microsoft Solutions Engineer
+                                                Data Engineer
                                             </div>
                                         </li>
                                         <li class="item">
@@ -438,7 +395,7 @@ require '../../assets/php/inc/nav.php';
                                                 <i class="fas fa-check"></i>
                                             </div>
                                             <div class="text">
-                                                IT Field Engineer
+                                                Reliability Engineer
                                             </div>
                                         </li>
                                     </ul>
@@ -475,7 +432,8 @@ require '../../assets/php/inc/nav.php';
                                                 <a href="#" class="acc-btn border-0" data-toggle="collapse"
                                                     data-target="#collapseOne" aria-expanded="true"
                                                     aria-controls="collapseOne">
-                                                    Exam AZ-800: Administering Windows Server Hybrid Core Infrastructure
+                                                    Exam AI-102: Designing and Implementing a Microsoft Azure AI
+                                                    Solution
                                                 </a>
                                             </h5>
                                         </div>
@@ -484,75 +442,52 @@ require '../../assets/php/inc/nav.php';
                                             data-parent="#accordionExample">
                                             <div class="card-body">
                                                 <p>
-                                                    Candidates for this exam administer core Windows Server workloads
-                                                    using on-premises, hybrid, and cloud technologies. These
-                                                    professionals should have expertise in implementing and managing
-                                                    on-premises and hybrid solutions, such as identity, management,
-                                                    compute, networking, and storage. They use administrative tools and
-                                                    technologies, such as Windows Admin Center, PowerShell, Azure Arc,
-                                                    and IaaS virtual machine administration.
+                                                    Candidates for Exam AI-102: Designing and Implementing a Microsoft
+                                                    Azure AI Solution build, manage, and deploy AI solutions that
+                                                    leverage Azure Cognitive Services and Azure Applied AI services.
                                                 </p>
                                                 <p>
-                                                    A candidate for this exam should have extensive experience working
-                                                    with Windows Server operating systems.
+                                                    Their responsibilities include participating in all phases of AI
+                                                    solutions development—from requirements definition and design to
+                                                    development, deployment, maintenance, performance tuning, and
+                                                    monitoring.
+                                                </p>
+                                                <p>
+                                                    They work with solution architects to translate their vision and
+                                                    with data scientists, data engineers, IoT specialists, and AI
+                                                    developers to build complete end-to-end AI solutions.
+                                                </p>
+                                                <p>
+                                                    Candidates for this exam should be proficient in C# or Python and
+                                                    should be able to use REST-based APIs and SDKs to build computer
+                                                    vision, natural language processing, knowledge mining, and
+                                                    conversational AI solutions on Azure.
+                                                </p>
+                                                <p>
+                                                    They should also understand the components that make up the Azure AI
+                                                    portfolio and the available data storage options. Plus, candidates
+                                                    need to understand and be able to apply responsible AI principles.
                                                 </p>
                                                 <ul>
-                                                    <li>Deploy and manage Active Directory Domain Services (AD DS) in
-                                                        on-premises and cloud environments (30-35%)</li>
-                                                    <li>Manage Windows Servers and workloads in a hybrid environment
-                                                        (10-15%)
+                                                    <li>
+                                                        The content of this exam was updated on November 30, 2021.
+                                                        Please download the exam skills outline below to see what
+                                                        changed
                                                     </li>
-                                                    <li>Manage virtual machines and containers (15-20%)</li>
-                                                    <li>Configure and manage Microsoft Teams Phone for voice users
-                                                        (15-20%)
+                                                    <li>
+                                                        Plan and manage an Azure Cognitive Services solution (15-20%)
                                                     </li>
-                                                    <li>Implement and manage an on-premises and hybrid networking
-                                                        infrastructure (15-20%)
+                                                    <li>
+                                                        Implement Computer Vision solutions (20-25%)
                                                     </li>
-                                                    <li>Manage storage and file services (15-20%)</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <div class="card-header" id="headingOne">
-                                            <h5 class="mb-0">
-                                                <a href="#" class="acc-btn border-0" data-toggle="collapse"
-                                                    data-target="#collapseOne" aria-expanded="true"
-                                                    aria-controls="collapseOne">
-                                                    Exam AZ-801: Configuring Windows Server Hybrid Advanced Services
-                                                </a>
-                                            </h5>
-                                        </div>
-
-                                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
-                                            data-parent="#accordionExample">
-                                            <div class="card-body">
-                                                <p>
-                                                    Candidates for this exam configure advanced Windows Server services
-                                                    using on-premises, hybrid, and cloud technologies. These
-                                                    professionals should have expertise in implementing and managing
-                                                    on-premises and hybrid solutions, including performing tasks related
-                                                    to security, migration, monitoring, high availability,
-                                                    troubleshooting, and disaster recovery. They use administrative
-                                                    tools and technologies, such as Windows Admin Center, PowerShell,
-                                                    Azure Arc, Azure Automation Update Management, Microsoft Defender
-                                                    for Identity, Azure Security Center, Azure Migrate, and Azure
-                                                    Monitor.
-                                                </p>
-                                                <p>
-                                                    A candidate for this exam should have extensive experience working
-                                                    with Windows Server operating systems.
-                                                </p>
-                                                <ul>
-                                                    <li>Secure Windows Server on-premises and hybrid infrastructures
-                                                        (25-30%)</li>
-                                                    <li>Implement and manage Windows Server high availability (10-15%)
+                                                    <li>
+                                                        Implement natural language processing solutions (20-25%)
                                                     </li>
-                                                    <li>Implement disaster recovery (10-15%)</li>
-                                                    <li>Migrate servers and workloads (20-25%)
+                                                    <li>
+                                                        Implement knowledge mining solutions (15-20%)
                                                     </li>
-                                                    <li>Monitor and troubleshoot Windows Server environments (20-25%)
+                                                    <li>
+                                                        Implement conversational AI solutions (15-20%)
                                                     </li>
                                                 </ul>
                                             </div>

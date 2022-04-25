@@ -12,8 +12,8 @@ $meta['og:url'] = "";
 
 $leadIsFrom = "Lead is from /microsoft/developer/microsoft-365-certified-developer-associate";
 
-require '../../../assets/php/inc/header.php';
-require '../../../assets/php/inc/nav.php';
+require '../../assets/php/inc/header.php';
+require '../../assets/php/inc/nav.php';
 ?>
 
 <div id="page work-details" class="section">
@@ -31,8 +31,9 @@ require '../../../assets/php/inc/nav.php';
             <div class="container">
                 <ul class="breadcrumb justify-content-center">
                     <li><a href="<?php echo SITE_ADDR ?>/">Home</a></li>
-                    <li><a href="<?php echo SITE_ADDR ?>/vendor/microsoft">Microsoft</a></li>
-                    <li><a href="<?php echo SITE_ADDR ?>/vendor/microsoft/developer">Developer</a></li>
+                    <li><a href="<?php echo SITE_ADDR ?>/career">Career</a></li>
+                    <li><a href="<?php echo SITE_ADDR ?>/career/developer">Developer</a>
+                    </li>
                     <li class="current">Developer Associate</li>
                 </ul>
             </div>
@@ -172,7 +173,7 @@ require '../../../assets/php/inc/nav.php';
                     <div class="container">
                         <div class="row my-lg-10 my-10">
                             <div class="col-lg-12">
-                                <? require '../../../assets/php/component/brand.php';
+                                <? require '../../assets/php/component/brand.php';
                                 ?>
                             </div>
                         </div>
@@ -641,5 +642,5 @@ require '../../../assets/php/inc/nav.php';
 </div>
 
 <?php
-require '../../../assets/php/inc/footer.php';
+require '../../assets/php/inc/footer.php';
 ?>
