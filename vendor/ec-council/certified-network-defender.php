@@ -308,7 +308,7 @@ require '../../assets/php/inc/nav.php';
                                 <div class="skill-video" data-aos="fade-up">
                                     <img class="image" src="<?php echo SITE_ADDR ?>/assets/images/video/skill-video.jpg"
                                         alt="video popup">
-                                    <a href="https://www.youtube.com/watch?v=eS9Qm4AOOBY" class="icon video-popup">
+                                    <a href="https://www.youtube.com/watch?v=r9xbF0himt4" class="icon video-popup">
                                         <i class="fas fa-play"></i>
                                     </a>
                                 </div>
@@ -338,8 +338,7 @@ require '../../assets/php/inc/nav.php';
 
             <!-- Start Average Salary Area -->
             <div class="text-white row my-lg-12 my-10 p-10 pl-2 p-xl-10 pl-xl-10" data-bg-color="#fff"
-                data-bg-image="https://www.expatica.com/app/uploads/sites/10/2014/05/Find-a-job-1-1200x675.jpg"
-                data-overlay="0.9">
+                data-bg-image="<?php echo SITE_ADDR ?>/assets/images/banner/job-rolls.jpg" data-overlay="0.9">
                 <div class="digital-marketing" data-aos="fade-up">
                     <div class="section-title-two">
                         <span class="sub-title text-white">Average salary for Certified Network Defender

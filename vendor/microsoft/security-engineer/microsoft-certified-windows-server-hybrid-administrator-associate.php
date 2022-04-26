@@ -321,7 +321,7 @@ require '../../../assets/php/inc/nav.php';
                                 <div class="skill-video" data-aos="fade-up">
                                     <img class="image" src="<?php echo SITE_ADDR ?>/assets/images/video/skill-video.jpg"
                                         alt="video popup">
-                                    <a href="https://www.youtube.com/watch?v=eS9Qm4AOOBY" class="icon video-popup">
+                                    <a href="https://www.youtube.com/watch?v=r9xbF0himt4" class="icon video-popup">
                                         <i class="fas fa-play"></i>
                                     </a>
                                 </div>
