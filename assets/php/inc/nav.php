@@ -20,33 +20,84 @@
                     <li>
                         <a href="<?php echo SITE_ADDR ?>/"><span class="menu-text">Home</span></a>
                     </li>
-                    <li>
-                        <a href="<?php echo SITE_ADDR ?>/service"><span class="menu-text">Services</span></a>
-                    </li>
                     <li class="has-children">
-                        <a href="#"><span class="menu-text">Courses</span></a>
+                        <a href="#"><span class="menu-text">by Vendor:</span></a>
                         <span class="menu-toggle"><i class="far fa-angle-down"></i></span>
                         <ul class="sub-menu">
                             <div class="row">
                                 <div class="col-12">
-                                    <li><a href="<?php echo SITE_ADDR ?>/"><span class="menu-text">AWS</span></a></li>
-                                    <li><a href="<?php echo SITE_ADDR ?>/"><span class="menu-text">CompTIA</span></a>
+                                    <li><a href="<?php echo SITE_ADDR ?>/vendor/ec-council"><span
+                                                class="menu-text">EC-Council <i
+                                                    class="fa fa-chevron-right fcr-animate"></i></span></a>
                                     </li>
-                                    <li><a href="<?php echo SITE_ADDR ?>/"><span class="menu-text">Microsoft</span></a>
+                                    <li><a href="<?php echo SITE_ADDR ?>/vendor/aws"><span class="menu-text">AWS <i
+                                                    class="fa fa-chevron-right fcr-animate"></i></span></a>
+                                    </li>
+                                    <li><a href="<?php echo SITE_ADDR ?>/vendor/microsoft"><span
+                                                class="menu-text">Microsoft <i
+                                                    class="fa fa-chevron-right fcr-animate"></i></span></a>
                                     </li>
                                 </div>
                                 <div class="col-12">
-                                    <li><a href="<?php echo SITE_ADDR ?>/"><span class="menu-text">AWS</span></a></li>
-                                    <li><a href="<?php echo SITE_ADDR ?>/"><span class="menu-text">CompTIA</span></a>
+                                    <li><a href="<?php echo SITE_ADDR ?>/vendor/comptia"><span class="menu-text">CompTIA
+                                                <i class="fa fa-chevron-right fcr-animate"></i></span></a>
                                     </li>
-                                    <li><a href="<?php echo SITE_ADDR ?>/"><span class="menu-text">Microsoft</span></a>
+                                    <li><a href="<?php echo SITE_ADDR ?>/vendor/cisco"><span class="menu-text">CISCO <i
+                                                    class="fa fa-chevron-right fcr-animate"></i></span></a>
+                                    </li>
+                                    <li><a href="<?php echo SITE_ADDR ?>/vendor/axelos"><span class="menu-text">Axelos
+                                                <i class="fa fa-chevron-right fcr-animate"></i></span></a>
                                     </li>
                                 </div>
                                 <div class="col-12">
-                                    <li><a href="<?php echo SITE_ADDR ?>/"><span class="menu-text">AWS</span></a></li>
-                                    <li><a href="<?php echo SITE_ADDR ?>/"><span class="menu-text">CompTIA</span></a>
+                                    <li><a href="<?php echo SITE_ADDR ?>/vendor/isaca"><span class="menu-text">ISACA <i
+                                                    class="fa fa-chevron-right fcr-animate"></i></span></a></li>
+                                    <li><a href="<?php echo SITE_ADDR ?>/vendor/isc2"><span
+                                                class="menu-text">(ISC)&#178; <i
+                                                    class="fa fa-chevron-right fcr-animate"></i></span></a>
                                     </li>
-                                    <li><a href="<?php echo SITE_ADDR ?>/"><span class="menu-text">Microsoft</span></a>
+                                    <li><a href="<?php echo SITE_ADDR ?>/vendor"><span class="menu-text">View all <i
+                                                    class="fa fa-chevron-right fcr-animate"></i></span></a>
+                                    </li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="has-children">
+                        <a href="#"><span class="menu-text">by Career:</span></a>
+                        <span class="menu-toggle"><i class="far fa-angle-down"></i></span>
+                        <ul class="sub-menu">
+                            <div class="row">
+                                <div class="col-12">
+                                    <li><a href="<?php echo SITE_ADDR ?>/"><span class="menu-text">Cloud
+                                                Architect <i class="fa fa-chevron-right fcr-animate"></i></span></a>
+                                    </li>
+                                    <li><a href="<?php echo SITE_ADDR ?>/"><span class="menu-text">Ethical
+                                                Hacker</span></a>
+                                    </li>
+                                    <li><a href="<?php echo SITE_ADDR ?>/"><span class="menu-text">Network
+                                                Engineer <i class="fa fa-chevron-right fcr-animate"></i></span></a>
+                                    </li>
+                                </div>
+                                <div class="col-12">
+                                    <li><a href="<?php echo SITE_ADDR ?>/"><span class="menu-text">IT Project
+                                                Manager <i class="fa fa-chevron-right fcr-animate"></i></span></a></li>
+                                    <li><a href="<?php echo SITE_ADDR ?>/"><span class="menu-text">Security
+                                                Analyst <i class="fa fa-chevron-right fcr-animate"></i></span></a>
+                                    </li>
+                                    <li><a href="<?php echo SITE_ADDR ?>/"><span class="menu-text">Developer <i
+                                                    class="fa fa-chevron-right fcr-animate"></i></span></a>
+                                    </li>
+                                </div>
+                                <div class="col-12">
+                                    <li><a href="<?php echo SITE_ADDR ?>/"><span class="menu-text">DevOps <i
+                                                    class="fa fa-chevron-right fcr-animate"></i></span></a>
+                                    </li>
+                                    <li><a href="<?php echo SITE_ADDR ?>/"><span class="menu-text">1st Line
+                                                Support <i class="fa fa-chevron-right fcr-animate"></i></span></a>
+                                    </li>
+                                    <li><a href="<?php echo SITE_ADDR ?>/"><span class="menu-text">View all <i
+                                                    class="fa fa-chevron-right fcr-animate"></i></span></a>
                                     </li>
                                 </div>
                             </div>
@@ -83,6 +134,9 @@
                                 </div>
                             </div>
                         </ul>
+                    </li>
+                    <li>
+                        <a href="<?php echo SITE_ADDR ?>/service/elcas"><span class="menu-text">ELCAS</span></a>
                     </li>
                     <li>
                         <a href="<?php echo SITE_ADDR ?>/contact-us"><span class="menu-text">Contact Us</span></a>
@@ -1303,13 +1357,14 @@
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <li>
-                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/devops">
+                                <a class="dropdown-item"
+                                    href="<?php echo SITE_ADDR ?>/career/devops/aws-sysops-administrator">
                                     AWS SysOps Administrator
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/devops">
+                                <a class="dropdown-item" href="<?php echo SITE_ADDR ?>/career/devops/">
                                     DevOps Engineer Expert
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
@@ -1492,6 +1547,5 @@
 
     </div>
 </div>
-</div>
-</div>
+
 <!-- offcanvas end -->

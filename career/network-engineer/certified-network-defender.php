@@ -31,8 +31,8 @@ require '../../assets/php/inc/nav.php';
             <div class="container">
                 <ul class="breadcrumb justify-content-center">
                     <li><a href="<?php echo SITE_ADDR ?>/">Home</a></li>
-                    <li><a href="<?php echo SITE_ADDR ?>/vendor">Vendor</a></li>
-                    <li><a href="<?php echo SITE_ADDR ?>/vendor/ec-council">EC-Council</a></li>
+                    <li><a href="<?php echo SITE_ADDR ?>/career">Career</a></li>
+                    <li><a href="<?php echo SITE_ADDR ?>/career/network-engineer">Network Engineer</a></li>
                     <li class="current">CND</li>
                 </ul>
             </div>

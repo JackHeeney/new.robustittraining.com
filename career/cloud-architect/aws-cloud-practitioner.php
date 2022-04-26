@@ -36,8 +36,8 @@ require '../../assets/php/inc/nav.php';
             <div class="container">
                 <ul class="breadcrumb justify-content-center">
                     <li><a href="<?php echo SITE_ADDR ?>/">Home</a></li>
-                    <li><a href="<?php echo SITE_ADDR ?>/vendor">Vendor</a></li>
-                    <li><a href="<?php echo SITE_ADDR ?>/vendor/aws">AWS</a></li>
+                    <li><a href="<?php echo SITE_ADDR ?>/career">Career</a></li>
+                    <li><a href="<?php echo SITE_ADDR ?>/career/cloud-architect">Cloud Architect</a></li>
                     <li class="current">Cloud Practitioner</li>
                 </ul>
             </div>

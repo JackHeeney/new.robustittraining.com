@@ -31,8 +31,8 @@ require '../../assets/php/inc/nav.php';
             <div class="container">
                 <ul class="breadcrumb justify-content-center">
                     <li><a href="<?php echo SITE_ADDR ?>/">Home</a></li>
-                    <li><a href="<?php echo SITE_ADDR ?>/vendor/microsoft">Microsoft</a></li>
-                    <li><a href="<?php echo SITE_ADDR ?>/vendor/microsoft/administrator">Administrator</a></li>
+                    <li><a href="<?php echo SITE_ADDR ?>/career">Career</a></li>
+                    <li><a href="<?php echo SITE_ADDR ?>/career/1st-line-support">1st Line Support</a></li>
                     <li class="current">Microsoft 365 Certified: Modern Desktop Administrator Associate</li>
                 </ul>
             </div>

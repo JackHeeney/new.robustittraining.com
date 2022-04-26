@@ -441,8 +441,9 @@ require './assets/php/inc/nav.php';
                                 <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/aws/aws-cloud-practitioner"
                                         alt="link to aws cloud practitioner">AWS Cloud
                                         Practitioner</a></h3>
-                                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                    culpa, unde perspiciatis hic delectus.</p>
+                                <p class="desc">This credential helps organizations identify and develop talent with
+                                    critical knowledge related to implementing cloud initiatives. Earning AWS Certified
+                                    Cloud Practitioner validates cloud fluency and foundational AWS knowledge.</p>
                                 <a href="<?php echo SITE_ADDR ?>/vendor/aws/aws-cloud-practitioner"
                                     alt="link to aws cloud practitioner">View Course
                                     <i class="fas fa-chevron-right fcr-animate"></i></a>
