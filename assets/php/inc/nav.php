@@ -262,17 +262,32 @@
                                             <div class="col-12 pt-5">
                                                 <h5 class="text-muted">Help Centre</h5>
                                                 <li>
-                                                    <a href="<?php echo SITE_ADDR ?>/faqs">
+                                                    <a href="<?php echo SITE_ADDR ?>/support-tickets">
                                                         <span class="menu-text">
-                                                            FAQ's <i class="fas fa-chevron-right fcr-animate"></i>
+                                                            Support Tickets <i
+                                                                class="fas fa-chevron-right fcr-animate"></i>
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="<?php echo SITE_ADDR ?>/">
+                                                    <a href="<?php echo SITE_ADDR ?>/help-desk">
                                                         <span class="menu-text">
-                                                            Technical Support <i
+                                                            Help Desk <i class="fas fa-chevron-right fcr-animate"></i>
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="<?php echo SITE_ADDR ?>/power-virtual-agent">
+                                                        <span class="menu-text">
+                                                            Power Virtual Agent <i
                                                                 class="fas fa-chevron-right fcr-animate"></i>
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="<?php echo SITE_ADDR ?>/faqs">
+                                                        <span class="menu-text">
+                                                            FAQ's <i class="fas fa-chevron-right fcr-animate"></i>
                                                         </span>
                                                     </a>
                                                 </li>

@@ -330,7 +330,7 @@
             <!-- Footer Widget Start -->
             <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6 mb-6">
                 <div class="footer-widget">
-                    <h4 class="footer-widget-title">Contact</h4>
+                    <h4 class="footer-widget-title">Help Centre</h4>
                     <div class="footer-widget-content">
                         <ul>
                             <li><a href="<?php echo SITE_ADDR ?>/support-ticket">Support Ticket <i

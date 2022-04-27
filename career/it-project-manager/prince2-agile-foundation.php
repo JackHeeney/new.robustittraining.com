@@ -318,7 +318,7 @@ require '../../assets/php/inc/nav.php';
 
             <!-- Start Average Salary Area -->
             <div class="text-white row my-lg-10 my-10 p-10 pl-2 p-xl-10 pl-xl-10" data-bg-color="#fff"
-                data-bg-image="https://www.expatica.com/app/uploads/sites/10/2014/05/Find-a-job-1-1200x675.jpg"
+                data-bg-image="<?php echo SITE_ADDR ?>/assets/images/banner/job-rolls.jpg"
                 data-overlay="0.9">
                 <div class="digital-marketing" data-aos="fade-up">
                     <div class="section-title-two">

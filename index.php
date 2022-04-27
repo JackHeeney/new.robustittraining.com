@@ -862,7 +862,18 @@ require './assets/php/inc/nav.php';
 </div>
 
 
-
+<!-- Brand Section Start -->
+<div class="brand-section section section-padding">
+    <div class="container">
+        <div class="row ">
+            <div class="col-lg-12">
+                <? require './assets/php/component/brand.php';
+                    ?>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Brand Section End -->
 
 
 <?php
