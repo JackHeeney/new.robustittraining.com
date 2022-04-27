@@ -21,7 +21,8 @@ require './assets/php/inc/nav.php';
 
 
     <!-- Page Title Section Start -->
-    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7" data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/breadcrumb-bg.jpg">
+    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7"
+        data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/breadcrumb-bg.jpg">
         <div class="page-title">
             <div class="container">
                 <h1 class="title">Upskill your business</h1>
@@ -56,7 +57,9 @@ require './assets/php/inc/nav.php';
                         </div>
                         <!-- Animation Shape Start -->
                         <div class="shape shape-1 scene">
-                            <span data-depth="1"><img src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/about-shape-2.png" alt=""></span>
+                            <span data-depth="1"><img
+                                    src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/about-shape-2.png"
+                                    alt=""></span>
                         </div>
                         <!-- Animation Shape End -->
                     </div>
@@ -106,7 +109,8 @@ require './assets/php/inc/nav.php';
                             the best results from your investment.
                         </p>
 
-                        <a class="btn btn-primary btn-hover-secondary mt-xl-12 mt-lg-8 mt-md-6 mt-4" href="#scroll-to-about-1">Learn More
+                        <a class="btn btn-primary btn-hover-secondary mt-xl-12 mt-lg-8 mt-md-6 mt-4"
+                            href="#scroll-to-about-1">Learn More
                             <i class="fas fa-chevron-right fcr-animate"></i></a>
                     </div>
                     <!-- Customer Success Content Area Start -->
@@ -130,7 +134,9 @@ require './assets/php/inc/nav.php';
                         </div>
                         <!-- Animation Shape Start -->
                         <div class="shape shape-1 scene">
-                            <span data-depth="1"><img src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/about-shape-1.png" alt=""></span>
+                            <span data-depth="1"><img
+                                    src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/about-shape-1.png"
+                                    alt=""></span>
                         </div>
                         <!-- Animation Shape End -->
                     </div>
@@ -154,7 +160,8 @@ require './assets/php/inc/nav.php';
                             hand to assist students and ensure optimal learning satisfaction.
                         </p>
 
-                        <a class="btn btn-primary btn-hover-secondary mt-lg-8 mt-md-6 mt-3" href="#scroll-to-about-2">Learn More
+                        <a class="btn btn-primary btn-hover-secondary mt-lg-8 mt-md-6 mt-3"
+                            href="#scroll-to-about-2">Learn More
                             <i class="fas fa-chevron-right fcr-animate"></i></a>
                     </div>
                     <!-- Communication Content Area Start -->
@@ -183,7 +190,8 @@ require './assets/php/inc/nav.php';
                             students onto courses at any point.
                         </p>
 
-                        <a class="btn btn-primary btn-hover-secondary mt-lg-8 mt-md-6 mt-3" href="#scroll-to-about-3">Learn More
+                        <a class="btn btn-primary btn-hover-secondary mt-lg-8 mt-md-6 mt-3"
+                            href="#scroll-to-about-3">Learn More
                             <i class="fas fa-chevron-right fcr-animate"></i></a>
                     </div>
                     <!-- Customisation Content Area Start -->
@@ -202,7 +210,9 @@ require './assets/php/inc/nav.php';
                         </div>
                         <!-- Animation Shape Start -->
                         <div class="shape shape-1 scene">
-                            <span data-depth="1"><img src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/about-shape-2.png" alt=""></span>
+                            <span data-depth="1"><img
+                                    src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/about-shape-2.png"
+                                    alt=""></span>
                         </div>
                         <!-- Animation Shape End -->
                     </div>
@@ -227,7 +237,9 @@ require './assets/php/inc/nav.php';
                         </div>
                         <!-- Animation Shape Start -->
                         <div class="shape shape-1 scene">
-                            <span data-depth="1"><img src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/about-shape-1.png" alt=""></span>
+                            <span data-depth="1"><img
+                                    src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/about-shape-1.png"
+                                    alt=""></span>
                         </div>
                         <!-- Animation Shape End -->
                     </div>
@@ -251,7 +263,8 @@ require './assets/php/inc/nav.php';
                             spent logged in, and more.
                         </p>
 
-                        <a class="btn btn-primary btn-hover-secondary mt-lg-8 mt-md-6 mt-3" href="#scroll-to-about-3">Learn More
+                        <a class="btn btn-primary btn-hover-secondary mt-lg-8 mt-md-6 mt-3"
+                            href="#scroll-to-about-3">Learn More
                             <i class="fas fa-chevron-right fcr-animate"></i></a>
                     </div>
                     <!-- Data Content Area Start -->
@@ -267,7 +280,8 @@ require './assets/php/inc/nav.php';
 
 
     <!-- Trustpilot Section Start -->
-    <div class="video-section section section-padding" data-bg-color="#000" data-overlay="0.7" data-bg-image="assets/images/bg/video-bg.jpg">
+    <div class="video-section section section-padding" data-bg-color="#000" data-overlay="0.7"
+        data-bg-image="assets/images/bg/video-bg.jpg">
 
         <div class="container text-center">
 
@@ -277,7 +291,10 @@ require './assets/php/inc/nav.php';
                 <div class="trustpilot">
 
                     <!-- TrustBox widget - Micro Combo -->
-                    <div class="trustpilot-widget" data-locale="en-GB" data-template-id="5419b6ffb0d04a076446a9af" data-businessunit-id="5e470c6a94d8c3000152bc70" data-style-height="20px" data-style-width="100%" data-theme="dark"> <a href="https://uk.trustpilot.com/review/www.robustittraining.com" target="_blank" rel="noopener">Trustpilot</a> </div>
+                    <div class="trustpilot-widget" data-locale="en-GB" data-template-id="5419b6ffb0d04a076446a9af"
+                        data-businessunit-id="5e470c6a94d8c3000152bc70" data-style-height="20px" data-style-width="100%"
+                        data-theme="dark"> <a href="https://uk.trustpilot.com/review/www.robustittraining.com"
+                            target="_blank" rel="noopener">Trustpilot</a> </div>
                     <!-- End TrustBox widget -->
                 </div>
             </div>
@@ -298,6 +315,164 @@ require './assets/php/inc/nav.php';
     </div>
     <!-- Trustpilot Section End -->
 
+    <!-- Contact Section Start -->
+    <div class="section section-padding contact-section" data-bg-color="#fff" data-overlay="0">
+
+        <div class="container">
+            <div class="row row-cols-lg-2 row-cols-1 align-items-center">
+                <div class="col" data-aos="fade-right" data-aos-offset="-200">
+                    <!-- Contact Information -->
+                    <div class="contact-Information mr-xl-7">
+                        <!-- Section Title Two Start -->
+                        <div class="section-title-two color-dark">
+                            <span class="sub-title">Contact Us</span>
+                            <h3 class="title">Fill out the form or get in touch by using the details below:
+                            </h3>
+                        </div>
+                        <!-- Section Title Two End -->
+
+                        <!-- Contact Info Item Start -->
+                        <div class="contact-info info-dark" data-vivus-hover>
+                            <div class="icon">
+                                <img class="svgInject" src="assets/images/svg/linea/linea-basic-map.svg" alt="">
+                            </div>
+                            <div class="info">
+                                <h4 class="title">Our Locations</h4>
+                                <span class="info-text address-desktop">
+                                    <span class="address-mobile">Harlow Enterprise Hub, <br /> Kao Hockham Building
+                                        <br /> Edinburgh Way, Harlow,
+                                        <br /> Essex, CM20 2NQ.</span>
+                                </span>
+                            </div>
+                        </div>
+                        <!-- Contact Info Item End -->
+                        <!-- Contact Info Item Start -->
+                        <div class="contact-info info-dark" data-vivus-hover>
+                            <div class="icon">
+                                <img class="svgInject" src="assets/images/svg/linea/linea-basic-message-txt.svg" alt="">
+                            </div>
+                            <div class="info">
+                                <h4 class="title">Give Us A Call</h4>
+                                <span class="info-text">
+                                    Sales Team:
+                                    <a href="tel:02038 757 827" alt="Sales Team Contact Number">
+                                        02038 757 827
+                                    </a>
+                                    <br />
+                                    Support Team:
+                                    <a href="tel:02038 757 831" alt="Support Team Contact Number">
+                                        02038 757 831
+                                    </a>
+                                    <br />
+                                    Freephone:
+                                    <a href="tel:0800 677 1232" alt="Freephone Contact Number">
+                                        0800 677 1232
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                        <!-- Contact Info Item End -->
+                        <!-- Contact Info Item Start -->
+                        <div class="contact-info info-dark" data-vivus-hover>
+                            <div class="icon">
+                                <img class="svgInject" src="assets/images/svg/linea/linea-basic-mail-open-text.svg"
+                                    alt="">
+                            </div>
+                            <div class="info">
+                                <h4 class="title"> Help Desk</h4>
+                                <span class="info-text">
+                                    <a href="mailto:info@robustit.co.uk">info@robustit.co.uk</a>,<br />
+                                    <a href="mailto:support@robustit.co.uk">support@robustit.co.uk</a>,<br />
+                                    <a href="mailto:compliance@robustit.co.uk">compliance@robustit.co.uk</a>
+                                </span>
+                            </div>
+                        </div>
+                        <!-- Contact Info Item End -->
+                    </div>
+                    <!-- Contact Information -->
+                </div>
+                <div class="col mt-lg-0 mt-md-10 mt-8" data-aos="fade-up" data-aos-offset="-100">
+
+                    <!-- Contact Form Start -->
+                    <div class="contact-form-area box-shadow" data-bg-image="assets/images/bg/contact-bg.jpg"
+                        data-overlay="0.8">
+
+                        <!-- Section Title Start -->
+                        <div class="section-title text-center mb-7">
+                            <h2 class="title fz-28 text-white">Get in touch today!</h2>
+                            <p class="sub-title">We have made it easy for clients to reach us
+                                and begin their cloud journey easily.</p>
+                        </div>
+                        <!-- Section Title End -->
+                        <form action="https://robust.flg360.co.uk/api/APIHTTPPost.php" method="POST" id="contact-form">
+
+                            <!-- form details for sending info to leadsite -->
+                            <input type="hidden" name="intLeadGroupID" value="" />
+                            <input type="hidden" name="strSource" value="" />
+                            <input type="hidden" name="strMedium" value="" />
+                            <input type="hidden" name="strTerm" value="" />
+                            <input type="hidden" name="intSiteID" value="15334" />
+                            <input type="hidden" name="intReferrerBuyerID" value="0" />
+                            <input type="hidden" name="intDPAStatusPhoneID" value="1">
+                            <input type="hidden" name="intDPAStatusSMSID" value="1">
+                            <input type="hidden" name="intDPAStatusEmailID" value="1">
+                            <input type="hidden" name="strAPISuccessURL"
+                                value="http://www.robustittraining.com/thankyou" />
+                            <input type="hidden" name="strAPIFailURL" value="http://www.robustittraining.com/sorry" />
+                            <input type="hidden" name="strLeadData2" id="strLeadData2"
+                                value="<?php echo $leadIsFrom ?>/" />
+                            <!-- //end -->
+
+                            <div class="row mb-n4">
+                                <div class="col-md-6 col-12 mb-4">
+                                    <input type="text" placeholder="First Name *" name="firstName">
+                                </div>
+                                <div class="col-md-6 col-12 mb-4">
+                                    <input type="text" placeholder="Last Name *" name="lastName">
+                                </div>
+                                <div class="col-md-12 col-12 mb-4">
+                                    <input type="email" placeholder="Email *" name="email">
+                                </div>
+                                <div class="col-md-12 col-12 mb-4">
+                                    <input type="text" placeholder="Phone *" name="phone">
+                                </div>
+                                <div class="col-12 mb-6">
+                                    <textarea name="message" placeholder="Message"></textarea>
+                                </div>
+                                <div class="col-12 text-center mb-4">
+                                    <button class="btn btn-primary btn-hover-secondary">Get a free consultation <i
+                                            class="fas fa-chevron-right fcr-animate"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                        <p class="form-messege"></p>
+
+                        <!-- Animation Shape Start -->
+                        <div class="shape shape-1 scene">
+                            <span data-depth="1">
+                                <img src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/contact-shape.png"
+                                    alt="">
+                            </span>
+                        </div>
+                        <!-- Animation Shape End -->
+                    </div>
+                    <!-- Contact Form End -->
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Animation Shape Start -->
+        <div class="shape shape-1 scene">
+            <span data-depth="1">
+                <img src="assets/images/shape-animation/newsletter-shape.png" alt="">
+            </span>
+        </div>
+        <!-- Animation Shape End -->
+
+    </div>
+    <!-- Contact Section End -->
 
 
 

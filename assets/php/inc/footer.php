@@ -221,6 +221,7 @@
     <div class="wave"></div>
 </div>
 
+
 <div class="footer-section section" data-bg-color="#030e22">
     <div class="container">
 
@@ -257,13 +258,13 @@
                     <h4 class="footer-widget-title">Services</h4>
                     <div class="footer-widget-content">
                         <ul>
-                            <li><a href="<?php echo SITE_ADDR ?>/">Corporate <i
+                            <li><a href="<?php echo SITE_ADDR ?>/corporate-enquiries">Corporate <i
                                         class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a href="<?php echo SITE_ADDR ?>/">ECLAS <i
+                            <li><a href="<?php echo SITE_ADDR ?>/elcas-enquiries">ECLAS <i
                                         class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a href="<?php echo SITE_ADDR ?>/">Career Advice <i
+                            <li><a href="<?php echo SITE_ADDR ?>/career-advice">Career Advice <i
                                         class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a href="<?php echo SITE_ADDR ?>/">Finance Options <i
+                            <li><a href="<?php echo SITE_ADDR ?>/finance-options">Finance Options <i
                                         class="fas fa-chevron-right fcr-animate"></i></a></li>
                         </ul>
                     </div>
@@ -332,11 +333,11 @@
                     <h4 class="footer-widget-title">Contact</h4>
                     <div class="footer-widget-content">
                         <ul>
-                            <li><a href="<?php echo SITE_ADDR ?>/">Support Ticket <i
+                            <li><a href="<?php echo SITE_ADDR ?>/support-ticket">Support Ticket <i
                                         class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a href="<?php echo SITE_ADDR ?>/">Help Desk <i
+                            <li><a href="<?php echo SITE_ADDR ?>/help-desk">Help Desk <i
                                         class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a href="<?php echo SITE_ADDR ?>/">Live Chat <span class="ft-badge">lets talk</span><i
+                            <li><a href="<?php echo SITE_ADDR ?>/power-virtual-agent">Power Virtual Agent <i
                                         class="fas fa-chevron-right fcr-animate"></i></a></li>
                             <li><a href="<?php echo SITE_ADDR ?>/faqs">FAQs <i
                                         class="fas fa-chevron-right fcr-animate"></i></a></li>

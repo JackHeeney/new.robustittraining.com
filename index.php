@@ -325,9 +325,8 @@ require './assets/php/inc/nav.php';
                 <div class="col mb-6">
 
                     <div class="icon-box text-center"
-                        data-bg-image="https://s3.amazonaws.com/mentoring.redesign/s3fs-public/male-CEO-business-team.jpg"
-                        data-overlay="0.8" data-vivus-hover data-aos="fade-up" data-aos-delay="200"
-                        data-aos-duration="800">
+                        data-bg-image="<?php echo SITE_ADDR ?>/assets/images/services/corporate.jpg" data-overlay="0.8"
+                        data-vivus-hover data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
                         <div class="icon"><img class="svgInject"
                                 src="assets/images/svg/svgrepo/office-block-svgrepo-com.svg" alt=""></div>
                         <div class="content">
@@ -347,9 +346,8 @@ require './assets/php/inc/nav.php';
                 <div class="col mb-6">
 
                     <div class="icon-box text-center"
-                        data-bg-image="https://armyrotc.as.uky.edu/sites/default/files/styles/flexslider_full/public/UK%20Army%20ROTC%20Cadet%20Classroom%20Experience%20%E2%80%93%202010-1?itok=T9Va1SKu&timestamp=1436910840"
-                        data-overlay="0.8" data-vivus-hover data-aos="fade-up" data-aos-delay="400"
-                        data-aos-duration="800">
+                        data-bg-image="<?php echo SITE_ADDR ?>/assets/images/services/elcas.jpg" data-overlay="0.8"
+                        data-vivus-hover data-aos="fade-up" data-aos-delay="400" data-aos-duration="800">
                         <div class="icon"><img class="svgInject"
                                 src="assets/images/svg/svgrepo/dog-tag-military-svgrepo-com.svg" alt="">
                         </div>
@@ -370,7 +368,7 @@ require './assets/php/inc/nav.php';
                 <div class="col mb-6">
 
                     <div class="icon-box text-center"
-                        data-bg-image="https://miro.medium.com/max/1000/1*n7LK5cSZarhBRXRjxmkg5A.jpeg"
+                        data-bg-image="<?php echo SITE_ADDR ?>/assets/images/services/career-advice.jpg"
                         data-overlay="0.8" data-vivus-hover data-aos="fade-up" data-aos-delay="600"
                         data-aos-duration="800">
                         <div class="icon"><img class="svgInject"

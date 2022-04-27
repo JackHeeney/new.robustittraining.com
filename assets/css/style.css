@@ -42076,6 +42076,7 @@ svg:not(:root) {
 /* 04.6 Form CSS */
 input[type="text"],
 input[type="email"],
+input[type="phone"],
 input[type="url"],
 input[type="password"],
 input[type="search"],

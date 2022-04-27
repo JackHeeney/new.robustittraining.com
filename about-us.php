@@ -21,7 +21,8 @@ require './assets/php/inc/nav.php';
 
 
     <!-- Page Title Section Start -->
-    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7" data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/breadcrumb-bg.jpg">
+    <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7"
+        data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/breadcrumb-bg.jpg">
         <div class="page-title">
             <div class="container">
                 <h1 class="title">About Us</h1>
@@ -56,7 +57,9 @@ require './assets/php/inc/nav.php';
                         </div>
                         <!-- Animation Shape Start -->
                         <div class="shape shape-1 scene">
-                            <span data-depth="1"><img src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/about-shape-2.png" alt=""></span>
+                            <span data-depth="1"><img
+                                    src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/about-shape-2.png"
+                                    alt=""></span>
                         </div>
                         <!-- Animation Shape End -->
                     </div>
@@ -64,18 +67,18 @@ require './assets/php/inc/nav.php';
                         <!-- Single About Funfuct Start -->
                         <div class="col mb-6" data-aos="fade-up">
                             <div class="about-funfact">
-                                <div class="number"><span class="counter">50</span>k+</div>
+                                <div class="number"><span class="counter">350</span>k+</div>
                                 <h6 class="text">Happy Students</h6>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, sequi!</p>
+                                <p>We have had many student enrol and come back for more.</p>
                             </div>
                         </div>
                         <!-- Single About Funfuct Start -->
                         <!-- Single About Funfuct Start -->
                         <div class="col mb-6" data-aos="fade-up">
                             <div class="about-funfact">
-                                <div class="number"><span class="counter">30</span>k+</div>
-                                <h6 class="text">Exams Passed</h6>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, facilis.</p>
+                                <div class="number"><span class="counter">98</span>%</div>
+                                <h6 class="text">Pass Rate</h6>
+                                <p>We have a 98% pass rate with our cyber security package.</p>
                             </div>
                         </div>
                         <!-- Single About Funfuct Start -->
@@ -108,7 +111,8 @@ require './assets/php/inc/nav.php';
                             IT can help.
                         </p>
 
-                        <a class="btn btn-primary btn-hover-secondary mt-xl-12 mt-lg-8 mt-md-6 mt-4" href="#scroll-to-about-1">Learn More
+                        <a class="btn btn-primary btn-hover-secondary mt-xl-12 mt-lg-8 mt-md-6 mt-4"
+                            href="#scroll-to-about-1">Learn More
                             <i class="fas fa-chevron-right fcr-animate"></i></a>
                     </div>
                     <!-- About Content Area Start -->
@@ -132,7 +136,9 @@ require './assets/php/inc/nav.php';
                         </div>
                         <!-- Animation Shape Start -->
                         <div class="shape shape-1 scene">
-                            <span data-depth="1"><img src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/about-shape-1.png" alt=""></span>
+                            <span data-depth="1"><img
+                                    src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/about-shape-1.png"
+                                    alt=""></span>
                         </div>
                         <!-- Animation Shape End -->
                     </div>
@@ -158,7 +164,8 @@ require './assets/php/inc/nav.php';
                             Security training to leaving members of the armed forces under the ELC scheme.
                         </p>
 
-                        <a class="btn btn-primary btn-hover-secondary mt-lg-8 mt-md-6 mt-3" href="#scroll-to-about-2">Learn More
+                        <a class="btn btn-primary btn-hover-secondary mt-lg-8 mt-md-6 mt-3"
+                            href="#scroll-to-about-2">Learn More
                             <i class="fas fa-chevron-right fcr-animate"></i></a>
                     </div>
                     <!-- About Content Area Start -->
@@ -201,7 +208,8 @@ require './assets/php/inc/nav.php';
                             break the cost of training down to monthly instalments to suit your budget.
                         </p>
 
-                        <a class="btn btn-primary btn-hover-secondary mt-lg-8 mt-md-6 mt-3" href="#scroll-to-about-3">Learn More
+                        <a class="btn btn-primary btn-hover-secondary mt-lg-8 mt-md-6 mt-3"
+                            href="#scroll-to-about-3">Learn More
                             <i class="fas fa-chevron-right fcr-animate"></i></a>
                     </div>
                     <!-- About Content Area Start -->
@@ -220,7 +228,9 @@ require './assets/php/inc/nav.php';
                         </div>
                         <!-- Animation Shape Start -->
                         <div class="shape shape-1 scene">
-                            <span data-depth="1"><img src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/about-shape-2.png" alt=""></span>
+                            <span data-depth="1"><img
+                                    src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/about-shape-2.png"
+                                    alt=""></span>
                         </div>
                         <!-- Animation Shape End -->
                     </div>
@@ -272,7 +282,9 @@ require './assets/php/inc/nav.php';
                         </div>
                         <!-- Animation Shape Start -->
                         <div class="shape shape-1 scene">
-                            <span data-depth="1"><img src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/about-shape-1.png" alt=""></span>
+                            <span data-depth="1"><img
+                                    src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/about-shape-1.png"
+                                    alt=""></span>
                         </div>
                         <!-- Animation Shape End -->
                     </div>
@@ -318,7 +330,8 @@ require './assets/php/inc/nav.php';
 
 
     <!-- Video Section Start -->
-    <div class="video-section section section-padding" data-bg-color="#000" data-overlay="0.7" data-bg-image="assets/images/bg/video-bg.jpg">
+    <div class="video-section section section-padding" data-bg-color="#000" data-overlay="0.7"
+        data-bg-image="assets/images/bg/video-bg.jpg">
 
         <div class="container text-center">
 
@@ -328,7 +341,10 @@ require './assets/php/inc/nav.php';
                 <div class="trustpilot">
 
                     <!-- TrustBox widget - Micro Combo -->
-                    <div class="trustpilot-widget" data-locale="en-GB" data-template-id="5419b6ffb0d04a076446a9af" data-businessunit-id="5e470c6a94d8c3000152bc70" data-style-height="20px" data-style-width="100%" data-theme="dark"> <a href="https://uk.trustpilot.com/review/www.robustittraining.com" target="_blank" rel="noopener">Trustpilot</a> </div>
+                    <div class="trustpilot-widget" data-locale="en-GB" data-template-id="5419b6ffb0d04a076446a9af"
+                        data-businessunit-id="5e470c6a94d8c3000152bc70" data-style-height="20px" data-style-width="100%"
+                        data-theme="dark"> <a href="https://uk.trustpilot.com/review/www.robustittraining.com"
+                            target="_blank" rel="noopener">Trustpilot</a> </div>
                     <!-- End TrustBox widget -->
                 </div>
             </div>
@@ -364,7 +380,8 @@ require './assets/php/inc/nav.php';
                 <div class="swiper-wrapper">
 
                     <div class="swiper-slide">
-                        <a href="https://uk.trustpilot.com/users/5d4d941de3f4c577ac08de46" alt="trustpilot link" target="_blank">
+                        <a href="https://uk.trustpilot.com/users/5d4d941de3f4c577ac08de46" alt="trustpilot link"
+                            target="_blank">
 
                             <!-- Static Testimonial Start -->
                             <div class="static-testimonial mb-6">
@@ -389,7 +406,8 @@ require './assets/php/inc/nav.php';
                                 <div class="author-info">
                                     <div class="cite">
                                         <h6 class="name text-trustpilot">Simone Mascia</h6>
-                                        <span class="position text-trustpilot"><i class="fas fa-location text-trustpilot"></i> GB</span>
+                                        <span class="position text-trustpilot"><i
+                                                class="fas fa-location text-trustpilot"></i> GB</span>
                                     </div>
                                 </div>
                             </div>
@@ -399,7 +417,8 @@ require './assets/php/inc/nav.php';
                     </div>
 
                     <div class="swiper-slide">
-                        <a href="https://uk.trustpilot.com/users/620d20c246f36d0013b55c27" alt="trustpilot link" target="_blank">
+                        <a href="https://uk.trustpilot.com/users/620d20c246f36d0013b55c27" alt="trustpilot link"
+                            target="_blank">
 
                             <!-- Static Testimonial Start -->
                             <div class="static-testimonial mb-6">

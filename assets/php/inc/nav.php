@@ -113,7 +113,7 @@
                                     <li><a href="<?php echo SITE_ADDR ?>/about-us"><span
                                                 class="text-muted">About</span></a>
                                     </li>
-                                    <li><a href="<?php echo SITE_ADDR ?>/"><span class="menu-text">Blog</span></a></li>
+                                    <!-- <li><a href="<?php echo SITE_ADDR ?>/"><span class="menu-text">Blog</span></a></li> -->
                                     <li><a href="<?php echo SITE_ADDR ?>/testimonials"><span
                                                 class="menu-text">Testimonials</span></a>
                                     </li>
@@ -203,7 +203,6 @@
                             <ul>
                                 <li>
                                     <a href="<?php echo SITE_ADDR ?>/"><span class="menu-text">Home</span></a>
-
                                 </li>
                                 <li class="has-children">
                                     <a class="#" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
@@ -228,13 +227,13 @@
 
                                                     </a>
                                                 </li>
-                                                <li>
+                                                <!-- <li>
                                                     <a href="<?php echo SITE_ADDR ?>/">
                                                         <span class="menu-text">
                                                             Blog <i class="fas fa-chevron-right fcr-animate"></i>
                                                         </span>
                                                     </a>
-                                                </li>
+                                                </li> -->
                                                 <li>
                                                     <a href="<?php echo SITE_ADDR ?>/testimonials">
                                                         <span class="menu-text">
@@ -280,6 +279,10 @@
                                             </div>
                                         </div>
                                     </ul>
+                                </li>
+                                <li>
+                                    <a href="<?php echo SITE_ADDR ?>/elcas-enquiries"><span
+                                            class="menu-text">ELCAS</span></a>
                                 </li>
                                 <li>
                                     <a href="<?php echo SITE_ADDR ?>/contact-us"><span class="menu-text">Contact

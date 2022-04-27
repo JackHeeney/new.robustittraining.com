@@ -67,8 +67,12 @@ require '../assets/php/inc/nav.php';
                         <div class="info">
                             <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/ec-council"
                                     alt="link to EC-council">EC-Council</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">The International Council of E-Commerce Consultants (EC-Council) is a
+                                member-based organization that certifies individuals in various e-business and
+                                information security skills. It is the owner and creator of the world famous Certified
+                                Ethical Hacker (CEH), Computer Hacking Forensics Investigator (CHFI) and EC-Council
+                                Certified Security Analyst (ECSA)/License Penetration Tester (LPT) certifications and as
+                                well as many others certifications that are offered in over 87 countries globally.</p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/ec-council" alt="link to EC-council">View Courses <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
@@ -86,8 +90,14 @@ require '../assets/php/inc/nav.php';
                         <div class="info">
                             <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/aws">Amazon Web Services</a>
                             </h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nisi, quo
-                                optio sint doloribus repellat.</p>
+                            <p class="desc">Organizations need individuals with cloud skills to help transform their
+                                business. AWS Training and Certification helps you build and validate your skills so you
+                                can get more out of the cloud. Our content is created by experts at AWS and updated
+                                regularly so you can keep your cloud skills fresh.
+
+                                We offer both digital and classroom training. Digital training allows you to learn
+                                online at your own pace. With classroom training, you can learn best practices from an
+                                expert instructor. </p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/aws">View Courses <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
@@ -105,8 +115,8 @@ require '../assets/php/inc/nav.php';
                         </div>
                         <div class="info">
                             <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/microsoft">Microsoft</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">Microsoft has certification paths for many technical job roles. Each of
+                                these certifications consists of passing a series of exams to earn certification.</p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/microsoft">View Courses <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
