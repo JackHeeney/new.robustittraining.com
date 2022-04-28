@@ -146,10 +146,12 @@ require './assets/php/inc/nav.php';
                     </div>
                     <!-- Section Title End -->
                     <div class="contact-form">
-                        <form action="https://robust.flg360.co.uk/api/APIHTTPPost.php" method="POST" id="contact-form">
+                        <form action="https://robust.flg360.co.uk/api/APIHTTPPost.php" method="post"
+                            onsubmit="javascript:return fncValidateForm(this);" id="" name="request_form"
+                            id="contact-form">
 
                             <!-- form details for sending info to leadsite -->
-                            <input type="hidden" name="intLeadGroupID" value="" />
+                            <input type="hidden" name="intLeadGroupID" value="54553" />
                             <input type="hidden" name="strSource" value="" />
                             <input type="hidden" name="strMedium" value="" />
                             <input type="hidden" name="strTerm" value="" />
@@ -158,27 +160,35 @@ require './assets/php/inc/nav.php';
                             <input type="hidden" name="intDPAStatusPhoneID" value="1">
                             <input type="hidden" name="intDPAStatusSMSID" value="1">
                             <input type="hidden" name="intDPAStatusEmailID" value="1">
-                            <input type="hidden" name="strAPISuccessURL"
-                                value="http://www.robustittraining.com/thankyou" />
-                            <input type="hidden" name="strAPIFailURL" value="http://www.robustittraining.com/sorry" />
+                            <input type="hidden" name="strAPISuccessURL" value="<?php echo SITE_ADDR ?>/thankyou" />
+                            <input type="hidden" name="strAPIFailURL" value="<?php echo SITE_ADDR ?>/sorry" />
                             <input type="hidden" name="strLeadData2" id="strLeadData2"
                                 value="<?php echo $leadIsFrom ?>/" />
                             <!-- //end -->
+
                             <div class="row mb-n6">
                                 <div class="col-md-6 col-12 mb-6">
-                                    <input type="text" placeholder="Your Name *" name="name">
+                                    <input type="text" placeholder="First Name *" name="strLeadFirstName"
+                                        id="strLeadFirstName">
                                 </div>
                                 <div class="col-md-6 col-12 mb-6">
-                                    <input type="email" placeholder="Email *" name="email">
+                                    <input type="text" placeholder="Last Name *" name="strLeadLastName"
+                                        id="strLeadLastName">
                                 </div>
-                                <div class="col-md-12 col-12 mb-6">
-                                    <input type="text" placeholder="Subject *" name="subject">
+                                <div class="col-md-6 col-12 mb-6">
+                                    <input type="email" placeholder="Email *" name="strLeadEmail" id="strLeadEmail">
+                                </div>
+                                <div class="col-md-6 col-12 mb-6">
+                                    <input type="phone" placeholder="Phone *" name="strLeadPhone1" id="strLeadPhone1">
                                 </div>
                                 <div class="col-12 mb-6">
-                                    <textarea name="message" placeholder="Message"></textarea>
+                                    <textarea name="message" placeholder="Message" name="strLeadData4"
+                                        id="strLeadData4"></textarea>
                                 </div>
                                 <div class="col-12 text-center mb-6">
-                                    <button class="btn btn-primary btn-hover-secondary">Submit</button>
+                                    <button type="submit" name="submit" value="Submit"
+                                        class="btn btn-primary btn-hover-secondary">Submit <i
+                                            class="fas fa-chevron-right fcr-animate"></i></button>
                                 </div>
                             </div>
                         </form>

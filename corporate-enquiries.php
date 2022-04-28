@@ -279,217 +279,94 @@ require './assets/php/inc/nav.php';
     <!-- About Section End -->
 
 
-    <!-- Trustpilot Section Start -->
-    <div class="video-section section section-padding" data-bg-color="#000" data-overlay="0.7"
-        data-bg-image="assets/images/bg/video-bg.jpg">
 
-        <div class="container text-center">
-
-            <!-- Section Title Start -->
-            <div class="section-title color-light text-center" data-aos="fade-up">
-
-                <div class="trustpilot">
-
-                    <!-- TrustBox widget - Micro Combo -->
-                    <div class="trustpilot-widget" data-locale="en-GB" data-template-id="5419b6ffb0d04a076446a9af"
-                        data-businessunit-id="5e470c6a94d8c3000152bc70" data-style-height="20px" data-style-width="100%"
-                        data-theme="dark"> <a href="https://uk.trustpilot.com/review/www.robustittraining.com"
-                            target="_blank" rel="noopener">Trustpilot</a> </div>
-                    <!-- End TrustBox widget -->
-                </div>
-            </div>
-            <!-- Section Title End -->
-            <!-- <a href="https://www.youtube.com/watch?v=r9xbF0himt4" class="play-btn icon video-popup"><i
-                    class="fas fa-play"></i></i></a> -->
-
-        </div>
-
-        <!-- Animation Shape Start -->
-        <div class="shape shape-1 scene">
-            <span data-depth="1">
-                <img src="assets/images/shape-animation/newsletter-shape.png" alt="">
-            </span>
-        </div>
-        <!-- Animation Shape End -->
-
-    </div>
-    <!-- Trustpilot Section End -->
-
-    <!-- Contact Section Start -->
-    <div class="section section-padding contact-section" data-bg-color="#fff" data-overlay="0">
-
-        <div class="container">
-            <div class="row row-cols-lg-2 row-cols-1 align-items-center">
-                <div class="col" data-aos="fade-right" data-aos-offset="-200">
-                    <!-- Contact Information -->
-                    <div class="contact-Information mr-xl-7">
-                        <!-- Section Title Two Start -->
-                        <div class="section-title-two color-dark">
-                            <span class="sub-title">Contact Us</span>
-                            <h3 class="title">Fill out the form or get in touch by using the details below:
-                            </h3>
-                        </div>
-                        <!-- Section Title Two End -->
-
-                        <!-- Contact Info Item Start -->
-                        <div class="contact-info info-dark" data-vivus-hover>
-                            <div class="icon">
-                                <img class="svgInject" src="assets/images/svg/linea/linea-basic-map.svg" alt="">
-                            </div>
-                            <div class="info">
-                                <h4 class="title">Our Locations</h4>
-                                <span class="info-text address-desktop">
-                                    <span class="address-mobile">Harlow Enterprise Hub, <br /> Kao Hockham Building
-                                        <br /> Edinburgh Way, Harlow,
-                                        <br /> Essex, CM20 2NQ.</span>
-                                </span>
-                            </div>
-                        </div>
-                        <!-- Contact Info Item End -->
-                        <!-- Contact Info Item Start -->
-                        <div class="contact-info info-dark" data-vivus-hover>
-                            <div class="icon">
-                                <img class="svgInject" src="assets/images/svg/linea/linea-basic-message-txt.svg" alt="">
-                            </div>
-                            <div class="info">
-                                <h4 class="title">Give Us A Call</h4>
-                                <span class="info-text">
-                                    Sales Team:
-                                    <a href="tel:02038 757 827" alt="Sales Team Contact Number">
-                                        02038 757 827
-                                    </a>
-                                    <br />
-                                    Support Team:
-                                    <a href="tel:02038 757 831" alt="Support Team Contact Number">
-                                        02038 757 831
-                                    </a>
-                                    <br />
-                                    Freephone:
-                                    <a href="tel:0800 677 1232" alt="Freephone Contact Number">
-                                        0800 677 1232
-                                    </a>
-                                </span>
-                            </div>
-                        </div>
-                        <!-- Contact Info Item End -->
-                        <!-- Contact Info Item Start -->
-                        <div class="contact-info info-dark" data-vivus-hover>
-                            <div class="icon">
-                                <img class="svgInject" src="assets/images/svg/linea/linea-basic-mail-open-text.svg"
-                                    alt="">
-                            </div>
-                            <div class="info">
-                                <h4 class="title"> Help Desk</h4>
-                                <span class="info-text">
-                                    <a href="mailto:info@robustit.co.uk">info@robustit.co.uk</a>,<br />
-                                    <a href="mailto:support@robustit.co.uk">support@robustit.co.uk</a>,<br />
-                                    <a href="mailto:compliance@robustit.co.uk">compliance@robustit.co.uk</a>
-                                </span>
-                            </div>
-                        </div>
-                        <!-- Contact Info Item End -->
-                    </div>
-                    <!-- Contact Information -->
-                </div>
-                <div class="col mt-lg-0 mt-md-10 mt-8" data-aos="fade-up" data-aos-offset="-100">
-
-                    <!-- Contact Form Start -->
-                    <div class="contact-form-area box-shadow" data-bg-image="assets/images/bg/contact-bg.jpg"
-                        data-overlay="0.8">
-
+    <!-- Contact Form Section Start -->
+    <div style="background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255, 1) 90%);">
+        <div class="contact-form-section section section-padding-t90-b100" data-overlay="0.8"
+            data-bg-image="<?php echo SITE_ADDR ?>/assets/images/hero-image/hero-1.jpg">
+            <div class="container">
+                <div class="row">
+                    <div class="offset-lg-2 col-lg-8">
                         <!-- Section Title Start -->
-                        <div class="section-title text-center mb-7">
-                            <h2 class="title fz-28 text-white">Get in touch today!</h2>
-                            <p class="sub-title">We have made it easy for clients to reach us
-                                and begin their cloud journey easily.</p>
+                        <div class="section-title text-center " data-aos="fade-up">
+                            <h2 class="title text-light">Up-skill your business today!</h2>
+                            <p class="sub-title text-light">We have made it easier for you to reach us and begin your
+                                learning journey.
+                            </p>
                         </div>
                         <!-- Section Title End -->
-                        <form action="https://robust.flg360.co.uk/api/APIHTTPPost.php" method="POST" id="contact-form">
+                        <div class="contact-form">
+                            <form action="https://robust.flg360.co.uk/api/APIHTTPPost.php" method="post"
+                                onsubmit="javascript:return fncValidateForm(this);" id="" name="request_form"
+                                id="contact-form">
 
-                            <!-- form details for sending info to leadsite -->
-                            <input type="hidden" name="intLeadGroupID" value="" />
-                            <input type="hidden" name="strSource" value="" />
-                            <input type="hidden" name="strMedium" value="" />
-                            <input type="hidden" name="strTerm" value="" />
-                            <input type="hidden" name="intSiteID" value="15334" />
-                            <input type="hidden" name="intReferrerBuyerID" value="0" />
-                            <input type="hidden" name="intDPAStatusPhoneID" value="1">
-                            <input type="hidden" name="intDPAStatusSMSID" value="1">
-                            <input type="hidden" name="intDPAStatusEmailID" value="1">
-                            <input type="hidden" name="strAPISuccessURL"
-                                value="http://www.robustittraining.com/thankyou" />
-                            <input type="hidden" name="strAPIFailURL" value="http://www.robustittraining.com/sorry" />
-                            <input type="hidden" name="strLeadData2" id="strLeadData2"
-                                value="<?php echo $leadIsFrom ?>/" />
-                            <!-- //end -->
+                                <!-- form details for sending info to leadsite -->
+                                <input type="hidden" name="intLeadGroupID" value="54553" />
+                                <input type="hidden" name="strSource" value="" />
+                                <input type="hidden" name="strMedium" value="" />
+                                <input type="hidden" name="strTerm" value="" />
+                                <input type="hidden" name="intSiteID" value="15334" />
+                                <input type="hidden" name="intReferrerBuyerID" value="0" />
+                                <input type="hidden" name="intDPAStatusPhoneID" value="1">
+                                <input type="hidden" name="intDPAStatusSMSID" value="1">
+                                <input type="hidden" name="intDPAStatusEmailID" value="1">
+                                <input type="hidden" name="strAPISuccessURL" value="<?php echo SITE_ADDR ?>/thankyou" />
+                                <input type="hidden" name="strAPIFailURL" value="<?php echo SITE_ADDR ?>/sorry" />
+                                <input type="hidden" name="strLeadData2" id="strLeadData2"
+                                    value="<?php echo $leadIsFrom ?>/" />
+                                <!-- //end -->
 
-                            <div class="row mb-n4">
-                                <div class="col-md-6 col-12 mb-4">
-                                    <input type="text" placeholder="First Name *" name="firstName">
+                                <div class="row mb-n6">
+                                    <div class="col-md-6 col-12 mb-6">
+                                        <input type="text" placeholder="First Name *" name="strLeadFirstName"
+                                            id="strLeadFirstName">
+                                    </div>
+                                    <div class="col-md-6 col-12 mb-6">
+                                        <input type="text" placeholder="Last Name *" name="strLeadLastName"
+                                            id="strLeadLastName">
+                                    </div>
+                                    <div class="col-md-6 col-12 mb-6">
+                                        <input type="email" placeholder="Email *" name="strLeadEmail" id="strLeadEmail">
+                                    </div>
+                                    <div class="col-md-6 col-12 mb-6">
+                                        <input type="phone" placeholder="Phone *" name="strLeadPhone1"
+                                            id="strLeadPhone1">
+                                    </div>
+                                    <div class="col-12 mb-6">
+                                        <textarea name="message" placeholder="Message" name="strLeadData4"
+                                            id="strLeadData4"></textarea>
+                                    </div>
+                                    <div class="col-12 text-center mb-6">
+                                        <button type="submit" name="submit" value="Submit"
+                                            class="btn btn-primary btn-hover-secondary">Submit <i
+                                                class="fas fa-chevron-right fcr-animate"></i></button>
+                                    </div>
                                 </div>
-                                <div class="col-md-6 col-12 mb-4">
-                                    <input type="text" placeholder="Last Name *" name="lastName">
-                                </div>
-                                <div class="col-md-12 col-12 mb-4">
-                                    <input type="email" placeholder="Email *" name="email">
-                                </div>
-                                <div class="col-md-12 col-12 mb-4">
-                                    <input type="text" placeholder="Phone *" name="phone">
-                                </div>
-                                <div class="col-12 mb-6">
-                                    <textarea name="message" placeholder="Message"></textarea>
-                                </div>
-                                <div class="col-12 text-center mb-4">
-                                    <button class="btn btn-primary btn-hover-secondary">Get a free consultation <i
-                                            class="fas fa-chevron-right fcr-animate"></i></button>
-                                </div>
-                            </div>
-                        </form>
-                        <p class="form-messege"></p>
-
-                        <!-- Animation Shape Start -->
-                        <div class="shape shape-1 scene">
-                            <span data-depth="1">
-                                <img src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/contact-shape.png"
-                                    alt="">
-                            </span>
+                            </form>
+                            <p class="form-messege"></p>
                         </div>
-                        <!-- Animation Shape End -->
                     </div>
-                    <!-- Contact Form End -->
                 </div>
             </div>
         </div>
-
-
-
-        <!-- Animation Shape Start -->
-        <div class="shape shape-1 scene">
-            <span data-depth="1">
-                <img src="assets/images/shape-animation/newsletter-shape.png" alt="">
-            </span>
-        </div>
-        <!-- Animation Shape End -->
-
     </div>
-    <!-- Contact Section End -->
+    <!-- Contact Form Section End -->
 
 
+</div>
 
-    <!-- Brand Section Start -->
-    <div class="brand-section section section-padding">
-        <div class="container">
-            <div class="row my-lg-10 my-10">
-                <div class="col-lg-12">
-                    <? require './assets/php/component/brand.php';
+<!-- Brand Section Start -->
+<div class="brand-section section section-padding">
+    <div class="container">
+        <div class="row my-lg-10 my-10">
+            <div class="col-lg-12">
+                <? require './assets/php/component/brand.php';
                     ?>
-                </div>
             </div>
         </div>
     </div>
-    <!-- Brand Section End -->
-
-
+</div>
+<!-- Brand Section End -->
 
 </div>
 

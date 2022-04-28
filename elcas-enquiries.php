@@ -10,7 +10,7 @@ $meta['og:description'] = "";
 $meta['og:image'] = "";
 $meta['og:url'] = "";
 
-$leadIsFrom = "Lead is from /contact-us";
+$leadIsFrom = "Lead is from /elcas-enquiries";
 
 require './assets/php/inc/header.php';
 require './assets/php/inc/nav.php';
@@ -21,7 +21,7 @@ require './assets/php/inc/nav.php';
 
     <!-- Page Title Section Start -->
     <div class="page-title-section section section-padding-top" data-bg-color="#000" data-overlay="0.7"
-        data-bg-image="assets/images/bg/breadcrumb-bg-five.jpg">
+        data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/breadcrumb-bg-five.jpg">
         <div class="page-title">
             <div class="container">
                 <h1 class="title">Courses for Ex-Forces.</h1>
@@ -53,7 +53,8 @@ require './assets/php/inc/nav.php';
                         <!-- Contact Information Start -->
                         <div class="contact-info" data-vivus-hover>
                             <div class="icon">
-                                <img class="svgInject" src="assets/images/svg/linea/linea-arrows-circle-plus.svg"
+                                <img class="svgInject"
+                                    src="<?php echo SITE_ADDR ?>/assets/images/svg/linea/linea-arrows-circle-plus.svg"
                                     alt="">
                             </div>
                             <div class="info">
@@ -69,7 +70,8 @@ require './assets/php/inc/nav.php';
                     <a href="javascript(void);" data-toggle="modal" data-target="#exampleModal" alt="pop up form">
                         <div class="contact-info" data-vivus-hover>
                             <div class="icon">
-                                <img class="svgInject" src="assets/images/svg/linea/linea-arrows-circle-plus.svg"
+                                <img class="svgInject"
+                                    src="<?php echo SITE_ADDR ?>/assets/images/svg/linea/linea-arrows-circle-plus.svg"
                                     alt="">
                             </div>
                             <div class="info">
@@ -85,7 +87,8 @@ require './assets/php/inc/nav.php';
                         <!-- Contact Information Start -->
                         <div class="contact-info" data-vivus-hover>
                             <div class="icon">
-                                <img class="svgInject" src="assets/images/svg/linea/linea-arrows-circle-plus.svg"
+                                <img class="svgInject"
+                                    src="<?php echo SITE_ADDR ?>/assets/images/svg/linea/linea-arrows-circle-plus.svg"
                                     alt="">
                             </div>
                             <div class="info">
@@ -195,11 +198,12 @@ require './assets/php/inc/nav.php';
                         </div>
                         <!-- Section Title End -->
                         <div class="contact-form">
-                            <form action="https://robust.flg360.co.uk/api/APIHTTPPost.php" method="POST"
+                            <form action="https://robust.flg360.co.uk/api/APIHTTPPost.php" method="post"
+                                onsubmit="javascript:return fncValidateForm(this);" id="" name="request_form"
                                 id="contact-form">
 
                                 <!-- form details for sending info to leadsite -->
-                                <input type="hidden" name="intLeadGroupID" value="" />
+                                <input type="hidden" name="intLeadGroupID" value="54553" />
                                 <input type="hidden" name="strSource" value="" />
                                 <input type="hidden" name="strMedium" value="" />
                                 <input type="hidden" name="strTerm" value="" />
@@ -208,34 +212,36 @@ require './assets/php/inc/nav.php';
                                 <input type="hidden" name="intDPAStatusPhoneID" value="1">
                                 <input type="hidden" name="intDPAStatusSMSID" value="1">
                                 <input type="hidden" name="intDPAStatusEmailID" value="1">
-                                <input type="hidden" name="strAPISuccessURL"
-                                    value="http://www.robustittraining.com/thankyou" />
-                                <input type="hidden" name="strAPIFailURL"
-                                    value="http://www.robustittraining.com/sorry" />
+                                <input type="hidden" name="strAPISuccessURL" value="<?php echo SITE_ADDR ?>/thankyou" />
+                                <input type="hidden" name="strAPIFailURL" value="<?php echo SITE_ADDR ?>/sorry" />
                                 <input type="hidden" name="strLeadData2" id="strLeadData2"
                                     value="<?php echo $leadIsFrom ?>/" />
                                 <!-- //end -->
+
                                 <div class="row mb-n6">
                                     <div class="col-md-6 col-12 mb-6">
-                                        <input type="text" placeholder="First Name *" name="firstname">
+                                        <input type="text" placeholder="First Name *" name="strLeadFirstName"
+                                            id="strLeadFirstName">
                                     </div>
                                     <div class="col-md-6 col-12 mb-6">
-                                        <input type="text" placeholder="Last Name *" name="lastname">
+                                        <input type="text" placeholder="Last Name *" name="strLeadLastName"
+                                            id="strLeadLastName">
                                     </div>
                                     <div class="col-md-6 col-12 mb-6">
-                                        <input type="email" placeholder="Email *" name="email">
+                                        <input type="email" placeholder="Email *" name="strLeadEmail" id="strLeadEmail">
                                     </div>
                                     <div class="col-md-6 col-12 mb-6">
-                                        <input type="phone" placeholder="Phone *" name="phone">
-                                    </div>
-                                    <div class="col-md-12 col-12 mb-6">
-                                        <input type="text" placeholder="Subject *" name="subject">
+                                        <input type="phone" placeholder="Phone *" name="strLeadPhone1"
+                                            id="strLeadPhone1">
                                     </div>
                                     <div class="col-12 mb-6">
-                                        <textarea name="message" placeholder="Message"></textarea>
+                                        <textarea name="message" placeholder="Message" name="strLeadData4"
+                                            id="strLeadData4"></textarea>
                                     </div>
                                     <div class="col-12 text-center mb-6">
-                                        <button class="btn btn-primary btn-hover-secondary">Submit</button>
+                                        <button type="submit" name="submit" value="Submit"
+                                            class="btn btn-primary btn-hover-secondary">Submit <i
+                                                class="fas fa-chevron-right fcr-animate"></i></button>
                                     </div>
                                 </div>
                             </form>

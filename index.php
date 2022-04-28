@@ -334,7 +334,7 @@ require './assets/php/inc/nav.php';
                             <div class="desc">
                                 <p>Up-skill your employees. Enquire about our corporate offers today.</p>
                             </div>
-                            <a href="<?php echo SITE_ADDR ?>/services" class="link">Learn More <i
+                            <a href="<?php echo SITE_ADDR ?>/corporate-enquiries" class="link">Learn More <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -356,7 +356,7 @@ require './assets/php/inc/nav.php';
                             <div class="desc">
                                 <p>We offer enhanced learning credits for ex-military personnel.</p>
                             </div>
-                            <a href="<?php echo SITE_ADDR ?>/services" class="link">Learn More <i
+                            <a href="<?php echo SITE_ADDR ?>/elcas-enquiries" class="link">Learn More <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -378,7 +378,7 @@ require './assets/php/inc/nav.php';
                             <div class="desc">
                                 <p>Qualified for the position? We will help get you into your first job role.</p>
                             </div>
-                            <a href="<?php echo SITE_ADDR ?>/services" class="link">Learn More <i
+                            <a href="<?php echo SITE_ADDR ?>/career-advice" class="link">Learn More <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -787,10 +787,12 @@ require './assets/php/inc/nav.php';
                                 and begin their cloud journey easily.</p>
                         </div>
                         <!-- Section Title End -->
-                        <form action="https://robust.flg360.co.uk/api/APIHTTPPost.php" method="POST" id="contact-form">
+                        <form action="https://robust.flg360.co.uk/api/APIHTTPPost.php" method="post"
+                            onsubmit="javascript:return fncValidateForm(this);" id="" name="request_form"
+                            id="contact-form">
 
                             <!-- form details for sending info to leadsite -->
-                            <input type="hidden" name="intLeadGroupID" value="" />
+                            <input type="hidden" name="intLeadGroupID" value="54553" />
                             <input type="hidden" name="strSource" value="" />
                             <input type="hidden" name="strMedium" value="" />
                             <input type="hidden" name="strTerm" value="" />
@@ -799,31 +801,36 @@ require './assets/php/inc/nav.php';
                             <input type="hidden" name="intDPAStatusPhoneID" value="1">
                             <input type="hidden" name="intDPAStatusSMSID" value="1">
                             <input type="hidden" name="intDPAStatusEmailID" value="1">
-                            <input type="hidden" name="strAPISuccessURL"
-                                value="http://www.robustittraining.com/thankyou" />
-                            <input type="hidden" name="strAPIFailURL" value="http://www.robustittraining.com/sorry" />
+                            <input type="hidden" name="strAPISuccessURL" value="<?php echo SITE_ADDR ?>/thankyou" />
+                            <input type="hidden" name="strAPIFailURL" value="<?php echo SITE_ADDR ?>/sorry" />
                             <input type="hidden" name="strLeadData2" id="strLeadData2"
                                 value="<?php echo $leadIsFrom ?>/" />
                             <!-- //end -->
 
                             <div class="row mb-n4">
                                 <div class="col-md-6 col-12 mb-4">
-                                    <input type="text" placeholder="First Name *" name="firstName">
+                                    <input type="text" placeholder="First Name *" name="strLeadFirstName"
+                                        id="strLeadFirstName" required="required">
                                 </div>
                                 <div class="col-md-6 col-12 mb-4">
-                                    <input type="text" placeholder="Last Name *" name="lastName">
+                                    <input type="text" placeholder="Last Name *" name="strLeadLastName"
+                                        id="strLeadLastName" required="required">
                                 </div>
                                 <div class="col-md-12 col-12 mb-4">
-                                    <input type="email" placeholder="Email *" name="email">
+                                    <input type="phone" placeholder="Phone *" name="strLeadPhone1" id="strLeadPhone1"
+                                        required="required">
                                 </div>
                                 <div class="col-md-12 col-12 mb-4">
-                                    <input type="text" placeholder="Phone *" name="phone">
+                                    <input type="email" placeholder="Email *" name="strLeadEmail" id="strLeadEmail"
+                                        required="required">
                                 </div>
                                 <div class="col-12 mb-6">
-                                    <textarea name="message" placeholder="Message"></textarea>
+                                    <textarea name="message" placeholder="Message" name="strLeadData4"
+                                        id="strLeadData4"></textarea>
                                 </div>
                                 <div class="col-12 text-center mb-4">
-                                    <button class="btn btn-primary btn-hover-secondary">Get a free consultation <i
+                                    <button type="submit" name="submit" value="Submit"
+                                        class="btn btn-primary btn-hover-secondary">Submit <i
                                             class="fas fa-chevron-right fcr-animate"></i></button>
                                 </div>
                             </div>
