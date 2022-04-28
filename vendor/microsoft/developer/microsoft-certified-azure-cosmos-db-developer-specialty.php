@@ -305,8 +305,7 @@ require '../../../assets/php/inc/nav.php';
 
             <!-- Start Average Salary Area -->
             <div class="text-white row my-lg-12 my-10 p-10 pl-2 p-xl-10 pl-xl-10" data-bg-color="#fff"
-                data-bg-image="<?php echo SITE_ADDR ?>/assets/images/banner/job-rolls.jpg"
-                data-overlay="0.9">
+                data-bg-image="<?php echo SITE_ADDR ?>/assets/images/banner/job-rolls.jpg" data-overlay="0.9">
                 <div class="digital-marketing" data-aos="fade-up">
                     <div class="section-title-two">
                         <span class="sub-title text-white">Average salary for Azure Cosmos DB Developer
@@ -498,7 +497,8 @@ require '../../../assets/php/inc/nav.php';
                         <div class="contact-info info-light" data-vivus-hover>
                             <div class="icon">
                                 <img class="svgInject"
-                                    src="<?php echo SITE_ADDR ?>/assets/images/svg/linea/linea-basic-map.svg" alt="">
+                                    src="<?php echo SITE_ADDR ?>/assets/images/svg/linea/linea-basic-map.svg"
+                                    alt="svg image">
                             </div>
                             <div class="info">
                                 <h4 class="title">Our Locations</h4>
@@ -515,7 +515,7 @@ require '../../../assets/php/inc/nav.php';
                             <div class="icon">
                                 <img class="svgInject"
                                     src="<?php echo SITE_ADDR ?>/assets/images/svg/linea/linea-basic-message-txt.svg"
-                                    alt="">
+                                    alt="svg image">
                             </div>
                             <div class="info">
                                 <h4 class="title">Give Us A Call</h4>
@@ -543,14 +543,17 @@ require '../../../assets/php/inc/nav.php';
                             <div class="icon">
                                 <img class="svgInject"
                                     src="<?php echo SITE_ADDR ?>/assets/images/svg/linea/linea-basic-mail-open-text.svg"
-                                    alt="">
+                                    alt="svg image">
                             </div>
                             <div class="info">
                                 <h4 class="title"> Help Desk</h4>
                                 <span class="info-text">
-                                    <a href="mailto:info@robustit.co.uk">info@robustit.co.uk</a>,<br />
-                                    <a href="mailto:support@robustit.co.uk">support@robustit.co.uk</a>,<br />
-                                    <a href="mailto:compliance@robustit.co.uk">compliance@robustit.co.uk</a>
+                                    <a href="mailto:info@robustit.co.uk"
+                                        alt="send email to info@robustit.co.uk">info@robustit.co.uk</a>,<br />
+                                    <a href="mailto:support@robustit.co.uk"
+                                        alt="send email to support@robustit.co.uk">support@robustit.co.uk</a>,<br />
+                                    <a href="mailto:compliance@robustit.co.uk"
+                                        alt="send email to compliance@robustit.co.uk">compliance@robustit.co.uk</a>
                                 </span>
                             </div>
                         </div>
@@ -571,10 +574,13 @@ require '../../../assets/php/inc/nav.php';
 
                         <!-- ajax form id="contact-form" -->
                         <!-- Section Title End -->
-                        <form action="https://robust.flg360.co.uk/api/APIHTTPPost.php" method="POST" id="contact-form">
+
+                        <form action="https://robust.flg360.co.uk/api/APIHTTPPost.php" method="post"
+                            onsubmit="javascript:return fncValidateForm(this);" id="" name="request_form"
+                            id="contact-form">
 
                             <!-- form details for sending info to leadsite -->
-                            <input type="hidden" name="intLeadGroupID" value="" />
+                            <input type="hidden" name="intLeadGroupID" value="54553" />
                             <input type="hidden" name="strSource" value="" />
                             <input type="hidden" name="strMedium" value="" />
                             <input type="hidden" name="strTerm" value="" />
@@ -583,31 +589,36 @@ require '../../../assets/php/inc/nav.php';
                             <input type="hidden" name="intDPAStatusPhoneID" value="1">
                             <input type="hidden" name="intDPAStatusSMSID" value="1">
                             <input type="hidden" name="intDPAStatusEmailID" value="1">
-                            <input type="hidden" name="strAPISuccessURL"
-                                value="http://www.robustittraining.com/thankyou" />
-                            <input type="hidden" name="strAPIFailURL" value="http://www.robustittraining.com/sorry" />
+                            <input type="hidden" name="strAPISuccessURL" value="<?php echo SITE_ADDR ?>/thankyou" />
+                            <input type="hidden" name="strAPIFailURL" value="<?php echo SITE_ADDR ?>/sorry" />
                             <input type="hidden" name="strLeadData2" id="strLeadData2"
                                 value="<?php echo $leadIsFrom ?>/" />
                             <!-- //end -->
 
                             <div class="row mb-n4">
                                 <div class="col-md-6 col-12 mb-4">
-                                    <input type="text" placeholder="First Name *" name="name" required="required">
+                                    <input type="text" placeholder="First Name *" name="strLeadFirstName"
+                                        id="strLeadFirstName" required="required">
                                 </div>
                                 <div class="col-md-6 col-12 mb-4">
-                                    <input type="text" placeholder="Last Name *" name="name" required="required">
+                                    <input type="text" placeholder="Last Name *" name="strLeadLastName"
+                                        id="strLeadLastName" required="required">
                                 </div>
                                 <div class="col-md-12 col-12 mb-4">
-                                    <input type="text" placeholder="Phone *" name="phone" required="required">
+                                    <input type="phone" placeholder="Phone *" name="strLeadPhone1" id="strLeadPhone1"
+                                        required="required">
                                 </div>
                                 <div class="col-md-12 col-12 mb-4">
-                                    <input type="email" placeholder="Email *" name="email" required="required">
+                                    <input type="email" placeholder="Email *" name="strLeadEmail" id="strLeadEmail"
+                                        required="required">
                                 </div>
                                 <div class="col-12 mb-6">
-                                    <textarea name="message" placeholder="Message"></textarea>
+                                    <textarea name="message" placeholder="Message" name="strLeadData4"
+                                        id="strLeadData4"></textarea>
                                 </div>
                                 <div class="col-12 text-center mb-4">
-                                    <button class="btn btn-primary btn-hover-secondary">Start Learning <i
+                                    <button type="submit" name="submit" value="Submit"
+                                        class="btn btn-primary btn-hover-secondary">Start Learning <i
                                             class="fas fa-chevron-right fcr-animate"></i></button>
                                 </div>
                             </div>
@@ -630,6 +641,20 @@ require '../../../assets/php/inc/nav.php';
 
     </div>
     <!-- Contact Section End -->
+
+
+    <!-- Brand Section Start -->
+    <div class="brand-section section section-padding">
+        <div class="container">
+            <div class="row my-lg-10 my-10">
+                <div class="col-lg-12">
+                    <? require '../../../assets/php/component/brand.php';
+                    ?>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Brand Section End -->
 </div>
 
 <?php

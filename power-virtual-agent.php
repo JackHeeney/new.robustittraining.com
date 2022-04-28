@@ -56,10 +56,14 @@ require './assets/php/inc/nav.php';
             </h2>
 
 
-            <iframe
-                src="https://web.powerva.microsoft.com/environments/Default-7840128c-b7c2-4ff8-900b-e9b2a1346253/bots/new_bot_ed9d88e14f814a858f3644a8540a9244/webchat"
-                frameborder="0" style="width: 100%; height: 100%;">
-            </iframe>
+            <!DOCTYPE html>
+            <html>
+
+            <body><iframe
+                    src="https://web.powerva.microsoft.com/environments/Default-7840128c-b7c2-4ff8-900b-e9b2a1346253/bots/new_bot_ed9d88e14f814a858f3644a8540a9244/webchat"
+                    frameborder="0" style="width: 100%; height: 100%;"></iframe></body>
+
+            </html>
         </div>
     </div>
 
