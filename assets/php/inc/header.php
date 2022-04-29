@@ -25,7 +25,7 @@ define("SITE_ADDR", "http://localhost/new.robustittraining.com");
     </title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="<?php echo SITE_ADDR ?>/assets/images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="<?php echo SITE_ADDR ?>/assets/images/favicon-32x32.png">

@@ -103,10 +103,10 @@ require './assets/php/inc/nav.php';
                             dedicated Customer Success team offers a wealth of benefits for businesses that enrol their
                             employees with us.
                             <br /><br />
-                            Customer Success will be in touch along your staff training journey with regular check-ins
-                            to ensure satisfactory course progression, feedback to help employees optimise their
-                            learning, and consultation on personalising your business’s Percipio platform to guarantee
-                            the best results from your investment.
+                            Customer Success will be in contact with your staff for their training journey with regular
+                            check-ins to ensure satisfactory course progression, feedback to help employees optimise
+                            their learning, and consultation on personalising your business’s Percipio platform to
+                            guarantee the best results from your investment.
                         </p>
 
                         <a class="btn btn-primary btn-hover-secondary mt-xl-12 mt-lg-8 mt-md-6 mt-4"

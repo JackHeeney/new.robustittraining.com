@@ -55,35 +55,48 @@
     <url>https://www.robustittraining.com/career</url>
     <desc>Search by Vendor the perfect path for your learning journey.</desc>
   </link>
+  <link>
+    <title>Affliate Program</title>
+    <url>https://www.robustittraining.com/affiliate-program</url>
+    <desc>Join the Robust family.</desc>
+  </link>
+  <link>
+    <title>Career Advice</title>
+    <url>https://www.robustittraining.com/career-advice</url>
+    <desc>Robust IT inhouse recruitment team.</desc>
+  </link>
+  <link>
+    <title>Corporate Enquiries</title>
+    <url>https://www.robustittraining.com/corporate-enquiries</url>
+    <desc>Robust IT Training for businesses.</desc>
+  </link>
+  <link>
+    <title>ELCAS Enquiries</title>
+    <url>https://www.robustittraining.com/elcas-enquiries</url>
+    <desc>Robust IT Courses for Ex-Forces.</desc>
+  </link>
+  <link>
+    <title>Power Virtual Agent</title>
+    <url>https://www.robustittraining.com/power-virtual-agent</url>
+    <desc>Speak to our Robust Bot Agent.</desc>
+  </link>
+  <link>
+    <title>Support Tickets</title>
+    <url>https://www.robustittraining.com/power-virtual-agent</url>
+    <desc>Speak to our Robust Bot.</desc>
+  </link>
+  <link>
+    <title>Trusted By</title>
+    <url>https://www.robustittraining.com/trusted-by</url>
+    <desc>Organisations that trust Robust IT.</desc>
+  </link>
 
 
 <!--
 ************************************
-*             Coursers             *
+*             By Vendor            *
 ************************************
 -->
-
-<!-- = EC-Council = -->
-  <link>
-    <title>Certified Ethical Hacker</title>
-    <url>https://www.robustittraining.com/vendor/ec-council/certified-ethical-hacker</url>
-    <desc>Official EC-Council Certified Ethical Hacking training.</desc>
-  </link>
-  <link>
-    <title>Certified Network Defender</title>
-    <url>https://www.robustittraining.com/vendor/ec-council/certified-network-defender</url>
-    <desc>Official EC-Council Certified Network Defender training.</desc>
-  </link>
-  <link>
-    <title>Computer Hacking Forensic Investigator</title>
-    <url>https://www.robustittraining.com/vendor/ec-council/computer-hacking-forensic-investigator</url>
-    <desc>Official EC-Council Computer Hacking Forensic Investigator training.</desc>
-  </link>
-  <link>
-    <title>Certified Cloud Security Engineer</title>
-    <url>https://www.robustittraining.com/vendor/ec-council/certified-cloud-security-engineer</url>
-    <desc>Official EC-Council Certified Cloud Security Engineer training.</desc>
-  </link>
 
   <!-- = Amazon Web Services = -->
   <link>
@@ -112,4 +125,387 @@
     <desc>Official AWS Developer.</desc>
   </link>
 
+
+    <!-- = Axelos = -->
+  <link>
+    <title>ITIL4 Foundation</title>
+    <url>https://www.robustittraining.com/vendor/axelos/itil/itil-4-foundation</url>
+    <desc>Official ITIL4 Foundation.</desc>
+  </link>
+  <link>
+    <title>PRINCE2 4 Foundation</title>
+    <url>https://www.robustittraining.com/vendor/axelos/prince2/prince2-4-foundation</url>
+    <desc>Official PRINCE2 Foundation.</desc>
+  </link>
+  <link>
+    <title>PRINCE2 4 Practitioner</title>
+    <url>https://www.robustittraining.com/vendor/axelos/prince2/prince2-4-practitioner</url>
+    <desc>Official PRINCE2 Practitioner.</desc>
+  </link>
+  <link>
+    <title>PRINCE2 4 Agile Foundation</title>
+    <url>https://www.robustittraining.com/vendor/axelos/prince2/prince2-4-agile-foundation</url>
+    <desc>Official PRINCE2 4 Agile Foundation.</desc>
+  </link>
+  <link>
+    <title>PRINCE2 4 Agile Practitioner</title>
+    <url>https://www.robustittraining.com/vendor/axelos/prince2/prince2-4-agile-practitioner</url>
+    <desc>Official PRINCE2 4 Agile Practitioner.</desc>
+  </link>
+
+    <!-- = CISCO = -->
+  <link>
+    <title>CISCO CCNA</title>
+    <url>https://www.robustittraining.com/vendor/cisco/ccna</url>
+    <desc>Official CISCO CCNA.</desc>
+  </link>
+  <link>
+    <title>CISCO CCNP Security</title>
+    <url>https://www.robustittraining.com/vendor/cisco/ccnp-security</url>
+    <desc>Official CISCO CCNP Security.</desc>
+  </link>
+  <link>
+    <title>CISCO CyberOps Associate</title>
+    <url>https://www.robustittraining.com/vendor/cisco/cyberops-associate</url>
+    <desc>Official CISCO CyberOps Associate.</desc>
+  </link>
+  <link>
+    <title>CISCO CyberOps Progessional</title>
+    <url>https://www.robustittraining.com/vendor/cisco/cyberops-professional</url>
+    <desc>Official CISCO CyberOps Progessional.</desc>
+  </link>
+
+      <!-- = CompTIA = -->
+  <link>
+    <title>CompTIA A+</title>
+    <url>https://www.robustittraining.com/vendor/comptia/comptia-a</url>
+    <desc>Official CompTIA A+.</desc>
+  </link>
+  <link>
+    <title>CompTIA CASP+</title>
+    <url>https://www.robustittraining.com/vendor/comptia/comptia-casp</url>
+    <desc>Official CompTIA CASP+.</desc>
+  </link>
+  <link>
+    <title>CompTIA Cloud+</title>
+    <url>https://www.robustittraining.com/vendor/comptia/comptia-cloud</url>
+    <desc>Official CompTIA Cloud+.</desc>
+  </link>
+  <link>
+    <title>CompTIA CySA+</title>
+    <url>https://www.robustittraining.com/vendor/comptia/comptia-cysa</url>
+    <desc>Official CompTIA CySA+.</desc>
+  </link>
+  <link>
+    <title>CompTIA ITF+</title>
+    <url>https://www.robustittraining.com/vendor/comptia/comptia-it-fundamentals</url>
+    <desc>Official CompTIA ITF+.</desc>
+  </link>
+  <link>
+    <title>CompTIA Linux+</title>
+    <url>https://www.robustittraining.com/vendor/comptia/comptia-linux</url>
+    <desc>Official CompTIA Linux+.</desc>
+  </link>
+  <link>
+    <title>CompTIA Network+</title>
+    <url>https://www.robustittraining.com/vendor/comptia/comptia-network</url>
+    <desc>Official CompTIA Network+.</desc>
+  </link>
+  <link>
+    <title>CompTIA PenTest+</title>
+    <url>https://www.robustittraining.com/vendor/comptia/comptia-pentest</url>
+    <desc>Official CompTIA PenTest+.</desc>
+  </link>
+  <link>
+    <title>CompTIA Security+</title>
+    <url>https://www.robustittraining.com/vendor/comptia/comptia-security</url>
+    <desc>Official CompTIA Security+.</desc>
+  </link>
+  <link>
+    <title>CompTIA Server+</title>
+    <url>https://www.robustittraining.com/vendor/comptia/comptia-server</url>
+    <desc>Official CompTIA Server+.</desc>
+  </link>
+
+<!-- = EC-Council = -->
+  <link>
+    <title>Certified Ethical Hacker</title>
+    <url>https://www.robustittraining.com/vendor/ec-council/certified-ethical-hacker</url>
+    <desc>Official EC-Council Certified Ethical Hacking training.</desc>
+  </link>
+  <link>
+    <title>Certified Network Defender</title>
+    <url>https://www.robustittraining.com/vendor/ec-council/certified-network-defender</url>
+    <desc>Official EC-Council Certified Network Defender training.</desc>
+  </link>
+  <link>
+    <title>Computer Hacking Forensic Investigator</title>
+    <url>https://www.robustittraining.com/vendor/ec-council/computer-hacking-forensic-investigator</url>
+    <desc>Official EC-Council Computer Hacking Forensic Investigator training.</desc>
+  </link>
+  <link>
+    <title>Certified Cloud Security Engineer</title>
+    <url>https://www.robustittraining.com/vendor/ec-council/certified-cloud-security-engineer</url>
+    <desc>Official EC-Council Certified Cloud Security Engineer training.</desc>
+  </link>
+
+
+<!-- = ISACA = -->
+  <link>
+    <title>CISA</title>
+    <url>https://www.robustittraining.com/vendor/isaca/cisa</url>
+    <desc>Official ISACA CISA training.</desc>
+  </link>
+  <link>
+    <title>CISM</title>
+    <url>https://www.robustittraining.com/vendor/isaca/cism</url>
+    <desc>Official ISACA CISM training.</desc>
+  </link>
+
+<!-- = ISC2 = -->
+  <link>
+    <title>CCSP</title>
+    <url>https://www.robustittraining.com/vendor/isaca/ccsp</url>
+    <desc>Official (ISC)2 CCSP training.</desc>
+  </link>
+  <link>
+    <title>CISSP</title>
+    <url>https://www.robustittraining.com/vendor/isaca/cissp</url>
+    <desc>Official (ISC)2 CISSP training.</desc>
+  </link>
+
+  <!-- = Microsoft = -->
+  <!-- = Administrator = -->
+  <link>
+    <title>Enterprise Administrator Expert</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/administrator/microsoft-365-certified-enterprise-administrator-expert</url>
+    <desc>Official Microsoft Enterprise Administrator training.</desc>
+  </link>
+  <link>
+    <title>Messaging Administrator Associate</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/administrator/microsoft-365-certified-messaging-administrator-associate</url>
+    <desc>Official Microsoft Messaging Administrator Associate training.</desc>
+  </link>
+  <link>
+    <title>Modern Desktop Administrator Associate</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/administrator/microsoft-365-certified-modern-desktop-administrator-associate</url>
+    <desc>Official Microsoft Modern Desktop Administrator Associate training.</desc>
+  </link>
+  <link>
+    <title>Security Administrator Associate</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/administrator/microsoft-365-certified-security-administrator-associate</url>
+    <desc>Official Microsoft Security Administrator Associate training.</desc>
+  </link>
+  <link>
+    <title>Teams Administrator Associate</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/administrator/microsoft-365-certified-teams-administrator-associate</url>
+    <desc>Official Microsoft Teams Administrator Associate training.</desc>
+  </link>
+  <link>
+    <title>Teams Voice Engineer Expert</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/administrator/microsoft-365-certified-teams-voice-engineer-expert</url>
+    <desc>Official Microsoft Teams Voice Engineer Expert training.</desc>
+  </link>  
+  <link>
+    <title>Azure Administrator Associate</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/administrator/microsoft-certified-azure-administration-associate</url>
+    <desc>Official Microsoft Azure Administrator Associate training.</desc>
+  </link>  
+  <link>
+    <title>Azure for SAP Workloads Specialty</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/administrator/microsoft-certified-azure-for-sap-workloads-specialty</url>
+    <desc>Official Microsoft Azure for SAP Workloads Specialty training.</desc>
+  </link>
+  <link>
+    <title>Azure Stack Hub Operator Associate</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/administrator/microsoft-certified-azure-stack-hub-operator-associate</url>
+    <desc>Official Microsoft Azure Stack Hub Operator Associate training.</desc>
+  </link>
+  <link>
+    <title>Azure Virtual Desktop Specialty</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/administrator/microsoft-certified-azure-virtual-desktop-specialty</url>
+    <desc>Official Microsoft Azure Virtual Desktop Specialty training.</desc>
+  </link>
+  <link>
+    <title>Identity and Access Administrator Associate</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/administrator/microsoft-certified-identity-and-access-administrator-associate</url>
+    <desc>Official Microsoft Identity and Access Administrator Associate training.</desc>
+  </link>
+  <link>
+    <title>Windows Server Hybrid Administrator Associate</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/administrator/microsoft-certified-windows-server-hybrid-administrator-associate</url>
+    <desc>Official Windows Server Hybrid Administrator Associate training.</desc>
+  </link>
+
+  <!-- = AI Engineer = -->
+  <link>
+    <title>Azure AI Engineer Associate</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/ai-engineer/microsoft-certified-azure-ai-engineer-associate</url>
+    <desc>Official Microsoft Azure AI Engineer Associate training.</desc>
+  </link>
+
+  <!-- = Data Engineer = -->
+  <link>
+    <title>Azure Data Engineer Associate</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/data-engineer/microsoft-certified-azure-data-engineer-associate</url>
+    <desc>Official Microsoft Azure Data Engineer Associate training.</desc>
+  </link>
+  <link>
+    <title>Customer Data Platform Specialty</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/data-engineer/microsoft-certified-customer-data-platform-specialty</url>
+    <desc>Official Microsoft Customer Data Platform Specialty training.</desc>
+  </link>
+
+  <!-- = Data Scientist = -->
+  <link>
+    <title>Azure Data Scientist Associate</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/data-scientist/microsoft-certified-azure-data-scientist-associate</url>
+    <desc>Official Microsoft Azure Data Scientist Associate training.</desc>
+  </link>
+  <link>
+    <title>Azure Data Scientist Associate</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/data-scientist/microsoft-certified-customer-data-platform-specialty</url>
+    <desc>Official Microsoft Azure Data Scientist Associate training.</desc>
+  </link>
+
+  <!-- = Developer = -->
+  <link>
+    <title>Developer Associate</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/developer/microsoft-365-certified-developer-associate</url>
+    <desc>Official Microsoft Developer Associate training.</desc>
+  </link>
+  <link>
+    <title>Azure Comos DB Developer Associate</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/developer/microsoft-certified-azure-cosmos-db-developer-specialty</url>
+    <desc>Official Microsoft Azure Comos DB Developer Associate training.</desc>
+  </link>
+  <link>
+    <title>Azure Developer Associate</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/developer/microsoft-certified-azure-developer-associate</url>
+    <desc>Official Microsoft Azure Developer Associate training.</desc>
+  </link>
+    <link>
+    <title>Azure IOT Developer Associate</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/developer/microsoft-certified-azure-iot-developer-specialty</url>
+    <desc>Official Microsoft Azure IOT Developer Associate training.</desc>
+  </link>
+  <link>
+    <title>Dynamic 365 Finance and Operations Apps Developer</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/developer/microsoft-certified-dynamics-365-finance-and-operations-apps-developer-associate</url>
+    <desc>Official Microsoft Dynamic 365 Finance and Operations Apps Developer Associate training.</desc>
+  </link>
+  <link>
+    <title>Power Platform Developer Associate</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/developer/microsoft-certified-power-platform-developer-associate</url>
+    <desc>Official Microsoft Power Platform Developer Associate training.</desc>
+  </link>
+
+  <!-- = DevOps Engineer = -->
+  <link>
+    <title>DevOps Engineer Expert</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/developer/microsoft-certified-devops-engineer-expert</url>
+    <desc>Official Microsoft DevOps Engineer Expert training.</desc>
+  </link>
+
+<!-- = Functional Consultant = -->
+  <link>
+    <title>Customer Data Platform Specialty</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/developer/microsoft-certified-customer-data-platform-specialty</url>
+    <desc>Official Microsoft Customer Data Platform Specialty training.</desc>
+  </link>
+  <link>
+    <title>Dynamic 365 Business Central Functional Consultant Associate</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/developer/microsoft-certified-dynamics-365-business-central-functional-consultant-associate</url>
+    <desc>Official Microsoft Dynamic 365 Business Central Functional Consultant Associate training.</desc>
+  </link>
+    <link>
+    <title>Dynamic 365 Customer Service Functional Consultant Associate</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/developer/microsoft-certified-dynamics-365-customer-service-functional-consultant-associate</url>
+    <desc>Official Microsoft Dynamic 365 Customer Service Functional Consultant Associate training.</desc>
+  </link>
+  <link>
+    <title>Dynamic 365 Field Service Functional Consultant Associate</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/developer/microsoft-certified-dynamics-365-field-service-functional-consultant-associate</url>
+    <desc>Official Microsoft Dynamic 365 Field Service Functional Consultant Associate training.</desc>
+  </link>
+  <link>
+    <title>Dynamic 365 Finance Functional Consultant Associate</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/developer/microsoft-certified-dynamics-365-finance-functional-consultant-associate</url>
+    <desc>Official Microsoft Dynamic 365 Finance Functional Consultant Associate training.</desc>
+  </link>
+  <link>
+    <title>Dynamic 365 Marketing Functional Consultant Associate</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/developer/microsoft-certified-dynamics-365-marketing-functional-consultant-associate</url>
+    <desc>Official Microsoft Dynamic 365 Marketing Functional Consultant Associate training.</desc>
+  </link>
+  <link>
+    <title>Dynamic 365 Sales Functional Consultant Associate</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/developer/microsoft-certified-dynamics-365-sales-functional-consultant-associate</url>
+    <desc>Official Microsoft Dynamic 365 Sales Functional Consultant Associate training.</desc>
+  </link>
+  <link>
+    <title>Dynamic 365 Supply Chain Management Functional Consultant Associate</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/developer/microsoft-certified-dynamics-365-supply-chain-management-functional-consultant-associate</url>
+    <desc>Official Microsoft Dynamic 365 Supply Chain Managements Functional Consultant Associate training.</desc>
+  </link>
+  <link>
+    <title>Dynamic 365 Supply Chain Management Manufacturing Functional Consultant Associate</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/developer/microsoft-certified-dynamics-365-supply-chain-management-manufacturing-functional-consultant-associate</url>
+    <desc>Official Microsoft Dynamic 365 Supply Chain Managements Functional Consultant Associate training.</desc>
+  </link>
+  <link>
+    <title>Power Platform Functional Consultant Associate</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/developer/microsoft-certified-power-platform-functional-consultant-associate</url>
+    <desc>Official Microsoft Power Platform Functional Consultant Associate training.</desc>
+  </link>
+
+<!-- = Functional Consultant = -->
+<link>
+    <title>Azure Security Engineer Associate</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/functional-consultant/microsoft-certified-azure-security-engineer-associate</url>
+    <desc>Official Microsoft Azure Security Engineer Associate training.</desc>
+</link>
+<link>
+    <title>Identity and Access Administrator Assocaite</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/functional-consultant/microsoft-certified-identity-and-access-administrator-associate</url>
+    <desc>Official Microsoft Identity and Access Administrator Assocaite training.</desc>
+</link>
+<link>
+    <title>Information Protection Administrator Associate</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/functional-consultant/microsoft-certified-information-protection-administrator-associate</url>
+    <desc>Official Microsoft Information Protection Administrator Associate training.</desc>
+  </link>
+  <link>
+    <title>Security Operations Analyst Assocaite</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/functional-consultant/microsoft-certified-security-operations-analyst-associate</url>
+    <desc>Official Microsoft Security Operations Analyst Assocaite training.</desc>
+  </link>
+    <link>
+    <title>Windows Server Hybrid Administrator Assocaite</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/functional-consultant/microsoft-certified-windows-server-hybrid-administrator-associate</url>
+    <desc>Official Microsoft Windows Server Hybrid Administrator Assocaite training.</desc>
+  </link>
+
+
+  <!-- = Security Engineer = -->
+<link>
+    <title>Azure for SAP Workloads Specialty</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/solution-architect/microsoft-certified-azure-for-sap-workloads-specialty</url>
+    <desc>Official Microsoft Azure for SAP Workloads Specialty training.</desc>
+</link>
+<link>
+    <title>Azure Solutions Architect Expert</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/solution-architect/microsoft-certified-azure-solutions-architect-expert</url>
+    <desc>Official Microsoft Azure Solutions Architect Expert training.</desc>
+</link>
+<link>
+    <title>Dynamics 365 Finance and Operations Apps Solutions Architect</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/solution-architect/microsoft-certified-dynamics-365-finance-and-operations-apps-solutions-architect-expert</url>
+    <desc>Official Microsoft Dynamics 365 Finance and Operations Apps Solutions Architect training.</desc>
+</link>
+<link>
+    <title>Power Platform Solutions Architect Expert</title>
+    <url>https://www.robustittraining.com/vendor/microsoft/solution-architect/microsoft-certified-power-platform-solution-architect-expert</url>
+    <desc>Official Microsoft Power Platform Solutions Architect Expert training.</desc>
+</link>
 </pages>

@@ -89,11 +89,11 @@ require './assets/php/inc/nav.php';
                         <div class="info">
                             <h4 class="title"> Help Desk</h4>
                             <span class="info-text">
-                                <a href="#">info@robustittraining.com</a>
+                                <a href="#">info@robustit.co.uk</a>
                                 <br>
                                 <a href="#">support@robustit.co.uk</a>
                                 <br>
-                                <a href="#">compliance@robustittraining.com</a>
+                                <a href="#">compliance@robustit.co.uk</a>
 
 
                             </span>

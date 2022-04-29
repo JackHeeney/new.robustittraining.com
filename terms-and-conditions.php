@@ -911,7 +911,7 @@ require './assets/php/inc/nav.php';
                         <ol>
                             <li>
                                 Email <a
-                                    href="mailto:compliance@robustittraining.com">compliance@robustittraining.com</a>
+                                    href="mailto:compliance@robustit.co.uk">compliance@robustit.co.uk</a>
                                 with your complaint
                             </li>
                             <li>

@@ -1,16 +1,16 @@
 <?php
 // Change page title and meta tags here
-$title = "Robust IT Training | Microsoft | Microsoft 365 Certified: Enterprise Administrator Expert";
+$title = "Robust IT Training | Microsoft | Azure | Microsoft Certified: Security Operations Analyst Associate";
 $meta['keywords'] = "";
 $meta['description'] = "";
 
 // Social media meta tags
-$title = "Robust IT Training | Microsoft | Microsoft 365 Certified: Enterprise Administrator Expert";
+$title = "Robust IT Training | Microsoft | Azure | Microsoft Certified: Security Operations Analyst Associate";
 $meta['og:description'] = "";
 $meta['og:image'] = "";
 $meta['og:url'] = "";
 
-$leadIsFrom = "Lead is from /microsoft/administrator/microsoft-365-certified-enterprise-administrator-expert";
+$leadIsFrom = "Lead is from /microsoft/azure/microsoft-certified-security-operations-analyst-associate";
 
 require '../../../assets/php/inc/header.php';
 require '../../../assets/php/inc/nav.php';
@@ -22,7 +22,7 @@ require '../../../assets/php/inc/nav.php';
         data-bg-image="<?php echo SITE_ADDR ?>/assets/images/bg/bg-certified-ethical-hacker.jpg">
         <div class="page-title">
             <div class="container">
-                <h1 class="title">Microsoft 365 Certified: Enterprise Administrator Expert</h1>
+                <h1 class="title">Microsoft Certified: Security Operations Analyst Associate</h1>
                 <!-- <h2 class="title-h2">Learn more about this certification and AWS resources that can help you prepare
                 </h2> -->
             </div>
@@ -32,8 +32,9 @@ require '../../../assets/php/inc/nav.php';
                 <ul class="breadcrumb justify-content-center">
                     <li><a href="<?php echo SITE_ADDR ?>/">Home</a></li>
                     <li><a href="<?php echo SITE_ADDR ?>/vendor/microsoft">Microsoft</a></li>
-                    <li><a href="<?php echo SITE_ADDR ?>/vendor/microsoft/administrator">Administrator</a></li>
-                    <li class="current">Azure Administration</li>
+                    <li><a href="<?php echo SITE_ADDR ?>/vendor/microsoft/azure">Azure</a>
+                    </li>
+                    <li class="current">Microsoft Certified: Security Operations Analyst Associate</li>
                 </ul>
             </div>
         </div>
@@ -53,42 +54,57 @@ require '../../../assets/php/inc/nav.php';
                                 course
                             </h2>
                             <div class="work-details-course-logo">
-                                <img src="<?php echo SITE_ADDR ?>/assets/images/logo/ec-council/chfi.png"
-                                    alt="cloud practitioner logo" class="w-100">
+                                <img src="<?php echo SITE_ADDR ?>/assets/images/logo/microsoft/microsoft-certified-associate-badge.svg"
+                                    alt="microsoft certified associate badge" class="w-100">
                             </div>
                             <!-- Start Details List -->
-                            <div class="work-details-list mt-lg-12 mt-6">
+                            <div class="work-details-list my-10">
                                 <div class="details-list">
                                     <label>Exam Prefix</label>
-                                    <span>312-40 (ECC EXAM)</span>
+                                    <span>SC-200</span>
                                 </div>
 
                                 <div class="details-list">
                                     <label>Level</label>
-                                    <span>Professional</span>
+                                    <span>Associate</span>
                                 </div>
 
                                 <div class="details-list">
                                     <label>Length</label>
-                                    <span>4 hours to complete the exam</span>
+                                    <span>60 minutes to complete the exam</span>
                                 </div>
 
                                 <div class="details-list">
                                     <label>Format</label>
-                                    <span>125 questions; multiple choice</span>
+                                    <span>40-60 questions, multiple-choice and multi-select questions</span>
                                 </div>
 
-
+                                <div class="details-list">
+                                    <label>Passing Score</label>
+                                    <span>700 / 1000</span>
+                                </div>
                             </div>
+
                             <!-- End Details List -->
+
+                            <div class="work-btn mb-10">
+                                <a class="btn btn-outline-secondary btn-hover--secondary"
+                                    href="<?php echo SITE_ADDR ?>/assets/pdf/exam-guides/microsoft/exam-sc-200-microsoft-security-operations-analyst-skills-measured.pdf"
+                                    target="_blank" alt="download SC-200 exam guide">
+                                    Download the SC-200 guide
+                                    <i class="fas fa-download fcr-animate"></i>
+                                </a>
+                            </div>
+
+
                             <!-- Start Work Share -->
-                            <div class="work-share">
+                            <div class="work-share mb-10">
                                 <div class="links">
                                     <ul>
                                         <li class="social-share facebook">
-                                            <h6 class="heading heading-h6">Share on Facebook <i
-                                                    class="fas fa-share fcr-animate"></i></h6>
-
+                                            <h6 class="heading heading-h6">
+                                                Share on Facebook <i class="fas fa-share fcr-animate"></i>
+                                            </h6>
                                         </li>
                                         <li class="social-share twitter">
                                             <h6 class="heading heading-h6">Share on Twitter <i
@@ -99,25 +115,11 @@ require '../../../assets/php/inc/nav.php';
                                         <li class="social-share linkedin">
                                             <h6 class="heading heading-h6">Share on LinkedIn <i
                                                     class="fas fa-share fcr-animate"></i></h6>
-
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                             <!-- End Work Share -->
-
-                            <!-- Start info graphic -->
-                            <div class="info-graphic" data-aos="zoom-in">
-                                <img class="image desktop"
-                                    src="<?php echo SITE_ADDR ?>/assets/images/project/course-page-info-graphic-desktop.png"
-                                    alt="learning path info graphic">
-
-                                <img class="image mobile"
-                                    src="<?php echo SITE_ADDR ?>/assets/images/project/course-page-info-graphic.png"
-                                    alt="learning path info graphic">
-
-                            </div>
-                            <!-- End info graphic -->
                         </div>
                     </div>
                 </div>
@@ -128,66 +130,40 @@ require '../../../assets/php/inc/nav.php';
                     <div class="work-left work-details mt-0">
                         <div class="work-main-info">
                             <div class="work-content">
-                                <h6 class="title text-uppercase" data-aos="fade-up">
-                                    About the Certified Cloud Security Engineer Course
-                                </h6>
 
                                 <div class="desc mt-8">
                                     <div class="content mb-5" data-aos="fade-up">
+                                        <div class="alert alert-primary">
+                                            <i class="fa fa-info-circle pr-1"></i> <strong>Important</strong> <br />
+                                            The English language version of this certification was updated on January
+                                            28, 2022. Please download the skills measured document on the Exam SC-200
+                                            page to see what changed.
+                                        </div>
                                         <p>
-                                            Cloud technology has transformed the technology landscape and will continue
-                                            to do so for years to come. EC-Council’s Certified Cloud Security Engineer
-                                            (CCSE) is a vendor-neutral course that focuses on cloud security practices,
-                                            technologies, frameworks, and principles to deliver a well-balanced mix of
-                                            the theoretical and practical skills you need to become a cloud security
-                                            expert.
+                                            The Microsoft security operations analyst collaborates with organizational
+                                            stakeholders to secure information technology systems for the organization.
+                                            Their goal is to reduce organizational risk by rapidly remediating active
+                                            attacks in the environment, advising on improvements to threat protection
+                                            practices, and referring violations of organizational policies to
+                                            appropriate stakeholders.
                                         </p>
                                         <p>
-                                            CCSE was created with cloud security job roles in mind and is designed to
-                                            help you meet the challenges of tomorrow. As cloud technology evolves, you
-                                            should too – come learn the skills you need now to defend the technology of
-                                            tomorrow.
-
-
+                                            Responsibilities include threat management, monitoring, and response by
+                                            using a variety of security solutions across their environment. The role
+                                            primarily investigates, responds to, and hunts for threats using Microsoft
+                                            Azure Sentinel, Azure Defender, Microsoft 365 Defender, and third-party
+                                            security products. Since the security operations analyst consumes the
+                                            operational output of these tools, they are also a critical stakeholder in
+                                            the configuration and deployment of these technologies.
                                         </p>
                                     </div>
 
-                                    <div class="content mb-5" data-aos="fade-up">
-                                        <h6 class="title" data-aos="fade-up">Who is it for?</h6>
-                                        <p>
-                                            Who should consider taking the CCSE exam?
-                                        </p>
-                                        <ul>
-                                            <li>
-                                                Network security engineers
-                                            </li>
-                                            <li>
-                                                Cybersecurity analysts
-                                            </li>
-                                            <li>
-                                                Network security analysts
-                                            </li>
-                                            <li>
-                                                Cloud administrators and engineers
-                                            </li>
-                                            <li>
-                                                Network security administrators
-                                            </li>
-                                            <li>
-                                                Cloud analysts
-                                            </li>
-                                            <li>
-                                                Cybersecurity engineers
-                                            </li>
-                                            <li>
-                                                Those working in network and cloud management and operations
-                                            </li>
-                                        </ul>
-                                    </div>
+
 
                                     <div class="work-btn">
-                                        <a class="btn btn-primary btn-hover-secondary" href="#">Download the exam guide
-                                            <i class="fas fa-download fcr-animate"></i></a>
+                                        <a class="btn btn-secondary btn-hover--secondary" href="#beginnersModal"
+                                            data-toggle="modal" data-target="#beginnersModal">Beginners start here
+                                            <i class="fas fa-chevron-right fcr-animate"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -225,10 +201,11 @@ require '../../../assets/php/inc/nav.php';
                                 <div class="section-title-two mb-8">
                                     <h3 class="heading heading-h3"></h3>
 
-                                    <span class="sub-title">Reasons why to take the CCSE</span>
+                                    <span class="sub-title">What you will learn</span>
                                     <h2 class="title">
-                                        Why Certified Cloud Security Engineer?
+                                        Skills measured
                                     </h2>
+
                                 </div>
                                 <!-- Section Title Two End -->
 
@@ -239,7 +216,7 @@ require '../../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Detailed Methodological Approach and Instructor-Led Program
+                                            Mitigate threats using Microsoft 365 Defender
                                         </div>
                                     </li>
                                     <li class="item">
@@ -247,7 +224,7 @@ require '../../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            Vendor-Neutral and Vendor-Specific Concepts
+                                            Mitigate threats using Microsoft Defender for Cloud
                                         </div>
                                     </li>
                                     <li class="item">
@@ -255,53 +232,15 @@ require '../../../assets/php/inc/nav.php';
                                             <i class="fas fa-check"></i>
                                         </div>
                                         <div class="text">
-                                            SOAR for Incident Response
-                                        </div>
-                                    </li>
-                                    <li class="item">
-                                        <div class="icon">
-                                            <i class="fas fa-check"></i>
-                                        </div>
-                                        <div class="text">
-                                            Best Practices to Secure Cloud Infrastructure
-                                        </div>
-                                    </li>
-                                    <li class="item">
-                                        <div class="icon">
-                                            <i class="fas fa-check"></i>
-                                        </div>
-                                        <div class="text">
-                                            Governance, Risk Management, and Compliance in the Cloud
-                                        </div>
-                                    </li>
-                                    <li class="item">
-                                        <div class="icon">
-                                            <i class="fas fa-check"></i>
-                                        </div>
-                                        <div class="text">
-                                            Forensic Methodologies for Cloud Infrastructure
-                                        </div>
-                                    </li>
-                                    <li class="item">
-                                        <div class="icon">
-                                            <i class="fas fa-check"></i>
-                                        </div>
-                                        <div class="text">
-                                            Standards, Policies, and Legal Issues in the Cloud
-                                        </div>
-                                    </li>
-                                    <li class="item">
-                                        <div class="icon">
-                                            <i class="fas fa-check"></i>
-                                        </div>
-                                        <div class="text">
-                                            Lab-Intensive Cloud Security Program
+                                            Mitigate threats using Microsoft Sentinel
                                         </div>
                                     </li>
                                 </ul>
                                 <!-- Agency List End -->
-                                <a href="#scrollTo" id="startScroll" class="btn btn-primary btn-hover-secondary">
-                                    Get started
+                                <a href="<?php echo SITE_ADDR ?>/assets/pdf/exam-guides/microsoft/microsoft-certified-security-operations-analyst-associate-skills-measured.pdf"
+                                    alt="Download certification skill outline"
+                                    class="btn btn-primary btn-hover-secondary" target="_blank">
+                                    Download certification skill outline
                                     <i class="fas fa-chevron-right fcr-animate"></i>
                                 </a>
                             </div>
@@ -342,12 +281,13 @@ require '../../../assets/php/inc/nav.php';
             </div>
             <!-- Start Brand and Labs -->
 
-
             <!-- Start Average Salary Area -->
-            <div class="row my-lg-12 my-10">
+            <div class="text-white row my-lg-12 my-10 p-10 pl-2 p-xl-10 pl-xl-10" data-bg-color="#fff"
+                data-bg-image="<?php echo SITE_ADDR ?>/assets/images/banner/job-rolls.jpg" data-overlay="0.9">
                 <div class="digital-marketing" data-aos="fade-up">
                     <div class="section-title-two">
-                        <span class="sub-title">Average salary after completing CHFI</span>
+                        <span class="sub-title text-white">Average salary for Security Operations Analyst
+                            professionals</span>
                     </div>
 
 
@@ -356,9 +296,11 @@ require '../../../assets/php/inc/nav.php';
                     <div class="digital-marketing" data-aos="fade-up">
                         <div class="section-title-two mb-8">
                             <h2 class="title mb-5">
-                                <div class="salary">£<span class="counter">56,650.00</span>+</div>
+                                <div class="salary text-white">£<span class="counter">45,000.00</span>+</div>
                             </h2>
-                            <small>Avg. Base Salary (GBP)</small>.
+                            <small>The average security operations analyst salary in the United Kingdom is £45,000 per
+                                year or £23.08 per hour. Entry level positions start at £40,000 per year while most
+                                experienced workers make up to £60,000 per year</small>.
                         </div>
 
 
@@ -369,11 +311,11 @@ require '../../../assets/php/inc/nav.php';
                         <div class="inner">
 
                             <div class="row">
-                                <h2 class="title mb-5">
+                                <h2 class="title mb-5 text-white">
                                     Job Roles
                                 </h2>
 
-                                <div class="col-6">
+                                <div class="col-12 col-xl-6">
                                     <!-- job roles List Start -->
                                     <ul class="agency-list">
                                         <li class="item">
@@ -381,7 +323,7 @@ require '../../../assets/php/inc/nav.php';
                                                 <i class="fas fa-check"></i>
                                             </div>
                                             <div class="text">
-                                                Cloud Security Engineer
+                                                Security Analyst
                                             </div>
                                         </li>
                                         <li class="item">
@@ -389,7 +331,7 @@ require '../../../assets/php/inc/nav.php';
                                                 <i class="fas fa-check"></i>
                                             </div>
                                             <div class="text">
-                                                Cloud Security Consultant
+                                                Security Operations Analyst
                                             </div>
                                         </li>
                                         <li class="item">
@@ -397,69 +339,14 @@ require '../../../assets/php/inc/nav.php';
                                                 <i class="fas fa-check"></i>
                                             </div>
                                             <div class="text">
-                                                Cyber Cloud Security Manager
+                                                Senior Security Operations
                                             </div>
                                         </li>
-                                        <li class="item">
-                                            <div class="icon">
-                                                <i class="fas fa-check"></i>
-                                            </div>
-                                            <div class="text">
-                                                Cloud Security Architect
-                                            </div>
-                                        </li>
-                                        <li class="item">
-                                            <div class="icon">
-                                                <i class="fas fa-check"></i>
-                                            </div>
-                                            <div class="text">
-                                                Cloud Security Manager
-                                            </div>
-                                        </li>
-                                        <li class="item">
-                                            <div class="icon">
-                                                <i class="fas fa-check"></i>
-                                            </div>
-                                            <div class="text">
-                                                API Cloud Security Engineer
-                                            </div>
-                                        </li>
-                                        <li class="item">
-                                            <div class="icon">
-                                                <i class="fas fa-check"></i>
-                                            </div>
-                                            <div class="text">
-                                                Cloud Security Technical Lead
-                                            </div>
-                                        </li>
-                                        <li class="item">
-                                            <div class="icon">
-                                                <i class="fas fa-check"></i>
-                                            </div>
-                                            <div class="text">
-                                                Cloud Security Administrator
-                                            </div>
-                                        </li>
-                                        <li class="item">
-                                            <div class="icon">
-                                                <i class="fas fa-check"></i>
-                                            </div>
-                                            <div class="text">
-                                                Cloud Security Analyst
-                                            </div>
-                                        </li>
-                                        <li class="item">
-                                            <div class="icon">
-                                                <i class="fas fa-check"></i>
-                                            </div>
-                                            <div class="text">
-                                                Cloud Security Specialist
-                                            </div>
-                                        </li>
+
                                     </ul>
                                     <!-- job roles List End -->
                                 </div>
-                                <div class="col-6">
+                                <div class="col-12 col-xl-6">
                                     <!-- job roles List Start -->
                                     <ul class="agency-list">
                                         <li class="item">
@@ -467,7 +354,7 @@ require '../../../assets/php/inc/nav.php';
                                                 <i class="fas fa-check"></i>
                                             </div>
                                             <div class="text">
-                                                Cloud Security and Compliance Specialist
+                                                Security Operations Analyst
                                             </div>
                                         </li>
                                         <li class="item">
@@ -475,7 +362,7 @@ require '../../../assets/php/inc/nav.php';
                                                 <i class="fas fa-check"></i>
                                             </div>
                                             <div class="text">
-                                                Cloud Security Operations Lead
+                                                Security Operations Centre Analyst
                                             </div>
                                         </li>
                                         <li class="item">
@@ -483,64 +370,7 @@ require '../../../assets/php/inc/nav.php';
                                                 <i class="fas fa-check"></i>
                                             </div>
                                             <div class="text">
-                                                Cloud Security Practice Manager
-                                            </div>
-                                        </li>
-                                        <li class="item">
-                                            <div class="icon">
-                                                <i class="fas fa-check"></i>
-                                            </div>
-                                            <div class="text">
-                                                Cloud Security Engineer – DevSecOps
-                                            </div>
-                                        </li>
-                                        <li class="item">
-                                            <div class="icon">
-                                                <i class="fas fa-check"></i>
-                                            </div>
-                                            <div class="text">
-                                                DevSecOps Cloud Security Architect
-                                            </div>
-                                        </li>
-                                        <li class="item">
-                                            <div class="icon">
-                                                <i class="fas fa-check"></i>
-                                            </div>
-                                            <div class="text">
-                                                Cloud Security/OPS
-                                            </div>
-                                        </li>
-                                        <li class="item">
-                                            <div class="icon">
-                                                <i class="fas fa-check"></i>
-                                            </div>
-                                            <div class="text">
-                                                Cloud Security SME
-                                            </div>
-                                        </li>
-                                        <li class="item">
-                                            <div class="icon">
-                                                <i class="fas fa-check"></i>
-                                            </div>
-                                            <div class="text">
-                                                Cloud Security Project Manager
-                                            </div>
-                                        </li>
-                                        <li class="item">
-                                            <div class="icon">
-                                                <i class="fas fa-check"></i>
-                                            </div>
-                                            <div class="text">
-                                                Cloud Security/Operations Engineer
-                                            </div>
-                                        </li>
-                                        <li class="item">
-                                            <div class="icon">
-                                                <i class="fas fa-check"></i>
-                                            </div>
-                                            <div class="text">
-                                                Cloud Security/Infosec/SecOps Engineer
-
+                                                Lead Security Operations Analyst
                                             </div>
                                         </li>
                                     </ul>
@@ -558,36 +388,15 @@ require '../../../assets/php/inc/nav.php';
                 <div class="container">
                     <div class="row my-lg-14 my-7">
 
-                        <!-- FAQ Image Area Start -->
-                        <div class="col-xl-7 col-lg-6 col-12" data-aos="fade-up">
-                            <div class="about-image-area">
-                                <div class="about-image js-tilt">
-                                    <img src="<?php echo SITE_ADDR ?>/assets/images/about/home-one-about/cloud_about_2.jpg"
-                                        alt="">
-                                </div>
-                                <div class="about-image js-tilt">
-                                    <img src="<?php echo SITE_ADDR ?>/assets/images/about/home-one-about/cloud_about_1.jpg"
-                                        alt="">
-                                </div>
-                                <!-- Animation Shape Start -->
-                                <div class="shape shape-1 scene">
-                                    <span data-depth="1"><img
-                                            src="<?php echo SITE_ADDR ?>/assets/images/shape-animation/about-shape-2.png"
-                                            alt=""></span>
-                                </div>
-                                <!-- Animation Shape End -->
-                            </div>
-                        </div>
-                        <!-- FAQ Image Area Start -->
 
                         <!-- FAQ Start -->
-                        <div class="col-xl-5 col-lg-6 col-12 mt-lg-1 mt-20" data-aos="fade-up">
+                        <div class="col-12 mt-lg-1 mt-20" data-aos="fade-up">
                             <!-- FAQ Content Area Start -->
                             <div class="faq-content">
                                 <!-- Section Title Two Start -->
                                 <div class="section-title-two">
-                                    <span class="sub-title">Frequently asked questions</span>
-                                    <h3 class="title">You’ve got questions & <br> we’ve got answers</h3>
+                                    <span class="sub-title">Related Exams</span>
+                                    <h3 class="title">Exam skills outline</h3>
                                 </div>
                                 <!-- Section Title Two End -->
 
@@ -598,7 +407,7 @@ require '../../../assets/php/inc/nav.php';
                                                 <a href="#" class="acc-btn border-0" data-toggle="collapse"
                                                     data-target="#collapseOne" aria-expanded="true"
                                                     aria-controls="collapseOne">
-                                                    Which AWS Certification is right for me?
+                                                    Exam SC-200: Microsoft Security Operations Analyst
                                                 </a>
                                             </h5>
                                         </div>
@@ -606,53 +415,34 @@ require '../../../assets/php/inc/nav.php';
                                         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
                                             data-parent="#accordionExample">
                                             <div class="card-body">
-                                                Learn about each AWS Certification <a href="#">exam
-                                                    here</a>. To
-                                                learn more about the benefits of AWS Certification, <a href="#">go
-                                                    here</a>.
-
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="card">
-                                        <div class="card-header" id="headingTwo">
-                                            <h5 class="mb-0">
-                                                <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse"
-                                                    data-target="#collapseTwo" aria-expanded="false"
-                                                    aria-controls="collapseTwo">
-                                                    Are there any mandatory training or exam requirements to take an AWS
-                                                    Certification exam?
-                                                </a>
-                                            </h5>
-                                        </div>
-                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                                            data-parent="#accordionExample">
-                                            <div class="card-body">
-                                                Training is recommended as part of your certification
-                                                preparation, but it is not mandatory for the completion of the
-                                                certification. Go to AWS Skill Builder to find a learning plan that’s
-                                                right for you.
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="card">
-                                        <div class="card-header" id="headingThree">
-                                            <h5 class="mb-0">
-                                                <a href="#" class="acc-btn border-0 collapsed" data-toggle="collapse"
-                                                    data-target="#collapseThree" aria-expanded="false"
-                                                    aria-controls="collapseThree">
-                                                    Why should I consider AWS Certified?
-                                                </a>
-                                            </h5>
-                                        </div>
-                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                                            data-parent="#accordionExample">
-                                            <div class="card-body">AWS Certification helps learners build credibility
-                                                and confidence by validating their cloud expertise with an
-                                                industry-recognized credential and organizations identify skilled
-                                                professionals to lead cloud initiatives using AWS.
+                                                <p>
+                                                    The Microsoft security operations analyst collaborates with
+                                                    organizational stakeholders to secure information technology systems
+                                                    for the organization. Their goal is to reduce organizational risk by
+                                                    rapidly remediating active attacks in the environment, advising on
+                                                    improvements to threat protection practices, and referring
+                                                    violations of organizational policies to appropriate stakeholders.
+                                                </p>
+                                                <p>
+                                                    Responsibilities include threat management, monitoring, and response
+                                                    by using a variety of security solutions across their environment.
+                                                    The role primarily investigates, responds to, and hunts for threats
+                                                    using Microsoft Sentinel, Microsoft Defender for Cloud, Microsoft
+                                                    365 Defender, and third-party security products. Since the security
+                                                    operations analyst consumes the operational output of these tools,
+                                                    they are also a critical stakeholder in the configuration and
+                                                    deployment of these technologies.
+                                                </p>
+                                                <ul>
+                                                    <li>The English language version of this exam was updated on January
+                                                        28, 2022. Please download the exam skills outline below to see
+                                                        what changed.</li>
+                                                    <li>Mitigate threats using Microsoft 365 Defender (25-30%)
+                                                    </li>
+                                                    <li>Mitigate threats using Microsoft Defender for Cloud (25-30%)
+                                                    </li>
+                                                    <li>Mitigate threats using Microsoft Sentinel (40-45%)</li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>

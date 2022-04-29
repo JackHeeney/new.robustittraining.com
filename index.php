@@ -231,7 +231,7 @@ require './assets/php/inc/nav.php';
     <!-- About Section End -->
 
     <!-- learning path Section Start -->
-    <div class="section mt-xl-25  py-25" data-bg-color="#fff">
+    <div class="section mt-xl-25 py-xl-25 py-50" data-bg-color="#fff">
 
         <div class="container text-center icon-up-down-animation">
             <span id="go" style="scroll-margin-top: 26em"></span>
