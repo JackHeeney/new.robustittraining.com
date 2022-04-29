@@ -169,7 +169,7 @@
                     </div>
                     <ul class="d-flex pl-0">
                         <li class="menu-list-style-none pr-2">
-                            <a href="https://www.facebook.com/RobustIT/" alt="go to robust facebook" target="_blank">
+                            <a href="https://www.facebook.com/RobustIT55/" alt="go to robust facebook" target="_blank">
                                 <i class="fab fa-facebook text-light"></i>
                             </a>
                         </li>
@@ -269,13 +269,13 @@
                                                         </span>
                                                     </a>
                                                 </li>
-                                                <li>
+                                                <!-- <li>
                                                     <a href="<?php echo SITE_ADDR ?>/help-desk">
                                                         <span class="menu-text">
                                                             Help Desk <i class="fas fa-chevron-right fcr-animate"></i>
                                                         </span>
                                                     </a>
-                                                </li>
+                                                </li> -->
                                                 <li>
                                                     <a href="<?php echo SITE_ADDR ?>/power-virtual-agent">
                                                         <span class="menu-text">
