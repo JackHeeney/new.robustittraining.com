@@ -183,8 +183,25 @@ require '../../../assets/php/inc/nav.php';
                 </div>
                 <!-- Single Work End -->
 
-                <!-- Single Work Start -->
-                <div class="col mb-6">
+                <div class="col mb-6" data-aos="fade-up">
+                    <a href="javascript(void);" data-toggle="modal" data-target="#exampleModal" alt="pop up form">
+                        <!-- Contact Information Start -->
+                        <div class="contact-info" data-vivus-hover>
+                            <div class="icon">
+                                <img class="svgInject"
+                                    src="http://localhost/new.robustittraining.com/assets/images/svg/linea/linea-arrows-circle-plus.svg"
+                                    alt="">
+                            </div>
+                            <div class="info">
+                                <h4 class="title">Keep your eyes peeled!</h4>
+                                <span class="info-text"> More Azure courses will be added soon.</span>
+                            </div>
+                        </div>
+                        <!-- Contact Information End -->
+                    </a>
+                </div>
+
+                <!-- <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
                             <a class="image"
@@ -206,9 +223,7 @@ require '../../../assets/php/inc/nav.php';
                         </div>
                     </div>
                 </div>
-                <!-- Single Work End -->
 
-                <!-- Single Work Start -->
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
@@ -230,9 +245,7 @@ require '../../../assets/php/inc/nav.php';
                         </div>
                     </div>
                 </div>
-                <!-- Single Work End -->
 
-                <!-- Single Work Start -->
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
@@ -255,9 +268,7 @@ require '../../../assets/php/inc/nav.php';
                         </div>
                     </div>
                 </div>
-                <!-- Single Work End -->
 
-                <!-- Single Work Start -->
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
@@ -280,9 +291,7 @@ require '../../../assets/php/inc/nav.php';
                         </div>
                     </div>
                 </div>
-                <!-- Single Work End -->
 
-                <!-- Single Work Start -->
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
@@ -308,9 +317,7 @@ require '../../../assets/php/inc/nav.php';
                         </div>
                     </div>
                 </div>
-                <!-- Single Work End -->
 
-                <!-- Single Work Start -->
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
@@ -333,9 +340,7 @@ require '../../../assets/php/inc/nav.php';
                         </div>
                     </div>
                 </div>
-                <!-- Single Work End -->
 
-                <!-- Single Work Start -->
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
@@ -359,9 +364,7 @@ require '../../../assets/php/inc/nav.php';
                         </div>
                     </div>
                 </div>
-                <!-- Single Work End -->
 
-                <!-- Single Work Start -->
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
@@ -384,9 +387,7 @@ require '../../../assets/php/inc/nav.php';
                         </div>
                     </div>
                 </div>
-                <!-- Single Work End -->
 
-                <!-- Single Work Start -->
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
@@ -409,9 +410,7 @@ require '../../../assets/php/inc/nav.php';
                         </div>
                     </div>
                 </div>
-                <!-- Single Work End -->
 
-                <!-- Single Work Start -->
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
@@ -434,9 +433,7 @@ require '../../../assets/php/inc/nav.php';
                         </div>
                     </div>
                 </div>
-                <!-- Single Work End -->
 
-                <!-- Single Work Start -->
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
@@ -461,9 +458,7 @@ require '../../../assets/php/inc/nav.php';
                         </div>
                     </div>
                 </div>
-                <!-- Single Work End -->
 
-                <!-- Single Work Start -->
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
@@ -486,9 +481,7 @@ require '../../../assets/php/inc/nav.php';
                         </div>
                     </div>
                 </div>
-                <!-- Single Work End -->
 
-                <!-- Single Work Start -->
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
@@ -513,9 +506,7 @@ require '../../../assets/php/inc/nav.php';
                         </div>
                     </div>
                 </div>
-                <!-- Single Work End -->
 
-                <!-- Single Work Start -->
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
@@ -540,9 +531,7 @@ require '../../../assets/php/inc/nav.php';
                         </div>
                     </div>
                 </div>
-                <!-- Single Work End -->
 
-                <!-- Single Work Start -->
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
@@ -567,9 +556,7 @@ require '../../../assets/php/inc/nav.php';
                         </div>
                     </div>
                 </div>
-                <!-- Single Work End -->
 
-                <!-- Single Work Start -->
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
@@ -592,9 +579,7 @@ require '../../../assets/php/inc/nav.php';
                         </div>
                     </div>
                 </div>
-                <!-- Single Work End -->
 
-                <!-- Single Work Start -->
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
@@ -618,9 +603,7 @@ require '../../../assets/php/inc/nav.php';
                         </div>
                     </div>
                 </div>
-                <!-- Single Work End -->
 
-                <!-- Single Work Start -->
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
@@ -643,9 +626,7 @@ require '../../../assets/php/inc/nav.php';
                         </div>
                     </div>
                 </div>
-                <!-- Single Work End -->
 
-                <!-- Single Work Start -->
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
@@ -669,9 +650,7 @@ require '../../../assets/php/inc/nav.php';
                         </div>
                     </div>
                 </div>
-                <!-- Single Work End -->
 
-                <!-- Single Work Start -->
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
@@ -694,9 +673,7 @@ require '../../../assets/php/inc/nav.php';
                         </div>
                     </div>
                 </div>
-                <!-- Single Work End -->
 
-                <!-- Single Work Start -->
                 <div class="col mb-6">
                     <div class="work single-portfolio">
                         <div class="thumbnail">
@@ -719,8 +696,7 @@ require '../../../assets/php/inc/nav.php';
                                 Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
-                </div>
-                <!-- Single Work End -->
+                </div> -->
 
 
             </div>

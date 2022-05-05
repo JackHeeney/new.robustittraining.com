@@ -10,7 +10,7 @@ $meta['og:description'] = "";
 $meta['og:image'] = "";
 $meta['og:url'] = "";
 
-$leadIsFrom = "Lead is from /microsoft/administrator/microsoft-certified-azure-administration-associate";
+$leadIsFrom = "Lead is from /career/security-analyst/microsoft-365-certified-security-administrator-associate";
 
 require '../../assets/php/inc/header.php';
 require '../../assets/php/inc/nav.php';

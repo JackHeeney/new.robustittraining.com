@@ -66,8 +66,9 @@ require '../assets/php/inc/nav.php';
                         <div class="info">
                             <h3 class="title"><a href="<?php echo SITE_ADDR ?>/career/cloud-architect"
                                     alt="link to ethical hacker courses">Cloud Architect</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">Cloud architects are IT specialists who have the skills and knowledge to
+                                navigate complex cloud environments, lead teams, develop and implement cloud strategies,
+                                and ensure cloud systems stay up to date and run smoothly.</p>
                             <a href="<?php echo SITE_ADDR ?>/career/cloud-architect"
                                 alt="link to ethical hacker courses">View Courses <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
@@ -88,8 +89,10 @@ require '../assets/php/inc/nav.php';
                         <div class="info">
                             <h3 class="title"><a href="<?php echo SITE_ADDR ?>/career/ethical-hacker"
                                     alt="link to ethical hacker courses">Ethical Hacker</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nisi, quo
-                                optio sint doloribus repellat.</p>
+                            <p class="desc">Use their knowledge to secure and improve the technology of organizations.
+                                They provide an essential service to these organizations by looking for vulnerabilities
+                                that can lead to a security breach. An ethical hacker reports the identified
+                                vulnerabilities to the organization.</p>
                             <a href="<?php echo SITE_ADDR ?>/career/ethical-hacker"
                                 alt="link to ethical hacker courses">View Courses <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
@@ -110,8 +113,10 @@ require '../assets/php/inc/nav.php';
                         <div class="info">
                             <h3 class="title"><a href="<?php echo SITE_ADDR ?>/career/network-engineer"
                                     alt="link to network engineer courses">Network Engineer</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">Set up, develop, and maintain computer networks within an organisation or
+                                between organisations. Offer support to users, who can be staff, clients, customers, and
+                                suppliers and troubleshoot any problems. In some cases, this may involve designing new
+                                networks.</p>
                             <a href="<?php echo SITE_ADDR ?>/career/network-engineer"
                                 alt="link to network engineer courses">View Courses <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
@@ -132,8 +137,10 @@ require '../assets/php/inc/nav.php';
                         <div class="info">
                             <h3 class="title"><a href="<?php echo SITE_ADDR ?>/career/it-project-manager"
                                     alt="link to it project manager courses">IT Project Manager</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">Is a professional charged with overseeing the process of planning, executing
+                                and delegating responsibilities around an organization's information technology (IT)
+                                pursuits and goals. IT project managers may work in a variety of industries, as nearly
+                                all organizations rely on computing technologies.</p>
                             <a href="<?php echo SITE_ADDR ?>/career/it-project-manager"
                                 alt="link to it project manager courses">View Courses <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
@@ -154,8 +161,9 @@ require '../assets/php/inc/nav.php';
                         <div class="info">
                             <h3 class="title"><a href="<?php echo SITE_ADDR ?>/career/security-analyst"
                                     alt="link to security analyst courses">Security Analyst</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">Works inter-departmentally to identify and correct flaws in the company's
+                                security systems, solutions, and programs while recommending specific measures that can
+                                improve the company's overall security posture.</p>
                             <a href="<?php echo SITE_ADDR ?>/career/security-analyst"
                                 alt="link to security analyst courses">View Courses <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
@@ -176,8 +184,8 @@ require '../assets/php/inc/nav.php';
                         <div class="info">
                             <h3 class="title"><a href="<?php echo SITE_ADDR ?>/career/developer"
                                     alt="link to courses for developers">Developer</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">Writes computer programs with an eye toward safeguarding computer systems
+                                and data/information.</p>
                             <a href="<?php echo SITE_ADDR ?>/career/developer" alt="link to courses for developers">View
                                 Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
@@ -198,8 +206,9 @@ require '../assets/php/inc/nav.php';
                         <div class="info">
                             <h3 class="title"><a href="<?php echo SITE_ADDR ?>/career/devops"
                                     alt="link to courses for devops">DevOps</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">Manages the operations of software development, implementing engineering
+                                tools and knowledge of the software development process to streamline software updates
+                                and creation.</p>
                             <a href="<?php echo SITE_ADDR ?>/career/devops" alt="link to courses for devops">View
                                 Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
@@ -222,8 +231,9 @@ require '../assets/php/inc/nav.php';
                                     alt="link to courses for 1st line support">1<small>st</small> Line
                                     Support</a>
                             </h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">Support Technicians work is to protect an organization(s) information and
+                                data to keep it private and safe. They work with computer security programs to detect,
+                                prevent, and address potential security threats.</p>
                             <a href="<?php echo SITE_ADDR ?>/career/1st-line-support"
                                 alt="link to courses for 1st line support">View Courses
                                 <i class="fas fa-chevron-right fcr-animate"></i></a>

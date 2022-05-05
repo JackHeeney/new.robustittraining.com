@@ -43198,9 +43198,6 @@ textarea:focus {
 }
 
 /* 04.01 Accordion CSS */
-.faq-section {
-  padding-bottom: 120px;
-}
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .faq-section {
@@ -44140,7 +44137,7 @@ textarea:focus {
 
 @media only screen and (max-width: 767px) {
   .page-title-section {
-    height: 350px;
+    height: 75vh;
   }
 }
 
@@ -44153,7 +44150,7 @@ textarea:focus {
 }
 
 .page-title .title-h2 {
-  font-size: 28px;
+  font-size: 23px;
   line-height: 1.2;
   color: #fff;
   margin: 0;
@@ -44174,7 +44171,7 @@ textarea:focus {
 
 @media only screen and (max-width: 767px) {
   .page-title .title {
-    font-size: 23px;
+    font-size: 28px;
     line-height: 1.5;
   }
 }
@@ -47491,6 +47488,13 @@ only screen and (max-width: 767px) {
   position: relative;
 }
 
+.landing-form-area {
+  padding: 30px 30px;
+  border-radius: 10px;
+  background-color: #fff;
+  position: relative;
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .contact-form-area {
     padding: 50px 30px;
@@ -48453,7 +48457,8 @@ only screen and (max-width: 767px) {
 /*----------------------------------------*/
 .trustpilot {
   position: relative;
-  top: 20px;
+  top: 30px;
+  right: 180px;
   transform: scale(1.5);
 }
 
@@ -48461,8 +48466,8 @@ only screen and (max-width: 767px) {
   .trustpilot {
     position: relative;
     top: 20px;
-    transform: scale(1.5);
     right: 80px !important;
+    transform: scale(1.5);
   }
 }
 

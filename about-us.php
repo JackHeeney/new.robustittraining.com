@@ -50,10 +50,10 @@ require './assets/php/inc/nav.php';
                 <div class="col-xl-7 col-lg-6 col-12 order-2 mt-20 mt-xl-0" data-aos="fade-up">
                     <div class="about-image-area">
                         <div class="about-image js-tilt">
-                            <img src="<?php echo SITE_ADDR ?>/assets/images/about/about-3.jpg" alt="">
+                            <img src="<?php echo SITE_ADDR ?>/assets/images/about/about-us.jpg" alt="">
                         </div>
                         <div class="about-image js-tilt">
-                            <img src="<?php echo SITE_ADDR ?>/assets/images/about/about-4.jpg" alt="">
+                            <img src="<?php echo SITE_ADDR ?>/assets/images/about/about-us-2.jpg" alt="">
                         </div>
                         <!-- Animation Shape Start -->
                         <div class="shape shape-1 scene">
@@ -129,10 +129,10 @@ require './assets/php/inc/nav.php';
                 <div class="col-xl-7 col-lg-6 col-12" data-aos="fade-up">
                     <div class="about-image-area">
                         <div class="about-image js-tilt">
-                            <img src="<?php echo SITE_ADDR ?>/assets/images/about/about-3.jpg" alt="">
+                            <img src="<?php echo SITE_ADDR ?>/assets/images/about/learning-experience-1.jpg" alt="">
                         </div>
                         <div class="about-image js-tilt">
-                            <img src="<?php echo SITE_ADDR ?>/assets/images/about/about-4.jpg" alt="">
+                            <img src="<?php echo SITE_ADDR ?>/assets/images/about/learning-experience-2.jpg" alt="">
                         </div>
                         <!-- Animation Shape Start -->
                         <div class="shape shape-1 scene">
@@ -338,7 +338,7 @@ require './assets/php/inc/nav.php';
             <!-- Section Title Start -->
             <div class="section-title color-light text-center" data-aos="fade-up">
 
-                <div class="trustpilot">
+                <div class="trustpilot" style="position: relative; right: 0px!important;">
 
                     <!-- TrustBox widget - Micro Combo -->
                     <div class="trustpilot-widget" data-locale="en-GB" data-template-id="5419b6ffb0d04a076446a9af"

@@ -231,7 +231,7 @@ require './assets/php/inc/nav.php';
     <!-- Faq Section End -->
 
 
-    <!-- Video Section Start -->
+    <!-- Trust pilot Section Start -->
     <div class="video-section section section-padding" data-bg-color="#000" data-overlay="0.7"
         data-bg-image="assets/images/bg/video-bg.jpg">
 
@@ -240,7 +240,7 @@ require './assets/php/inc/nav.php';
             <!-- Section Title Start -->
             <div class="section-title color-light text-center" data-aos="fade-up">
 
-                <div class="trustpilot">
+                <div class="trustpilot" style="position: relative; right: 0px!important;">
 
                     <!-- TrustBox widget - Micro Combo -->
                     <div class="trustpilot-widget" data-locale="en-GB" data-template-id="5419b6ffb0d04a076446a9af"
@@ -265,7 +265,7 @@ require './assets/php/inc/nav.php';
         <!-- Animation Shape End -->
 
     </div>
-    <!-- Video Section End -->
+    <!-- Trust pilot Section End -->
 
 
 

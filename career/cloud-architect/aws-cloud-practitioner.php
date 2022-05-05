@@ -10,7 +10,7 @@ $meta['og:description'] = "Robust IT Training AWS | Cloud Practitioner course.";
 $meta['og:image'] = "";
 $meta['og:url'] = "";
 
-$leadIsFrom = "Lead is from /vendor/aws/aws-cloud-practitioner";
+$leadIsFrom = "Lead is from /career/cloud-architect/aws-cloud-practitioner";
 
 $path1 = "";
 $path2 = "";

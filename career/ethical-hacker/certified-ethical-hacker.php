@@ -10,6 +10,8 @@ $meta['og:description'] = "Robust IT Training Certified Ethical Hacker course. L
 $meta['og:image'] = "";
 $meta['og:url'] = "";
 
+$leadIsFrom = "Lead is from /career/ethical-hacker/certified-ethical-hacker";
+
 
 require '../../assets/php/inc/header.php';
 require '../../assets/php/inc/nav.php';

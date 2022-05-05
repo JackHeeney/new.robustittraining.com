@@ -65,9 +65,10 @@ require '../../assets/php/inc/nav.php';
                         <div class="info">
                             <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/axelos/itil" alt="ITIL">ITIL
                                     &#174;</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
-                            <a href="<?php echo SITE_ADDR ?>/vendor/axelos/itil" alt="ITIL">>View Course
+                            <p class="desc">The Information Technology Infrastructure Library is a set of detailed
+                                practices for IT activities such as IT service management and IT asset management that
+                                focus on aligning IT services with the needs of business.</p>
+                            <a href="<?php echo SITE_ADDR ?>/vendor/axelos/itil" alt="ITIL">View Courses
                                 <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -87,9 +88,11 @@ require '../../assets/php/inc/nav.php';
                             <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/axelos/prince2"
                                     alt="prince2">PRINCE2 &#174;</a>
                             </h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nisi, quo
-                                optio sint doloribus repellat.</p>
-                            <a href="<?php echo SITE_ADDR ?>/vendor/axelos/prince2" alt="prince2">View Course <i
+                            <p class="desc">PRINCE2 is a structured project management method and practitioner
+                                certification programme. PRINCE2 emphasises dividing projects into manageable and
+                                controllable stages. It is adopted in many countries worldwide, including the UK,
+                                Western European countries, and Australia.</p>
+                            <a href="<?php echo SITE_ADDR ?>/vendor/axelos/prince2" alt="prince2">View Courses <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
@@ -108,9 +111,9 @@ require '../../assets/php/inc/nav.php';
                             <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/axelos/prince2-agile">PRINCE2
                                     Agile &#174;</a>
                             </h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nisi, quo
-                                optio sint doloribus repellat.</p>
-                            <a href="<?php echo SITE_ADDR ?>/vendor/axelos/prince2-agile">View Course <i
+                            <p class="desc">The strength of PRINCE2 lies in the areas of project direction and project
+                                management whereas agile has a very strong focus on product delivery.</p>
+                            <a href="<?php echo SITE_ADDR ?>/vendor/axelos/prince2-agile">View Courses <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>

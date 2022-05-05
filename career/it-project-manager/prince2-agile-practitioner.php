@@ -10,7 +10,7 @@ $meta['og:description'] = "";
 $meta['og:image'] = "";
 $meta['og:url'] = "";
 
-$leadIsFrom = "Lead is from /axelos/prince2-agile/prince2-agile-practitioner";
+$leadIsFrom = "Lead is from /career/it-project-manager/prince2-agile-practitioner";
 
 require '../../assets/php/inc/header.php';
 require '../../assets/php/inc/nav.php';

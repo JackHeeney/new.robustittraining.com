@@ -10,7 +10,7 @@ $meta['og:description'] = "";
 $meta['og:image'] = "";
 $meta['og:url'] = "";
 
-$leadIsFrom = "Lead is from /comptia/comptia-casp";
+$leadIsFrom = "Lead is from /career/ethical-hacker/comptia-casp";
 
 require '../../assets/php/inc/header.php';
 require '../../assets/php/inc/nav.php';

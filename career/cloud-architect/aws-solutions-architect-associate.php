@@ -10,7 +10,7 @@ $meta['og:description'] = "Robust IT Training AWS Solutions Architect Associate 
 $meta['og:image'] = "";
 $meta['og:url'] = "";
 
-$leadIsFrom = "Lead is from /vendor/aws/aws-solutions-architect-associate";
+$leadIsFrom = "Lead is from /career/cloud-architect/aws-solutions-architect-associate";
 
 require '../../assets/php/inc/header.php';
 require '../../assets/php/inc/nav.php';

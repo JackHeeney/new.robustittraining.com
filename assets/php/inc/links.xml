@@ -229,22 +229,22 @@
 
 <!-- = EC-Council = -->
   <link>
-    <title>Certified Ethical Hacker</title>
+    <title>Certified Ethical Hacker (CEH)</title>
     <url>https://www.robustittraining.com/vendor/ec-council/certified-ethical-hacker</url>
     <desc>Official EC-Council Certified Ethical Hacking training.</desc>
   </link>
   <link>
-    <title>Certified Network Defender</title>
+    <title>Certified Network Defender (CND)</title>
     <url>https://www.robustittraining.com/vendor/ec-council/certified-network-defender</url>
     <desc>Official EC-Council Certified Network Defender training.</desc>
   </link>
   <link>
-    <title>Computer Hacking Forensic Investigator</title>
+    <title>Computer Hacking Forensic Investigator (CHFI)</title>
     <url>https://www.robustittraining.com/vendor/ec-council/computer-hacking-forensic-investigator</url>
     <desc>Official EC-Council Computer Hacking Forensic Investigator training.</desc>
   </link>
   <link>
-    <title>Certified Cloud Security Engineer</title>
+    <title>Certified Cloud Security Engineer (CCSE)</title>
     <url>https://www.robustittraining.com/vendor/ec-council/certified-cloud-security-engineer</url>
     <desc>Official EC-Council Certified Cloud Security Engineer training.</desc>
   </link>
@@ -252,24 +252,24 @@
 
 <!-- = ISACA = -->
   <link>
-    <title>CISA</title>
+    <title>Certified Information Systems Auditor (CISA)</title>
     <url>https://www.robustittraining.com/vendor/isaca/cisa</url>
     <desc>Official ISACA CISA training.</desc>
   </link>
   <link>
-    <title>CISM</title>
+    <title>Certified Information Security Manager (CISM) </title>
     <url>https://www.robustittraining.com/vendor/isaca/cism</url>
     <desc>Official ISACA CISM training.</desc>
   </link>
 
 <!-- = ISC2 = -->
   <link>
-    <title>CCSP</title>
+    <title>Certified Cloud Security Professional (CCSP)</title>
     <url>https://www.robustittraining.com/vendor/isaca/ccsp</url>
     <desc>Official (ISC)2 CCSP training.</desc>
   </link>
   <link>
-    <title>CISSP</title>
+    <title>Certified Information Systems Security Professional (CISSP)</title>
     <url>https://www.robustittraining.com/vendor/isaca/cissp</url>
     <desc>Official (ISC)2 CISSP training.</desc>
   </link>

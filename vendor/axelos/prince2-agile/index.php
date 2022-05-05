@@ -75,7 +75,7 @@ require '../../../assets/php/inc/nav.php';
                                 agile delivery techniques and frameworks.
                             <p>
                                 <a href="<?php echo SITE_ADDR ?>/vendor/axelos/prince2-agile/prince2-agile-foundation">View
-                                    Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                    Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -101,7 +101,7 @@ require '../../../assets/php/inc/nav.php';
                             <p>
                                 <a
                                     href="<?php echo SITE_ADDR ?>/vendor/axelos/prince2-agile/prince2-agile-practitioner">View
-                                    Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                    Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>

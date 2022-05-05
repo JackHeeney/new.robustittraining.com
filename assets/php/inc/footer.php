@@ -117,104 +117,6 @@
     </g>
 </svg>
 
-<svg class="footer-svg-mobile" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375"
-    height="446" viewBox="0 0 375 446">
-    <defs>
-        <style>
-        .j {
-            clip-path: url(#i);
-        }
-
-        .k {
-            fill: #ebebeb;
-        }
-
-        .l {
-            fill: url(#c);
-        }
-
-        .m {
-            fill: #030e22;
-            opacity: 0.95;
-        }
-
-        .n {
-            fill: #0da5e9;
-        }
-
-        .o {
-            fill: #c4399b;
-        }
-
-        .p {
-            filter: url(#f);
-        }
-
-        .q {
-            filter: url(#d);
-        }
-
-        .r {
-            filter: url(#a);
-            mix-blend-mode: darken;
-            isolation: isolate;
-        }
-        </style>
-        <filter id="a" x="-396" y="110.998" width="2010" height="706.004" filterUnits="userSpaceOnUse">
-            <feOffset dx="20" dy="20" input="SourceAlpha" />
-            <feGaussianBlur stdDeviation="15" result="b" />
-            <feFlood flood-opacity="0.161" />
-            <feComposite operator="in" in2="b" />
-            <feComposite in="SourceGraphic" />
-        </filter>
-        <linearGradient id="c" x1="0.167" y1="0.231" x2="1.171" y2="0.532" gradientUnits="objectBoundingBox">
-            <stop offset="0" stop-color="#c73a9d" />
-            <stop offset="1" stop-color="#0da5e9" />
-        </linearGradient>
-        <filter id="d" x="-396" y="178.998" width="2010" height="706.004" filterUnits="userSpaceOnUse">
-            <feOffset dx="20" dy="20" input="SourceAlpha" />
-            <feGaussianBlur stdDeviation="15" result="e" />
-            <feFlood flood-opacity="0.161" />
-            <feComposite operator="in" in2="e" />
-            <feComposite in="SourceGraphic" />
-        </filter>
-        <filter id="f" x="-396" y="245.998" width="2010" height="706.004" filterUnits="userSpaceOnUse">
-            <feOffset dx="20" dy="20" input="SourceAlpha" />
-            <feGaussianBlur stdDeviation="15" result="g" />
-            <feFlood />
-            <feComposite operator="in" in2="g" />
-            <feComposite in="SourceGraphic" />
-        </filter>
-        <clipPath id="i">
-            <rect width="375" height="446" />
-        </clipPath>
-    </defs>
-    <g id="q" class="j">
-        <g class="i" transform="matrix(1, 0, 0, 1, 0, 0)">
-            <path class="k"
-                d="M0,540s143.534-122.587,292.66,0,292.66,0,292.66,0S747.5,372.983,924.583,540s335.534,0,335.534,0,152.854-165.085,341.126,0S1920,540,1920,540v541.774H0Z"
-                transform="translate(-371 -329.77)" />
-        </g>
-        <g class="q" transform="matrix(1, 0, 0, 1, 0, 0)">
-            <path class="l"
-                d="M0,540s143.534-122.587,292.66,0,292.66,0,292.66,0S747.5,372.983,924.583,540s335.534,0,335.534,0,152.854-165.085,341.126,0S1920,540,1920,540v541.774H0Z"
-                transform="translate(-371 -261.77)" />
-        </g>
-        <g class="p" transform="matrix(1, 0, 0, 1, 0, 0)">
-            <path class="m"
-                d="M0,540s143.534-122.587,292.66,0,292.66,0,292.66,0S747.5,372.983,924.583,540s335.534,0,335.534,0,152.854-165.085,341.126,0S1920,540,1920,540v541.774H0Z"
-                transform="translate(-371 -194.77)" />
-        </g>
-        <g transform="translate(23.999 259.601) rotate(-59)">
-            <rect class="n" width="7.931" height="31.722" rx="3.965" transform="translate(11.896)" />
-            <rect class="n" width="7.931" height="31.722" rx="3.965" transform="translate(31.722 11.896) rotate(90)" />
-        </g>
-        <g transform="translate(295.617 111.481) rotate(7)">
-            <rect class="o" width="11" height="44" rx="5.5" transform="translate(16.5)" />
-            <rect class="o" width="11" height="44" rx="5.5" transform="translate(44 16.5) rotate(90)" />
-        </g>
-    </g>
-</svg>
 
 <div class="ocean">
     <div class="wave"></div>
@@ -275,12 +177,34 @@
             <!-- Footer Widget Start -->
             <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6 mb-6">
                 <div class="footer-widget">
+                    <h4 class="footer-widget-title">About</h4>
+                    <div class="footer-widget-content">
+                        <ul>
+                            <li><a href="<?php echo SITE_ADDR ?>/about-us">About Us <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a href="<?php echo SITE_ADDR ?>/trusted-by">Trusted By <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <!-- <li><a href="<?php echo SITE_ADDR ?>/affiliate-program">Affiliate Program <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li> -->
+                            <li><a href="<?php echo SITE_ADDR ?>/testimonials">Testimonials <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a href="<?php echo SITE_ADDR ?>/terms-and-conditions">Terms & Conditions <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <li><a href="<?php echo SITE_ADDR ?>/privacy-policy">Privacy Policy <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Widget End -->
+
+            <!-- Footer Widget Start -->
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6 mb-6">
+                <div class="footer-widget">
                     <h4 class="footer-widget-title">Vendors</h4>
                     <div class="footer-widget-content">
                         <ul>
-                            <li><a href="<?php echo SITE_ADDR ?>/vendor/ec-council">EC-Council <span
-                                        class="ft-badge">Popular</span><i
-                                        class="fas fa-chevron-right fcr-animate"></i></a>
+                            <li><a href="<?php echo SITE_ADDR ?>/vendor/ec-council">EC-Council </a>
                             </li>
                             <li><a href="<?php echo SITE_ADDR ?>/vendor/aws"><span class="aws"></span> <i
                                         class="fas fa-chevron-right fcr-animate"></i></a></li>
@@ -306,39 +230,15 @@
             <!-- Footer Widget Start -->
             <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6 mb-6">
                 <div class="footer-widget">
-                    <h4 class="footer-widget-title">About</h4>
-                    <div class="footer-widget-content">
-                        <ul>
-                            <li><a href="<?php echo SITE_ADDR ?>/about-us">About Us <i
-                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a href="<?php echo SITE_ADDR ?>/trusted-by">Trusted By <i
-                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <!-- <li><a href="<?php echo SITE_ADDR ?>/affiliate-program">Affiliate Program <i
-                                        class="fas fa-chevron-right fcr-animate"></i></a></li> -->
-                            <li><a href="<?php echo SITE_ADDR ?>/testimonials">Testimonials <i
-                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a href="<?php echo SITE_ADDR ?>/terms-and-conditions">Terms & Conditions <i
-                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <li><a href="<?php echo SITE_ADDR ?>/privacy-policy">Privacy Policy <i
-                                        class="fas fa-chevron-right fcr-animate"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- Footer Widget End -->
-
-            <!-- Footer Widget Start -->
-            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6 mb-6">
-                <div class="footer-widget">
                     <h4 class="footer-widget-title">Help Centre</h4>
                     <div class="footer-widget-content">
                         <ul>
                             <li><a href="<?php echo SITE_ADDR ?>/support-tickets">Support Ticket <i
                                         class="fas fa-chevron-right fcr-animate"></i></a></li>
-                            <!-- <li><a href="<?php echo SITE_ADDR ?>/help-desk">Help Desk <i
-                                        class="fas fa-chevron-right fcr-animate"></i></a></li> -->
-                            <li><a href="<?php echo SITE_ADDR ?>/power-virtual-agent">Power Virtual Agent <i
+                            <li><a href="https://robustit.tawk.help/" alt="help desk" target="_blank">Help Desk <i
                                         class="fas fa-chevron-right fcr-animate"></i></a></li>
+                            <!-- <li><a href="<?php echo SITE_ADDR ?>/power-virtual-agent">Power Virtual Agent <i
+                                        class="fas fa-chevron-right fcr-animate"></i></a></li> -->
                             <li><a href="<?php echo SITE_ADDR ?>/faqs">FAQs <i
                                         class="fas fa-chevron-right fcr-animate"></i></a></li>
                         </ul>
@@ -553,7 +453,7 @@
         <div class="modal-content" data-bg-image="assets/images/bg/contact-bg.jpg" data-bg-color="#000"
             data-overlay="0.9">
             <div class="modal-body"
-                data-bg-image="https://www.pbxerix.com.br/wp-content/uploads/2019/05/Call-Center-Solution.png"
+                data-bg-image="<?php echo SITE_ADDR ?>/assets/images/hero-images/support-tickets.jpg"
                 data-overlay="0.9">
                 <div class="modal-header">
                     <h4 class="modal-title text-center" id="supportModalLabel"><i class="fa fa-phone-office"></i>
@@ -765,7 +665,21 @@
 <script src="<?php echo SITE_ADDR ?>/assets/js/main.js"></script>
 
 
-
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API = Tawk_API || {},
+    Tawk_LoadStart = new Date();
+(function() {
+    var s1 = document.createElement("script"),
+        s0 = document.getElementsByTagName("script")[0];
+    s1.async = true;
+    s1.src = 'https://embed.tawk.to/6273968cb0d10b6f3e70b794/1g29o85oa';
+    s1.charset = 'UTF-8';
+    s1.setAttribute('crossorigin', '*');
+    s0.parentNode.insertBefore(s1, s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
 
 
 </body>

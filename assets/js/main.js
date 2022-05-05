@@ -144,9 +144,8 @@
         AOS Scroll Animation 
     -------------------------------*/
   AOS.init({
-    offset: 80,
+    offset: -250,
     duration: 1000,
-    placement: top,
     once: false,
     easing: "ease-out-back",
   });

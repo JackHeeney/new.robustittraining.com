@@ -259,9 +259,7 @@ require '../../assets/php/inc/nav.php';
                             <h3 class="title"><a
                                     href="<?php echo SITE_ADDR ?>/career/developer/python-programming">Python
                                     Programming</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, aliquid
-                                veritatis. Expedita consequatur molestias ut quo nobis animi asperiores rerum architecto
-                                quos, ducimus laboriosam dolorum debitis odit, vitae libero itaque..</p>
+                            <p class="desc">Coming soon...</p>
                             <a href="<?php echo SITE_ADDR ?>/career/developer/python-programming">View
                                 Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>

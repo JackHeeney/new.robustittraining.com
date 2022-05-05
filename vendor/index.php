@@ -67,12 +67,10 @@ require '../assets/php/inc/nav.php';
                         <div class="info">
                             <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/ec-council"
                                     alt="link to EC-council">EC-Council</a></h3>
-                            <p class="desc">The International Council of E-Commerce Consultants (EC-Council) is a
-                                member-based organization that certifies individuals in various e-business and
-                                information security skills. It is the owner and creator of the world famous Certified
-                                Ethical Hacker (CEH), Computer Hacking Forensics Investigator (CHFI) and EC-Council
-                                Certified Security Analyst (ECSA)/License Penetration Tester (LPT) certifications and as
-                                well as many others certifications that are offered in over 87 countries globally.</p>
+                            <p class="desc">EC-Council's key purpose is to build and refine the cybersecurity
+                                profession. Through the development of world-class cybersecurity education programs and
+                                their corresponding certifications, the company provides cybersecurity services to some
+                                of the largest businesses around the globe.</p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/ec-council" alt="link to EC-council">View Courses <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
@@ -90,14 +88,10 @@ require '../assets/php/inc/nav.php';
                         <div class="info">
                             <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/aws">Amazon Web Services</a>
                             </h3>
-                            <p class="desc">Organizations need individuals with cloud skills to help transform their
-                                business. AWS Training and Certification helps you build and validate your skills so you
-                                can get more out of the cloud. Our content is created by experts at AWS and updated
-                                regularly so you can keep your cloud skills fresh.
-
-                                We offer both digital and classroom training. Digital training allows you to learn
-                                online at your own pace. With classroom training, you can learn best practices from an
-                                expert instructor. </p>
+                            <p class="desc">Amazon Web Services, Inc. is a subsidiary of Amazon that provides on-demand
+                                cloud computing platforms and APIs to individuals, companies, and governments, on a
+                                metered pay-as-you-go basis. These cloud computing web services provide distributed
+                                computing processing capacity and software tools via AWS server farms. </p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/aws">View Courses <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
@@ -115,8 +109,9 @@ require '../assets/php/inc/nav.php';
                         </div>
                         <div class="info">
                             <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/microsoft">Microsoft</a></h3>
-                            <p class="desc">Microsoft has certification paths for many technical job roles. Each of
-                                these certifications consists of passing a series of exams to earn certification.</p>
+                            <p class="desc">Microsoft Certifications are earned by passing exams aligned to a specific
+                                certification. The process of earning certification has changed multiple times since its
+                                inception.</p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/microsoft">View Courses <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
@@ -134,8 +129,9 @@ require '../assets/php/inc/nav.php';
                         </div>
                         <div class="info">
                             <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/comptia">CompTIA</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">The Computing Technology Industry Association is an American non-profit
+                                trade association, issuing professional certifications for the information technology
+                                industry. It is considered one of the IT industry's top trade associations.</p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/comptia">View Courses <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
@@ -153,8 +149,10 @@ require '../assets/php/inc/nav.php';
                         </div>
                         <div class="info">
                             <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/cisco">CISCO</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">Cisco is an American multinational technology conglomerate corporation
+                                headquartered in San Jose, California. Integral to the growth of Silicon Valley, Cisco
+                                develops, manufactures, and sells networking hardware, software, telecommunications
+                                equipment and other high-technology services and products.</p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/cisco">View Courses <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
@@ -172,8 +170,9 @@ require '../assets/php/inc/nav.php';
                         </div>
                         <div class="info">
                             <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/axelos">Axelos</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">AXELOS is a joint venture set up in 2014 by the Government of the United
+                                Kingdom and Capita, to develop, manage and operate qualifications in best practice, in
+                                methodologies formerly owned by the Office of Government Commerce.</p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/axelos">View Courses <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
@@ -192,8 +191,10 @@ require '../assets/php/inc/nav.php';
                         </div>
                         <div class="info">
                             <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/isaca">ISACA</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">ISACA is an international professional association focused on IT governance.
+                                On its IRS filings, it is known as the Information Systems Audit and Control
+                                Association, although ISACA now goes by its acronym only. ISACA currently offers 8
+                                certification program as well as other micro-certificates.</p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/isaca">View Courses <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
@@ -211,8 +212,10 @@ require '../assets/php/inc/nav.php';
                         </div>
                         <div class="info">
                             <h3 class="title"><a href="<?php echo SITE_ADDR ?>/vendor/isc2">(ISC)&#178;</a></h3>
-                            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda esse
-                                culpa, unde perspiciatis hic delectus.</p>
+                            <p class="desc">The International Information System Security Certification Consortium, or
+                                (ISC)², is a non-profit organization which specializes in training and certifications
+                                for cybersecurity professionals. It has been described as the "world's largest IT
+                                security organization.</p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/isc2">View Courses <i
                                     class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>

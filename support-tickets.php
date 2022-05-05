@@ -10,7 +10,7 @@ $meta['og:description'] = "";
 $meta['og:image'] = "";
 $meta['og:url'] = "";
 
-$leadIsFrom = "Lead is from /support-tickets";
+$leadIsFrom = "Lead is from support/support-tickets";
 
 require './assets/php/inc/header.php';
 require './assets/php/inc/nav.php';
@@ -116,7 +116,7 @@ require './assets/php/inc/nav.php';
         </div>
     </div>
 
-    <div class="section section-padding-t90-b100">
+    <div class="section ">
         <div class="container shape-animate">
             <!-- Section Title Start -->
             <div class="section-title  mb-lg-12 mb-sm-8 mb-xs-8" data-aos="fade-up">

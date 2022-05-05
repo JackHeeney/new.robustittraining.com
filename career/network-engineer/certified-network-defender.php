@@ -10,7 +10,7 @@ $meta['og:description'] = "Robust IT Training Certified Network Defender course.
 $meta['og:image'] = "";
 $meta['og:url'] = "";
 
-$leadIsFrom = "Lead is from /vendor/ec-council/certified-network-defender";
+$leadIsFrom = "Lead is from /career/network-engineer/certified-network-defender";
 
 require '../../assets/php/inc/header.php';
 require '../../assets/php/inc/nav.php';

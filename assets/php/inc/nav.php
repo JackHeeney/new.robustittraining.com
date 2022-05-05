@@ -136,10 +136,12 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="<?php echo SITE_ADDR ?>/service/elcas"><span class="menu-text">ELCAS</span></a>
+                        <a href="<?php echo SITE_ADDR ?>/elcas-enquiries" alt="elcas enquires"><span
+                                class="menu-text">ELCAS</span></a>
                     </li>
                     <li>
-                        <a href="<?php echo SITE_ADDR ?>/contact-us"><span class="menu-text">Contact Us</span></a>
+                        <a href="<?php echo SITE_ADDR ?>/contact-us" alt="contact us"><span class="menu-text">Contact
+                                Us</span></a>
                     </li>
                     <a href="tel:02038757827" class="btn btn-secondary btn-hover--secondary"
                         style="min-width: 226px !important"><span class="call-us"></span>
@@ -269,18 +271,11 @@
                                                         </span>
                                                     </a>
                                                 </li>
-                                                <!-- <li>
-                                                    <a href="<?php echo SITE_ADDR ?>/help-desk">
+                                                <li>
+                                                    <a href="https://robustit.tawk.help/" alt="help desk"
+                                                        target="_blank">
                                                         <span class="menu-text">
                                                             Help Desk <i class="fas fa-chevron-right fcr-animate"></i>
-                                                        </span>
-                                                    </a>
-                                                </li> -->
-                                                <li>
-                                                    <a href="<?php echo SITE_ADDR ?>/power-virtual-agent">
-                                                        <span class="menu-text">
-                                                            Power Virtual Agent <i
-                                                                class="fas fa-chevron-right fcr-animate"></i>
                                                         </span>
                                                     </a>
                                                 </li>

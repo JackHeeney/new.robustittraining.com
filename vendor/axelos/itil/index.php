@@ -71,7 +71,7 @@ require '../../../assets/php/inc/nav.php';
                             <p class="desc">ITIL 4 Foundation introduces an end-to-end operating model for the creation,
                                 delivery and continual improvement of technology-enabled products and services</p>
                             <a href="<?php echo SITE_ADDR ?>/vendor/axelos/itil/itil-4-foundation">View
-                                Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>

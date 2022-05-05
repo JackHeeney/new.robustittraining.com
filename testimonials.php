@@ -216,7 +216,7 @@ require './assets/php/inc/nav.php';
             <!-- Section Title Start -->
             <div class="section-title color-light text-center" data-aos="fade-up">
 
-                <div class="trustpilot">
+                <div class="trustpilot" style="position: relative; right: 0px!important;">
 
                     <!-- TrustBox widget - Micro Combo -->
                     <div class="trustpilot-widget" data-locale="en-GB" data-template-id="5419b6ffb0d04a076446a9af"

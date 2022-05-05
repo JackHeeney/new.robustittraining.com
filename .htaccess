@@ -20,10 +20,10 @@ RewriteRule (.*) http://%{HTTP_HOST}%{REQUEST_URI}
 Options All -Indexes
 
 # Error redirects
-ErrorDocument 400 /error/bad-request.php
-ErrorDocument 401 /error/unauthorised.php
-ErrorDocument 403 /error/forbidden.php
-ErrorDocument 404 /error/file-not-found.php
-ErrorDocument 500 /error/internal-server-error.php
+ErrorDocument 400 https://www.robustittraining.com/error/bad-request.php
+ErrorDocument 401 https://www.robustittraining.com/error/unauthorised.php
+ErrorDocument 403 https://www.robustittraining.com/error/forbidden.php
+ErrorDocument 404 https://www.robustittraining.com/error/file-not-found.php
+ErrorDocument 500 https://www.robustittraining.com/error/internal-server-error.php
 
 

@@ -88,8 +88,8 @@ require '../assets/php/inc/nav.php';
                                 <p>We have partnered with Kandoo, a regulated credit broker to offer all our customers a
                                     range of highly flexible finance options.</p>
                             </div>
-                            <a href="<?php echo SITE_ADDR ?>/finance-options/kandoo-finance" class="link">Learn More <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
+                            <!-- <a href="<?php echo SITE_ADDR ?>/finance-options/kandoo-finance" class="link">Learn More <i
+                                    class="fas fa-chevron-right fcr-animate"></i></a> -->
                         </div>
                     </div>
 
@@ -110,8 +110,8 @@ require '../assets/php/inc/nav.php';
                                 <p>Make your course with Robust IT happen with a sensible and fair loan at a competitive
                                     rate.</p>
                             </div>
-                            <a href="<?php echo SITE_ADDR ?>/finance-options/lendwise-student-finance"
-                                class="link">Learn More <i class="fas fa-chevron-right fcr-animate"></i></a>
+                            <!-- <a href="<?php echo SITE_ADDR ?>/finance-options/lendwise-student-finance"
+                                class="link">Learn More <i class="fas fa-chevron-right fcr-animate"></i></a> -->
                         </div>
                     </div>
 
@@ -132,8 +132,8 @@ require '../assets/php/inc/nav.php';
                             <div class="desc">
                                 <p>Wherever you're heading, our flexible student loans can help you get there.</p>
                             </div>
-                            <a href="<?php echo SITE_ADDR ?>/finance-options/future-finance" class="link">Learn More <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
+                            <!-- <a href="<?php echo SITE_ADDR ?>/finance-options/future-finance" class="link">Learn More <i
+                                    class="fas fa-chevron-right fcr-animate"></i></a> -->
                         </div>
                     </div>
 
@@ -154,8 +154,8 @@ require '../assets/php/inc/nav.php';
                                 <p>Enjoy affordable, fair finance without surprises, across the globe. Available to more
                                     people. Terms and plans to suit you. Clear and simple process.</p>
                             </div>
-                            <a href="<?php echo SITE_ADDR ?>/finance-options/etika-finance" class="link">Learn More <i
-                                    class="fas fa-chevron-right fcr-animate"></i></a>
+                            <!-- <a href="<?php echo SITE_ADDR ?>/finance-options/etika-finance" class="link">Learn More <i
+                                    class="fas fa-chevron-right fcr-animate"></i></a> -->
                         </div>
                     </div>
 

@@ -11,7 +11,7 @@ $meta['og:description'] = "";
 $meta['og:image'] = "";
 $meta['og:url'] = "";
 
-$leadIsFrom = "Lead is from /isc2/ccsp";
+$leadIsFrom = "Lead is from /career/security-analyst/ccsp";
 
 require '../../assets/php/inc/header.php';
 require '../../assets/php/inc/nav.php';

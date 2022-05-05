@@ -10,7 +10,7 @@ $meta['og:description'] = "Robust IT Training Certified Cloud Security Engineer 
 $meta['og:image'] = "";
 $meta['og:url'] = "";
 
-$leadIsFrom = "Lead is from /vendor/ec-council/certified-cloud-security-engineer";
+$leadIsFrom = "Lead is from /career/ethical-hacker/certified-cloud-security-engineer";
 
 require '../../assets/php/inc/header.php';
 require '../../assets/php/inc/nav.php';

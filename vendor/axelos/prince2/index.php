@@ -76,7 +76,7 @@ require '../../../assets/php/inc/nav.php';
                                 environment supporting PRINCE2.
                             <p>
                                 <a href="<?php echo SITE_ADDR ?>/vendor/axelos/prince2/prince2-4-foundation">View
-                                    Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                    Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
@@ -101,7 +101,7 @@ require '../../../assets/php/inc/nav.php';
                                 project management as part of day-to-day work.
                             <p>
                                 <a href="<?php echo SITE_ADDR ?>/vendor/axelos/prince2/prince2-4-practitioner">View
-                                    Courses <i class="fas fa-chevron-right fcr-animate"></i></a>
+                                    Course <i class="fas fa-chevron-right fcr-animate"></i></a>
                         </div>
                     </div>
                 </div>
