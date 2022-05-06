@@ -218,8 +218,8 @@ require './assets/php/inc/nav.php';
 
 
                 <!-- About Image Area Start -->
-                <div class="col-xl-7 col-lg-6 col-12" data-aos="fade-up">
-                    <div class="about-image-area mt-15">
+                <div class="col-xl-7 col-lg-6 col-12 " data-aos="fade-up">
+                    <div class="about-image-area mt-15 desktop">
                         <div class="about-image js-tilt">
                             <img src="<?php echo SITE_ADDR ?>/assets/images/about/about-1.jpg" alt="">
                         </div>
@@ -235,27 +235,6 @@ require './assets/php/inc/nav.php';
                         <!-- Animation Shape End -->
                     </div>
 
-
-                    <div class="row row-cols-sm-2 row-cols-auto about-figures-2">
-                        <!-- Single About Funfuct Start -->
-                        <div class="col" data-aos="fade-up">
-                            <div class="about-funfact">
-                                <div class="number"><span class="counter">50</span>k+</div>
-                                <h6 class="text">Happy Students</h6>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, sequi!</p>
-                            </div>
-                        </div>
-                        <!-- Single About Funfuct Start -->
-                        <!-- Single About Funfuct Start -->
-                        <div class="col mt-xl-0 mt-8" data-aos="fade-up">
-                            <div class="about-funfact">
-                                <div class="number"><span class="counter">30</span>k+</div>
-                                <h6 class="text">Exams Passed</h6>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, facilis.</p>
-                            </div>
-                        </div>
-                        <!-- Single About Funfuct Start -->
-                    </div>
 
 
                 </div>

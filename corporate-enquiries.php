@@ -50,10 +50,10 @@ require './assets/php/inc/nav.php';
                 <div class="col-xl-7 col-lg-6 col-12 order-2 mt-20 mt-xl-0" data-aos="fade-up">
                     <div class="about-image-area">
                         <div class="about-image js-tilt">
-                            <img src="<?php echo SITE_ADDR ?>/assets/images/about/about-3.jpg" alt="">
+                            <img src="<?php echo SITE_ADDR ?>/assets/images/about/up-skill-2.jpg" alt="">
                         </div>
                         <div class="about-image js-tilt">
-                            <img src="<?php echo SITE_ADDR ?>/assets/images/about/about-4.jpg" alt="">
+                            <img src="<?php echo SITE_ADDR ?>/assets/images/about/up-skill-1.jpg" alt="">
                         </div>
                         <!-- Animation Shape Start -->
                         <div class="shape shape-1 scene">
@@ -69,7 +69,7 @@ require './assets/php/inc/nav.php';
                             <div class="about-funfact">
                                 <div class="number"><span class="counter">250</span>+</div>
                                 <h6 class="text">Businesses Improved</h6>
-                                <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, sequi!</p> -->
+                                <p>Businesses we have improved through employee training programs.</p>
                             </div>
                         </div>
                         <!-- Single About Funfuct Start -->
@@ -78,7 +78,7 @@ require './assets/php/inc/nav.php';
                             <div class="about-funfact">
                                 <div class="number"><span class="counter">30</span>k+</div>
                                 <h6 class="text">Employees Trained</h6>
-                                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, facilis.</p> -->
+                                <p>We help to up-skill employees making them a more valued asset.</p>
                             </div>
                         </div>
                         <!-- Single About Funfuct Start -->
@@ -127,10 +127,10 @@ require './assets/php/inc/nav.php';
                 <div class="col-xl-7 col-lg-6 col-12" data-aos="fade-up">
                     <div class="about-image-area">
                         <div class="about-image js-tilt">
-                            <img src="<?php echo SITE_ADDR ?>/assets/images/about/about-3.jpg" alt="">
+                            <img src="<?php echo SITE_ADDR ?>/assets/images/about/communication-1.jpg" alt="">
                         </div>
                         <div class="about-image js-tilt">
-                            <img src="<?php echo SITE_ADDR ?>/assets/images/about/about-4.jpg" alt="">
+                            <img src="<?php echo SITE_ADDR ?>/assets/images/about/communication-2.jpg" alt="">
                         </div>
                         <!-- Animation Shape Start -->
                         <div class="shape shape-1 scene">
@@ -203,10 +203,10 @@ require './assets/php/inc/nav.php';
                 <div class="col-xl-7 col-lg-6 col-12" data-aos="fade-up">
                     <div class="about-image-area mt-15 mt-xl-0">
                         <div class="about-image js-tilt">
-                            <img src="<?php echo SITE_ADDR ?>/assets/images/about/about-1.jpg" alt="">
+                            <img src="<?php echo SITE_ADDR ?>/assets/images/about/custom-2.jpg" alt="">
                         </div>
                         <div class="about-image js-tilt">
-                            <img src="<?php echo SITE_ADDR ?>/assets/images/about/about-2.jpg" alt="">
+                            <img src="<?php echo SITE_ADDR ?>/assets/images/about/custom-1.jpg" alt="">
                         </div>
                         <!-- Animation Shape Start -->
                         <div class="shape shape-1 scene">

@@ -127,10 +127,15 @@
                                 </div>
                                 <div class="col-12 pt-5">
                                     <h4 class="text-muted">Help Centre</h4>
+                                    <li><a href="<?php echo SITE_ADDR ?>/support-tickets"><span
+                                                class="menu-text">Support
+                                                Tickets</span></a></li>
+                                    <li><a href="https://robustit.tawk.help/" alt="help desk"><span
+                                                class="menu-text">Help Desk</span></a>
+                                    </li>
                                     <li><a href="<?php echo SITE_ADDR ?>/faqs"><span class="menu-text">FAQ's</span></a>
                                     </li>
-                                    <li><a href="<?php echo SITE_ADDR ?>/"><span class="menu-text">Technical
-                                                Support</span></a></li>
+
                                 </div>
                             </div>
                         </ul>

@@ -11,7 +11,7 @@
  ***************************************************/
 
 define("SITE_ADDR", "http://localhost/new.robustittraining.com");
-// define("SITE_ADDR", "http://www.bilmen.co.uk");
+// define("SITE_ADDR", "http://www.robustittraining.com");
 ?>
 
 <!DOCTYPE html>
